@@ -15,4 +15,3 @@ Contents:
    hardware_configuration
    local_simulations
    getting_help
-
