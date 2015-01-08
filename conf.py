@@ -52,6 +52,7 @@ master_doc = 'index'
 # General information about the project.
 project = title = u'HBP Neuromorphic Computing Platform Guidebook'
 authors = u'Andrew P. Davison, Eric Müller, Sebastian Schmitt, David Lester, ...'
+latex_authors = authors.replace(',', r'\and')
 copyright = u'2015, ' + authors
 basename = u'HBPNeuromorphicComputingPlatformGuidebook'
 
@@ -202,7 +203,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', '%s_v%s.tex' % (basename, release), title,
-   authors, 'manual'),
+   latex_authors, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
