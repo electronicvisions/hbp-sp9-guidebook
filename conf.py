@@ -51,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = title = u'HBP Neuromorphic Computing Platform Guidebook'
-authors = u'Andrew P. Davison, Eric Müller, Sebastian Schmitt, David Lester, ...'
+authors = u'Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, ...'
 latex_authors = authors.replace(',', r'\and')
 copyright = u'2015, ' + authors
 basename = u'HBPNeuromorphicComputingPlatformGuidebook'
