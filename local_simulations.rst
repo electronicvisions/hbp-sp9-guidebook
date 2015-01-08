@@ -2,7 +2,9 @@
 Local simulations
 =================
 
-installation and use of the ESS
 
+.. toctree::
+   :maxdepth: 2
 
-use of the standalone SpiNNaker boards
+   ess
+   standaloneSpiNNaker
