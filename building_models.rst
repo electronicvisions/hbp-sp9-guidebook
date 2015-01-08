@@ -381,7 +381,7 @@ ESS specifics
 `pyNN.setup` options
 ````````````````````
 
-There are several options in pyNN.setup() which only have an effect when the ESS is used.
+There are several options in `pyNN.setup()` which only have an effect when the ESS is used.
 In order to use the ESS parameter `useSystemSim` has to be set to `True`.
 Other parameters::
 
@@ -501,7 +501,7 @@ The following table shows the **total number of neurons** depending on the `hard
 ===============  ======  =====  =====  =====  =====  ====  ====
 `hardwareSetup`            `hardwareNeuronSize`
 ---------------  ----------------------------------------------
-\                1       2      4      8      16     32    64
+..               1       2      4      8      16     32    64
 ===============  ======  =====  =====  =====  =====  ====  ====
 'one-hicann'     472     236    118    59     32     16    8
 'one-reticle'    3776    1888   944    472    256    128   64
