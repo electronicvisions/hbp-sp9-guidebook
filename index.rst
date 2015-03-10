@@ -14,4 +14,5 @@ Contents:
    building_models
    hardware_configuration
    local_simulations
+   hardware_emulations
    getting_help
