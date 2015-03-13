@@ -17,6 +17,8 @@ Using the web interface
 
 TODO
 
+Note: for using the web interface an account on the HBP unified portal will be needed when the integration of the access software has been completed. That account grants also access e.g. to the `HBP Collaboration Server`.
+
 
 Using the Python client
 =======================
@@ -194,4 +196,5 @@ TODO
 
 
 .. _`Human Brain Project`: http://www.humanbrainproject.eu
+.. _`HBP Collaboration Server`: https://collaboration.humanbrainproject.eu
 
