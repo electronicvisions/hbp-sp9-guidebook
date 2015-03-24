@@ -4,11 +4,11 @@
 Marocco
 -------
 
-Code documentation is provided by ``doxygen`` and can be accessed here:
-https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
+Code documentation is provided by ``doxygen`` is available as `documentation-marocco`_.
 
-On a cluster frontend nodes (ice/ignatz/dopamine) or a vertical setup host:
+.. _documentation-marocco: https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
 
+This documents the build and work flow on a cluster frontend nodes (ice/ignatz/dopamine) or a vertical setup host.
 
 Installation
 ============
@@ -140,7 +140,8 @@ If you don't preload libmpi, the error message is:
 
 .. code-block:: bash
 
-	python: symbol lookup error: /usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.so: undefined symbol: mca_base_param_reg_int
+    python: symbol lookup error: /usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.so:
+        undefined symbol: mca_base_param_reg_int
 
 To run on the *hardware* one needs to use the slurm job queue system:
 
@@ -166,7 +167,7 @@ main.py:
 	marocco = PyMarocco()
 	marocco.placement.setDefaultNeuronSize(4)
 	#marocco.backend = PyMarocco.Hardware # uncomment to run on hardware
-	#marocco.backend = PyMarocco.ESS      # uncomment to run on hardware
+	#marocco.backend = PyMarocco.ESS      # uncomment to run on ESS
 
 	marocco.calib_backend = PyMarocco.XML # load calibration from xml files
 	marocco.calib_path = "/wang/data/calibration/wafer_0"
@@ -211,8 +212,9 @@ main.py:
 	isi = 25
 	numExc = 5
 
-	spike_times = list(np.concatenate([np.arange((i-1)*width,i*width,isi,dtype=float) for i in range(1,duration/width*2+2,2)]))
-	in_0 = pynn.Population(numExc, pynn.SpikeSourceArray, {'spike_times':spike_times}) # spike times in ms
+	spike_times = list(np.concatenate([np.arange((i-1)*width,i*width,isi,dtype=float) \
+        for i in range(1,duration/width*2+2,2)]))
+	in_0 = pynn.Population(numExc, pynn.SpikeSourceArray, {'spike_times': spike_times})
 
 	w_exc =  0.004
 
@@ -239,7 +241,8 @@ Load redman backend::
 
 	hicann_id = 276
 	hicann_coord_global = C.HICANNGlobal(C.Enum(hicann_id))
-	redman_backend_path = "/wang/data/calibration/wafer_0" # containing e.g. hicann-Wafer(0)-Enum(276).xml
+	redman_backend_path = "/wang/data/calibration/wafer_0"
+	                      # containing e.g. hicann-Wafer(0)-Enum(276).xml
 
 	marocco = PyMarocco()
 

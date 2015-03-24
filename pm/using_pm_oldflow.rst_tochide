@@ -74,8 +74,9 @@ See the following example and crash report:
 
     Traceback (most recent call last):
         [...]
-    range_checker.ParameterValueOutOfRangeError: 30.0 is out of the range supported by the hardware
-                                                (valid range for parameter tau_refrac is: (0.16, 20.0))
+    range_checker.ParameterValueOutOfRangeError:
+        30.0 is out of the range supported by the hardware
+        (valid range for parameter tau_refrac is: (0.16, 20.0))
 
 
 Initialization of state variables
@@ -87,7 +88,8 @@ Calls like the following ``initalize(..)`` have no effect.
 .. code-block:: python
 
     Neurons = pynn.Population(10, pynn.IF_cond_exp)
-    Neurons.initialize('v', -65.0)  # initialize all voltages to -65. mV, has no effect on hardware
+    Neurons.initialize('v', -65.0
+        # initialize all voltages to -65. mV, has no effect on hardware
 
 
 Projections / Synapses
@@ -114,15 +116,15 @@ A pyNN ``PeriodicCurentSource`` can be injected into several neurons, however, a
     sim.setup()
     Neurons = sim.Population(10,sim.IF_cond_exp)
 
-    # current source parameters
-    num_values = sim.PeriodicCurrentSource.MEM_SIZE # get number of values, which are periodically replayed
-    period = sim.PeriodicCurrentSource.ALLOWED_PERIODS[-1] # get the highest available period
+    # setting current source parameters
+    num_values = sim.PeriodicCurrentSource.MEM_SIZE # get # of values available
+    period = sim.PeriodicCurrentSource.ALLOWED_PERIODS[-1] # get the largest period
 
     # fill the value list
     value_list = []
-    amplitude = 1.0 # Amplitude of the Step current (in nA) for the first 20% of the period.
+    amplitude = 1.0 # Amplitude of the Step current (in nA)
     for i in range(num_values):
-        if(i<(num_values/5)) :
+        if (i < (num_values/5)): % for 20% of the duty cycle
          value_list.append(amplitude)
         else:
          value_list.append(0)
@@ -161,9 +163,11 @@ Note that there can be only *ONE* ``SpikeSourcePoisson`` mapped to a block of 64
         'start'    : 1000., # start of poisson spike train
         'duration' : 2000., # duration of poisson spike train
         'rate'     : 500.,  # Mean spike frequency(Hz)
-        'random':True, # True is default, False for regular spiking of background event generator
+        'random':True, # True is default, False for regular spiking of
+                         background event generator
         }
-    mySpikeSource= pynn.Population(1,pynn.SpikeSourcePoisson,cellparams=poisson_source_params)
+    mySpikeSource= pynn.Population(1, pynn.SpikeSourcePoisson,
+        cellparams=poisson_source_params)
 
     #place a single SpikeSource to a denmem.
     place.to( mySpikeSource[0], hicann=0, neuron=96)
@@ -249,8 +253,9 @@ One can also directly print the synapse loss between the groups.
 Full Example
 ````````````
 
-For an example making use of the full functionality of the ``MappingAnalyzer``, see here:
-https://gitviz.kip.uni-heidelberg.de/projects/mappingtool/repository/revisions/master/entry/misc/tests/examples/mapping_analyzer/main.py
+For an example making use of the full functionality of the ``MappingAnalyzer``, see `example_MappingAnalyzer`_.
+
+.. _example_MappingAnalyzer: https://gitviz.kip.uni-heidelberg.de/projects/mappingtool/repository/revisions/master/entry/misc/tests/examples/mapping_analyzer/main.py
 
 
 Customizing your Hardware Experiment
@@ -290,9 +295,10 @@ Calling ``getSpikes()`` or ``printSpikes(..)`` considers only the spikes from th
 
 **Example:**
 
-For a full example see https://gitviz.kip.uni-heidelberg.de/projects/mappingtool/repository/entry/misc/tests/examples/single_neuron_l2_input/single_neuron_l2_input_multiple_runs.py
+For a full example see `example_single_neuron_l2_input_multiple_runs`_.
 where this the I-O Frequency Curve of a neuron is measured with this option.
 
+.. _example_single_neuron_l2_input_multiple_runs: https://gitviz.kip.uni-heidelberg.de/projects/mappingtool/repository/entry/misc/tests/examples/single_neuron_l2_input/single_neuron_l2_input_multiple_runs.py
 
 Speedup Factor
 ``````````````
@@ -360,42 +366,58 @@ ESS specifics
 
 There are several options in ``pyNN.setup()`` which only have an effect when the ESS is used.
 In order to use the ESS parameter ``useSystemSim`` has to be set to ``True``.
-Other parameters::
+Other parameters:
 
-    param useSystemSim - specifies if the executable system simulation, i.e. a virtual hardware, shall be
-                          used instead of a real hardware system.
-    param ess_params   - dictionary containing parameters, that are only considered when using the ESS (useSystemSim=True):
-                          parameters:
-                             param perfectSynapseTrafo - Use a perfect synapse transformation, instead of the only available ideal synapse trafo. boolean
-                             param weightDistortion    - specifies the distortion of synaptic weights in the virtual hardware system.
-                                                          This parameters define the fraction of the original value, that is used as
-                                                          the standard deviation for randomizing the weight according to a normal(Gaussian)
-                                                          distribution around the original value.
-                             param pulseStatisticsFile - name of file, to which the ESS pulse statistics are written
-    param hardware     - a list of hardware setups to be used.
-                             Each setup is specified by a dictionary with the following parameters:
-                                 setup           - specifies the type of the hardware
-                                                   default: wafer
-                                                   choices: ['vertical_setup', 'wafer']
-                                 wafer_id        - the logical id of the wafer in the Calibration Database
-                                                   default: 0
-                                 hicannIndices   - a list of HICANN Indices (HALBE Enumeration) that shall be used for mapping.
-                                                   If not specified, all HICANNs of the wafer will be used.
-                                                   default: range(384)
-                                 setup_params    - dictionary specifying the parameters of the hardware setup
-                                                   params:
-                                                       ip            - IP Address (v4) of FPGA of vertical setup as string in dotted decimal form.
-                                                                       Only used if setup is a 'vertical_setup'
-                                                                       default: 192.168.1.1
-                                                       num_hicanns   - number of HICANNs in the JTAG chain of vertical setup
-                                                                       default: 1
-                                                                       range: (1, 8)
-                          default: [{'setup': 'wafer', 'wafer_id': 0, 'hicannIndices':range(384)}]
-    param hardwareNeuronSize - specifies the size of hardware neurons, i.e. the number of neuron circuits that are used to form a larger neuron.
-                                The higher this number, the higher is the number of incoming synapses per neuron, and the lower is the total
-                                number of neurons
-                                default: 1
-                                choices: [1, 2, 4, 8, 16, 32, 64]
+``useSystemSim`` specifies if the executable system simulation, i.e. a virtual hardware, shall be used instead of a real hardware system.
+
+``ess_params`` dictionary containing parameters, that are only considered when using the ESS (useSystemSim=True):
+
+    ``perfectSynapseTrafo`` Use a perfect synapse transformation, instead of the only available ideal synapse trafo [boolean].
+
+    ``weightDistortion`` Specifies the distortion of synaptic weights in the virtual hardware system.
+
+                         This parameters define the fraction of the original value, that is used as
+                         the standard deviation for randomizing the weight according to a normal(Gaussian)
+                         distribution around the original value.
+
+    ``pulseStatisticsFile`` Name of file, to which the ESS pulse statistics are written.
+
+``hardware`` a list of hardware setups to be used.
+
+    Each setup is specified by a dictionary with the following parameters:
+
+    ``setup`` specifies the type of the hardware
+
+        default: wafer
+        choices: ['vertical_setup', 'wafer']
+
+    ``wafer_id`` the logical id of the wafer in the Calibration Database [default: 0]
+
+    ``hicannIndices`` a list of HICANN Indices (HALBE Enumeration) that shall be used for mapping.
+
+        If not specified, all HICANNs of the wafer will be used.
+        default: range(384)
+
+    ``setup_params`` dictionary specifying the parameters of the hardware setup
+
+        ``ip`` IP Address (v4) of FPGA of vertical setup as string in dotted decimal form.
+
+            Only used if setup is a 'vertical_setup'
+            default: 192.168.1.1
+
+        ``num_hicanns`` number of HICANNs in the JTAG chain of vertical setup
+
+            default: 1
+            range: (1, 8)
+
+    default: ``[{'setup': 'wafer', 'wafer_id': 0, 'hicannIndices':range(384)}]``
+
+``hardwareNeuronSize`` specifies the size of hardware neurons, i.e. the number of neuron circuits that are used to form a larger neuron.
+
+    The higher this number, the higher is the number of incoming synapses per neuron, and the lower is the total
+    number of neurons
+    default: 1
+    choices: [1, 2, 4, 8, 16, 32, 64]
 
 
 There are several predefined hardware setups for the use with the ESS in the dictionary ``pyNN.hardware.hbp_pm.hardwareSetup``, see below for details.
