@@ -6,9 +6,11 @@ Installation and use of the ESS
 Installation of the ESS (PyNN 0.8)
 ----------------------------------
 
-By following this guideline, you will successfully install the current (october 2014) symap2ic software stack of Heidelberg, containing the ESS, emulator of the BrainScaleS hardware. You will have installed it together with the compatible PyNN version (0.8). As agreed during the Barcelona BrainScaleS workshop, for all the BrainScaleS demos, having the relevant parts of the model run on this ESS is a requirement for everybody who wants to run the neural model on the true hardware.
+By following this guideline, you will successfully install the current (as of March 2015) `stable` software stack of Heidelberg, containing the ESS, emulator of the NM-PM1 hardware system.
+You will have installed it together with the compatible PyNN version (0.8).
 
-In the year 2014, a new software stack, the PyHMF, will be released by the Heidelberg team. It will be compatible with PyNN 0.8.
+Currently, a new software stack is under development which will replace the old one.
+
 
 Prerequisites (tested on a naive Ubuntu saucy 13.10 on a 64-bit machine)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -104,10 +106,9 @@ Installation of the ESS (PyNN 0.7)
 ----------------------------------
 
 
-By following this guideline, you will successfully install the current (december 2013) symap2ic software stack of Heidelberg, containing the ESS, emulator of the BrainScaleS and of the Facets hardware. You will have installed it together with the compatible PyNN version (0.7). As agreed during the Barcelona BrainScaleS workshop, for all the BrainScaleS demos, having the relevant parts of the model run on this ESS is a requirement for everybody who wants to run the neural model on the true hardware.
+By following this guideline, you will successfully install the `stable` PyNN 0.7-based software stack of Heidelberg, containing the ESS, emulator of the BrainScaleS and of the Facets hardware.
+You will have installed it together with the compatible PyNN version (0.7).
 
-In the year 2014, a new software stack, the PyHMF, will be released by the Heidelberg team.
-It will be compatible with PyNN 0.7.
 
 Prerequisites (tested on a naive Ubuntu saucy 13.10 on a 64-bit machine)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

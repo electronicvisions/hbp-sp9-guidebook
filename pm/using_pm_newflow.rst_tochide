@@ -1,47 +1,49 @@
-=======
+.. _using-pm-newflow:
+
+-------
 Marocco
-=======
+-------
 
 Code documentation is provided by ``doxygen`` and can be accessed here:
 https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
 
 On a cluster frontend nodes (ice/ignatz/dopamine) or a vertical setup host:
 
-------------
+
 Installation
-------------
+============
 
 Create and change to a directory for your projects, preferably on wang, e.g.: ``/wang/users/<somebody>/cluster_home/projects``.
 
 
 ssh-agent
-^^^^^^^^^
+---------
 
 To reduce the amount of typing, please consider using ``ssh-agent`` to cache your key password:
 
 .. code-block:: bash
 
-	eval `ssh-agent`
-	ssh-add ~/path/to/your/private_id_rsa
+    eval `ssh-agent`
+    ssh-add ~/path/to/your/private_id_rsa
 
 
 waf
-^^^
+---
 
 This step is optional as the default environment already provides a ``waf`` executable.
 However, if you need a customized waf version:
 
 .. code-block:: bash
 
-	git clone git@gitviz.kip.uni-heidelberg.de:waf.git -b symwaf2ic visions-waf
-	make -f visions-waf/Makefile
-	ln -f visions-waf/waf .
-	alias waf=$PWD/waf
+    git clone git@gitviz.kip.uni-heidelberg.de:waf.git -b symwaf2ic visions-waf
+    make -f visions-waf/Makefile
+    ln -f visions-waf/waf .
+    alias waf=$PWD/waf
 
 
 
 pyhmf, marocco and dependencies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 
 Then create and change to a directory for marocco, e.g., `/wang/users/somebody/cluster_home/projects/marocco`:
 
@@ -67,66 +69,66 @@ including support for ESS add ``--with-ess`` to setup call.
 
 
 paths
-^^^^^
+-----
 
 To include the local paths in your environment, please use:
 
 .. code-block:: bash
 
-        module load localdir
-        module load pynn/0.7.5
+   module load localdir
+   module load pynn/0.7.5
 
 Another method would be to create an init file and put all the needed parts into a script:
 
 .. code-block:: bash
 
-	echo "INSTALLED_LIB_PATH=$(readlink -e lib)" > init.sh
-	cat >>init.sh<<EOF
-	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:\${INSTALLED_LIB_PATH}
-	export PYTHONPATH=$PYTHONPATH:\${INSTALLED_LIB_PATH}
-	module load pynn/0.7.5
-	EOF
+    echo "INSTALLED_LIB_PATH=$(readlink -e lib)" > init.sh
+    cat >>init.sh<<EOF
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:\${INSTALLED_LIB_PATH}
+    export PYTHONPATH=$PYTHONPATH:\${INSTALLED_LIB_PATH}
+    module load pynn/0.7.5
+    EOF
 
 In every (!) fresh shell you now have to source the ``init.sh``:
 
 .. code-block:: bash
 
-	source path/to/init.sh
+    source path/to/init.sh
 
 Check if the installation and the setup of variables is fine:
 
 .. code-block:: bash
 
-	python -c "import pyhmf" && echo ok
+    python -c "import pyhmf" && echo ok
 
 should print ``ok``, if instead:
 
 .. code-block:: python
 
-	Traceback (most recent call last):
-	  File "<string>", line 1, in <module>
-	ImportError: No module named pyhmf
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+    ImportError: No module named pyhmf
 
 occurs, either the installation failed or the environment variables responsible for finding the module are wrong. In that case, double check if you followed the instructions 1:1.
 
------
+
 Usage
------
+=====
 
 Backends
-^^^^^^^^
+--------
 
 Available backends: None, Hardware, ESS. None does only mapping and routing (a dry run). Hardware runs on the real neuromorphic hardware. ESS runs the executable system specification (not yet fully functional).
 
 Calibration
-^^^^^^^^^^^
+-----------
 
 To change the calibration backend from database to XML set "calib_backend" to XML. Then the calibration is looked up in xml files named @w0-h84.xml@, @w0-h276.xml@, etc. in the directory "calib_path".
 
 XML files can be found at [[cake:Calibration data]].
 
 Running pyNN scripts
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 For *mapping* only:
 
@@ -254,15 +256,16 @@ If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
 	ImportError: No module named pyNN.recording.files
 
 Inspect the Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 .. code-block:: bash
 
     sthal/tools/dump_cfg.py
 
-================================
+
+--------------------------------
 Job queue Demo - HBP Summit 2014
-================================
+--------------------------------
 
 On dopamine or some other cluster frontend:
 
@@ -284,9 +287,9 @@ On dopamine or some other cluster frontend:
 
 	display result.png
 
-====================
+--------------------
 roqt (Visualization)
-====================
+--------------------
 
 You need to be in the roqt directory, because the ui file is loaded by a relative path:
 
@@ -295,7 +298,7 @@ You need to be in the roqt directory, because the ui file is loaded by a relativ
     cd marocco/tools/roqt
     PYTHONPATH=$PWD/lib:$PYTHONPATH bin/roqt /some/path/to/roqt.bin
 
-.. figure:: marocco/demo_roqt.png
+.. figure:: pm/demo_roqt.png
       :alt: roqt screenshot
-      
+
       Routing visualization of the roqt visualization tool.
