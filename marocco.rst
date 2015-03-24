@@ -2,64 +2,106 @@
 Marocco
 =======
 
-"Doxygen Documentation": https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
+Code documentation is provided by ``doxygen`` and can be accessed here:
+https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
 
-On a cluster frontend node or a vertical setup host:
+On a cluster frontend nodes (ice/ignatz/dopamine) or a vertical setup host:
 
 ------------
 Installation
 ------------
 
-Create and change to a directory for your projects, preferably on wang, e.g.: `/wang/users/somebody/cluster_home/projects`.
+Create and change to a directory for your projects, preferably on wang, e.g.: ``/wang/users/<somebody>/cluster_home/projects``.
+
+
+ssh-agent
+^^^^^^^^^
+
+To reduce the amount of typing, please consider using ``ssh-agent`` to cache your key password:
+
+.. code-block:: bash
+
+	eval `ssh-agent`
+	ssh-add ~/path/to/your/private_id_rsa
+
 
 waf
 ^^^
 
-Install the customized waf::
+This step is optional as the default environment already provides a ``waf`` executable.
+However, if you need a customized waf version:
+
+.. code-block:: bash
 
 	git clone git@gitviz.kip.uni-heidelberg.de:waf.git -b symwaf2ic visions-waf
 	make -f visions-waf/Makefile
 	ln -f visions-waf/waf .
+	alias waf=$PWD/waf
+
+
 
 pyhmf, marocco and dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Then create and change to a directory for marocco, e.g.: `/wang/users/somebody/cluster_home/projects/marocco`::
+Then create and change to a directory for marocco, e.g., `/wang/users/somebody/cluster_home/projects/marocco`:
 
-	./waf setup --project pyhmf
-	./waf configure --without-ester
-	./waf install --target=pyhmf,pyroqt,pymarocco,test-marocco,pyhalbe,pysthal,redman_xml --test-execnone
+.. code-block:: bash
 
-including cake (optional)::
+    waf setup --project pyhmf --project=marocco --without-ester
+    waf configure
+    waf install --test-execnone
+    # some extra targets are needed
+    waf install --target=pyhalbe,pysthal,redman_xml --test-execnone
 
-	./waf setup --project pyhmf --project marocco --project cake --update-branches
-	./waf configure --without-ester
-	./waf install --target=pyhmf,pyroqt,pymarocco,test-marocco,pyhalbe,pysthal,pycake --test-execnone
+including cake (optional):
+
+.. code-block:: bash
+
+    waf setup --project pyhmf --project marocco --project cake --without-ester
+    waf configure
+    waf install --test-execnone
+    # some extra targets are needed
+    waf install --target=pyhalbe,pysthal,redman_xml,pycake --test-execnone
+
+including support for ESS add ``--with-ess`` to setup call.
 
 
 paths
 ^^^^^
 
-Create the file @/wang/users/somebody/cluster_home/projects/init.sh@ with the following content::
+To include the local paths in your environment, please use:
 
-	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`readlink -f lib`
-	export PYTHONPATH=$PYTHONPATH:`readlink -f lib`
+.. code-block:: bash
 
-	module load pynn
-	module load mongo
+        module load localdir
+        module load pynn/0.7.5
 
-In a fresh shell, change again to @/wang/users/somebody/cluster_home/projects/marocco@ and source the init file::
+Another method would be to create an init file and put all the needed parts into a script:
 
-	source ../init.sh
+.. code-block:: bash
 
-You will have to source the init file everytime you open a new shell.
+	echo "INSTALLED_LIB_PATH=$(readlink -e lib)" > init.sh
+	cat >>init.sh<<EOF
+	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:\${INSTALLED_LIB_PATH}
+	export PYTHONPATH=$PYTHONPATH:\${INSTALLED_LIB_PATH}
+	module load pynn/0.7.5
+	EOF
 
-Check if the installation and the setup of variables is fine::
+In every (!) fresh shell you now have to source the ``init.sh``:
 
-	$ python -c "import pyhmf" && echo ok
-	ok
+.. code-block:: bash
 
-If instead::
+	source path/to/init.sh
+
+Check if the installation and the setup of variables is fine:
+
+.. code-block:: bash
+
+	python -c "import pyhmf" && echo ok
+
+should print ``ok``, if instead:
+
+.. code-block:: python
 
 	Traceback (most recent call last):
 	  File "<string>", line 1, in <module>
@@ -86,19 +128,27 @@ XML files can be found at [[cake:Calibration data]].
 Running pyNN scripts
 ^^^^^^^^^^^^^^^^^^^^
 
-For *mapping* only::
+For *mapping* only:
+
+.. code-block:: bash
 
 	LD_PRELOAD=/usr/lib/openmpi/lib/libmpi.so python main.py
 
-If you don't preload libmpi, the error message is::
+If you don't preload libmpi, the error message is:
+
+.. code-block:: bash
 
 	python: symbol lookup error: /usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.so: undefined symbol: mca_base_param_reg_int
 
-To run on the *hardware* one needs to use the slurm job queue system::
+To run on the *hardware* one needs to use the slurm job queue system:
+
+.. code-block:: bash
 
 	srun -p wafer python main.py
 
-main.py::
+main.py:
+
+.. code-block:: python
 
 	import numpy as np
 	import pyhmf as pynn
@@ -114,6 +164,8 @@ main.py::
 	marocco = PyMarocco()
 	marocco.placement.setDefaultNeuronSize(4)
 	#marocco.backend = PyMarocco.Hardware # uncomment to run on hardware
+	#marocco.backend = PyMarocco.ESS      # uncomment to run on hardware
+
 	marocco.calib_backend = PyMarocco.XML # load calibration from xml files
 	marocco.calib_path = "/wang/data/calibration/wafer_0"
 
@@ -192,7 +244,9 @@ Load redman backend::
 	r = Redman(calibration_path, hicann_coord_global)
 	marocco.defects.inject(hicann_coord_global, r.hicann_with_backend)
 
-If pyNN.recording.files cannot be imported, pyNN is missing from your paths::
+If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
+
+.. code-block:: python
 
 	Traceback (most recent call last):
 	  File "main.py", line 5, in <module>
@@ -202,13 +256,17 @@ If pyNN.recording.files cannot be imported, pyNN is missing from your paths::
 Inspect the Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-sthal/tools/dump_cfg.py
+.. code-block:: bash
+
+    sthal/tools/dump_cfg.py
 
 ================================
 Job queue Demo - HBP Summit 2014
 ================================
 
-On dopamine or some other cluster frontend::
+On dopamine or some other cluster frontend:
+
+.. code-block:: bash
 
 	cd somewhere-on-your-wang:
 
@@ -230,10 +288,14 @@ On dopamine or some other cluster frontend::
 roqt (Visualization)
 ====================
 
-You need to be in the roqt directory, because the ui file is loaded by a relative path (to be fixed)::
+You need to be in the roqt directory, because the ui file is loaded by a relative path:
+
+.. code-block:: bash
 
     cd marocco/tools/roqt
-    export PYTHONPATH=`readlink -f .`:$PYTHONPATH
-    bin/roqt /some/path/roqt.bin
+    PYTHONPATH=$PWD/lib:$PYTHONPATH bin/roqt /some/path/to/roqt.bin
 
-
+.. figure:: marocco/demo_roqt.png
+      :alt: roqt screenshot
+      
+      Routing visualization of the roqt visualization tool.
