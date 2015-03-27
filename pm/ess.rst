@@ -84,7 +84,7 @@ Then, you can download and install the ESS on your computer:
     cd
     git clone git@brainscales-r.kip.uni-heidelberg.de:symap2ic.git
     cd symap2ic
-    . bootstrap.sh.UHEI .
+    source bootstrap.sh.UHEI .
     ./waf set_config systemsim-pynn8
     ./waf update
 
@@ -204,7 +204,7 @@ Then, you can download and install the ESS on your computer:
     cd
     git clone git@brainscales-r.kip.uni-heidelberg.de:symap2ic.git
     cd symap2ic
-    . bootstrap.sh.UHEI .
+    source bootstrap.sh.UHEI .
     ./waf set_config systemsim
 
 If you have had problems in the execution of the 4 lines above, you have some read access right problems from the repositories.
