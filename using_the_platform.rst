@@ -1,6 +1,6 @@
-==================
-Using the platform
-==================
+===================
+Running simulations
+===================
 
 The Neuromorphic Computing Platform of the `Human Brain Project`_ contains two very different neuromorphic hardware
 systems - NM-PM-1 ("physical model") and NM-MC-1 ("many core") - but has a single interface.
