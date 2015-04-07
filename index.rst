@@ -13,7 +13,8 @@ The platform provides two complementary, large-scale neuromorphic systems built 
 
    building_models
    using_the_platform
-   hardware_configuration
+   pm/pm_hardware_configuration
+   mc/spiNNaker_configuration
    local_simulations
    getting_help
    appendix

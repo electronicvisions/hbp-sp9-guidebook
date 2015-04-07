@@ -136,14 +136,23 @@ With PyNN 0.8:
 
 
 
-.. include:: pm/using_pm_oldflow.rst_tochide
+"Physical model" (NM-PM-1) system
+=================================
+
+The PM system has a number of additional configuration options that can be passed to :func:`setup()`. These are
+explained here [INSERT CROSSREFERENCE, GIVE EXAMPLE].
+
+There are also a number of limitations, explained here [INSERT CROSSREFERENCE], for example only a subset of the
+PyNN standard neuron and synapse models are available.
+
+The PM system attempts to automatically place neurons on the wafers in an optimal way. However, it is possible to
+influence this placement or control it manually. [INSERT EXAMPLE]. This is explained here [INSERT CROSSREFERENCE]
 
 
+"Many core" (NM-MC-1) system
+============================
 
-NM-MC-1 system
-==============
-
-stuff specific to the pyNN.spinnaker backend
+.. todo:: insert links to documentation of config options, limitations, etc.
 
 
 .. _PyNN: http://neuralensemble.org/PyNN/

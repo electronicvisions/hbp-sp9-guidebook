@@ -1,10 +1,12 @@
-===============================
-Installation and use of the ESS
-===============================
+==================================
+Executable system simulation (ESS)
+==================================
 
-----------------------------------
+.. todo:: introduction to the ESS
+
+
 Installation of the ESS (PyNN 0.8)
-----------------------------------
+==================================
 
 By following this guideline, you will successfully install the current (as of March 2015) `stable` software stack of Heidelberg, containing the ESS, emulator of the NM-PM1 hardware system.
 You will have installed it together with the compatible PyNN version (0.8).
@@ -13,7 +15,7 @@ Currently, a new software stack is under development which will replace the old 
 
 
 Prerequisites (tested on a native Ubuntu saucy 13.10 on a 64-bit machine)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------------------------
 
 To be able to configure and compile the symap2ic project, you need to install the following libraries:
 
@@ -64,7 +66,7 @@ You install pyNN (version 0.8 from the github NeuralEnsemble repository):
 
 
 Installation of the ESS
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 You should first obtain an account from heidelberg_. Then, on your computer, you generate a rsa key:
 
@@ -125,9 +127,8 @@ To test your installation, you can run the PyNN 0.8 unit- and system tests:
 .. _heidelberg: https://gitviz.kip.uni-heidelberg.de
 
 
-----------------------------------
 Installation of the ESS (PyNN 0.7)
-----------------------------------
+==================================
 
 
 By following this guideline, you will successfully install the `stable` PyNN 0.7-based software stack of Heidelberg, containing the ESS, emulator of the BrainScaleS and of the Facets hardware.
@@ -135,7 +136,7 @@ You will have installed it together with the compatible PyNN version (0.7).
 
 
 Prerequisites (tested on a native Ubuntu saucy 13.10 on a 64-bit machine)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------------------------
 
 To be able to configure and compile the symap2ic project, you need to install the following libraries:
 
@@ -184,7 +185,7 @@ You install pyNN (version 0.7):
 
 
 Installation of the ESS
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 You should first obtain an account from heidelberg_. Then, on your computer, you generate a rsa key:
 
@@ -242,5 +243,102 @@ To test your installation, you can run some unit tests:
     python $SYMAP2IC_PATH/components/mappingtool/test/regression/run_ess_tests.py
     python $SYMAP2IC_PATH/components/systemsim/test/regression/run_ess_tests.py
     python $SYMAP2IC_PATH/components/systemsim/test/system/run_ess_tests.py
+
+
+Using the ESS
+=============
+
+Scripts to run on the ESS should in general be identical to those that run on the PM hardware. The only required
+difference is that the :func:`setup()` call must include the argument ``useSystemSim=True``.
+
+In addition, there is an optional argument ``ess_params``, which should be a dictionary containing the following
+parameters:
+
+``perfectSynapseTrafo``
+   Use a perfect synapse transformation, instead of the only available ideal synapse transformation [boolean].
+
+``weightDistortion``
+   Specifies the distortion of synaptic weights in the virtual hardware system.
+
+   This parameters define the fraction of the original value, that is used as
+   the standard deviation for randomizing the weight according to a normal
+   distribution around the original value.
+
+``pulseStatisticsFile``
+    Name of file to which the ESS pulse statistics are written.
+
+
+Perfect Synapse Transformation
+------------------------------
+
+Currently, there exists only one set of calibration data for the transformation of synaptic weights to the hardware.
+i.e., there is only one configuration of the synapse drivers, for which a calibration has been done in ideal transistor-level hardware simulations, such that one is restricted to exactly 16 different synaptic weight settings in the hardware.
+
+But, in principle, one can use different settings for the synapse drivers to allow a wider range of synaptic weights. This will be available in the near future.
+
+In order to already mimic this behavior with the ESS, one can choose the "perfect synapse transformation", which generates different configurations of the synapse driver such that the associated synaptic weights match those specified in PyNN, at least within the 4-bit resolution of the digital weights.
+
+.. code-block:: python
+
+    sim.setup(useSystemSim=True, ess_params={'perfectSynapseTrafo':True})
+
+
+Pulse Loss Statistics
+---------------------
+
+The ESS allows to count all spikes that were lost in any place of the virtual hardware system.
+Spikes are mostly lost in the off-wafer communication network (also called ''Layer 2 network'') that connects the wafer to the host PC.
+In the Layer 2 network pulse loss can happen on two routes:
+
+1. Stimulation:
+   not all spikes from the spike sources (:class:`SpikeSourcePoisson` or :class:`SpikeSourceArray`) are delivered to its targets, because the bandwidth in the off-wafer network is limited. When a spike is lost, it is lost for its targets.
+
+2. Recording:
+   For the same bandwidth constraints in the off-wafer network, some spikes of real neurons can be lost on the route from the wafer to the FGPGAs, Hence, in the received spike data some events are missing.
+   However, the 'non-recorded' spikes did reach their target neurons on the wafer.
+
+Spikes can also be lost on the wafer, but only in rare cases when many neuron located on the same HICANN fire synchronously.
+
+3. On-wafer Spike Loss:
+   This is the case of pulses lost in the on-wafer pulse-communication system (also called `Layer 1 network`). If this happens, spikes are completely deleted, and reach no other neuron.
+
+4. Spike Drop before Simulation:
+   The playback module of the FPGA, which plays back the stimuli pulses at given times, also has a limited bandwidth. This limitation is considered beforehand, such that spikes are dropped even before the simulation, in order to avoid a further delaying of many more spikes during an experiment.
+
+The ESS counts the lost and sent pulses.
+After the simulation, you will see something in the log for a loglevel>=2::
+
+    INFO  Default *************************************
+    INFO  Default LostEventLogger::summary
+    INFO  Default Layer 2 events dropped before sim : 837/3939 (21.249 %)
+    INFO  Default Layer 2 events lost :               243/3199 (7.59612 %)
+    INFO  Default Layer 2 events lost downwards :     243/3102 (7.83366 %)
+    INFO  Default Layer 2 events lost upwards   :     0/97 (0 %)
+    INFO  Default Layer 1 events lost : 0/79 (0 %)
+    INFO  Default *************************************
+
+
+You can specify to get this data by specifying a file ``pulseStatisticsFile`` in the setup command:
+
+.. code-block:: python
+
+    sim.setup(useSystemSim=True, ess_params={'pulseStatisticsFile': 'pulse_stats.py'})
+
+
+Then the pulse statistics file contains a Python dictionary ``pulse_statistics`` which can be use for further processing:
+
+.. code-block:: python
+
+    pulse_statistics = {
+    'l2_down_before_sim': 3939,
+    'l2_down_dropped_before_sim': 837,
+    'l2_down_sent': 3102,
+    'l2_down_lost': 243,
+    'l2_up_sent': 97,
+    'l2_up_lost': 0,
+    'l1_neuron_sent': 79,
+    'l1_neuron_lost': 0,
+    }
+
 
 .. _heidelberg: https://gitviz.kip.uni-heidelberg.de

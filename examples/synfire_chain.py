@@ -41,7 +41,9 @@ sim.setup(timestep=0.1)
 
 populations = {'exc': [], 'inh': []}
 for syn_type in ('exc', 'inh'):
-    populations[syn_type] = [sim.Population(population_size, sim.IF_cond_exp, neuron_parameters)
+    populations[syn_type] = [sim.Population(population_size,
+                                            sim.IF_cond_exp,
+                                            neuron_parameters)
                              for i in range(n_populations)]
 
 
@@ -63,7 +65,9 @@ for i in range(n_populations):
 # --- Create and connect stimulus --------------
 
 numpy.random.seed(rng_seed)
-stim_spikes = numpy.random.normal(loc=stimulus_onset, scale=stimulus_sigma, size=population_size)
+stim_spikes = numpy.random.normal(loc=stimulus_onset,
+                                  scale=stimulus_sigma,
+                                  size=population_size)
 stim_spikes.sort()
 stimulus = sim.Population(1, sim.SpikeSourceArray, {'spike_times': stim_spikes})
 
