@@ -8,12 +8,12 @@ Code documentation is provided by ``doxygen`` is available as `documentation-mar
 
 .. _documentation-marocco: https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
 
-This documents the build and work flow on a cluster frontend nodes (ice/ignatz/dopamine) or a vertical setup host.
+This documents the build and work flow on UHEI NM-PM1 cluster frontend nodes.
 
 Installation
 ============
 
-Create and change to a directory for your projects, preferably on wang, e.g.: ``/wang/users/<somebody>/cluster_home/projects``.
+Create and change to a directory for your projects, preferably on ``wang``, e.g.: ``/wang/users/<somebody>/cluster_home/projects``.
 
 
 ssh-agent
@@ -270,7 +270,7 @@ Inspect the Configuration
 Job queue Demo - HBP Summit 2014
 --------------------------------
 
-On dopamine or some other cluster frontend:
+On a UHEI NM-PM1 cluster frontend node:
 
 .. code-block:: bash
 
