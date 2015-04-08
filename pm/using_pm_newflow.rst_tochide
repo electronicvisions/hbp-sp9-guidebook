@@ -45,7 +45,7 @@ However, if you need a customized waf version:
 pyhmf, marocco and dependencies
 -------------------------------
 
-Then create and change to a directory for marocco, e.g., `/wang/users/somebody/cluster_home/projects/marocco`:
+Then create and change to a directory for marocco, e.g., ``/wang/users/somebody/cluster_home/projects/marocco``:
 
 .. code-block:: bash
 
@@ -123,7 +123,7 @@ Available backends: None, Hardware, ESS. None does only mapping and routing (a d
 Calibration
 -----------
 
-To change the calibration backend from database to XML set "calib_backend" to XML. Then the calibration is looked up in xml files named @w0-h84.xml@, @w0-h276.xml@, etc. in the directory "calib_path".
+To change the calibration backend from database to XML set "calib_backend" to XML. Then the calibration is looked up in xml files named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory "calib_path".
 
 XML files can be found at [[cake:Calibration data]].
 
