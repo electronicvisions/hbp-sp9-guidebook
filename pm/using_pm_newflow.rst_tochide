@@ -226,12 +226,13 @@ main.py:
 	proj0 = pynn.Projection(in_0, neurons, con, target='excitatory')
 
 	pynn.run(duration) # ms
-	pynn.end()
 
 	spikes = neurons.getSpikes()
 	print spikes
 	print "N spikes", len(spikes)
 	np.savetxt("spikes.dat",spikes)
+
+	pynn.end()
 
 Load redman backend::
 
