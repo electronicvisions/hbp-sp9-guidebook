@@ -15,6 +15,10 @@
 import sys
 import os
 
+# create up2date gitversion file (which is included at the top)
+from subprocess import call
+call("git describe --always --tags --dirty > gitversion.rst_tochide", shell=True)
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.

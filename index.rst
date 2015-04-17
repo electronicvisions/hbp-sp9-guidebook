@@ -2,6 +2,10 @@
 The HBP Neuromorphic Computing Platform
 =======================================
 
+Document version:
+
+.. include:: gitversion.rst_tochide
+
 .. [Initial paragraph needs to be kept short]
 
 The Neuromorphic Computing Platform allows non-expert neuroscientists and engineers to perform experiments with configurable neuromorphic computing systems.
