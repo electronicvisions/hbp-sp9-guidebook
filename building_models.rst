@@ -18,12 +18,15 @@ In this documentation, we refer to each of these simulators and hardware platfor
 
 Full documentation of the API is available at:
 
+  | `PyNN 0.6 documentation`_
+
   | `PyNN 0.7 documentation`_
 
   | `PyNN 0.8 documentation`_
 
 At the time of writing, both the PM and MC systems implement version 0.7 of the API,
-while the simulator of the PM hardware ('ESS') supports both versions 0.7 and 0.8.
+while the simulator of the PM hardware (:doc:`ESS<pm/ess>`) supports both versions 0.7 and 0.8,
+and the chip-based PM hardware (:doc:`Spikey<pm/spikey>`) supports version 0.6.
 
 A simple example
 ================
@@ -195,5 +198,6 @@ documentation on _`Configuring the sPyNNaker front end, and its limitations:
 User Defined Limits and :Configuration though the spynnaker.cfg file`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations/
 
 .. _PyNN: http://neuralensemble.org/PyNN/
+.. _`PyNN 0.6 documentation`: http://neuralensemble.org/trac/PyNN/
 .. _`PyNN 0.7 documentation`: http://neuralensemble.org/trac/PyNN/
 .. _`PyNN 0.8 documentation`: http://neuralensemble.org/docs/PyNN/
