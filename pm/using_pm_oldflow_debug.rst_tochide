@@ -1,0 +1,33 @@
+--------------------------------------------------
+Debug functionality of the hardware.hbp_pm backend
+--------------------------------------------------
+
+Periodic current sources
+========================
+
+Each HICANN offers 4 periodic current sources, that repeatedly plays back a set of 129 current values. They are available via the ``pyNN.hardware.hbp_pm.PeriodicCurrentSource``, which follows the API of the ``CurrentSources`` in other PyNN back-ends. The period length can take on a set of values given in ``PeriodicCurrentSource.ALLOWED_PERIODS``.
+The maximum (and default) period length is ``825.6 ms`` when running at a speedup of 10,000.
+A pyNN ``PeriodicCurentSource`` can be injected into several neurons, however, a maximum of 4 neurons per HICANN can receive current input.
+
+.. code-block:: python
+
+    import pyNN.hardware.hbp_pm as sim
+    sim.setup()
+    Neurons = sim.Population(10,sim.IF_cond_exp)
+
+    # setting current source parameters
+    num_values = sim.PeriodicCurrentSource.MEM_SIZE # get # of values available
+    period = sim.PeriodicCurrentSource.ALLOWED_PERIODS[-1] # get the largest period
+
+    # fill the value list
+    value_list = []
+    amplitude = 1.0 # Amplitude of the Step current (in nA)
+    for i in range(num_values):
+        if (i < (num_values/5)): % for 20% of the duty cycle
+         value_list.append(amplitude)
+        else:
+         value_list.append(0)
+
+    # create current source and inject it into one neuron
+    CurrentSource = sim.PeriodicCurrentSource(value_list, period)
+    CurrentSource.inject_into(Neurons[0])
