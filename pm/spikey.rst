@@ -14,8 +14,8 @@ Preparation
 .. todo:: add how to install pynn
 
 
-Run experiments
-===============
+Experiment execution
+====================
 
 Once before executing experiments
 ---------------------------------
