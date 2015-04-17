@@ -21,8 +21,6 @@ The :mod:`pyNN.hardware.hbp_pm` module supports the following neuron and synapse
 The hardware version of :class:`TsodyksMarkramMechanism` is slightly modified (cf. Schemmel et al. 2007, 2006): it cannot implement depression and facilitation at the same time.
 The basic functionality stays the same, however; in the PyNN script, one has to set one of the model’s time constants ``tau_rec`` and ``tau_facil`` to 0, opting for either depression or facilitation.
 
-.. warning:: short term plasticity is currently only functional with the executable system specification (ESS); support for the real hardware system is coming soon.
-
 
 Parameter ranges
 ================
@@ -97,7 +95,9 @@ Recording spikes and membrane potential
 The spikes of all neurons mapped onto the hardware as well as the input spikes can be recorded.
 Spikes are returned to Python via the standard PyNN interface (i.e. the :func:`getSpikes()` and :func:`printSpikes()` methods of the :class:`Population` class for PyNN 0.7, and :func:`get_data()` and :func:`write_data()` for PyNN 0.8).
 
-At present, it is not possible to obtain membrane potential recordings through the PyNN interface, this requires direct access to the hardware.
+At present, it is not possible to obtain membrane potential recordings from the real hardware through the PyNN interface, this requires direct access to the hardware.
+However, when running simulation with the ESS, membrane potential recording and retrieval is available via the standard PyNN interface.
+
 
 Initialization of state variables
 =================================
@@ -115,34 +115,11 @@ Calls like the following :func:`initalize()` have no effect.
 Injected current
 ================
 
-Each HICANN offers 4 periodic current sources, that repeatedly plays back a set of 129 current values. They are available via the ``pyNN.hardware.hbp_pm.PeriodicCurrentSource``, which follows the API of the ``CurrentSources`` in other PyNN back-ends. The period length can take on a set of values given in ``PeriodicCurrentSource.ALLOWED_PERIODS``.
-The maximum (and default) period length is ``825.6 ms`` when running at a speedup of 10,000.
-A pyNN ``PeriodicCurentSource`` can be injected into several neurons, however, a maximum of 4 neurons per HICANN can receive current input.
+In general, the NM-PM-1 wafer-scale hardware does not support PyNN ``CurrentSources``.
+There is, however, a very limited number of periodic current sources, which can be used for debugging and examination of single hardware neurons.
+See Appendix for details.
 
-.. code-block:: python
-
-    import pyNN.hardware.hbp_pm as sim
-    sim.setup()
-    Neurons = sim.Population(10,sim.IF_cond_exp)
-
-    # setting current source parameters
-    num_values = sim.PeriodicCurrentSource.MEM_SIZE # get # of values available
-    period = sim.PeriodicCurrentSource.ALLOWED_PERIODS[-1] # get the largest period
-
-    # fill the value list
-    value_list = []
-    amplitude = 1.0 # Amplitude of the Step current (in nA)
-    for i in range(num_values):
-        if (i < (num_values/5)): % for 20% of the duty cycle
-         value_list.append(amplitude)
-        else:
-         value_list.append(0)
-
-    # create current source and inject it into one neuron
-    CurrentSource = sim.PeriodicCurrentSource(value_list, period)
-    CurrentSource.inject_into(Neurons[0])
-
-.. warning:: note that the ``PeriodicCurrentSource`` is functional for the REAL hardware system, but not for the ESS.
+.. todo:: add crossreference to `Periodic current sources` in appendix.
 
 
 Projections
@@ -178,12 +155,6 @@ The user can specify the maximum allowed neuron and synapse loss for a given net
 
 Here, synapse/neuron loss refers to the fraction of synapses/neurons, that can not be mapped onto the hardware.
 By specifying this limit, the user can avoid experiments where the too many synapses or neurons are lost. By default, the mapping stops if any neuron or synapse can not be mappped.
-
-
-Boosting synaptic weights
-=========================
-
-.. todo:: todo
 
 
 Changing the number of incoming synapses per neuron
