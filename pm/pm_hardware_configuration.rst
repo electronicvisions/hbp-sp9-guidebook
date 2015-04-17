@@ -2,9 +2,34 @@
 The "Physical Model" system
 ===========================
 
-.. todo:: mention here the acceleration factor and low energy consumption
+At the core of the NM-PM-1 wafer-scale hardware system (see :ref:`Figure <waferscale-hardware-figure>`) is an uncut wafer built from mixed-signal ASICs [#f1]_,
+named `High Input Count Analog Neural Network` chips (`HICANNs`), that provide a highly configurable substrate which physically emulates adaptively spiking neurons and dynamic synapses (`Schemmel et al. (2010)`_, `Schemmel et al. (2008)`_).
+The intrinsic time constants of these VLSI model circuits are multiple orders of magnitude shorter than their biological originals.
+Consequently, the hardware model evolves with a speedup factor of :math:`10^3` up to :math:`10^5` compared to biological real time, the precise value depending on the configuration of the system.
 
-.. todo:: give, or link to, brief discussion of hardware (layout of HICANNs on wafer, need glossary to explain what a HICANN is!)
+.. _waferscale-hardware-figure:
+
+.. figure:: waferscale_system.png
+      :alt: wafer-scale system
+    
+      The NM-PM-1 wafer-scale hardware system: Wafer (A) comprising HICANN building blocks and on-wafer communication infrastructure, wafer bracket (B), top frame (C) and digital inter-wafer and wafer-host communication modules (D).
+
+.. todo:: put newer image/schematic of wafer
+
+In addition to a high-bandwidth asynchronous on-wafer event communication infrastructure, full custom digital off-wafer ASICs provide terminals for a packet-based multi-purpose communication network.
+These so called `Digital Network Chips (DNCs)` are backed by a flexible FPGA [#f2]_ design that handles the packet routing. 
+
+A full wafer system will comprise 384 interconnectable HICANNs, each of which implements more than 100,000 programmable dynamic synapses and up to 512 neurons, resulting in a total of approximately 45 million synapses and up to 200,000 neurons per wafer.
+The exact number of neurons depends on the configuration of the substrate, which allows to combine multiple neuron building blocks to increase the input count per cell.
+
+Via the FPGAs the system can be configured and operated from a host computer. One FPGA is connected to 4 DNCs, each of which is connected to 8 HICANNs. This FPGA-DNC-HICANN link is used to transmit pulse events to and from the neural circuits on the wafer, while the pulse communication between the neurons is performed on the wafer.
+
+.. todo:: mention here also the low energy consumption
+
+.. todo:: layout of HICANNs on wafer, need glossary to explain what a HICANN is!)
+
+.. [#f1] Application Specific Integrated Circuit
+.. [#f2] Field Programmable Gate Array
 
 
 Supported cells and plasticity mechanisms
@@ -449,4 +474,6 @@ For an example making use of the full functionality of the ``MappingAnalyzer``, 
 
 
 .. _`Petrovici et al. (2014)`: http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0108590
+.. _`Schemmel et al. (2010)`: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5536970&isnumber=5536941
+.. _`Schemmel et al. (2008)`: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4633828 
 .. _WaferMap: http://129.206.127.67/jss/WaferMapShow?scale=1.0&theta=1.5709999799728394&waferNumber=1&drawMode=DRAW_MODE_HICANN_ConfigID

@@ -2,7 +2,9 @@
 Executable system simulation (ESS)
 ==================================
 
-.. todo:: introduction to the ESS
+The Executable System Specification (ESS) is a software model of the NM-PM-1  hardware system.
+The ESS is implemented in C++ /SystemC and contains functional models of all relevant units of the the wafer-scale hardware.
+It is fully executable and resembles how neural experiments will be run on the real wafer-scale system. It can be operated from PyNN, so that you can run neural network experiments described in PyNN with the ESS and this this way you can already explore the capabilities of the NM `Physical Model` system.
 
 
 Installation of the ESS (PyNN 0.8)
