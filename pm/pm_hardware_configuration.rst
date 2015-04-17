@@ -28,45 +28,46 @@ Parameter ranges
 The NM-PM-1 wafer-scale hardware has a wide but still limited range for neuron, synapse and stimulus parameters.
 The ``pyNN.hardware.hbp_pm`` back-end automatically does a rough range-checking already in the Python domain, thereby giving immediate feedback to the user. The precise range limits depend on the system calibration, so the actual ranges may be slightly smaller or larger than given here.
 
-The default ranges for the :class:`IF_cond_exp` are:
-
-==========  =======  =======  =======
-Parameter   Default  Min      Max
-==========  =======  =======  =======
-tau_refrac  0.1      0.0      10.0
-cm          1.0      0.2      0.2
-tau_syn_E   5.0      0.5      5.0
-v_rest      -65.0    -50.0    -50.0
-tau_syn_I   5.0      0.5      5.0
-tau_m       20.0     9.0      110.0
-e_rev_E     0.0      0.0      0.0
-i_offset    0.0      0.0      0.0
-e_rev_I     -70.0    -100.0   -100.0
-v_thresh    -50.0    -100.0   0.0
-v_reset     -65.0    -100.0   0.0
-==========  =======  =======  =======
-
-.. todo:: comment on the fact that in several cases the default is outside the allowed range. Also, why is the range for v_rest [-50, -50]? Should also comment on the unphysiological value for e_rev_I.
-
-
-Some configuration options can modify these ranges. With ``speedUpFactor = 1000``, the ranges for all parameters with dimension time are modified:
-
-==========  =======  =======  =======
-Parameter   Default  Min      Max
-==========  =======  =======  =======
-tau_refrac  0.1      0.0      1.0
-tau_syn_E   5.0      0.1      0.5
-tau_syn_I   5.0      0.1      0.5
-tau_m       20.0     0.9      11.0
-==========  =======  =======  =======
-
-With ``useSmallCap = True``, only the range of `tau_m` is modified:
-
-==========  =======  =======  =======
-Parameter   Default  Min      Max
-==========  =======  =======  =======
-tau_m       20.0     0.7      8.3
-==========  =======  =======  =======
+.. TODO: the following ranges are out of date. After update, uncomment the following text.
+.. The default ranges for the :class:`IF_cond_exp` are:
+..
+   ==========  =======  =======  =======
+   Parameter   Default  Min      Max
+   ==========  =======  =======  =======
+   tau_refrac  0.1      0.0      10.0
+   cm          1.0      0.2      0.2
+   tau_syn_E   5.0      0.5      5.0
+   v_rest      -65.0    -50.0    -50.0
+   tau_syn_I   5.0      0.5      5.0
+   tau_m       20.0     9.0      110.0
+   e_rev_E     0.0      0.0      0.0
+   i_offset    0.0      0.0      0.0
+   e_rev_I     -70.0    -100.0   -100.0
+   v_thresh    -50.0    -100.0   0.0
+   v_reset     -65.0    -100.0   0.0
+   ==========  =======  =======  =======
+   
+   .. todo:: comment on the fact that in several cases the default is outside the allowed range. Also, why is the range for v_rest [-50, -50]? Should also comment on the unphysiological value for e_rev_I.
+   
+   
+   Some configuration options can modify these ranges. With ``speedUpFactor = 1000``, the ranges for all parameters with dimension time are modified:
+   
+   ==========  =======  =======  =======
+   Parameter   Default  Min      Max
+   ==========  =======  =======  =======
+   tau_refrac  0.1      0.0      1.0
+   tau_syn_E   5.0      0.1      0.5
+   tau_syn_I   5.0      0.1      0.5
+   tau_m       20.0     0.9      11.0
+   ==========  =======  =======  =======
+   
+   With ``useSmallCap = True``, only the range of `tau_m` is modified:
+   
+   ==========  =======  =======  =======
+   Parameter   Default  Min      Max
+   ==========  =======  =======  =======
+   tau_m       20.0     0.7      8.3
+   ==========  =======  =======  =======
 
 
 As noted above, the parameter ranges given here are updated with the latest results from calibration,
