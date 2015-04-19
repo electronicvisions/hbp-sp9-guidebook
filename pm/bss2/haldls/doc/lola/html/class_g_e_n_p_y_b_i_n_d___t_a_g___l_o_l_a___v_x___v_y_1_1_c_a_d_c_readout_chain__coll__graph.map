@@ -1,0 +1,5 @@
+<map id="GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain" name="GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain">
+<area shape="rect" id="node1" title="Configuration container for CADC and correlation/neuron&#45;readout related settings." alt="" coords="364,52,566,96"/>
+<area shape="rect" id="node2" href="$struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation.html" title="Synapses&#39; correlation settings, affecting correlation reset, measurement and readout,..." alt="" coords="27,5,229,65"/>
+<area shape="rect" id="node3" href="$class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp.html" title="CADC ramp generation settings." alt="" coords="5,89,250,133"/>
+</map>

@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_crossbar_output_event_counter" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CrossbarOutputEventCounter</compoundname>
+    <includes refid="routing__crossbar_8h" local="no">routing_crossbar.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" prot="public">haldls::vx::CrossbarOutputEventCounter::Value</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a00be8d4e43591e899f880d94b58ad75b" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CrossbarOutputOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CrossbarOutputOnDLS haldls::vx::CrossbarOutputEventCounter::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="198" column="52" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a3bd6c3145ccc04e4e04b72621ff3828e" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CrossbarOutputEventCounter::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="199" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a54289c90e3a2855d764e5b0f81767cb4" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CrossbarOutputEventCounter::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="236" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1afc14947965b945f53dbdc5ab0d814362" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CrossbarOutputEventCounter::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="237" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="255" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a2dbb8b2c7b5a750f1a97d33802625f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CrossbarOutputEventCounter const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter" kindref="compound">CrossbarOutputEventCounter</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="251" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a02c33fd0cc470b138db686e4bb87c96f" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::CrossbarOutputEventCounter::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="259" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a1f9e243236cdf967f2c2363824e195ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CrossbarOutputEventCounter::CrossbarOutputEventCounter</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CrossbarOutputEventCounter</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a2295aea5c279232802a8c377576332e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CrossbarOutputEventCounter::CrossbarOutputEventCounter</definition>
+        <argsstring>(Value value) SYMBOL_VISIBLE</argsstring>
+        <name>CrossbarOutputEventCounter</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Construct from value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" kindref="compound">Value</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a7eb4866e97c75990e89505ca04b621c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CrossbarOutputEventCounter::decode</definition>
+        <argsstring>(std::array&lt; WordT, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a54289c90e3a2855d764e5b0f81767cb4" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="247" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1afbdd7e0de1c555986a1c18acce3d8d60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1afc14947965b945f53dbdc5ab0d814362" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, write_config_size_in_words&gt; haldls::vx::CrossbarOutputEventCounter::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="245" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a1772815f610a14db72c36148886770f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::CrossbarOutputEventCounter::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+<para>Get event counter value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" kindref="compound">Value</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="224" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1adceeb7a8ed0f54f0d45eb5eae44265dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CrossbarOutputEventCounter::operator!=</definition>
+        <argsstring>(CrossbarOutputEventCounter const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter" kindref="compound">CrossbarOutputEventCounter</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="234" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1aeb8439b5efecbdddf90690632a6f857f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CrossbarOutputEventCounter::operator==</definition>
+        <argsstring>(CrossbarOutputEventCounter const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter" kindref="compound">CrossbarOutputEventCounter</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="233" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a13cbbfb9b7268058cb4dbcfc65a13428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CrossbarOutputEventCounter::set_value</definition>
+        <argsstring>(Value value) SYMBOL_VISIBLE</argsstring>
+        <name>set_value</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set event counter value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" kindref="compound">Value</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="231" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1ab9a18400d7d39811b59747a1aa5698ef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a54289c90e3a2855d764e5b0f81767cb4" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, read_config_size_in_words&gt; haldls::vx::CrossbarOutputEventCounter::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a00be8d4e43591e899f880d94b58ad75b" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="239" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a71c0a60d27076b3e522f17e47460a2f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1afc14947965b945f53dbdc5ab0d814362" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, write_config_size_in_words&gt; haldls::vx::CrossbarOutputEventCounter::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a00be8d4e43591e899f880d94b58ad75b" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="242" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a2f3185a460c61b95aaa9ae25a19f091d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CrossbarOutputEventCounter::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="257" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Crossbar output event counter counting events routed to an output. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="195" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="196" bodyend="260"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a00be8d4e43591e899f880d94b58ad75b" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a1f9e243236cdf967f2c2363824e195ff" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>CrossbarOutputEventCounter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a2295aea5c279232802a8c377576332e1" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>CrossbarOutputEventCounter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a7eb4866e97c75990e89505ca04b621c2" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1afbdd7e0de1c555986a1c18acce3d8d60" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a1772815f610a14db72c36148886770f7" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>get_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a3bd6c3145ccc04e4e04b72621ff3828e" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a02c33fd0cc470b138db686e4bb87c96f" prot="private" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1adceeb7a8ed0f54f0d45eb5eae44265dd" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a2dbb8b2c7b5a750f1a97d33802625f28" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1aeb8439b5efecbdddf90690632a6f857f" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1ab9a18400d7d39811b59747a1aa5698ef" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a54289c90e3a2855d764e5b0f81767cb4" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a2f3185a460c61b95aaa9ae25a19f091d" prot="private" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a13cbbfb9b7268058cb4dbcfc65a13428" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>set_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1a71c0a60d27076b3e522f17e47460a2f8" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter_1afc14947965b945f53dbdc5ab0d814362" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarOutputEventCounter</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

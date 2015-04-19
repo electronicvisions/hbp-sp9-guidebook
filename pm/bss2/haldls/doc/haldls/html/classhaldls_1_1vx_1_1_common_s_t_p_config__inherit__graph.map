@@ -1,0 +1,4 @@
+<map id="haldls::vx::CommonSTPConfig" name="haldls::vx::CommonSTPConfig">
+<area shape="rect" id="node1" title="Common STP configuration shared by synapse drivers per vertical half." alt="" coords="5,97,208,125"/>
+<area shape="rect" id="node2" href="$classhaldls_1_1vx_1_1_differential_write_trait.html" title="Trait signalling derived&#45;from container type support differential write operation." alt="" coords="33,5,181,49"/>
+</map>

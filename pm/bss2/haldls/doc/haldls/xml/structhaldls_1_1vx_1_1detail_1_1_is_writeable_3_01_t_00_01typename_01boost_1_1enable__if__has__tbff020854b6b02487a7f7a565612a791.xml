@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__tbff020854b6b02487a7f7a565612a791" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::write_config_size_in_words)&gt;::type &gt;</compoundname>
+    <includes refid="is__writeable_8h" local="no">is_writeable.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__tbff020854b6b02487a7f7a565612a791_1a575d799927bcad47f45bc39d9f89efa5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static bool</type>
+        <definition>constexpr static bool haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::write_config_size_in_words)&gt;::type &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= T::write_config_size_in_words</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" line="84" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" line="80" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" bodystart="83" bodyend="85"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__tbff020854b6b02487a7f7a565612a791_1a575d799927bcad47f45bc39d9f89efa5" prot="public" virt="non-virtual"><scope>haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::write_config_size_in_words)&gt;::type &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

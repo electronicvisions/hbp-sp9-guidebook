@@ -1,0 +1,4 @@
+<map id="haldls::vx::CommonCorrelationConfig::ResetFallTime" name="haldls::vx::CommonCorrelationConfig::ResetFallTime">
+<area shape="rect" id="node1" title="Wait time in PPU clock cycles after disabling the correlation column reset enable." alt="" coords="266,21,470,65"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,218,81"/>
+</map>

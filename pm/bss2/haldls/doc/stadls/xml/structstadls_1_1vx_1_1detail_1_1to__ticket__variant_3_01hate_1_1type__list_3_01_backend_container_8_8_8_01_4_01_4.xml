@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structstadls_1_1vx_1_1detail_1_1to__ticket__variant_3_01hate_1_1type__list_3_01_backend_container_8_8_8_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::vx::detail::to_ticket_variant&lt; hate::type_list&lt; BackendContainer... &gt; &gt;</compoundname>
+    <includes refid="playback__program_8h" local="no">playback_program.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename...</type>
+        <declname>BackendContainer</declname>
+        <defname>BackendContainer</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structstadls_1_1vx_1_1detail_1_1to__ticket__variant_3_01hate_1_1type__list_3_01_backend_container_8_8_8_01_4_01_4_1a362ff7163be0795323e3772959f481e9" prot="public" static="no">
+        <type>boost::variant&lt; fisch::vx::ContainerTicket&lt; decltype(fisch::vx::container_cast(std::declval&lt; BackendContainer &gt;)))&gt;... &gt;</type>
+        <definition>typedef boost::variant&lt;fisch::vx::ContainerTicket&lt;decltype( fisch::vx::container_cast(std::declval&lt;BackendContainer&gt;)))&gt;...&gt; stadls::vx::detail::to_ticket_variant&lt; hate::type_list&lt; BackendContainer... &gt; &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="44" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="40" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" bodystart="41" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structstadls_1_1vx_1_1detail_1_1to__ticket__variant_3_01hate_1_1type__list_3_01_backend_container_8_8_8_01_4_01_4_1a362ff7163be0795323e3772959f481e9" prot="public" virt="non-virtual"><scope>stadls::vx::detail::to_ticket_variant&lt; hate::type_list&lt; BackendContainer... &gt; &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

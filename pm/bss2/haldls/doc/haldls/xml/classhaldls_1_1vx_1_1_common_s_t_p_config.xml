@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_common_s_t_p_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonSTPConfig</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="padi_8h" local="no">padi.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_s_t_p_config_1_1_recovery_clock_speed" prot="public">haldls::vx::CommonSTPConfig::RecoveryClockSpeed</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1aa55c7c15c9bbc66b410776e02fb2a6c7" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CommonSTPConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CommonSTPConfigOnDLS haldls::vx::CommonSTPConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="264" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a25d89b071c6449f2ed3d53aaa0cd66fe" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CommonSTPConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="265" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a98ff267aa895c7306bce8866576a1279" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CommonSTPConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="299" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1ad5d1c4a371811377b94fde2613ab276e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::CommonSTPConfig::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::hardware, hxcomm::vx::Target::simulation}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="267" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="313" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a82123b029dd54e4129dc82ddc08c5b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CommonSTPConfig const &amp;event) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_s_t_p_config" kindref="compound">CommonSTPConfig</ref> const &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="310" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a6e5d02472bd13ffffdd48de4f6f0a9d0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonSTPConfig::m_enable_recovery_clock</definition>
+        <argsstring></argsstring>
+        <name>m_enable_recovery_clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="319" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a6dba8aa8aa380d7d2e412b55db419e34" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_s_t_p_config_1_1_recovery_clock_speed" kindref="compound">RecoveryClockSpeed</ref></type>
+        <definition>RecoveryClockSpeed haldls::vx::CommonSTPConfig::m_recovery_clock_speed</definition>
+        <argsstring></argsstring>
+        <name>m_recovery_clock_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="320" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1ac15a1f2b41c79515b4e9079cd1786a3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CommonSTPConfig::CommonSTPConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CommonSTPConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="280" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1aaf2988c61f697a2f1d457e5b88e64c1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CommonSTPConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a98ff267aa895c7306bce8866576a1279" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="306" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a5a4073f0fe44aa30e5b109fba4e4b1bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a98ff267aa895c7306bce8866576a1279" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::CommonSTPConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="304" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a5a7dd0c67d317c4d8af2e6204e33d851" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonSTPConfig::get_enable_recovery_clock</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_recovery_clock</name>
+        <briefdescription>
+<para>Enable recovery clock for the STP circuit. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="286" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1ad0a15d1de9383dacb2761c106a61c419" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_s_t_p_config_1_1_recovery_clock_speed" kindref="compound">RecoveryClockSpeed</ref></type>
+        <definition>RecoveryClockSpeed haldls::vx::CommonSTPConfig::get_recovery_clock_speed</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_recovery_clock_speed</name>
+        <briefdescription>
+<para>Set the scaler for the recovery clock. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="292" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a874a477a4b13a737db879a9aa790be7a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonSTPConfig::operator!=</definition>
+        <argsstring>(CommonSTPConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_s_t_p_config" kindref="compound">CommonSTPConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="297" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a11a2e2f9bf428be657b47b5697a6b168" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonSTPConfig::operator==</definition>
+        <argsstring>(CommonSTPConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_s_t_p_config" kindref="compound">CommonSTPConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="296" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a1258d71a270a7d205707cb26ff31b243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonSTPConfig::set_enable_recovery_clock</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_recovery_clock</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="288" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a5cf4a7fbe213eccfdc30eeaf65595798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonSTPConfig::set_recovery_clock_speed</definition>
+        <argsstring>(RecoveryClockSpeed const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_recovery_clock_speed</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_common_s_t_p_config_1_1_recovery_clock_speed" kindref="compound">RecoveryClockSpeed</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="294" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a086be036fd9e16d33c9430fabc5a86f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a98ff267aa895c7306bce8866576a1279" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::CommonSTPConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1aa55c7c15c9bbc66b410776e02fb2a6c7" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="301" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_s_t_p_config_1a4bb3f3d7f9d44ce383b2dc1909519299" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CommonSTPConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="315" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Common STP configuration shared by synapse drivers per vertical half. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>It allows to enable/disable and set the speed for the recovery clock. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CommonSTPConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_s_t_p_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CommonSTPConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_s_t_p_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="261" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="262" bodyend="321"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a086be036fd9e16d33c9430fabc5a86f5" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1ac15a1f2b41c79515b4e9079cd1786a3f" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>CommonSTPConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a98ff267aa895c7306bce8866576a1279" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1aa55c7c15c9bbc66b410776e02fb2a6c7" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1aaf2988c61f697a2f1d457e5b88e64c1c" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a5a4073f0fe44aa30e5b109fba4e4b1bc" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a5a7dd0c67d317c4d8af2e6204e33d851" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>get_enable_recovery_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1ad0a15d1de9383dacb2761c106a61c419" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>get_recovery_clock_speed</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a25d89b071c6449f2ed3d53aaa0cd66fe" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a6e5d02472bd13ffffdd48de4f6f0a9d0" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>m_enable_recovery_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a6dba8aa8aa380d7d2e412b55db419e34" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>m_recovery_clock_speed</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a874a477a4b13a737db879a9aa790be7a" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a82123b029dd54e4129dc82ddc08c5b70" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a11a2e2f9bf428be657b47b5697a6b168" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a4bb3f3d7f9d44ce383b2dc1909519299" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a1258d71a270a7d205707cb26ff31b243" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>set_enable_recovery_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1a5cf4a7fbe213eccfdc30eeaf65595798" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>set_recovery_clock_speed</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_s_t_p_config_1ad5d1c4a371811377b94fde2613ab276e" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSTPConfig</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

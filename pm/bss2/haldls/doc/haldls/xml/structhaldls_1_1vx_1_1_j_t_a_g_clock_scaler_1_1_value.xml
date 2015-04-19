@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_j_t_a_g_clock_scaler_1_1_value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::JTAGClockScaler::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, fisch::vx::jtag_clock_scaler_max, fisch::vx::jtag_clock_scaler_min &gt;</basecompoundref>
+    <includes refid="jtag_8h" local="no">jtag.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_j_t_a_g_clock_scaler_1_1_value_1a8013fc1564e13f9a27d3b852b6bc0307" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::JTAGClockScaler::Value::Value</definition>
+        <argsstring>(uintmax_t const value=3)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>value</declname>
+          <defval>3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="40" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clock-scaler value type. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The JTAG clock scales with 1 / (value + 2). </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, fisch::vx::jtag_clock_scaler_max, fisch::vx::jtag_clock_scaler_min &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::JTAGClockScaler::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_j_t_a_g_clock_scaler_1_1_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, fisch::vx::jtag_clock_scaler_max, fisch::vx::jtag_clock_scaler_min &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::JTAGClockScaler::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_j_t_a_g_clock_scaler_1_1_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="33" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="39" bodyend="43"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_j_t_a_g_clock_scaler_1_1_value_1a8013fc1564e13f9a27d3b852b6bc0307" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

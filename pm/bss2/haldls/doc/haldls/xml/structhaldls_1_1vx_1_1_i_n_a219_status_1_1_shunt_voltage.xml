@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::INA219Status::ShuntVoltage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ShuntVoltage, int16_t, 4000, -4000 &gt;</basecompoundref>
+    <includes refid="i2c_8h" local="no">i2c.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage_1a15cee7fc0c7e3f39fa161e5a648966e1" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::INA219Status::ShuntVoltage::ShuntVoltage</definition>
+        <argsstring>(intmax_t const val=0)</argsstring>
+        <name>ShuntVoltage</name>
+        <param>
+          <type>intmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="150" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="150" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage_1ab2bfd428a206a41f09c58ae3c00f5352" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float haldls::vx::INA219Status::ShuntVoltage::toUncalibratedVoltage</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>toUncalibratedVoltage</name>
+        <briefdescription>
+<para>Convert to uncalibrated voltage <ulink url="i.e. ideal conversion">V</ulink>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="157" column="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Shunt voltage with linear conversion and LSB = 10uV. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ShuntVoltage, int16_t, 4000, -4000 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::INA219Status::ShuntVoltage</label>
+        <link refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ShuntVoltage, int16_t, 4000, -4000 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::INA219Status::ShuntVoltage</label>
+        <link refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="147" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="149" bodyend="158"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage_1a15cee7fc0c7e3f39fa161e5a648966e1" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Status::ShuntVoltage</scope><name>ShuntVoltage</name></member>
+      <member refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage_1ab2bfd428a206a41f09c58ae3c00f5352" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Status::ShuntVoltage</scope><name>toUncalibratedVoltage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

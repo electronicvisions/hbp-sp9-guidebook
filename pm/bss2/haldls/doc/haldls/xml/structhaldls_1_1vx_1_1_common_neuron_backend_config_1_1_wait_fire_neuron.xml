@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_fire_neuron" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonNeuronBackendConfig::WaitFireNeuron</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; WaitFireNeuron, uint_fast16_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_fire_neuron_1a3fecdfd674b2c4b832d6ff7375b0dc63" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CommonNeuronBackendConfig::WaitFireNeuron::WaitFireNeuron</definition>
+        <argsstring>(uintmax_t const val=4)</argsstring>
+        <name>WaitFireNeuron</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="95" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="95" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Duration of pulse triggering the artificial neuron spikes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; WaitFireNeuron, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CommonNeuronBackendConfig::WaitFireNeuron</label>
+        <link refid="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_fire_neuron"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; WaitFireNeuron, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CommonNeuronBackendConfig::WaitFireNeuron</label>
+        <link refid="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_fire_neuron"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="92" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="94" bodyend="98"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_fire_neuron_1a3fecdfd674b2c4b832d6ff7375b0dc63" prot="public" virt="non-virtual"><scope>haldls::vx::CommonNeuronBackendConfig::WaitFireNeuron</scope><name>WaitFireNeuron</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

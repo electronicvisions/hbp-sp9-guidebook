@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="is__writeable_8h" kind="file" language="C++">
+    <compoundname>is_writeable.h</compoundname>
+    <includes local="no">type_traits</includes>
+    <includes local="no">boost/utility/enable_if.hpp</includes>
+    <includes local="yes">hate/type_list.h</includes>
+    <includedby refid="is__writereadable_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writereadable.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>boost/utility/enable_if.hpp</label>
+      </node>
+      <node id="2">
+        <label>type_traits</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h</label>
+        <link refid="is__writeable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h</label>
+        <link refid="is__writeable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable" prot="public">haldls::vx::detail::IsWriteable</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01std_1_1enable__if__t_3_01hate_1_1is__i68516161106baf4b82148726e0ffb84e" prot="public">haldls::vx::detail::IsWriteable&lt; T, std::enable_if_t&lt; hate::is_in_type_list&lt; T, NonLeafNodeWriteableContainerList &gt;::value &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__t81ef6e02b3711acc13d47f20d193b265" prot="public">haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__tbff020854b6b02487a7f7a565612a791" prot="public">haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::write_config_size_in_words)&gt;::type &gt;</innerclass>
+    <innernamespace refid="namespacehalco">halco</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls">halco::hicann_dls</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx">halco::hicann_dls::vx</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx_1_1v2">halco::hicann_dls::vx::v2</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx_1_1v3">halco::hicann_dls::vx::v3</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1v2">haldls::vx::v2</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1v3">haldls::vx::v3</innernamespace>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v2">lola::vx::v2</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v3">lola::vx::v3</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h"/>
+  </compounddef>
+</doxygen>

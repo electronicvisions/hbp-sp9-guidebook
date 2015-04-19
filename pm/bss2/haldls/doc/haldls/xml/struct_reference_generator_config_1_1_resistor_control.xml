@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_reference_generator_config_1_1_resistor_control" kind="struct" language="C++" prot="public">
+    <compoundname>ReferenceGeneratorConfig::ResistorControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ResistorControl, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ResistorControl, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_reference_generator_config_1_1_resistor_control_1a18525cae73913a158a7c98b6ea31a5d7" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr ReferenceGeneratorConfig::ResistorControl::ResistorControl</definition>
+        <argsstring>(uintmax_t const val=40)</argsstring>
+        <name>ResistorControl</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>40</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="87" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_reference_generator_config_1_1_resistor_control_1a18525cae73913a158a7c98b6ea31a5d7" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr ReferenceGeneratorConfig::ResistorControl::ResistorControl</definition>
+        <argsstring>(uintmax_t const val=40)</argsstring>
+        <name>ResistorControl</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>40</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="87" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ResistorControl, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>ReferenceGeneratorConfig::ResistorControl</label>
+        <link refid="struct_reference_generator_config_1_1_resistor_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ResistorControl, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>ReferenceGeneratorConfig::ResistorControl</label>
+        <link refid="struct_reference_generator_config_1_1_resistor_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="84" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="86" bodyend="91"/>
+    <listofallmembers>
+      <member refid="struct_reference_generator_config_1_1_resistor_control_1a18525cae73913a158a7c98b6ea31a5d7" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig::ResistorControl</scope><name>ResistorControl</name></member>
+      <member refid="struct_reference_generator_config_1_1_resistor_control_1a18525cae73913a158a7c98b6ea31a5d7" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig::ResistorControl</scope><name>ResistorControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

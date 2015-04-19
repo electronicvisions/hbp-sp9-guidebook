@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_neuron_reset" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::NeuronReset</compoundname>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_neuron_reset_1a4748ab1556030fb1caa8759116493107" prot="public" static="no">
+        <type>halco::hicann_dls::vx::NeuronResetOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::NeuronResetOnDLS haldls::vx::NeuronReset::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="493" column="49" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_neuron_reset_1a55873d9fa8ae1b5e34f069812651bad2" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::NeuronReset::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="494" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="494" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_reset_1a722213472aca48c5f29d21b20f261b9a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::NeuronReset::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="503" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_reset_1abfcbe604763bb01996f52a821840217d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::NeuronReset::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="502" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="502" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_neuron_reset_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="520" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="520" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_neuron_reset_1a1859abed48a17c5867757a2e007aeb6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, NeuronReset const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_reset" kindref="compound">NeuronReset</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="517" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_reset_1af98d29b3efa5933d3e7b1e57c72571b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::NeuronReset::NeuronReset</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>NeuronReset</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="497" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_reset_1a48f762d2cd750f359988d12933cd953f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::NeuronReset::decode</definition>
+        <argsstring>(std::array&lt; WordT, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_neuron_reset_1a722213472aca48c5f29d21b20f261b9a" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="513" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_reset_1ad93daaf0982436da532c54be58cf6859" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_neuron_reset_1abfcbe604763bb01996f52a821840217d" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, write_config_size_in_words&gt; haldls::vx::NeuronReset::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="511" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_reset_1a38f4e786488042a980a9c4afd7a78203" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronReset::operator!=</definition>
+        <argsstring>(NeuronReset const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_reset" kindref="compound">NeuronReset</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="500" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_reset_1a44a7896791eb37f9bc3c8ae2a70eeebe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronReset::operator==</definition>
+        <argsstring>(NeuronReset const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_reset" kindref="compound">NeuronReset</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="499" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_reset_1a2ae6eb4954b1d64e0f6b2cbbd4d28ddf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_neuron_reset_1a722213472aca48c5f29d21b20f261b9a" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, read_config_size_in_words&gt; haldls::vx::NeuronReset::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;neuron) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_reset_1a4748ab1556030fb1caa8759116493107" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="505" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_reset_1a41df86be1305be6dd5b8ac9491b3827c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_neuron_reset_1abfcbe604763bb01996f52a821840217d" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, write_config_size_in_words&gt; haldls::vx::NeuronReset::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;neuron) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_reset_1a4748ab1556030fb1caa8759116493107" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="508" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_reset_1a3e748242eca4b925edb77ceb4e7b4f54" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::NeuronReset::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="522" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container to trigger reset of a single neuron. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="490" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="491" bodyend="523"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a4748ab1556030fb1caa8759116493107" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a48f762d2cd750f359988d12933cd953f" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1ad93daaf0982436da532c54be58cf6859" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a55873d9fa8ae1b5e34f069812651bad2" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1af98d29b3efa5933d3e7b1e57c72571b8" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>NeuronReset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a38f4e786488042a980a9c4afd7a78203" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a1859abed48a17c5867757a2e007aeb6e" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a44a7896791eb37f9bc3c8ae2a70eeebe" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a2ae6eb4954b1d64e0f6b2cbbd4d28ddf" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a722213472aca48c5f29d21b20f261b9a" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a3e748242eca4b925edb77ceb4e7b4f54" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1a41df86be1305be6dd5b8ac9491b3827c" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_reset_1abfcbe604763bb01996f52a821840217d" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronReset</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

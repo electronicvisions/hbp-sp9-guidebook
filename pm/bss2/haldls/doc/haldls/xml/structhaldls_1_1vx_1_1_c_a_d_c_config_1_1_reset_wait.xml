@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CADCConfig::ResetWait</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ResetWait, uint_fast16_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait_1a8e6a2f67f0717a60e61dbf52c0432e81" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CADCConfig::ResetWait::ResetWait</definition>
+        <argsstring>(uintmax_t const val=100)</argsstring>
+        <name>ResetWait</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>100</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="43" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="43" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Wait time in cycles after ramp drop to compensate for analog low-pass filtering of ramp signal and preventing the drop of the last ramp to cause interference in the next linear ramp increase. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ResetWait, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CADCConfig::ResetWait</label>
+        <link refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ResetWait, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CADCConfig::ResetWait</label>
+        <link refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="40" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="42" bodyend="46"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait_1a8e6a2f67f0717a60e61dbf52c0432e81" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig::ResetWait</scope><name>ResetWait</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

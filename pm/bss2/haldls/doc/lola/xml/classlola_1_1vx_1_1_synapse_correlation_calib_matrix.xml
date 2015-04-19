@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::SynapseCorrelationCalibMatrix</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a963169ae12b1b2adc57011f0510ddb6c" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ad60d7282662628bbc8e8919c326f72b1" kindref="member">row_type</ref>&lt; <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a702c17a561b3bbdf91ee030e2cb00d57" kindref="member">AmpCalib</ref> &gt;</type>
+        <definition>typedef row_type&lt;AmpCalib&gt; lola::vx::SynapseCorrelationCalibMatrix::_amp_calibs_row_type</definition>
+        <argsstring></argsstring>
+        <name>_amp_calibs_row_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="300" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ae8405b244d9ef2663c8e700d2bba816b" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a1a0347f2143bef0ce361ba29e2bc4c49" kindref="member">matrix_type</ref>&lt; <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a702c17a561b3bbdf91ee030e2cb00d57" kindref="member">AmpCalib</ref> &gt;</type>
+        <definition>typedef matrix_type&lt;AmpCalib&gt; lola::vx::SynapseCorrelationCalibMatrix::_amp_calibs_type</definition>
+        <argsstring></argsstring>
+        <name>_amp_calibs_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="302" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ab9f22e1df5f29487f9e42936867891c0" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ad60d7282662628bbc8e8919c326f72b1" kindref="member">row_type</ref>&lt; <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc6a063833bf574befa2367d616559d2" kindref="member">TimeCalib</ref> &gt;</type>
+        <definition>typedef row_type&lt;TimeCalib&gt; lola::vx::SynapseCorrelationCalibMatrix::_time_calibs_row_type</definition>
+        <argsstring></argsstring>
+        <name>_time_calibs_row_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="299" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc7282e6757a1119230d3a7f30ebb779" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a1a0347f2143bef0ce361ba29e2bc4c49" kindref="member">matrix_type</ref>&lt; <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc6a063833bf574befa2367d616559d2" kindref="member">TimeCalib</ref> &gt;</type>
+        <definition>typedef matrix_type&lt;TimeCalib&gt; lola::vx::SynapseCorrelationCalibMatrix::_time_calibs_type</definition>
+        <argsstring></argsstring>
+        <name>_time_calibs_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="301" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a702c17a561b3bbdf91ee030e2cb00d57" prot="public" static="no">
+        <type>haldls::vx::SynapseCorrelationCalibQuad::AmpCalib</type>
+        <definition>typedef haldls::vx::SynapseCorrelationCalibQuad::AmpCalib lola::vx::SynapseCorrelationCalibMatrix::AmpCalib</definition>
+        <argsstring></argsstring>
+        <name>AmpCalib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="297" column="59" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a0bb06d3d7ac395134cefe627484cba2a" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SynapseCorrelationCalibMatrixOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::SynapseCorrelationCalibMatrixOnDLS lola::vx::SynapseCorrelationCalibMatrix::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="287" column="67" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a3ba93fd40ec1de8bf52e626820ff4774" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::SynapseCorrelationCalibMatrix::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="286" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a1a0347f2143bef0ce361ba29e2bc4c49" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>halco::common::typed_heap_array&lt; <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ad60d7282662628bbc8e8919c326f72b1" kindref="member">row_type</ref>&lt; T &gt;, halco::hicann_dls::vx::SynapseRowOnSynram &gt;</type>
+        <definition>using lola::vx::SynapseCorrelationCalibMatrix::matrix_type =  halco::common::typed_heap_array&lt;row_type&lt;T&gt;, halco::hicann_dls::vx::SynapseRowOnSynram&gt;</definition>
+        <argsstring></argsstring>
+        <name>matrix_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="293" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ad60d7282662628bbc8e8919c326f72b1" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>halco::common::typed_array&lt; T, halco::hicann_dls::vx::SynapseOnSynapseRow &gt;</type>
+        <definition>using lola::vx::SynapseCorrelationCalibMatrix::row_type =  halco::common::typed_array&lt;T, halco::hicann_dls::vx::SynapseOnSynapseRow&gt;</definition>
+        <argsstring></argsstring>
+        <name>row_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="290" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc6a063833bf574befa2367d616559d2" prot="public" static="no">
+        <type>haldls::vx::SynapseCorrelationCalibQuad::TimeCalib</type>
+        <definition>typedef haldls::vx::SynapseCorrelationCalibQuad::TimeCalib lola::vx::SynapseCorrelationCalibMatrix::TimeCalib</definition>
+        <argsstring></argsstring>
+        <name>TimeCalib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="296" column="60" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ae089231f4b2d6a6de27697ee4b4d52ab" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ae8405b244d9ef2663c8e700d2bba816b" kindref="member">_amp_calibs_type</ref></type>
+        <definition>_amp_calibs_type lola::vx::SynapseCorrelationCalibMatrix::amp_calibs</definition>
+        <argsstring></argsstring>
+        <name>amp_calibs</name>
+        <briefdescription>
+<para>Synapse correlation amplitude calibration array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="311" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a1f7e73ad1a30596e42f7fcc513d9bc5f" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc7282e6757a1119230d3a7f30ebb779" kindref="member">_time_calibs_type</ref></type>
+        <definition>_time_calibs_type lola::vx::SynapseCorrelationCalibMatrix::time_calibs</definition>
+        <argsstring></argsstring>
+        <name>time_calibs</name>
+        <briefdescription>
+<para>Synapse correlation time calibration array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="308" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a48b6d8a0cfba8fd47453af29ff7a582c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; SynapseCorrelationCalibMatrix &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseCorrelationCalibMatrix &gt;</name>
+        <param>
+          <type>haldls::vx::detail::VisitPreorderImpl&lt; <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kindref="compound">SynapseCorrelationCalibMatrix</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="318" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a6caa865a035ff56c72e4a3252ac74f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SynapseCorrelationCalibMatrix const &amp;row) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kindref="compound">SynapseCorrelationCalibMatrix</ref> const &amp;</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="318" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1acd1e5bd8dfd934c5c9dc2ca445b2e1e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::SynapseCorrelationCalibMatrix::SynapseCorrelationCalibMatrix</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SynapseCorrelationCalibMatrix</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="305" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a0f7c615e553258e28c6b4a45394cf6c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::SynapseCorrelationCalibMatrix::operator!=</definition>
+        <argsstring>(SynapseCorrelationCalibMatrix const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kindref="compound">SynapseCorrelationCalibMatrix</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="315" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1aa6b07e387fa7161ccbe9d3df13ae59ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::SynapseCorrelationCalibMatrix::operator==</definition>
+        <argsstring>(SynapseCorrelationCalibMatrix const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kindref="compound">SynapseCorrelationCalibMatrix</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="314" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>lola::vx::SynapseCorrelationCalibMatrix</label>
+        <link refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>lola::vx::SynapseCorrelationCalibMatrix</label>
+        <link refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="283" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="284" bodyend="323"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a963169ae12b1b2adc57011f0510ddb6c" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>_amp_calibs_row_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ae8405b244d9ef2663c8e700d2bba816b" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>_amp_calibs_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ab9f22e1df5f29487f9e42936867891c0" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>_time_calibs_row_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc7282e6757a1119230d3a7f30ebb779" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>_time_calibs_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ae089231f4b2d6a6de27697ee4b4d52ab" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>amp_calibs</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a702c17a561b3bbdf91ee030e2cb00d57" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>AmpCalib</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a0bb06d3d7ac395134cefe627484cba2a" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a48b6d8a0cfba8fd47453af29ff7a582c" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseCorrelationCalibMatrix &gt;</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a3ba93fd40ec1de8bf52e626820ff4774" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a1a0347f2143bef0ce361ba29e2bc4c49" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>matrix_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a0f7c615e553258e28c6b4a45394cf6c0" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a6caa865a035ff56c72e4a3252ac74f06" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1aa6b07e387fa7161ccbe9d3df13ae59ef" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ad60d7282662628bbc8e8919c326f72b1" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>row_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1acd1e5bd8dfd934c5c9dc2ca445b2e1e5" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>SynapseCorrelationCalibMatrix</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a1f7e73ad1a30596e42f7fcc513d9bc5f" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>time_calibs</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc6a063833bf574befa2367d616559d2" prot="public" virt="non-virtual"><scope>lola::vx::SynapseCorrelationCalibMatrix</scope><name>TimeCalib</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

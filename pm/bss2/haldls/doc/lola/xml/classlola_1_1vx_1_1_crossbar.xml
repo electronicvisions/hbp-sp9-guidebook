@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_crossbar" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::Crossbar</compoundname>
+    <includes refid="routing__crossbar_8h" local="no">routing_crossbar.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_crossbar_1a54378d6f6253d8f0607e2dcbea60b8a5" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CrossbarOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CrossbarOnDLS lola::vx::Crossbar::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="22" column="46" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_crossbar_1a90dcafa9202e82f5a176e4222b1c8450" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::Crossbar::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="23" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_crossbar_1aae6dc5732ccd33716409f8a931f548d3" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::CrossbarNode, halco::hicann_dls::vx::CrossbarNodeOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;haldls::vx::CrossbarNode, halco::hicann_dls::vx::CrossbarNodeOnDLS&gt; lola::vx::Crossbar::Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="32" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_crossbar_1a80e67c14d18e456acc46d3d67bac6395" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto lola::vx::Crossbar::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::hardware}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="24" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_crossbar_1aac055eb9096bd6f5f9e9ec36c7787a2c" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_crossbar_1aae6dc5732ccd33716409f8a931f548d3" kindref="member">Nodes</ref></type>
+        <definition>Nodes lola::vx::Crossbar::nodes</definition>
+        <argsstring></argsstring>
+        <name>nodes</name>
+        <briefdescription>
+<para><ref refid="classlola_1_1vx_1_1_crossbar" kindref="compound">Crossbar</ref> node configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="35" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_crossbar_1a4a74eca929ea48deb1e37eacc83dc25b" prot="public" static="no" mutable="no">
+        <type>haldls::vx::CrossbarOutputConfig</type>
+        <definition>haldls::vx::CrossbarOutputConfig lola::vx::Crossbar::outputs</definition>
+        <argsstring></argsstring>
+        <name>outputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="37" column="34" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_crossbar_1a892c785f42bb82d0f2fa3062742674af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::Crossbar &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::Crossbar &gt;</name>
+        <param>
+          <type>haldls::vx::detail::VisitPreorderImpl&lt; <ref refid="classlola_1_1vx_1_1_crossbar" kindref="compound">lola::vx::Crossbar</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="43" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_crossbar_1a910e54a127c45e7ef7cb6df91437833c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Crossbar const &amp;block) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_crossbar" kindref="compound">Crossbar</ref> const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="43" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_crossbar_1a6cbeb06e5e1a52cddb3fffaec3876aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::Crossbar::Crossbar</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Crossbar</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_crossbar_1aed5c41cb7936bc0a8abe8e66e28c051c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::Crossbar::operator!=</definition>
+        <argsstring>(Crossbar const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_crossbar" kindref="compound">Crossbar</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="40" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_crossbar_1a2d09d41c9ffd2a59167b0c93ad6a4572" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::Crossbar::operator==</definition>
+        <argsstring>(Crossbar const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_crossbar" kindref="compound">Crossbar</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="39" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for configuration of the routing crossbar. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" line="19" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/routing_crossbar.h" bodystart="20" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_crossbar_1a54378d6f6253d8f0607e2dcbea60b8a5" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1a6cbeb06e5e1a52cddb3fffaec3876aaa" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>Crossbar</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1a892c785f42bb82d0f2fa3062742674af" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::Crossbar &gt;</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1a90dcafa9202e82f5a176e4222b1c8450" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1aae6dc5732ccd33716409f8a931f548d3" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>Nodes</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1aac055eb9096bd6f5f9e9ec36c7787a2c" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>nodes</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1aed5c41cb7936bc0a8abe8e66e28c051c" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1a910e54a127c45e7ef7cb6df91437833c" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1a2d09d41c9ffd2a59167b0c93ad6a4572" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1a4a74eca929ea48deb1e37eacc83dc25b" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>outputs</name></member>
+      <member refid="classlola_1_1vx_1_1_crossbar_1a80e67c14d18e456acc46d3d67bac6395" prot="public" virt="non-virtual"><scope>lola::vx::Crossbar</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

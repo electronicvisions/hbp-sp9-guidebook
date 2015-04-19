@@ -1,0 +1,145 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Experiment execution &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/hbpdoc.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/extra.js"></script>
+    <script src="../../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="../../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Experiment execution</a><ul>
+<li><a class="reference internal" href="#login-to-uhei-cluster">Login to UHEI cluster</a></li>
+<li><a class="reference internal" href="#load-and-build-software">Load and build software</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/pm/bss2/setup_software.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    
+                </aside>
+
+                <section id="experiment-execution">
+<h1>Experiment execution<a class="headerlink" href="#experiment-execution" title="Permalink to this headline">¶</a></h1>
+<p>Use the following instructions to login, load the pre-built software package and run experiments on the UHEI cluster.</p>
+<section id="login-to-uhei-cluster">
+<span id="label-clusterlogin-bss2"></span><h2>Login to UHEI cluster<a class="headerlink" href="#login-to-uhei-cluster" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>From the network of the Kirchhoff-Institute for Physics:</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh KIPUSER@hel
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Otherwise:</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh s1ext_someuser@gitviz.kip.uni-heidelberg.de -p <span class="m">11022</span>
+</pre></div>
+</div>
+</section>
+<section id="load-and-build-software">
+<span id="label-software-bss2"></span><h2>Load and build software<a class="headerlink" href="#load-and-build-software" title="Permalink to this headline">¶</a></h2>
+<p>To load and build software for the BSS-2 system these modules are needed. Get them by using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>module load waf
+module load ppu-toolchain
+module load localdir
+</pre></div>
+</div>
+<p>These three commands must be loaded for every environment, and in particular, after logging in.</p>
+<p>To checkout all important software repositories use:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># leave out the --repo-db-url=... parameter to use the &quot;UHEI-internal&quot; repositories</span>
+waf setup --project template-experiment-dls --repo-db-url<span class="o">=</span>https://github.com/electronicvisions/projects
+</pre></div>
+</div>
+<p>To build the software use:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun -p compile -c <span class="m">8</span> --pty singularity <span class="nb">exec</span> --app visionary-dls /containers/stable/latest waf configure install
+</pre></div>
+</div>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

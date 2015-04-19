@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::SRAMTimingConfig::ReadDelay</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; ReadDelay, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</basecompoundref>
+    <includes refid="sram__controller_8h" local="no">sram_controller.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay_1a333af6db447fa343b928660b169e30de" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::detail::SRAMTimingConfig::ReadDelay::ReadDelay</definition>
+        <argsstring>(uintmax_t const val=120)</argsstring>
+        <name>ReadDelay</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>120</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="45" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" bodystart="45" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Wait time after enable signal pull for cells to drive their value until read. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; ReadDelay, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::SRAMTimingConfig::ReadDelay</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; ReadDelay, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::SRAMTimingConfig::ReadDelay</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="41" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" bodystart="44" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay_1a333af6db447fa343b928660b169e30de" prot="public" virt="non-virtual"><scope>haldls::vx::detail::SRAMTimingConfig::ReadDelay</scope><name>ReadDelay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

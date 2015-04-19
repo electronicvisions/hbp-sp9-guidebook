@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::FPGADeviceDNA</compoundname>
+    <includes refid="fpga_8h" local="no">fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a7f172a081dd548d1ad18115c01a64660" prot="public" static="no">
+        <type>halco::hicann_dls::vx::FPGADeviceDNAOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::FPGADeviceDNAOnFPGA haldls::vx::FPGADeviceDNA::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="34" column="52" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a5be67246dc08313aee9d547a9303d151" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::FPGADeviceDNA::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="35" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for reading out the unique identifier of the FPGA. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="31" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="32" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a7f172a081dd548d1ad18115c01a64660" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a5be67246dc08313aee9d547a9303d151" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>is_leaf_node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

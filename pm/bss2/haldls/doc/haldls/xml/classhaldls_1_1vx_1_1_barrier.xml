@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_barrier" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::Barrier</compoundname>
+    <includes refid="barrier_8h" local="no">barrier.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_barrier_1a963ba70b754fe4a2f851c8b349746bc7" prot="public" static="yes" mutable="no">
+        <type>SYMBOL_VISIBLE const <ref refid="classhaldls_1_1vx_1_1_barrier" kindref="compound">Barrier</ref></type>
+        <definition>SYMBOL_VISIBLE const Barrier haldls::vx::Barrier::jtag</definition>
+        <argsstring></argsstring>
+        <name>jtag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="18" column="37" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_barrier_1a73ca5c99bc995a986ede5a47c5fff014" prot="public" static="yes" mutable="no">
+        <type>SYMBOL_VISIBLE const <ref refid="classhaldls_1_1vx_1_1_barrier" kindref="compound">Barrier</ref></type>
+        <definition>SYMBOL_VISIBLE const Barrier haldls::vx::Barrier::omnibus</definition>
+        <argsstring></argsstring>
+        <name>omnibus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="17" column="37" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_barrier_1a13c2b8430855584979ea7099be49a8f6" prot="public" static="yes" mutable="no">
+        <type>SYMBOL_VISIBLE const <ref refid="classhaldls_1_1vx_1_1_barrier" kindref="compound">Barrier</ref></type>
+        <definition>SYMBOL_VISIBLE const Barrier haldls::vx::Barrier::systime</definition>
+        <argsstring></argsstring>
+        <name>systime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="19" column="37" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_barrier_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="45" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_barrier_1abe27a80bd3efdfe8d97980f2c844bd68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Barrier const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_barrier" kindref="compound">Barrier</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="42" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_barrier_1aa7267f1dd5fb00c903f5a659270ca49e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::Barrier::m_enable_jtag</definition>
+        <argsstring></argsstring>
+        <name>m_enable_jtag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="50" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_barrier_1a9747c862730a429e49326908fda93644" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::Barrier::m_enable_omnibus</definition>
+        <argsstring></argsstring>
+        <name>m_enable_omnibus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="49" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_barrier_1ae1139baa3d65350a407aa62f2ab33c6d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::Barrier::m_enable_systime</definition>
+        <argsstring></argsstring>
+        <name>m_enable_systime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="51" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1a00da946507d00ce5b4a85f2303e1f631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::Barrier::Barrier</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Barrier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1aba6f52c3f2903cdcca2f368f5c6e11bd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>fisch::vx::word_access_type::Barrier</type>
+        <definition>fisch::vx::word_access_type::Barrier haldls::vx::Barrier::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="39" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1aca609a7a3aa317d6d665c87defc537c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::Barrier::get_enable_jtag</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_jtag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="27" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1a113fabba1662ba65e0e5bde57d9c5046" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::Barrier::get_enable_omnibus</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_omnibus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="22" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1a62942b447cfb19dba46396cd342ec4f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::Barrier::get_enable_systime</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_systime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="32" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1aed1d4bf1d81653d49a0354648573be6b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::Barrier::operator!=</definition>
+        <argsstring>(Barrier const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_barrier" kindref="compound">Barrier</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="37" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1a75171ff9460ae64b1e4b6b494ceee6eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::Barrier::operator==</definition>
+        <argsstring>(Barrier const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_barrier" kindref="compound">Barrier</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="36" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1aaddb495be773b5a14fbd0272b5e0df3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::Barrier::set_enable_jtag</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_jtag</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="29" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1aed8d8d6a8b113589b2ff5edc801b94ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::Barrier::set_enable_omnibus</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_omnibus</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="24" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1ad137a4f27438a82cce3aa3f6b312016b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::Barrier::set_enable_systime</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_systime</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="34" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_barrier_1afd16574b51f2a417120fa1f9f41dbbdf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::Barrier::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="47" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::Barrier</label>
+        <link refid="classhaldls_1_1vx_1_1_barrier"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>jtag</edgelabel>
+          <edgelabel>omnibus</edgelabel>
+          <edgelabel>systime</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/barrier.h" bodystart="13" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1a00da946507d00ce5b4a85f2303e1f631" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>Barrier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1aba6f52c3f2903cdcca2f368f5c6e11bd" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1aca609a7a3aa317d6d665c87defc537c1" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>get_enable_jtag</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1a113fabba1662ba65e0e5bde57d9c5046" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>get_enable_omnibus</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1a62942b447cfb19dba46396cd342ec4f1" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>get_enable_systime</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1a963ba70b754fe4a2f851c8b349746bc7" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>jtag</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1aa7267f1dd5fb00c903f5a659270ca49e" prot="private" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>m_enable_jtag</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1a9747c862730a429e49326908fda93644" prot="private" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>m_enable_omnibus</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1ae1139baa3d65350a407aa62f2ab33c6d" prot="private" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>m_enable_systime</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1a73ca5c99bc995a986ede5a47c5fff014" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>omnibus</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1aed1d4bf1d81653d49a0354648573be6b" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1abe27a80bd3efdfe8d97980f2c844bd68" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1a75171ff9460ae64b1e4b6b494ceee6eb" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1afd16574b51f2a417120fa1f9f41dbbdf" prot="private" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1aaddb495be773b5a14fbd0272b5e0df3e" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>set_enable_jtag</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1aed8d8d6a8b113589b2ff5edc801b94ea" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>set_enable_omnibus</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1ad137a4f27438a82cce3aa3f6b312016b" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>set_enable_systime</name></member>
+      <member refid="classhaldls_1_1vx_1_1_barrier_1a13c2b8430855584979ea7099be49a8f6" prot="public" virt="non-virtual"><scope>haldls::vx::Barrier</scope><name>systime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

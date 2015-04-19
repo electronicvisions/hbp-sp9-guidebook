@@ -1,0 +1,99 @@
+.. _nmpm1-hardware-configuration:
+
+==============================
+About the BrainScaleS hardware
+==============================
+
+The neuromorphic wafer module
+-----------------------------
+
+At the core of the BrainScaleS wafer-scale hardware system (see Figure :num:`waferscale-hardware-figure`) is an uncut wafer built from mixed-signal ASICs [#f1]_,
+named `High Input Count Analog Neural Network` chips (`HICANNs`), which provide a highly configurable substrate that physically emulates adaptively spiking neurons and dynamic synapses (`Schemmel et al. (2010)`_, `Schemmel et al. (2008)`_).
+The intrinsic time constants of these VLSI model circuits are multiple orders of magnitude shorter than their biological counterparts.
+Consequently, the hardware model evolves with a speedup factor of :math:`10^3` up to :math:`10^5` compared to biological real time, the precise value depending on the configuration of the system.
+This speedup enables power-efficient computation as the energy consumption for synaptic transmissions is several orders of magnitude lower than in classically simulated neuronal networks.
+
+.. _waferscale-hardware-figure:
+
+.. figure:: waferscale_system.png
+      :width: 100%
+      :alt: wafer-scale system
+    
+      The BrainScaleS wafer-scale hardware system: Wafer comprising HICANN building blocks and on-wafer communication infrastructure, mechanical infrastructure (top cover and insertion frame), analog readout boards (AnaB), power supply and digital inter-wafer as well as wafer-host communication modules.
+
+In addition to a high-bandwidth asynchronous on-wafer event communication infrastructure, 48 FPGA [#f2]_ communication modules provide off-wafer connectivity (to other wafers and to host computers).
+
+A full wafer system comprises 384 interconnectable HICANNs, each of which implements more than 114,688 programmable dynamic synapses and up to 512 neurons, resulting in a total of approximately 44 million synapses and up to 196,608 neurons per wafer module.
+The exact number of neurons depends on the configuration of the substrate, which allows to combine multiple neuron building blocks to increase the input count per cell.
+
+Via the communication FPGAs the system can be configured and operated from a host computer.
+Each communication FPGA is connected to a dedicated area on the wafer which contains 8 HICANNs.
+This FPGA-HICANN link is used to configure the HICANNs as well as to transmit pulse events to and from the neural circuits on the wafer.
+The pulse communication between the on-wafer neurons is performed by a bus-like network directly on the wafer.
+
+The system provides a high degree of configurability with respect to network architecture and neuron parameters:
+
+* each neuron provides configurable AdEx_ neuron dynamics
+* the synapses provide 4-bit weight resolution and STDP functionality
+* the connection topology can be configured
+
+For a detailed specification see the `Platform specification`_.
+
+The full BrainScaleS system
+---------------------------
+
+The BrainScaleS system, shown in Figure :num:`nmpm1-hardware-figure`,
+consists of 20 neuromorphic wafer modules together with support infrastructure
+and a conventional compute cluster used for controlling the wafer modules and for simulated environments.
+
+.. _nmpm1-hardware-figure:
+
+.. figure:: nmpm1_cgiracks.jpg
+      :width: 100%
+      :alt: NMPM-1 system
+
+      The BrainScaleS (NM-PM-1) system: five 19-inch racks contain 20 neuromorphic wafer modules (cf. :num:`waferscale-hardware-figure`), the other two racks carry power supplies and a conventional control cluster.
+
+
+Figure :num:`nmpm1-overview-figure` provides a simplified overview of the BrainScaleS system.
+The support infrastructure is responsible for power supply, off-wafer communication and analog readout functionality.
+A dedicated Raspberry Pi monitors and controls all power links as well as other operating parameters of the wafer system.
+Analog readout (e.g., recording of membrane voltages) functionality is provided by a custom analog readout module (AnaRM).
+Several AnaRMs are handled by another dedicated control computer.
+The control/compute cluster orchestrates the configuration of the system and the execution of neuronal network experiments including all input and output data of the emulated network.
+
+.. _nmpm1-overview-figure:
+
+.. figure:: nmpm1_overview.png
+      :width: 100%
+      :alt: Simplified overview of the BrainScaleS system
+
+      The left area illustrates the partitioning of HICANNs into larger units (reticles) and the data flow up to the control cluster.
+
+Synaptic Weights
+----------------
+
+The synaptic weight of a single synapse is proportional to the synaptic current :math:`I_{syn}` that is send to the synaptic input circuit of its associated neuron:
+
+.. math::
+   I_{syn} \propto w \cdot \frac{V_{gmax}}{gmax\_div},
+
+where :math:`w \in [0, 15]` is the 4-bit weight in every synapse, :math:`gmax\_div \in [2, 30]` can be set per synapse row and :math:`V_{gmax} \in [0, 1023]` can be selected per synapse row from one of four values per HICANN quadrant.
+
+The synaptic conductance course is then generated according to the configured synaptic time constant within the synaptic input circuit of a neuron.
+
+In addition, there is a contribution to the synaptic conductance that does not depend on :math:`V_{gmax}` nor :math:`gmax\_div` but only on the 4-bit weight, cf. PhDCK_. Notably this contribution is not linear in the 4-bit weight.
+
+Setting these low-level parameters is possible and exemplified in :ref:`using-marocco`.
+
+Glossary
+--------
+
+.. [#f1] Application Specific Integrated Circuit
+.. [#f2] Field Programmable Gate Array
+
+.. _`Platform specification`: https://flagship.kip.uni-heidelberg.de/jss/FileExchange?s=qqdXDg6HuX3&uID=65
+.. _`Schemmel et al. (2010)`: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5536970
+.. _`Schemmel et al. (2008)`: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4633828
+.. _AdEx: http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model
+.. _PhDCK: http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3436

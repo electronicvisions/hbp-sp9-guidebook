@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CapMemBlockConfig::PauseCounter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; PauseCounter, uint_fast32_t, 4294967295, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter_1ad69ce971b2f05cc3000a5f468ff4805d" prot="public" static="no">
+        <type>halco::common::detail::RantWrapper&lt; <ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter" kindref="compound">PauseCounter</ref>, uint_fast32_t, 4294967295, 0 &gt;::<ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter_1ad69ce971b2f05cc3000a5f468ff4805d" kindref="member">rant_t</ref></type>
+        <definition>typedef halco::common::detail:: RantWrapper&lt;PauseCounter, uint_fast32_t, 4294967295 , 0&gt;::rant_t haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PauseCounter::rant_t</definition>
+        <argsstring></argsstring>
+        <name>rant_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="285" column="26" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter_1a58f7fb18ec174450dbea4c69affcf568" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PauseCounter::PauseCounter</definition>
+        <argsstring>()</argsstring>
+        <name>PauseCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="286" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter_1a5ca1c253c5f7f782b59fad3b27a66c8a" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PauseCounter::PauseCounter</definition>
+        <argsstring>(uintmax_t const val)</argsstring>
+        <name>PauseCounter</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="287" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="287" bodyend="289"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; PauseCounter, uint_fast32_t, 4294967295, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PauseCounter</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; PauseCounter, uint_fast32_t, 4294967295, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PauseCounter</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="280" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="283" bodyend="290"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter_1a58f7fb18ec174450dbea4c69affcf568" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PauseCounter</scope><name>PauseCounter</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter_1a5ca1c253c5f7f782b59fad3b27a66c8a" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PauseCounter</scope><name>PauseCounter</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter_1ad69ce971b2f05cc3000a5f468ff4805d" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PauseCounter</scope><name>rant_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

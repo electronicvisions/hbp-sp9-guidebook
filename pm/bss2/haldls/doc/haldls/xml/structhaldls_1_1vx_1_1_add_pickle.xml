@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_add_pickle" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::AddPickle</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename TL</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+<para>Add pickle support to list of classes. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type list of classes to add pickle support for </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" line="16" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" bodystart="16" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

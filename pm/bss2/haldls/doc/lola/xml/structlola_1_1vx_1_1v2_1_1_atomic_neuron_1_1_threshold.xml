@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::v2::AtomicNeuron::Threshold</compoundname>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1a05c7b51f364a63ef09630d0ecb6c81ae" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Threshold::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <briefdescription>
+<para>Enable spike threshold comparator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="125" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1ae446686e175470347f30a81b8a712675" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7ebf298e4c0071c85ec5e52b8754c77a" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v2::AtomicNeuron::Threshold::v_threshold</definition>
+        <argsstring></argsstring>
+        <name>v_threshold</name>
+        <briefdescription>
+<para>Spike <ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold" kindref="compound">Threshold</ref> potential. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="128" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1ae5234d0426ed56066887d4ef82e86571" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v2::AtomicNeuron::Threshold::Threshold</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1a06550c254e0a24c45b753880fbb61d39" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Threshold::operator!=</definition>
+        <argsstring>(Threshold const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold" kindref="compound">Threshold</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="131" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1abed1387987013c551438bb24255af80e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Threshold::operator==</definition>
+        <argsstring>(Threshold const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold" kindref="compound">Threshold</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="130" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1a86e343cc32ca8950ee6e1afec3df5fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Threshold const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold" kindref="compound">Threshold</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="134" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="120" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="121" bodyend="135"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1a05c7b51f364a63ef09630d0ecb6c81ae" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Threshold</scope><name>enable</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1a06550c254e0a24c45b753880fbb61d39" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Threshold</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1a86e343cc32ca8950ee6e1afec3df5fd2" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Threshold</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1abed1387987013c551438bb24255af80e" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Threshold</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1ae5234d0426ed56066887d4ef82e86571" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Threshold</scope><name>Threshold</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold_1ae446686e175470347f30a81b8a712675" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Threshold</scope><name>v_threshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

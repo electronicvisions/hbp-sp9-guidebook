@@ -1,0 +1,155 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>The SpiNNaker standalone system &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/hbpdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/extra.js"></script>
+    <script src="../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Benchmarks" href="../benchmarks.html" />
+    <link rel="prev" title="Using the SpiNNaker system" href="using_spiNNaker.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">The SpiNNaker standalone system</a><ul>
+<li><a class="reference internal" href="#installation-and-use-of-the-spinnaker-software">Installation and use of the SpiNNaker software</a></li>
+<li><a class="reference internal" href="#extending-the-spinnaker-software">Extending the SpiNNaker Software</a></li>
+<li><a class="reference internal" href="#generating-live-input-and-output">Generating Live Input and Output</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="using_spiNNaker.html"
+                        title="previous chapter">Using the SpiNNaker system</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../benchmarks.html"
+                        title="next chapter">Benchmarks</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/mc/standaloneSpiNNaker.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+                <div class="breadcrumb breadcrumb-meta expand">
+                    
+                    <a href="mc_index.html">The SpiNNaker “many core” system</a>
+                    
+                </div>
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="using_spiNNaker.html">Using the SpiNNaker system</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="../benchmarks.html">Benchmarks</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="the-spinnaker-standalone-system">
+<h1>The SpiNNaker standalone system<a class="headerlink" href="#the-spinnaker-standalone-system" title="Permalink to this headline">¶</a></h1>
+<p>SpiNNaker boards and multi-board systems can be used directly connected to your laptop or PC.  This requires the installation of the software stack on your host machine to control the board.</p>
+<section id="installation-and-use-of-the-spinnaker-software">
+<h2>Installation and use of the SpiNNaker software<a class="headerlink" href="#installation-and-use-of-the-spinnaker-software" title="Permalink to this headline">¶</a></h2>
+<p>Instructions on how to install the most recent SpiNNaker high level software stack can be found <a class="reference external" href="http://spinnakermanchester.github.io/latest/spynnaker_install.html">here</a>.</p>
+<p>There is a tutorial on creating basic PyNN networks and running them on SpiNNaker <a class="reference external" href="http://spinnakermanchester.github.io/latest/spynnaker_tutorial.html">here</a>, and another tutorial on using STDP plasticity on SpiNNaker <a class="reference external" href="http://spinnakermanchester.github.io/latest/spynnaker_plasticity_tutorial.html">here</a>.</p>
+</section>
+<section id="extending-the-spinnaker-software">
+<h2>Extending the SpiNNaker Software<a class="headerlink" href="#extending-the-spinnaker-software" title="Permalink to this headline">¶</a></h2>
+<p>The software that executes on the SpiNNaker machine is written in C code, so it is not too difficult to extend this to run new neural, synapse and plasticity models, amongst other things.  Instructions on how to extend the software can be found <a class="reference external" href="http://spinnakermanchester.github.io/latest/spynnaker_new_models.html">here</a>.</p>
+</section>
+<section id="generating-live-input-and-output">
+<h2>Generating Live Input and Output<a class="headerlink" href="#generating-live-input-and-output" title="Permalink to this headline">¶</a></h2>
+<p>SpiNNaker extends PyNN by allowing live input and output from the simulation during execution.  This can be used for communication with external devices or other simulations, such as robotic devices or robotic simulations, or for visualisation during the simulation.  Instructions on the use of this feature can be found <a class="reference external" href="http://spinnakermanchester.github.io/latest/spynnaker_external_io.html">here</a>.</p>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="using_spiNNaker.html">Using the SpiNNaker system</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="../benchmarks.html">Benchmarks</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

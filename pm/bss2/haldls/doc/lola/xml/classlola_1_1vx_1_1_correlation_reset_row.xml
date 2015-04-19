@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_correlation_reset_row" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::CorrelationResetRow</compoundname>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_correlation_reset_row_1a0639e590ba7b8f1e76058c820961a837" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CorrelationResetRowOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CorrelationResetRowOnDLS lola::vx::CorrelationResetRow::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="389" column="57" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_correlation_reset_row_1a84d7a76e0448b6b88131e859dfdcbe1e" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::CorrelationResetRow::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="388" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_correlation_reset_row_1aa9506feba0621ceb54a4294c0a41b34c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class haldls::vx::detail::VisitPreorderImpl&lt; CorrelationResetRow &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; CorrelationResetRow &gt;</name>
+        <param>
+          <type>haldls::vx::detail::VisitPreorderImpl&lt; <ref refid="classlola_1_1vx_1_1_correlation_reset_row" kindref="compound">CorrelationResetRow</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="398" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_correlation_reset_row_1a553c26f084e0e0f3325aa08d7c282ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CorrelationResetRow const &amp;row) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_correlation_reset_row" kindref="compound">CorrelationResetRow</ref> const &amp;</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="398" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_correlation_reset_row_1a2b9f93042380a9a9d7c3b1d2dc592e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::CorrelationResetRow::CorrelationResetRow</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CorrelationResetRow</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="392" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_correlation_reset_row_1ae31a46c226201b34f9ae6388c2ff1a41" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::CorrelationResetRow::operator!=</definition>
+        <argsstring>(CorrelationResetRow const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_correlation_reset_row" kindref="compound">CorrelationResetRow</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="395" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_correlation_reset_row_1a89f044f72e2b04a93acf497a7a93644c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::CorrelationResetRow::operator==</definition>
+        <argsstring>(CorrelationResetRow const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_correlation_reset_row" kindref="compound">CorrelationResetRow</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="394" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="struct_reset" kindref="compound">Reset</ref> correlation capacitors in all quads of a given row on synram. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Using this container is equivalent to writing haldls CorrelationReset containers to all quads of the row. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="385" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="386" bodyend="403"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a0639e590ba7b8f1e76058c820961a837" prot="public" virt="non-virtual"><scope>lola::vx::CorrelationResetRow</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a2b9f93042380a9a9d7c3b1d2dc592e79" prot="public" virt="non-virtual"><scope>lola::vx::CorrelationResetRow</scope><name>CorrelationResetRow</name></member>
+      <member refid="classlola_1_1vx_1_1_correlation_reset_row_1aa9506feba0621ceb54a4294c0a41b34c" prot="public" virt="non-virtual"><scope>lola::vx::CorrelationResetRow</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; CorrelationResetRow &gt;</name></member>
+      <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a84d7a76e0448b6b88131e859dfdcbe1e" prot="public" virt="non-virtual"><scope>lola::vx::CorrelationResetRow</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_correlation_reset_row_1ae31a46c226201b34f9ae6388c2ff1a41" prot="public" virt="non-virtual"><scope>lola::vx::CorrelationResetRow</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a553c26f084e0e0f3325aa08d7c282ecc" prot="public" virt="non-virtual"><scope>lola::vx::CorrelationResetRow</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a89f044f72e2b04a93acf497a7a93644c" prot="public" virt="non-virtual"><scope>lola::vx::CorrelationResetRow</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

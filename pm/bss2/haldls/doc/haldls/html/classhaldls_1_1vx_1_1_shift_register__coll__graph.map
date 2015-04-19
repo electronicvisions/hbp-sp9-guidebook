@@ -1,0 +1,4 @@
+<map id="haldls::vx::ShiftRegister" name="haldls::vx::ShiftRegister">
+<area shape="rect" id="node1" title="Container for configuration of the 24&#45;bit wide shift register controlling six VDD switches,..." alt="" coords="5,97,166,125"/>
+<area shape="rect" id="node2" href="$classhaldls_1_1vx_1_1_differential_write_trait.html" title="Trait signalling derived&#45;from container type support differential write operation." alt="" coords="12,5,160,49"/>
+</map>

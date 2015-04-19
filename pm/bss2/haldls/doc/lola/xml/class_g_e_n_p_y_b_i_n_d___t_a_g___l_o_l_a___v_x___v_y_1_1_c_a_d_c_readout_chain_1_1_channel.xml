@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel" kind="class" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</compoundname>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a2f2638ed928279d5b49f57e7d70b57a0" prot="public" static="no">
+        <type>haldls::vx::CADCChannelConfig::Offset</type>
+        <definition>typedef haldls::vx::CADCChannelConfig::Offset GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel::Offset</definition>
+        <argsstring></argsstring>
+        <name>Offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="66" column="47" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1aaffd0a583465c053f3be93333a5cc766" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel::enable_connect_correlation</definition>
+        <argsstring></argsstring>
+        <name>enable_connect_correlation</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+<para>Decide whether the CADC channel is connected to the synapse array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is required when reading either from the synapses&apos; correlation sensors or from the neurons. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="78" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a956bb1ac3c4e4e88d1f9c8a2a882ae65" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel::enable_connect_debug</definition>
+        <argsstring></argsstring>
+        <name>enable_connect_debug</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+<para>Decide whether the CADC channel is connected to a common debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This must not be enabled if all channels are to be used independently. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="83" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a4d1b647cbd07cc6d95b950fd94dc24d9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel::enable_connect_neuron</definition>
+        <argsstring></argsstring>
+        <name>enable_connect_neuron</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+<para>Decide whether the line through the synapse array is connected to the neuron readout buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This must not be enabled if correlations are to be read. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="88" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a3446f3af05463fc2f2b72b4e1d86c36c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a2f2638ed928279d5b49f57e7d70b57a0" kindref="member">Offset</ref></type>
+        <definition>Offset GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Digital offset for the result obtained by the CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Typically obtained from calibration. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="72" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1ae3b0871d7ffee870fddc9c9e31498ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel::Channel</definition>
+        <argsstring>()=default</argsstring>
+        <name>Channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a702a008ac458acde2e278f90ca262c2b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel::operator!=</definition>
+        <argsstring>(Channel const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel" kindref="compound">Channel</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="93" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1aadb3dd4487e911e90b692e04341c5a27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel::operator==</definition>
+        <argsstring>(Channel const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel" kindref="compound">Channel</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="92" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a1bc2228f23830dc15a850faea820d876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Channel const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel" kindref="compound">Channel</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="96" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration of each CADC channel. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains individual calibration and connection settings. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="63" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="64" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1ae3b0871d7ffee870fddc9c9e31498ec4" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>Channel</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1aaffd0a583465c053f3be93333a5cc766" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>enable_connect_correlation</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a956bb1ac3c4e4e88d1f9c8a2a882ae65" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>enable_connect_debug</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a4d1b647cbd07cc6d95b950fd94dc24d9" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>enable_connect_neuron</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a2f2638ed928279d5b49f57e7d70b57a0" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>Offset</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a3446f3af05463fc2f2b72b4e1d86c36c" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>offset</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a702a008ac458acde2e278f90ca262c2b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>operator!=</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1a1bc2228f23830dc15a850faea820d876" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel_1aadb3dd4487e911e90b692e04341c5a27" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

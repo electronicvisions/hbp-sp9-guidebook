@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightRow &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BackendContainerBase&lt; lola::vx::SynapseWeightRow, fisch::vx::word_access_type::Omnibus, fisch::vx::word_access_type::OmnibusChipOverJTAG &gt;</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightRow &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_row_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>BackendContainerBase&lt; lola::vx::SynapseWeightRow, fisch::vx::word_access_type::Omnibus, fisch::vx::word_access_type::OmnibusChipOverJTAG &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightRow &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_row_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>BackendContainerBase&lt; lola::vx::SynapseWeightRow, fisch::vx::word_access_type::Omnibus, fisch::vx::word_access_type::OmnibusChipOverJTAG &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="503" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="508" bodyend="508"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y" kind="namespace" language="C++">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY</compoundname>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</innerclass>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CapMem</innerclass>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_synapse_block" prot="public">GENPYBIND_TAG_LOLA_VX_VY::SynapseBlock</innerclass>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_synapse_driver_block" prot="public">GENPYBIND_TAG_LOLA_VX_VY::SynapseDriverBlock</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1a4ec97f00071813f54e9bc8d1ab25131e" prot="public" static="no" mutable="no">
+        <type>class <ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain" kindref="compound">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</ref></type>
+        <definition>class GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</definition>
+        <argsstring></argsstring>
+        <name>CADCReadoutChain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="399" column="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1a40ee5d70e2bd05bda247070cd13a3345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; GENPYBIND_TAG_LOLA_VX_VY::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ReadoutChain::BufferToPad const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1abdc877d6e161275640c3be450238a23e" kindref="member">ReadoutChain::BufferToPad</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="533" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" declline="533" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1a31975cf462bc0d3f433a566fadee03f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; GENPYBIND_TAG_LOLA_VX_VY::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ReadoutChain::InputMux const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a7abaef169f8c4cf34d5b3d03c7d71557" kindref="member">ReadoutChain::InputMux</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="532" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" declline="532" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1a5d685af1b8450fd2cfadccb31da636bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; GENPYBIND_TAG_LOLA_VX_VY::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ReadoutChain::PadMux const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1aafb1e1067af5ca76ecc6cd0b290c69d2" kindref="member">ReadoutChain::PadMux</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="534" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" declline="534" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="44" column="1"/>
+  </compounddef>
+</doxygen>

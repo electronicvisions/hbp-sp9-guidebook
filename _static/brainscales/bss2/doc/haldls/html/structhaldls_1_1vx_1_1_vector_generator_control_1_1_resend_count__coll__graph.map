@@ -1,0 +1,4 @@
+<map id="haldls::vx::VectorGeneratorControl::ResendCount" name="haldls::vx::VectorGeneratorControl::ResendCount">
+<area shape="rect" id="node1" title="Number of times to resend same input." alt="" coords="16,113,199,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,210,65"/>
+</map>

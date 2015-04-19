@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_common_synram_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonSynramConfig</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" prot="public">haldls::vx::CommonSynramConfig::PCConf</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_wait_ctr_clear" prot="public">haldls::vx::CommonSynramConfig::WaitCtrClear</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf" prot="public">haldls::vx::CommonSynramConfig::WConf</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_synram_config_1a67a40b0083e191babbf453ef6834a3ba" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CommonSynramConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CommonSynramConfigOnDLS haldls::vx::CommonSynramConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="55" column="56" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_synram_config_1aa45dac5451fc18825a04b6349207c2a2" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CommonSynramConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="56" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_synram_config_1a47f60c553d2291671091e99354ee5aeb" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CommonSynramConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="121" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_synram_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="138" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_synram_config_1a7c2042a7bab27e3f6a73f34df33d8b9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CommonSynramConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_synram_config" kindref="compound">CommonSynramConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="135" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_synram_config_1ace4ae117fcdace799f8852faeba07ca8" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" kindref="compound">PCConf</ref></type>
+        <definition>PCConf haldls::vx::CommonSynramConfig::m_pc_conf_east</definition>
+        <argsstring></argsstring>
+        <name>m_pc_conf_east</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="143" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_synram_config_1a5c015ac6015b209bdfc81bf431672f3c" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" kindref="compound">PCConf</ref></type>
+        <definition>PCConf haldls::vx::CommonSynramConfig::m_pc_conf_west</definition>
+        <argsstring></argsstring>
+        <name>m_pc_conf_west</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="142" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_synram_config_1a9abb167913873e637fcffeaeb658540b" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf" kindref="compound">WConf</ref></type>
+        <definition>WConf haldls::vx::CommonSynramConfig::m_w_conf_east</definition>
+        <argsstring></argsstring>
+        <name>m_w_conf_east</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="145" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_synram_config_1a00060e995397b0dba9d0fcc7173857f8" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf" kindref="compound">WConf</ref></type>
+        <definition>WConf haldls::vx::CommonSynramConfig::m_w_conf_west</definition>
+        <argsstring></argsstring>
+        <name>m_w_conf_west</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="144" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_synram_config_1a7fef3ea315bd8956d73b449c1b1188fe" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_wait_ctr_clear" kindref="compound">WaitCtrClear</ref></type>
+        <definition>WaitCtrClear haldls::vx::CommonSynramConfig::m_wait_ctr_clear</definition>
+        <argsstring></argsstring>
+        <name>m_wait_ctr_clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="146" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a3d0a974ec7636afc8150a3f83da500c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CommonSynramConfig::CommonSynramConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CommonSynramConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1ae289d241a357302eec7d6911e355f164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CommonSynramConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_common_synram_config_1a47f60c553d2291671091e99354ee5aeb" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="128" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1ac5820d5703fbc218727c449fbba0d89f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_common_synram_config_1a47f60c553d2291671091e99354ee5aeb" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::CommonSynramConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="126" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a8fb1c2c7cfee7d477bd49a19b63a3d5c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" kindref="compound">PCConf</ref></type>
+        <definition>PCConf haldls::vx::CommonSynramConfig::get_pc_conf_east</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_pc_conf_east</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="102" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1ab6974e49dc074283ff4cf703686259b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" kindref="compound">PCConf</ref></type>
+        <definition>PCConf haldls::vx::CommonSynramConfig::get_pc_conf_west</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_pc_conf_west</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="97" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1ac0026ddf47d996351b64224b75476d4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf" kindref="compound">WConf</ref></type>
+        <definition>WConf haldls::vx::CommonSynramConfig::get_w_conf_east</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_w_conf_east</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="112" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a8dde3cdb341a01598e1067218e71b7e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf" kindref="compound">WConf</ref></type>
+        <definition>WConf haldls::vx::CommonSynramConfig::get_w_conf_west</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_w_conf_west</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="107" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a3fd2be6b20c947bc1c963c929067536f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_wait_ctr_clear" kindref="compound">WaitCtrClear</ref></type>
+        <definition>WaitCtrClear haldls::vx::CommonSynramConfig::get_wait_ctr_clear</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_wait_ctr_clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="117" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a4e96b5ab330ea3446cacb8284ffb79a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonSynramConfig::operator!=</definition>
+        <argsstring>(CommonSynramConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_synram_config" kindref="compound">CommonSynramConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="132" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1ab706708683b9f51470208b70a6c082fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonSynramConfig::operator==</definition>
+        <argsstring>(CommonSynramConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_synram_config" kindref="compound">CommonSynramConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="131" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1ac69cd0fa1bc0495edb39bad2ef1c2704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonSynramConfig::set_pc_conf_east</definition>
+        <argsstring>(PCConf const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_pc_conf_east</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" kindref="compound">PCConf</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="104" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a3f52a92cd74e3c62cc1e38be628d7e55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonSynramConfig::set_pc_conf_west</definition>
+        <argsstring>(PCConf const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_pc_conf_west</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" kindref="compound">PCConf</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="99" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1abb534c8a6ac3941834d3b68de1756b40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonSynramConfig::set_w_conf_east</definition>
+        <argsstring>(WConf const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_w_conf_east</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf" kindref="compound">WConf</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="114" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a10ef194ce5737a26467a0a63286bce1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonSynramConfig::set_w_conf_west</definition>
+        <argsstring>(WConf const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_w_conf_west</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf" kindref="compound">WConf</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="109" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1abec27f10f2be09e754dd93c529e1275f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonSynramConfig::set_wait_ctr_clear</definition>
+        <argsstring>(WaitCtrClear const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_wait_ctr_clear</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_wait_ctr_clear" kindref="compound">WaitCtrClear</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="119" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a5c7b61c891fe109888bbf633a2dc3dee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_common_synram_config_1a47f60c553d2291671091e99354ee5aeb" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::CommonSynramConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_synram_config_1a67a40b0083e191babbf453ef6834a3ba" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="123" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_synram_config_1a784c7028218f8740343980cc311a9f15" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CommonSynramConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="140" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CommonSynramConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_synram_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CommonSynramConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_synram_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="52" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="53" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a5c7b61c891fe109888bbf633a2dc3dee" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a3d0a974ec7636afc8150a3f83da500c9" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>CommonSynramConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a47f60c553d2291671091e99354ee5aeb" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a67a40b0083e191babbf453ef6834a3ba" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1ae289d241a357302eec7d6911e355f164" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1ac5820d5703fbc218727c449fbba0d89f" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a8fb1c2c7cfee7d477bd49a19b63a3d5c" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>get_pc_conf_east</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1ab6974e49dc074283ff4cf703686259b1" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>get_pc_conf_west</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1ac0026ddf47d996351b64224b75476d4d" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>get_w_conf_east</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a8dde3cdb341a01598e1067218e71b7e8" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>get_w_conf_west</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a3fd2be6b20c947bc1c963c929067536f" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>get_wait_ctr_clear</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1aa45dac5451fc18825a04b6349207c2a2" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1ace4ae117fcdace799f8852faeba07ca8" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>m_pc_conf_east</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a5c015ac6015b209bdfc81bf431672f3c" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>m_pc_conf_west</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a9abb167913873e637fcffeaeb658540b" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>m_w_conf_east</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a00060e995397b0dba9d0fcc7173857f8" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>m_w_conf_west</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a7fef3ea315bd8956d73b449c1b1188fe" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>m_wait_ctr_clear</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a4e96b5ab330ea3446cacb8284ffb79a8" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a7c2042a7bab27e3f6a73f34df33d8b9f" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1ab706708683b9f51470208b70a6c082fb" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a784c7028218f8740343980cc311a9f15" prot="private" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1ac69cd0fa1bc0495edb39bad2ef1c2704" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>set_pc_conf_east</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a3f52a92cd74e3c62cc1e38be628d7e55" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>set_pc_conf_west</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1abb534c8a6ac3941834d3b68de1756b40" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>set_w_conf_east</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1a10ef194ce5737a26467a0a63286bce1a" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>set_w_conf_west</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_synram_config_1abec27f10f2be09e754dd93c529e1275f" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig</scope><name>set_wait_ctr_clear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

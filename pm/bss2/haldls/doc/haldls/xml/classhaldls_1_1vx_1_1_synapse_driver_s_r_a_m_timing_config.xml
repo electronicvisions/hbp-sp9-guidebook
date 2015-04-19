@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseDriverSRAMTimingConfig</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config" prot="public" virt="non-virtual">haldls::vx::detail::SRAMTimingConfig</basecompoundref>
+    <includes refid="synapse__driver_8h" local="no">synapse_driver.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1a6fc647b3e717ac1ac8b4a6a88173d493" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SynapseDriverSRAMTimingConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::SynapseDriverSRAMTimingConfigOnDLS haldls::vx::SynapseDriverSRAMTimingConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="30" column="67" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a402efa1da872148387bfeefd127c4a2b" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::detail::SRAMTimingConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="36" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::detail::SRAMTimingConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="96" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1a4f35df1ef47836aa5f99f087f7eb47ff" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::SynapseDriverSRAMTimingConfig::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::simulation, hxcomm::vx::Target::hardware}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="32" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="48" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1aede04410af63335bf588df5db8729e6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SynapseDriverSRAMTimingConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config" kindref="compound">SynapseDriverSRAMTimingConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="40" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1aaaafdad19570c4f78f936ca2804a8982" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::SynapseDriverSRAMTimingConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) const SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1a6fc647b3e717ac1ac8b4a6a88173d493" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="44" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1ac48369cc2b03d50f0bf848e667cda3a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::detail::SRAMTimingConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="100" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a1cbb7fb662301996850162360a026168" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::detail::SRAMTimingConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="98" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1abcfecf590074c1586296bb23f5917d74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_address_setup_time" kindref="compound">AddressSetupTime</ref></type>
+        <definition>AddressSetupTime haldls::vx::detail::SRAMTimingConfig::get_address_setup_time</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_address_setup_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="84" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1aa9fc2672c0012bcfbce94a219b6eac8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width" kindref="compound">EnableWidth</ref></type>
+        <definition>EnableWidth haldls::vx::detail::SRAMTimingConfig::get_enable_width</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="89" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a4eccc650937ff4b62168ef0b08da6dc2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay" kindref="compound">ReadDelay</ref></type>
+        <definition>ReadDelay haldls::vx::detail::SRAMTimingConfig::get_read_delay</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_read_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="79" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a22c1c0222d94e60291e00bd84573a8ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::SRAMTimingConfig::operator!=</definition>
+        <argsstring>(SRAMTimingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a7a16f31e0dad457af0156880d91be12b" kindref="member">SRAMTimingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="94" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1a06ab33d42bf23a324e5bda5fb2ff1278" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SynapseDriverSRAMTimingConfig::operator!=</definition>
+        <argsstring>(SynapseDriverSRAMTimingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config" kindref="compound">SynapseDriverSRAMTimingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="37" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a494b877bceedc23bbe27cdf509156a31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::SRAMTimingConfig::operator==</definition>
+        <argsstring>(SRAMTimingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a7a16f31e0dad457af0156880d91be12b" kindref="member">SRAMTimingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="93" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1ad2278eb51d2ecf7d6d34f5a655a87d80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SynapseDriverSRAMTimingConfig::operator==</definition>
+        <argsstring>(SynapseDriverSRAMTimingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config" kindref="compound">SynapseDriverSRAMTimingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="36" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a504db8c6d25f69138d96118899fa456e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::SRAMTimingConfig::set_address_setup_time</definition>
+        <argsstring>(AddressSetupTime value) SYMBOL_VISIBLE</argsstring>
+        <name>set_address_setup_time</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_address_setup_time" kindref="compound">AddressSetupTime</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="86" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1afe9331ec953626d8860353a2dffe479d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::SRAMTimingConfig::set_enable_width</definition>
+        <argsstring>(EnableWidth value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_width</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width" kindref="compound">EnableWidth</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="91" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a1d32ad15b5b2e96a66b9988b1fa9791c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::SRAMTimingConfig::set_read_delay</definition>
+        <argsstring>(ReadDelay value) SYMBOL_VISIBLE</argsstring>
+        <name>set_read_delay</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay" kindref="compound">ReadDelay</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="81" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1ab16957ba1737a15b824c9ef212fe0753" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SynapseDriverSRAMTimingConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="50" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>haldls::vx::detail::SRAMTimingConfig</label>
+        <link refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SynapseDriverSRAMTimingConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>haldls::vx::detail::SRAMTimingConfig</label>
+        <link refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SynapseDriverSRAMTimingConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="28" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1aaaafdad19570c4f78f936ca2804a8982" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1a6fc647b3e717ac1ac8b4a6a88173d493" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1ac48369cc2b03d50f0bf848e667cda3a2" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a1cbb7fb662301996850162360a026168" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1abcfecf590074c1586296bb23f5917d74" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>get_address_setup_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1aa9fc2672c0012bcfbce94a219b6eac8b" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>get_enable_width</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a4eccc650937ff4b62168ef0b08da6dc2" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>get_read_delay</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a402efa1da872148387bfeefd127c4a2b" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1a06ab33d42bf23a324e5bda5fb2ff1278" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a22c1c0222d94e60291e00bd84573a8ed" prot="public" virt="non-virtual" ambiguityscope="haldls::vx::detail::SRAMTimingConfig::"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1aede04410af63335bf588df5db8729e6a" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1ad2278eb51d2ecf7d6d34f5a655a87d80" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a494b877bceedc23bbe27cdf509156a31" prot="public" virt="non-virtual" ambiguityscope="haldls::vx::detail::SRAMTimingConfig::"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1ab16957ba1737a15b824c9ef212fe0753" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a504db8c6d25f69138d96118899fa456e" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>set_address_setup_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1afe9331ec953626d8860353a2dffe479d" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>set_enable_width</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a1d32ad15b5b2e96a66b9988b1fa9791c" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>set_read_delay</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a7a16f31e0dad457af0156880d91be12b" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>SRAMTimingConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config_1a4f35df1ef47836aa5f99f087f7eb47ff" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverSRAMTimingConfig</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

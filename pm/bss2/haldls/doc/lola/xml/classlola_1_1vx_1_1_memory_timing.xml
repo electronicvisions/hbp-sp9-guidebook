@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_memory_timing" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::MemoryTiming</compoundname>
+    <includes refid="memory__timing_8h" local="no">memory_timing.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_memory_timing_1ae1e70ed4b8c599b9825c85fd36d50918" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::CADCOffsetSRAMTimingConfig, <ref refid="v3_2neuron_8h_1a0e45b1afb0e892814a49ea8200e71d1b" kindref="member">haldls::vx::CADCOffsetSRAMTimingConfig::coordinate_type</ref> &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::CADCOffsetSRAMTimingConfig, haldls::vx::CADCOffsetSRAMTimingConfig::coordinate_type&gt; lola::vx::MemoryTiming::CADCOffset</definition>
+        <argsstring></argsstring>
+        <name>CADCOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="27" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_memory_timing_1a307e4aeb42afd75556e0a2c8ff812830" prot="public" static="no">
+        <type>halco::hicann_dls::vx::MemoryTimingOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::MemoryTimingOnDLS lola::vx::MemoryTiming::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="19" column="50" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_memory_timing_1a54c64692776a1b45be2e0964dea8d456" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::MemoryTiming::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="20" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_memory_timing_1a826204c2b19bf85bfd9afabf6d988c29" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::NeuronSRAMTimingConfig, <ref refid="v3_2neuron_8h_1a0e45b1afb0e892814a49ea8200e71d1b" kindref="member">haldls::vx::NeuronSRAMTimingConfig::coordinate_type</ref> &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::NeuronSRAMTimingConfig, haldls::vx::NeuronSRAMTimingConfig::coordinate_type&gt; lola::vx::MemoryTiming::Neuron</definition>
+        <argsstring></argsstring>
+        <name>Neuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="35" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_memory_timing_1aaf74bc3be59bb7b50eaaff93cbb45068" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::NeuronBackendSRAMTimingConfig, <ref refid="v3_2neuron_8h_1a0e45b1afb0e892814a49ea8200e71d1b" kindref="member">haldls::vx::NeuronBackendSRAMTimingConfig::coordinate_type</ref> &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::NeuronBackendSRAMTimingConfig, haldls::vx::NeuronBackendSRAMTimingConfig::coordinate_type&gt; lola::vx::MemoryTiming::NeuronBackend</definition>
+        <argsstring></argsstring>
+        <name>NeuronBackend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="39" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_memory_timing_1a51466c58a2710862c066d7c3c4bc5a5d" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::SynapseDriverSRAMTimingConfig, <ref refid="v3_2neuron_8h_1a0e45b1afb0e892814a49ea8200e71d1b" kindref="member">haldls::vx::SynapseDriverSRAMTimingConfig::coordinate_type</ref> &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::SynapseDriverSRAMTimingConfig, haldls::vx::SynapseDriverSRAMTimingConfig::coordinate_type&gt; lola::vx::MemoryTiming::SynapseDriver</definition>
+        <argsstring></argsstring>
+        <name>SynapseDriver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="31" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_memory_timing_1a2f916d3692468261f1cd1a11d915e511" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::CommonSynramConfig, <ref refid="v3_2neuron_8h_1a0e45b1afb0e892814a49ea8200e71d1b" kindref="member">haldls::vx::CommonSynramConfig::coordinate_type</ref> &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;haldls::vx::CommonSynramConfig, haldls::vx::CommonSynramConfig::coordinate_type&gt; lola::vx::MemoryTiming::Synram</definition>
+        <argsstring></argsstring>
+        <name>Synram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="42" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_memory_timing_1a959b4d49ef70367fd535c65311fb2b99" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_memory_timing_1ae1e70ed4b8c599b9825c85fd36d50918" kindref="member">CADCOffset</ref></type>
+        <definition>CADCOffset lola::vx::MemoryTiming::cadc_offset</definition>
+        <argsstring></argsstring>
+        <name>cadc_offset</name>
+        <briefdescription>
+<para>Memory timing of SRAM of CADC offsets. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="47" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_memory_timing_1af85bf01d4b306432c488a1c5e05265df" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_memory_timing_1a826204c2b19bf85bfd9afabf6d988c29" kindref="member">Neuron</ref></type>
+        <definition>Neuron lola::vx::MemoryTiming::neuron</definition>
+        <argsstring></argsstring>
+        <name>neuron</name>
+        <briefdescription>
+<para>Memory timing of SRAM of neurons. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="55" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_memory_timing_1aa0d181571da1783fe545648112a796f7" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_memory_timing_1aaf74bc3be59bb7b50eaaff93cbb45068" kindref="member">NeuronBackend</ref></type>
+        <definition>NeuronBackend lola::vx::MemoryTiming::neuron_backend</definition>
+        <argsstring></argsstring>
+        <name>neuron_backend</name>
+        <briefdescription>
+<para>Memory timing of SRAM of neuron backends. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="59" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_memory_timing_1a88c259ff6c553c5128030a804e1572b5" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_memory_timing_1a51466c58a2710862c066d7c3c4bc5a5d" kindref="member">SynapseDriver</ref></type>
+        <definition>SynapseDriver lola::vx::MemoryTiming::synapse_driver</definition>
+        <argsstring></argsstring>
+        <name>synapse_driver</name>
+        <briefdescription>
+<para>Memory timing of SRAM of synapse drivers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="51" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_memory_timing_1aae37be49252bad31944a0ad1ffe32a51" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_memory_timing_1a2f916d3692468261f1cd1a11d915e511" kindref="member">Synram</ref></type>
+        <definition>Synram lola::vx::MemoryTiming::synram</definition>
+        <argsstring></argsstring>
+        <name>synram</name>
+        <briefdescription>
+<para>Memory timing of SRAM of synram. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="63" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_memory_timing_1af7fca6f59aa81aeae17938c2c7494568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::MemoryTiming::MemoryTiming</definition>
+        <argsstring>()=default</argsstring>
+        <name>MemoryTiming</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_memory_timing_1abcbff1eaaf54156a59a20431aefa21e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::MemoryTiming::operator!=</definition>
+        <argsstring>(MemoryTiming const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_memory_timing" kindref="compound">MemoryTiming</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="66" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_memory_timing_1af6ec6d7835fb9674c97708d005eaf831" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::MemoryTiming::operator==</definition>
+        <argsstring>(MemoryTiming const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_memory_timing" kindref="compound">MemoryTiming</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="65" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_memory_timing_1a5a589f18564a1a8dc4f43f88bfe08896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, MemoryTiming const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_memory_timing" kindref="compound">MemoryTiming</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="69" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Timing configuration of memories. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" line="16" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/memory_timing.h" bodystart="17" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1a959b4d49ef70367fd535c65311fb2b99" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>cadc_offset</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1ae1e70ed4b8c599b9825c85fd36d50918" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>CADCOffset</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1a307e4aeb42afd75556e0a2c8ff812830" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1a54c64692776a1b45be2e0964dea8d456" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1af7fca6f59aa81aeae17938c2c7494568" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>MemoryTiming</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1a826204c2b19bf85bfd9afabf6d988c29" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>Neuron</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1af85bf01d4b306432c488a1c5e05265df" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>neuron</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1aa0d181571da1783fe545648112a796f7" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>neuron_backend</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1aaf74bc3be59bb7b50eaaff93cbb45068" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>NeuronBackend</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1abcbff1eaaf54156a59a20431aefa21e3" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1a5a589f18564a1a8dc4f43f88bfe08896" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1af6ec6d7835fb9674c97708d005eaf831" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1a88c259ff6c553c5128030a804e1572b5" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>synapse_driver</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1a51466c58a2710862c066d7c3c4bc5a5d" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>SynapseDriver</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1a2f916d3692468261f1cd1a11d915e511" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>Synram</name></member>
+      <member refid="classlola_1_1vx_1_1_memory_timing_1aae37be49252bad31944a0ad1ffe32a51" prot="public" virt="non-virtual"><scope>lola::vx::MemoryTiming</scope><name>synram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

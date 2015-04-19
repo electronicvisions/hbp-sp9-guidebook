@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_exponential" kind="struct" language="C++" prot="public">
+    <compoundname>Exponential</compoundname>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_exponential_1a92834149ce761a3d5d8ded0b028f0014" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Exponential::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <briefdescription>
+<para>Enable exponential term. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="249" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_exponential_1a780953c3153194fe81ddb29a70a8a53c" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant Exponential::i_bias</definition>
+        <argsstring></argsstring>
+        <name>i_bias</name>
+        <briefdescription>
+<para>Bias current controlling the strength of the exponential term. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="255" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_exponential_1ae7f5c440b8011e9a33f776ea71d57afb" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant Exponential::v_exp</definition>
+        <argsstring></argsstring>
+        <name>v_exp</name>
+        <briefdescription>
+<para><ref refid="struct_threshold" kindref="compound">Threshold</ref> voltage for the exponential term. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="252" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_exponential_1aae216c31d72a50cc326499c2305bff9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Exponential::Exponential</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Exponential</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="257" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_exponential_1aae216c31d72a50cc326499c2305bff9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Exponential::Exponential</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Exponential</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="266" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_exponential_1a5ecd172408b955da62dd86ac01e997bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Exponential::operator!=</definition>
+        <argsstring>(Exponential const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="260" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_exponential_1a5ecd172408b955da62dd86ac01e997bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Exponential::operator!=</definition>
+        <argsstring>(Exponential const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="269" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_exponential_1a8d5306804916b137191cb6914f33c324" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Exponential::operator==</definition>
+        <argsstring>(Exponential const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="259" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_exponential_1a8d5306804916b137191cb6914f33c324" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Exponential::operator==</definition>
+        <argsstring>(Exponential const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="268" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_exponential_1a6e5d13327bc0369ec76aca48a2c5df97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Exponential const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="263" column="8"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_exponential_1a6e5d13327bc0369ec76aca48a2c5df97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Exponential const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="272" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="246" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="247" bodyend="264"/>
+    <listofallmembers>
+      <member refid="struct_exponential_1a92834149ce761a3d5d8ded0b028f0014" prot="public" virt="non-virtual"><scope>Exponential</scope><name>enable</name></member>
+      <member refid="struct_exponential_1aae216c31d72a50cc326499c2305bff9d" prot="public" virt="non-virtual"><scope>Exponential</scope><name>Exponential</name></member>
+      <member refid="struct_exponential_1aae216c31d72a50cc326499c2305bff9d" prot="public" virt="non-virtual"><scope>Exponential</scope><name>Exponential</name></member>
+      <member refid="struct_exponential_1a780953c3153194fe81ddb29a70a8a53c" prot="public" virt="non-virtual"><scope>Exponential</scope><name>i_bias</name></member>
+      <member refid="struct_exponential_1a5ecd172408b955da62dd86ac01e997bb" prot="public" virt="non-virtual"><scope>Exponential</scope><name>operator!=</name></member>
+      <member refid="struct_exponential_1a5ecd172408b955da62dd86ac01e997bb" prot="public" virt="non-virtual"><scope>Exponential</scope><name>operator!=</name></member>
+      <member refid="struct_exponential_1a6e5d13327bc0369ec76aca48a2c5df97" prot="public" virt="non-virtual"><scope>Exponential</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_exponential_1a6e5d13327bc0369ec76aca48a2c5df97" prot="public" virt="non-virtual"><scope>Exponential</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_exponential_1a8d5306804916b137191cb6914f33c324" prot="public" virt="non-virtual"><scope>Exponential</scope><name>operator==</name></member>
+      <member refid="struct_exponential_1a8d5306804916b137191cb6914f33c324" prot="public" virt="non-virtual"><scope>Exponential</scope><name>operator==</name></member>
+      <member refid="struct_exponential_1ae7f5c440b8011e9a33f776ea71d57afb" prot="public" virt="non-virtual"><scope>Exponential</scope><name>v_exp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

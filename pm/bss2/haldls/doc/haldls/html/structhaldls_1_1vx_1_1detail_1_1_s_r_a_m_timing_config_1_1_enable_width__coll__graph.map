@@ -1,0 +1,4 @@
+<map id="haldls::vx::detail::SRAMTimingConfig::EnableWidth" name="haldls::vx::detail::SRAMTimingConfig::EnableWidth">
+<area shape="rect" id="node1" title="Duration of enable signal pull." alt="" coords="256,13,409,73"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,208,81"/>
+</map>

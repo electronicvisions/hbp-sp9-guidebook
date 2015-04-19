@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::BackgroundSpikeSource::Mask</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; Mask, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</basecompoundref>
+    <includes refid="background_8h" local="no">background.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask_1a37228b4c82c2cab6e34e6b0768dd96e8" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::BackgroundSpikeSource::Mask::Mask</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Mask</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="96" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="96" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>NeuronLabel bit randomization mask. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The lower eight bits of the set neuron label can be replaced by random values on every spike output. Enabled bits lead to replacement by random values. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::BackgroundSpikeSource::Mask</label>
+        <link refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::
+	          RantWrapper&lt; Mask, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::BackgroundSpikeSource::Mask</label>
+        <link refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::
+	          RantWrapper&lt; Mask, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="92" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="95" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask_1a37228b4c82c2cab6e34e6b0768dd96e8" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource::Mask</scope><name>Mask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

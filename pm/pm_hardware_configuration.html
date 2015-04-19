@@ -1,0 +1,216 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>About the BrainScaleS hardware &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/hbpdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/extra.js"></script>
+    <script src="../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Using the BrainScaleS system" href="using_pm_newflow.html" />
+    <link rel="prev" title="The BrainScaleS “physical model” system" href="pm.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">About the BrainScaleS hardware</a><ul>
+<li><a class="reference internal" href="#the-neuromorphic-wafer-module">The neuromorphic wafer module</a></li>
+<li><a class="reference internal" href="#the-full-brainscales-system">The full BrainScaleS system</a></li>
+<li><a class="reference internal" href="#synaptic-weights">Synaptic Weights</a></li>
+<li><a class="reference internal" href="#glossary">Glossary</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="pm.html"
+                        title="previous chapter">The BrainScaleS “physical model” system</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="using_pm_newflow.html"
+                        title="next chapter">Using the BrainScaleS system</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/pm/pm_hardware_configuration.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+                <div class="breadcrumb breadcrumb-meta expand">
+                    
+                    <a href="pm.html">The BrainScaleS “physical model” system</a>
+                    
+                </div>
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="pm.html">The BrainScaleS “physical model” system</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="using_pm_newflow.html">Using the BrainScaleS system</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="about-the-brainscales-hardware">
+<span id="nmpm1-hardware-configuration"></span><h1>About the BrainScaleS hardware<a class="headerlink" href="#about-the-brainscales-hardware" title="Permalink to this headline">¶</a></h1>
+<section id="the-neuromorphic-wafer-module">
+<h2>The neuromorphic wafer module<a class="headerlink" href="#the-neuromorphic-wafer-module" title="Permalink to this headline">¶</a></h2>
+<p>At the core of the BrainScaleS wafer-scale hardware system (see Figure <a href="#waferscale-hardware-figure">53</a>) is an uncut wafer built from mixed-signal ASICs <a class="footnote-reference brackets" href="#f1" id="id1">1</a>,
+named <cite>High Input Count Analog Neural Network</cite> chips (<cite>HICANNs</cite>), which provide a highly configurable substrate that physically emulates adaptively spiking neurons and dynamic synapses (<a class="reference external" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5536970">Schemmel et al. (2010)</a>, <a class="reference external" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4633828">Schemmel et al. (2008)</a>).
+The intrinsic time constants of these VLSI model circuits are multiple orders of magnitude shorter than their biological counterparts.
+Consequently, the hardware model evolves with a speedup factor of <span class="math notranslate nohighlight">\(10^3\)</span> up to <span class="math notranslate nohighlight">\(10^5\)</span> compared to biological real time, the precise value depending on the configuration of the system.
+This speedup enables power-efficient computation as the energy consumption for synaptic transmissions is several orders of magnitude lower than in classically simulated neuronal networks.</p>
+<figure class="align-default" id="id3">
+<span id="waferscale-hardware-figure"></span><a class="reference internal image-reference" href="../_images/waferscale_system.png"><img alt="wafer-scale system" src="../_images/waferscale_system.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Figure 53: The BrainScaleS wafer-scale hardware system: Wafer comprising HICANN building blocks and on-wafer communication infrastructure, mechanical infrastructure (top cover and insertion frame), analog readout boards (AnaB), power supply and digital inter-wafer as well as wafer-host communication modules.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>In addition to a high-bandwidth asynchronous on-wafer event communication infrastructure, 48 FPGA <a class="footnote-reference brackets" href="#f2" id="id2">2</a> communication modules provide off-wafer connectivity (to other wafers and to host computers).</p>
+<p>A full wafer system comprises 384 interconnectable HICANNs, each of which implements more than 114,688 programmable dynamic synapses and up to 512 neurons, resulting in a total of approximately 44 million synapses and up to 196,608 neurons per wafer module.
+The exact number of neurons depends on the configuration of the substrate, which allows to combine multiple neuron building blocks to increase the input count per cell.</p>
+<p>Via the communication FPGAs the system can be configured and operated from a host computer.
+Each communication FPGA is connected to a dedicated area on the wafer which contains 8 HICANNs.
+This FPGA-HICANN link is used to configure the HICANNs as well as to transmit pulse events to and from the neural circuits on the wafer.
+The pulse communication between the on-wafer neurons is performed by a bus-like network directly on the wafer.</p>
+<p>The system provides a high degree of configurability with respect to network architecture and neuron parameters:</p>
+<ul class="simple">
+<li><p>each neuron provides configurable <a class="reference external" href="http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model">AdEx</a> neuron dynamics</p></li>
+<li><p>the synapses provide 4-bit weight resolution and STDP functionality</p></li>
+<li><p>the connection topology can be configured</p></li>
+</ul>
+<p>For a detailed specification see the <a class="reference external" href="https://flagship.kip.uni-heidelberg.de/jss/FileExchange?s=qqdXDg6HuX3&amp;uID=65">Platform specification</a>.</p>
+</section>
+<section id="the-full-brainscales-system">
+<h2>The full BrainScaleS system<a class="headerlink" href="#the-full-brainscales-system" title="Permalink to this headline">¶</a></h2>
+<p>The BrainScaleS system, shown in Figure <a href="#nmpm1-hardware-figure">54</a>,
+consists of 20 neuromorphic wafer modules together with support infrastructure
+and a conventional compute cluster used for controlling the wafer modules and for simulated environments.</p>
+<figure class="align-default" id="id4">
+<span id="nmpm1-hardware-figure"></span><a class="reference internal image-reference" href="../_images/nmpm1_cgiracks.jpg"><img alt="NMPM-1 system" src="../_images/nmpm1_cgiracks.jpg" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Figure 54: The BrainScaleS (NM-PM-1) system: five 19-inch racks contain 20 neuromorphic wafer modules (cf. <a href="#waferscale-hardware-figure">53</a>), the other two racks carry power supplies and a conventional control cluster.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p>Figure <a href="#nmpm1-overview-figure">55</a> provides a simplified overview of the BrainScaleS system.
+The support infrastructure is responsible for power supply, off-wafer communication and analog readout functionality.
+A dedicated Raspberry Pi monitors and controls all power links as well as other operating parameters of the wafer system.
+Analog readout (e.g., recording of membrane voltages) functionality is provided by a custom analog readout module (AnaRM).
+Several AnaRMs are handled by another dedicated control computer.
+The control/compute cluster orchestrates the configuration of the system and the execution of neuronal network experiments including all input and output data of the emulated network.</p>
+<figure class="align-default" id="id5">
+<span id="nmpm1-overview-figure"></span><a class="reference internal image-reference" href="../_images/nmpm1_overview.png"><img alt="Simplified overview of the BrainScaleS system" src="../_images/nmpm1_overview.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Figure 55: The left area illustrates the partitioning of HICANNs into larger units (reticles) and the data flow up to the control cluster.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="synaptic-weights">
+<h2>Synaptic Weights<a class="headerlink" href="#synaptic-weights" title="Permalink to this headline">¶</a></h2>
+<p>The synaptic weight of a single synapse is proportional to the synaptic current <span class="math notranslate nohighlight">\(I_{syn}\)</span> that is send to the synaptic input circuit of its associated neuron:</p>
+<div class="math notranslate nohighlight">
+\[I_{syn} \propto w \cdot \frac{V_{gmax}}{gmax\_div},\]</div>
+<p>where <span class="math notranslate nohighlight">\(w \in [0, 15]\)</span> is the 4-bit weight in every synapse, <span class="math notranslate nohighlight">\(gmax\_div \in [2, 30]\)</span> can be set per synapse row and <span class="math notranslate nohighlight">\(V_{gmax} \in [0, 1023]\)</span> can be selected per synapse row from one of four values per HICANN quadrant.</p>
+<p>The synaptic conductance course is then generated according to the configured synaptic time constant within the synaptic input circuit of a neuron.</p>
+<p>In addition, there is a contribution to the synaptic conductance that does not depend on <span class="math notranslate nohighlight">\(V_{gmax}\)</span> nor <span class="math notranslate nohighlight">\(gmax\_div\)</span> but only on the 4-bit weight, cf. <a class="reference external" href="http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3436">PhDCK</a>. Notably this contribution is not linear in the 4-bit weight.</p>
+<p>Setting these low-level parameters is possible and exemplified in <a class="reference internal" href="using_pm_newflow.html#using-marocco"><span class="std std-ref">Using marocco</span></a>.</p>
+</section>
+<section id="glossary">
+<h2>Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">¶</a></h2>
+<dl class="footnote brackets">
+<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Application Specific Integrated Circuit</p>
+</dd>
+<dt class="label" id="f2"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p>Field Programmable Gate Array</p>
+</dd>
+</dl>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="pm.html">The BrainScaleS “physical model” system</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="using_pm_newflow.html">Using the BrainScaleS system</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

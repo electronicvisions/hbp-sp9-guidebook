@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::v3::AtomicNeuron::ConstantCurrent</compoundname>
+    <includes refid="v3_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a038e9348a4bacd2c2831c360eb3c9238" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Type</name>
+        <enumvalue id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a038e9348a4bacd2c2831c360eb3c9238a36cd38f49b9afa08222c0dc9ebfe35eb" prot="public">
+          <name>source</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a038e9348a4bacd2c2831c360eb3c9238af6e041176f8cc2998f9465ede0dfeeb1" prot="public">
+          <name>sink</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Sink/source offset current on membrane. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="197" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="198" bodyend="201"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a531ed3af1b261bc329f80a2a912e4f19" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::ConstantCurrent::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <briefdescription>
+<para>Enable application of offset current on membrane. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="191" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1aeaab266260c8fa098aa713865d605b48" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v3_1_1_atomic_neuron_1ac5cb80f89e5824ee3bf053fce0205548" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v3::AtomicNeuron::ConstantCurrent::i_offset</definition>
+        <argsstring></argsstring>
+        <name>i_offset</name>
+        <briefdescription>
+<para>Offset current source/sink from the membrane. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="194" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1aa4813d61810822403ace8f006a155721" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a038e9348a4bacd2c2831c360eb3c9238" kindref="member">lola::vx::v3::AtomicNeuron::ConstantCurrent::Type</ref></type>
+        <definition>enum lola::vx::v3::AtomicNeuron::ConstantCurrent::Type lola::vx::v3::AtomicNeuron::ConstantCurrent::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="201" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a903c512af70d51bd4dde4efe9dafb628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v3::AtomicNeuron::ConstantCurrent::ConstantCurrent</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ConstantCurrent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="188" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a515763bb18622ba3e4b98aa9ca2df2ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::ConstantCurrent::operator!=</definition>
+        <argsstring>(ConstantCurrent const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current" kindref="compound">ConstantCurrent</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="204" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1af152e58ffd803b964ea115abd20f0a25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::ConstantCurrent::operator==</definition>
+        <argsstring>(ConstantCurrent const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current" kindref="compound">ConstantCurrent</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="203" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1ace7ec36d85e407640a656c61133d253f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ConstantCurrent const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current" kindref="compound">ConstantCurrent</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="207" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="186" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="187" bodyend="209"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a903c512af70d51bd4dde4efe9dafb628" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::ConstantCurrent</scope><name>ConstantCurrent</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a531ed3af1b261bc329f80a2a912e4f19" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::ConstantCurrent</scope><name>enable</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1aeaab266260c8fa098aa713865d605b48" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::ConstantCurrent</scope><name>i_offset</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a515763bb18622ba3e4b98aa9ca2df2ea" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::ConstantCurrent</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1ace7ec36d85e407640a656c61133d253f" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::ConstantCurrent</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1af152e58ffd803b964ea115abd20f0a25" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::ConstantCurrent</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1a038e9348a4bacd2c2831c360eb3c9238" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::ConstantCurrent</scope><name>Type</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current_1aa4813d61810822403ace8f006a155721" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::ConstantCurrent</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

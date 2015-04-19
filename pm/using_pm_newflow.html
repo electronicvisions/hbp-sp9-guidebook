@@ -1,0 +1,822 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Using the BrainScaleS system &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/hbpdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/extra.js"></script>
+    <script src="../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Simulating the BrainScaleS hardware" href="ess.html" />
+    <link rel="prev" title="About the BrainScaleS hardware" href="pm_hardware_configuration.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Using the BrainScaleS system</a><ul>
+<li><a class="reference internal" href="#setup">Setup</a></li>
+<li><a class="reference internal" href="#using-marocco">Using marocco</a><ul>
+<li><a class="reference internal" href="#calibration">Calibration</a></li>
+<li><a class="reference internal" href="#running-pynn-scripts">Running pyNN scripts</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#inspect-the-synapse-loss">Inspect the synapse loss</a></li>
+<li><a class="reference internal" href="#details-of-the-software-stack">Details of the software stack</a></li>
+<li><a class="reference internal" href="#faq">FAQ</a><ul>
+<li><a class="reference internal" href="#importerror-no-module-named-coordinate">ImportError: No module named Coordinate</a></li>
+<li><a class="reference internal" href="#rename-pymarocco-none-to-pymarocco-without">Rename PyMarocco.None to PyMarocco.Without</a></li>
+<li><a class="reference internal" href="#runtimeerror-unexpected-peer-disconnection">RuntimeError: Unexpected peer disconnection</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="pm_hardware_configuration.html"
+                        title="previous chapter">About the BrainScaleS hardware</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ess.html"
+                        title="next chapter">Simulating the BrainScaleS hardware</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/pm/using_pm_newflow.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+                <div class="breadcrumb breadcrumb-meta expand">
+                    
+                    <a href="pm.html">The BrainScaleS “physical model” system</a>
+                    
+                </div>
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="pm_hardware_configuration.html">About the BrainScaleS hardware</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="ess.html">Simulating the BrainScaleS hardware</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="using-the-brainscales-system">
+<h1>Using the BrainScaleS system<a class="headerlink" href="#using-the-brainscales-system" title="Permalink to this headline">¶</a></h1>
+<p>As explained in <a class="reference internal" href="../building_models.html#building-models"><span class="std std-ref">Building models</span></a>, both the experiment description and the model description
+for the BrainScaleS system must be written as Python scripts,
+using the PyNN application programming interface (API), version 0.7.</p>
+<p>In the following, the build and work flow on UHEI BrainScaleS cluster frontend nodes is described.
+If BrainScaleS is accessed through the Collaboratory or the Python client, the installation can be skipped.</p>
+<section id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">LC_ALL</span><span class="o">=</span>C
+module load nmpm_software/current
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>run_nmpm_software python -c <span class="s2">&quot;import pyhmf&quot;</span> <span class="o">&amp;&amp;</span> <span class="nb">echo</span> ok
+</pre></div>
+</div>
+<p>should print <code class="docutils literal notranslate"><span class="pre">ok</span></code>.</p>
+<p>The translation from the <cite>biological</cite> neuronal network description into a <cite>hardware</cite> configuration
+is performed by the <code class="docutils literal notranslate"><span class="pre">marocco</span></code> mapping tool
+(for more detailed information, see <a class="reference internal" href="#details-software-stack"><span class="std std-ref">Details of the software stack</span></a> below).</p>
+<p>The BrainScaleS system attempts to automatically place neurons on the wafers in an optimal way.
+However, it is possible to influence this placement, control it manually, and examine the resultant
+data structures using the Python helper module <code class="xref py py-mod docutils literal notranslate"><span class="pre">pymarocco</span></code>.
+This enables users to go from a property in PyNN (e.g. the refractory period of a single neuron
+within an assembly) to the corresponding parameter on hardware.
+A typical use case is iterative low-level tuning of hardware parameters.</p>
+</section>
+<section id="using-marocco">
+<span id="id1"></span><h2>Using marocco<a class="headerlink" href="#using-marocco" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pyhmf</span> <span class="k">as</span> <span class="nn">pynn</span>
+<span class="kn">from</span> <span class="nn">pymarocco</span> <span class="kn">import</span> <span class="n">PyMarocco</span>
+
+<span class="n">marocco</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="p">()</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">marocco</span><span class="o">=</span><span class="n">marocco</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Make sure that the call to <code class="xref py py-func docutils literal notranslate"><span class="pre">setup()</span></code> happens before creating
+populations, if not, the populations will not be visible to <code class="docutils literal notranslate"><span class="pre">marocco</span></code>.</p>
+<p>In the following example, one neuron is placed on the wafer, however,
+by setting <code class="docutils literal notranslate"><span class="pre">marocco.backend</span> <span class="pre">=</span> <span class="pre">PyMarocco.Without</span></code>, the software stops after the map &amp; route process
+(i.e. before configuring the hardware system).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pyhmf</span> <span class="k">as</span> <span class="nn">pynn</span>
+<span class="kn">from</span> <span class="nn">pymarocco</span> <span class="kn">import</span> <span class="n">PyMarocco</span>
+
+<span class="n">marocco</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="p">()</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">Without</span>
+
+<span class="n">pynn</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">marocco</span><span class="o">=</span><span class="n">marocco</span><span class="p">)</span>
+
+<span class="n">neuron</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">,</span> <span class="p">{})</span>
+
+<span class="n">pynn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">end</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Available <code class="docutils literal notranslate"><span class="pre">marocco</span></code> backends are <code class="docutils literal notranslate"><span class="pre">Without</span></code>, <code class="docutils literal notranslate"><span class="pre">Hardware</span></code>, <code class="docutils literal notranslate"><span class="pre">ESS</span></code>. Without has been described above.
+Hardware is the default and performs real experiment runs on the neuromorphic hardware system.
+ESS runs a simulation of the hardware: the Executable System Specification.</p>
+</div>
+<p>In the output you should see:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Populations:
+        0th element:    0x1f98650       Population<span class="o">(</span>IF_cond_exp, <span class="m">1</span><span class="o">)</span>
+</pre></div>
+</div>
+<p>If you don’t see this output, make sure that you called
+<code class="docutils literal notranslate"><span class="pre">pynn.setup(marocco=marocco)</span></code> before the call to <code class="docutils literal notranslate"><span class="pre">pynn.Population</span></code>.</p>
+<p>You will also see a lot of debugging output. To set the log level, add</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pylogging</span>
+<span class="k">for</span> <span class="n">domain</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">]:</span>
+    <span class="n">pylogging</span><span class="o">.</span><span class="n">set_loglevel</span><span class="p">(</span><span class="n">pylogging</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">domain</span><span class="p">),</span> <span class="n">pylogging</span><span class="o">.</span><span class="n">LogLevel</span><span class="o">.</span><span class="n">ERROR</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>after the import of <code class="xref py py-mod docutils literal notranslate"><span class="pre">pymarocco</span></code>.</p>
+<p>As we did not specify on which chip the neuron should be placed,
+marocco decides automatically to use <code class="docutils literal notranslate"><span class="pre">HICANNOnWafer(X(18),</span> <span class="pre">Y(7)),</span>
+<span class="pre">Wafer(0)</span></code> which is in the center of the wafer.</p>
+<p>To choose the HICANN a population is placed on, we give marocco a hint:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyhalco_common</span> <span class="kn">import</span> <span class="n">X</span><span class="p">,</span><span class="n">Y</span>
+<span class="kn">from</span> <span class="nn">pyhalco_hicann_v2</span> <span class="kn">import</span> <span class="n">HICANNOnWafer</span>
+
+<span class="n">marocco</span><span class="o">.</span><span class="n">manual_placement</span><span class="o">.</span><span class="n">on_hicann</span><span class="p">(</span><span class="n">neuron</span><span class="p">,</span> <span class="n">HICANNOnWafer</span><span class="p">(</span><span class="n">X</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">Y</span><span class="p">(</span><span class="mi">5</span><span class="p">)))</span>
+</pre></div>
+</div>
+<p>You can inspect the coordinates on the wafer module <a class="reference external" href="../_static/brainscales/coordinateReference/index.html">here</a>.</p>
+<p>At the end, the script is the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
+
+<span class="kn">import</span> <span class="nn">pyhmf</span> <span class="k">as</span> <span class="nn">pynn</span>
+<span class="kn">from</span> <span class="nn">pyhalco_common</span> <span class="kn">import</span> <span class="n">Enum</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">Y</span>
+<span class="kn">from</span> <span class="nn">pyhalco_hicann_v2</span> <span class="kn">import</span> <span class="n">HICANNOnWafer</span>
+<span class="kn">from</span> <span class="nn">pymarocco</span> <span class="kn">import</span> <span class="n">PyMarocco</span><span class="p">,</span> <span class="n">Defects</span>
+<span class="kn">from</span> <span class="nn">pymarocco.results</span> <span class="kn">import</span> <span class="n">Marocco</span>
+
+<span class="kn">import</span> <span class="nn">pylogging</span>
+<span class="k">for</span> <span class="n">domain</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;Calibtic&quot;</span><span class="p">,</span> <span class="s2">&quot;marocco&quot;</span><span class="p">]:</span>
+    <span class="n">pylogging</span><span class="o">.</span><span class="n">set_loglevel</span><span class="p">(</span><span class="n">pylogging</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">domain</span><span class="p">),</span> <span class="n">pylogging</span><span class="o">.</span><span class="n">LogLevel</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">get_denmems</span><span class="p">(</span><span class="n">pop</span><span class="p">,</span> <span class="n">results</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">neuron</span> <span class="ow">in</span> <span class="n">pop</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">results</span><span class="o">.</span><span class="n">placement</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">neuron</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">denmem</span> <span class="ow">in</span> <span class="n">item</span><span class="o">.</span><span class="n">logical_neuron</span><span class="p">():</span>
+                <span class="k">yield</span> <span class="n">denmem</span>
+
+<span class="n">marocco</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="p">()</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">calib_backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">CalibBackend</span><span class="o">.</span><span class="n">Default</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">defects</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">Defects</span><span class="o">.</span><span class="n">Backend</span><span class="o">.</span><span class="n">Without</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">persist</span> <span class="o">=</span> <span class="s2">&quot;results.xml.gz&quot;</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">marocco</span> <span class="o">=</span> <span class="n">marocco</span><span class="p">)</span>
+
+<span class="c1"># place the full population to a specific HICANN</span>
+<span class="n">pop</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">)</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">manual_placement</span><span class="o">.</span><span class="n">on_hicann</span><span class="p">(</span><span class="n">pop</span><span class="p">,</span> <span class="n">HICANNOnWafer</span><span class="p">(</span><span class="n">X</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">Y</span><span class="p">(</span><span class="mi">5</span><span class="p">)),</span> <span class="mi">4</span><span class="p">)</span>
+
+<span class="c1"># place only parts of a population</span>
+<span class="n">pop2</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">)</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">manual_placement</span><span class="o">.</span><span class="n">on_hicann</span><span class="p">(</span><span class="n">pynn</span><span class="o">.</span><span class="n">PopulationView</span><span class="p">(</span><span class="n">pop2</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="n">HICANNOnWafer</span><span class="p">(</span><span class="n">Enum</span><span class="p">(</span><span class="mi">5</span><span class="p">)))</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">manual_placement</span><span class="o">.</span><span class="n">on_hicann</span><span class="p">(</span><span class="n">pynn</span><span class="o">.</span><span class="n">PopulationView</span><span class="p">(</span><span class="n">pop2</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">HICANNOnWafer</span><span class="p">(</span><span class="n">Enum</span><span class="p">(</span><span class="mi">1</span><span class="p">)))</span>
+<span class="c1"># the third neuron will be automatically placed</span>
+
+<span class="n">pynn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">end</span><span class="p">()</span>
+
+<span class="n">results</span> <span class="o">=</span> <span class="n">Marocco</span><span class="o">.</span><span class="n">from_file</span><span class="p">(</span><span class="n">marocco</span><span class="o">.</span><span class="n">persist</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">denmem</span> <span class="ow">in</span> <span class="n">get_denmems</span><span class="p">(</span><span class="n">pop</span><span class="p">,</span> <span class="n">results</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">denmem</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">denmem</span> <span class="ow">in</span> <span class="n">get_denmems</span><span class="p">(</span><span class="n">pop2</span><span class="p">,</span> <span class="n">results</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">denmem</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>We also added a print out of the chosen neuron circuits:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>NeuronOnWafer<span class="o">(</span>NeuronOnHICANN<span class="o">(</span>X<span class="o">(</span><span class="m">0</span><span class="o">)</span>, top<span class="o">)</span>, HICANNOnWafer<span class="o">(</span>X<span class="o">(</span><span class="m">5</span><span class="o">)</span>, Y<span class="o">(</span><span class="m">5</span><span class="o">)))</span>
+NeuronOnWafer<span class="o">(</span>NeuronOnHICANN<span class="o">(</span>X<span class="o">(</span><span class="m">1</span><span class="o">)</span>, top<span class="o">)</span>, HICANNOnWafer<span class="o">(</span>X<span class="o">(</span><span class="m">5</span><span class="o">)</span>, Y<span class="o">(</span><span class="m">5</span><span class="o">)))</span>
+NeuronOnWafer<span class="o">(</span>NeuronOnHICANN<span class="o">(</span>X<span class="o">(</span><span class="m">0</span><span class="o">)</span>, bottom<span class="o">)</span>, HICANNOnWafer<span class="o">(</span>X<span class="o">(</span><span class="m">5</span><span class="o">)</span>, Y<span class="o">(</span><span class="m">5</span><span class="o">)))</span>
+NeuronOnWafer<span class="o">(</span>NeuronOnHICANN<span class="o">(</span>X<span class="o">(</span><span class="m">1</span><span class="o">)</span>, bottom<span class="o">)</span>, HICANNOnWafer<span class="o">(</span>X<span class="o">(</span><span class="m">5</span><span class="o">)</span>, Y<span class="o">(</span><span class="m">5</span><span class="o">)))</span>
+</pre></div>
+</div>
+<section id="calibration">
+<h3>Calibration<a class="headerlink" href="#calibration" title="Permalink to this headline">¶</a></h3>
+<p>To change the calibration backend from database to XML set
+“calib_backend” to XML. Then the calibration is looked up in xml files
+named <code class="docutils literal notranslate"><span class="pre">w0-h84.xml</span></code>, <code class="docutils literal notranslate"><span class="pre">w0-h276.xml</span></code>, etc. in the directory
+“calib_path”.</p>
+</section>
+<section id="running-pynn-scripts">
+<h3>Running pyNN scripts<a class="headerlink" href="#running-pynn-scripts" title="Permalink to this headline">¶</a></h3>
+<p>To run on the <em>hardware</em> one needs to use the slurm job queue system:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun -p experiment --wmod <span class="m">33</span> --hicann <span class="m">297</span> run_nmpm_software python nmpm1_single_neuron.py
+</pre></div>
+</div>
+<p>nmpm1_single_neuron.py:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
+<span class="c1"># -*- coding: utf-8; -*-</span>
+
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">copy</span>
+
+<span class="kn">from</span> <span class="nn">pyhalbe</span> <span class="kn">import</span> <span class="n">HICANN</span>
+<span class="kn">from</span> <span class="nn">pyhalco_hicann_v2</span> <span class="kn">import</span> <span class="n">Wafer</span><span class="p">,</span> <span class="n">HICANNOnWafer</span><span class="p">,</span> <span class="n">SynapseDriverOnHICANN</span>
+<span class="kn">from</span> <span class="nn">pyhalco_hicann_v2</span> <span class="kn">import</span> <span class="n">RowOnSynapseDriver</span><span class="p">,</span> <span class="n">FGBlockOnHICANN</span>
+<span class="kn">from</span> <span class="nn">pyhalco_common</span> <span class="kn">import</span> <span class="n">Enum</span><span class="p">,</span> <span class="n">iter_all</span>
+<span class="kn">from</span> <span class="nn">pysthal.command_line_util</span> <span class="kn">import</span> <span class="n">init_logger</span>
+<span class="kn">import</span> <span class="nn">pysthal</span>
+
+<span class="kn">import</span> <span class="nn">pyhmf</span> <span class="k">as</span> <span class="nn">pynn</span>
+<span class="kn">from</span> <span class="nn">pymarocco</span> <span class="kn">import</span> <span class="n">PyMarocco</span><span class="p">,</span> <span class="n">Defects</span>
+<span class="kn">from</span> <span class="nn">pymarocco.runtime</span> <span class="kn">import</span> <span class="n">Runtime</span>
+<span class="kn">from</span> <span class="nn">pymarocco.coordinates</span> <span class="kn">import</span> <span class="n">LogicalNeuron</span>
+<span class="kn">from</span> <span class="nn">pymarocco.results</span> <span class="kn">import</span> <span class="n">Marocco</span>
+
+<span class="n">init_logger</span><span class="p">(</span><span class="s2">&quot;WARN&quot;</span><span class="p">,</span> <span class="p">[</span>
+    <span class="p">(</span><span class="s2">&quot;guidebook&quot;</span><span class="p">,</span> <span class="s2">&quot;DEBUG&quot;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">&quot;marocco&quot;</span><span class="p">,</span> <span class="s2">&quot;DEBUG&quot;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">&quot;Calibtic&quot;</span><span class="p">,</span> <span class="s2">&quot;DEBUG&quot;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">&quot;sthal&quot;</span><span class="p">,</span> <span class="s2">&quot;INFO&quot;</span><span class="p">)</span>
+<span class="p">])</span>
+
+<span class="kn">import</span> <span class="nn">pylogging</span>
+<span class="n">logger</span> <span class="o">=</span> <span class="n">pylogging</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;guidebook&quot;</span><span class="p">)</span>
+
+<span class="n">neuron_parameters</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;cm&#39;</span><span class="p">:</span> <span class="mf">0.2</span><span class="p">,</span>
+    <span class="s1">&#39;v_reset&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">70.</span><span class="p">,</span>
+    <span class="s1">&#39;v_rest&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">20.</span><span class="p">,</span>
+    <span class="s1">&#39;v_thresh&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">,</span>
+    <span class="s1">&#39;e_rev_I&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">100.</span><span class="p">,</span>
+    <span class="s1">&#39;e_rev_E&#39;</span><span class="p">:</span> <span class="mf">60.</span><span class="p">,</span>
+    <span class="s1">&#39;tau_m&#39;</span><span class="p">:</span> <span class="mf">20.</span><span class="p">,</span>
+    <span class="s1">&#39;tau_refrac&#39;</span><span class="p">:</span> <span class="mf">0.1</span><span class="p">,</span>
+    <span class="s1">&#39;tau_syn_E&#39;</span><span class="p">:</span> <span class="mf">5.</span><span class="p">,</span>
+    <span class="s1">&#39;tau_syn_I&#39;</span><span class="p">:</span> <span class="mf">5.</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">marocco</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="p">()</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">default_wafer</span> <span class="o">=</span> <span class="n">Wafer</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;WAFER&quot;</span><span class="p">,</span> <span class="mi">33</span><span class="p">)))</span>
+<span class="n">runtime</span> <span class="o">=</span> <span class="n">Runtime</span><span class="p">(</span><span class="n">marocco</span><span class="o">.</span><span class="n">default_wafer</span><span class="p">)</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">marocco</span><span class="o">=</span><span class="n">marocco</span><span class="p">,</span> <span class="n">marocco_runtime</span><span class="o">=</span><span class="n">runtime</span><span class="p">)</span>
+
+<span class="c1">#  ——— set up network ——————————————————————————————————————————————————————————</span>
+
+<span class="n">pop</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">,</span> <span class="n">neuron_parameters</span><span class="p">)</span>
+
+<span class="n">pop</span><span class="o">.</span><span class="n">record</span><span class="p">()</span>
+<span class="n">pop</span><span class="o">.</span><span class="n">record_v</span><span class="p">()</span>
+
+<span class="n">hicann</span> <span class="o">=</span> <span class="n">HICANNOnWafer</span><span class="p">(</span><span class="n">Enum</span><span class="p">(</span><span class="mi">297</span><span class="p">))</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">manual_placement</span><span class="o">.</span><span class="n">on_hicann</span><span class="p">(</span><span class="n">pop</span><span class="p">,</span> <span class="n">hicann</span><span class="p">)</span>
+
+<span class="n">connector</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">AllToAllConnector</span><span class="p">(</span><span class="n">weights</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">exc_spike_times</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="mi">250</span><span class="p">,</span>
+    <span class="mi">500</span><span class="p">,</span>
+    <span class="mi">520</span><span class="p">,</span>
+    <span class="mi">540</span><span class="p">,</span>
+    <span class="mi">1250</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="n">inh_spike_times</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="mi">750</span><span class="p">,</span>
+    <span class="mi">1000</span><span class="p">,</span>
+    <span class="mi">1020</span><span class="p">,</span>
+    <span class="mi">1040</span><span class="p">,</span>
+    <span class="mi">1250</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="n">duration</span> <span class="o">=</span> <span class="mf">1500.0</span>
+
+<span class="n">stimulus_exc</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">SpikeSourceArray</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s1">&#39;spike_times&#39;</span><span class="p">:</span> <span class="n">exc_spike_times</span><span class="p">})</span>
+<span class="n">stimulus_inh</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">SpikeSourceArray</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s1">&#39;spike_times&#39;</span><span class="p">:</span> <span class="n">inh_spike_times</span><span class="p">})</span>
+
+<span class="n">projections</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">pynn</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">stimulus_exc</span><span class="p">,</span> <span class="n">pop</span><span class="p">,</span> <span class="n">connector</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;excitatory&#39;</span><span class="p">),</span>
+    <span class="n">pynn</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">stimulus_inh</span><span class="p">,</span> <span class="n">pop</span><span class="p">,</span> <span class="n">connector</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;inhibitory&#39;</span><span class="p">),</span>
+<span class="p">]</span>
+
+<span class="c1">#  ——— run mapping —————————————————————————————————————————————————————————————</span>
+
+<span class="n">marocco</span><span class="o">.</span><span class="n">skip_mapping</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">Without</span>
+
+<span class="n">pynn</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">duration</span><span class="p">)</span>
+
+<span class="c1">#  ——— change low-level parameters before configuring hardware —————————————————</span>
+
+<span class="k">def</span> <span class="nf">set_sthal_params</span><span class="p">(</span><span class="n">wafer</span><span class="p">,</span> <span class="n">gmax</span><span class="p">,</span> <span class="n">gmax_div</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    synaptic strength:</span>
+<span class="sd">    gmax: 0 - 1023, strongest: 1023</span>
+<span class="sd">    gmax_div: 2 - 30, strongest: 2</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># for all HICANNs in use</span>
+    <span class="k">for</span> <span class="n">hicann</span> <span class="ow">in</span> <span class="n">wafer</span><span class="o">.</span><span class="n">getAllocatedHicannCoordinates</span><span class="p">():</span>
+
+        <span class="n">fgs</span> <span class="o">=</span> <span class="n">wafer</span><span class="p">[</span><span class="n">hicann</span><span class="p">]</span><span class="o">.</span><span class="n">floating_gates</span>
+
+        <span class="c1"># set parameters influencing the synaptic strength</span>
+        <span class="k">for</span> <span class="n">block</span> <span class="ow">in</span> <span class="n">iter_all</span><span class="p">(</span><span class="n">FGBlockOnHICANN</span><span class="p">):</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_gmax0</span><span class="p">,</span> <span class="n">gmax</span><span class="p">)</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_gmax1</span><span class="p">,</span> <span class="n">gmax</span><span class="p">)</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_gmax2</span><span class="p">,</span> <span class="n">gmax</span><span class="p">)</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_gmax3</span><span class="p">,</span> <span class="n">gmax</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">driver</span> <span class="ow">in</span> <span class="n">iter_all</span><span class="p">(</span><span class="n">SynapseDriverOnHICANN</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">iter_all</span><span class="p">(</span><span class="n">RowOnSynapseDriver</span><span class="p">):</span>
+                <span class="n">wafer</span><span class="p">[</span><span class="n">hicann</span><span class="p">]</span><span class="o">.</span><span class="n">synapses</span><span class="p">[</span><span class="n">driver</span><span class="p">][</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">set_gmax_div</span><span class="p">(</span><span class="n">HICANN</span><span class="o">.</span><span class="n">GmaxDiv</span><span class="p">(</span><span class="n">gmax_div</span><span class="p">))</span>
+
+        <span class="c1"># don&#39;t change values below</span>
+        <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">fgs</span><span class="o">.</span><span class="n">getNoProgrammingPasses</span><span class="p">()</span><span class="o">.</span><span class="n">value</span><span class="p">()):</span>
+            <span class="n">cfg</span> <span class="o">=</span> <span class="n">fgs</span><span class="o">.</span><span class="n">getFGConfig</span><span class="p">(</span><span class="n">Enum</span><span class="p">(</span><span class="n">ii</span><span class="p">))</span>
+            <span class="n">cfg</span><span class="o">.</span><span class="n">fg_biasn</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">cfg</span><span class="o">.</span><span class="n">fg_bias</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setFGConfig</span><span class="p">(</span><span class="n">Enum</span><span class="p">(</span><span class="n">ii</span><span class="p">),</span> <span class="n">cfg</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">block</span> <span class="ow">in</span> <span class="n">iter_all</span><span class="p">(</span><span class="n">FGBlockOnHICANN</span><span class="p">):</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_dllres</span><span class="p">,</span> <span class="mi">275</span><span class="p">)</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_ccas</span><span class="p">,</span> <span class="mi">800</span><span class="p">)</span>
+
+<span class="c1"># call at least once</span>
+<span class="n">set_sthal_params</span><span class="p">(</span><span class="n">runtime</span><span class="o">.</span><span class="n">wafer</span><span class="p">(),</span> <span class="n">gmax</span><span class="o">=</span><span class="mi">1023</span><span class="p">,</span> <span class="n">gmax_div</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1">#  ——— configure hardware ——————————————————————————————————————————————————————</span>
+
+<span class="n">marocco</span><span class="o">.</span><span class="n">skip_mapping</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">Hardware</span>
+
+<span class="c1"># magic number from marocco</span>
+<span class="n">SYNAPSE_DECODER_DISABLED_SYNAPSE</span> <span class="o">=</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">SynapseDecoder</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">original_decoders</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">digital_weight</span> <span class="ow">in</span> <span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">]:</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;running measurement with digital weight </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">digital_weight</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">proj</span> <span class="ow">in</span> <span class="n">projections</span><span class="p">:</span>
+        <span class="n">proj_items</span> <span class="o">=</span> <span class="n">runtime</span><span class="o">.</span><span class="n">results</span><span class="p">()</span><span class="o">.</span><span class="n">synapse_routing</span><span class="o">.</span><span class="n">synapses</span><span class="p">()</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">proj</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">proj_item</span> <span class="ow">in</span> <span class="n">proj_items</span><span class="p">:</span>
+            <span class="n">synapse</span> <span class="o">=</span> <span class="n">proj_item</span><span class="o">.</span><span class="n">hardware_synapse</span><span class="p">()</span>
+
+            <span class="n">proxy</span> <span class="o">=</span> <span class="n">runtime</span><span class="o">.</span><span class="n">wafer</span><span class="p">()[</span><span class="n">synapse</span><span class="o">.</span><span class="n">toHICANNOnWafer</span><span class="p">()]</span><span class="o">.</span><span class="n">synapses</span><span class="p">[</span><span class="n">synapse</span><span class="p">]</span>
+
+            <span class="c1"># make a copy of the original decoder value</span>
+            <span class="k">if</span> <span class="n">synapse</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">original_decoders</span><span class="p">:</span>
+                <span class="n">original_decoders</span><span class="p">[</span><span class="n">synapse</span><span class="p">]</span> <span class="o">=</span> <span class="n">copy</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">proxy</span><span class="o">.</span><span class="n">decoder</span><span class="p">)</span>
+
+            <span class="k">if</span> <span class="n">digital_weight</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">proxy</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">SynapseWeight</span><span class="p">(</span><span class="n">digital_weight</span><span class="p">)</span>
+                <span class="n">proxy</span><span class="o">.</span><span class="n">decoder</span> <span class="o">=</span> <span class="n">original_decoders</span><span class="p">[</span><span class="n">synapse</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">proxy</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">SynapseWeight</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+                <span class="c1"># set it to the special value that is never used for incoming addresses</span>
+                <span class="n">proxy</span><span class="o">.</span><span class="n">decoder</span> <span class="o">=</span> <span class="n">SYNAPSE_DECODER_DISABLED_SYNAPSE</span>
+
+    <span class="n">pynn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">duration</span><span class="p">)</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s2">&quot;membrane_w</span><span class="si">{}</span><span class="s2">.txt&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">digital_weight</span> <span class="k">if</span> <span class="n">digital_weight</span> <span class="o">!=</span> <span class="kc">None</span> <span class="k">else</span> <span class="s2">&quot;disabled&quot;</span><span class="p">),</span> <span class="n">pop</span><span class="o">.</span><span class="n">get_v</span><span class="p">())</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s2">&quot;spikes_w</span><span class="si">{}</span><span class="s2">.txt&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">digital_weight</span> <span class="k">if</span> <span class="n">digital_weight</span> <span class="o">!=</span> <span class="kc">None</span> <span class="k">else</span> <span class="s2">&quot;disabled&quot;</span><span class="p">),</span> <span class="n">pop</span><span class="o">.</span><span class="n">getSpikes</span><span class="p">())</span>
+    <span class="n">pynn</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+
+    <span class="c1"># skip checks</span>
+    <span class="n">marocco</span><span class="o">.</span><span class="n">verification</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">Skip</span>
+    <span class="n">marocco</span><span class="o">.</span><span class="n">checkl1locking</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">SkipCheck</span>
+
+<span class="c1"># store the last result for visualization</span>
+<span class="n">runtime</span><span class="o">.</span><span class="n">results</span><span class="p">()</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;results.xml.gz&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Currently, the calibration is optimized towards the neuron parameters of the example.
+Also note that current parameters, i.e. <code class="docutils literal notranslate"><span class="pre">i_offset</span></code> are not supported.</p>
+<p>With the help of <a class="reference external" href="examples/plot_spikes.py">plot_spikes.py</a>, the recorded spikes
+(<code class="docutils literal notranslate"><span class="pre">spikes_w15.txt</span></code>) and membrane trace (<code class="docutils literal notranslate"><span class="pre">membrane_w15.txt</span></code>) for the digital weight setting 15
+can be plotted.</p>
+<figure class="align-default">
+<img alt="Membrane trace and spikes for digital weight 15" src="../_images/example_plot_w15.png" />
+</figure>
+<p>The following example shows how to sweep spike times without re-running the mapping.</p>
+<p>nmpm1_sweep_spike_times.py:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
+<span class="c1"># -*- coding: utf-8; -*-</span>
+
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="kn">from</span> <span class="nn">pyhalbe</span> <span class="kn">import</span> <span class="n">HICANN</span>
+<span class="kn">from</span> <span class="nn">pyhalco_hicann_v2</span> <span class="kn">import</span> <span class="n">Wafer</span><span class="p">,</span> <span class="n">HICANNOnWafer</span><span class="p">,</span> <span class="n">SynapseDriverOnHICANN</span>
+<span class="kn">from</span> <span class="nn">pyhalco_hicann_v2</span> <span class="kn">import</span> <span class="n">RowOnSynapseDriver</span><span class="p">,</span> <span class="n">FGBlockOnHICANN</span>
+<span class="kn">from</span> <span class="nn">pyhalco_common</span> <span class="kn">import</span> <span class="n">Enum</span><span class="p">,</span> <span class="n">iter_all</span>
+<span class="kn">from</span> <span class="nn">pysthal.command_line_util</span> <span class="kn">import</span> <span class="n">init_logger</span>
+<span class="kn">import</span> <span class="nn">pysthal</span>
+
+<span class="kn">import</span> <span class="nn">pyhmf</span> <span class="k">as</span> <span class="nn">pynn</span>
+<span class="kn">from</span> <span class="nn">pymarocco</span> <span class="kn">import</span> <span class="n">PyMarocco</span><span class="p">,</span> <span class="n">Defects</span>
+<span class="kn">from</span> <span class="nn">pymarocco.runtime</span> <span class="kn">import</span> <span class="n">Runtime</span>
+<span class="kn">from</span> <span class="nn">pymarocco.coordinates</span> <span class="kn">import</span> <span class="n">LogicalNeuron</span>
+<span class="kn">from</span> <span class="nn">pymarocco.results</span> <span class="kn">import</span> <span class="n">Marocco</span>
+
+<span class="n">init_logger</span><span class="p">(</span><span class="s2">&quot;WARN&quot;</span><span class="p">,</span> <span class="p">[</span>
+    <span class="p">(</span><span class="s2">&quot;guidebook&quot;</span><span class="p">,</span> <span class="s2">&quot;DEBUG&quot;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">&quot;marocco&quot;</span><span class="p">,</span> <span class="s2">&quot;DEBUG&quot;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">&quot;Calibtic&quot;</span><span class="p">,</span> <span class="s2">&quot;DEBUG&quot;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s2">&quot;sthal&quot;</span><span class="p">,</span> <span class="s2">&quot;INFO&quot;</span><span class="p">)</span>
+<span class="p">])</span>
+
+<span class="kn">import</span> <span class="nn">pylogging</span>
+<span class="n">logger</span> <span class="o">=</span> <span class="n">pylogging</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;guidebook&quot;</span><span class="p">)</span>
+
+<span class="n">neuron_parameters</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;cm&#39;</span><span class="p">:</span> <span class="mf">0.2</span><span class="p">,</span>
+    <span class="s1">&#39;v_reset&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">70.</span><span class="p">,</span>
+    <span class="s1">&#39;v_rest&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">20.</span><span class="p">,</span>
+    <span class="s1">&#39;v_thresh&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">10</span><span class="p">,</span>
+    <span class="s1">&#39;e_rev_I&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">100.</span><span class="p">,</span>
+    <span class="s1">&#39;e_rev_E&#39;</span><span class="p">:</span> <span class="mf">60.</span><span class="p">,</span>
+    <span class="s1">&#39;tau_m&#39;</span><span class="p">:</span> <span class="mf">20.</span><span class="p">,</span>
+    <span class="s1">&#39;tau_refrac&#39;</span><span class="p">:</span> <span class="mf">0.1</span><span class="p">,</span>
+    <span class="s1">&#39;tau_syn_E&#39;</span><span class="p">:</span> <span class="mf">5.</span><span class="p">,</span>
+    <span class="s1">&#39;tau_syn_I&#39;</span><span class="p">:</span> <span class="mf">5.</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">marocco</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="p">()</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">default_wafer</span> <span class="o">=</span> <span class="n">Wafer</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;WAFER&quot;</span><span class="p">,</span> <span class="mi">33</span><span class="p">)))</span>
+<span class="n">runtime</span> <span class="o">=</span> <span class="n">Runtime</span><span class="p">(</span><span class="n">marocco</span><span class="o">.</span><span class="n">default_wafer</span><span class="p">)</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">marocco</span><span class="o">=</span><span class="n">marocco</span><span class="p">,</span> <span class="n">marocco_runtime</span><span class="o">=</span><span class="n">runtime</span><span class="p">)</span>
+
+<span class="c1">#  ——— set up network ——————————————————————————————————————————————————————————</span>
+
+<span class="n">pop</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">,</span> <span class="n">neuron_parameters</span><span class="p">)</span>
+
+<span class="n">pop</span><span class="o">.</span><span class="n">record</span><span class="p">()</span>
+<span class="n">pop</span><span class="o">.</span><span class="n">record_v</span><span class="p">()</span>
+
+<span class="n">hicann</span> <span class="o">=</span> <span class="n">HICANNOnWafer</span><span class="p">(</span><span class="n">Enum</span><span class="p">(</span><span class="mi">297</span><span class="p">))</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">manual_placement</span><span class="o">.</span><span class="n">on_hicann</span><span class="p">(</span><span class="n">pop</span><span class="p">,</span> <span class="n">hicann</span><span class="p">)</span>
+
+<span class="n">connector</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">AllToAllConnector</span><span class="p">(</span><span class="n">weights</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">duration</span> <span class="o">=</span> <span class="mf">1500.0</span>
+
+<span class="c1"># initialize without spike times</span>
+<span class="n">stimulus_exc</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">SpikeSourceArray</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;spike_times&#39;</span><span class="p">:</span> <span class="p">[]})</span>
+<span class="n">stimulus_neuron</span> <span class="o">=</span> <span class="n">stimulus_exc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="n">projections</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="n">pynn</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">stimulus_exc</span><span class="p">,</span> <span class="n">pop</span><span class="p">,</span> <span class="n">connector</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;excitatory&#39;</span><span class="p">),</span>
+<span class="p">]</span>
+
+<span class="c1">#  ——— run mapping —————————————————————————————————————————————————————————————</span>
+
+<span class="n">marocco</span><span class="o">.</span><span class="n">skip_mapping</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">Without</span>
+
+<span class="n">pynn</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">duration</span><span class="p">)</span>
+
+<span class="c1">#  ——— change low-level parameters before configuring hardware —————————————————</span>
+
+<span class="k">def</span> <span class="nf">set_sthal_params</span><span class="p">(</span><span class="n">wafer</span><span class="p">,</span> <span class="n">gmax</span><span class="p">,</span> <span class="n">gmax_div</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    synaptic strength:</span>
+<span class="sd">    gmax: 0 - 1023, strongest: 1023</span>
+<span class="sd">    gmax_div: 2 - 30, strongest: 2</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="c1"># for all HICANNs in use</span>
+    <span class="k">for</span> <span class="n">hicann</span> <span class="ow">in</span> <span class="n">wafer</span><span class="o">.</span><span class="n">getAllocatedHicannCoordinates</span><span class="p">():</span>
+
+        <span class="n">fgs</span> <span class="o">=</span> <span class="n">wafer</span><span class="p">[</span><span class="n">hicann</span><span class="p">]</span><span class="o">.</span><span class="n">floating_gates</span>
+
+        <span class="c1"># set parameters influencing the synaptic strength</span>
+        <span class="k">for</span> <span class="n">block</span> <span class="ow">in</span> <span class="n">iter_all</span><span class="p">(</span><span class="n">FGBlockOnHICANN</span><span class="p">):</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_gmax0</span><span class="p">,</span> <span class="n">gmax</span><span class="p">)</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_gmax1</span><span class="p">,</span> <span class="n">gmax</span><span class="p">)</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_gmax2</span><span class="p">,</span> <span class="n">gmax</span><span class="p">)</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_gmax3</span><span class="p">,</span> <span class="n">gmax</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">driver</span> <span class="ow">in</span> <span class="n">iter_all</span><span class="p">(</span><span class="n">SynapseDriverOnHICANN</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">iter_all</span><span class="p">(</span><span class="n">RowOnSynapseDriver</span><span class="p">):</span>
+                <span class="n">wafer</span><span class="p">[</span><span class="n">hicann</span><span class="p">]</span><span class="o">.</span><span class="n">synapses</span><span class="p">[</span><span class="n">driver</span><span class="p">][</span><span class="n">row</span><span class="p">]</span><span class="o">.</span><span class="n">set_gmax_div</span><span class="p">(</span><span class="n">HICANN</span><span class="o">.</span><span class="n">GmaxDiv</span><span class="p">(</span><span class="n">gmax_div</span><span class="p">))</span>
+
+        <span class="c1"># don&#39;t change values below</span>
+        <span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">fgs</span><span class="o">.</span><span class="n">getNoProgrammingPasses</span><span class="p">()</span><span class="o">.</span><span class="n">value</span><span class="p">()):</span>
+            <span class="n">cfg</span> <span class="o">=</span> <span class="n">fgs</span><span class="o">.</span><span class="n">getFGConfig</span><span class="p">(</span><span class="n">Enum</span><span class="p">(</span><span class="n">ii</span><span class="p">))</span>
+            <span class="n">cfg</span><span class="o">.</span><span class="n">fg_biasn</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">cfg</span><span class="o">.</span><span class="n">fg_bias</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setFGConfig</span><span class="p">(</span><span class="n">Enum</span><span class="p">(</span><span class="n">ii</span><span class="p">),</span> <span class="n">cfg</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">block</span> <span class="ow">in</span> <span class="n">iter_all</span><span class="p">(</span><span class="n">FGBlockOnHICANN</span><span class="p">):</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_dllres</span><span class="p">,</span> <span class="mi">275</span><span class="p">)</span>
+            <span class="n">fgs</span><span class="o">.</span><span class="n">setShared</span><span class="p">(</span><span class="n">block</span><span class="p">,</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">shared_parameter</span><span class="o">.</span><span class="n">V_ccas</span><span class="p">,</span> <span class="mi">800</span><span class="p">)</span>
+
+<span class="c1"># call at least once</span>
+<span class="n">set_sthal_params</span><span class="p">(</span><span class="n">runtime</span><span class="o">.</span><span class="n">wafer</span><span class="p">(),</span> <span class="n">gmax</span><span class="o">=</span><span class="mi">1023</span><span class="p">,</span> <span class="n">gmax_div</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1">#  ——— configure hardware ——————————————————————————————————————————————————————</span>
+
+<span class="k">for</span> <span class="n">proj</span> <span class="ow">in</span> <span class="n">projections</span><span class="p">:</span>
+    <span class="n">proj_items</span> <span class="o">=</span> <span class="n">runtime</span><span class="o">.</span><span class="n">results</span><span class="p">()</span><span class="o">.</span><span class="n">synapse_routing</span><span class="o">.</span><span class="n">synapses</span><span class="p">()</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">proj</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">proj_item</span> <span class="ow">in</span> <span class="n">proj_items</span><span class="p">:</span>
+        <span class="n">synapse</span> <span class="o">=</span> <span class="n">proj_item</span><span class="o">.</span><span class="n">hardware_synapse</span><span class="p">()</span>
+        <span class="n">proxy</span> <span class="o">=</span> <span class="n">runtime</span><span class="o">.</span><span class="n">wafer</span><span class="p">()[</span><span class="n">synapse</span><span class="o">.</span><span class="n">toHICANNOnWafer</span><span class="p">()]</span><span class="o">.</span><span class="n">synapses</span><span class="p">[</span><span class="n">synapse</span><span class="p">]</span>
+        <span class="n">proxy</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">HICANN</span><span class="o">.</span><span class="n">SynapseWeight</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+
+<span class="n">marocco</span><span class="o">.</span><span class="n">skip_mapping</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">Hardware</span>
+
+<span class="k">for</span> <span class="n">n</span><span class="p">,</span> <span class="n">spike_times</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">([[</span><span class="mi">100</span><span class="p">,</span><span class="mi">110</span><span class="p">],</span> <span class="p">[</span><span class="mi">200</span><span class="p">,</span><span class="mi">210</span><span class="p">],</span> <span class="p">[</span><span class="mi">300</span><span class="p">,</span><span class="mi">310</span><span class="p">]]):</span>
+
+    <span class="n">runtime</span><span class="o">.</span><span class="n">results</span><span class="p">()</span><span class="o">.</span><span class="n">spike_times</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">stimulus_neuron</span><span class="p">,</span> <span class="n">spike_times</span><span class="p">)</span>
+
+    <span class="n">pynn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">duration</span><span class="p">)</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s2">&quot;membrane_n</span><span class="si">{}</span><span class="s2">.txt&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n</span><span class="p">),</span> <span class="n">pop</span><span class="o">.</span><span class="n">get_v</span><span class="p">())</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">savetxt</span><span class="p">(</span><span class="s2">&quot;spikes_n</span><span class="si">{}</span><span class="s2">.txt&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n</span><span class="p">),</span> <span class="n">pop</span><span class="o">.</span><span class="n">getSpikes</span><span class="p">())</span>
+    <span class="n">pynn</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+
+    <span class="c1"># skip checks</span>
+    <span class="n">marocco</span><span class="o">.</span><span class="n">verification</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">Skip</span>
+    <span class="n">marocco</span><span class="o">.</span><span class="n">checkl1locking</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">SkipCheck</span>
+
+<span class="c1"># store the last result for visualization</span>
+<span class="n">runtime</span><span class="o">.</span><span class="n">results</span><span class="p">()</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;results.xml.gz&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="inspect-the-synapse-loss">
+<h2>Inspect the synapse loss<a class="headerlink" href="#inspect-the-synapse-loss" title="Permalink to this headline">¶</a></h2>
+<p>When mapping network models to the wafer-scale hardware, it may happen that not
+all model synapses can be realized on the hardware due to limited hardware
+resources. Below is a simple network that is mapped to very limited resources
+so that synapse loss is enforced. For this example we show how to extract
+overall mapping statistics and projection-wise or synapse-wise synapse losses.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    create small network with synapse loss.  The synapse loss happens due to a</span>
+<span class="sd">    maximum syndriver chain length of 5 and only 4 denmems per neuron.  After</span>
+<span class="sd">    mapping, the synapse loss per projection is evaluated and plotted for one</span>
+<span class="sd">    projection.  The sum of lost synapses per projection is compared to the</span>
+<span class="sd">    overall synapse loss returnd by the mapping stats.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">marocco</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="p">()</span>
+    <span class="n">marocco</span><span class="o">.</span><span class="n">neuron_placement</span><span class="o">.</span><span class="n">default_neuron_size</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+    <span class="n">marocco</span><span class="o">.</span><span class="n">synapse_routing</span><span class="o">.</span><span class="n">driver_chain_length</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+    <span class="n">marocco</span><span class="o">.</span><span class="n">continue_despite_synapse_loss</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">marocco</span><span class="o">.</span><span class="n">calib_backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">CalibBackend</span><span class="o">.</span><span class="n">Default</span>
+
+    <span class="n">pynn</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">marocco</span><span class="o">=</span><span class="n">marocco</span><span class="p">)</span>
+
+    <span class="n">neuron</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">)</span>
+    <span class="n">source</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">SpikeSourcePoisson</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;rate&#39;</span> <span class="p">:</span> <span class="mi">2</span><span class="p">})</span>
+
+    <span class="n">connector</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">FixedProbabilityConnector</span><span class="p">(</span>
+            <span class="n">allow_self_connections</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">p_connect</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>
+            <span class="n">weights</span><span class="o">=</span><span class="mf">0.00425</span><span class="p">)</span>
+    <span class="n">proj_stim</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">neuron</span><span class="p">,</span> <span class="n">connector</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s2">&quot;excitatory&quot;</span><span class="p">)</span>
+    <span class="n">proj_rec</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">neuron</span><span class="p">,</span> <span class="n">neuron</span><span class="p">,</span> <span class="n">connector</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s2">&quot;excitatory&quot;</span><span class="p">)</span>
+
+    <span class="n">pynn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="n">marocco</span><span class="o">.</span><span class="n">stats</span><span class="p">)</span>
+
+    <span class="n">total_syns</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">lost_syns</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">proj</span> <span class="ow">in</span> <span class="p">[</span><span class="n">proj_stim</span><span class="p">,</span> <span class="n">proj_rec</span><span class="p">]:</span>
+        <span class="n">l</span><span class="p">,</span><span class="n">t</span> <span class="o">=</span> <span class="n">projectionwise_synapse_loss</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">marocco</span><span class="p">)</span>
+        <span class="n">total_syns</span> <span class="o">+=</span> <span class="n">t</span>
+        <span class="n">lost_syns</span> <span class="o">+=</span> <span class="n">l</span>
+
+    <span class="k">assert</span> <span class="n">total_syns</span> <span class="o">==</span> <span class="n">marocco</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">getSynapses</span><span class="p">()</span>
+    <span class="k">assert</span> <span class="n">lost_syns</span> <span class="o">==</span> <span class="n">marocco</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">getSynapseLoss</span><span class="p">()</span>
+
+    <span class="n">plot_projectionwise_synapse_loss</span><span class="p">(</span><span class="n">proj_stim</span><span class="p">,</span> <span class="n">marocco</span><span class="p">)</span>
+    <span class="n">pynn</span><span class="o">.</span><span class="n">end</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Where <code class="docutils literal notranslate"><span class="pre">print(marocco.stats)</span></code> prints out overall synapse loss statistics:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>MappingStats <span class="o">{</span>
+        synapse_loss: <span class="m">581</span> <span class="o">(</span><span class="m">23</span>.3709%<span class="o">)</span>
+        synapses: <span class="m">2486</span>
+        synapses set: <span class="m">1905</span>
+        synapses lost: <span class="m">581</span>
+        synapses lost<span class="o">(</span>l1<span class="o">)</span>: <span class="m">0</span>
+        populations: <span class="m">2</span>
+        projections: <span class="m">2</span>
+        neurons: <span class="m">50</span><span class="o">}</span>
+</pre></div>
+</div>
+<p>Invidual mapping statistics like the number of synapses set can also be
+directly accessed in python, see class <code class="docutils literal notranslate"><span class="pre">MappingStats</span></code> in the
+<a class="reference external" href="https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation">marocco documentation</a>.</p>
+<p>The function <code class="docutils literal notranslate"><span class="pre">projectionwise_synapse_loss</span></code> shows how to calculate the synapse
+loss per projection.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">projectionwise_synapse_loss</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">marocco</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    computes the synapse loss of a projection</span>
+<span class="sd">    params:</span>
+<span class="sd">      proj    - a pyhmf.Projection</span>
+<span class="sd">      marocco -  the PyMarocco object after the mapping has run.</span>
+
+<span class="sd">    returns: (nr of lost synapses, total synapses in projection)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">orig_weights</span> <span class="o">=</span> <span class="n">proj</span><span class="o">.</span><span class="n">getWeights</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;array&#39;</span><span class="p">)</span>
+    <span class="n">mapped_weights</span> <span class="o">=</span> <span class="n">marocco</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">getWeights</span><span class="p">(</span><span class="n">proj</span><span class="p">)</span>
+    <span class="n">syns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="o">~</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">orig_weights</span><span class="p">))</span>
+    <span class="n">realized_syns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="o">~</span><span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">mapped_weights</span><span class="p">))</span>
+    <span class="n">orig</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">syns</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">realized</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">realized_syns</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Projection-Wise Synapse Loss&quot;</span><span class="p">,</span> <span class="n">proj</span><span class="p">,</span> <span class="p">(</span><span class="n">orig</span> <span class="o">-</span> <span class="n">realized</span><span class="p">)</span><span class="o">*</span><span class="mf">100.</span><span class="o">/</span><span class="n">orig</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">orig</span><span class="o">-</span><span class="n">realized</span><span class="p">,</span> <span class="n">orig</span>
+</pre></div>
+</div>
+<p>Which yields the following output for the example above:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Projection-Wise Synapse Loss Projection <span class="o">(</span> PyAssembly <span class="o">(</span><span class="m">50</span><span class="o">)</span> -&gt; PyAssembly <span class="o">(</span><span class="m">50</span><span class="o">))</span> <span class="m">23</span>.5576923077
+Projection-Wise Synapse Loss Projection <span class="o">(</span> PyAssembly <span class="o">(</span><span class="m">50</span><span class="o">)</span> -&gt; PyAssembly <span class="o">(</span><span class="m">50</span><span class="o">))</span> <span class="m">23</span>.182552504
+</pre></div>
+</div>
+<p>Finally, the function <code class="docutils literal notranslate"><span class="pre">plot_projectionwise_synapse_loss</span></code> can be used to plot
+the lost and realized synapses of one projection.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plot_projectionwise_synapse_loss</span><span class="p">(</span><span class="n">proj</span><span class="p">,</span> <span class="n">marocco</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    plots the realized and lost synapses of a projection</span>
+<span class="sd">    params:</span>
+<span class="sd">      proj    - a pyhmf.Projection</span>
+<span class="sd">      marocco -  the PyMarocco object after the mapping has run.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">orig_weights</span> <span class="o">=</span> <span class="n">proj</span><span class="o">.</span><span class="n">getWeights</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;array&#39;</span><span class="p">)</span>
+    <span class="n">mapped_weights</span> <span class="o">=</span> <span class="n">marocco</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">getWeights</span><span class="p">(</span><span class="n">proj</span><span class="p">)</span>
+    <span class="n">realized_syns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">isfinite</span><span class="p">(</span><span class="n">mapped_weights</span><span class="p">))</span>
+    <span class="n">lost_syns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">logical_and</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">isfinite</span><span class="p">(</span><span class="n">orig_weights</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">mapped_weights</span><span class="p">))</span>
+
+    <span class="n">conn_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">orig_weights</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+    <span class="n">conn_matrix</span><span class="p">[</span><span class="n">realized_syns</span><span class="p">]</span> <span class="o">=</span>  <span class="mf">1.</span>
+    <span class="n">conn_matrix</span><span class="p">[</span><span class="n">lost_syns</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.5</span>
+
+    <span class="kn">import</span> <span class="nn">matplotlib</span>
+    <span class="n">matplotlib</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;Agg&#39;</span><span class="p">)</span>
+    <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">conn_matrix</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;hot&#39;</span><span class="p">,</span> <span class="n">interpolation</span><span class="o">=</span><span class="s1">&#39;nearest&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;post neuron&quot;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;pre neuron&quot;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;realized and lost synapses&quot;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;synapse_loss.png&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<figure class="align-default" id="id3">
+<img alt="Realized and Lost Synapses of a Projection" src="../_images/synapse_loss.png" />
+<figcaption>
+<p><span class="caption-text">Figure 74: Realized (black) and lost (red) synapses of the stimulus projection in the
+example network above.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="details-of-the-software-stack">
+<span id="details-software-stack"></span><h2>Details of the software stack<a class="headerlink" href="#details-of-the-software-stack" title="Permalink to this headline">¶</a></h2>
+<p>The BrainScaleS Wafer-Scale Software Stack is shown in Figure <a href="#waferscale-software-figure">75</a>.</p>
+<p>User-provided neuronal network topologies  are evaluated by our <code class="docutils literal notranslate"><span class="pre">PyNN</span></code> API implementation (<code class="docutils literal notranslate"><span class="pre">PyHMF</span></code>),
+which is written in C++ with a Python wrapper.
+The data structures (spike trains, populations, projections, cell types, meta information, etc.) are implemented in C++ (<code class="docutils literal notranslate"><span class="pre">euter</span></code>).
+This layer also provides a serialization and deserialization interface for lower software layers.
+In a nutshell, <code class="docutils literal notranslate"><span class="pre">euter</span></code> serializes the <code class="docutils literal notranslate"><span class="pre">PyNN</span></code>/<code class="docutils literal notranslate"><span class="pre">PyHMF</span></code>-based experiment description into a binary data stream and hands over to the next software layer.
+In the following software layers, the translation from this <cite>biological</cite> neuronal network description into a <cite>hardware</cite> configuration will be performed.
+A large fraction of the translation work, in particular the network graph translation, is performed by the <code class="docutils literal notranslate"><span class="pre">marocco</span></code> mapping tool
+(described in the <a class="reference external" href="http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3052">PhD thesis of S. Jeltsch</a>.
+Code documentation is provided by <code class="docutils literal notranslate"><span class="pre">doxygen</span></code> and available
+<a class="reference external" href="https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation">here</a>.</p>
+<figure class="align-default" id="id4">
+<span id="waferscale-software-figure"></span><a class="reference internal image-reference" href="../_images/software_as_pipeline.png"><img alt="The BrainScaleS System Software Stack" src="../_images/software_as_pipeline.png" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Figure 75: Data-flow-centric view of the user software stack of the BrainScaleS Wafer-Scale System.
+[taken from <a class="reference external" href="http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3112">PhD thesis of E. Müller</a>]</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<p><code class="docutils literal notranslate"><span class="pre">marocco</span></code> uses calibration (<code class="docutils literal notranslate"><span class="pre">calibtic</span></code>) and blacklisting (<code class="docutils literal notranslate"><span class="pre">redman</span></code>) information to take into account circuit-specific properties and defects.
+This information is needed during the map &amp; route process to homogenize the behavior of hardware neuron and synapse circuits and to exclude defective parts of the system.</p>
+<p>The blacklisting works on the component level, e.g. denmems (the building blocks of neurons), on-chip buses, synapse drivers, etc.
+Denmems are blacklisted during calibration.
+If the calibration for any parameter could not be performed, the denmem is blacklisted.
+The number of available neurons, i.e. connected denmems,  is not only depending on the number blacklisted denmems but also on their distribution.
+E.g. as an extreme example, if every second denmem would be blacklisted, neuron sizes larger than 1x2 (horizontal x vertical) are not possible.</p>
+<p>The blacklisting for on-chip buses originates from the fact that every second horizontal and vertical bus is driven from a neighboring chip.
+If this neighbor chip can not be initialized, all buses from that chip must not be used.</p>
+</section>
+<section id="faq">
+<h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h2>
+<section id="importerror-no-module-named-coordinate">
+<h3>ImportError: No module named Coordinate<a class="headerlink" href="#importerror-no-module-named-coordinate" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pyhalbe.Coordinate</span></code> or <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">Coordinate</span></code> is deprecated and was removed from the software. Please use <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pyhalco_hicann_v2</span></code> for the coordinate representation of hardware resources like <cite>HICANNOnWafer</cite> or <cite>SynapseOnHICANN</cite> and <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pyhalco_common</span></code> for common coordinates like <cite>Enum, iter_all, left</cite> or <cite>right</cite> instead.
+One option to adapt your code to the new coordinates would be to replace <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">Coordinate</span> <span class="pre">as</span> <span class="pre">C</span></code> with</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pyhalco_hicann_v2</span> <span class="k">as</span> <span class="nn">C</span>
+<span class="kn">from</span> <span class="nn">pyhalco_common</span> <span class="kn">import</span> <span class="n">Enum</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span>
+<span class="n">C</span><span class="o">.</span><span class="n">Enum</span><span class="p">,</span> <span class="n">C</span><span class="o">.</span><span class="n">left</span><span class="p">,</span> <span class="n">C</span><span class="o">.</span><span class="n">right</span> <span class="o">=</span> <span class="n">Enum</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span>
+</pre></div>
+</div>
+<p>including all common coordinates you are using.</p>
+</section>
+<section id="rename-pymarocco-none-to-pymarocco-without">
+<h3>Rename PyMarocco.None to PyMarocco.Without<a class="headerlink" href="#rename-pymarocco-none-to-pymarocco-without" title="Permalink to this headline">¶</a></h3>
+<p>Due to the transition to python3 the marocco backend <code class="docutils literal notranslate"><span class="pre">PyMarocco.None</span></code> was renamed to <code class="docutils literal notranslate"><span class="pre">PyMarocco.Without</span></code>.</p>
+</section>
+<section id="runtimeerror-unexpected-peer-disconnection">
+<h3>RuntimeError: Unexpected peer disconnection<a class="headerlink" href="#runtimeerror-unexpected-peer-disconnection" title="Permalink to this headline">¶</a></h3>
+<p>You are using an old container, which is no longer compatible with the analog readout system. If you want to record membrane traces please update to a newer software version (2021-10-21 and newer).</p>
+</section>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="pm_hardware_configuration.html">About the BrainScaleS hardware</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="ess.html">Simulating the BrainScaleS hardware</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

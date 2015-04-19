@@ -1,0 +1,4 @@
+<map id="haldls::vx::ADPLL::PreDivP0" name="haldls::vx::ADPLL::PreDivP0">
+<area shape="rect" id="node1" title="Divider to set the frequency of the DCO f_dco (Together with LoopDivN)." alt="" coords="28,113,162,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,185,65"/>
+</map>

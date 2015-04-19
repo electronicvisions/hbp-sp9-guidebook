@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacehaldls_1_1vx_1_1v3_1_1detail" kind="namespace" language="C++">
+    <compoundname>haldls::vx::v3::detail</compoundname>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1_1detail_1ae668bef13b8bf21f5cabf396452d2358" prot="public" static="no">
+        <type>hate::type_list&lt;# 33 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h&quot; 2 haldls::vx::Barrier &gt;</type>
+        <definition>typedef hate::type_list&lt;# 33 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h&quot; 2 haldls::vx::Barrier&gt; haldls::vx::v3::detail::pickle_types</definition>
+        <argsstring></argsstring>
+        <name>pickle_types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h" line="35" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1_1v3_1_1detail_1aafde437a13467e6ac979c86fc55ce234" prot="public" static="yes" mutable="no">
+        <type>std::vector&lt; std::string &gt; const</type>
+        <definition>std::vector&lt;std::string&gt; const haldls::vx::v3::detail::pickle_type_names</definition>
+        <argsstring></argsstring>
+        <name>pickle_type_names</name>
+        <initializer>= {
+    &quot;Barrier&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h" line="27" column="26" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1_1v3_1_1detail_1a7d2d464e015d055211719db0db7c567e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>py::list</type>
+        <definition>py::list haldls::vx::v3::detail::get_containers_list</definition>
+        <argsstring>(py::module &amp;m)</argsstring>
+        <name>get_containers_list</name>
+        <param>
+          <type>py::module &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h" line="37" column="10" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h" declline="37" declcolumn="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h" line="24" column="1"/>
+  </compounddef>
+</doxygen>

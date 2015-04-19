@@ -1,0 +1,4 @@
+<map id="haldls::vx::PhyStatus::TxCount" name="haldls::vx::PhyStatus::TxCount">
+<area shape="rect" id="node1" title="Number of tx words to Chip since last reset." alt="" coords="10,113,155,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,160,65"/>
+</map>

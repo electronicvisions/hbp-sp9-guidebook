@@ -1,0 +1,10 @@
+<map id="haldls::vx::PhyConfigChip" name="haldls::vx::PhyConfigChip">
+<area shape="rect" id="node1" title="Container for individual configuration of chip&#45;side PHYs." alt="" coords="806,105,979,133"/>
+<area shape="rect" id="node2" href="$classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html" title="Common base class for PhyConfig of the FPGA&#45; and chip&#45;side PHYs." alt="" coords="636,97,757,141"/>
+<area shape="rect" id="node3" href="$structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_debug_outputs.html" title=" " alt="" coords="264,21,478,65"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,214,65"/>
+<area shape="rect" id="node5" href="$structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias.html" title=" " alt="" coords="289,97,452,141"/>
+<area shape="rect" id="node6" title=" " alt="" coords="31,89,189,149"/>
+<area shape="rect" id="node7" href="$structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_manual_delay.html" title=" " alt="" coords="268,173,474,217"/>
+<area shape="rect" id="node8" title=" " alt="" coords="9,173,210,233"/>
+</map>

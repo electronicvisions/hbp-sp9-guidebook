@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['m_5fdead_5ftime_2922',['m_dead_time',['../classhaldls_1_1vx_1_1_c_a_d_c_config.html#a9f3703c27b3d6583745b5a6ff4e30be7',1,'haldls::vx::CADCConfig']]],
+  ['m_5fdebug_5foutputs_2923',['m_debug_outputs',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#aa2fe957492b1eb677960e81d0fca314b',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_2924',['m_enable',['../classhaldls_1_1vx_1_1_c_a_d_c_config.html#a3634fe1c9aa2a585bdedb87c00af777a',1,'haldls::vx::CADCConfig']]],
+  ['m_5fenable_5fauto_5finit_2925',['m_enable_auto_init',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a692e5a786a524f24d66b1940c9b24474',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fber_5floopback_2926',['m_enable_ber_loopback',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#add2c60001a31bfbfb148808b32ce96c1',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fbit_5fslip_2927',['m_enable_bit_slip',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a551a716ab36ed5244ec7d3e67ea85838',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fclock_5fpre_5falignment_2928',['m_enable_clock_pre_alignment',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a377cadb91aef67de0e572f96fbe459b6',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fdelay_5fcell_5fmeasurement_2929',['m_enable_delay_cell_measurement',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a1e40ec5fd029bde821a9098c0f0c5433',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fdes_5frecal_2930',['m_enable_des_recal',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#ae6b890c304258733b5cd46f4e73c3998',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fforce_5flvds_5fpower_5fup_2931',['m_enable_force_lvds_power_up',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a6f4ba96b7be179e844403d261680f3b9',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fforce_5fstart_2932',['m_enable_force_start',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a6a53b7b9b868c9c59afa0a1b311c2f66',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5finitialization_5fmaster_5fmode_2933',['m_enable_initialization_master_mode',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#ac3922bb644509d99778ffe8d2e6234be',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5floopback_5fen_2934',['m_enable_loopback_en',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a12e926a4ff9ae212180813bfe82005da',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fmanual_5ftraining_5fmode_2935',['m_enable_manual_training_mode',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a9f04fbeca0d27c64fd737f99116e0bb0',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5fmanual_5ftx_5fdata_5fvalid_5ffor_5finit_2936',['m_enable_manual_tx_data_valid_for_init',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a3525bde9bb75dec82ca6990d6d188464',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fenable_5ftransmission_5fwithout_5fidle_5fpattern_2937',['m_enable_transmission_without_idle_pattern',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a36ed81ca8ab47361a005383c61bf29b6',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5fmanual_5fdelay_2938',['m_manual_delay',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#ac0d93c69ed4ba9d47e2dbd468c50192e',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['m_5foffset_2939',['m_offset',['../classhaldls_1_1vx_1_1_c_a_d_c_channel_config.html#a769032bae2d86ce5552177cc81a9230e',1,'haldls::vx::CADCChannelConfig']]],
+  ['m_5freset_5fwait_2940',['m_reset_wait',['../classhaldls_1_1vx_1_1_c_a_d_c_config.html#af30094b57e7bc832a94762422dd83068',1,'haldls::vx::CADCConfig']]],
+  ['m_5fsamples_2941',['m_samples',['../classhaldls_1_1vx_1_1_c_a_d_c_sample_quad.html#a13b292047664c1d91936b440c1483fdc',1,'haldls::vx::CADCSampleQuad']]],
+  ['m_5fvbias_2942',['m_vbias',['../classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html#a92ae429849b835e91fbda4decbb546ac',1,'haldls::vx::detail::PhyConfigBase']]],
+  ['minimal_5fmadc_5fclock_5fcycles_5fper_5fsample_2943',['minimal_madc_clock_cycles_per_sample',['../namespacehaldls_1_1vx.html#a35de1b874dcf08ab78bfb492d9e4e297',1,'haldls::vx']]]
+];

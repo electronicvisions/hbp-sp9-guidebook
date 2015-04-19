@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_m_a_d_c_control" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::MADCControl</compoundname>
+    <includes refid="madc_8h" local="no">madc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a037ae1ef731b866bc0f16c8f9ec45c2d" prot="public" static="no">
+        <type>halco::hicann_dls::vx::MADCControlOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::MADCControlOnDLS haldls::vx::MADCControl::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="33" column="49" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a09b1c7b65fc534aea0cd702fb8e6af54" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::MADCControl::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="34" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a86be3820b8f705830a5963e4dcd7d25b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::MADCControl::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="86" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1aae889386d3661236c1a1c27924779773" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::MADCControl::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="85" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="103" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1adbbf01ac6394d75333fd8b4be3673cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, MADCControl const &amp;event) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control" kindref="compound">MADCControl</ref> const &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="100" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1aa24de2ca949e6e27b26ebc4c4cab5d92" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::m_enable_continuous_sampling</definition>
+        <argsstring></argsstring>
+        <name>m_enable_continuous_sampling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="109" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a3f8a9b1756a7042b786da6d63fccd4ea" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::m_enable_iconv_amplifier</definition>
+        <argsstring></argsstring>
+        <name>m_enable_iconv_amplifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="107" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1aa308daa0c542f6743f8ecd484a78e985" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::m_enable_power_down_after_sampling</definition>
+        <argsstring></argsstring>
+        <name>m_enable_power_down_after_sampling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="110" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1abc4b1657a4760cf4c61df57e888b95bc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::m_enable_pre_amplifier</definition>
+        <argsstring></argsstring>
+        <name>m_enable_pre_amplifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="108" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a5fb7877b9d821c7b175a6873bc577d1f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::m_start_recording</definition>
+        <argsstring></argsstring>
+        <name>m_start_recording</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="112" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1af4b37af623c33529045aec3fb0a8fee2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::m_stop_recording</definition>
+        <argsstring></argsstring>
+        <name>m_stop_recording</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="111" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ae31369cdd4967e0db86bad43d8814032" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::m_wake_up</definition>
+        <argsstring></argsstring>
+        <name>m_wake_up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="113" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ac2080c569944d17fe3066b8618600740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::MADCControl::MADCControl</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>MADCControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a746b99af919ba06a3d7e791dd091614d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::decode</definition>
+        <argsstring>(std::array&lt; WordT, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a86be3820b8f705830a5963e4dcd7d25b" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="96" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ab4aa432c9c467805b8ae8bd70bf94384" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1aae889386d3661236c1a1c27924779773" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, write_config_size_in_words&gt; haldls::vx::MADCControl::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="94" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a1139ffc22e3e1908d6bbfb3afaf0751e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::get_enable_continuous_sampling</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_continuous_sampling</name>
+        <briefdescription>
+<para>Let the MADC sample continuously. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="54" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a0e8caf6715661cf297288b5f1df5325e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::get_enable_iconv_amplifier</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_iconv_amplifier</name>
+        <briefdescription>
+<para>Enable switched capacitor amplifier for current measurements. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="42" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a457cf158adc3019b2b8ea90c2cd11735" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::get_enable_power_down_after_sampling</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_power_down_after_sampling</name>
+        <briefdescription>
+<para>Let the MADC power down after it finished sampling. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="60" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a0e53c07146e4049b0ee8b3efdd69305e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::get_enable_pre_amplifier</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_pre_amplifier</name>
+        <briefdescription>
+<para>Enable switched capacitor pre-amplifier for voltage measurements. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="48" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ab66f41bae4f255b68a350a8f4405e480" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::get_start_recording</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_start_recording</name>
+        <briefdescription>
+<para>Start a recording. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="72" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ae52ed6449aaccd0f0b1f738bcac28cde" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::get_stop_recording</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_stop_recording</name>
+        <briefdescription>
+<para>Stop a currently active recording. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="66" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1aa5abbd9925d5c11f8e113feb90fbd82b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::get_wake_up</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_wake_up</name>
+        <briefdescription>
+<para>Wake up the MADC. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="78" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1affee755627a6af7f5a115a8854b3e56a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::operator!=</definition>
+        <argsstring>(MADCControl const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control" kindref="compound">MADCControl</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="83" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1aa378549f414f96b1a4a340cf78887be6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCControl::operator==</definition>
+        <argsstring>(MADCControl const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control" kindref="compound">MADCControl</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="82" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a4842622af69aa090f311657d1c698894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::set_enable_continuous_sampling</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_continuous_sampling</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="56" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a7152c7c92fb56f219e1971a9846aabd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::set_enable_iconv_amplifier</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_iconv_amplifier</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="44" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a0f164c48188936097ef14e38cc55c182" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::set_enable_power_down_after_sampling</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_power_down_after_sampling</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="62" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ad1d03d802993576121f29ac75f7e9927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::set_enable_pre_amplifier</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_pre_amplifier</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="50" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a3541fcb8ffee7beb23a7ede31ec3c1fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::set_start_recording</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_start_recording</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="74" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1af36907a8cb3f01a3ec7cdcafd08ffcf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::set_stop_recording</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_stop_recording</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="68" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ab541b4bdc3fdc6a1cf757a102a7d2122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::set_wake_up</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_wake_up</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="80" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ac2bbb9bfa3476a43a42310aef6b95953" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a86be3820b8f705830a5963e4dcd7d25b" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, read_config_size_in_words&gt; haldls::vx::MADCControl::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a037ae1ef731b866bc0f16c8f9ec45c2d" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="88" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1ad5cf4ccf7b4b303a6f06bd3fc2c70724" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1aae889386d3661236c1a1c27924779773" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, write_config_size_in_words&gt; haldls::vx::MADCControl::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a037ae1ef731b866bc0f16c8f9ec45c2d" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="91" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_control_1a7a2374d9b6f4b788c38e407ce5a68357" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::MADCControl::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="105" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for MADC control state machine. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Flow chart of state machine: <ulink url="https://chat.bioai.eu/visions/pl/s4o4mq36xtyeigtzkw9kgfihcc">https://chat.bioai.eu/visions/pl/s4o4mq36xtyeigtzkw9kgfihcc</ulink> FIXME: Add more explanatory description (issue #3471) </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="30" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="31" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a037ae1ef731b866bc0f16c8f9ec45c2d" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a746b99af919ba06a3d7e791dd091614d" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ab4aa432c9c467805b8ae8bd70bf94384" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a1139ffc22e3e1908d6bbfb3afaf0751e" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>get_enable_continuous_sampling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a0e8caf6715661cf297288b5f1df5325e" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>get_enable_iconv_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a457cf158adc3019b2b8ea90c2cd11735" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>get_enable_power_down_after_sampling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a0e53c07146e4049b0ee8b3efdd69305e" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>get_enable_pre_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ab66f41bae4f255b68a350a8f4405e480" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>get_start_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ae52ed6449aaccd0f0b1f738bcac28cde" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>get_stop_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1aa5abbd9925d5c11f8e113feb90fbd82b" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>get_wake_up</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a09b1c7b65fc534aea0cd702fb8e6af54" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1aa24de2ca949e6e27b26ebc4c4cab5d92" prot="private" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>m_enable_continuous_sampling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a3f8a9b1756a7042b786da6d63fccd4ea" prot="private" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>m_enable_iconv_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1aa308daa0c542f6743f8ecd484a78e985" prot="private" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>m_enable_power_down_after_sampling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1abc4b1657a4760cf4c61df57e888b95bc" prot="private" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>m_enable_pre_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a5fb7877b9d821c7b175a6873bc577d1f" prot="private" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>m_start_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1af4b37af623c33529045aec3fb0a8fee2" prot="private" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>m_stop_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ae31369cdd4967e0db86bad43d8814032" prot="private" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>m_wake_up</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ac2080c569944d17fe3066b8618600740" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>MADCControl</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1affee755627a6af7f5a115a8854b3e56a" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1adbbf01ac6394d75333fd8b4be3673cff" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1aa378549f414f96b1a4a340cf78887be6" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ac2bbb9bfa3476a43a42310aef6b95953" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a86be3820b8f705830a5963e4dcd7d25b" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a7a2374d9b6f4b788c38e407ce5a68357" prot="private" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a4842622af69aa090f311657d1c698894" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>set_enable_continuous_sampling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a7152c7c92fb56f219e1971a9846aabd3" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>set_enable_iconv_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a0f164c48188936097ef14e38cc55c182" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>set_enable_power_down_after_sampling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ad1d03d802993576121f29ac75f7e9927" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>set_enable_pre_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1a3541fcb8ffee7beb23a7ede31ec3c1fe" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>set_start_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1af36907a8cb3f01a3ec7cdcafd08ffcf6" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>set_stop_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ab541b4bdc3fdc6a1cf757a102a7d2122" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>set_wake_up</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1ad5cf4ccf7b4b303a6f06bd3fc2c70724" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_control_1aae889386d3661236c1a1c27924779773" prot="public" virt="non-virtual"><scope>haldls::vx::MADCControl</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01std_1_1enable__if__t_3_01hate_1_1is__i68516161106baf4b82148726e0ffb84e" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::IsWriteable&lt; T, std::enable_if_t&lt; hate::is_in_type_list&lt; T, NonLeafNodeWriteableContainerList &gt;::value &gt; &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::true_type</basecompoundref>
+    <includes refid="is__writeable_8h" local="no">is_writeable.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>std::true_type</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::IsWriteable&lt; T, std::enable_if_t&lt; hate::is_in_type_list&lt; T, NonLeafNodeWriteableContainerList &gt;::value &gt; &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01std_1_1enable__if__t_3_01hate_1_1is__i68516161106baf4b82148726e0ffb84e"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>std::true_type</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::IsWriteable&lt; T, std::enable_if_t&lt; hate::is_in_type_list&lt; T, NonLeafNodeWriteableContainerList &gt;::value &gt; &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01std_1_1enable__if__t_3_01hate_1_1is__i68516161106baf4b82148726e0ffb84e"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" line="115" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" bodystart="119" bodyend="119"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

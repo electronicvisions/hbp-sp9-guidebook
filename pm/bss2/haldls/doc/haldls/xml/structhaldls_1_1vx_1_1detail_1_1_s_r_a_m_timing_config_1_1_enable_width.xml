@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::SRAMTimingConfig::EnableWidth</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; EnableWidth, uint_fast16_t, hate::math::pow(2, 4) - 1, 0 &gt;</basecompoundref>
+    <includes refid="sram__controller_8h" local="no">sram_controller.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width_1a94b5a4bc6200d0d9aa5caa8dcfecb12d" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::detail::SRAMTimingConfig::EnableWidth::EnableWidth</definition>
+        <argsstring>(uintmax_t const val=11)</argsstring>
+        <name>EnableWidth</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>11</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="70" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Duration of enable signal pull. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; EnableWidth, uint_fast16_t, hate::math::pow(2, 4) - 1, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::SRAMTimingConfig::EnableWidth</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; EnableWidth, uint_fast16_t, hate::math::pow(2, 4) - 1, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::SRAMTimingConfig::EnableWidth</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="66" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" bodystart="69" bodyend="73"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width_1a94b5a4bc6200d0d9aa5caa8dcfecb12d" prot="public" virt="non-virtual"><scope>haldls::vx::detail::SRAMTimingConfig::EnableWidth</scope><name>EnableWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,4 @@
+<map id="haldls::vx::CommonNeuronBackendConfig::WaitFireNeuron" name="haldls::vx::CommonNeuronBackendConfig::WaitFireNeuron">
+<area shape="rect" id="node1" title="Duration of pulse triggering the artificial neuron spikes." alt="" coords="7,113,220,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,222,65"/>
+</map>

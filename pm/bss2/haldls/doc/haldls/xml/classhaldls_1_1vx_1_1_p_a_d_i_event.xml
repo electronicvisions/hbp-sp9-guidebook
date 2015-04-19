@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_p_a_d_i_event" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::PADIEvent</compoundname>
+    <includes refid="padi_8h" local="no">padi.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_activation" prot="public">haldls::vx::PADIEvent::HagenActivation</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_address" prot="public">haldls::vx::PADIEvent::HagenAddress</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address" prot="public">haldls::vx::PADIEvent::RowSelectAddress</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a9c44623801aa2f9957dd0d8d6fbc8cc4" prot="public" static="no">
+        <type>halco::hicann_dls::vx::PADIEventOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::PADIEventOnDLS haldls::vx::PADIEvent::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="35" column="47" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a97dc34ede8f3e6b78b4a887cfa6f82d8" prot="public" static="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_label_value" kindref="compound">haldls::vx::SynapseLabelValue</ref></type>
+        <definition>using haldls::vx::PADIEvent::EventAddress =  haldls::vx::SynapseLabelValue</definition>
+        <argsstring></argsstring>
+        <name>EventAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="38" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a4c8cd17d010f6d926a1d59f6f5a87d8a" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock&gt; haldls::vx::PADIEvent::fire_bus_type</definition>
+        <argsstring></argsstring>
+        <name>fire_bus_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="74" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a05267637932550e242261a3c71eb12c1" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::PADIEvent::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="36" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a564c32b1d9696836d3c0f45c6b7122bb" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::PADIEvent::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="125" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a7ef4342fe4aa3a656985359bab04c6e5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::PADIEvent::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="124" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="142" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1ac841600ccdc1c222df9b953460c59828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PADIEvent const &amp;event) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event" kindref="compound">PADIEvent</ref> const &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="139" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a6f507a51c152a881ae7376b5b8379b46" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a97dc34ede8f3e6b78b4a887cfa6f82d8" kindref="member">EventAddress</ref></type>
+        <definition>EventAddress haldls::vx::PADIEvent::m_event_address</definition>
+        <argsstring></argsstring>
+        <name>m_event_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="149" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a83db318e0b5b58e2b1bc5f9f9d7a2d63" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a4c8cd17d010f6d926a1d59f6f5a87d8a" kindref="member">fire_bus_type</ref></type>
+        <definition>fire_bus_type haldls::vx::PADIEvent::m_fire_bus</definition>
+        <argsstring></argsstring>
+        <name>m_fire_bus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="148" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a68cd1f9233f4da765dc0ade94f4dd12d" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address" kindref="compound">RowSelectAddress</ref></type>
+        <definition>RowSelectAddress haldls::vx::PADIEvent::m_row_select_address</definition>
+        <argsstring></argsstring>
+        <name>m_row_select_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="150" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1aaddc063ab5d12305f02be0c97a7835c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PADIEvent::PADIEvent</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PADIEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a94aa904835340cd5e35476506cb0fcda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PADIEvent::decode</definition>
+        <argsstring>(std::array&lt; WordT, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a564c32b1d9696836d3c0f45c6b7122bb" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="135" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a1baea1439c1e0761c5c832ee71982ec1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a7ef4342fe4aa3a656985359bab04c6e5" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, write_config_size_in_words&gt; haldls::vx::PADIEvent::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="133" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a01dfea91c2cfb912a4e1d61823c7dd05" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a97dc34ede8f3e6b78b4a887cfa6f82d8" kindref="member">EventAddress</ref></type>
+        <definition>EventAddress haldls::vx::PADIEvent::get_event_address</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_event_address</name>
+        <briefdescription>
+<para>Set event address, which is eventually forwarded to synapses. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="88" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1adafe9a4690dc40006572619d7cdd82a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_activation" kindref="compound">HagenActivation</ref></type>
+        <definition>HagenActivation haldls::vx::PADIEvent::get_hagen_activation</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_hagen_activation</name>
+        <briefdescription>
+<para>Set Hagen-mode activation payload, which is eventually forwarded to synapses. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This setting accesses the lower five bits of the EventAddress. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="106" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1afec5d0507aed07c2c46ac95507f584e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_address" kindref="compound">HagenAddress</ref></type>
+        <definition>HagenAddress haldls::vx::PADIEvent::get_hagen_address</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_hagen_address</name>
+        <briefdescription>
+<para>Set Hagen-mode address, which is eventually forwarded to synapses. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This setting accesses the highest bit of the EventAddress. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="97" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a2ecf95a793b07ee1a34168559253eae2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address" kindref="compound">RowSelectAddress</ref></type>
+        <definition>RowSelectAddress haldls::vx::PADIEvent::get_row_select_address</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_row_select_address</name>
+        <briefdescription>
+<para>Set row select address determining the synapse driver which is supposed to fire. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Note that each synapse driver can be configured to match only parts of the row select address. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="117" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a7a90705fddd08a9bc4fc8e7921e2e675" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PADIEvent::operator!=</definition>
+        <argsstring>(PADIEvent const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event" kindref="compound">PADIEvent</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="122" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1aa593a35710fe912926ff3f109c6e61f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PADIEvent::operator==</definition>
+        <argsstring>(PADIEvent const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event" kindref="compound">PADIEvent</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="121" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a6acff4747cb4665883b7d0f867be18b9" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PADIEvent::return_value_policy</definition>
+        <argsstring>(reference_internal)) fire_bus_type const &amp;get_fire_bus() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="81" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1ac362750033322ce6df4546e60d6d2b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PADIEvent::set_event_address</definition>
+        <argsstring>(EventAddress const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_event_address</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a97dc34ede8f3e6b78b4a887cfa6f82d8" kindref="member">EventAddress</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="90" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1ac81bf794ff1a0726d55928910ffb5865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PADIEvent::set_fire_bus</definition>
+        <argsstring>(fire_bus_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_fire_bus</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a4c8cd17d010f6d926a1d59f6f5a87d8a" kindref="member">fire_bus_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="84" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a51117d3849989599485eefa4b75093e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PADIEvent::set_hagen_activation</definition>
+        <argsstring>(HagenActivation const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_hagen_activation</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_activation" kindref="compound">HagenActivation</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="108" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a34d563b85d23b5866cf12e481ac2de8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PADIEvent::set_hagen_address</definition>
+        <argsstring>(HagenAddress const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_hagen_address</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_address" kindref="compound">HagenAddress</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="99" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1ac280ff83028503d5ee00bcfa561aa201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PADIEvent::set_row_select_address</definition>
+        <argsstring>(RowSelectAddress const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_row_select_address</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address" kindref="compound">RowSelectAddress</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="119" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a6775333647d81469e3f43c0704292793" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a564c32b1d9696836d3c0f45c6b7122bb" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, read_config_size_in_words&gt; haldls::vx::PADIEvent::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a9c44623801aa2f9957dd0d8d6fbc8cc4" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="127" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1ada6978f4dbeaa1d55996134fa2e2095e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a7ef4342fe4aa3a656985359bab04c6e5" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, write_config_size_in_words&gt; haldls::vx::PADIEvent::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a9c44623801aa2f9957dd0d8d6fbc8cc4" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="130" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_a_d_i_event_1a0b656857d305b24d1940dd87c24e3c77" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PADIEvent::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="144" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A container for the PADI event trigger register. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>There exists one trigger register per block of PADI buses. Events carry the actual event address, a row select address to determine the target synapse driver row, and a mask to specify the set of PADI buses to fire the event on. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="32" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="33" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a9c44623801aa2f9957dd0d8d6fbc8cc4" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a94aa904835340cd5e35476506cb0fcda" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a1baea1439c1e0761c5c832ee71982ec1" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a97dc34ede8f3e6b78b4a887cfa6f82d8" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>EventAddress</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a4c8cd17d010f6d926a1d59f6f5a87d8a" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>fire_bus_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a01dfea91c2cfb912a4e1d61823c7dd05" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>get_event_address</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1adafe9a4690dc40006572619d7cdd82a0" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>get_hagen_activation</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1afec5d0507aed07c2c46ac95507f584e4" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>get_hagen_address</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a2ecf95a793b07ee1a34168559253eae2" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>get_row_select_address</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a05267637932550e242261a3c71eb12c1" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a6f507a51c152a881ae7376b5b8379b46" prot="private" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>m_event_address</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a83db318e0b5b58e2b1bc5f9f9d7a2d63" prot="private" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>m_fire_bus</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a68cd1f9233f4da765dc0ade94f4dd12d" prot="private" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>m_row_select_address</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a7a90705fddd08a9bc4fc8e7921e2e675" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1ac841600ccdc1c222df9b953460c59828" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1aa593a35710fe912926ff3f109c6e61f1" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1aaddc063ab5d12305f02be0c97a7835c1" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>PADIEvent</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a6775333647d81469e3f43c0704292793" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a564c32b1d9696836d3c0f45c6b7122bb" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a6acff4747cb4665883b7d0f867be18b9" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a0b656857d305b24d1940dd87c24e3c77" prot="private" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1ac362750033322ce6df4546e60d6d2b52" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>set_event_address</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1ac81bf794ff1a0726d55928910ffb5865" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>set_fire_bus</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a51117d3849989599485eefa4b75093e1" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>set_hagen_activation</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a34d563b85d23b5866cf12e481ac2de8a" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>set_hagen_address</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1ac280ff83028503d5ee00bcfa561aa201" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>set_row_select_address</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1ada6978f4dbeaa1d55996134fa2e2095e" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_a_d_i_event_1a7ef4342fe4aa3a656985359bab04c6e5" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

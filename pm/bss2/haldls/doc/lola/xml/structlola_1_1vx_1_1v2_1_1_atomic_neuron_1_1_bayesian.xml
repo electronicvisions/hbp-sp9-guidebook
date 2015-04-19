@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::v2::AtomicNeuron::Bayesian</compoundname>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1ae3e558615d1e6fc300df5ba284932607" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::connect_fire_from_right</definition>
+        <argsstring></argsstring>
+        <name>connect_fire_from_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="437" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1af46281712bb43566a13b5215a0bfab71" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::connect_fire_to_right</definition>
+        <argsstring></argsstring>
+        <name>connect_fire_to_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="436" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1add7a77946cc6695b8c9c382503406934" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::connect_fire_vertical</definition>
+        <argsstring></argsstring>
+        <name>connect_fire_vertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="435" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="435" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1ad36f0ace9272e863624f35fcd4b4e63f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="434" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1a2f70e760a71950428da883190b9a6136" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::enable_0</definition>
+        <argsstring></argsstring>
+        <name>enable_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="446" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1abfabb029786085c0f7b80913cb2ae891" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::enable_1</definition>
+        <argsstring></argsstring>
+        <name>enable_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="447" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1a53862abd7b832ebb805c0dc26f6d79a8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::enable_master</definition>
+        <argsstring></argsstring>
+        <name>enable_master</name>
+        <briefdescription>
+<para>Enable local spikes to be effective. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If not using <ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian" kindref="compound">Bayesian</ref> extensions, this setting needs to be enabled for spikes to reach synapses and the outputs. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="444" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1abdc002a306a88e8b9b66f2a8aa533922" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::enable_slave</definition>
+        <argsstring></argsstring>
+        <name>enable_slave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="445" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1ad3a8bea9a92fec8629d134d116765156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v2::AtomicNeuron::Bayesian::Bayesian</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Bayesian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="432" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1ac67920d66c6babdb8439dff249cca946" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::operator!=</definition>
+        <argsstring>(Bayesian const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian" kindref="compound">Bayesian</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="450" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1a69c08c83ff5bbebb0ce449b2b42ebd8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Bayesian::operator==</definition>
+        <argsstring>(Bayesian const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian" kindref="compound">Bayesian</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="449" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1aaf7e55d5cd1b85be2e52fb8ab33cefc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Bayesian const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian" kindref="compound">Bayesian</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="453" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="430" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="431" bodyend="454"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1ad3a8bea9a92fec8629d134d116765156" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>Bayesian</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1ae3e558615d1e6fc300df5ba284932607" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>connect_fire_from_right</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1af46281712bb43566a13b5215a0bfab71" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>connect_fire_to_right</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1add7a77946cc6695b8c9c382503406934" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>connect_fire_vertical</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1ad36f0ace9272e863624f35fcd4b4e63f" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>enable</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1a2f70e760a71950428da883190b9a6136" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>enable_0</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1abfabb029786085c0f7b80913cb2ae891" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>enable_1</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1a53862abd7b832ebb805c0dc26f6d79a8" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>enable_master</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1abdc002a306a88e8b9b66f2a8aa533922" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>enable_slave</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1ac67920d66c6babdb8439dff249cca946" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1aaf7e55d5cd1b85be2e52fb8ab33cefc1" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian_1a69c08c83ff5bbebb0ce449b2b42ebd8a" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Bayesian</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

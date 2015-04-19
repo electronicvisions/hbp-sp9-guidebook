@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::v3::AtomicNeuron::Exponential</compoundname>
+    <includes refid="v3_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a740742c61d36e2d7d71d94022f4b890d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::Exponential::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <briefdescription>
+<para>Enable exponential term. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="273" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a6f0f93dbaf8b7beb6d093450b1a7eaad" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v3_1_1_atomic_neuron_1ac5cb80f89e5824ee3bf053fce0205548" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v3::AtomicNeuron::Exponential::i_bias</definition>
+        <argsstring></argsstring>
+        <name>i_bias</name>
+        <briefdescription>
+<para>Bias current controlling the strength of the exponential term. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="279" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a815ec92a4a296df987ade9fcc0cf3af8" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v3_1_1_atomic_neuron_1ac5cb80f89e5824ee3bf053fce0205548" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v3::AtomicNeuron::Exponential::v_exp</definition>
+        <argsstring></argsstring>
+        <name>v_exp</name>
+        <briefdescription>
+<para><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_threshold" kindref="compound">Threshold</ref> voltage for the exponential term. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="276" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1aef2d0cca1f2778181725e9f8a4a4beff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v3::AtomicNeuron::Exponential::Exponential</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Exponential</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="281" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a9692661e5e8a7ef684cd1e7e3ec8433a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::Exponential::operator!=</definition>
+        <argsstring>(Exponential const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="284" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a9198a421cdb76b862beb15a3c5c471d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::Exponential::operator==</definition>
+        <argsstring>(Exponential const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="283" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a6e5d13327bc0369ec76aca48a2c5df97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Exponential const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential" kindref="compound">Exponential</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="287" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="270" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="271" bodyend="288"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a740742c61d36e2d7d71d94022f4b890d" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Exponential</scope><name>enable</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1aef2d0cca1f2778181725e9f8a4a4beff" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Exponential</scope><name>Exponential</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a6f0f93dbaf8b7beb6d093450b1a7eaad" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Exponential</scope><name>i_bias</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a9692661e5e8a7ef684cd1e7e3ec8433a" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Exponential</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a6e5d13327bc0369ec76aca48a2c5df97" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Exponential</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a9198a421cdb76b862beb15a3c5c471d5" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Exponential</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential_1a815ec92a4a296df987ade9fcc0cf3af8" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Exponential</scope><name>v_exp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

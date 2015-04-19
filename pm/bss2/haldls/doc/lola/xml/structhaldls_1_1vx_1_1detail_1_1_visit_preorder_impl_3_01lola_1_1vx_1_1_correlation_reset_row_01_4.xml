@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CorrelationResetRow &gt;</compoundname>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_correlation_reset_row_01_4_1a417d61eb01364777e9d547c364377b76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+          <param>
+            <type>typename VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CorrelationResetRow &gt;::call</definition>
+        <argsstring>(ContainerT &amp;config, lola::vx::CorrelationResetRow::coordinate_type const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>call</name>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_correlation_reset_row_1a0639e590ba7b8f1e76058c820961a837" kindref="member">lola::vx::CorrelationResetRow::coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="905" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="905" bodyend="922"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="902" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="903" bodyend="923"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_correlation_reset_row_01_4_1a417d61eb01364777e9d547c364377b76" prot="public" virt="non-virtual"><scope>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CorrelationResetRow &gt;</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

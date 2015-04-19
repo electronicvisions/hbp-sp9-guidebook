@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::PhyConfigBase::VBias</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; VBias, uint_fast32_t, 7, 0 &gt;</basecompoundref>
+    <includes refid="phy_8h" local="no">phy.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias_1a6e8942be1ca533a4ac97e88698b2ab3a" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::detail::PhyConfigBase::VBias::VBias</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>VBias</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="40" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::detail::PhyConfigBase::VBias</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; VBias, uint_fast32_t, 7, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::detail::PhyConfigBase::VBias</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; VBias, uint_fast32_t, 7, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="37" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="39" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias_1a6e8942be1ca533a4ac97e88698b2ab3a" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase::VBias</scope><name>VBias</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

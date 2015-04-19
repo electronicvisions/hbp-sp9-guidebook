@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_139dba3fb32f9c147aa086f8ec4f6572" kind="dir">
+    <compoundname>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2</compoundname>
+    <innerfile refid="v2_2cadc_8h">cadc.h</innerfile>
+    <innerfile refid="v2_2capmem_8h">capmem.h</innerfile>
+    <innerfile refid="v2_2chip_8h">chip.h</innerfile>
+    <innerfile refid="v2_2container_8h">container.h</innerfile>
+    <innerfile refid="v2_2dac_8h">dac.h</innerfile>
+    <innerfile refid="v2_2lola_8h">lola.h</innerfile>
+    <innerfile refid="v2_2memory__timing_8h">memory_timing.h</innerfile>
+    <innerfile refid="v2_2neuron_8h">neuron.h</innerfile>
+    <innerfile refid="v2_2ppu_8h">ppu.h</innerfile>
+    <innerfile refid="v2_2pylola_8h">pylola.h</innerfile>
+    <innerfile refid="v2_2readout__chain_8h">readout_chain.h</innerfile>
+    <innerfile refid="v2_2routing__crossbar_8h">routing_crossbar.h</innerfile>
+    <innerfile refid="v2_2synapse_8h">synapse.h</innerfile>
+    <innerfile refid="v2_2synapse__block_8h">synapse_block.h</innerfile>
+    <innerfile refid="v2_2synapse__driver_8h">synapse_driver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/"/>
+  </compounddef>
+</doxygen>

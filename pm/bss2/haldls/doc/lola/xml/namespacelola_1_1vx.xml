@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacelola_1_1vx" kind="namespace" language="C++">
+    <compoundname>lola::vx</compoundname>
+    <innerclass refid="classlola_1_1vx_1_1_column_correlation_row" prot="public">lola::vx::ColumnCorrelationRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_column_current_row" prot="public">lola::vx::ColumnCurrentRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_correlation_reset_row" prot="public">lola::vx::CorrelationResetRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_crossbar" prot="public">lola::vx::Crossbar</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_d_a_c_channel_block" prot="public">lola::vx::DACChannelBlock</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_d_a_c_control_block" prot="public">lola::vx::DACControlBlock</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_external_p_p_u_memory" prot="public">lola::vx::ExternalPPUMemory</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_external_p_p_u_memory_block" prot="public">lola::vx::ExternalPPUMemoryBlock</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_memory_timing" prot="public">lola::vx::MemoryTiming</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_p_p_u_elf_file" prot="public">lola::vx::PPUElfFile</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_p_p_u_program" prot="public">lola::vx::PPUProgram</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" prot="public">lola::vx::SynapseCorrelationCalibMatrix</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_correlation_calib_row" prot="public">lola::vx::SynapseCorrelationCalibRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_label_matrix" prot="public">lola::vx::SynapseLabelMatrix</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_label_row" prot="public">lola::vx::SynapseLabelRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_matrix" prot="public">lola::vx::SynapseMatrix</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_row" prot="public">lola::vx::SynapseRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_weight_matrix" prot="public">lola::vx::SynapseWeightMatrix</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_weight_row" prot="public">lola::vx::SynapseWeightRow</innerclass>
+    <innernamespace refid="namespacelola_1_1vx_1_1detail">lola::vx::detail</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v2">lola::vx::v2</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v3">lola::vx::v3</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="14" column="1"/>
+  </compounddef>
+</doxygen>

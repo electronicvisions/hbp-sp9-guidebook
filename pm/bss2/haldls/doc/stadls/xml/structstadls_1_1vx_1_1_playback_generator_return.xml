@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structstadls_1_1vx_1_1_playback_generator_return" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::vx::PlaybackGeneratorReturn</compoundname>
+    <includes refid="playback__generator_8h" local="no">playback_generator.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="playback__program__builder_8h_1a290cd8e22d39554e4e65602d3168ddce" kindref="member">Builder</ref></type>
+      </param>
+      <param>
+        <type>typename Result</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1_playback_generator_return_1a89543993671981f333ad48c5ab2c881c" prot="public" static="no" mutable="no">
+        <type><ref refid="playback__program__builder_8h_1a290cd8e22d39554e4e65602d3168ddce" kindref="member">Builder</ref></type>
+        <definition>Builder stadls::vx::PlaybackGeneratorReturn&lt; Builder, Result &gt;::builder</definition>
+        <argsstring></argsstring>
+        <name>builder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h" line="21" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1_playback_generator_return_1ac5e41d66029fbf14dc4a1d8edf06f072" prot="public" static="no" mutable="no">
+        <type>Result</type>
+        <definition>Result stadls::vx::PlaybackGeneratorReturn&lt; Builder, Result &gt;::result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h" line="22" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Return type of <ref refid="namespacestadls_1_1vx_1afaf1817461388b1848f72340fb4a925c" kindref="member">generate()</ref> call on playback sequence. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows named access to generated PlaybackProgramBuilder and to be specified Result value. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Result data structure, e.g. read-ticket data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h" line="19" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h" bodystart="20" bodyend="23"/>
+    <listofallmembers>
+      <member refid="structstadls_1_1vx_1_1_playback_generator_return_1a89543993671981f333ad48c5ab2c881c" prot="public" virt="non-virtual"><scope>stadls::vx::PlaybackGeneratorReturn</scope><name>builder</name></member>
+      <member refid="structstadls_1_1vx_1_1_playback_generator_return_1ac5e41d66029fbf14dc4a1d8edf06f072" prot="public" virt="non-virtual"><scope>stadls::vx::PlaybackGeneratorReturn</scope><name>result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

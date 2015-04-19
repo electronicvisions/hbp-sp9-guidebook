@@ -1,0 +1,7 @@
+<map id="haldls::vx::CADCConfig" name="haldls::vx::CADCConfig">
+<area shape="rect" id="node1" title="CADC container with global digital config for a vertical half." alt="" coords="532,68,693,96"/>
+<area shape="rect" id="node2" href="$structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time.html" title="Dead time in cycles after linear ramp increase to wait for signal propagation to every channel to pre..." alt="" coords="239,17,400,61"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,190,65"/>
+<area shape="rect" id="node4" href="$structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait.html" title="Wait time in cycles after ramp drop to compensate for analog low&#45;pass filtering of ramp signal and pr..." alt="" coords="239,93,400,137"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,89,190,149"/>
+</map>

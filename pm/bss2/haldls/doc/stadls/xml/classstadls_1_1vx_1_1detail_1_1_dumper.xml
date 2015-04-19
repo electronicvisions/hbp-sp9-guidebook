@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classstadls_1_1vx_1_1detail_1_1_dumper" kind="class" language="C++" prot="public">
+    <compoundname>stadls::vx::detail::Dumper</compoundname>
+    <includes refid="dumper_8h" local="no">dumper.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename DoneType</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a96ea4d734ecd9fd6b629bc2a512404c0" prot="public" static="no">
+        <type>DoneType</type>
+        <definition>typedef DoneType stadls::vx::detail::Dumper&lt; DoneType &gt;::done_type</definition>
+        <argsstring></argsstring>
+        <name>done_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="28" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classstadls_1_1vx_1_1detail_1_1_dumper_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="129" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classstadls_1_1vx_1_1detail_1_1_dumper_1ad65941e08d954f69a59aaee050df5ae4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Dumper&lt; T &gt; const &amp;builder)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref>&lt; T &gt; const &amp;</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+<para>Print coordinate/container pairs added until now. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Altered ostream </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="98" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a938b73850f1a3a9be8d45aae6a7428d4" prot="private" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a96ea4d734ecd9fd6b629bc2a512404c0" kindref="member">done_type</ref></type>
+        <definition>done_type stadls::vx::detail::Dumper&lt; DoneType &gt;::m_dumpit</definition>
+        <argsstring></argsstring>
+        <name>m_dumpit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="133" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a0f5a6f05012b38de0bfea19057be3092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::detail::Dumper&lt; DoneType &gt;::Dumper</definition>
+        <argsstring>()=default</argsstring>
+        <name>Dumper</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a9852aa8f8e5a7004ea4699c3ffe5efc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::detail::Dumper&lt; DoneType &gt;::Dumper</definition>
+        <argsstring>(Dumper &amp;&amp;)=default</argsstring>
+        <name>Dumper</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1ab71dc6fc90a608c251aed065785bdecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::detail::Dumper&lt; DoneType &gt;::Dumper</definition>
+        <argsstring>(Dumper const &amp;)=delete</argsstring>
+        <name>Dumper</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+<para>Copy constructor forbidden. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1aeb32d09e1098f633b32fb4dc58c1f47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::detail::Dumper&lt; DoneType &gt;::~Dumper</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Dumper</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a5dffdbd9da2322892511f8ce4a2776d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::Dumper&lt; DoneType &gt;::block_until</definition>
+        <argsstring>(halco::hicann_dls::vx::BarrierOnFPGA const &amp;coord, haldls::vx::Barrier barrier)</argsstring>
+        <name>block_until</name>
+        <param>
+          <type>halco::hicann_dls::vx::BarrierOnFPGA const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>haldls::vx::Barrier</type>
+          <declname>barrier</declname>
+        </param>
+        <briefdescription>
+<para>Add instruction to block execution until specified barrier is completed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Barrier synchronization coordinate for which to block </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>barrier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Barrier synchronization value for to block execution </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="61" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a0d8cdede497578128436105aec0ce4dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::Dumper&lt; DoneType &gt;::block_until</definition>
+        <argsstring>(halco::hicann_dls::vx::PollingOmnibusBlockOnFPGA const &amp;coord, haldls::vx::PollingOmnibusBlock barrier)</argsstring>
+        <name>block_until</name>
+        <param>
+          <type>halco::hicann_dls::vx::PollingOmnibusBlockOnFPGA const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>haldls::vx::PollingOmnibusBlock</type>
+          <declname>barrier</declname>
+        </param>
+        <briefdescription>
+<para>Add instruction to block execution until specified barrier is completed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PollingOmnibusBlock synchronization coordinate for which to block </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>barrier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>PollingOmnibusBlock synchronization value for to block execution </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="69" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a4ac973ee4720858a1686adec91963434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::Dumper&lt; DoneType &gt;::block_until</definition>
+        <argsstring>(typename haldls::vx::Timer::coordinate_type const &amp;coord, haldls::vx::Timer::Value time)</argsstring>
+        <name>block_until</name>
+        <param>
+          <type>typename haldls::vx::Timer::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>haldls::vx::Timer::Value</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Add instruction to block execution until specified timer has reached specified value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timer coordinate for which to block </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timer value until which to block execution </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="53" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a959acb0c05a7a2cc9d7bb8b45682da20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::Dumper&lt; DoneType &gt;::copy_back</definition>
+        <argsstring>(Dumper const &amp;other)</argsstring>
+        <name>copy_back</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy other <ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> to the end of this instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The copied-from builder is untouched during the process. <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::runtime_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>On other builder not being write only </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Builder to copy to this instance at the back </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="120" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1abb54efef46a81522cffb9c34422484f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a96ea4d734ecd9fd6b629bc2a512404c0" kindref="member">done_type</ref></type>
+        <definition>done_type stadls::vx::detail::Dumper&lt; DoneType &gt;::done</definition>
+        <argsstring>()</argsstring>
+        <name>done</name>
+        <briefdescription>
+<para>Return ordered list of write coordinate-container pairs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Ordered list of writes of coordinate-container pairs. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="91" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1aca1ef7840eaea8660657728688745b5f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool stadls::vx::detail::Dumper&lt; DoneType &gt;::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+<para>Get whether builder is empty, i.e. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>no instructions are embodied. <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="126" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a4d1cb770a4ad1d97f66d70d489cde467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::Dumper&lt; DoneType &gt;::merge_back</definition>
+        <argsstring>(Dumper &amp;other)</argsstring>
+        <name>merge_back</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Merge other <ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> to the end of this instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The moved-from builder is emptied during the process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Builder to move to this instance at the back </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="105" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a04d3b943863094eee3d33820cc080167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::Dumper&lt; DoneType &gt;::merge_front</definition>
+        <argsstring>(Dumper &amp;other)</argsstring>
+        <name>merge_front</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Merge other PlaybackProgramBuilder to the beginning of this builder instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The moved-from builder is emptied during the process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Builder to move to this instance at the front </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="112" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a6af19a3e71b95cd806de753915220cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> &amp;</type>
+        <definition>Dumper&amp; stadls::vx::detail::Dumper&lt; DoneType &gt;::operator=</definition>
+        <argsstring>(Dumper &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+<para>Move assignment operator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="40" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a3cb907cbb3aa5d1c737c7b5248ff897b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> &amp;</type>
+        <definition>Dumper&amp; stadls::vx::detail::Dumper&lt; DoneType &gt;::operator=</definition>
+        <argsstring>(Dumper const &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+<para>Copy assignment forbidden. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="46" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a220f9108fcba9532b803a20d51bd1631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket" kindref="compound">PlaybackProgram::ContainerTicket</ref>&lt; ContainerT &gt;</type>
+        <definition>PlaybackProgram::ContainerTicket&lt;ContainerT&gt; stadls::vx::detail::Dumper&lt; DoneType &gt;::read</definition>
+        <argsstring>(typename ContainerT::coordinate_type const &amp;coord)</argsstring>
+        <name>read</name>
+        <param>
+          <type>typename ContainerT::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>We do not support read and throw at runtime. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="84" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a8e6bae8b55313201a631a436f2d16466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::detail::Dumper&lt; DoneType &gt;::write</definition>
+        <argsstring>(typename ContainerT::coordinate_type const &amp;coord, ContainerT const &amp;config)</argsstring>
+        <name>write</name>
+        <param>
+          <type>typename ContainerT::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ContainerT const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>Add write instruction for container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ContainerT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container coordinate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="80" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_dumper_1a7d8a495b81cf11e1f44aa21ad8b4eb9b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::detail::Dumper&lt; DoneType &gt;::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="131" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">Dumper</ref> implements an interface derived from fisch::vx::PlaybackProgramBuilder. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>However, it does work on haldls container/halco coordinate pairs instead of fisch containers. Reads are not supported as there is currently no application; writes are collected into a std container holding coordinate/container pairs. The std container is returned by <ref refid="classstadls_1_1vx_1_1detail_1_1_dumper_1abb54efef46a81522cffb9c34422484f9" kindref="member">done()</ref>. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" line="25" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h" bodystart="26" bodyend="134"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a4ac973ee4720858a1686adec91963434" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>block_until</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a5dffdbd9da2322892511f8ce4a2776d0" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>block_until</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a0d8cdede497578128436105aec0ce4dc" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>block_until</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>cereal::access</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a959acb0c05a7a2cc9d7bb8b45682da20" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>copy_back</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1abb54efef46a81522cffb9c34422484f9" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>done</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a96ea4d734ecd9fd6b629bc2a512404c0" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>done_type</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a0f5a6f05012b38de0bfea19057be3092" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>Dumper</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a9852aa8f8e5a7004ea4699c3ffe5efc1" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>Dumper</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1ab71dc6fc90a608c251aed065785bdecf" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>Dumper</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1aca1ef7840eaea8660657728688745b5f" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>empty</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a938b73850f1a3a9be8d45aae6a7428d4" prot="private" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>m_dumpit</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a4d1cb770a4ad1d97f66d70d489cde467" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>merge_back</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a04d3b943863094eee3d33820cc080167" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>merge_front</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1ad65941e08d954f69a59aaee050df5ae4" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a6af19a3e71b95cd806de753915220cc5" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a3cb907cbb3aa5d1c737c7b5248ff897b" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a220f9108fcba9532b803a20d51bd1631" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>read</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a7d8a495b81cf11e1f44aa21ad8b4eb9b" prot="private" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>serialize</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a8e6bae8b55313201a631a436f2d16466" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>write</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1aeb32d09e1098f633b32fb4dc58c1f47c" prot="public" virt="non-virtual"><scope>stadls::vx::detail::Dumper</scope><name>~Dumper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

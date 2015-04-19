@@ -1,0 +1,4 @@
+<map id="haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;" name="haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;">
+<area shape="rect" id="node1" title="Read/write access to the NeuronBackend container." alt="" coords="5,97,185,141"/>
+<area shape="rect" id="node2" href="$classhaldls_1_1vx_1_1_differential_write_trait.html" title="Trait signalling derived&#45;from container type support differential write operation." alt="" coords="21,5,169,49"/>
+</map>

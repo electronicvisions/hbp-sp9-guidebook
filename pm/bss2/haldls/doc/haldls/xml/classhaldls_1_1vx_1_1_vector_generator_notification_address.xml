@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_vector_generator_notification_address" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::VectorGeneratorNotificationAddress</compoundname>
+    <includes refid="vector__generator_8h" local="no">vector_generator.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a76da8f39a1ae863bc2a45f9d77a41ebb" prot="public" static="no">
+        <type>halco::hicann_dls::vx::VectorGeneratorNotificationAddressOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::VectorGeneratorNotificationAddressOnFPGA haldls::vx::VectorGeneratorNotificationAddress::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="325" column="73" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a7ffae91ce2849ee1c1b0604616a563bf" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::VectorGeneratorNotificationAddress::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="324" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a2079aee8d437bd1a30ef0b3a82abbbac" prot="public" static="no">
+        <type>halco::hicann_dls::vx::OmnibusAddress</type>
+        <definition>typedef halco::hicann_dls::vx::OmnibusAddress haldls::vx::VectorGeneratorNotificationAddress::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="327" column="47" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a6f1b9bbae33655e1cdf9968d57087ef8" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::VectorGeneratorNotificationAddress::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="360" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="369" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1ab52038b76c042721b1e3f9d886721273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, VectorGeneratorNotificationAddress const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address" kindref="compound">VectorGeneratorNotificationAddress</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="357" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1afac2e12854e12e31bd1fd88b94aefd8e" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a2079aee8d437bd1a30ef0b3a82abbbac" kindref="member">Value</ref></type>
+        <definition>Value haldls::vx::VectorGeneratorNotificationAddress::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="373" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1ac995a661efadbab5a688fba6ab49c77e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::VectorGeneratorNotificationAddress::VectorGeneratorNotificationAddress</definition>
+        <argsstring>()=default</argsstring>
+        <name>VectorGeneratorNotificationAddress</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="330" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a20136f792587be6479c40588f9c7cc8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::VectorGeneratorNotificationAddress::VectorGeneratorNotificationAddress</definition>
+        <argsstring>(halco::hicann_dls::vx::PPUMemoryWordOnDLS const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>VectorGeneratorNotificationAddress</name>
+        <param>
+          <type>halco::hicann_dls::vx::PPUMemoryWordOnDLS const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+<para>Construct notification address from word location on PPU memory. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>word</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Word location </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="350" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1acfcbb31a1a593cd94900f8b4c3f3bc57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorNotificationAddress::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Omnibus, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a6f1b9bbae33655e1cdf9968d57087ef8" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="365" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a069fb5533d5875a77267ca8238fd6a02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a6f1b9bbae33655e1cdf9968d57087ef8" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Omnibus, config_size_in_words&gt; haldls::vx::VectorGeneratorNotificationAddress::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="363" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1aa523c19d13f44f6e2bd5f2b50083b341" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a2079aee8d437bd1a30ef0b3a82abbbac" kindref="member">Value</ref></type>
+        <definition>Value haldls::vx::VectorGeneratorNotificationAddress::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+<para>Get value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="337" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1ab9b1dcde8788ed2cc35cb1e40de96290" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::VectorGeneratorNotificationAddress::operator!=</definition>
+        <argsstring>(VectorGeneratorNotificationAddress const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address" kindref="compound">VectorGeneratorNotificationAddress</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="354" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1aa23050bf6172d7d70c69e1ea7371f3f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::VectorGeneratorNotificationAddress::operator==</definition>
+        <argsstring>(VectorGeneratorNotificationAddress const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address" kindref="compound">VectorGeneratorNotificationAddress</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="353" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a3fb5a9d78682e27707e00b9c613370fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorNotificationAddress::set_value</definition>
+        <argsstring>(Value value) SYMBOL_VISIBLE</argsstring>
+        <name>set_value</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a2079aee8d437bd1a30ef0b3a82abbbac" kindref="member">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="344" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1af34b098248d9fe56f00f17606fbb8396" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a6f1b9bbae33655e1cdf9968d57087ef8" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, config_size_in_words&gt; haldls::vx::VectorGeneratorNotificationAddress::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a76da8f39a1ae863bc2a45f9d77a41ebb" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="361" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a2b44db9d096cced0feb05eb13fe8864a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorNotificationAddress::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="371" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="321" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="322" bodyend="374"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1af34b098248d9fe56f00f17606fbb8396" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a6f1b9bbae33655e1cdf9968d57087ef8" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a76da8f39a1ae863bc2a45f9d77a41ebb" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1acfcbb31a1a593cd94900f8b4c3f3bc57" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a069fb5533d5875a77267ca8238fd6a02" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1aa523c19d13f44f6e2bd5f2b50083b341" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>get_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a7ffae91ce2849ee1c1b0604616a563bf" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1afac2e12854e12e31bd1fd88b94aefd8e" prot="private" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1ab9b1dcde8788ed2cc35cb1e40de96290" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1ab52038b76c042721b1e3f9d886721273" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1aa23050bf6172d7d70c69e1ea7371f3f2" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a2b44db9d096cced0feb05eb13fe8864a" prot="private" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a3fb5a9d78682e27707e00b9c613370fd" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>set_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a2079aee8d437bd1a30ef0b3a82abbbac" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>Value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1ac995a661efadbab5a688fba6ab49c77e" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>VectorGeneratorNotificationAddress</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_notification_address_1a20136f792587be6479c40588f9c7cc8b" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorNotificationAddress</scope><name>VectorGeneratorNotificationAddress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

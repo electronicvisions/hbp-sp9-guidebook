@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_j_t_a_g_id_code" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::JTAGIdCode</compoundname>
+    <includes refid="jtag_8h" local="no">jtag.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_manufacturer_id" prot="public">haldls::vx::JTAGIdCode::ManufacturerId</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_part_number" prot="public">haldls::vx::JTAGIdCode::PartNumber</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version" prot="public">haldls::vx::JTAGIdCode::Version</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a755a1e6d9906a23477f469593978ed78" prot="public" static="no">
+        <type>halco::hicann_dls::vx::JTAGIdCodeOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::JTAGIdCodeOnDLS haldls::vx::JTAGIdCode::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="172" column="48" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1aa5fff8b99717ff3f4ebfeba1d7f5552d" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::JTAGIdCode::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="173" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1adaaef32d3c593edcf70ca4e497ac6c13" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::JTAGIdCode::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="256" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1afd1e209f6737b6ee6fd39ff76cf8fee8" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::JTAGIdCode::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="257" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="269" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a2482123a203deab03de16583b2233226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, JTAGIdCode const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code" kindref="compound">JTAGIdCode</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="254" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a9cb729ff6f1731c96c75ee441f1dc89e" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_manufacturer_id" kindref="compound">ManufacturerId</ref></type>
+        <definition>ManufacturerId haldls::vx::JTAGIdCode::m_manufacturer_id</definition>
+        <argsstring></argsstring>
+        <name>m_manufacturer_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="275" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a796649dcf6fcab8b128112b68ef78ab6" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_part_number" kindref="compound">PartNumber</ref></type>
+        <definition>PartNumber haldls::vx::JTAGIdCode::m_part_number</definition>
+        <argsstring></argsstring>
+        <name>m_part_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="274" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a4d966bd4ed537975b9c69e49a143e3af" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version" kindref="compound">Version</ref></type>
+        <definition>Version haldls::vx::JTAGIdCode::m_version</definition>
+        <argsstring></argsstring>
+        <name>m_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="273" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1abd6ebda3ad3b4a348ab023604f0de342" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::JTAGIdCode::JTAGIdCode</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>JTAGIdCode</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="212" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a4d73922923840758b7e391a87d693caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::JTAGIdCode::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::JTAGIdCode, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::JTAGIdCode, <ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1adaaef32d3c593edcf70ca4e497ac6c13" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="264" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1aedac14487ff557647276ae92213a626b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::JTAGIdCode, <ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1afd1e209f6737b6ee6fd39ff76cf8fee8" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::JTAGIdCode, write_config_size_in_words&gt; haldls::vx::JTAGIdCode::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="262" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a2efcdb5ab01c45d345bb822a39a0c3cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_manufacturer_id" kindref="compound">ManufacturerId</ref></type>
+        <definition>ManufacturerId haldls::vx::JTAGIdCode::get_manufacturer_id</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_manufacturer_id</name>
+        <briefdescription>
+<para>Get JEDEC Manufacturer ID code, Heidelberg University has &apos;0x057&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="230" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1ad4990dd5507aae65776d74ad2d0adf16" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_part_number" kindref="compound">PartNumber</ref></type>
+        <definition>PartNumber haldls::vx::JTAGIdCode::get_part_number</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_part_number</name>
+        <briefdescription>
+<para>Get device identification number. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="224" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a59204d5f2ab97d3639f8ca28f92e7639" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version" kindref="compound">Version</ref></type>
+        <definition>Version haldls::vx::JTAGIdCode::get_version</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_version</name>
+        <briefdescription>
+<para>Get hardware revision number, starting from 0. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="218" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1ac907565313ff4e1267727e7270abdc56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::JTAGIdCode::operator!=</definition>
+        <argsstring>(JTAGIdCode const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code" kindref="compound">JTAGIdCode</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="251" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a266f07c2334a52458e7e72530e367f78" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::JTAGIdCode::operator==</definition>
+        <argsstring>(JTAGIdCode const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code" kindref="compound">JTAGIdCode</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="250" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a48ab6834f7c0a17bf1e14242bb04ebdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::JTAGIdCode::set_manufacturer_id</definition>
+        <argsstring>(ManufacturerId value) SYMBOL_VISIBLE</argsstring>
+        <name>set_manufacturer_id</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_manufacturer_id" kindref="compound">ManufacturerId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set JEDEC Manufacturer ID code, Heidelberg University has &apos;0x057&apos;. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="248" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1afb74ddf5f0722f9b60b1a73ca680d409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::JTAGIdCode::set_part_number</definition>
+        <argsstring>(PartNumber value) SYMBOL_VISIBLE</argsstring>
+        <name>set_part_number</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_part_number" kindref="compound">PartNumber</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set device identification number. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="242" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a62ae2a07ebdd1bb48185054d64463ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::JTAGIdCode::set_version</definition>
+        <argsstring>(Version value) SYMBOL_VISIBLE</argsstring>
+        <name>set_version</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version" kindref="compound">Version</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set hardware revision number, starting from 0. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="236" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a2dc98597f4dd2633ba0d8a7d794fa828" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::JTAGIdCodeOnDLS, <ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1adaaef32d3c593edcf70ca4e497ac6c13" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::JTAGIdCodeOnDLS, read_config_size_in_words&gt; haldls::vx::JTAGIdCode::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a755a1e6d9906a23477f469593978ed78" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="259" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1ac9961c813071c8135fb26609d5a8bb06" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::JTAGIdCodeOnDLS, <ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1afd1e209f6737b6ee6fd39ff76cf8fee8" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::JTAGIdCodeOnDLS, write_config_size_in_words&gt; haldls::vx::JTAGIdCode::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a755a1e6d9906a23477f469593978ed78" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="261" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1af804e5421c23aa589ace45831e378c50" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::JTAGIdCode::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="271" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for reading the JTAG IDCODE. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="169" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="170" bodyend="276"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a755a1e6d9906a23477f469593978ed78" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a4d73922923840758b7e391a87d693caf" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1aedac14487ff557647276ae92213a626b" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a2efcdb5ab01c45d345bb822a39a0c3cc" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>get_manufacturer_id</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1ad4990dd5507aae65776d74ad2d0adf16" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>get_part_number</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a59204d5f2ab97d3639f8ca28f92e7639" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>get_version</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1aa5fff8b99717ff3f4ebfeba1d7f5552d" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1abd6ebda3ad3b4a348ab023604f0de342" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>JTAGIdCode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a9cb729ff6f1731c96c75ee441f1dc89e" prot="private" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>m_manufacturer_id</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a796649dcf6fcab8b128112b68ef78ab6" prot="private" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>m_part_number</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a4d966bd4ed537975b9c69e49a143e3af" prot="private" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>m_version</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1ac907565313ff4e1267727e7270abdc56" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a2482123a203deab03de16583b2233226" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a266f07c2334a52458e7e72530e367f78" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a2dc98597f4dd2633ba0d8a7d794fa828" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1adaaef32d3c593edcf70ca4e497ac6c13" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1af804e5421c23aa589ace45831e378c50" prot="private" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a48ab6834f7c0a17bf1e14242bb04ebdc" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>set_manufacturer_id</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1afb74ddf5f0722f9b60b1a73ca680d409" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>set_part_number</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1a62ae2a07ebdd1bb48185054d64463ad6" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>set_version</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1ac9961c813071c8135fb26609d5a8bb06" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code_1afd1e209f6737b6ee6fd39ff76cf8fee8" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

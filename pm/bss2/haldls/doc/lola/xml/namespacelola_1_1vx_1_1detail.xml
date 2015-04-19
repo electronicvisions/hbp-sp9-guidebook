@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacelola_1_1vx_1_1detail" kind="namespace" language="C++">
+    <compoundname>lola::vx::detail</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacelola_1_1vx_1_1detail_1a636fb0f96e709954f7fba85222670e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string lola::vx::detail::gray_scale</definition>
+        <argsstring>(double value) SYMBOL_VISIBLE</argsstring>
+        <name>gray_scale</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Map bars of monotonously increasing height to visualize scalar positive values between zero and one. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The dot maps to zero. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to visualize. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/gray_scale.h" line="12" column="13" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/gray_scale.h" declline="12" declcolumn="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/gray_scale.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

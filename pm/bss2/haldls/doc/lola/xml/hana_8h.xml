@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="hana_8h" kind="file" language="C++">
+    <compoundname>hana.h</compoundname>
+    <includes local="no">boost/hana.hpp</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/hana.h</label>
+        <link refid="hana_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="hana_8h_1a0dea362e9e362324cc1c96e69aab9ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; boost::hana::Struct&lt; T &gt;::value, bool &gt;</type>
+        <definition>std::enable_if_t&lt;boost::hana::Struct&lt;T&gt;::value, bool&gt; equal</definition>
+        <argsstring>(T const &amp;a, T const &amp;b)</argsstring>
+        <name>equal</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/hana.h" line="5" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/hana.h" bodystart="5" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="hana_8h_1a6f83b4550f2133281c12e37d78e1b305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; boost::hana::Struct&lt; T &gt;::value, bool &gt;</type>
+        <definition>std::enable_if_t&lt;boost::hana::Struct&lt;T&gt;::value, bool&gt; unequal</definition>
+        <argsstring>(T const &amp;a, T const &amp;b)</argsstring>
+        <name>unequal</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/hana.h" line="16" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/hana.h" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/hana.h"/>
+  </compounddef>
+</doxygen>

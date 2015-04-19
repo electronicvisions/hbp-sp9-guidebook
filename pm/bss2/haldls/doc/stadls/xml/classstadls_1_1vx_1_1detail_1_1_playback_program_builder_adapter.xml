@@ -1,0 +1,923 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kind="class" language="C++" prot="public">
+    <compoundname>stadls::vx::detail::PlaybackProgramBuilderAdapter</compoundname>
+    <includes refid="playback__program__builder_8h" local="no">playback_program_builder.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename BuilderStorage</type>
+      </param>
+      <param>
+        <type>typename DoneType</type>
+      </param>
+      <param>
+        <type>template&lt; typename &gt; class</type>
+        <declname>CoordinateToContainer</declname>
+        <defname>CoordinateToContainer</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a13117ae7407bf0fc776843a38cd77ebb" prot="public" static="no">
+        <type>BuilderStorage</type>
+        <definition>typedef BuilderStorage stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::Builder</definition>
+        <argsstring></argsstring>
+        <name>Builder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="70" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a337b5fe8e952704b0bf2237d4afdca6a" prot="public" static="no">
+        <type>hate::type_list&lt;::<ref refid="namespacestadls_1_1vx_1_1v2_1abbee132afae6831074bf262c9bb49b7e" kindref="member">stadls::vx::v2::Dumper</ref> &gt;</type>
+        <definition>typedef hate::type_list&lt;::stadls::vx::v2::Dumper&gt; stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::dumper_types</definition>
+        <argsstring></argsstring>
+        <name>dumper_types</name>
+        <initializer>{ 			std::stringstream ss</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="250" column="27" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a64279434ad02b28642a264379648ee3a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::else</definition>
+        <argsstring></argsstring>
+        <name>else</name>
+        <initializer>{ 				ss &lt;&lt; &quot;PlaybackProgramBuilder(to FPGA size: &quot; &lt;&lt; p.size_to_fpga() 				   &lt;&lt; &quot;, is <ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a0e5d9db260c3835f7696496efb85581a" kindref="member">write</ref> only: &quot; &lt;&lt; std::boolalpha &lt;&lt; p.is_write_only() &lt;&lt; &quot;)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="250" column="101" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a0865b4e202b52faa68acad9249bc91ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::PlaybackProgramBuilderAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>PlaybackProgramBuilderAdapter</name>
+        <briefdescription>
+<para>Construct builder. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a540971dcbff22763060f74d67974e721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::PlaybackProgramBuilderAdapter</definition>
+        <argsstring>(PlaybackProgramBuilderAdapter &amp;&amp;other)</argsstring>
+        <name>PlaybackProgramBuilderAdapter</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1afba8258735a7905da94abf77e06e5a30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::PlaybackProgramBuilderAdapter</definition>
+        <argsstring>(PlaybackProgramBuilderAdapter const &amp;)=delete</argsstring>
+        <name>PlaybackProgramBuilderAdapter</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a66a0508ac8ea1780e696208163d7e1af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::~PlaybackProgramBuilderAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>~PlaybackProgramBuilderAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aebfe97e31255139d1f0078b98d75f0d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::block_until</definition>
+        <argsstring>(halco::hicann_dls::vx::BarrierOnFPGA const &amp;coord, haldls::vx::Barrier sync)</argsstring>
+        <name>block_until</name>
+        <param>
+          <type>halco::hicann_dls::vx::BarrierOnFPGA const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>haldls::vx::Barrier</type>
+          <declname>sync</declname>
+        </param>
+        <briefdescription>
+<para>Add instruction to block execution until specified barrier is completed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Barrier coordinate for which to block </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sync</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Barrier value for which to block execution </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="94" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ac7182906a56deaa3b7675d3e989fe129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::block_until</definition>
+        <argsstring>(halco::hicann_dls::vx::PollingOmnibusBlockOnFPGA const &amp;coord, haldls::vx::PollingOmnibusBlock sync)</argsstring>
+        <name>block_until</name>
+        <param>
+          <type>halco::hicann_dls::vx::PollingOmnibusBlockOnFPGA const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>haldls::vx::PollingOmnibusBlock</type>
+          <declname>sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="101" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a320de8d31c7586f2caa579b7f037246d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::block_until</definition>
+        <argsstring>(typename haldls::vx::Timer::coordinate_type const &amp;coord, haldls::vx::Timer::Value time)</argsstring>
+        <name>block_until</name>
+        <param>
+          <type>typename haldls::vx::Timer::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>haldls::vx::Timer::Value</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Add instruction to block execution until specified timer has reached specified value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timer coordinate for which to block </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timer value until which to block execution </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="86" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a2f9754ff8d80cdf9dcabd8f1c69e93d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::copy_back</definition>
+        <argsstring>(BuilderStorage const &amp;other)</argsstring>
+        <name>copy_back</name>
+        <param>
+          <type>BuilderStorage const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy BuilderStorage to the end of this builder instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The copied-from storage is untouched during the process. <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::runtime_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>On other builder not being write only </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>BuilderStorage to copy to this instance at the back </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="219" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a366affde17ad9967be71949ce6ff4e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::copy_back</definition>
+        <argsstring>(PlaybackProgramBuilderAdapter const &amp;other)</argsstring>
+        <name>copy_back</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy other <ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> to the end of this builder instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The copied-from builder is untouched during the process. <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::runtime_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>On other builder not being write only </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Builder to copy to this instance at the back </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="211" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a7a40f940a196f6815cde20924743dabe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>parent</type>
+        <definition>parent stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::def</definition>
+        <argsstring>(&quot;__str__&quot;, [](GENPYBIND_PARENT_TYPE const &amp;p) { std::stringstream ss;ss&lt;&lt; p;return ss.str();})</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__str__&quot;</type>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>(GENPYBIND_PARENT_TYPE const &amp;p) { std::stringstream ss;ss&lt;&lt; p;return <ref refid="playback__program__builder_8h_1a9ce751ab836cd6ee6a3eff9e0dee60aa" kindref="member">ss.str</ref>();}</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="250" column="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a02b31bbffe51fce8e4e724f3d20d1d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DoneType</type>
+        <definition>DoneType stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::done</definition>
+        <argsstring>()</argsstring>
+        <name>done</name>
+        <briefdescription>
+<para>Close <ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> build process and return executable program. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Executable <ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="225" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a854c4fb68c097a0928e30c260efd0c8c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::if</definition>
+        <argsstring>(hate::is_in_type_list&lt; typename std::decay&lt; decltype(p)&gt;::type::Builder, dumper_types &gt;::value)</argsstring>
+        <name>if</name>
+        <param>
+          <type>hate::is_in_type_list&lt; typename std::decay&lt; decltype(p)&gt;::<ref refid="playback__program__builder_8h_1a290cd8e22d39554e4e65602d3168ddce" kindref="member">type::Builder</ref>, <ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a337b5fe8e952704b0bf2237d4afdca6a" kindref="member">dumper_types</ref> &gt;::value</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="250" column="40" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" bodystart="250" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aaed3149bf4518ef01cb17e0fed26f244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::merge_back</definition>
+        <argsstring>(BuilderStorage &amp;&amp;other)</argsstring>
+        <name>merge_back</name>
+        <param>
+          <type>BuilderStorage &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Merge BuilderStorage to the end of this builder instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The moved-from storage is emptied during the process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>BuilderStorage to move to this instance at the back </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="203" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ab3ecfd04d0a0482da3ff887aca1650ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::merge_back</definition>
+        <argsstring>(BuilderStorage &amp;other)</argsstring>
+        <name>merge_back</name>
+        <param>
+          <type>BuilderStorage &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Merge BuilderStorage to the end of this builder instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The moved-from storage is emptied during the process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>BuilderStorage to move to this instance at the back </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="196" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a2e9597b423c604781254b408cbaaef5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::merge_back</definition>
+        <argsstring>(PlaybackProgramBuilderAdapter &amp;&amp;other)</argsstring>
+        <name>merge_back</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Merge other <ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> to the end of this builder instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The moved-from builder is emptied during the process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Builder to move to this instance at the back </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="189" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a771d81a5d314234857090189371154d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::merge_back</definition>
+        <argsstring>(PlaybackProgramBuilderAdapter &amp;other)</argsstring>
+        <name>merge_back</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Merge other <ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> to the end of this builder instance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The moved-from builder is emptied during the process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Builder to move to this instance at the back </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="182" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a7f58f517caff7e46b808eeae88e5996b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> &amp;</type>
+        <definition>PlaybackProgramBuilderAdapter&amp; stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::operator=</definition>
+        <argsstring>(PlaybackProgramBuilderAdapter &amp;&amp;other)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="66" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ab070242808d4278064b1044c01236248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateType</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket" kindref="compound">PlaybackProgram::ContainerTicket</ref>&lt; typename CoordinateToContainer&lt; CoordinateType &gt;::type &gt;</type>
+        <definition>PlaybackProgram::ContainerTicket&lt;typename CoordinateToContainer&lt;CoordinateType&gt;::type&gt; stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::read</definition>
+        <argsstring>(CoordinateType const &amp;coord)</argsstring>
+        <name>read</name>
+        <param>
+          <type>CoordinateType const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Add instructions to read container data from given location. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The container&apos;s default backend is used. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate value selecting location </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>This function without backend parameter is needed due to python wrapping not being able to handle templated default arguments. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="174" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aeb175f07e9d5b09b7d4c2cf443302282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateType</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket" kindref="compound">PlaybackProgram::ContainerTicket</ref>&lt; typename CoordinateToContainer&lt; CoordinateType &gt;::type &gt;</type>
+        <definition>PlaybackProgram::ContainerTicket&lt;typename CoordinateToContainer&lt;CoordinateType&gt;::type&gt; stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::read</definition>
+        <argsstring>(CoordinateType const &amp;coord, haldls::vx::Backend backend)</argsstring>
+        <name>read</name>
+        <param>
+          <type>CoordinateType const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>haldls::vx::Backend</type>
+          <declname>backend</declname>
+        </param>
+        <briefdescription>
+<para>Add instructions to read container data from given location. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate value selecting location </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>backend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Backend selection </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="163" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a791de8ff59aece4524f4108d02d8be7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>return ss</type>
+        <definition>return ss stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::str</definition>
+        <argsstring>()</argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="250" column="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1adaa5ed11ff855da9680c6cfe6153f567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::wait_until</definition>
+        <argsstring>(typename haldls::vx::Timer::coordinate_type const &amp;coord, haldls::vx::Timer::Value time)</argsstring>
+        <name>wait_until</name>
+        <param>
+          <type>typename haldls::vx::Timer::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>haldls::vx::Timer::Value</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Add instruction to block execution until specified timer has reached specified value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000001"><xreftitle>Deprecated</xreftitle><xrefdescription><para>In favor of block_until </para>
+</xrefdescription></xrefsect><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timer coordinate for which to wait </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timer value until which to block execution </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="78" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ae1834f713c5dcd86b5abdb24209f23a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::write</definition>
+        <argsstring>(typename Type::coordinate_type const &amp;coord, Type const &amp;config)</argsstring>
+        <name>write</name>
+        <param>
+          <type>typename Type::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>Type const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>Add instructions to write given container to given location. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The container&apos;s default backend is used. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate value selecting location </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container configuration data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>This function without backend parameter is needed due to python wrapping not being able to handle templated default arguments. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="126" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a0e5d9db260c3835f7696496efb85581a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::write</definition>
+        <argsstring>(typename Type::coordinate_type const &amp;coord, Type const &amp;config, haldls::vx::Backend backend)</argsstring>
+        <name>write</name>
+        <param>
+          <type>typename Type::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>Type const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>haldls::vx::Backend</type>
+          <declname>backend</declname>
+        </param>
+        <briefdescription>
+<para>Add instructions to write given container to given location. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate value selecting location </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container configuration data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>backend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Backend selection </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="112" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a17a10d18d27592abae40f2419c34fa9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::write</definition>
+        <argsstring>(typename Type::coordinate_type const &amp;coord, Type const &amp;config, Type const &amp;config_reference)</argsstring>
+        <name>write</name>
+        <param>
+          <type>typename Type::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>Type const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>Type const &amp;</type>
+          <declname>config_reference</declname>
+        </param>
+        <briefdescription>
+<para>Add instructions to write given container to given location. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The container&apos;s default backend is used. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate value selecting location </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container configuration data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config_reference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference configuration for differential write </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>This function without backend parameter is needed due to python wrapping not being able to handle templated default arguments. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="152" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ac4e2ff1450ab5b8f562390b020861e11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Type</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::write</definition>
+        <argsstring>(typename Type::coordinate_type const &amp;coord, Type const &amp;config, Type const &amp;config_reference, haldls::vx::Backend backend)</argsstring>
+        <name>write</name>
+        <param>
+          <type>typename Type::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>Type const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>Type const &amp;</type>
+          <declname>config_reference</declname>
+        </param>
+        <param>
+          <type>haldls::vx::Backend</type>
+          <declname>backend</declname>
+        </param>
+        <briefdescription>
+<para>Add instructions to write given container to given location. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate value selecting location </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container configuration data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config_reference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference configuration for differential write </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>backend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Backend selection </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="136" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1af8c1ede2cb412c82d139edbbec2ffb5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+          <param>
+            <type>template&lt; typename &gt; class</type>
+            <declname>C</declname>
+            <defname>C</defname>
+          </param>
+        </templateparamlist>
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PlaybackProgramBuilderAdapter&lt; T, U, C &gt; const &amp;builder)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref>&lt; T, U, C &gt; const &amp;</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="228" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Sequential <ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> builder. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" line="59" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h" bodystart="60" bodyend="250"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a320de8d31c7586f2caa579b7f037246d" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>block_until</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aebfe97e31255139d1f0078b98d75f0d5" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>block_until</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ac7182906a56deaa3b7675d3e989fe129" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>block_until</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a13117ae7407bf0fc776843a38cd77ebb" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>Builder</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a366affde17ad9967be71949ce6ff4e2f" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>copy_back</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a2f9754ff8d80cdf9dcabd8f1c69e93d0" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>copy_back</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a7a40f940a196f6815cde20924743dabe" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>def</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a02b31bbffe51fce8e4e724f3d20d1d5b" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>done</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a337b5fe8e952704b0bf2237d4afdca6a" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>dumper_types</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a64279434ad02b28642a264379648ee3a" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>else</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a854c4fb68c097a0928e30c260efd0c8c" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>if</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a771d81a5d314234857090189371154d9" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>merge_back</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a2e9597b423c604781254b408cbaaef5c" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>merge_back</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ab3ecfd04d0a0482da3ff887aca1650ed" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>merge_back</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aaed3149bf4518ef01cb17e0fed26f244" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>merge_back</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1af8c1ede2cb412c82d139edbbec2ffb5e" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a7f58f517caff7e46b808eeae88e5996b" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a0865b4e202b52faa68acad9249bc91ba" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>PlaybackProgramBuilderAdapter</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a540971dcbff22763060f74d67974e721" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>PlaybackProgramBuilderAdapter</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1afba8258735a7905da94abf77e06e5a30" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>PlaybackProgramBuilderAdapter</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aeb175f07e9d5b09b7d4c2cf443302282" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>read</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ab070242808d4278064b1044c01236248" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>read</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a791de8ff59aece4524f4108d02d8be7a" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>str</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1adaa5ed11ff855da9680c6cfe6153f567" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>wait_until</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a0e5d9db260c3835f7696496efb85581a" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>write</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ae1834f713c5dcd86b5abdb24209f23a5" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>write</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ac4e2ff1450ab5b8f562390b020861e11" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>write</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a17a10d18d27592abae40f2419c34fa9e" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>write</name></member>
+      <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a66a0508ac8ea1780e696208163d7e1af" prot="public" virt="non-virtual"><scope>stadls::vx::detail::PlaybackProgramBuilderAdapter</scope><name>~PlaybackProgramBuilderAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

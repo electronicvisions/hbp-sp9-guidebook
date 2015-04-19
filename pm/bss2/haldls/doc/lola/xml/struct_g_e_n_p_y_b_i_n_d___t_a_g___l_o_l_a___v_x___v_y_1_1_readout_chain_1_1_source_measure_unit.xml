@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit" kind="struct" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</compoundname>
+    <includes refid="readout__chain_8h" local="no">readout_chain.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a56b93d76da318dbe27190eb12acb2d7b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::amp_i_bias</definition>
+        <argsstring></argsstring>
+        <name>amp_i_bias</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Amplifier bias current. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="447" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a7b5414d1a9dd0f2ca28f8409f6841b3c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::amp_v_ref</definition>
+        <argsstring></argsstring>
+        <name>amp_v_ref</name>
+        <initializer>{<ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4654b99c9793c99a2c9969a3ae900e80" kindref="member">AnalogValue</ref>{400}}</initializer>
+        <briefdescription>
+<para>Amplifier reference voltage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="442" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a00ac4b0e656d3e1684cbbcad7b66ce0c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::buffer_i_bias</definition>
+        <argsstring></argsstring>
+        <name>buffer_i_bias</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Buffer bias current. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="437" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a8c9420499ee6da3599ba396ab0fb1ce3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a843dd3d9bf88d944d82912a692751f43" kindref="member">HemisphereType</ref></type>
+        <definition>HemisphereType GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::connect_neuron_stimulus</definition>
+        <argsstring></argsstring>
+        <name>connect_neuron_stimulus</name>
+        <initializer>{{false, false}}</initializer>
+        <briefdescription>
+<para>Connect neuron stimulus per hemisphere. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="422" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a2e6be96bd0ffd9efe7a2f0ada6c9fa0f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4d485d7b86488fe163a128d425610d23" kindref="member">SynapseTargetType</ref></type>
+        <definition>SynapseTargetType GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::connect_synapse_debug</definition>
+        <argsstring></argsstring>
+        <name>connect_synapse_debug</name>
+        <initializer>{{false, false}}</initializer>
+        <briefdescription>
+<para>Connect synapse debug wires. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="427" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a1da13eea218b3c45a63c2c47e3622d75" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a238b013f2c43779d88e6c9fd9d652c26" kindref="member">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::sampling_window_end</definition>
+        <argsstring></argsstring>
+        <name>sampling_window_end</name>
+        <initializer>{14}</initializer>
+        <briefdescription>
+<para>End of sampling window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="417" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1abfea37a5cba8fcdb9d4ee065fcb69dcb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a238b013f2c43779d88e6c9fd9d652c26" kindref="member">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::sampling_window_start</definition>
+        <argsstring></argsstring>
+        <name>sampling_window_start</name>
+        <initializer>{9}</initializer>
+        <briefdescription>
+<para>Start of sampling window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="412" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a89ab25fd48e1946d1f6c9afaeae52163" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::test_voltage</definition>
+        <argsstring></argsstring>
+        <name>test_voltage</name>
+        <initializer>{<ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4654b99c9793c99a2c9969a3ae900e80" kindref="member">AnalogValue</ref>{400}}</initializer>
+        <briefdescription>
+<para>Test reference voltage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="432" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a0be378fd7f5a9b64583171c7ce0ca0ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::SourceMeasureUnit</definition>
+        <argsstring>()=default</argsstring>
+        <name>SourceMeasureUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="407" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1ac1a7b1948cec6c3db366c13d80dabfcc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::operator!=</definition>
+        <argsstring>(SourceMeasureUnit const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit" kindref="compound">SourceMeasureUnit</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="450" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a0616b7e19c2cc54cd1004ddb1178854e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit::operator==</definition>
+        <argsstring>(SourceMeasureUnit const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit" kindref="compound">SourceMeasureUnit</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="449" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1ac0372d99fd20def45c1164d6edff2ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SourceMeasureUnit const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit" kindref="compound">SourceMeasureUnit</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="452" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration of the source measure unit. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>An input current from neuron membranes or synapse lines can be measured: the current is converted to a voltage that is sampled by the <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref>. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="405" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="406" bodyend="454"/>
+    <listofallmembers>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a56b93d76da318dbe27190eb12acb2d7b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>amp_i_bias</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a7b5414d1a9dd0f2ca28f8409f6841b3c" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>amp_v_ref</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a00ac4b0e656d3e1684cbbcad7b66ce0c" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>buffer_i_bias</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a8c9420499ee6da3599ba396ab0fb1ce3" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>connect_neuron_stimulus</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a2e6be96bd0ffd9efe7a2f0ada6c9fa0f" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>connect_synapse_debug</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1ac1a7b1948cec6c3db366c13d80dabfcc" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>operator!=</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1ac0372d99fd20def45c1164d6edff2ee8" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a0616b7e19c2cc54cd1004ddb1178854e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>operator==</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a1da13eea218b3c45a63c2c47e3622d75" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>sampling_window_end</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1abfea37a5cba8fcdb9d4ee065fcb69dcb" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>sampling_window_start</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a0be378fd7f5a9b64583171c7ce0ca0ac" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>SourceMeasureUnit</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit_1a89ab25fd48e1946d1f6c9afaeae52163" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</scope><name>test_voltage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

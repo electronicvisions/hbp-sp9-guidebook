@@ -1,0 +1,655 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain" kind="class" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</compoundname>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</innerclass>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::CHIP_REVISION_STR::CapMemCell::value_type, halco::hicann_dls::vx::CHIP_REVISION_STR::CapMemBlockOnHemisphere &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::CHIP_REVISION_STR::CapMemCell::value_type, halco::hicann_dls::vx::CHIP_REVISION_STR::CapMemBlockOnHemisphere&gt; GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::AnalogValues</definition>
+        <argsstring></argsstring>
+        <name>AnalogValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="108" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a66495919947969dae66604db77471b01" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel" kindref="compound">Channel</ref>, halco::hicann_dls::vx::CADCChannelColumnOnSynram &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;Channel, halco::hicann_dls::vx::CADCChannelColumnOnSynram&gt; GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::ChannelArray</definition>
+        <argsstring></argsstring>
+        <name>ChannelArray</name>
+        <briefdescription>
+<para>Configuration of each CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Contains individual calibration and connection settings. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="103" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ab17609e87d73f16804d62d244655fc93" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CADCOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CADCOnDLS GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="58" column="42" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a8c2adfbae8bf507548b7f6e2ce142404" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="57" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a1c4cd4fc5f8a64a9014d3daa7f44eaaa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a66495919947969dae66604db77471b01" kindref="member">ChannelArray</ref></type>
+        <definition>ChannelArray GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::channels_acausal</definition>
+        <argsstring></argsstring>
+        <name>channels_acausal</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Individual channel settings, like their connections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="275" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a33b07ec2cd91a0152017badd007153e4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a66495919947969dae66604db77471b01" kindref="member">ChannelArray</ref></type>
+        <definition>ChannelArray GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::channels_causal</definition>
+        <argsstring></argsstring>
+        <name>channels_causal</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Individual channel settings, like their connections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="271" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ab8d3350f37d1d6904a5a33165ddb1143" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" kindref="compound">Correlation</ref></type>
+        <definition>Correlation GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::correlation</definition>
+        <argsstring></argsstring>
+        <name>correlation</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Synapses&apos; correlation settings, affecting correlation reset, measurement and readout, but also CADC behaviour and neuron resets and readout. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="280" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1aa6466db66f6ea608247fbd9db64b69df" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" kindref="compound">Ramp</ref></type>
+        <definition>Ramp GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::ramp</definition>
+        <argsstring></argsstring>
+        <name>ramp</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>CADC ramp generation settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="267" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a2990ed7af9024a0cc790652f5b95b657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::CADCReadoutChain</definition>
+        <argsstring>()=default</argsstring>
+        <name>CADCReadoutChain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="282" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ac723166134e340f95a8b8d56f2c496bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;__getitem__&quot;, &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::get, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;), parent-&gt;py::return_value_policy::reference)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__getitem__&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::get</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <param>
+          <type>parent-&gt;py::return_value_policy::reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3efa615a165611a1c41717213707f73a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;__iter__&quot;, [av](::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues &amp;self) { return pybind11::make_iterator(self);}, parent-&gt;py::template keep_alive&lt; 0, 1 &gt;())</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__iter__&quot;</type>
+        </param>
+        <param>
+          <attributes>[av]</attributes>
+          <type>(::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues &amp;self) { return pybind11::make_iterator(self);}</type>
+        </param>
+        <param>
+          <type>parent-&gt;py::template keep_alive&lt; 0, 1 &gt;</type>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ab30b93a169807242798690f301136cc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;__setitem__&quot;, &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::set, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;), parent-&gt;py::arg(&quot;value&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__setitem__&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::set</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;value&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a00edbfde71327581a7251b6e7a81f862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;at&quot;,(genpybind_at_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::at, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;at&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_at_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::at</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a00edbfde71327581a7251b6e7a81f862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;at&quot;,(genpybind_at_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::at, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;at&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_at_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::at</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a8d3fc828f4107180b050aa069bb8952d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;back&quot;,(genpybind_back_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::back, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;back&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_back_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::back</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a8d3fc828f4107180b050aa069bb8952d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;back&quot;,(genpybind_back_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::back, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;back&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_back_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::back</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a410fdef952660f883a899a48f441ae46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;fill&quot;, &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::fill, &quot;&quot;, parent-&gt;py::arg(&quot;val&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;fill&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::fill</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;val&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a5fe0528b760b6f839180dae626d5ed72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;from_numpy&quot;, [](::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues &amp;self, pybind11::array const &amp;array) { ::halco::common::detail::from_numpy(self, array);})</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;from_numpy&quot;</type>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>(::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues &amp;self, pybind11::array const &amp;array) { ::halco::common::detail::from_numpy(self, array);}</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ad9b8e8a26da777ff0fccaefda3810d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;front&quot;,(genpybind_front_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::front, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;front&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_front_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::front</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ad9b8e8a26da777ff0fccaefda3810d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;front&quot;,(genpybind_front_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::front, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;front&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_front_type) &amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::front</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1aecb4ce417cdf83b1c4e058921baa4dca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(&quot;to_numpy&quot;, [](::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues const &amp;self) { return ::halco::common::detail::to_numpy(self);})</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;to_numpy&quot;</type>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>(::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues const &amp;self) { return ::halco::common::detail::to_numpy(self);}</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a6fb97c66ba8454cea8713ef007d89ad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(parent-&gt;py::template init&lt; const ::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues &amp; &gt;(), &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>parent-&gt;py::template init&lt; const ::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues &amp; &gt;</type>
+          <array>()</array>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3c273546bdcf7e648a0c1d3157febb51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def</definition>
+        <argsstring>(parent-&gt;py::template init&lt;&gt;(), &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>parent-&gt;py::template init&lt;&gt;</type>
+          <array>()</array>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a43f72591d2c6583682610b8fcc00651e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def_property_readonly</definition>
+        <argsstring>(&quot;empty&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::empty))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;empty&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::empty</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="442"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a29488e4f88be603483a740bfea575dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def_property_readonly</definition>
+        <argsstring>(&quot;max_size&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::max_size))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;max_size&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::max_size</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="408"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a8e2478b7dca8bf2e8fd2f4e2a2e7644b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::def_property_readonly</definition>
+        <argsstring>(&quot;size&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::size))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;size&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::CHIP_REVISION_STR::CADCReadoutChain::AnalogValues::size</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="397" column="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1af0d8d6c45ee326083abcd1d74e51b509" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::operator!=</definition>
+        <argsstring>(CADCReadoutChain const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain" kindref="compound">CADCReadoutChain</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="285" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a20938ee91ad0f4414abc5021bb2cd814" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::operator==</definition>
+        <argsstring>(CADCReadoutChain const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain" kindref="compound">CADCReadoutChain</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="284" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a210acad579ddb58f54d79dd8a649eeb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CADCReadoutChain const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain" kindref="compound">CADCReadoutChain</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="288" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration container for CADC and correlation/neuron-readout related settings. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation"/>
+      </node>
+      <node id="3">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</label>
+        <link refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp"/>
+      </node>
+      <node id="1">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</label>
+        <link refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>correlation</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ramp</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="54" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="55" bodyend="397"/>
+    <listofallmembers>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>AnalogValues</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a2990ed7af9024a0cc790652f5b95b657" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>CADCReadoutChain</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a66495919947969dae66604db77471b01" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>ChannelArray</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a1c4cd4fc5f8a64a9014d3daa7f44eaaa" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>channels_acausal</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a33b07ec2cd91a0152017badd007153e4" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>channels_causal</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ab17609e87d73f16804d62d244655fc93" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>coordinate_type</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ab8d3350f37d1d6904a5a33165ddb1143" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>correlation</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a410fdef952660f883a899a48f441ae46" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a00edbfde71327581a7251b6e7a81f862" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a00edbfde71327581a7251b6e7a81f862" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ad9b8e8a26da777ff0fccaefda3810d75" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ad9b8e8a26da777ff0fccaefda3810d75" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a8d3fc828f4107180b050aa069bb8952d" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a8d3fc828f4107180b050aa069bb8952d" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ac723166134e340f95a8b8d56f2c496bd" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1ab30b93a169807242798690f301136cc3" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3efa615a165611a1c41717213707f73a" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1aecb4ce417cdf83b1c4e058921baa4dca" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a5fe0528b760b6f839180dae626d5ed72" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a6fb97c66ba8454cea8713ef007d89ad7" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3c273546bdcf7e648a0c1d3157febb51" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a8e2478b7dca8bf2e8fd2f4e2a2e7644b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def_property_readonly</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a29488e4f88be603483a740bfea575dae" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def_property_readonly</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a43f72591d2c6583682610b8fcc00651e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>def_property_readonly</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a8c2adfbae8bf507548b7f6e2ce142404" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>has_local_data</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1af0d8d6c45ee326083abcd1d74e51b509" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>operator!=</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a210acad579ddb58f54d79dd8a649eeb4" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a20938ee91ad0f4414abc5021bb2cd814" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>operator==</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1aa6466db66f6ea608247fbd9db64b69df" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</scope><name>ramp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

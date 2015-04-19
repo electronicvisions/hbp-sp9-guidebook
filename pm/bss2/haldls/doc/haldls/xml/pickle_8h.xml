@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="pickle_8h" kind="file" language="C++">
+    <compoundname>pickle.h</compoundname>
+    <includes local="no">iosfwd</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">pybind11/pybind11.h</includes>
+    <includes local="yes">hate/type_list.h</includes>
+    <includedby refid="v2_2pyhaldls_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pyhaldls.h</includedby>
+    <includedby refid="v3_2pyhaldls_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h</label>
+        <link refid="pickle_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+      <node id="4">
+        <label>pybind11/pybind11.h</label>
+      </node>
+      <node id="2">
+        <label>iosfwd</label>
+      </node>
+      <node id="5">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h</label>
+        <link refid="pickle_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pyhaldls.h</label>
+        <link refid="v2_2pyhaldls_8h"/>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h</label>
+        <link refid="v3_2pyhaldls_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4" prot="public">haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;</innerclass>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h"/>
+  </compounddef>
+</doxygen>

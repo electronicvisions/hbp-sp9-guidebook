@@ -1,0 +1,4 @@
+<map id="haldls::vx::CommonCorrelationConfig::SenseDelay" name="haldls::vx::CommonCorrelationConfig::SenseDelay">
+<area shape="rect" id="node1" title="Wait time in PPU clock cycles between connecting the outputs of a synapse to the CADC inputs and star..." alt="" coords="252,21,456,65"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,204,81"/>
+</map>

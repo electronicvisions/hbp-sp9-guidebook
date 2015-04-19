@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_timer" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::Timer</compoundname>
+    <includes refid="timer_8h" local="no">timer.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_timer_1_1_value" prot="public">haldls::vx::Timer::Value</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_timer_1a52653fbdbc91851b66f8e2cd459a2636" prot="public" static="no">
+        <type>halco::hicann_dls::vx::TimerOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::TimerOnDLS haldls::vx::Timer::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="22" column="43" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_timer_1a689f58747a2d42beb35cc58986fd6df9" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::Timer::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="23" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_timer_1a0c9acafcc4a961658fb575e25ad2f9b2" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::Timer::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="53" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_timer_1ab81922817ba8b83550485d947e4e7509" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::Timer::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="52" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_timer_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="64" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_timer_1a8cae7a02fbbabe32d00dfd94a420faf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Timer const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_timer" kindref="compound">Timer</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="50" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_timer_1a042973b7282df5bfdbec2beba894b86c" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::Timer::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="68" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1a83db0b72d26d639895e513cf76a617d1" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::Timer::Timer</definition>
+        <argsstring>(Value value=Value()) SYMBOL_VISIBLE</argsstring>
+        <name>Timer</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+          <defval><ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Value</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Construct on-FPGA-timer with value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Value</ref> to construct with </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="38" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1a1db3fcfa58c35ca700f7bff5a33fb6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::Timer::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Timer, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Timer, <ref refid="classhaldls_1_1vx_1_1_timer_1a0c9acafcc4a961658fb575e25ad2f9b2" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="60" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1a0275883887316cd2c60e9ee3039d363f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Timer, <ref refid="classhaldls_1_1vx_1_1_timer_1ab81922817ba8b83550485d947e4e7509" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Timer, write_config_size_in_words&gt; haldls::vx::Timer::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="58" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1a0541ccc7a0ebc8f4f5410eb95aebf944" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::Timer::operator!=</definition>
+        <argsstring>(Timer const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_timer" kindref="compound">Timer</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="47" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1a8ac5d1ba0ff01d681cca6c4d210ac805" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::Timer::operator==</definition>
+        <argsstring>(Timer const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_timer" kindref="compound">Timer</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="46" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1a87f620b55c2342aead520f79f91da115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::Timer::set</definition>
+        <argsstring>(Value value) SYMBOL_VISIBLE</argsstring>
+        <name>set</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set timer value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Value</ref> to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="44" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1ab592758540dc5aa6da9d6338a81b29ba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::TimerOnDLS, <ref refid="classhaldls_1_1vx_1_1_timer_1a0c9acafcc4a961658fb575e25ad2f9b2" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::TimerOnDLS, read_config_size_in_words&gt; haldls::vx::Timer::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_timer_1a52653fbdbc91851b66f8e2cd459a2636" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="56" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1adb499b2118243ad4c2fad001126ca319" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::TimerOnDLS, <ref refid="classhaldls_1_1vx_1_1_timer_1ab81922817ba8b83550485d947e4e7509" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::TimerOnDLS, write_config_size_in_words&gt; haldls::vx::Timer::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_timer_1a52653fbdbc91851b66f8e2cd459a2636" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_timer_1a4f067e69f54774615fff83606fb52770" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::Timer::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="66" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for resetting the FPGA playback timer. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" line="19" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/timer.h" bodystart="20" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_timer_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a52653fbdbc91851b66f8e2cd459a2636" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a1db3fcfa58c35ca700f7bff5a33fb6c3" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a0275883887316cd2c60e9ee3039d363f" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a689f58747a2d42beb35cc58986fd6df9" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a042973b7282df5bfdbec2beba894b86c" prot="private" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a0541ccc7a0ebc8f4f5410eb95aebf944" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a8cae7a02fbbabe32d00dfd94a420faf3" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a8ac5d1ba0ff01d681cca6c4d210ac805" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1ab592758540dc5aa6da9d6338a81b29ba" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a0c9acafcc4a961658fb575e25ad2f9b2" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a4f067e69f54774615fff83606fb52770" prot="private" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a87f620b55c2342aead520f79f91da115" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>set</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1a83db0b72d26d639895e513cf76a617d1" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>Timer</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1adb499b2118243ad4c2fad001126ca319" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_timer_1ab81922817ba8b83550485d947e4e7509" prot="public" virt="non-virtual"><scope>haldls::vx::Timer</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

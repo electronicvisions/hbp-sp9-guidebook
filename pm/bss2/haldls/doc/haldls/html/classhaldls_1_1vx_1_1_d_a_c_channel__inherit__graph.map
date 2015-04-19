@@ -1,0 +1,4 @@
+<map id="haldls::vx::DACChannel" name="haldls::vx::DACChannel">
+<area shape="rect" id="node1" title="Container for individual configuration of the value of a DAC channel of the xBoard DACs." alt="" coords="5,97,167,125"/>
+<area shape="rect" id="node2" href="$classhaldls_1_1vx_1_1_differential_write_trait.html" title="Trait signalling derived&#45;from container type support differential write operation." alt="" coords="12,5,160,49"/>
+</map>

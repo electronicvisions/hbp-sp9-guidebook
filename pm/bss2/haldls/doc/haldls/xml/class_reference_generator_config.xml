@@ -1,0 +1,1269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_reference_generator_config" kind="class" language="C++" prot="public">
+    <compoundname>ReferenceGeneratorConfig</compoundname>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+    <innerclass refid="struct_reference_generator_config_1_1_cap_mem_amplifier" prot="public">ReferenceGeneratorConfig::CapMemAmplifier</innerclass>
+    <innerclass refid="struct_reference_generator_config_1_1_cap_mem_offset" prot="public">ReferenceGeneratorConfig::CapMemOffset</innerclass>
+    <innerclass refid="struct_reference_generator_config_1_1_cap_mem_slope" prot="public">ReferenceGeneratorConfig::CapMemSlope</innerclass>
+    <innerclass refid="struct_reference_generator_config_1_1_reference_control" prot="public">ReferenceGeneratorConfig::ReferenceControl</innerclass>
+    <innerclass refid="struct_reference_generator_config_1_1_resistor_control" prot="public">ReferenceGeneratorConfig::ResistorControl</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_reference_generator_config_1a63b63b3466e3090854b74c53fe327d30" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="struct_reference_generator_config_1_1_cap_mem_amplifier" kindref="compound">CapMemAmplifier</ref>, halco::hicann_dls::vx::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;CapMemAmplifier, halco::hicann_dls::vx::CapMemBlockOnDLS&gt; ReferenceGeneratorConfig::capmem_amplifier_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_amplifier_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="94" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1a63b63b3466e3090854b74c53fe327d30" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="struct_reference_generator_config_1_1_cap_mem_amplifier" kindref="compound">CapMemAmplifier</ref>, halco::hicann_dls::vx::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;CapMemAmplifier, halco::hicann_dls::vx::CapMemBlockOnDLS&gt; ReferenceGeneratorConfig::capmem_amplifier_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_amplifier_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="94" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1ac90fd5c3ac1984f461bc42aff9cffdf0" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="struct_reference_generator_config_1_1_cap_mem_offset" kindref="compound">CapMemOffset</ref>, halco::hicann_dls::vx::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;CapMemOffset, halco::hicann_dls::vx::CapMemBlockOnDLS&gt; ReferenceGeneratorConfig::capmem_offset_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_offset_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="96" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1ac90fd5c3ac1984f461bc42aff9cffdf0" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="struct_reference_generator_config_1_1_cap_mem_offset" kindref="compound">CapMemOffset</ref>, halco::hicann_dls::vx::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;CapMemOffset, halco::hicann_dls::vx::CapMemBlockOnDLS&gt; ReferenceGeneratorConfig::capmem_offset_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_offset_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="96" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1af962d2e1243a60dc362eb112934aa46a" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="struct_reference_generator_config_1_1_cap_mem_slope" kindref="compound">CapMemSlope</ref>, halco::hicann_dls::vx::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;CapMemSlope, halco::hicann_dls::vx::CapMemBlockOnDLS&gt; ReferenceGeneratorConfig::capmem_slope_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_slope_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="98" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1af962d2e1243a60dc362eb112934aa46a" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="struct_reference_generator_config_1_1_cap_mem_slope" kindref="compound">CapMemSlope</ref>, halco::hicann_dls::vx::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;CapMemSlope, halco::hicann_dls::vx::CapMemBlockOnDLS&gt; ReferenceGeneratorConfig::capmem_slope_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_slope_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="98" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1aa6707474e34a79ac473bcb0c0182f030" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ReferenceGeneratorConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ReferenceGeneratorConfigOnDLS ReferenceGeneratorConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="44" column="62" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1aa6707474e34a79ac473bcb0c0182f030" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ReferenceGeneratorConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ReferenceGeneratorConfigOnDLS ReferenceGeneratorConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="44" column="62" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1a5bae78837fc97e57fb80f9a292b82034" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type ReferenceGeneratorConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="45" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_reference_generator_config_1a5bae78837fc97e57fb80f9a292b82034" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type ReferenceGeneratorConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="45" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_reference_generator_config_1aadbaf9abd2463fe04948985013d5ccdb" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>static constexpr size_t ReferenceGeneratorConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="158" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_reference_generator_config_1a10807bd8b013a090c50e7d83d9edaeb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="176" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_reference_generator_config_1ab2585749ed88432cbb6002bd39b26661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ReferenceGeneratorConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_reference_generator_config" kindref="compound">ReferenceGeneratorConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="172" column="8"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_reference_generator_config_1ab2585749ed88432cbb6002bd39b26661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ReferenceGeneratorConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_reference_generator_config" kindref="compound">ReferenceGeneratorConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="172" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_reference_generator_config_1a176e2c6ce28156ecf6ac97ea978beee6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_reference_generator_config_1a63b63b3466e3090854b74c53fe327d30" kindref="member">capmem_amplifier_type</ref></type>
+        <definition>capmem_amplifier_type ReferenceGeneratorConfig::m_capmem_amplifier</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_amplifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="183" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_generator_config_1a71c41c7216054d05d198e1a6c0ead913" prot="private" static="no" mutable="no">
+        <type><ref refid="class_reference_generator_config_1ac90fd5c3ac1984f461bc42aff9cffdf0" kindref="member">capmem_offset_type</ref></type>
+        <definition>capmem_offset_type ReferenceGeneratorConfig::m_capmem_offset</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="184" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_generator_config_1a3068e7a18ec347c66b3a94c93d4ec10e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_reference_generator_config_1af962d2e1243a60dc362eb112934aa46a" kindref="member">capmem_slope_type</ref></type>
+        <definition>capmem_slope_type ReferenceGeneratorConfig::m_capmem_slope</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_slope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="185" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_generator_config_1a8b3230b9138592ed8f1e69f90bb0dd3f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ReferenceGeneratorConfig::m_enable_internal_reference</definition>
+        <argsstring></argsstring>
+        <name>m_enable_internal_reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="180" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_generator_config_1ae98d5875561beb2a726cf1e91df9a613" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ReferenceGeneratorConfig::m_enable_reference_input</definition>
+        <argsstring></argsstring>
+        <name>m_enable_reference_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="182" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_generator_config_1ac35eb28e35c11e24b8356cc4cfd75ca8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ReferenceGeneratorConfig::m_enable_reference_output</definition>
+        <argsstring></argsstring>
+        <name>m_enable_reference_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="181" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_generator_config_1ac0ed837b6a4973b4ff35bcdab648d1bc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ReferenceGeneratorConfig::m_enable_reset</definition>
+        <argsstring></argsstring>
+        <name>m_enable_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="188" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_generator_config_1a177fe2727d9ef029829c2769b20f8882" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_reference_generator_config_1_1_reference_control" kindref="compound">ReferenceControl</ref></type>
+        <definition>ReferenceControl ReferenceGeneratorConfig::m_reference_control</definition>
+        <argsstring></argsstring>
+        <name>m_reference_control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="186" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reference_generator_config_1ae4c736e7d825117d6bb3fb793d1baa48" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_reference_generator_config_1_1_resistor_control" kindref="compound">ResistorControl</ref></type>
+        <definition>ResistorControl ReferenceGeneratorConfig::m_resistor_control</definition>
+        <argsstring></argsstring>
+        <name>m_resistor_control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="187" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_reference_generator_config_1a47830f60bbf978fac4ccb98eb033f4c5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceGeneratorConfig::ReferenceGeneratorConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ReferenceGeneratorConfig</name>
+        <briefdescription>
+<para>Default config of reference generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a47830f60bbf978fac4ccb98eb033f4c5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceGeneratorConfig::ReferenceGeneratorConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ReferenceGeneratorConfig</name>
+        <briefdescription>
+<para>Default config of reference generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a9800358af4f45d82906a703a4bc36583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="class_reference_generator_config_1aadbaf9abd2463fe04948985013d5ccdb" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="168" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a9800358af4f45d82906a703a4bc36583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="class_reference_generator_config_1aadbaf9abd2463fe04948985013d5ccdb" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="168" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a36cd1202bec8cdd0cc4b2e651dbf4d6d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="class_reference_generator_config_1aadbaf9abd2463fe04948985013d5ccdb" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; ReferenceGeneratorConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="165" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a36cd1202bec8cdd0cc4b2e651dbf4d6d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="class_reference_generator_config_1aadbaf9abd2463fe04948985013d5ccdb" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; ReferenceGeneratorConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="165" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a7d2079473ac309a67c21ebf340a21843" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; ReferenceGeneratorConfig::get_enable_internal_reference</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_internal_reference</name>
+        <briefdescription>
+<para>Set enable for internal reference current generation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="102" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a7d2079473ac309a67c21ebf340a21843" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; ReferenceGeneratorConfig::get_enable_internal_reference</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_internal_reference</name>
+        <briefdescription>
+<para>Set enable for internal reference current generation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="102" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ad15a73a5bbbfe1e2d538d8d98f9cb41f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; ReferenceGeneratorConfig::get_enable_reference_input</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_reference_input</name>
+        <briefdescription>
+<para>Set enable for input of reference current from pad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="114" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ad15a73a5bbbfe1e2d538d8d98f9cb41f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; ReferenceGeneratorConfig::get_enable_reference_input</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_reference_input</name>
+        <briefdescription>
+<para>Set enable for input of reference current from pad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="114" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ae21e5d85ea9e038991455389a8860a5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; ReferenceGeneratorConfig::get_enable_reference_output</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_reference_output</name>
+        <briefdescription>
+<para>Set enable for output of reference current to pad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="108" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ae21e5d85ea9e038991455389a8860a5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; ReferenceGeneratorConfig::get_enable_reference_output</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_reference_output</name>
+        <briefdescription>
+<para>Set enable for output of reference current to pad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="108" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ae8e39e642fd3841536fadf745ffdf6df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; ReferenceGeneratorConfig::get_enable_reset</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_reset</name>
+        <briefdescription>
+<para>Set reset signal for resistor control of reference current generation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The reset can be used after powerup to reach a working state. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="151" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ae8e39e642fd3841536fadf745ffdf6df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; ReferenceGeneratorConfig::get_enable_reset</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_reset</name>
+        <briefdescription>
+<para>Set reset signal for resistor control of reference current generation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The reset can be used after powerup to reach a working state. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="151" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a303bda18fb2a7ebd4fd9d9eba12749f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_reference_generator_config_1_1_reference_control" kindref="compound">ReferenceControl</ref></type>
+        <definition>ReferenceControl ReferenceGeneratorConfig::get_reference_control</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_reference_control</name>
+        <briefdescription>
+<para>Set reference current generation DAC value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="138" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a303bda18fb2a7ebd4fd9d9eba12749f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_reference_generator_config_1_1_reference_control" kindref="compound">ReferenceControl</ref></type>
+        <definition>ReferenceControl ReferenceGeneratorConfig::get_reference_control</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_reference_control</name>
+        <briefdescription>
+<para>Set reference current generation DAC value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="138" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a2c738ff0207720a2b2cffecf394048bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_reference_generator_config_1_1_resistor_control" kindref="compound">ResistorControl</ref></type>
+        <definition>ResistorControl ReferenceGeneratorConfig::get_resistor_control</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_resistor_control</name>
+        <briefdescription>
+<para>Set reference current generation resistor value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="144" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a2c738ff0207720a2b2cffecf394048bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_reference_generator_config_1_1_resistor_control" kindref="compound">ResistorControl</ref></type>
+        <definition>ResistorControl ReferenceGeneratorConfig::get_resistor_control</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_resistor_control</name>
+        <briefdescription>
+<para>Set reference current generation resistor value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="144" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1aab3203f05bf7518040ec4426461b4c8d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ReferenceGeneratorConfig::operator!=</definition>
+        <argsstring>(ReferenceGeneratorConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="class_reference_generator_config" kindref="compound">ReferenceGeneratorConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="156" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1aab3203f05bf7518040ec4426461b4c8d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ReferenceGeneratorConfig::operator!=</definition>
+        <argsstring>(ReferenceGeneratorConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="class_reference_generator_config" kindref="compound">ReferenceGeneratorConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="156" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a7f4c063dd4348024d97c03af8cb7f121" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ReferenceGeneratorConfig::operator==</definition>
+        <argsstring>(ReferenceGeneratorConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_reference_generator_config" kindref="compound">ReferenceGeneratorConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="155" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a7f4c063dd4348024d97c03af8cb7f121" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ReferenceGeneratorConfig::operator==</definition>
+        <argsstring>(ReferenceGeneratorConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_reference_generator_config" kindref="compound">ReferenceGeneratorConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="155" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a87cab5072336aa22aced412e0e919953" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceGeneratorConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_amplifier_type const &amp;get_capmem_amplifier() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="119" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a87cab5072336aa22aced412e0e919953" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceGeneratorConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_amplifier_type const &amp;get_capmem_amplifier() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="119" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a5dc569d04ee51c65477cb3b8cddbdbcb" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceGeneratorConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_offset_type const &amp;get_capmem_offset() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="125" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a5dc569d04ee51c65477cb3b8cddbdbcb" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceGeneratorConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_offset_type const &amp;get_capmem_offset() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="125" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1abd96c276e4a5bc6e72520a98acfcf4c8" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceGeneratorConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_slope_type const &amp;get_capmem_slope() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="131" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1abd96c276e4a5bc6e72520a98acfcf4c8" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>ReferenceGeneratorConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_slope_type const &amp;get_capmem_slope() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="131" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a26a1c05f26a7cfbf810d40807d4a8ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_capmem_amplifier</definition>
+        <argsstring>(capmem_amplifier_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_amplifier</name>
+        <param>
+          <type><ref refid="class_reference_generator_config_1a63b63b3466e3090854b74c53fe327d30" kindref="member">capmem_amplifier_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="122" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a26a1c05f26a7cfbf810d40807d4a8ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_capmem_amplifier</definition>
+        <argsstring>(capmem_amplifier_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_amplifier</name>
+        <param>
+          <type><ref refid="class_reference_generator_config_1a63b63b3466e3090854b74c53fe327d30" kindref="member">capmem_amplifier_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="122" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a4b467e9a7b03929672d18b884a359c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_capmem_offset</definition>
+        <argsstring>(capmem_offset_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_offset</name>
+        <param>
+          <type><ref refid="class_reference_generator_config_1ac90fd5c3ac1984f461bc42aff9cffdf0" kindref="member">capmem_offset_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="128" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a4b467e9a7b03929672d18b884a359c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_capmem_offset</definition>
+        <argsstring>(capmem_offset_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_offset</name>
+        <param>
+          <type><ref refid="class_reference_generator_config_1ac90fd5c3ac1984f461bc42aff9cffdf0" kindref="member">capmem_offset_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="128" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ac41328fa9508aab3341934f0dcb6071a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_capmem_slope</definition>
+        <argsstring>(capmem_slope_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_slope</name>
+        <param>
+          <type><ref refid="class_reference_generator_config_1af962d2e1243a60dc362eb112934aa46a" kindref="member">capmem_slope_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="134" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ac41328fa9508aab3341934f0dcb6071a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_capmem_slope</definition>
+        <argsstring>(capmem_slope_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_slope</name>
+        <param>
+          <type><ref refid="class_reference_generator_config_1af962d2e1243a60dc362eb112934aa46a" kindref="member">capmem_slope_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="134" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a4263b319e0191a04f5f0e998b9cd7833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_enable_internal_reference</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_internal_reference</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="104" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a4263b319e0191a04f5f0e998b9cd7833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_enable_internal_reference</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_internal_reference</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="104" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a2f27ce2120dc1909b9c7dc3e4c1517d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_enable_reference_input</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_reference_input</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="116" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a2f27ce2120dc1909b9c7dc3e4c1517d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_enable_reference_input</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_reference_input</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="116" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a86d14e784a1295993ef7fd09bc8217f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_enable_reference_output</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_reference_output</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="110" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a86d14e784a1295993ef7fd09bc8217f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_enable_reference_output</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_reference_output</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="110" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a59f6b53db789b9a3def43b6c0192ef3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_enable_reset</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_reset</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="153" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a59f6b53db789b9a3def43b6c0192ef3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_enable_reset</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_reset</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="153" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a855b722fee8f92674847f6883d67857d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_reference_control</definition>
+        <argsstring>(ReferenceControl value) SYMBOL_VISIBLE</argsstring>
+        <name>set_reference_control</name>
+        <param>
+          <type><ref refid="struct_reference_generator_config_1_1_reference_control" kindref="compound">ReferenceControl</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="140" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a855b722fee8f92674847f6883d67857d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_reference_control</definition>
+        <argsstring>(ReferenceControl value) SYMBOL_VISIBLE</argsstring>
+        <name>set_reference_control</name>
+        <param>
+          <type><ref refid="struct_reference_generator_config_1_1_reference_control" kindref="compound">ReferenceControl</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="140" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ac14765e1a72525b1cefa99d3d64c0f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_resistor_control</definition>
+        <argsstring>(ResistorControl value) SYMBOL_VISIBLE</argsstring>
+        <name>set_resistor_control</name>
+        <param>
+          <type><ref refid="struct_reference_generator_config_1_1_resistor_control" kindref="compound">ResistorControl</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="146" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1ac14765e1a72525b1cefa99d3d64c0f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::set_resistor_control</definition>
+        <argsstring>(ResistorControl value) SYMBOL_VISIBLE</argsstring>
+        <name>set_resistor_control</name>
+        <param>
+          <type><ref refid="struct_reference_generator_config_1_1_resistor_control" kindref="compound">ResistorControl</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="146" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_reference_generator_config_1a151c8e2399b30bb1e3d13695a9bc5dfd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="class_reference_generator_config_1aadbaf9abd2463fe04948985013d5ccdb" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; ReferenceGeneratorConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="class_reference_generator_config_1aa6707474e34a79ac473bcb0c0182f030" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="161" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a151c8e2399b30bb1e3d13695a9bc5dfd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="class_reference_generator_config_1aadbaf9abd2463fe04948985013d5ccdb" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; ReferenceGeneratorConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="class_reference_generator_config_1aa6707474e34a79ac473bcb0c0182f030" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="161" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_reference_generator_config_1a3268005fff12df821f6032737077495c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="178" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reference_generator_config_1a3268005fff12df821f6032737077495c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void ReferenceGeneratorConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="178" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="41" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="42" bodyend="189"/>
+    <listofallmembers>
+      <member refid="class_reference_generator_config_1a151c8e2399b30bb1e3d13695a9bc5dfd" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>addresses</name></member>
+      <member refid="class_reference_generator_config_1a151c8e2399b30bb1e3d13695a9bc5dfd" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>addresses</name></member>
+      <member refid="class_reference_generator_config_1a63b63b3466e3090854b74c53fe327d30" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>capmem_amplifier_type</name></member>
+      <member refid="class_reference_generator_config_1a63b63b3466e3090854b74c53fe327d30" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>capmem_amplifier_type</name></member>
+      <member refid="class_reference_generator_config_1ac90fd5c3ac1984f461bc42aff9cffdf0" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>capmem_offset_type</name></member>
+      <member refid="class_reference_generator_config_1ac90fd5c3ac1984f461bc42aff9cffdf0" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>capmem_offset_type</name></member>
+      <member refid="class_reference_generator_config_1af962d2e1243a60dc362eb112934aa46a" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>capmem_slope_type</name></member>
+      <member refid="class_reference_generator_config_1af962d2e1243a60dc362eb112934aa46a" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>capmem_slope_type</name></member>
+      <member refid="class_reference_generator_config_1a10807bd8b013a090c50e7d83d9edaeb2" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>cereal::access</name></member>
+      <member refid="class_reference_generator_config_1aadbaf9abd2463fe04948985013d5ccdb" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>config_size_in_words</name></member>
+      <member refid="class_reference_generator_config_1aa6707474e34a79ac473bcb0c0182f030" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>coordinate_type</name></member>
+      <member refid="class_reference_generator_config_1aa6707474e34a79ac473bcb0c0182f030" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>coordinate_type</name></member>
+      <member refid="class_reference_generator_config_1a9800358af4f45d82906a703a4bc36583" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>decode</name></member>
+      <member refid="class_reference_generator_config_1a9800358af4f45d82906a703a4bc36583" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>decode</name></member>
+      <member refid="class_reference_generator_config_1a36cd1202bec8cdd0cc4b2e651dbf4d6d" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>encode</name></member>
+      <member refid="class_reference_generator_config_1a36cd1202bec8cdd0cc4b2e651dbf4d6d" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>encode</name></member>
+      <member refid="class_reference_generator_config_1a7d2079473ac309a67c21ebf340a21843" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_enable_internal_reference</name></member>
+      <member refid="class_reference_generator_config_1a7d2079473ac309a67c21ebf340a21843" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_enable_internal_reference</name></member>
+      <member refid="class_reference_generator_config_1ad15a73a5bbbfe1e2d538d8d98f9cb41f" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_enable_reference_input</name></member>
+      <member refid="class_reference_generator_config_1ad15a73a5bbbfe1e2d538d8d98f9cb41f" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_enable_reference_input</name></member>
+      <member refid="class_reference_generator_config_1ae21e5d85ea9e038991455389a8860a5a" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_enable_reference_output</name></member>
+      <member refid="class_reference_generator_config_1ae21e5d85ea9e038991455389a8860a5a" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_enable_reference_output</name></member>
+      <member refid="class_reference_generator_config_1ae8e39e642fd3841536fadf745ffdf6df" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_enable_reset</name></member>
+      <member refid="class_reference_generator_config_1ae8e39e642fd3841536fadf745ffdf6df" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_enable_reset</name></member>
+      <member refid="class_reference_generator_config_1a303bda18fb2a7ebd4fd9d9eba12749f7" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_reference_control</name></member>
+      <member refid="class_reference_generator_config_1a303bda18fb2a7ebd4fd9d9eba12749f7" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_reference_control</name></member>
+      <member refid="class_reference_generator_config_1a2c738ff0207720a2b2cffecf394048bb" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_resistor_control</name></member>
+      <member refid="class_reference_generator_config_1a2c738ff0207720a2b2cffecf394048bb" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>get_resistor_control</name></member>
+      <member refid="class_reference_generator_config_1a5bae78837fc97e57fb80f9a292b82034" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>is_leaf_node</name></member>
+      <member refid="class_reference_generator_config_1a5bae78837fc97e57fb80f9a292b82034" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>is_leaf_node</name></member>
+      <member refid="class_reference_generator_config_1a176e2c6ce28156ecf6ac97ea978beee6" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_capmem_amplifier</name></member>
+      <member refid="class_reference_generator_config_1a71c41c7216054d05d198e1a6c0ead913" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_capmem_offset</name></member>
+      <member refid="class_reference_generator_config_1a3068e7a18ec347c66b3a94c93d4ec10e" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_capmem_slope</name></member>
+      <member refid="class_reference_generator_config_1a8b3230b9138592ed8f1e69f90bb0dd3f" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_enable_internal_reference</name></member>
+      <member refid="class_reference_generator_config_1ae98d5875561beb2a726cf1e91df9a613" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_enable_reference_input</name></member>
+      <member refid="class_reference_generator_config_1ac35eb28e35c11e24b8356cc4cfd75ca8" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_enable_reference_output</name></member>
+      <member refid="class_reference_generator_config_1ac0ed837b6a4973b4ff35bcdab648d1bc" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_enable_reset</name></member>
+      <member refid="class_reference_generator_config_1a177fe2727d9ef029829c2769b20f8882" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_reference_control</name></member>
+      <member refid="class_reference_generator_config_1ae4c736e7d825117d6bb3fb793d1baa48" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>m_resistor_control</name></member>
+      <member refid="class_reference_generator_config_1aab3203f05bf7518040ec4426461b4c8d" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>operator!=</name></member>
+      <member refid="class_reference_generator_config_1aab3203f05bf7518040ec4426461b4c8d" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>operator!=</name></member>
+      <member refid="class_reference_generator_config_1ab2585749ed88432cbb6002bd39b26661" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_reference_generator_config_1ab2585749ed88432cbb6002bd39b26661" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_reference_generator_config_1a7f4c063dd4348024d97c03af8cb7f121" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>operator==</name></member>
+      <member refid="class_reference_generator_config_1a7f4c063dd4348024d97c03af8cb7f121" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>operator==</name></member>
+      <member refid="class_reference_generator_config_1a47830f60bbf978fac4ccb98eb033f4c5" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>ReferenceGeneratorConfig</name></member>
+      <member refid="class_reference_generator_config_1a47830f60bbf978fac4ccb98eb033f4c5" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>ReferenceGeneratorConfig</name></member>
+      <member refid="class_reference_generator_config_1a87cab5072336aa22aced412e0e919953" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>return_value_policy</name></member>
+      <member refid="class_reference_generator_config_1a5dc569d04ee51c65477cb3b8cddbdbcb" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>return_value_policy</name></member>
+      <member refid="class_reference_generator_config_1abd96c276e4a5bc6e72520a98acfcf4c8" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>return_value_policy</name></member>
+      <member refid="class_reference_generator_config_1a87cab5072336aa22aced412e0e919953" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>return_value_policy</name></member>
+      <member refid="class_reference_generator_config_1a5dc569d04ee51c65477cb3b8cddbdbcb" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>return_value_policy</name></member>
+      <member refid="class_reference_generator_config_1abd96c276e4a5bc6e72520a98acfcf4c8" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>return_value_policy</name></member>
+      <member refid="class_reference_generator_config_1a3268005fff12df821f6032737077495c" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>serialize</name></member>
+      <member refid="class_reference_generator_config_1a3268005fff12df821f6032737077495c" prot="private" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>serialize</name></member>
+      <member refid="class_reference_generator_config_1a26a1c05f26a7cfbf810d40807d4a8ada" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_capmem_amplifier</name></member>
+      <member refid="class_reference_generator_config_1a26a1c05f26a7cfbf810d40807d4a8ada" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_capmem_amplifier</name></member>
+      <member refid="class_reference_generator_config_1a4b467e9a7b03929672d18b884a359c30" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_capmem_offset</name></member>
+      <member refid="class_reference_generator_config_1a4b467e9a7b03929672d18b884a359c30" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_capmem_offset</name></member>
+      <member refid="class_reference_generator_config_1ac41328fa9508aab3341934f0dcb6071a" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_capmem_slope</name></member>
+      <member refid="class_reference_generator_config_1ac41328fa9508aab3341934f0dcb6071a" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_capmem_slope</name></member>
+      <member refid="class_reference_generator_config_1a4263b319e0191a04f5f0e998b9cd7833" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_enable_internal_reference</name></member>
+      <member refid="class_reference_generator_config_1a4263b319e0191a04f5f0e998b9cd7833" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_enable_internal_reference</name></member>
+      <member refid="class_reference_generator_config_1a2f27ce2120dc1909b9c7dc3e4c1517d9" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_enable_reference_input</name></member>
+      <member refid="class_reference_generator_config_1a2f27ce2120dc1909b9c7dc3e4c1517d9" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_enable_reference_input</name></member>
+      <member refid="class_reference_generator_config_1a86d14e784a1295993ef7fd09bc8217f8" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_enable_reference_output</name></member>
+      <member refid="class_reference_generator_config_1a86d14e784a1295993ef7fd09bc8217f8" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_enable_reference_output</name></member>
+      <member refid="class_reference_generator_config_1a59f6b53db789b9a3def43b6c0192ef3c" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_enable_reset</name></member>
+      <member refid="class_reference_generator_config_1a59f6b53db789b9a3def43b6c0192ef3c" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_enable_reset</name></member>
+      <member refid="class_reference_generator_config_1a855b722fee8f92674847f6883d67857d" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_reference_control</name></member>
+      <member refid="class_reference_generator_config_1a855b722fee8f92674847f6883d67857d" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_reference_control</name></member>
+      <member refid="class_reference_generator_config_1ac14765e1a72525b1cefa99d3d64c0f31" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_resistor_control</name></member>
+      <member refid="class_reference_generator_config_1ac14765e1a72525b1cefa99d3d64c0f31" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig</scope><name>set_resistor_control</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

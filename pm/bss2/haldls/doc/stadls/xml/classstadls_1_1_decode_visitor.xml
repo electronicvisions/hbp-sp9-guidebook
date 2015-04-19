@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classstadls_1_1_decode_visitor" kind="class" language="C++" prot="public">
+    <compoundname>stadls::DecodeVisitor</compoundname>
+    <includes refid="visitors_8h" local="no">visitors.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classstadls_1_1_decode_visitor_1aa1a13ee826baa0c605772a1ede5f099b" prot="private" static="no">
+        <type>T::value_type</type>
+        <definition>typedef T::value_type stadls::DecodeVisitor&lt; T &gt;::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="134" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstadls_1_1_decode_visitor_1af147e7b7cbb291f14039a78d976f7180" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T stadls::DecodeVisitor&lt; T &gt;::m_data</definition>
+        <argsstring></argsstring>
+        <name>m_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="133" column="3" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1_decode_visitor_1a2b2e2ce033d5ce69b078a8455cd44d02" prot="private" static="no" mutable="no">
+        <type>T::const_iterator</type>
+        <definition>T::const_iterator stadls::DecodeVisitor&lt; T &gt;::m_it</definition>
+        <argsstring></argsstring>
+        <name>m_it</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="135" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1_decode_visitor_1a3b70ebd82bdcc34a343f7d6c265151d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>stadls::DecodeVisitor&lt; T &gt;::DecodeVisitor</definition>
+        <argsstring>(T data)</argsstring>
+        <name>DecodeVisitor</name>
+        <param>
+          <type>T</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="138" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1_decode_visitor_1a6df9cc509df55801493e43f53274a086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::DecodeVisitor&lt; T &gt;::operator()</definition>
+        <argsstring>(CoordinateT const &amp;, ContainerT const &amp;) -&gt; typename std::enable_if&lt;!ContainerT::has_local_data::value &gt;::type</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+        </param>
+        <param>
+          <type>ContainerT const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="155" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="155" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1_decode_visitor_1a10acacd1784444097cbf72e2dc8574af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::DecodeVisitor&lt; T &gt;::operator()</definition>
+        <argsstring>(CoordinateT const &amp;coord, ContainerT &amp;container) -&gt; decltype(&amp;ContainerT::decode, void())</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="141" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="141" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1_decode_visitor_1a62e7f379cb55d28d2e7fbf8da3edea76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::DecodeVisitor&lt; T &gt;::operator()</definition>
+        <argsstring>(CoordinateT const &amp;coord, ContainerT &amp;container) -&gt; decltype(&amp;ContainerT::template decode&lt; value_type &gt;, void())</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="148" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="148" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classstadls_1_1_decode_visitor_1ae290de14f4cd5358ee0d223f638a7ecf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+          <param>
+            <type>typename DecodeContainerT</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::DecodeVisitor&lt; T &gt;::decode</definition>
+        <argsstring>(CoordinateT const &amp;, ContainerT &amp;container, void(DecodeContainerT::*decode)(std::array&lt; value_type, N &gt; const &amp;))</argsstring>
+        <name>decode</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+        </param>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>void(DecodeContainerT::*)(std::array&lt; value_type, N &gt; const &amp;)</type>
+          <declname>decode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="172" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="172" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1_decode_visitor_1a6d6f3522c0b7b8bd4ebfc0b6e97e0c0d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+          <param>
+            <type>typename DecodeContainerT</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::DecodeVisitor&lt; T &gt;::decode</definition>
+        <argsstring>(CoordinateT const &amp;coord, ContainerT &amp;container, void(DecodeContainerT::*decode)(CoordinateT const &amp;, std::array&lt; value_type, N &gt; const &amp;))</argsstring>
+        <name>decode</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>void(DecodeContainerT::*)(CoordinateT const &amp;, std::array&lt; value_type, N &gt; const &amp;)</type>
+          <declname>decode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="163" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="163" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1_decode_visitor_1ab32e7cd599e39ff350d8e0544b142cc5" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t stadls::DecodeVisitor&lt; T &gt;::remaining</definition>
+        <argsstring>() const</argsstring>
+        <name>remaining</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="195" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1_decode_visitor_1aef20e5f97ae517f60e9907e51b7d3226" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::DecodeVisitor&lt; T &gt;::slice</definition>
+        <argsstring>() -&gt; std::array&lt; value_type, N &gt;</argsstring>
+        <name>slice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="181" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="181" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fill the visited containers by decoding the specified configuration data. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Each container should implement a <computeroutput>decode</computeroutput> member function that accepts an array of words read from the hardware. The first argument to the function can optionally be the coordinate of the container, should it be required to correctly decode the data. Containers that do not themselves contain data (i.e. containers of containers) can alternatively be tagged via <programlisting><codeline><highlight class="normal">typedef<sp/>std::false_type<sp/>has_local_data;</highlight></codeline>
+</programlisting> <simplesect kind="see"><para><ref refid="structstadls_1_1_read_address_visitor" kindref="compound">ReadAddressVisitor</ref>, which is used to extract the addresses to <ref refid="playback__program__builder_8h_1aff46fe04fbedf2fc4695e01db743bbea" kindref="member">read</ref> the configuration data from. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="131" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="132" bodyend="196"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1_decode_visitor_1a6d6f3522c0b7b8bd4ebfc0b6e97e0c0d" prot="private" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>decode</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1ae290de14f4cd5358ee0d223f638a7ecf" prot="private" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>decode</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1a3b70ebd82bdcc34a343f7d6c265151d5" prot="public" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>DecodeVisitor</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1af147e7b7cbb291f14039a78d976f7180" prot="private" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>m_data</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1a2b2e2ce033d5ce69b078a8455cd44d02" prot="private" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>m_it</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1a10acacd1784444097cbf72e2dc8574af" prot="public" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>operator()</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1a62e7f379cb55d28d2e7fbf8da3edea76" prot="public" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>operator()</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1a6df9cc509df55801493e43f53274a086" prot="public" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>operator()</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1ab32e7cd599e39ff350d8e0544b142cc5" prot="private" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>remaining</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1aef20e5f97ae517f60e9907e51b7d3226" prot="private" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>slice</name></member>
+      <member refid="classstadls_1_1_decode_visitor_1aa1a13ee826baa0c605772a1ede5f099b" prot="private" virt="non-virtual"><scope>stadls::DecodeVisitor</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

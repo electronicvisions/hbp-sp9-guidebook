@@ -1,0 +1,1009 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_neuron_backend_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::NeuronBackendConfig</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock" prot="public">haldls::vx::NeuronBackendConfig::InputClock</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" prot="public">haldls::vx::NeuronBackendConfig::RefractoryTime</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff" prot="public">haldls::vx::NeuronBackendConfig::ResetHoldoff</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Coordinates</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ad20fe0a5bd18859afc6968f01f72d408" prot="public" static="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_address_out" kindref="compound">NeuronBackendAddressOut</ref></type>
+        <definition>typedef NeuronBackendAddressOut haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::AddressOut</definition>
+        <argsstring></argsstring>
+        <name>AddressOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="240" column="33" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ac9649731fcfbbe77128dc91d4c390fa2" prot="public" static="no">
+        <type>Coordinates::NeuronBackendConfigOnDLS</type>
+        <definition>typedef Coordinates::NeuronBackendConfigOnDLS haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="233" column="56" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ababad4fefb9807607b0d7a2b560d65fc" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="234" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a66b10bda3f0dca38560d447b460a225a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="409" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ae154f5f38305f9ce08052704a5e6a8cf" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::simulation}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="236" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="445" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a506cfb0cec5918d68209cfb037f52551" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, NeuronBackendConfig&lt; Coordinates &gt; const &amp;config)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_config" kindref="compound">NeuronBackendConfig</ref>&lt; Coordinates &gt; const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="419" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="419" bodyend="442"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a81136b86846c3faf4f6f777f9b9555b4" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ad20fe0a5bd18859afc6968f01f72d408" kindref="member">AddressOut</ref></type>
+        <definition>AddressOut haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_address_out</definition>
+        <argsstring></argsstring>
+        <name>m_address_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="449" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a725f1a90ec78fd422bb3dbfd49d10dbe" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_connect_fire_bottom</definition>
+        <argsstring></argsstring>
+        <name>m_connect_fire_bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="457" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a10c4c13ceea5b25f8ed4e75da6f83f12" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_connect_fire_from_right</definition>
+        <argsstring></argsstring>
+        <name>m_connect_fire_from_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="458" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a73bac41e9e078ab128879bfec806c218" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_connect_fire_to_right</definition>
+        <argsstring></argsstring>
+        <name>m_connect_fire_to_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="459" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a219bd8c273324adf88431cc736986a94" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_en_0_baesian</definition>
+        <argsstring></argsstring>
+        <name>m_en_0_baesian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="462" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1aa00af95a658116ab12236347284ed286" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_en_1_baesian</definition>
+        <argsstring></argsstring>
+        <name>m_en_1_baesian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="463" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a366dbd209130619e0af0b9c005418b0c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_en_adapt_pulse</definition>
+        <argsstring></argsstring>
+        <name>m_en_adapt_pulse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="454" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a63c08cd7226ac1cdf2ece27de8c93674" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_en_baesian_extension</definition>
+        <argsstring></argsstring>
+        <name>m_en_baesian_extension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="455" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1acd2bc9fa076061df7b0b9074be5ae01f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_en_neuron_master</definition>
+        <argsstring></argsstring>
+        <name>m_en_neuron_master</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="461" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1af8d606f5c81ec3a7ad47fa65330587c5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_en_neuron_slave</definition>
+        <argsstring></argsstring>
+        <name>m_en_neuron_slave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="456" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1abc5fc3c8752c2ba740ac6437c6f2c226" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_en_spike_out</definition>
+        <argsstring></argsstring>
+        <name>m_en_spike_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="460" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a5d7c9a7dbe8e0777ece5bb7369254477" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_post_overwrite</definition>
+        <argsstring></argsstring>
+        <name>m_post_overwrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="452" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a60da88785d943a7b838c97276cdf76af" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" kindref="compound">RefractoryTime</ref></type>
+        <definition>RefractoryTime haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_refractory_time</definition>
+        <argsstring></argsstring>
+        <name>m_refractory_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="451" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a187cf8ed9116db8a71fcc367ecbcc5c9" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff" kindref="compound">ResetHoldoff</ref></type>
+        <definition>ResetHoldoff haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_reset_holdoff</definition>
+        <argsstring></argsstring>
+        <name>m_reset_holdoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="450" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ac71de17205696d3e5c20ca43d290b119" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock" kindref="compound">InputClock</ref></type>
+        <definition>InputClock haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::m_select_input_clock</definition>
+        <argsstring></argsstring>
+        <name>m_select_input_clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="453" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ae827fcc60b37f4607c400b23a9f2cd94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::NeuronBackendConfig</definition>
+        <argsstring>()</argsstring>
+        <name>NeuronBackendConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="322" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ac3accec33e268e53b6d1b770445e186a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>template SYMBOL_VISIBLE void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a66b10bda3f0dca38560d447b460a225a" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="416" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1aff467d1d54cc29ce3eed91f94f2741b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a66b10bda3f0dca38560d447b460a225a" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>template SYMBOL_VISIBLE std::array&lt; fisch::vx::word_access_type::Omnibus, NeuronBackendConfig&lt; halco::hicann_dls::vx::v3::Coordinates &gt;::config_size_in_words &gt; haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::encode</definition>
+        <argsstring>() const</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="414" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1aa5db6b577e9073debb9d56ecc803a77d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ad20fe0a5bd18859afc6968f01f72d408" kindref="member">AddressOut</ref></type>
+        <definition>AddressOut haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_address_out</definition>
+        <argsstring>() const</argsstring>
+        <name>get_address_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="326" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a1804eb7dfa9c5997d01c06cb94dec8b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_connect_fire_bottom</definition>
+        <argsstring>() const</argsstring>
+        <name>get_connect_fire_bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="366" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a87c3941da94b5127d62ef23fdd781ab8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_connect_fire_from_right</definition>
+        <argsstring>() const</argsstring>
+        <name>get_connect_fire_from_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="371" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a200b708c7a934698e4168625dbc9a13e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_connect_fire_to_right</definition>
+        <argsstring>() const</argsstring>
+        <name>get_connect_fire_to_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="376" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a12955f41efc8628ecb3c1af46ce7ba16" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_enable_adaptation_pulse</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_adaptation_pulse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="351" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a9e043e38f4f481e6da9f3010561a2a68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_enable_bayesian_0</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_bayesian_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="397" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a769442786da6bb238922e9f09a01f239" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_enable_bayesian_1</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_bayesian_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="402" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a1ff123820f8407b25d2c5a88ba795cb2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_enable_bayesian_extension</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_bayesian_extension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="356" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a98ae1370d431abb47f634bfd3b2de5af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_enable_neuron_master</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_neuron_master</name>
+        <briefdescription>
+<para>Enable the fire output of a neuron. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the threshold comparator creates a fire signal, all connected neurons receive a fire input. Even if no neurons are connected, this setting needs to be switched on in order to process the fire signal. If this setting is disabled, spikes will not trigger post pulses in the synapses. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="392" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a9a76cd8e54d42e1d677724e90dc1de02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_enable_neuron_slave</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_neuron_slave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="361" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a59c197f11d4e37b663256b9dc9cbbbef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_enable_spike_out</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_spike_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="381" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a2f03bb48ad50486f1612967ab42296a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_post_overwrite</definition>
+        <argsstring>() const</argsstring>
+        <name>get_post_overwrite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="341" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ad05bb1901a1fd6be42e41749c611cba2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" kindref="compound">RefractoryTime</ref></type>
+        <definition>RefractoryTime haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_refractory_time</definition>
+        <argsstring>() const</argsstring>
+        <name>get_refractory_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="336" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1af88e9dd7c55b94e9bbccf2d595dc671c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff" kindref="compound">ResetHoldoff</ref></type>
+        <definition>ResetHoldoff haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_reset_holdoff</definition>
+        <argsstring>() const</argsstring>
+        <name>get_reset_holdoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="331" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a3675b78be5fc4b733a66c61b66c6603b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock" kindref="compound">InputClock</ref></type>
+        <definition>InputClock haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::get_select_input_clock</definition>
+        <argsstring>() const</argsstring>
+        <name>get_select_input_clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="346" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ae2c0d821122e705b00273d6ffbe6fe6c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::operator!=</definition>
+        <argsstring>(NeuronBackendConfig const &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_config" kindref="compound">NeuronBackendConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="407" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a6e4d5c7c8fa2a25940f9ef053e58d488" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::operator==</definition>
+        <argsstring>(NeuronBackendConfig const &amp;other) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_config" kindref="compound">NeuronBackendConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="406" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1aa569e0a9582598ab141d5c0be700a496" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_address_out</definition>
+        <argsstring>(AddressOut addr)</argsstring>
+        <name>set_address_out</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ad20fe0a5bd18859afc6968f01f72d408" kindref="member">AddressOut</ref></type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="328" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a7e1f99353e2e243bcebfb436d5ee9a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_connect_fire_bottom</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_connect_fire_bottom</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="368" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1ac4d23e8682b67e5495a8c31c2d1afb94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_connect_fire_from_right</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_connect_fire_from_right</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="373" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a287ac6983d24a2d3ff5a46c6dd800ff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_connect_fire_to_right</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_connect_fire_to_right</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="378" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a96f0f9011098615a87fe3f8fab8e7f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_enable_adaptation_pulse</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_enable_adaptation_pulse</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="353" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1abb0de82b4c3ac802874d327afb7d5e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_enable_bayesian_0</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_enable_bayesian_0</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="399" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1aa7d4df3f93bbfb82b6c923b7812f8155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_enable_bayesian_1</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_enable_bayesian_1</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="404" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a48a54a450700223acaa31231d6f23f03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_enable_bayesian_extension</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_enable_bayesian_extension</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="358" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a3d742e09a6a17c12ced5a6a8cc934642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_enable_neuron_master</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_enable_neuron_master</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="394" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a036b4dc776321497993d2ca5139278cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_enable_neuron_slave</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_enable_neuron_slave</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="363" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1abe59ed2ec4a196e695c70a77d3581125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_enable_spike_out</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_enable_spike_out</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="383" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a5a89516f026fbcb44e61e2592b6d127e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_post_overwrite</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>set_post_overwrite</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="343" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a874428f615f9eff836e0bf0b858e0d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_refractory_time</definition>
+        <argsstring>(RefractoryTime val)</argsstring>
+        <name>set_refractory_time</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" kindref="compound">RefractoryTime</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="338" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1aad01146ddbbe5703dcff24454125751c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_reset_holdoff</definition>
+        <argsstring>(ResetHoldoff val)</argsstring>
+        <name>set_reset_holdoff</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff" kindref="compound">ResetHoldoff</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="333" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1acd21cdeaf157ced12c4687ff2714097d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::set_select_input_clock</definition>
+        <argsstring>(InputClock src)</argsstring>
+        <name>set_select_input_clock</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock" kindref="compound">InputClock</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="348" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1aac8ed3749686db58d78a74ea1448bd4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a66b10bda3f0dca38560d447b460a225a" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>template SYMBOL_VISIBLE std::array&lt; halco::hicann_dls::vx::OmnibusAddress, NeuronBackendConfig&lt; halco::hicann_dls::vx::v3::Coordinates &gt;::config_size_in_words &gt; haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::addresses</definition>
+        <argsstring>(coordinate_type const &amp;neuron)</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ac9649731fcfbbe77128dc91d4c390fa2" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="411" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_backend_config_1a272151a8fa93cadf9bbf1d4c3baac19b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="447" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Read/write access to the NeuronBackend container. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>All relevant settings of the NeuronBackend can be accessed and set via the <ref refid="classhaldls_1_1vx_1_1_neuron_backend_config" kindref="compound">NeuronBackendConfig</ref>. The choice of the parameters (e.g. <ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" kindref="compound">RefractoryTime</ref>) depends on the use case of the user and the targeted biological model/experiment. Implementation examples are yet to be written and will then be found in the CI test environment. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;</label>
+        <link refid="classhaldls_1_1vx_1_1_neuron_backend_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;</label>
+        <link refid="classhaldls_1_1vx_1_1_neuron_backend_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="230" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="231" bodyend="464"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1aac8ed3749686db58d78a74ea1448bd4d" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ad20fe0a5bd18859afc6968f01f72d408" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>AddressOut</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a66b10bda3f0dca38560d447b460a225a" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ac9649731fcfbbe77128dc91d4c390fa2" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ac3accec33e268e53b6d1b770445e186a" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1aff467d1d54cc29ce3eed91f94f2741b7" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1aa5db6b577e9073debb9d56ecc803a77d" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_address_out</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a1804eb7dfa9c5997d01c06cb94dec8b0" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_connect_fire_bottom</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a87c3941da94b5127d62ef23fdd781ab8" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_connect_fire_from_right</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a200b708c7a934698e4168625dbc9a13e" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_connect_fire_to_right</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a12955f41efc8628ecb3c1af46ce7ba16" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_enable_adaptation_pulse</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a9e043e38f4f481e6da9f3010561a2a68" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_enable_bayesian_0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a769442786da6bb238922e9f09a01f239" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_enable_bayesian_1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a1ff123820f8407b25d2c5a88ba795cb2" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_enable_bayesian_extension</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a98ae1370d431abb47f634bfd3b2de5af" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_enable_neuron_master</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a9a76cd8e54d42e1d677724e90dc1de02" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_enable_neuron_slave</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a59c197f11d4e37b663256b9dc9cbbbef" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_enable_spike_out</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a2f03bb48ad50486f1612967ab42296a4" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_post_overwrite</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ad05bb1901a1fd6be42e41749c611cba2" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_refractory_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1af88e9dd7c55b94e9bbccf2d595dc671c" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_reset_holdoff</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a3675b78be5fc4b733a66c61b66c6603b" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>get_select_input_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ababad4fefb9807607b0d7a2b560d65fc" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a81136b86846c3faf4f6f777f9b9555b4" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_address_out</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a725f1a90ec78fd422bb3dbfd49d10dbe" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_connect_fire_bottom</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a10c4c13ceea5b25f8ed4e75da6f83f12" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_connect_fire_from_right</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a73bac41e9e078ab128879bfec806c218" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_connect_fire_to_right</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a219bd8c273324adf88431cc736986a94" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_en_0_baesian</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1aa00af95a658116ab12236347284ed286" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_en_1_baesian</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a366dbd209130619e0af0b9c005418b0c" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_en_adapt_pulse</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a63c08cd7226ac1cdf2ece27de8c93674" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_en_baesian_extension</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1acd2bc9fa076061df7b0b9074be5ae01f" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_en_neuron_master</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1af8d606f5c81ec3a7ad47fa65330587c5" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_en_neuron_slave</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1abc5fc3c8752c2ba740ac6437c6f2c226" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_en_spike_out</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a5d7c9a7dbe8e0777ece5bb7369254477" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_post_overwrite</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a60da88785d943a7b838c97276cdf76af" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_refractory_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a187cf8ed9116db8a71fcc367ecbcc5c9" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_reset_holdoff</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ac71de17205696d3e5c20ca43d290b119" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>m_select_input_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ae827fcc60b37f4607c400b23a9f2cd94" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>NeuronBackendConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ae2c0d821122e705b00273d6ffbe6fe6c" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a506cfb0cec5918d68209cfb037f52551" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a6e4d5c7c8fa2a25940f9ef053e58d488" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a272151a8fa93cadf9bbf1d4c3baac19b" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1aa569e0a9582598ab141d5c0be700a496" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_address_out</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a7e1f99353e2e243bcebfb436d5ee9a01" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_connect_fire_bottom</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ac4d23e8682b67e5495a8c31c2d1afb94" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_connect_fire_from_right</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a287ac6983d24a2d3ff5a46c6dd800ff4" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_connect_fire_to_right</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a96f0f9011098615a87fe3f8fab8e7f10" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_enable_adaptation_pulse</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1abb0de82b4c3ac802874d327afb7d5e53" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_enable_bayesian_0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1aa7d4df3f93bbfb82b6c923b7812f8155" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_enable_bayesian_1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a48a54a450700223acaa31231d6f23f03" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_enable_bayesian_extension</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a3d742e09a6a17c12ced5a6a8cc934642" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_enable_neuron_master</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a036b4dc776321497993d2ca5139278cb" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_enable_neuron_slave</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1abe59ed2ec4a196e695c70a77d3581125" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_enable_spike_out</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a5a89516f026fbcb44e61e2592b6d127e" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_post_overwrite</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1a874428f615f9eff836e0bf0b858e0d6d" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_refractory_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1aad01146ddbbe5703dcff24454125751c" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_reset_holdoff</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1acd21cdeaf157ced12c4687ff2714097d" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>set_select_input_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_backend_config_1ae154f5f38305f9ce08052704a5e6a8cf" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

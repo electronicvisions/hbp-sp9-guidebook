@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::MADCConfig::PreampGainCapacitorSize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PreampGainCapacitorSize, uint_fast8_t, 31, 0 &gt;</basecompoundref>
+    <includes refid="madc_8h" local="no">madc.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size_1a2bee3bf9af908c8420be048c4264d1d3" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::MADCConfig::PreampGainCapacitorSize::PreampGainCapacitorSize</definition>
+        <argsstring>(uintmax_t const val=31) SYMBOL_VISIBLE</argsstring>
+        <name>PreampGainCapacitorSize</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>31</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="216" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="216" bodyend="218"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::MADCConfig::PreampGainCapacitorSize</label>
+        <link refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PreampGainCapacitorSize, uint_fast8_t, 31, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::MADCConfig::PreampGainCapacitorSize</label>
+        <link refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PreampGainCapacitorSize, uint_fast8_t, 31, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="213" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="215" bodyend="219"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size_1a2bee3bf9af908c8420be048c4264d1d3" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig::PreampGainCapacitorSize</scope><name>PreampGainCapacitorSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

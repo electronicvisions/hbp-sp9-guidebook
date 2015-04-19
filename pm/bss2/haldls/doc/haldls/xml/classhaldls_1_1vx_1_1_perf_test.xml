@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_perf_test" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::PerfTest</compoundname>
+    <includes refid="perftest_8h" local="no">perftest.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_perf_test_1aa3371764791d6c650b399feb55f72eec" prot="public" static="no">
+        <type>halco::hicann_dls::vx::PerfTestOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::PerfTestOnFPGA haldls::vx::PerfTest::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="30" column="47" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_perf_test_1a4bcc2e2f353ff20fb3eb07f5bee7672c" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::PerfTest::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="31" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_perf_test_1ae292ccb2c5c444b7a1dc77a3c45aedd5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::PerfTest::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="59" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_perf_test_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="68" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_perf_test_1a1053f4f6ef64f33c0c0b4937af8611d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PerfTest const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_perf_test" kindref="compound">PerfTest</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="57" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_perf_test_1abb0c4c2105eb3b2913931fa573619a9a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PerfTest::m_enable</definition>
+        <argsstring></argsstring>
+        <name>m_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="72" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1a3fafe3d59d90a7ae01d5218a444170d3" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PerfTest::PerfTest</definition>
+        <argsstring>(bool value=false) SYMBOL_VISIBLE</argsstring>
+        <name>PerfTest</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Construct perf test with enable value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enable value of test execution </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="37" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1a6c6b357fd9caf667cc7c957ee4b5324e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PerfTest::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Omnibus, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_perf_test_1ae292ccb2c5c444b7a1dc77a3c45aedd5" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="64" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1a110e0b190dcabcad76cc551710c692d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_perf_test_1ae292ccb2c5c444b7a1dc77a3c45aedd5" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Omnibus, config_size_in_words&gt; haldls::vx::PerfTest::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="62" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1a2c8b59826b87f2fcff9690acd85fe2c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PerfTest::get_enable</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable</name>
+        <briefdescription>
+<para>Get enable value of test execution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>value Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="51" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1aa9442f3ea5a9ce4b6ce66c481b83b4d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PerfTest::operator!=</definition>
+        <argsstring>(PerfTest const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_perf_test" kindref="compound">PerfTest</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="54" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1ae6186daef0953078b036d3ea110cc41b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PerfTest::operator==</definition>
+        <argsstring>(PerfTest const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_perf_test" kindref="compound">PerfTest</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="53" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1ad1ef5f946767cc4ebe02f7d9502b75b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PerfTest::set_enable</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value of test execution. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="44" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1a42d5a9708ff2bc748a2cbd52882b0da3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_perf_test_1ae292ccb2c5c444b7a1dc77a3c45aedd5" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, config_size_in_words&gt; haldls::vx::PerfTest::addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_perf_test_1aa3371764791d6c650b399feb55f72eec" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="60" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_perf_test_1a448eae360e0da979990d44da6c4ec8a3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PerfTest::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="70" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for enabling highspeed perf test. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Words transfering an increasing counter value are sent. The received word count is expected to be equal to the sent count and all received words are expected to be in order. The test execution does not block playback execution. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/perftest.h" bodystart="28" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1a42d5a9708ff2bc748a2cbd52882b0da3" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1ae292ccb2c5c444b7a1dc77a3c45aedd5" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1aa3371764791d6c650b399feb55f72eec" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1a6c6b357fd9caf667cc7c957ee4b5324e" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1a110e0b190dcabcad76cc551710c692d0" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1a2c8b59826b87f2fcff9690acd85fe2c3" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>get_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1a4bcc2e2f353ff20fb3eb07f5bee7672c" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1abb0c4c2105eb3b2913931fa573619a9a" prot="private" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>m_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1aa9442f3ea5a9ce4b6ce66c481b83b4d5" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1a1053f4f6ef64f33c0c0b4937af8611d4" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1ae6186daef0953078b036d3ea110cc41b" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1a3fafe3d59d90a7ae01d5218a444170d3" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>PerfTest</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1a448eae360e0da979990d44da6c4ec8a3" prot="private" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_perf_test_1ad1ef5f946767cc4ebe02f7d9502b75b7" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTest</scope><name>set_enable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

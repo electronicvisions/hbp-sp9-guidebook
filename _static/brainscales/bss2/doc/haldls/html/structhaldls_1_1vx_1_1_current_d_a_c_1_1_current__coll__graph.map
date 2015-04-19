@@ -1,0 +1,4 @@
+<map id="haldls::vx::CurrentDAC::Current" name="haldls::vx::CurrentDAC::Current">
+<area shape="rect" id="node1" title="Value of current DAC." alt="" coords="5,113,162,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="8,5,159,65"/>
+</map>

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_column_correlation_row" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::ColumnCorrelationRow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_column_correlation_row_1a04f8026be2029757f29efe4377f73d1a" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ColumnCorrelationRowOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ColumnCorrelationRowOnDLS lola::vx::ColumnCorrelationRow::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="24" column="58" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_column_correlation_row_1a6c4fa355e6e25ba11361e75de98ccbb5" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::ColumnCorrelationRow::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="23" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_column_correlation_row_1acc6c95fc3fc33d83b3465fbcf7e3ac35" prot="public" static="no">
+        <type>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</type>
+        <definition>typedef haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch lola::vx::ColumnCorrelationRow::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="26" column="68" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_column_correlation_row_1a0e4e9248300c97d2612e617d991fabe6" prot="public" static="no">
+        <type>halco::common::typed_heap_array&lt; <ref refid="classlola_1_1vx_1_1_column_correlation_row_1acc6c95fc3fc33d83b3465fbcf7e3ac35" kindref="member">Value</ref>, halco::hicann_dls::vx::SynapseOnSynapseRow &gt;</type>
+        <definition>typedef halco::common::typed_heap_array&lt;Value, halco::hicann_dls::vx::SynapseOnSynapseRow&gt; lola::vx::ColumnCorrelationRow::Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="29" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_column_correlation_row_1acc1fc0d0e0593bb4072ecc2048b8a1b6" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_column_correlation_row_1a0e4e9248300c97d2612e617d991fabe6" kindref="member">Values</ref></type>
+        <definition>Values lola::vx::ColumnCorrelationRow::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="33" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_column_correlation_row_1aca0f9e354fac9f8848279d3fcd7d19e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; ColumnCorrelationRow &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; ColumnCorrelationRow &gt;</name>
+        <param>
+          <type>haldls::vx::detail::VisitPreorderImpl&lt; <ref refid="classlola_1_1vx_1_1_column_correlation_row" kindref="compound">ColumnCorrelationRow</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="39" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_column_correlation_row_1a91c1cbbc81262f22354fca3b60787533" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ColumnCorrelationRow const &amp;row) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_column_correlation_row" kindref="compound">ColumnCorrelationRow</ref> const &amp;</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="39" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_column_correlation_row_1a2b95acdd3e582d085444d65b9b01f21e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::ColumnCorrelationRow::ColumnCorrelationRow</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ColumnCorrelationRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_column_correlation_row_1a9861c122bf9167bc575943c109a3455f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::ColumnCorrelationRow::operator!=</definition>
+        <argsstring>(ColumnCorrelationRow const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_column_correlation_row" kindref="compound">ColumnCorrelationRow</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="36" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_column_correlation_row_1ab0b4bb26b6a5a58af4083683b0fa0fd3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::ColumnCorrelationRow::operator==</definition>
+        <argsstring>(ColumnCorrelationRow const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_column_correlation_row" kindref="compound">ColumnCorrelationRow</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="35" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+      </node>
+      <node id="1">
+        <label>lola::vx::ColumnCorrelationRow</label>
+        <link refid="classlola_1_1vx_1_1_column_correlation_row"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+      </node>
+      <node id="1">
+        <label>lola::vx::ColumnCorrelationRow</label>
+        <link refid="classlola_1_1vx_1_1_column_correlation_row"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="20" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="21" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1a2b95acdd3e582d085444d65b9b01f21e" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>ColumnCorrelationRow</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1a04f8026be2029757f29efe4377f73d1a" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1aca0f9e354fac9f8848279d3fcd7d19e6" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; ColumnCorrelationRow &gt;</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1a6c4fa355e6e25ba11361e75de98ccbb5" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1a9861c122bf9167bc575943c109a3455f" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1a91c1cbbc81262f22354fca3b60787533" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1ab0b4bb26b6a5a58af4083683b0fa0fd3" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1acc6c95fc3fc33d83b3465fbcf7e3ac35" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>Value</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1a0e4e9248300c97d2612e617d991fabe6" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>Values</name></member>
+      <member refid="classlola_1_1vx_1_1_column_correlation_row_1acc1fc0d0e0593bb4072ecc2048b8a1b6" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCorrelationRow</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

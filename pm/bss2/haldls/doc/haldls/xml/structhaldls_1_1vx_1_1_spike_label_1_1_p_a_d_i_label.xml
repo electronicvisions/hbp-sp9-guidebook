@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_spike_label_1_1_p_a_d_i_label" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SpikeLabel::PADILabel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PADILabel, uint_fast16_t, 0x3ff, 0 &gt;</basecompoundref>
+    <includes refid="event_8h" local="no">event.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_spike_label_1_1_p_a_d_i_label_1ae7fb72ae86bda78cad62dfa0def2c9cb" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SpikeLabel::PADILabel::PADILabel</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>PADILabel</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/event.h" line="38" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/event.h" bodystart="38" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Label type processed by PADI-bus, bits 0-10. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PADILabel, uint_fast16_t, 0x3ff, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SpikeLabel::PADILabel</label>
+        <link refid="structhaldls_1_1vx_1_1_spike_label_1_1_p_a_d_i_label"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PADILabel, uint_fast16_t, 0x3ff, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SpikeLabel::PADILabel</label>
+        <link refid="structhaldls_1_1vx_1_1_spike_label_1_1_p_a_d_i_label"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/event.h" line="35" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/event.h" bodystart="37" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_spike_label_1_1_p_a_d_i_label_1ae7fb72ae86bda78cad62dfa0def2c9cb" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel::PADILabel</scope><name>PADILabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

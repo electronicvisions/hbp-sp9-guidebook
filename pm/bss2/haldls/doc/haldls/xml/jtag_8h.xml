@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="jtag_8h" kind="file" language="C++">
+    <compoundname>jtag.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">iosfwd</includes>
+    <includes local="yes">fisch/vx/constants.h</includes>
+    <includes local="yes">fisch/vx/word_access/type/jtag.h</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/jtag.h</includes>
+    <includes refid="cerealization_8h" local="yes">haldls/cerealization.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="v2_2jtag_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/jtag.h</includedby>
+    <includedby refid="v3_2jtag_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/jtag.h</includedby>
+    <incdepgraph>
+      <node id="20">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="11">
+        <label>cstdint</label>
+      </node>
+      <node id="5">
+        <label>fisch/vx/word_access/type/jtag.h</label>
+      </node>
+      <node id="19">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="7">
+        <label>halco/hicann-dls/vx/jtag.h</label>
+      </node>
+      <node id="15">
+        <label>fisch/vx/traits.h</label>
+      </node>
+      <node id="14">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>boost/utility/enable_if.hpp</label>
+      </node>
+      <node id="12">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="8">
+        <label>haldls/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>array</label>
+      </node>
+      <node id="6">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="10">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="3">
+        <label>iosfwd</label>
+      </node>
+      <node id="16">
+        <label>fisch/vx/word_access_type.h</label>
+      </node>
+      <node id="4">
+        <label>fisch/vx/constants.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h</label>
+        <link refid="jtag_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>type_traits</label>
+      </node>
+      <node id="9">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/haldls.h</label>
+        <link refid="v3_2haldls_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/jtag.h</label>
+        <link refid="v2_2jtag_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pyhaldls.h</label>
+        <link refid="v2_2pyhaldls_8h"/>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h</label>
+        <link refid="v3_2pyhaldls_8h"/>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/haldls.h</label>
+        <link refid="v2_2haldls_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/jtag.h</label>
+        <link refid="v3_2jtag_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h</label>
+        <link refid="jtag_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_j_t_a_g_clock_scaler_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; JTAGClockScaler &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_j_t_a_g_id_code_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; JTAGIdCode &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_reset_j_t_a_g_tap_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ResetJTAGTap &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_j_t_a_g_clock_scaler" prot="public">haldls::vx::JTAGClockScaler</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code" prot="public">haldls::vx::JTAGIdCode</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_manufacturer_id" prot="public">haldls::vx::JTAGIdCode::ManufacturerId</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_part_number" prot="public">haldls::vx::JTAGIdCode::PartNumber</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_reset_j_t_a_g_tap" prot="public">haldls::vx::ResetJTAGTap</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_j_t_a_g_clock_scaler_1_1_value" prot="public">haldls::vx::JTAGClockScaler::Value</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version" prot="public">haldls::vx::JTAGIdCode::Version</innerclass>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::MADCConfig::SARResetWait</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; SARResetWait, uint_fast8_t, 3, 0 &gt;</basecompoundref>
+    <includes refid="madc_8h" local="no">madc.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait_1afd3b448e05c509212d1ece2d4d805bf8" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::MADCConfig::SARResetWait::SARResetWait</definition>
+        <argsstring>(uintmax_t const val=3) SYMBOL_VISIBLE</argsstring>
+        <name>SARResetWait</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="160" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="160" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; SARResetWait, uint_fast8_t, 3, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::MADCConfig::SARResetWait</label>
+        <link refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; SARResetWait, uint_fast8_t, 3, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::MADCConfig::SARResetWait</label>
+        <link refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="157" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="159" bodyend="163"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait_1afd3b448e05c509212d1ece2d4d805bf8" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig::SARResetWait</scope><name>SARResetWait</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

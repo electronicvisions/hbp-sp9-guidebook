@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacehalco_1_1hicann__dls_1_1vx_1_1v3" kind="namespace" language="C++">
+    <compoundname>halco::hicann_dls::vx::v3</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

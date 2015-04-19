@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::vx::v2::detail::InitGenerator::HighspeedLink</compoundname>
+    <includes refid="v2_2init__generator_8h" local="no">init_generator.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1ae7210dc47436f5b72595abe666bc5446" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::PhyConfigChip, halco::hicann_dls::vx::v2::PhyConfigChipOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;haldls::vx::PhyConfigChip, halco::hicann_dls::vx::v2::PhyConfigChipOnDLS&gt; stadls::vx::v2::detail::InitGenerator::HighspeedLink::phy_configs_chip_type</definition>
+        <argsstring></argsstring>
+        <name>phy_configs_chip_type</name>
+        <briefdescription>
+<para>Highspeed-link PHY settings for the chip side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="69" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a56c9a67fcff8e9f3f0b1a36efaf8893b" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::PhyConfigFPGA, halco::hicann_dls::vx::v2::PhyConfigFPGAOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;haldls::vx::PhyConfigFPGA, halco::hicann_dls::vx::v2::PhyConfigFPGAOnDLS&gt; stadls::vx::v2::detail::InitGenerator::HighspeedLink::phy_configs_fpga_type</definition>
+        <argsstring></argsstring>
+        <name>phy_configs_fpga_type</name>
+        <briefdescription>
+<para>Highspeed-link PHY settings for the FPGA side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="63" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1aaed9e8d76633f7b7b1c9ff46db86885d" prot="public" static="no" mutable="no">
+        <type>haldls::vx::CommonPhyConfigChip</type>
+        <definition>haldls::vx::CommonPhyConfigChip stadls::vx::v2::detail::InitGenerator::HighspeedLink::common_phy_config_chip</definition>
+        <argsstring></argsstring>
+        <name>common_phy_config_chip</name>
+        <briefdescription>
+<para>Highspeed-link PHY enable values for the chip side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="58" column="33" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a5aab30c031b5059a4447a5d041a21f8d" prot="public" static="no" mutable="no">
+        <type>haldls::vx::CommonPhyConfigFPGA</type>
+        <definition>haldls::vx::CommonPhyConfigFPGA stadls::vx::v2::detail::InitGenerator::HighspeedLink::common_phy_config_fpga</definition>
+        <argsstring></argsstring>
+        <name>common_phy_config_fpga</name>
+        <briefdescription>
+<para>Highspeed-link PHY enable values for the FPGA side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="55" column="33" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a2b090db79113aa0bf44476a3bffd651f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool stadls::vx::v2::detail::InitGenerator::HighspeedLink::enable_systime</definition>
+        <argsstring></argsstring>
+        <name>enable_systime</name>
+        <briefdescription>
+<para>Enable systime synchronization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Disabling this discards all systime related configuration, i.e. setting the SystimeSyncBase and initiating the time hand-shake between the chip and the FPGA. This leads to no time annotation being present in the response stream. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="81" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a6efd8b9dc62230a45024dc570293ca15" prot="public" static="no" mutable="no">
+        <type><ref refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1ae7210dc47436f5b72595abe666bc5446" kindref="member">phy_configs_chip_type</ref></type>
+        <definition>phy_configs_chip_type stadls::vx::v2::detail::InitGenerator::HighspeedLink::phy_configs_chip</definition>
+        <argsstring></argsstring>
+        <name>phy_configs_chip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="70" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1aff10c06cc87cfa7897a4eb36b5d2b916" prot="public" static="no" mutable="no">
+        <type><ref refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a56c9a67fcff8e9f3f0b1a36efaf8893b" kindref="member">phy_configs_fpga_type</ref></type>
+        <definition>phy_configs_fpga_type stadls::vx::v2::detail::InitGenerator::HighspeedLink::phy_configs_fpga</definition>
+        <argsstring></argsstring>
+        <name>phy_configs_fpga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="64" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a4aaa8b1ab7c3e180c890f5ac7f563f48" prot="public" static="no" mutable="no">
+        <type>haldls::vx::SystimeSyncBase</type>
+        <definition>haldls::vx::SystimeSyncBase stadls::vx::v2::detail::InitGenerator::HighspeedLink::systime_sync_base</definition>
+        <argsstring></argsstring>
+        <name>systime_sync_base</name>
+        <briefdescription>
+<para>Systime synchronization base value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="73" column="29" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a26154b0cce8b944062adf2bbd232d41c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::v2::detail::InitGenerator::HighspeedLink::HighspeedLink</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>HighspeedLink</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" line="49" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h" bodystart="50" bodyend="83"/>
+    <listofallmembers>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1aaed9e8d76633f7b7b1c9ff46db86885d" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>common_phy_config_chip</name></member>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a5aab30c031b5059a4447a5d041a21f8d" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>common_phy_config_fpga</name></member>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a2b090db79113aa0bf44476a3bffd651f" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>enable_systime</name></member>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a26154b0cce8b944062adf2bbd232d41c" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>HighspeedLink</name></member>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a6efd8b9dc62230a45024dc570293ca15" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>phy_configs_chip</name></member>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1ae7210dc47436f5b72595abe666bc5446" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>phy_configs_chip_type</name></member>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1aff10c06cc87cfa7897a4eb36b5d2b916" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>phy_configs_fpga</name></member>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a56c9a67fcff8e9f3f0b1a36efaf8893b" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>phy_configs_fpga_type</name></member>
+      <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a4aaa8b1ab7c3e180c890f5ac7f563f48" prot="public" virt="non-virtual"><scope>stadls::vx::v2::detail::InitGenerator::HighspeedLink</scope><name>systime_sync_base</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

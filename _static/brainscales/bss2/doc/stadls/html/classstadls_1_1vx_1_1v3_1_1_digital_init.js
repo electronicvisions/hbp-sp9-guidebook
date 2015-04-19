@@ -1,0 +1,27 @@
+var classstadls_1_1vx_1_1v3_1_1_digital_init =
+[
+    [ "adplls_type", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#aa27ae84b0d5159a372ec8794726f1800", null ],
+    [ "Builder", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a87c98e04b69615c04b0fecd4fefbca36", null ],
+    [ "capmem_block_config_type", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a83a3389df93f5702a3b7b723103810ee", null ],
+    [ "capmem_block_type", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#afa415c7ecfd65c4ef1e7fd9dfe80f0c9", null ],
+    [ "Result", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#aac7abc0bce8d65cd2aea0c870b5bd3a6", null ],
+    [ "DigitalInit", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#ad0be2e58fd8ee033481a4e1d0f271c1c", null ],
+    [ "generate", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a2b121cc05aceb714c64e8008dbd6ecc5", null ],
+    [ "stadls::vx::generate", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#abc14565b6cf4fc25fe505e65fc2e30f0", null ],
+    [ "adplls", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a010f72743a3c21acf91899ff4fdd1ce7", null ],
+    [ "capmem_block_config", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#ae03563bd1d5a61696da6e7321aef91c5", null ],
+    [ "capmem_config", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#ab105e4d2fb709b1765c907fdd640c063", null ],
+    [ "dac_channel_block", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a61e14ec3a1e388db97ebe06ad1ffd771", null ],
+    [ "dac_control_block", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#ac1e9f135e4c43bb9ca4b90fdb33ae2eb", null ],
+    [ "enable_capmem", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#aa92520d2804e48b0b3682ff4fcc28721", null ],
+    [ "enable_highspeed_link", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a029e7548d155cc8bdbfe6bac7a38fe9c", null ],
+    [ "enable_xboard", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#aca49342ed3ee19a9d989603fcca74d9b", null ],
+    [ "highspeed_link", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#ade10433675dfc19a3f6dc82eb452fc3e", null ],
+    [ "instruction_timeout", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a0ad736f5d1fef404b668bfcb32ea2633", null ],
+    [ "jtag_clock_scaler", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#ab877516c4a091ce79096ec2a0cd82fb4", null ],
+    [ "memory_timing", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a5996a3a35cee1c121b15d51d8233c2ec", null ],
+    [ "pll_clock_output_block", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#aca5f1a0a3accebe3e7ab800963ca9efb", null ],
+    [ "reference_generator_config", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a6934f3c5daff25e7d5c9f70242af72b3", null ],
+    [ "shift_register", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a684abca46d9aa4cf572219157ddb934c", null ],
+    [ "synapse_bias_selection", "classstadls_1_1vx_1_1v3_1_1_digital_init.html#a88e08e57870a2dff6c2f36676491f599", null ]
+];

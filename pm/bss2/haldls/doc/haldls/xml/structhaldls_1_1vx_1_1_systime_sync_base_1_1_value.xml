@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SystimeSyncBase::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Value, uint64_t, 0x7ffffffffff, 0 &gt;</basecompoundref>
+    <includes refid="systime_8h" local="no">systime.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value_1ab931ad22de2c87b580a87aa5960fab49" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SystimeSyncBase::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="36" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="36" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::SystimeSyncBase::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint64_t, 0x7ffffffffff, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::SystimeSyncBase::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint64_t, 0x7ffffffffff, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="33" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="35" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value_1ab931ad22de2c87b580a87aa5960fab49" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_c_a_d_c_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CADCConfig</compoundname>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" prot="public">haldls::vx::CADCConfig::DeadTime</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" prot="public">haldls::vx::CADCConfig::ResetWait</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a33f029ac7fe623d464383fd7a9380bc1" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CADCConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CADCConfigOnDLS haldls::vx::CADCConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="33" column="48" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a19736a451ca0987805a551d020889ae5" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CADCConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="32" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a6105adbe0f8a1d693c0fc9a8f565da46" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CADCConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="111" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="122" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a04a5ca3e237427bf4cdb5f10a3ec7893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CADCConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_config" kindref="compound">CADCConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="109" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a9f3703c27b3d6583745b5a6ff4e30be7" prot="protected" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" kindref="compound">DeadTime</ref></type>
+        <definition>DeadTime haldls::vx::CADCConfig::m_dead_time</definition>
+        <argsstring></argsstring>
+        <name>m_dead_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="128" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a3634fe1c9aa2a585bdedb87c00af777a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::CADCConfig::m_enable</definition>
+        <argsstring></argsstring>
+        <name>m_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="126" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1af30094b57e7bc832a94762422dd83068" prot="protected" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" kindref="compound">ResetWait</ref></type>
+        <definition>ResetWait haldls::vx::CADCConfig::m_reset_wait</definition>
+        <argsstring></argsstring>
+        <name>m_reset_wait</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="127" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1aede90e200753bdd07347cb6924591395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CADCConfig::CADCConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CADCConfig</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1ae01fe00b5d91d1503b76e48c6df4e416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CADCConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a6105adbe0f8a1d693c0fc9a8f565da46" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="118" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a0796d8612e6708d1997ff803a1dad06d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a6105adbe0f8a1d693c0fc9a8f565da46" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::CADCConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="116" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a8f29e0f598d9051a2f75b407301e81e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" kindref="compound">DeadTime</ref></type>
+        <definition>DeadTime haldls::vx::CADCConfig::get_dead_time</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_dead_time</name>
+        <briefdescription>
+<para>Get <ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" kindref="compound">DeadTime</ref> value common for both CADC in a vertical half. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" kindref="compound">DeadTime</ref> value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="96" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a45b2a4aed74ba71d9143c85cb1fc70a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CADCConfig::get_enable</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable</name>
+        <briefdescription>
+<para>Get enable value for the CADC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="68" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1aa240f628ea104236bed193937c18aaf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" kindref="compound">ResetWait</ref></type>
+        <definition>ResetWait haldls::vx::CADCConfig::get_reset_wait</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_reset_wait</name>
+        <briefdescription>
+<para>Get <ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" kindref="compound">ResetWait</ref> value common for both CADC in a vertical half. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" kindref="compound">ResetWait</ref> value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="82" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a0b76022220e8f2ae1c8f88dbd7127550" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CADCConfig::operator!=</definition>
+        <argsstring>(CADCConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_config" kindref="compound">CADCConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="106" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a94b67dd493a26bdf4d4b5e0a0538a80f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CADCConfig::operator==</definition>
+        <argsstring>(CADCConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_config" kindref="compound">CADCConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="105" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1ad645c894e9479f0d01196c3c650e7797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CADCConfig::set_dead_time</definition>
+        <argsstring>(DeadTime value) SYMBOL_VISIBLE</argsstring>
+        <name>set_dead_time</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" kindref="compound">DeadTime</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set <ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" kindref="compound">DeadTime</ref> value common for both CADC in a vertical half. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" kindref="compound">DeadTime</ref> value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="103" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1aa856f0a5ff2546d207b6a49a8e798b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CADCConfig::set_enable</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for the CADC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="75" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a7001f0e428e5ad4eff455c681e08bc91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CADCConfig::set_reset_wait</definition>
+        <argsstring>(ResetWait value) SYMBOL_VISIBLE</argsstring>
+        <name>set_reset_wait</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" kindref="compound">ResetWait</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set <ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" kindref="compound">ResetWait</ref> value common for both CADC in a vertical half. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" kindref="compound">ResetWait</ref> value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="89" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a6d1210f55c58d913cb3fb601ced30e28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a6105adbe0f8a1d693c0fc9a8f565da46" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::CADCConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a33f029ac7fe623d464383fd7a9380bc1" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="113" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_config_1a2fab65856cdb1c990df7fc206951b543" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CADCConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="124" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>CADC container with global digital config for a vertical half. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>haldls::vx::CADCConfig::DeadTime</label>
+        <link refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>halco::common::detail::RantWrapper&lt; DeadTime, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+      <node id="5">
+        <label>halco::common::detail::RantWrapper&lt; ResetWait, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+      <node id="4">
+        <label>haldls::vx::CADCConfig::ResetWait</label>
+        <link refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CADCConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_c_a_d_c_config"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_dead_time</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_reset_wait</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="29" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="30" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a6d1210f55c58d913cb3fb601ced30e28" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1aede90e200753bdd07347cb6924591395" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>CADCConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a6105adbe0f8a1d693c0fc9a8f565da46" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a33f029ac7fe623d464383fd7a9380bc1" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1ae01fe00b5d91d1503b76e48c6df4e416" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a0796d8612e6708d1997ff803a1dad06d" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a8f29e0f598d9051a2f75b407301e81e9" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>get_dead_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a45b2a4aed74ba71d9143c85cb1fc70a5" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>get_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1aa240f628ea104236bed193937c18aaf8" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>get_reset_wait</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a19736a451ca0987805a551d020889ae5" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a9f3703c27b3d6583745b5a6ff4e30be7" prot="protected" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>m_dead_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a3634fe1c9aa2a585bdedb87c00af777a" prot="protected" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>m_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1af30094b57e7bc832a94762422dd83068" prot="protected" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>m_reset_wait</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a0b76022220e8f2ae1c8f88dbd7127550" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a04a5ca3e237427bf4cdb5f10a3ec7893" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a94b67dd493a26bdf4d4b5e0a0538a80f" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a2fab65856cdb1c990df7fc206951b543" prot="protected" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1ad645c894e9479f0d01196c3c650e7797" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>set_dead_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1aa856f0a5ff2546d207b6a49a8e798b3a" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>set_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_config_1a7001f0e428e5ad4eff455c681e08bc91" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig</scope><name>set_reset_wait</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

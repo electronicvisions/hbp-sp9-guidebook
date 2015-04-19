@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonPADIBusConfig</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="padi_8h" local="no">padi.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1_1_dacen_pulse_extension" prot="public">haldls::vx::CommonPADIBusConfig::DacenPulseExtension</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a71a8ef8be119f36d62bdc502b8ef775a" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CommonPADIBusConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CommonPADIBusConfigOnDLS haldls::vx::CommonPADIBusConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="164" column="57" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a658fb7a6cf4cbce8a844767b6df17f47" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="structhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1_1_dacen_pulse_extension" kindref="compound">DacenPulseExtension</ref>, halco::hicann_dls::vx::PADIBusOnPADIBusBlock &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;DacenPulseExtension, halco::hicann_dls::vx::PADIBusOnPADIBusBlock&gt; haldls::vx::CommonPADIBusConfig::dacen_pulse_extension_type</definition>
+        <argsstring></argsstring>
+        <name>dacen_pulse_extension_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="189" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a462b09c1c35ac9909d725ad4814ea81b" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock&gt; haldls::vx::CommonPADIBusConfig::enable_extended_timing_type</definition>
+        <argsstring></argsstring>
+        <name>enable_extended_timing_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="175" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a93cc9912de63b0d775412ee404fd3981" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock&gt; haldls::vx::CommonPADIBusConfig::enable_spl1_type</definition>
+        <argsstring></argsstring>
+        <name>enable_spl1_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="172" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a075e76f32a27db9f477aea017ad1df40" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock&gt; haldls::vx::CommonPADIBusConfig::expose_as(_enable_extended_timing_type))</definition>
+        <argsstring>(_enable_extended_timing_type))</argsstring>
+        <name>expose_as</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="176" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a4e8f63ab3caf23ef777d617ae34aea87" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::PADIBusOnPADIBusBlock&gt; haldls::vx::CommonPADIBusConfig::expose_as(_enable_spl1_type))</definition>
+        <argsstring>(_enable_spl1_type))</argsstring>
+        <name>expose_as</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="172" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a473068b97f9a0f74b68bf1c3ae6dd742" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CommonPADIBusConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="165" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1aa8bacf7935c505241ad13c40e73b0092" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CommonPADIBusConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="229" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a9c61f08fbdd0da5e8658b00a1bb553b8" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::CommonPADIBusConfig::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::hardware}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="167" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="244" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1ad1b6d8157e0c7298915a3abfd6c2d9d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CommonPADIBusConfig const &amp;event) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config" kindref="compound">CommonPADIBusConfig</ref> const &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="240" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a08e848a451afdac86906783ce6e58476" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a658fb7a6cf4cbce8a844767b6df17f47" kindref="member">dacen_pulse_extension_type</ref></type>
+        <definition>dacen_pulse_extension_type haldls::vx::CommonPADIBusConfig::m_dacen_pulse_extension</definition>
+        <argsstring></argsstring>
+        <name>m_dacen_pulse_extension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="252" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a0dfef7d35644702ca19f848779be1cd7" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a462b09c1c35ac9909d725ad4814ea81b" kindref="member">enable_extended_timing_type</ref></type>
+        <definition>enable_extended_timing_type haldls::vx::CommonPADIBusConfig::m_enable_extended_timing</definition>
+        <argsstring></argsstring>
+        <name>m_enable_extended_timing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="251" column="29" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a5579d470e97bf842e78f9a401b45deaa" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a93cc9912de63b0d775412ee404fd3981" kindref="member">enable_spl1_type</ref></type>
+        <definition>enable_spl1_type haldls::vx::CommonPADIBusConfig::m_enable_spl1</definition>
+        <argsstring></argsstring>
+        <name>m_enable_spl1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="250" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a013b25bb6518d16bcd320ee046144838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CommonPADIBusConfig::CommonPADIBusConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CommonPADIBusConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="191" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a7f6c107e08ddde92e9c483dbbf01faf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CommonPADIBusConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1aa8bacf7935c505241ad13c40e73b0092" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="236" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a7d77631248dcd2f5c921d5036c31b9f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1aa8bacf7935c505241ad13c40e73b0092" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::CommonPADIBusConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="234" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a0b564d88b8c97c7a81b43c3a5eca94f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonPADIBusConfig::operator!=</definition>
+        <argsstring>(CommonPADIBusConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config" kindref="compound">CommonPADIBusConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="227" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1ab3c067113922a0ba284092ee04ce9770" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonPADIBusConfig::operator==</definition>
+        <argsstring>(CommonPADIBusConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config" kindref="compound">CommonPADIBusConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="226" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a7e10bbf0f3a548be32c6b83528e9a01a" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CommonPADIBusConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) dacen_pulse_extension_type const &amp;get_dacen_pulse_extension() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="221" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a7e2c3c40aa1628fa4d8f33bca9837e0c" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CommonPADIBusConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) enable_extended_timing_type const &amp;get_enable_extended_timing() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="210" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a287359ca976ab0865c7aaf2b2ce686de" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CommonPADIBusConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) enable_spl1_type const &amp;get_enable_spl1() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="199" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a70e687360357d13608c0a477bb9b8a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonPADIBusConfig::set_dacen_pulse_extension</definition>
+        <argsstring>(dacen_pulse_extension_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_dacen_pulse_extension</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a658fb7a6cf4cbce8a844767b6df17f47" kindref="member">dacen_pulse_extension_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="224" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a8e8134180a2a885638a4c95d6247d667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonPADIBusConfig::set_enable_extended_timing</definition>
+        <argsstring>(enable_extended_timing_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_extended_timing</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a462b09c1c35ac9909d725ad4814ea81b" kindref="member">enable_extended_timing_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="213" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1afa269e2c83b0b4f8c6e52128822f196c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonPADIBusConfig::set_enable_spl1</definition>
+        <argsstring>(enable_spl1_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_spl1</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a93cc9912de63b0d775412ee404fd3981" kindref="member">enable_spl1_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="202" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a85dc26451fc7b477a27b7393569d256f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1aa8bacf7935c505241ad13c40e73b0092" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::CommonPADIBusConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a71a8ef8be119f36d62bdc502b8ef775a" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="231" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a8520e4b9c419f070c5123c7a3b7972eb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CommonPADIBusConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="246" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration for a PADI bus block. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Each of the four buses can be configured to accept events from the PADI event trigger register or from the SPL1 merger matrix. Additionally the timing of PADI pulses can be modified. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CommonPADIBusConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CommonPADIBusConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="161" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="162" bodyend="253"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a85dc26451fc7b477a27b7393569d256f" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a013b25bb6518d16bcd320ee046144838" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>CommonPADIBusConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1aa8bacf7935c505241ad13c40e73b0092" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a71a8ef8be119f36d62bdc502b8ef775a" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a658fb7a6cf4cbce8a844767b6df17f47" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>dacen_pulse_extension_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a7f6c107e08ddde92e9c483dbbf01faf6" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a462b09c1c35ac9909d725ad4814ea81b" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>enable_extended_timing_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a93cc9912de63b0d775412ee404fd3981" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>enable_spl1_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a7d77631248dcd2f5c921d5036c31b9f1" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a4e8f63ab3caf23ef777d617ae34aea87" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>expose_as</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a075e76f32a27db9f477aea017ad1df40" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>expose_as</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a473068b97f9a0f74b68bf1c3ae6dd742" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a08e848a451afdac86906783ce6e58476" prot="private" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>m_dacen_pulse_extension</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a0dfef7d35644702ca19f848779be1cd7" prot="private" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>m_enable_extended_timing</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a5579d470e97bf842e78f9a401b45deaa" prot="private" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>m_enable_spl1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a0b564d88b8c97c7a81b43c3a5eca94f7" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1ad1b6d8157e0c7298915a3abfd6c2d9d1" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1ab3c067113922a0ba284092ee04ce9770" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a287359ca976ab0865c7aaf2b2ce686de" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a7e2c3c40aa1628fa4d8f33bca9837e0c" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a7e10bbf0f3a548be32c6b83528e9a01a" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a8520e4b9c419f070c5123c7a3b7972eb" prot="private" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a70e687360357d13608c0a477bb9b8a4d" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>set_dacen_pulse_extension</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a8e8134180a2a885638a4c95d6247d667" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>set_enable_extended_timing</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1afa269e2c83b0b4f8c6e52128822f196c" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>set_enable_spl1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1a9c61f08fbdd0da5e8658b00a1bb553b8" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

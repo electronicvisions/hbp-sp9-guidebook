@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::PLLSelfTestStatus::CounterValue</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; CounterValue, uint_fast16_t, 1048575, 0 &gt;</basecompoundref>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value_1a13a329c066ff56765489195b7f325c20" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::PLLSelfTestStatus::CounterValue::CounterValue</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>CounterValue</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="514" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="514" bodyend="514"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Measured counter value in previous self-test execution. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::PLLSelfTestStatus::CounterValue</label>
+        <link refid="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; CounterValue, uint_fast16_t, 1048575, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::PLLSelfTestStatus::CounterValue</label>
+        <link refid="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; CounterValue, uint_fast16_t, 1048575, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="510" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="513" bodyend="515"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value_1a13a329c066ff56765489195b7f325c20" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus::CounterValue</scope><name>CounterValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

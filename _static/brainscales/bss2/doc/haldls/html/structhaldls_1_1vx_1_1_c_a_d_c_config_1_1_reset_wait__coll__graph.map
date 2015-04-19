@@ -1,0 +1,4 @@
+<map id="haldls::vx::CADCConfig::ResetWait" name="haldls::vx::CADCConfig::ResetWait">
+<area shape="rect" id="node1" title="Wait time in cycles after ramp drop to compensate for analog low&#45;pass filtering of ramp signal and pr..." alt="" coords="17,113,178,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,190,65"/>
+</map>

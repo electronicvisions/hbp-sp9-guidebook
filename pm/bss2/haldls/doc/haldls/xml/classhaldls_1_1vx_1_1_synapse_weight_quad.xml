@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_synapse_weight_quad" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseWeightQuad</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value" prot="public">haldls::vx::SynapseWeightQuad::Value</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a21b22ecd26f0101ef6e9cd14197a098d" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SynapseWeightQuadOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::SynapseWeightQuadOnDLS haldls::vx::SynapseWeightQuad::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="247" column="55" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1ac4dc56154a1fdb4162942a3a418f95a4" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::SynapseWeightQuad::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="248" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a5503e2a6a8d8ceab9e7d564a1138f5c0" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value" kindref="compound">Value</ref>, halco::hicann_dls::vx::EntryOnQuad &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;Value, halco::hicann_dls::vx::EntryOnQuad&gt; haldls::vx::SynapseWeightQuad::values_type</definition>
+        <argsstring></argsstring>
+        <name>values_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="260" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a894d9b13b50fae9067969dd35f7f63ee" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::SynapseWeightQuad::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="268" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="288" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1aa78f55a10da02ec287acc2bc859217b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightMatrix &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightMatrix &gt;</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl" kindref="compound">haldls::vx::detail::VisitPreorderImpl</ref>&lt; lola::vx::SynapseWeightMatrix &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="281" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1ac960d676b862f834594d35cc4ae5216f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightRow &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightRow &gt;</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl" kindref="compound">haldls::vx::detail::VisitPreorderImpl</ref>&lt; lola::vx::SynapseWeightRow &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="281" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1ad5fd43dc508d0fa6e6a0cdc8cc79d124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SynapseWeightQuad const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad" kindref="compound">SynapseWeightQuad</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="281" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a3a69b6cdc7bc7f20412bedd30aabf38e" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a5503e2a6a8d8ceab9e7d564a1138f5c0" kindref="member">values_type</ref></type>
+        <definition>values_type haldls::vx::SynapseWeightQuad::m_values</definition>
+        <argsstring></argsstring>
+        <name>m_values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="292" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a2b87a3e7d81990f9e810e4f40fb94138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SynapseWeightQuad::SynapseWeightQuad</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SynapseWeightQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="258" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a52b0b800f2da8fa31f3890dd0dca2cc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SynapseWeightQuad::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a894d9b13b50fae9067969dd35f7f63ee" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="275" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1aac73bfc53dda22fb6786528867837af9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a894d9b13b50fae9067969dd35f7f63ee" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::SynapseWeightQuad::encode</definition>
+        <argsstring>() const</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="273" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1af195cc03777b4dbf7a84a040280ee649" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SynapseWeightQuad::operator!=</definition>
+        <argsstring>(SynapseWeightQuad const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad" kindref="compound">SynapseWeightQuad</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="278" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1ab973dd15f4c1c9fe08cdc6c38853f4f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SynapseWeightQuad::operator==</definition>
+        <argsstring>(SynapseWeightQuad const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad" kindref="compound">SynapseWeightQuad</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="277" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1ae663983cb97159afe29291a33beedd93" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SynapseWeightQuad::return_value_policy</definition>
+        <argsstring>(reference_internal)) values_type const &amp;get_values() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="263" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a7448e9bc6f265918594b380b98950930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseWeightQuad::set_values</definition>
+        <argsstring>(values_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_values</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a5503e2a6a8d8ceab9e7d564a1138f5c0" kindref="member">values_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="266" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a647bc8c73505adc62106083492ea51af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a894d9b13b50fae9067969dd35f7f63ee" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::SynapseWeightQuad::addresses</definition>
+        <argsstring>(coordinate_type const &amp;block)</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a21b22ecd26f0101ef6e9cd14197a098d" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="270" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_weight_quad_1a810b86f4326d3f72a500dedbf477f5fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SynapseWeightQuad::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="290" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SynapseWeightQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_weight_quad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SynapseWeightQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_weight_quad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="244" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="245" bodyend="293"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a647bc8c73505adc62106083492ea51af" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a894d9b13b50fae9067969dd35f7f63ee" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a21b22ecd26f0101ef6e9cd14197a098d" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a52b0b800f2da8fa31f3890dd0dca2cc6" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1aac73bfc53dda22fb6786528867837af9" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1aa78f55a10da02ec287acc2bc859217b0" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightMatrix &gt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1ac960d676b862f834594d35cc4ae5216f" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightRow &gt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1ac4dc56154a1fdb4162942a3a418f95a4" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a3a69b6cdc7bc7f20412bedd30aabf38e" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>m_values</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1af195cc03777b4dbf7a84a040280ee649" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1ad5fd43dc508d0fa6e6a0cdc8cc79d124" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1ab973dd15f4c1c9fe08cdc6c38853f4f7" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1ae663983cb97159afe29291a33beedd93" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a810b86f4326d3f72a500dedbf477f5fa" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a7448e9bc6f265918594b380b98950930" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>set_values</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a2b87a3e7d81990f9e810e4f40fb94138" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>SynapseWeightQuad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_weight_quad_1a5503e2a6a8d8ceab9e7d564a1138f5c0" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad</scope><name>values_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

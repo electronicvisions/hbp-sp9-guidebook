@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::VisitPreorderImpl</compoundname>
+    <includes refid="common_8h" local="no">common.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class ContainerT</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_1a9d8fb6d2881a7cc0fd13a0ed76aca1a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerU</type>
+          </param>
+          <param>
+            <type>typename VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::vx::detail::VisitPreorderImpl&lt; ContainerT &gt;::call</definition>
+        <argsstring>(ContainerU &amp;config, typename ContainerT::coordinate_type const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>call</name>
+        <param>
+          <type>ContainerU &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>typename ContainerT::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ContainerU</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the container, should be equal to <computeroutput>ContainerT</computeroutput> up to a const-specifier. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/common.h" line="25" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/common.h" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation detail of the <ref refid="namespacehaldls_1_1vx_1a1dd8ec02d3345f73bc603b35fdc16893" kindref="member">visit_preorder()</ref> free function (q.v.). </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ContainerT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Non-const-specified type of the container. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>This class needs to be specialized for non-leaf-node containers, i.e. those that contain other containers. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/common.h" line="16" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/common.h" bodystart="17" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_1a9d8fb6d2881a7cc0fd13a0ed76aca1a5" prot="public" virt="non-virtual"><scope>haldls::vx::detail::VisitPreorderImpl</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

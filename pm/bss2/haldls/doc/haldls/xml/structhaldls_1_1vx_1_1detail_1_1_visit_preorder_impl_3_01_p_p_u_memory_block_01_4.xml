@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_block_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::VisitPreorderImpl&lt; PPUMemoryBlock &gt;</compoundname>
+    <includes refid="ppu_8h" local="no">ppu.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_block_01_4_1a8dd64bc9999a8ab88e0ce5ef659d1463" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+          <param>
+            <type>typename VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::vx::detail::VisitPreorderImpl&lt; PPUMemoryBlock &gt;::call</definition>
+        <argsstring>(ContainerT &amp;config, PPUMemoryBlock::coordinate_type const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>call</name>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_block_1a0740d668aa4d9a624610ebbd0f0925df" kindref="member">PPUMemoryBlock::coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="311" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="311" bodyend="330"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="308" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="309" bodyend="331"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_block_01_4_1a8dd64bc9999a8ab88e0ce5ef659d1463" prot="public" virt="non-virtual"><scope>haldls::vx::detail::VisitPreorderImpl&lt; PPUMemoryBlock &gt;</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

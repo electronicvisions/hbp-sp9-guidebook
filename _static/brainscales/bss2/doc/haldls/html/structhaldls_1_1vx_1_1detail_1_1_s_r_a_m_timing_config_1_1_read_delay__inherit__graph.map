@@ -1,0 +1,4 @@
+<map id="haldls::vx::detail::SRAMTimingConfig::ReadDelay" name="haldls::vx::detail::SRAMTimingConfig::ReadDelay">
+<area shape="rect" id="node1" title="Wait time after enable signal pull for cells to drive their value until read." alt="" coords="246,13,399,73"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,198,81"/>
+</map>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_vector_generator_trigger" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::VectorGeneratorTrigger</compoundname>
+    <includes refid="vector__generator_8h" local="no">vector_generator.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1aa1fd092b409e3b3def2678573810c332" prot="public" static="no">
+        <type>halco::hicann_dls::vx::VectorGeneratorTriggerOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::VectorGeneratorTriggerOnFPGA haldls::vx::VectorGeneratorTrigger::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="394" column="61" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1aa74574db6e772ef147a82e8cb5a60bad" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::VectorGeneratorTrigger::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="393" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="393" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1a161905f40030d37a4cb23d0503b5d97d" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::VectorGeneratorTrigger::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="407" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1a9e3bd483aa708864df380538751bfa13" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::VectorGeneratorTrigger::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="406" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="406" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="418" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1adf91aa22c6475778123fdfdaae49c16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, VectorGeneratorTrigger const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger" kindref="compound">VectorGeneratorTrigger</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="403" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1a9ecc4964b58731f3709b61f1bc3dbca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::VectorGeneratorTrigger::VectorGeneratorTrigger</definition>
+        <argsstring>()=default</argsstring>
+        <name>VectorGeneratorTrigger</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="397" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1a781c437250ea2e68464975170e0aba1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorTrigger::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Omnibus, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a161905f40030d37a4cb23d0503b5d97d" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="414" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1a38c1cf33a076ecd82dfa38c78775ded3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a9e3bd483aa708864df380538751bfa13" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Omnibus, write_config_size_in_words&gt; haldls::vx::VectorGeneratorTrigger::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="412" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1afb4f37e40d7b2f1b8961bd82f1b5fa9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::VectorGeneratorTrigger::operator!=</definition>
+        <argsstring>(VectorGeneratorTrigger const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger" kindref="compound">VectorGeneratorTrigger</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="400" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1ab6adef8cdf312b327f8dec0ec313b5e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::VectorGeneratorTrigger::operator==</definition>
+        <argsstring>(VectorGeneratorTrigger const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger" kindref="compound">VectorGeneratorTrigger</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="399" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1a55d6a8a8e8bcd08cafe9f43d44d45024" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a161905f40030d37a4cb23d0503b5d97d" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, read_config_size_in_words&gt; haldls::vx::VectorGeneratorTrigger::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1aa1fd092b409e3b3def2678573810c332" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="411" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1ad24d476883209f8f5acacd47a464c65b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a9e3bd483aa708864df380538751bfa13" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, write_config_size_in_words&gt; haldls::vx::VectorGeneratorTrigger::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1aa1fd092b409e3b3def2678573810c332" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="409" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_trigger_1af21174b9cd3d963b206de3b29eb370f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorTrigger::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="420" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="390" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="391" bodyend="421"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1aa1fd092b409e3b3def2678573810c332" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a781c437250ea2e68464975170e0aba1c" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a38c1cf33a076ecd82dfa38c78775ded3" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1aa74574db6e772ef147a82e8cb5a60bad" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1afb4f37e40d7b2f1b8961bd82f1b5fa9f" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1adf91aa22c6475778123fdfdaae49c16d" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1ab6adef8cdf312b327f8dec0ec313b5e5" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a55d6a8a8e8bcd08cafe9f43d44d45024" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a161905f40030d37a4cb23d0503b5d97d" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1af21174b9cd3d963b206de3b29eb370f4" prot="private" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a9ecc4964b58731f3709b61f1bc3dbca7" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>VectorGeneratorTrigger</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1ad24d476883209f8f5acacd47a464c65b" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_trigger_1a9e3bd483aa708864df380538751bfa13" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorTrigger</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

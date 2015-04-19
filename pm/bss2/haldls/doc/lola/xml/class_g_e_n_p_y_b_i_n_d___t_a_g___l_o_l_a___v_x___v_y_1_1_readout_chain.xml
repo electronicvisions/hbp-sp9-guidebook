@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain" kind="class" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</compoundname>
+    <includes refid="readout__chain_8h" local="no">readout_chain.h</includes>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_current_d_a_c" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::CurrentDAC</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_debug_crossbar" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADCDebugCrossbar</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_input_crossbar" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADCInputCrossbar</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_preamp" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADCPreamp</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_pseudo_differential_converter" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::PseudoDifferentialConverter</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit" prot="public">GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a03c81f1414db49468ee5fa3ba6446940" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::DisableRefresh</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::DisableRefresh GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::AnalogDisableRefresh</definition>
+        <argsstring></argsstring>
+        <name>AnalogDisableRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="53" column="67" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4654b99c9793c99a2c9969a3ae900e80" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::Value</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::Value GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::AnalogValue</definition>
+        <argsstring></argsstring>
+        <name>AnalogValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="52" column="58" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::value_type</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::value_type GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::AnalogValueVariant</definition>
+        <argsstring></argsstring>
+        <name>AnalogValueVariant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="55" column="63" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1abdc877d6e161275640c3be450238a23e" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t" kindref="compound">BufferToPadT</ref>, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;BufferToPadT, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection&gt; GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPad</definition>
+        <argsstring></argsstring>
+        <name>BufferToPad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="101" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a55f9f013fdbbb609979d555967ca2162" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ReadoutChainOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ReadoutChainOnDLS GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="49" column="50" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a3de0608215ed9719053992c1a40535aa" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="50" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a843dd3d9bf88d944d82912a692751f43" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::hemisphere_type</type>
+        <definition>typedef haldls::vx::MADCConfig::hemisphere_type GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::HemisphereType</definition>
+        <argsstring></argsstring>
+        <name>HemisphereType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="143" column="49" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a7abaef169f8c4cf34d5b3d03c7d71557" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::ReadoutSourceSelection::SourceMultiplexer, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::ReadoutSourceSelection::SourceMultiplexer, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection&gt; GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::InputMux</definition>
+        <argsstring></argsstring>
+        <name>InputMux</name>
+        <briefdescription>
+<para>Configuration of the multiplexer for the different input signals from chip. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>These source multiplexers connect to the Dynamic multiplexer and are the standard way of selecting the readout source of the <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref>. They can also be connected to the pads. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="69" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1aafb1e1067af5ca76ecc6cd0b290c69d2" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::PadMultiplexerConfig, halco::hicann_dls::vx::PadMultiplexerConfigOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::PadMultiplexerConfig, halco::hicann_dls::vx::PadMultiplexerConfigOnDLS&gt; GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::PadMux</definition>
+        <argsstring></argsstring>
+        <name>PadMux</name>
+        <briefdescription>
+<para>Configuration of the Pad multiplexers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>These provide are a multitude of possibilities for reading out voltages from chip or making direct (unbuffered) connections to outside the chip. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="397" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a238b013f2c43779d88e6c9fd9d652c26" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::SamplingWindowTiming</type>
+        <definition>typedef haldls::vx::MADCConfig::SamplingWindowTiming GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SamplingWindowTiming</definition>
+        <argsstring></argsstring>
+        <name>SamplingWindowTiming</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="214" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4d485d7b86488fe163a128d425610d23" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::synapse_target_type</type>
+        <definition>typedef haldls::vx::MADCConfig::synapse_target_type GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SynapseTargetType</definition>
+        <argsstring></argsstring>
+        <name>SynapseTargetType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="144" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1adce1f16fe92fd924ac07ced8aab30276" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1abdc877d6e161275640c3be450238a23e" kindref="member">BufferToPad</ref></type>
+        <definition>BufferToPad GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::buffer_to_pad</definition>
+        <argsstring></argsstring>
+        <name>buffer_to_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="511" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a82f12812380215a69d6f1cce45e09d50" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_current_d_a_c" kindref="compound">CurrentDAC</ref></type>
+        <definition>CurrentDAC GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::current_dac</definition>
+        <argsstring></argsstring>
+        <name>current_dac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="520" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="520" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a86bd4de813b7ef656e1a2c6f71cdbf38" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux" kindref="compound">DynamicMux</ref></type>
+        <definition>DynamicMux GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::dynamic_mux</definition>
+        <argsstring></argsstring>
+        <name>dynamic_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="512" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a419105b4c14ce0b9d03f5e9747c344f6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a7abaef169f8c4cf34d5b3d03c7d71557" kindref="member">InputMux</ref></type>
+        <definition>InputMux GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::input_mux</definition>
+        <argsstring></argsstring>
+        <name>input_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="510" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac999a1455dca82f315e7704b9acb31be" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref></type>
+        <definition>MADC GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::madc</definition>
+        <argsstring></argsstring>
+        <name>madc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="517" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a246bd8c9f26694594655ffdac7f3b90b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_debug_crossbar" kindref="compound">MADCDebugCrossbar</ref></type>
+        <definition>MADCDebugCrossbar GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::madc_debug_crossbar</definition>
+        <argsstring></argsstring>
+        <name>madc_debug_crossbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="516" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1af7f34c7d3d51dfe5f4665397a2bae682" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_input_crossbar" kindref="compound">MADCInputCrossbar</ref></type>
+        <definition>MADCInputCrossbar GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::madc_input_crossbar</definition>
+        <argsstring></argsstring>
+        <name>madc_input_crossbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="514" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="514" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a44348b1ff1ea8ce37e84aeed7ef2057b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_preamp" kindref="compound">MADCPreamp</ref></type>
+        <definition>MADCPreamp GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::madc_preamp</definition>
+        <argsstring></argsstring>
+        <name>madc_preamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="515" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a9dd23f70b5dce7c2f546304794f480c6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1aafb1e1067af5ca76ecc6cd0b290c69d2" kindref="member">PadMux</ref></type>
+        <definition>PadMux GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::pad_mux</definition>
+        <argsstring></argsstring>
+        <name>pad_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="518" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a605e82c171ca8a7a3dfc96ed071df4e2" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_pseudo_differential_converter" kindref="compound">PseudoDifferentialConverter</ref></type>
+        <definition>PseudoDifferentialConverter GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::pseudo_diff_converter</definition>
+        <argsstring></argsstring>
+        <name>pseudo_diff_converter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="513" column="29" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1af3c29561d0c3457c11a8a2751da4fc79" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit" kindref="compound">SourceMeasureUnit</ref></type>
+        <definition>SourceMeasureUnit GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::source_measure_unit</definition>
+        <argsstring></argsstring>
+        <name>source_measure_unit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="519" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a36f99d5ecb0cb813f49b782261d09dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::ReadoutChain</definition>
+        <argsstring>()=default</argsstring>
+        <name>ReadoutChain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a722ce073b104a0d9b07388c643ac3819" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::operator!=</definition>
+        <argsstring>(ReadoutChain const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain" kindref="compound">ReadoutChain</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="523" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a1c1603dc8bd1a49a4392ffd2a9512955" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::operator==</definition>
+        <argsstring>(ReadoutChain const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain" kindref="compound">ReadoutChain</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="522" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4b169aed90e2eab7af89721196251eea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ReadoutChain const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain" kindref="compound">ReadoutChain</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="526" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration of all circuits composing the analog readout chain. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADCPreamp</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_preamp"/>
+      </node>
+      <node id="5">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::SourceMeasureUnit</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_source_measure_unit"/>
+      </node>
+      <node id="7">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::PseudoDifferentialConverter</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_pseudo_differential_converter"/>
+      </node>
+      <node id="9">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux"/>
+      </node>
+      <node id="1">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</label>
+        <link refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>madc</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>madc_debug_crossbar</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>current_dac</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>source_measure_unit</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>madc_input_crossbar</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>pseudo_diff_converter</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>madc_preamp</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>dynamic_mux</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::CurrentDAC</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_current_d_a_c"/>
+      </node>
+      <node id="3">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADCDebugCrossbar</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_debug_crossbar"/>
+      </node>
+      <node id="2">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c"/>
+      </node>
+      <node id="6">
+        <label>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADCInputCrossbar</label>
+        <link refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_input_crossbar"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="46" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="47" bodyend="530"/>
+    <listofallmembers>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a03c81f1414db49468ee5fa3ba6446940" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>AnalogDisableRefresh</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4654b99c9793c99a2c9969a3ae900e80" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>AnalogValue</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>AnalogValueVariant</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1adce1f16fe92fd924ac07ced8aab30276" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>buffer_to_pad</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1abdc877d6e161275640c3be450238a23e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>BufferToPad</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a55f9f013fdbbb609979d555967ca2162" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>coordinate_type</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a82f12812380215a69d6f1cce45e09d50" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>current_dac</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a86bd4de813b7ef656e1a2c6f71cdbf38" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>dynamic_mux</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a3de0608215ed9719053992c1a40535aa" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>has_local_data</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a843dd3d9bf88d944d82912a692751f43" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>HemisphereType</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a419105b4c14ce0b9d03f5e9747c344f6" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>input_mux</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a7abaef169f8c4cf34d5b3d03c7d71557" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>InputMux</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac999a1455dca82f315e7704b9acb31be" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>madc</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a246bd8c9f26694594655ffdac7f3b90b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>madc_debug_crossbar</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1af7f34c7d3d51dfe5f4665397a2bae682" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>madc_input_crossbar</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a44348b1ff1ea8ce37e84aeed7ef2057b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>madc_preamp</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a722ce073b104a0d9b07388c643ac3819" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>operator!=</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4b169aed90e2eab7af89721196251eea" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a1c1603dc8bd1a49a4392ffd2a9512955" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>operator==</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a9dd23f70b5dce7c2f546304794f480c6" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>pad_mux</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1aafb1e1067af5ca76ecc6cd0b290c69d2" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>PadMux</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a605e82c171ca8a7a3dfc96ed071df4e2" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>pseudo_diff_converter</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a36f99d5ecb0cb813f49b782261d09dd5" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>ReadoutChain</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a238b013f2c43779d88e6c9fd9d652c26" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>SamplingWindowTiming</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1af3c29561d0c3457c11a8a2751da4fc79" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>source_measure_unit</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4d485d7b86488fe163a128d425610d23" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain</scope><name>SynapseTargetType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="cadc_8h" kind="file" language="C++">
+    <compoundname>cadc.h</compoundname>
+    <includes local="yes">halco/common/iter_all.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/common/typed_heap_array.h</includes>
+    <includes local="yes">haldls/cerealization.h</includes>
+    <includes local="yes">haldls/vx/cadc.h</includes>
+    <includes local="yes">haldls/vx/common.h</includes>
+    <includes local="yes">haldls/vx/synapse.h</includes>
+    <includes local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="cerealization_8h" local="yes">lola/vx/cerealization.h</includes>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes refid="synapse_8h" local="yes">lola/vx/synapse.h</includes>
+    <includes local="no">boost/hana/adapt_struct.hpp</includes>
+    <includes local="yes">haldlsID(/)vxID(/)vID(CHIP_REVISION)/capmem.h</includes>
+    <includes local="yes">haldlsID(/)vxID(/)vID(CHIP_REVISION)/correlation.h</includes>
+    <includedby refid="v2_2cadc_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/cadc.h</includedby>
+    <includedby refid="v3_2cadc_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/cadc.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="8">
+        <label>haldls/vx/synapse.h</label>
+      </node>
+      <node id="2">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="7">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="13">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>haldls/vx/cadc.h</label>
+      </node>
+      <node id="18">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/capmem.h</label>
+      </node>
+      <node id="3">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="14">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="10">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="9">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="19">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/correlation.h</label>
+      </node>
+      <node id="11">
+        <label>lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>lola/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="15">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>type_traits</label>
+      </node>
+      <node id="5">
+        <label>haldls/cerealization.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h</label>
+        <link refid="v2_2pylola_8h"/>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h</label>
+        <link refid="v3_2pylola_8h"/>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</label>
+        <link refid="v3_2chip_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/chip.h</label>
+        <link refid="v2_2chip_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/cadc.h</label>
+        <link refid="v3_2cadc_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/cadc.h</label>
+        <link refid="v2_2cadc_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/lola.h</label>
+        <link refid="v3_2lola_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/lola.h</label>
+        <link refid="v2_2lola_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_4b61790222dc8013436cf33cdfb757be" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::CADCReadoutChain &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_fbe3ca0e15404223146747c6c2f45ce9" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::CADCSampleRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_e38b35c808de6c787b32fccda71a3d3e" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::CADCSamples &gt;</innerclass>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain</innerclass>
+    <innerclass refid="class_c_a_d_c_sample_row" prot="public">CADCSampleRow</innerclass>
+    <innerclass refid="class_c_a_d_c_samples" prot="public">CADCSamples</innerclass>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_channel" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Channel</innerclass>
+    <innerclass refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</innerclass>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" prot="public">GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_7369759f7c767887550628fcf43d64eb" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCReadoutChain &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_8320427489472e7632827bc88dc9a7b5" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCSampleRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_de2e71cc9613f00d9441956bb8865733" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCSamples &gt;</innerclass>
+    <innernamespace refid="namespace_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y">GENPYBIND_TAG_LOLA_VX_VY</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="cadc_8h_1a7b21067a695ee0453e6d9bd594ccecd1" prot="public" static="no">
+        <name>CONCAT</name>
+        <param><defname>w</defname></param>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <param><defname>z</defname></param>
+        <initializer><ref refid="synapse__driver_8h_1a18d295a837ac71add5578860b55e5502" kindref="member">STR</ref>(<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(w)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(x)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(v)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(y)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(z))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="25" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="cadc_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" prot="public" static="no">
+        <name>ID</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="21" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="cadc_8h_1a18d295a837ac71add5578860b55e5502" prot="public" static="no">
+        <name>STR</name>
+        <param><defname>x</defname></param>
+        <initializer><ref refid="synapse__driver_8h_1abe87b341f562fd1cf40b7672e4d759da" kindref="member">XSTR</ref>(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="23" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="cadc_8h_1abe87b341f562fd1cf40b7672e4d759da" prot="public" static="no">
+        <name>XSTR</name>
+        <param><defname>x</defname></param>
+        <initializer>#x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="22" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cadc_8h_1afea9d5b1502f3603d8ff0852186a8d45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CHIP_REVISION_STR::CADCReadoutChain, ramp, channels_causal, channels_acausal, correlation)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type>lola::vx::CHIP_REVISION_STR::CADCReadoutChain</type>
+        </param>
+        <param>
+          <type>ramp</type>
+        </param>
+        <param>
+          <type>channels_causal</type>
+        </param>
+        <param>
+          <type>channels_acausal</type>
+        </param>
+        <param>
+          <type>correlation</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="823" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" declline="823" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a9e090ca7f93d5295957a85517ae035a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CHIP_REVISION_STR::CADCReadoutChain::Channel, offset, enable_connect_correlation, enable_connect_debug, enable_connect_neuron)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type>lola::vx::CHIP_REVISION_STR::CADCReadoutChain::Channel</type>
+        </param>
+        <param>
+          <type>offset</type>
+        </param>
+        <param>
+          <type>enable_connect_correlation</type>
+        </param>
+        <param>
+          <type>enable_connect_debug</type>
+        </param>
+        <param>
+          <type>enable_connect_neuron</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="829" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" declline="829" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a0214e24c4c782c12d8362293d2721489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CHIP_REVISION_STR::CADCReadoutChain::Correlation, sense_delay, reset_duration, reset_fall_time, reset_mode, i_bias_ramp, i_bias_store, i_bias_corout)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type>lola::vx::CHIP_REVISION_STR::CADCReadoutChain::Correlation</type>
+        </param>
+        <param>
+          <type>sense_delay</type>
+        </param>
+        <param>
+          <type>reset_duration</type>
+        </param>
+        <param>
+          <type>reset_fall_time</type>
+        </param>
+        <param>
+          <type>reset_mode</type>
+        </param>
+        <param>
+          <type>i_bias_ramp</type>
+        </param>
+        <param>
+          <type>i_bias_store</type>
+        </param>
+        <param>
+          <type>i_bias_corout</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="846" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" declline="846" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a995d268a6e4ba07adf32257be1977ae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CHIP_REVISION_STR::CADCReadoutChain::Ramp, enable, reset_wait, dead_time, v_offset_assignment, v_offset, i_slope, i_bias_comparator, i_bias_vreset_buffer, v_bias_buffer)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type>lola::vx::CHIP_REVISION_STR::CADCReadoutChain::Ramp</type>
+        </param>
+        <param>
+          <type>enable</type>
+        </param>
+        <param>
+          <type>reset_wait</type>
+        </param>
+        <param>
+          <type>dead_time</type>
+        </param>
+        <param>
+          <type>v_offset_assignment</type>
+        </param>
+        <param>
+          <type>v_offset</type>
+        </param>
+        <param>
+          <type>i_slope</type>
+        </param>
+        <param>
+          <type>i_bias_comparator</type>
+        </param>
+        <param>
+          <type>i_bias_vreset_buffer</type>
+        </param>
+        <param>
+          <type>v_bias_buffer</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="835" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" declline="835" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a152799435454672be00b82196feef96c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CHIP_REVISION_STR::CADCSampleRow, causal, acausal)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type>lola::vx::CHIP_REVISION_STR::CADCSampleRow</type>
+        </param>
+        <param>
+          <type>causal</type>
+        </param>
+        <param>
+          <type>acausal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="855" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" declline="855" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a4597193acfab02d74c26245d2ac0c8e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CHIP_REVISION_STR::CADCSamples, causal, acausal)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type>lola::vx::CHIP_REVISION_STR::CADCSamples</type>
+        </param>
+        <param>
+          <type>causal</type>
+        </param>
+        <param>
+          <type>acausal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="856" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" declline="856" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h"/>
+  </compounddef>
+</doxygen>

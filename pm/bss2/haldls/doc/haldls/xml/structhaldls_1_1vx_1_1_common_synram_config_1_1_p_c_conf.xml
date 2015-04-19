@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonSynramConfig::PCConf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PCConf, uint_fast16_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf_1a40007c9d398aeeb731ad170591de39cb" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CommonSynramConfig::PCConf::PCConf</definition>
+        <argsstring>(uintmax_t const val=8)</argsstring>
+        <name>PCConf</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>8</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="67" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="67" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Precharge configuration. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A higher value results in a shorter time. See: Hock, Matthias. (2014). Modern Semiconductor Technologies for Neuromorphic Hardware, p.26ff, p.156f, <ulink url="http://doi.org/10.11588/heidok.00017129">http://doi.org/10.11588/heidok.00017129</ulink>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PCConf, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CommonSynramConfig::PCConf</label>
+        <link refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PCConf, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CommonSynramConfig::PCConf</label>
+        <link refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="64" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="66" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf_1a40007c9d398aeeb731ad170591de39cb" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig::PCConf</scope><name>PCConf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

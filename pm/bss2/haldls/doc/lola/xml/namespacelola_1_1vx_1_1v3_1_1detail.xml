@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacelola_1_1vx_1_1v3_1_1detail" kind="namespace" language="C++">
+    <compoundname>lola::vx::v3::detail</compoundname>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v3_1_1detail_1adce962fc6c90709d0a1b3382e4f8067d" prot="public" static="no">
+        <type>hate::type_list&lt;# 34 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h&quot; 2 &gt;</type>
+        <definition>typedef hate::type_list&lt;# 34 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h&quot; 2 &gt; lola::vx::v3::detail::pickle_types</definition>
+        <argsstring></argsstring>
+        <name>pickle_types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h" line="36" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacelola_1_1vx_1_1v3_1_1detail_1a0cb934f2890e4b90c675d8a82555051c" prot="public" static="yes" mutable="no">
+        <type>std::vector&lt; std::string &gt; const</type>
+        <definition>std::vector&lt;std::string&gt; const lola::vx::v3::detail::pickle_type_names</definition>
+        <argsstring></argsstring>
+        <name>pickle_type_names</name>
+        <initializer>= {
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h" line="27" column="26" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacelola_1_1vx_1_1v3_1_1detail_1a18c8f6d7a0af6c50e10af6eedc2cee93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>py::list</type>
+        <definition>py::list lola::vx::v3::detail::get_containers_list</definition>
+        <argsstring>(py::module &amp;m)</argsstring>
+        <name>get_containers_list</name>
+        <param>
+          <type>py::module &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h" line="38" column="10" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h" declline="38" declcolumn="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h" line="23" column="1"/>
+  </compounddef>
+</doxygen>

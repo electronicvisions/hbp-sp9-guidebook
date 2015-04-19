@@ -1,0 +1,4 @@
+<map id="haldls::vx::BackgroundSpikeSource::Period" name="haldls::vx::BackgroundSpikeSource::Period">
+<area shape="rect" id="node1" title="Inter&#45;spike interval for regular and inter&#45;bin interval for Poisson spike generation." alt="" coords="225,21,414,65"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,177,81"/>
+</map>

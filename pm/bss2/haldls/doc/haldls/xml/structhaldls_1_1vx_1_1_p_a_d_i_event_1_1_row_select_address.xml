@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::PADIEvent::RowSelectAddress</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; RowSelectAddress, uint_fast16_t, 31, 0 &gt;</basecompoundref>
+    <includes refid="padi_8h" local="no">padi.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address_1afc52a72a810f4a8ece8a79f3e9caaf04" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::PADIEvent::RowSelectAddress::RowSelectAddress</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>RowSelectAddress</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="67" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="67" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; RowSelectAddress, uint_fast16_t, 31, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::PADIEvent::RowSelectAddress</label>
+        <link refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; RowSelectAddress, uint_fast16_t, 31, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::PADIEvent::RowSelectAddress</label>
+        <link refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="64" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="66" bodyend="71"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address_1afc52a72a810f4a8ece8a79f3e9caaf04" prot="public" virt="non-virtual"><scope>haldls::vx::PADIEvent::RowSelectAddress</scope><name>RowSelectAddress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

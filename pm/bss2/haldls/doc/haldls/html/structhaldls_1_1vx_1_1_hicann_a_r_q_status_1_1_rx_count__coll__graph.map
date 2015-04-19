@@ -1,0 +1,4 @@
+<map id="haldls::vx::HicannARQStatus::RxCount" name="haldls::vx::HicannARQStatus::RxCount">
+<area shape="rect" id="node1" title="Number of words sent from the ARQ from the Chip to the FPGA." alt="" coords="5,113,198,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="24,5,179,65"/>
+</map>

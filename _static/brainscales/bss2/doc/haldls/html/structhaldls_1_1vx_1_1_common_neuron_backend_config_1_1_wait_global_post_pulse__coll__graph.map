@@ -1,0 +1,4 @@
+<map id="haldls::vx::CommonNeuronBackendConfig::WaitGlobalPostPulse" name="haldls::vx::CommonNeuronBackendConfig::WaitGlobalPostPulse">
+<area shape="rect" id="node1" title="Duration of the pulse triggering global post pulses for all neurons connected to that backend block." alt="" coords="5,113,250,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="22,5,233,65"/>
+</map>

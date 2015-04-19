@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_spike_counter_read" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::SpikeCounterRead</compoundname>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count" prot="public">haldls::vx::SpikeCounterRead::Count</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_spike_counter_read_1a8d4d7104434aed839ea402d11419a8fa" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SpikeCounterReadOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::SpikeCounterReadOnDLS haldls::vx::SpikeCounterRead::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="606" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_spike_counter_read_1a0e24c19d92e75454ed9661a747368893" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::SpikeCounterRead::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="607" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="607" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_spike_counter_read_1a6fe1515d8c7bc1613180ced1db841729" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::SpikeCounterRead::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="642" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_spike_counter_read_1a4b73ee7cfc813e74860b5d01973fe62e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::SpikeCounterRead::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="641" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_spike_counter_read_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="660" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="660" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_spike_counter_read_1a8f3727245a40fb404865a72112c0fba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SpikeCounterRead const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_spike_counter_read" kindref="compound">SpikeCounterRead</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="656" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_spike_counter_read_1a3ed0a2fd5f1b663d30ff007f4764f4ca" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count" kindref="compound">Count</ref></type>
+        <definition>Count haldls::vx::SpikeCounterRead::m_count</definition>
+        <argsstring></argsstring>
+        <name>m_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="664" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_spike_counter_read_1a6ad4498015a68851c9aa8182a0f96060" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::SpikeCounterRead::m_overflow</definition>
+        <argsstring></argsstring>
+        <name>m_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="665" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1af5061416082fac69f4780310c637c605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SpikeCounterRead::SpikeCounterRead</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SpikeCounterRead</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="621" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1ac52e2567ab3d3e3845969e5d99c6387b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SpikeCounterRead::decode</definition>
+        <argsstring>(std::array&lt; WordT, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_spike_counter_read_1a6fe1515d8c7bc1613180ced1db841729" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="652" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1a5a2afe85b011f69910b5c8a9a4a07033" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_spike_counter_read_1a4b73ee7cfc813e74860b5d01973fe62e" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, write_config_size_in_words&gt; haldls::vx::SpikeCounterRead::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="650" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1afdb30962babea0d94ac9872e73b6e05e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count" kindref="compound">Count</ref></type>
+        <definition>Count haldls::vx::SpikeCounterRead::get_count</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_count</name>
+        <briefdescription>
+<para>Get count, i.e. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>number of spikes since last reset. <simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count" kindref="compound">Count</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="628" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1a7701e62c01937b7ff4dbc49ca82ff850" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SpikeCounterRead::get_overflow</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="634" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1a620cd3d48dbb377d8d30751d0ab8d6f0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SpikeCounterRead::operator!=</definition>
+        <argsstring>(SpikeCounterRead const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_spike_counter_read" kindref="compound">SpikeCounterRead</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="639" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1aaee6faa359fe396d244e08c635ffe1d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SpikeCounterRead::operator==</definition>
+        <argsstring>(SpikeCounterRead const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_spike_counter_read" kindref="compound">SpikeCounterRead</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="638" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1ab0b02e05995dfd1f84611a809d311f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SpikeCounterRead::set_count</definition>
+        <argsstring>(Count const cnt) SYMBOL_VISIBLE</argsstring>
+        <name>set_count</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count" kindref="compound">Count</ref> const</type>
+          <declname>cnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="630" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1ad90fc2604b7c9a359a0572665685da6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SpikeCounterRead::set_overflow</definition>
+        <argsstring>(bool const ovrflw) SYMBOL_VISIBLE</argsstring>
+        <name>set_overflow</name>
+        <param>
+          <type>bool const</type>
+          <declname>ovrflw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="636" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1ab8f46590386096bfcc581d87de8d7ca2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_spike_counter_read_1a6fe1515d8c7bc1613180ced1db841729" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, read_config_size_in_words&gt; haldls::vx::SpikeCounterRead::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;neuron) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_spike_counter_read_1a8d4d7104434aed839ea402d11419a8fa" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="644" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1a65c2fe89f2fb25d82266403a068d7ae7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_spike_counter_read_1a4b73ee7cfc813e74860b5d01973fe62e" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, write_config_size_in_words&gt; haldls::vx::SpikeCounterRead::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;neuron) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_spike_counter_read_1a8d4d7104434aed839ea402d11419a8fa" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="647" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_spike_counter_read_1a69de66da9d6061c34a66883d28bf3d83" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SpikeCounterRead::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="662" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container to read the spike counter of a single neuron. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="603" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="604" bodyend="666"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a8d4d7104434aed839ea402d11419a8fa" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1ac52e2567ab3d3e3845969e5d99c6387b" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a5a2afe85b011f69910b5c8a9a4a07033" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1afdb30962babea0d94ac9872e73b6e05e" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>get_count</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a7701e62c01937b7ff4dbc49ca82ff850" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>get_overflow</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a0e24c19d92e75454ed9661a747368893" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a3ed0a2fd5f1b663d30ff007f4764f4ca" prot="private" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>m_count</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a6ad4498015a68851c9aa8182a0f96060" prot="private" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>m_overflow</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a620cd3d48dbb377d8d30751d0ab8d6f0" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a8f3727245a40fb404865a72112c0fba8" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1aaee6faa359fe396d244e08c635ffe1d2" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1ab8f46590386096bfcc581d87de8d7ca2" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a6fe1515d8c7bc1613180ced1db841729" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a69de66da9d6061c34a66883d28bf3d83" prot="private" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1ab0b02e05995dfd1f84611a809d311f25" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>set_count</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1ad90fc2604b7c9a359a0572665685da6f" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>set_overflow</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1af5061416082fac69f4780310c637c605" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>SpikeCounterRead</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a65c2fe89f2fb25d82266403a068d7ae7" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_spike_counter_read_1a4b73ee7cfc813e74860b5d01973fe62e" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

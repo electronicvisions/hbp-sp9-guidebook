@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_common_phy_config_chip" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonPhyConfigChip</compoundname>
+    <includes refid="phy_8h" local="no">phy.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a229350a7d82968041be687d206e8f3ed" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CommonPhyConfigChipOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CommonPhyConfigChipOnDLS haldls::vx::CommonPhyConfigChip::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="318" column="57" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a7a1f266011e0b207d9d9844968175216" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CommonPhyConfigChip::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="319" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1aff2ff7eb032277e1d8e666d7e2736f95" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CommonPhyConfigChip::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="336" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="346" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1aca61b75b3de3e2bee723aac6a938b34a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CommonPhyConfigChip const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_chip" kindref="compound">CommonPhyConfigChip</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="333" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a754e95f776bc906c21220cce1dc41216" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::PhyConfigChipOnDLS &gt;</type>
+        <definition>halco::common::typed_array&lt;bool, halco::hicann_dls::vx::PhyConfigChipOnDLS&gt; haldls::vx::CommonPhyConfigChip::m_enable_phy</definition>
+        <argsstring></argsstring>
+        <name>m_enable_phy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="350" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a72f5e59b3426e5e946ec46aac1942c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CommonPhyConfigChip::CommonPhyConfigChip</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CommonPhyConfigChip</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="322" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a1345abff89cab6410357ca5926a9fe6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonPhyConfigChip::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::OmnibusChipOverJTAG, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::OmnibusChipOverJTAG, <ref refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1aff2ff7eb032277e1d8e666d7e2736f95" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="341" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a2080ba6235a5b47c61683e112c3bf5dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::OmnibusChipOverJTAG, <ref refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1aff2ff7eb032277e1d8e666d7e2736f95" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::OmnibusChipOverJTAG, config_size_in_words&gt; haldls::vx::CommonPhyConfigChip::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="339" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a0960b6f4930a22bed531127a49837631" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonPhyConfigChip::get_enable_phy</definition>
+        <argsstring>(halco::hicann_dls::vx::PhyConfigChipOnDLS const &amp;coord) const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_phy</name>
+        <param>
+          <type>halco::hicann_dls::vx::PhyConfigChipOnDLS const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="324" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1aa8f142529b80ce61aa4147e070ef0ce0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonPhyConfigChip::operator!=</definition>
+        <argsstring>(CommonPhyConfigChip const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_chip" kindref="compound">CommonPhyConfigChip</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="330" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a5a397bf3113e9ef19af995a353934631" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonPhyConfigChip::operator==</definition>
+        <argsstring>(CommonPhyConfigChip const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_chip" kindref="compound">CommonPhyConfigChip</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="329" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1ae107f3da3ddfb62ab3200e98655819e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonPhyConfigChip::set_enable_phy</definition>
+        <argsstring>(halco::hicann_dls::vx::PhyConfigChipOnDLS const &amp;coord, bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_phy</name>
+        <param>
+          <type>halco::hicann_dls::vx::PhyConfigChipOnDLS const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="326" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a01c918fdf93ae25681e562067887f8db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusChipOverJTAGAddress, <ref refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1aff2ff7eb032277e1d8e666d7e2736f95" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusChipOverJTAGAddress, config_size_in_words&gt; haldls::vx::CommonPhyConfigChip::addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a229350a7d82968041be687d206e8f3ed" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="338" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_chip_1a54c48e14188af865df0ad492594144f8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CommonPhyConfigChip::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="348" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for configuration of enable values for the chip-side PHYs. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="315" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="316" bodyend="351"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a01c918fdf93ae25681e562067887f8db" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a72f5e59b3426e5e946ec46aac1942c48" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>CommonPhyConfigChip</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1aff2ff7eb032277e1d8e666d7e2736f95" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a229350a7d82968041be687d206e8f3ed" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a1345abff89cab6410357ca5926a9fe6f" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a2080ba6235a5b47c61683e112c3bf5dd" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a0960b6f4930a22bed531127a49837631" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>get_enable_phy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a7a1f266011e0b207d9d9844968175216" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a754e95f776bc906c21220cce1dc41216" prot="private" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>m_enable_phy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1aa8f142529b80ce61aa4147e070ef0ce0" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1aca61b75b3de3e2bee723aac6a938b34a" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a5a397bf3113e9ef19af995a353934631" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1a54c48e14188af865df0ad492594144f8" prot="private" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_chip_1ae107f3da3ddfb62ab3200e98655819e9" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigChip</scope><name>set_enable_phy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

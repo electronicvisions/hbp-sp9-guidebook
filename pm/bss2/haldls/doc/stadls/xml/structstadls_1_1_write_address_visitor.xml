@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structstadls_1_1_write_address_visitor" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::WriteAddressVisitor</compoundname>
+    <includes refid="visitors_8h" local="no">visitors.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstadls_1_1_write_address_visitor_1afe10baaf15f93df9776e30d220353e42" prot="public" static="no" mutable="no">
+        <type>T &amp;</type>
+        <definition>T&amp; stadls::WriteAddressVisitor&lt; T &gt;::addresses</definition>
+        <argsstring></argsstring>
+        <name>addresses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="76" column="3" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structstadls_1_1_write_address_visitor_1ac1bb86b48554893b62e422cc3abc4c66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::WriteAddressVisitor&lt; T &gt;::operator()</definition>
+        <argsstring>(CoordinateT const &amp;, ContainerT const &amp;) -&gt; typename std::enable_if&lt;!ContainerT::has_local_data::value &gt;::type</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+        </param>
+        <param>
+          <type>ContainerT const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="112" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="structstadls_1_1_write_address_visitor_1a1d0f3b3918ee0393b3f52949b1a4f2f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::WriteAddressVisitor&lt; T &gt;::operator()</definition>
+        <argsstring>(CoordinateT const &amp;coord, ContainerT const &amp;container) -&gt; decltype(container.addresses(coord), void())</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ContainerT const &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="79" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="structstadls_1_1_write_address_visitor_1ac226027340de83e170d37179fc7701d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::WriteAddressVisitor&lt; T &gt;::operator()</definition>
+        <argsstring>(CoordinateT const &amp;coord, ContainerT const &amp;container) -&gt; decltype(container.template addresses&lt; typename T::value_type &gt;(coord), void())</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ContainerT const &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="95" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="structstadls_1_1_write_address_visitor_1a26a74f87e99d59521de30210344f68b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::WriteAddressVisitor&lt; T &gt;::operator()</definition>
+        <argsstring>(CoordinateT const &amp;coord, ContainerT const &amp;container) -&gt; decltype(container.template write_addresses&lt; typename T::value_type &gt;(coord), void())</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ContainerT const &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="103" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="103" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="structstadls_1_1_write_address_visitor_1aeba30aab56cd847d4b9656504af52475" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::WriteAddressVisitor&lt; T &gt;::operator()</definition>
+        <argsstring>(CoordinateT const &amp;coord, ContainerT const &amp;container) -&gt; decltype(container.write_addresses(coord), void())</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ContainerT const &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="87" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="87" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Extract addresses for writing to hardware for the visited containers. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Each container can provide addresses via a <computeroutput>write_addresses</computeroutput> member function or via a <computeroutput>addresses</computeroutput> member function in case the addresses for reading and writing are the same. Containers that do not themselves contain data to be written to the hardware (i.e. containers of containers) can alternatively be tagged via <programlisting><codeline><highlight class="normal">typedef<sp/>std::false_type<sp/>has_local_data;</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="74" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" bodystart="75" bodyend="117"/>
+    <listofallmembers>
+      <member refid="structstadls_1_1_write_address_visitor_1afe10baaf15f93df9776e30d220353e42" prot="public" virt="non-virtual"><scope>stadls::WriteAddressVisitor</scope><name>addresses</name></member>
+      <member refid="structstadls_1_1_write_address_visitor_1a1d0f3b3918ee0393b3f52949b1a4f2f3" prot="public" virt="non-virtual"><scope>stadls::WriteAddressVisitor</scope><name>operator()</name></member>
+      <member refid="structstadls_1_1_write_address_visitor_1aeba30aab56cd847d4b9656504af52475" prot="public" virt="non-virtual"><scope>stadls::WriteAddressVisitor</scope><name>operator()</name></member>
+      <member refid="structstadls_1_1_write_address_visitor_1ac226027340de83e170d37179fc7701d9" prot="public" virt="non-virtual"><scope>stadls::WriteAddressVisitor</scope><name>operator()</name></member>
+      <member refid="structstadls_1_1_write_address_visitor_1a26a74f87e99d59521de30210344f68b5" prot="public" virt="non-virtual"><scope>stadls::WriteAddressVisitor</scope><name>operator()</name></member>
+      <member refid="structstadls_1_1_write_address_visitor_1ac1bb86b48554893b62e422cc3abc4c66" prot="public" virt="non-virtual"><scope>stadls::WriteAddressVisitor</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</compoundname>
+    <includes refid="v2_2pll_8h" local="no">pll.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="89" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a5d23495228d5813bd1988e5013a33222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ClockOutput const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output" kindref="compound">ClockOutput</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="86" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a8ce3ae1700d96c367146cac549958c33" prot="private" static="no" mutable="no">
+        <type>halco::hicann_dls::vx::ADPLLOnDLS</type>
+        <definition>halco::hicann_dls::vx::ADPLLOnDLS haldls::vx::v2::PLLClockOutputBlock::ClockOutput::m_adpll</definition>
+        <argsstring></argsstring>
+        <name>m_adpll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="95" column="35" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a5f8215241522ed5b99171c0bcc7b6eac" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045" kindref="member">ADPLL::Output</ref></type>
+        <definition>ADPLL::Output haldls::vx::v2::PLLClockOutputBlock::ClockOutput::m_adpll_output</definition>
+        <argsstring></argsstring>
+        <name>m_adpll_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="96" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ad3047dff56cf570c3fba0767e9b3f2c3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::v2::PLLClockOutputBlock::ClockOutput::m_enable_bypass</definition>
+        <argsstring></argsstring>
+        <name>m_enable_bypass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="94" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ad78f21c0e06a58a16687613a9a960811" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::v2::PLLClockOutputBlock::ClockOutput::m_enable_output</definition>
+        <argsstring></argsstring>
+        <name>m_enable_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="93" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ad1be6187037c1ab84328118cffac8092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::v2::PLLClockOutputBlock::ClockOutput::ClockOutput</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ClockOutput</name>
+        <briefdescription>
+<para>Default construct PLL clock output. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ad337eecb78cda27ea3f323637a5a46e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::v2::PLLClockOutputBlock::ClockOutput::get_enable_bypass</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_bypass</name>
+        <briefdescription>
+<para>Get whether the output is set to bypass mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If enabled, the FPGA clock is passed through to the output. <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="44" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a8c32d96199cb7d42d28c4714eeb0c9b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::v2::PLLClockOutputBlock::ClockOutput::get_enable_output</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_output</name>
+        <briefdescription>
+<para>Get whether output is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="29" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a47dba5c99932c7783073f32a52105fbd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>halco::hicann_dls::vx::ADPLLOnDLS</type>
+        <definition>halco::hicann_dls::vx::ADPLLOnDLS haldls::vx::v2::PLLClockOutputBlock::ClockOutput::get_select_adpll</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_select_adpll</name>
+        <briefdescription>
+<para>Get coordinate of selected <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> to route to output. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>coord Coordinate of <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> to select </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="59" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ae5051302f0d862d4f42b678ad1ec0a1a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045" kindref="member">ADPLL::Output</ref></type>
+        <definition>ADPLL::Output haldls::vx::v2::PLLClockOutputBlock::ClockOutput::get_select_adpll_output</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_select_adpll_output</name>
+        <briefdescription>
+<para>Get which output of selected <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> to route to output. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> output </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="73" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a23bca1b2b3ba7b4bfb4834a61f6e1137" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::v2::PLLClockOutputBlock::ClockOutput::operator!=</definition>
+        <argsstring>(ClockOutput const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output" kindref="compound">ClockOutput</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="83" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ae9edf3530539a4a4157093f8679f589b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::v2::PLLClockOutputBlock::ClockOutput::operator==</definition>
+        <argsstring>(ClockOutput const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output" kindref="compound">ClockOutput</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="82" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a92df84a521a3b0ae6b5bbccf186f9d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::v2::PLLClockOutputBlock::ClockOutput::set_enable_bypass</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_bypass</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value of the bypass mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If enabled, the FPGA clock is passed through to the output. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="52" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a83bbc96c9986c45cbdd9b044b9d28671" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::v2::PLLClockOutputBlock::ClockOutput::set_enable_output</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_output</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value of output. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="36" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a4f3632c845b725acb2a00adc4382de2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::v2::PLLClockOutputBlock::ClockOutput::set_select_adpll</definition>
+        <argsstring>(halco::hicann_dls::vx::ADPLLOnDLS const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>set_select_adpll</name>
+        <param>
+          <type>halco::hicann_dls::vx::ADPLLOnDLS const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Set select which <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> to route to output. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> to select </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="66" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a7dfe7aa22e5f1542d9c8903e3f7fe9dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::v2::PLLClockOutputBlock::ClockOutput::set_select_adpll_output</definition>
+        <argsstring>(ADPLL::Output const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_select_adpll_output</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045" kindref="member">ADPLL::Output</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set which output of selected <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> to route to output. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> output </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="80" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1adca5b02690a23a1956ff53d08f7d30d9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::v2::PLLClockOutputBlock::ClockOutput::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="91" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" line="18" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pll.h" bodystart="19" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ad1be6187037c1ab84328118cffac8092" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>ClockOutput</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ad337eecb78cda27ea3f323637a5a46e5" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>get_enable_bypass</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a8c32d96199cb7d42d28c4714eeb0c9b4" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>get_enable_output</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a47dba5c99932c7783073f32a52105fbd" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>get_select_adpll</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ae5051302f0d862d4f42b678ad1ec0a1a" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>get_select_adpll_output</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a8ce3ae1700d96c367146cac549958c33" prot="private" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>m_adpll</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a5f8215241522ed5b99171c0bcc7b6eac" prot="private" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>m_adpll_output</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ad3047dff56cf570c3fba0767e9b3f2c3" prot="private" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>m_enable_bypass</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ad78f21c0e06a58a16687613a9a960811" prot="private" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>m_enable_output</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a23bca1b2b3ba7b4bfb4834a61f6e1137" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a5d23495228d5813bd1988e5013a33222" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1ae9edf3530539a4a4157093f8679f589b" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1adca5b02690a23a1956ff53d08f7d30d9" prot="private" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a92df84a521a3b0ae6b5bbccf186f9d8e" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>set_enable_bypass</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a83bbc96c9986c45cbdd9b044b9d28671" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>set_enable_output</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a4f3632c845b725acb2a00adc4382de2b" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>set_select_adpll</name></member>
+      <member refid="classhaldls_1_1vx_1_1v2_1_1_p_l_l_clock_output_block_1_1_clock_output_1a7dfe7aa22e5f1542d9c8903e3f7fe9dc" prot="public" virt="non-virtual"><scope>haldls::vx::v2::PLLClockOutputBlock::ClockOutput</scope><name>set_select_adpll_output</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

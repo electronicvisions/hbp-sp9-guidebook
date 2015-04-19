@@ -1,0 +1,149 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>The SpiNNaker “many core” system &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/hbpdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/extra.js"></script>
+    <script src="../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="About the SpiNNaker hardware" href="spiNNaker_configuration.html" />
+    <link rel="prev" title="The BrainScaleS-2 “physical model” system" href="../pm/bss2.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../pm/bss2.html"
+                        title="previous chapter">The BrainScaleS-2 “physical model” system</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="spiNNaker_configuration.html"
+                        title="next chapter">About the SpiNNaker hardware</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/mc/mc_index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="../pm/bss2.html">The BrainScaleS-2 “physical model” system</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="spiNNaker_configuration.html">About the SpiNNaker hardware</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="the-spinnaker-many-core-system">
+<h1>The SpiNNaker “many core” system<a class="headerlink" href="#the-spinnaker-many-core-system" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="spiNNaker_configuration.html">About the SpiNNaker hardware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="spiNNaker_configuration.html#available-hardware-setups">Available hardware setups</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="using_spiNNaker.html">Using the SpiNNaker system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="using_spiNNaker.html#mapping-and-routing">Mapping and Routing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="standaloneSpiNNaker.html">The SpiNNaker standalone system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="standaloneSpiNNaker.html#installation-and-use-of-the-spinnaker-software">Installation and use of the SpiNNaker software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="standaloneSpiNNaker.html#extending-the-spinnaker-software">Extending the SpiNNaker Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="standaloneSpiNNaker.html#generating-live-input-and-output">Generating Live Input and Output</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<figure class="align-default" id="id1">
+<span id="spinnaker-system-photo"></span><a class="reference internal image-reference" href="../_images/spinnaker1million.jpg"><img alt="The SpiNNaker 1 million core system (NM-MC1) in Manchester" src="../_images/spinnaker1million.jpg" style="width: 100%;" /></a>
+<figcaption>
+<p><span class="caption-text">Figure 51: The SpiNNaker 1 million core system (NM-MC1) in Manchester</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="../pm/bss2.html">The BrainScaleS-2 “physical model” system</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="spiNNaker_configuration.html">About the SpiNNaker hardware</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_p_p_u_control_register" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::PPUControlRegister</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="ppu_8h" local="no">ppu.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a3f10723ef0408e43f5f4f4dbeb1196fd" prot="public" static="no">
+        <type>halco::hicann_dls::vx::PPUControlRegisterOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::PPUControlRegisterOnDLS haldls::vx::PPUControlRegister::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="181" column="56" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1aed1235d2e740d8ccfa91641e82f76fd8" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::PPUControlRegister::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="182" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a508a9767c20ef657063673d221ba205a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::PPUControlRegister::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="216" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="227" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a033ae5336284a6160a77ff1ed5cf2fcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;, PPUControlRegister const &amp;) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_control_register" kindref="compound">PPUControlRegister</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="211" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a88d365439cd8251986f617b8c0db3e60" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::m_cache_controller_enable</definition>
+        <argsstring></argsstring>
+        <name>m_cache_controller_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="231" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a37be0e217bc9970436d92ba5f12c61db" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::m_force_clock_off</definition>
+        <argsstring></argsstring>
+        <name>m_force_clock_off</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="234" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a0f334190fc1da1eee3380cc6d470f654" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::m_force_clock_on</definition>
+        <argsstring></argsstring>
+        <name>m_force_clock_on</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="233" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1ad33a1589bece1fc6f1cac0e73d2294ee" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::m_inhibit_reset</definition>
+        <argsstring></argsstring>
+        <name>m_inhibit_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="232" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1ad210556a075f9cf24596823a9f03752e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PPUControlRegister::PPUControlRegister</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PPUControlRegister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="184" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a58b00733e1171f7dde0015ba1b746265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PPUControlRegister::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a508a9767c20ef657063673d221ba205a" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="223" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a15a9ec3a414eff345254bd844ef44b19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a508a9767c20ef657063673d221ba205a" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::PPUControlRegister::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="221" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a9c1c451744dacf4f917322384b66fcd3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::get_cache_controller_enable</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_cache_controller_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="187" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a21a22a2c31424624bae544f43a8dc57c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::get_force_clock_off</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_force_clock_off</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="206" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a5ddb3269a17b8df82fa196e6ebed661b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::get_force_clock_on</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_force_clock_on</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="202" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a354f8cc59139f5003253736d627e23a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::get_inhibit_reset</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_inhibit_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="192" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a570ca438a63548da44f98fb1d8954083" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::operator!=</definition>
+        <argsstring>(PPUControlRegister const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_control_register" kindref="compound">PPUControlRegister</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="214" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a0d86b469e7a11e474622668a7ce81672" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUControlRegister::operator==</definition>
+        <argsstring>(PPUControlRegister const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_control_register" kindref="compound">PPUControlRegister</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="213" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1ad903f02f3e8e8bf923ff3a0f1a4979b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PPUControlRegister::set_cache_controller_enable</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_cache_controller_enable</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="189" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1ab446c0ea58dd514cdb9db31124ec727e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PPUControlRegister::set_force_clock_off</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_force_clock_off</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="208" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a1aa8d8824ee12246c365faf6ab72e65d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PPUControlRegister::set_force_clock_on</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_force_clock_on</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="204" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a9f5d62833683806481a0a73e0f958dc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PPUControlRegister::set_inhibit_reset</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_inhibit_reset</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="194" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a0a13eea1d65e3aefc9e0cda4bbe15d9d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a508a9767c20ef657063673d221ba205a" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::PPUControlRegister::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a3f10723ef0408e43f5f4f4dbeb1196fd" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="218" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_control_register_1a1cc8ceae33d1cdef87ad63507fdcd1a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PPUControlRegister::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="229" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::PPUControlRegister</label>
+        <link refid="classhaldls_1_1vx_1_1_p_p_u_control_register"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::PPUControlRegister</label>
+        <link refid="classhaldls_1_1vx_1_1_p_p_u_control_register"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="178" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="179" bodyend="235"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a0a13eea1d65e3aefc9e0cda4bbe15d9d" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a508a9767c20ef657063673d221ba205a" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a3f10723ef0408e43f5f4f4dbeb1196fd" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a58b00733e1171f7dde0015ba1b746265" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a15a9ec3a414eff345254bd844ef44b19" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a9c1c451744dacf4f917322384b66fcd3" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>get_cache_controller_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a21a22a2c31424624bae544f43a8dc57c" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>get_force_clock_off</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a5ddb3269a17b8df82fa196e6ebed661b" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>get_force_clock_on</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a354f8cc59139f5003253736d627e23a3" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>get_inhibit_reset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1aed1235d2e740d8ccfa91641e82f76fd8" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a88d365439cd8251986f617b8c0db3e60" prot="private" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>m_cache_controller_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a37be0e217bc9970436d92ba5f12c61db" prot="private" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>m_force_clock_off</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a0f334190fc1da1eee3380cc6d470f654" prot="private" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>m_force_clock_on</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1ad33a1589bece1fc6f1cac0e73d2294ee" prot="private" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>m_inhibit_reset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a570ca438a63548da44f98fb1d8954083" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a033ae5336284a6160a77ff1ed5cf2fcf" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a0d86b469e7a11e474622668a7ce81672" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1ad210556a075f9cf24596823a9f03752e" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>PPUControlRegister</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a1cc8ceae33d1cdef87ad63507fdcd1a9" prot="private" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1ad903f02f3e8e8bf923ff3a0f1a4979b2" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>set_cache_controller_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1ab446c0ea58dd514cdb9db31124ec727e" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>set_force_clock_off</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a1aa8d8824ee12246c365faf6ab72e65d" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>set_force_clock_on</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_control_register_1a9f5d62833683806481a0a73e0f958dc9" prot="public" virt="non-virtual"><scope>haldls::vx::PPUControlRegister</scope><name>set_inhibit_reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_b9b13169233981d6fd99653e7c625a30" kind="dir">
+    <compoundname>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3</compoundname>
+    <innerfile refid="v3_2arq_8h">arq.h</innerfile>
+    <innerfile refid="v3_2background_8h">background.h</innerfile>
+    <innerfile refid="v3_2barrier_8h">barrier.h</innerfile>
+    <innerfile refid="v3_2block_8h">block.h</innerfile>
+    <innerfile refid="v3_2cadc_8h">cadc.h</innerfile>
+    <innerfile refid="v3_2capmem_8h">capmem.h</innerfile>
+    <innerfile refid="v3_2common_8h">common.h</innerfile>
+    <innerfile refid="v3_2constants_8h">constants.h</innerfile>
+    <innerfile refid="v3_2container_8h">container.h</innerfile>
+    <innerfile refid="v3_2correlation_8h">correlation.h</innerfile>
+    <innerfile refid="v3_2current__dac_8h">current_dac.h</innerfile>
+    <innerfile refid="v3_2event_8h">event.h</innerfile>
+    <innerfile refid="v3_2fpga_8h">fpga.h</innerfile>
+    <innerfile refid="v3_2haldls_8h">haldls.h</innerfile>
+    <innerfile refid="v3_2i2c_8h">i2c.h</innerfile>
+    <innerfile refid="v3_2jtag_8h">jtag.h</innerfile>
+    <innerfile refid="v3_2madc_8h">madc.h</innerfile>
+    <innerfile refid="v3_2neuron_8h">neuron.h</innerfile>
+    <innerfile refid="v3_2null__payload__readable_8h">null_payload_readable.h</innerfile>
+    <innerfile refid="v3_2omnibus__constants_8h">omnibus_constants.h</innerfile>
+    <innerfile refid="v3_2padi_8h">padi.h</innerfile>
+    <innerfile refid="v3_2perftest_8h">perftest.h</innerfile>
+    <innerfile refid="v3_2phy_8h">phy.h</innerfile>
+    <innerfile refid="v3_2pll_8h">pll.h</innerfile>
+    <innerfile refid="v3_2ppu_8h">ppu.h</innerfile>
+    <innerfile refid="v3_2pyhaldls_8h">pyhaldls.h</innerfile>
+    <innerfile refid="v3_2readout_8h">readout.h</innerfile>
+    <innerfile refid="v3_2reset_8h">reset.h</innerfile>
+    <innerfile refid="v3_2routing__crossbar_8h">routing_crossbar.h</innerfile>
+    <innerfile refid="v3_2spi_8h">spi.h</innerfile>
+    <innerfile refid="v3_2sram__controller_8h">sram_controller.h</innerfile>
+    <innerfile refid="v3_2synapse_8h">synapse.h</innerfile>
+    <innerfile refid="v3_2synapse__driver_8h">synapse_driver.h</innerfile>
+    <innerfile refid="v3_2systime_8h">systime.h</innerfile>
+    <innerfile refid="v3_2timer_8h">timer.h</innerfile>
+    <innerfile refid="v3_2traits_8h">traits.h</innerfile>
+    <innerfile refid="v3_2vector__generator_8h">vector_generator.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/"/>
+  </compounddef>
+</doxygen>

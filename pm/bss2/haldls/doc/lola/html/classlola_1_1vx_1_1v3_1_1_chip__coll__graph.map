@@ -1,0 +1,7 @@
+<map id="lola::vx::v3::Chip" name="lola::vx::v3::Chip">
+<area shape="rect" id="node1" title="Complete static configuration of one chip." alt="" coords="221,97,340,125"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,103,33"/>
+<area shape="rect" id="node3" href="$classlola_1_1vx_1_1_crossbar.html" title="Container for configuration of the routing crossbar." alt="" coords="127,5,251,33"/>
+<area shape="rect" id="node4" href="$classlola_1_1vx_1_1_external_p_p_u_memory.html" title="Complete external PPU memory." alt="" coords="275,5,470,33"/>
+<area shape="rect" id="node5" href="$classlola_1_1vx_1_1_memory_timing.html" title="Timing configuration of memories." alt="" coords="494,5,652,33"/>
+</map>

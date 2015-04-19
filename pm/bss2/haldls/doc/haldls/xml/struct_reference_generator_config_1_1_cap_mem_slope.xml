@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_reference_generator_config_1_1_cap_mem_slope" kind="struct" language="C++" prot="public">
+    <compoundname>ReferenceGeneratorConfig::CapMemSlope</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; CapMemSlope, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; CapMemSlope, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_reference_generator_config_1_1_cap_mem_slope_1a075988552902e7cffe9def6b7cc76e98" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr ReferenceGeneratorConfig::CapMemSlope::CapMemSlope</definition>
+        <argsstring>(uintmax_t const val=11)</argsstring>
+        <name>CapMemSlope</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>11</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="70" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_reference_generator_config_1_1_cap_mem_slope_1a075988552902e7cffe9def6b7cc76e98" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr ReferenceGeneratorConfig::CapMemSlope::CapMemSlope</definition>
+        <argsstring>(uintmax_t const val=11)</argsstring>
+        <name>CapMemSlope</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>11</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="70" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="70" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; CapMemSlope, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>ReferenceGeneratorConfig::CapMemSlope</label>
+        <link refid="struct_reference_generator_config_1_1_cap_mem_slope"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; CapMemSlope, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>ReferenceGeneratorConfig::CapMemSlope</label>
+        <link refid="struct_reference_generator_config_1_1_cap_mem_slope"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="67" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="69" bodyend="73"/>
+    <listofallmembers>
+      <member refid="struct_reference_generator_config_1_1_cap_mem_slope_1a075988552902e7cffe9def6b7cc76e98" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig::CapMemSlope</scope><name>CapMemSlope</name></member>
+      <member refid="struct_reference_generator_config_1_1_cap_mem_slope_1a075988552902e7cffe9def6b7cc76e98" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig::CapMemSlope</scope><name>CapMemSlope</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

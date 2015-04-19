@@ -1,0 +1,56 @@
+var classhaldls_1_1vx_1_1_shift_register =
+[
+    [ "coordinate_type", "classhaldls_1_1vx_1_1_shift_register.html#a1c7dc0abaad4918c57638103770dc3c8", null ],
+    [ "is_leaf_node", "classhaldls_1_1vx_1_1_shift_register.html#ad595e2984edddd2308828a57d03e7102", null ],
+    [ "AnalogReadoutMux1Input", "classhaldls_1_1vx_1_1_shift_register.html#ad3ff8f52482be98bf57ea8b0f58190eb", [
+      [ "off", "classhaldls_1_1vx_1_1_shift_register.html#ad3ff8f52482be98bf57ea8b0f58190eba3262d48df5d75e3452f0f16b313b7808", null ],
+      [ "readout_chain_0", "classhaldls_1_1vx_1_1_shift_register.html#ad3ff8f52482be98bf57ea8b0f58190eba2b407e7e8559a6c7882d709d22a98149", null ],
+      [ "readout_chain_1", "classhaldls_1_1vx_1_1_shift_register.html#ad3ff8f52482be98bf57ea8b0f58190ebafe786ec687a8e635458ce75e0ea9baa9", null ],
+      [ "mux_rfu_0", "classhaldls_1_1vx_1_1_shift_register.html#ad3ff8f52482be98bf57ea8b0f58190eba0b638b3253b7bfabb0a1fc8ee1e21175", null ]
+    ] ],
+    [ "AnalogReadoutMux2Input", "classhaldls_1_1vx_1_1_shift_register.html#ad3a39a0eaed9c5a61b830248fe46f273", [
+      [ "off", "classhaldls_1_1vx_1_1_shift_register.html#ad3a39a0eaed9c5a61b830248fe46f273a3262d48df5d75e3452f0f16b313b7808", null ],
+      [ "v_reset", "classhaldls_1_1vx_1_1_shift_register.html#ad3a39a0eaed9c5a61b830248fe46f273a3d8a2ea7c63dc75e9422e03a88859a75", null ],
+      [ "vdd_res_meas", "classhaldls_1_1vx_1_1_shift_register.html#ad3a39a0eaed9c5a61b830248fe46f273a6e1269cc69ea59e0c17804abf2a22f59", null ],
+      [ "mux_dac_25", "classhaldls_1_1vx_1_1_shift_register.html#ad3a39a0eaed9c5a61b830248fe46f273a6db8c7c790dacc12a73d3602ea2423f3", null ]
+    ] ],
+    [ "AnalogReadoutMux3Input", "classhaldls_1_1vx_1_1_shift_register.html#ad4854a8be8d593ad579c6f9013fba735", [
+      [ "off", "classhaldls_1_1vx_1_1_shift_register.html#ad4854a8be8d593ad579c6f9013fba735a3262d48df5d75e3452f0f16b313b7808", null ],
+      [ "i_ref", "classhaldls_1_1vx_1_1_shift_register.html#ad4854a8be8d593ad579c6f9013fba735a3b44ac1d22bdfa059e1984576a8383a9", null ],
+      [ "mux_rfu_1", "classhaldls_1_1vx_1_1_shift_register.html#ad4854a8be8d593ad579c6f9013fba735aaa44cd369f908a143efb4162572d29ce", null ],
+      [ "mux_rfu_2", "classhaldls_1_1vx_1_1_shift_register.html#ad4854a8be8d593ad579c6f9013fba735a0c2d8bcdbdcb7cd716b5cf1e34039853", null ]
+    ] ],
+    [ "ShiftRegister", "classhaldls_1_1vx_1_1_shift_register.html#a329c7cbceadbf79731e11a94886c297a", null ],
+    [ "decode", "classhaldls_1_1vx_1_1_shift_register.html#af075b033720bd79dd78d741b6958332a", null ],
+    [ "encode", "classhaldls_1_1vx_1_1_shift_register.html#ac81b0e44f06c184641f49dbdafc9ff85", null ],
+    [ "get_enable_adc_power_down", "classhaldls_1_1vx_1_1_shift_register.html#a4e2b588d085ff50ea3a96e832f213b86", null ],
+    [ "get_enable_adc_reset", "classhaldls_1_1vx_1_1_shift_register.html#a29697bdb847de8276e70e9cecb095fc1", null ],
+    [ "get_enable_dac_to_readout_0", "classhaldls_1_1vx_1_1_shift_register.html#a09e8be170a8a6dd58209d229fffe6088", null ],
+    [ "get_enable_dac_to_readout_1", "classhaldls_1_1vx_1_1_shift_register.html#ade26ec011798d2ff495fe96dde65c7ce", null ],
+    [ "get_enable_i_ref_board", "classhaldls_1_1vx_1_1_shift_register.html#a9d0dea765bbbedc6e19d9423b740bd23", null ],
+    [ "get_enable_led", "classhaldls_1_1vx_1_1_shift_register.html#a7211c6fe82ae7e56cd023ba8cf520676", null ],
+    [ "get_enable_measure_i_ref", "classhaldls_1_1vx_1_1_shift_register.html#aa7a22a03c8af341fedc08476b9eceb1c", null ],
+    [ "get_enable_vdd", "classhaldls_1_1vx_1_1_shift_register.html#a8d50e878ebf2548e65973c12e82d78e2", null ],
+    [ "get_select_analog_readout_mux_1_input", "classhaldls_1_1vx_1_1_shift_register.html#a1c7811215884435e5e256b92a5696bed", null ],
+    [ "get_select_analog_readout_mux_2_input", "classhaldls_1_1vx_1_1_shift_register.html#a11c3db34b092a64520a2a67fbfac0ff5", null ],
+    [ "get_select_analog_readout_mux_3_input", "classhaldls_1_1vx_1_1_shift_register.html#a7ad5cb1e53965f9e14e6c73b09af3008", null ],
+    [ "operator!=", "classhaldls_1_1vx_1_1_shift_register.html#a1d734e3dbe11d7c2b5458f0372a9b519", null ],
+    [ "operator==", "classhaldls_1_1vx_1_1_shift_register.html#a339dbe6dcfd2d9098b00d192b2b512db", null ],
+    [ "read_addresses", "classhaldls_1_1vx_1_1_shift_register.html#a50c72dceb626142245037ecc0e56ec91", null ],
+    [ "set_enable_adc_power_down", "classhaldls_1_1vx_1_1_shift_register.html#ab16c846683d7deccb747c9319273371f", null ],
+    [ "set_enable_adc_reset", "classhaldls_1_1vx_1_1_shift_register.html#a871359a4ac89b1ff1f469b3afee0ec61", null ],
+    [ "set_enable_dac_to_readout_0", "classhaldls_1_1vx_1_1_shift_register.html#accefb6adc6b280e0bc86f6df2223718f", null ],
+    [ "set_enable_dac_to_readout_1", "classhaldls_1_1vx_1_1_shift_register.html#af07a0a44f9b35de45f3330fd928e7e76", null ],
+    [ "set_enable_i_ref_board", "classhaldls_1_1vx_1_1_shift_register.html#a194b351212a852694f01d4e6e592e7c8", null ],
+    [ "set_enable_led", "classhaldls_1_1vx_1_1_shift_register.html#ac25f8c450d959113546b3ca1b04ce4eb", null ],
+    [ "set_enable_measure_i_ref", "classhaldls_1_1vx_1_1_shift_register.html#aa70752ebe3f07f805822600c8df577eb", null ],
+    [ "set_enable_vdd", "classhaldls_1_1vx_1_1_shift_register.html#a51ac8a630d9788535f79dcc3f0647a10", null ],
+    [ "set_select_analog_readout_mux_1_input", "classhaldls_1_1vx_1_1_shift_register.html#ac73d481e248000c889082f88c8358738", null ],
+    [ "set_select_analog_readout_mux_2_input", "classhaldls_1_1vx_1_1_shift_register.html#aa187627e2d796bdcecf6b331bf2e4816", null ],
+    [ "set_select_analog_readout_mux_3_input", "classhaldls_1_1vx_1_1_shift_register.html#a465f9a2128fff5e6598defcb384f48f8", null ],
+    [ "write_addresses", "classhaldls_1_1vx_1_1_shift_register.html#a4d136baa11cebb0a5574077217a76611", null ],
+    [ "cereal::access", "classhaldls_1_1vx_1_1_shift_register.html#ab2f44cbb59a08132f4c843e5225bba0e", null ],
+    [ "operator<<", "classhaldls_1_1vx_1_1_shift_register.html#ac8f1eacce167c2f193a608b405316005", null ],
+    [ "read_config_size_in_words", "classhaldls_1_1vx_1_1_shift_register.html#a4a90ee304f4dea15aeb1f76a8e08f687", null ],
+    [ "write_config_size_in_words", "classhaldls_1_1vx_1_1_shift_register.html#a17d403adedd45c1fd275ea87c40b2be0", null ]
+];

@@ -1,0 +1,4 @@
+<map id="haldls::vx::ADPLL::FilterShift" name="haldls::vx::ADPLL::FilterShift">
+<area shape="rect" id="node1" title="Loop filter gain boost by 2^n during lock&#45;in, leads to lock time reduction." alt="" coords="28,113,162,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,185,65"/>
+</map>

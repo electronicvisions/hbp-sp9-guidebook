@@ -1,0 +1,4 @@
+<map id="haldls::vx::INA219Status::BusVoltage" name="haldls::vx::INA219Status::BusVoltage">
+<area shape="rect" id="node1" title="Bus voltage with linear conversion and LSB = 4mV." alt="" coords="18,113,184,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,197,65"/>
+</map>

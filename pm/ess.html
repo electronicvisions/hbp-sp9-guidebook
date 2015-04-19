@@ -1,0 +1,531 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Simulating the BrainScaleS hardware &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/hbpdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/extra.js"></script>
+    <script src="../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="The Spikey “physical model” system" href="spikey.html" />
+    <link rel="prev" title="Using the BrainScaleS system" href="using_pm_newflow.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Simulating the BrainScaleS hardware</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a><ul>
+<li><a class="reference internal" href="#using-docker">Using Docker</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#download-upgrade-of-the-uhei-ess-system-image">Download/upgrade of the uhei/ess-system image</a></li>
+<li><a class="reference internal" href="#starting-the-ess-container">Starting the ESS container</a></li>
+<li><a class="reference internal" href="#testing-your-ess-container-installation">Testing your ESS container installation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#installing-from-source">Installing from source</a><ul>
+<li><a class="reference internal" href="#id1">Prerequisites</a></li>
+<li><a class="reference internal" href="#installation-of-the-ess">Installation of the ESS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-the-ess">Using the ESS</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#ess-config">ESS Config</a></li>
+<li><a class="reference internal" href="#pulse-loss-statistics">Pulse Loss Statistics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="using_pm_newflow.html"
+                        title="previous chapter">Using the BrainScaleS system</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="spikey.html"
+                        title="next chapter">The Spikey “physical model” system</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/pm/ess.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+                <div class="breadcrumb breadcrumb-meta expand">
+                    
+                    <a href="pm.html">The BrainScaleS “physical model” system</a>
+                    
+                </div>
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="using_pm_newflow.html">Using the BrainScaleS system</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="spikey.html">The Spikey “physical model” system</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="simulating-the-brainscales-hardware">
+<h1>Simulating the BrainScaleS hardware<a class="headerlink" href="#simulating-the-brainscales-hardware" title="Permalink to this headline">¶</a></h1>
+<p>The Executable System Specification (ESS) is a software model of the BrainScaleS hardware system.
+The ESS is implemented in C++/SystemC and contains functional models of all relevant units of the wafer-scale hardware.
+It is fully executable and resembles how neural experiments are run on the real wafer-scale system.</p>
+<p>The ESS allows offline experimentation with the BrainScaleS system, and can be used for testing
+small models locally before submitting them to the hardware system, and for introspecting the
+system behaviour. The ESS supports PyNN versions 0.7 and 0.8.</p>
+<p>Note, however, that the ESS runs <em>much</em> more slowly than the real hardware.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<section id="using-docker">
+<h3>Using Docker<a class="headerlink" href="#using-docker" title="Permalink to this headline">¶</a></h3>
+<p>The simplest way to use the ESS is to use the (<a class="reference external" href="https://registry.hub.docker.com/u/uhei/ess-system">uhei/ess-system</a>) Docker image.
+This has a recent version of the ESS already installed, and is updated on a regular basis.</p>
+<section id="prerequisites">
+<h4>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h4>
+<p>You need to have Docker installed.
+On Ubuntu Trusty 14.04 LTS the Docker package is called <code class="docutils literal notranslate"><span class="pre">docker.io</span></code>.
+Note that there is a package named <code class="docutils literal notranslate"><span class="pre">docker</span></code> in the Ubuntu repositories as well.
+It is something completely different.</p>
+<p>After installing you may add yourself to the <code class="docutils literal notranslate"><span class="pre">docker</span></code> group.
+Otherwise you have to prepend sudo to most Docker commands.</p>
+<p>You might also want to have a look at <code class="docutils literal notranslate"><span class="pre">/etc/default/docker.io</span></code> after installation, especially if you’re sitting behind a proxy.
+These proxy settings are not for the containers, but for communication with the Docker Repository (i.e. docker pull).</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apt-get install docker.io
+<span class="c1"># sudo adduser $USER docker</span>
+<span class="c1"># sudo editor /etc/default/docker.io</span>
+<span class="c1"># re-login</span>
+</pre></div>
+</div>
+</section>
+<section id="download-upgrade-of-the-uhei-ess-system-image">
+<h4>Download/upgrade of the uhei/ess-system image<a class="headerlink" href="#download-upgrade-of-the-uhei-ess-system-image" title="Permalink to this headline">¶</a></h4>
+<p>The following step takes some time upon first execution, depending on your internet connection.
+Later updates should generally perform faster as only changes are pulled.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo docker pull uhei/ess-system:14.04
+</pre></div>
+</div>
+</section>
+<section id="starting-the-ess-container">
+<h4>Starting the ESS container<a class="headerlink" href="#starting-the-ess-container" title="Permalink to this headline">¶</a></h4>
+<p>The execution of the downloaded image creates a new Docker container.
+Note that Docker containers are not persistent,
+but one can link a host directory for persistent user data into the container.
+The following <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">run</span></code> command does just that.
+The host directory specified by the <code class="docutils literal notranslate"><span class="pre">VOLUME</span></code> environment variable will be available as <code class="docutils literal notranslate"><span class="pre">/bss/$USER</span></code> within the container.
+If you’re interested in the option flags of the <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">run</span></code> command, run <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">help</span> <span class="pre">run</span></code>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># docker help run</span>
+mkdir ess-data                <span class="c1"># where to put user/persistent data</span>
+<span class="nv">VOLUME</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span><span class="s2">/ess-data&quot;</span>
+sudo docker run --name ess-container --hostname ess-container <span class="se">\</span>
+        -v <span class="s2">&quot;</span><span class="nv">$VOLUME</span><span class="s2">:/bss/</span><span class="nv">$USER</span><span class="s2">&quot;</span> -ti <span class="s2">&quot;uhei/ess-system:14.04&quot;</span> /bin/bash
+</pre></div>
+</div>
+</section>
+<section id="testing-your-ess-container-installation">
+<h4>Testing your ESS container installation<a class="headerlink" href="#testing-your-ess-container-installation" title="Permalink to this headline">¶</a></h4>
+<p>You should be in the container now, as <code class="docutils literal notranslate"><span class="pre">root</span></code> in the directory <code class="docutils literal notranslate"><span class="pre">/bss</span></code> (as in BrainScaleS).
+An <code class="docutils literal notranslate"><span class="pre">ls</span></code> should show your folder for persistent data
+(under your user name or whatever you put instead of <code class="docutils literal notranslate"><span class="pre">$USER</span></code> in the <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">run</span></code> command above),
+as well as the directories <code class="docutils literal notranslate"><span class="pre">mappingtool_test</span></code>, <code class="docutils literal notranslate"><span class="pre">neurotools</span></code> and <code class="docutils literal notranslate"><span class="pre">tutorial</span></code>.</p>
+<p>To test your installation, you can run some unit tests.
+This is almost the same as with the installation below,
+just the mapping tool test is installed at another location:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># root@ess-container:/bss#</span>
+python mappingtool_test/regression/run_ess_tests.py
+python <span class="nv">$SYMAP2IC_PATH</span>/components/systemsim/test/regression/run_ess_tests.py
+python <span class="nv">$SYMAP2IC_PATH</span>/components/systemsim/test/system/run_ess_tests.py
+</pre></div>
+</div>
+</section>
+</section>
+<section id="installing-from-source">
+<h3>Installing from source<a class="headerlink" href="#installing-from-source" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>these instructions have been tested on a native Ubuntu saucy 13.10 on a 64-bit machine</p>
+</div>
+<section id="id1">
+<h4>Prerequisites<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p>To be able to configure and compile the symap2ic project, you need to install the following libraries:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt-get -y install git python-pip python-dev build-essential libgtest-dev <span class="se">\</span>
+    libboost-all-dev libpng12-dev libssl-dev libmongo-client-dev mongodb <span class="se">\</span>
+    liblog4cxx10-dev autotools-dev automake
+</pre></div>
+</div>
+<p>The ESS expects the 64-bit libraries to lie either in /lib64 or /usr/lib64.
+However, in Ubuntu 13.10, the 64-bit libraries lie in /usr/lib/x86_64-linux-gnu.
+So, you need to make the following symbolic links:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ln -s /usr/lib/x86_64-linux-gnu /usr/lib64
+ln -s /usr/lib/libmongoclient.a /usr/lib/x86_64-linux-gnu/libmongoclient.a
+</pre></div>
+</div>
+<p>To be able to run the tests and to use the ESS, you also need to install:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt-get -y install libgsl0-dev libncurses5-dev libreadline-dev gfortran <span class="se">\</span>
+    libfreetype6-dev libblas-dev liblapack-dev r-base python-rpy <span class="se">\</span>
+pip install numpy scipy matplotlib PIL NeuroTools mpi4py xmlrunner
+</pre></div>
+</div>
+<p>You should then install PyNN:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install PyNN  <span class="c1"># PyNN 0.8</span>
+</pre></div>
+</div>
+<p>or</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install <span class="nv">PyNN</span><span class="o">==</span><span class="m">0</span>.7.5  <span class="c1"># PyNN 0.7</span>
+</pre></div>
+</div>
+</section>
+<section id="installation-of-the-ess">
+<h4>Installation of the ESS<a class="headerlink" href="#installation-of-the-ess" title="Permalink to this headline">¶</a></h4>
+<p>You should first obtain an account from the <a class="reference external" href="https://gitviz.kip.uni-heidelberg.de">heidelberg</a> group. Then, on your computer, you generate a rsa key:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh-keygen -t rsa
+</pre></div>
+</div>
+<p>Suppose that you have saved the key in the file ~/.ssh/id_rsa. In the <a class="reference external" href="https://gitviz.kip.uni-heidelberg.de">heidelberg</a> website, you go to ‘My account’ (upper-right).
+You click on ‘Public Key’ in the upper-right corner.
+You click on ‘New value’ and paste the content of your computer’s id_rsa.pub.
+Wait until the activation is done.</p>
+<p>Then, you can download and install the ESS on your computer:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span>
+git clone git@brainscales-r.kip.uni-heidelberg.de:symap2ic.git
+<span class="nb">cd</span> symap2ic
+<span class="nb">source</span> bootstrap.sh.UHEI .
+</pre></div>
+</div>
+<p>For PyNN 0.8:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./waf set_config systemsim-pynn8
+./waf update
+</pre></div>
+</div>
+<p>For PyNN 0.7:</p>
+<p>For PyNN 0.8:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./waf set_config systemsim
+</pre></div>
+</div>
+<p>If you have had problems in the execution of the 4 lines above, you have some read access right problems from the repositories.
+Please e-mail <a class="reference external" href="mailto:neuromorphic&#37;&#52;&#48;humanbrainproject&#46;eu">neuromorphic<span>&#64;</span>humanbrainproject<span>&#46;</span>eu</a>.
+Please now go on by configuring and installing the system:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./waf configure --stage<span class="o">=</span>brainscales --use-systemsim --without-hardware <span class="se">\</span>
+    --prefix<span class="o">=</span><span class="nv">$HOME</span>/symap2ic
+./waf install
+</pre></div>
+</div>
+<p>You now set the environment variables:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span> <span class="s1">&#39;export SYMAP2IC_PATH=$HOME/symap2ic&#39;</span> &gt;&gt; ~/.bashrc
+<span class="nb">echo</span> <span class="s1">&#39;export PYTHONPATH=$PYTHONPATH:$SYMAP2IC_PATH/lib&#39;</span> &gt;&gt; ~/.bashrc
+<span class="nb">echo</span> <span class="s1">&#39;export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SYMAP2IC_PATH/lib&#39;</span> &gt;&gt; ~/.bashrc
+bash
+</pre></div>
+</div>
+<p>For PyNN 0.7, you need to copy the PyNN hardware directory into the PyNN package:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> <span class="nv">$SYMAP2IC_PATH</span>
+cp -r components/pynnhw/misc/pyNN_hardware_patch/hardware <span class="se">\</span>
+    /usr/local/lib/python2.7/dist-packages/pyNN/
+</pre></div>
+</div>
+<p>You can now test that the hardware backend is accessible:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python -c <span class="s1">&#39;import pyNN.hardware.brainscales as sim&#39;</span>
+</pre></div>
+</div>
+<p>To test your installation with PyNN 0.7, you can run some unit tests:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python <span class="nv">$SYMAP2IC_PATH</span>/components/mappingtool/test/regression/run_ess_tests.py
+python <span class="nv">$SYMAP2IC_PATH</span>/components/systemsim/test/regression/run_ess_tests.py
+python <span class="nv">$SYMAP2IC_PATH</span>/components/systemsim/test/system/run_ess_tests.py
+</pre></div>
+</div>
+<p>To test your installation with PyNN 0.8, you can run the PyNN unit and system tests:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/PyNN-8/test
+<span class="nb">cd</span> unittests/backends
+nosetests test_mock.py
+nosetests test_hardware_brainscales.py
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="using-the-ess">
+<h2>Using the ESS<a class="headerlink" href="#using-the-ess" title="Permalink to this headline">¶</a></h2>
+<p>Scripts to run on the ESS should in general be identical to those that run on the BrainScaleS hardware. The only required
+difference is to choose <code class="docutils literal notranslate"><span class="pre">PyMarocco.ESS</span></code> as the PyMarocco backend.</p>
+<section id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<p>A full example where an Adaptive-Exponential Integrate &amp; Fire neuron is stimulated by external spikes, is shown in <code class="docutils literal notranslate"><span class="pre">nmpm1_adex_neuron_ess.py</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Example Script for simulation of an AdEx neuron on the ESS</span>
+
+<span class="sd">Note: Neuron and synapse parameters are chosen to be within the parameter ranges of</span>
+<span class="sd">the default calibration.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">pyhmf</span> <span class="k">as</span> <span class="nn">pynn</span>
+<span class="c1">#import pyNN.nest as pynn</span>
+<span class="kn">from</span> <span class="nn">pymarocco</span> <span class="kn">import</span> <span class="n">PyMarocco</span><span class="p">,</span> <span class="n">Defects</span>
+<span class="kn">import</span> <span class="nn">pylogging</span>
+<span class="kn">import</span> <span class="nn">pysthal</span>
+
+<span class="c1"># configure logging</span>
+<span class="n">pylogging</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+<span class="n">pylogging</span><span class="o">.</span><span class="n">default_config</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">pylogging</span><span class="o">.</span><span class="n">LogLevel</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span>
+        <span class="n">fname</span><span class="o">=</span><span class="s2">&quot;logfile.txt&quot;</span><span class="p">,</span>
+        <span class="n">dual</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="c1"># Mapping config</span>
+<span class="n">marocco</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="p">()</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">ESS</span> <span class="c1"># choose Executable System Specification instead of real hardware</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">calib_backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">CalibBackend</span><span class="o">.</span><span class="n">Default</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">defects</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">Defects</span><span class="o">.</span><span class="n">Backend</span><span class="o">.</span><span class="n">Without</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">hicann_configurator</span> <span class="o">=</span> <span class="n">pysthal</span><span class="o">.</span><span class="n">HICANNConfigurator</span><span class="p">()</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">experiment_time_offset</span> <span class="o">=</span> <span class="mf">5.e-7</span> <span class="c1"># can be low for ESS, as no repeater locking required</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">neuron_placement</span><span class="o">.</span><span class="n">default_neuron_size</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span> <span class="c1"># default number of hardware neuron circuits per pyNN neuron</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">persist</span> <span class="o">=</span> <span class="s2">&quot;nmpm1_adex_neuron_ess.bin&quot;</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">param_trafo</span><span class="o">.</span><span class="n">use_big_capacitors</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="c1"># set-up the simulator</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">marocco</span><span class="o">=</span><span class="n">marocco</span><span class="p">)</span>
+
+<span class="n">neuron_count</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># size of the Population we will create</span>
+
+<span class="c1"># Set the neuron model class</span>
+<span class="n">neuron_model</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">EIF_cond_exp_isfa_ista</span> <span class="c1"># an Adaptive Exponential I&amp;F Neuron</span>
+
+<span class="n">neuron_parameters</span> <span class="o">=</span> <span class="p">{</span>
+ <span class="s1">&#39;a&#39;</span>          <span class="p">:</span> <span class="mf">4.0</span><span class="p">,</span>    <span class="c1"># adaptation variable a in nS</span>
+ <span class="s1">&#39;b&#39;</span>          <span class="p">:</span> <span class="mf">0.0805</span><span class="p">,</span> <span class="c1"># adaptation variable b in pA</span>
+ <span class="s1">&#39;cm&#39;</span>         <span class="p">:</span> <span class="mf">0.281</span><span class="p">,</span>  <span class="c1"># membrane capacitance nF</span>
+ <span class="s1">&#39;delta_T&#39;</span>    <span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>    <span class="c1"># delta_T fom Adex mod in mV, determines the sharpness of spike initiation</span>
+ <span class="s1">&#39;e_rev_E&#39;</span>    <span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>    <span class="c1"># excitatory reversal potential in mV</span>
+ <span class="s1">&#39;e_rev_I&#39;</span>    <span class="p">:</span> <span class="o">-</span><span class="mf">80.0</span><span class="p">,</span>  <span class="c1"># inhibitory reversal potential in mV</span>
+ <span class="s1">&#39;i_offset&#39;</span>   <span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>    <span class="c1"># offset current</span>
+ <span class="s1">&#39;tau_m&#39;</span>      <span class="p">:</span> <span class="mf">9.3667</span><span class="p">,</span> <span class="c1"># membrane time constant</span>
+ <span class="s1">&#39;tau_refrac&#39;</span> <span class="p">:</span> <span class="mf">0.2</span><span class="p">,</span>    <span class="c1"># absolute refractory period</span>
+ <span class="s1">&#39;tau_syn_E&#39;</span>  <span class="p">:</span> <span class="mf">20.0</span><span class="p">,</span>   <span class="c1"># excitatory synaptic time constant</span>
+ <span class="s1">&#39;tau_syn_I&#39;</span>  <span class="p">:</span> <span class="mf">20.0</span><span class="p">,</span>   <span class="c1"># inhibitory synaptic time constant</span>
+ <span class="s1">&#39;tau_w&#39;</span>      <span class="p">:</span> <span class="mf">144.0</span><span class="p">,</span>  <span class="c1"># adaptation time constant</span>
+ <span class="s1">&#39;v_reset&#39;</span>    <span class="p">:</span> <span class="o">-</span><span class="mf">70.6</span><span class="p">,</span>  <span class="c1"># reset potential in mV</span>
+ <span class="s1">&#39;v_rest&#39;</span>     <span class="p">:</span> <span class="o">-</span><span class="mf">70.6</span><span class="p">,</span>  <span class="c1"># resting potential in mV</span>
+ <span class="s1">&#39;v_spike&#39;</span>    <span class="p">:</span> <span class="o">-</span><span class="mf">40.0</span><span class="p">,</span>  <span class="c1"># spike detection voltage in mV</span>
+ <span class="s1">&#39;v_thresh&#39;</span>   <span class="p">:</span> <span class="o">-</span><span class="mf">50.4</span><span class="p">,</span>  <span class="c1"># spike initiaton threshold voltage in mV</span>
+ <span class="p">}</span>
+
+<span class="c1"># We create a Population with 1 neuron of our neuron model</span>
+<span class="n">N1</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="n">neuron_count</span><span class="p">,</span> <span class="n">cellclass</span><span class="o">=</span><span class="n">neuron_model</span><span class="p">,</span> <span class="n">cellparams</span><span class="o">=</span><span class="n">neuron_parameters</span><span class="p">)</span>
+
+<span class="c1"># A spike source array with spike times given in a list</span>
+<span class="n">spktimes</span> <span class="o">=</span> <span class="p">[</span><span class="mf">10.</span><span class="p">,</span> <span class="mf">50.</span><span class="p">,</span> <span class="mf">65.</span><span class="p">,</span> <span class="mf">89.</span><span class="p">,</span> <span class="mf">233.</span><span class="p">,</span> <span class="mf">245.</span><span class="p">,</span><span class="mf">255.</span><span class="p">,</span><span class="mf">345.</span><span class="p">,</span><span class="mf">444.4</span><span class="p">]</span>
+<span class="n">spike_source</span> <span class="o">=</span> <span class="n">pynn</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">SpikeSourceArray</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;spike_times&#39;</span><span class="p">:</span><span class="n">spktimes</span><span class="p">})</span>
+
+<span class="c1"># Connect the Spike source to our neuron</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">spike_source</span><span class="p">,</span> <span class="n">N1</span><span class="p">,</span> <span class="n">pynn</span><span class="o">.</span><span class="n">OneToOneConnector</span><span class="p">(</span><span class="n">weights</span><span class="o">=</span><span class="mf">0.0138445</span><span class="p">),</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;excitatory&#39;</span><span class="p">)</span>
+
+<span class="c1"># record the membrane voltage of all neurons of the population</span>
+<span class="n">N1</span><span class="o">.</span><span class="n">record_v</span><span class="p">()</span>
+<span class="c1"># record the spikes of all neurons of the population</span>
+<span class="n">N1</span><span class="o">.</span><span class="n">record</span><span class="p">()</span>
+
+<span class="c1"># run the simulation for 500 ms</span>
+<span class="n">duration</span> <span class="o">=</span> <span class="mf">500.</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">duration</span><span class="p">)</span>
+
+
+<span class="c1"># After the simulation, we get Spikes</span>
+<span class="n">spike_times</span> <span class="o">=</span> <span class="n">N1</span><span class="o">.</span><span class="n">getSpikes</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">spike_times</span><span class="p">:</span>
+    <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Neuron &quot;</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="s2">&quot; spiked at &quot;</span><span class="p">,</span> <span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="c1"># Plot voltage</span>
+<span class="n">do_plot</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="k">if</span> <span class="n">do_plot</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">pylab</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">N1</span><span class="o">.</span><span class="n">get_v</span><span class="p">()[:,</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span> <span class="c1"># strip ID</span>
+    <span class="n">pylab</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">v</span><span class="p">[:,</span><span class="mi">0</span><span class="p">],</span> <span class="n">v</span><span class="p">[:,</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">pylab</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Time [ms]&quot;</span><span class="p">)</span>
+    <span class="n">pylab</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Voltage [mV]&quot;</span><span class="p">)</span>
+    <span class="n">pylab</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">duration</span><span class="p">)</span>
+    <span class="n">pylab</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># clean up pyNN</span>
+<span class="n">pynn</span><span class="o">.</span><span class="n">end</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Note that the same script runs also with <code class="docutils literal notranslate"><span class="pre">pyNN.nest</span></code>, just change the first line that imports the PyNN backend.</p>
+</section>
+<section id="ess-config">
+<h3>ESS Config<a class="headerlink" href="#ess-config" title="Permalink to this headline">¶</a></h3>
+<p>In addition, one can specify an ESS configuration as follows:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pysthal</span>
+
+<span class="n">marocco</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="p">()</span>
+<span class="n">marocco</span><span class="o">.</span><span class="n">backend</span> <span class="o">=</span> <span class="n">PyMarocco</span><span class="o">.</span><span class="n">ESS</span>
+
+<span class="n">ess_config</span> <span class="o">=</span> <span class="n">pysthal</span><span class="o">.</span><span class="n">ESSConfig</span><span class="p">()</span>
+<span class="n">ess_config</span><span class="o">.</span><span class="n">enable_weight_distortion</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">ess_config</span><span class="o">.</span><span class="n">weight_distortion</span> <span class="o">=</span> <span class="mf">0.2</span>
+<span class="n">ess_config</span><span class="o">.</span><span class="n">pulse_statistics_file</span> <span class="o">=</span> <span class="s2">&quot;pulse_stats.py&quot;</span>
+
+<span class="n">marocco</span><span class="o">.</span><span class="n">ess_config</span> <span class="o">=</span> <span class="n">ess_config</span>
+</pre></div>
+</div>
+<p>parameters of <code class="docutils literal notranslate"><span class="pre">ESSConfig</span></code>:</p>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">enable_weight_distortion</span></code></dt><dd><p>Enables the distortion of synaptic weights in the virtual hardware system.</p>
+<p>This option can be used to resemble the fixed pattern noise of synaptic
+weights on the real hardware.</p>
+<p>Default: <code class="docutils literal notranslate"><span class="pre">False</span></code></p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">weight_distortion</span></code></dt><dd><p>Specifies the distortion of synaptic weights in the virtual hardware system.</p>
+<p>This parameter defines the fraction of the original value, that is used as
+the standard deviation for randomizing the weight according to a normal
+distribution around the original value.
+All weights are clipped to positive values.</p>
+<p>Default: <code class="docutils literal notranslate"><span class="pre">0.0</span></code></p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">pulse_statistics_file</span></code></dt><dd><p>Name of file to which the ESS pulse statistics are written.</p>
+<p>See <a class="reference internal" href="#pulse-loss-statistics">Pulse Loss Statistics</a> for details.</p>
+<p>Default: <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></p>
+</dd>
+</dl>
+</section>
+<section id="pulse-loss-statistics">
+<h3>Pulse Loss Statistics<a class="headerlink" href="#pulse-loss-statistics" title="Permalink to this headline">¶</a></h3>
+<p>The ESS allows to count all spikes that were lost in any place of the virtual hardware system.
+Spikes are mostly lost in the off-wafer communication network (also called ‘’Layer 2 network’’) that connects the wafer to the host PC.
+In the Layer 2 network pulse loss can happen on two routes:</p>
+<ol class="arabic simple">
+<li><p>Stimulation:
+not all spikes from the spike sources (<code class="xref py py-class docutils literal notranslate"><span class="pre">SpikeSourcePoisson</span></code> or <code class="xref py py-class docutils literal notranslate"><span class="pre">SpikeSourceArray</span></code>) are delivered to its targets, because the bandwidth in the off-wafer network is limited. When a spike is lost, it is lost for its targets.</p></li>
+<li><p>Recording:
+For the same bandwidth constraints in the off-wafer network, some spikes of real neurons can be lost on the route from the wafer to the FGPGAs, Hence, in the received spike data some events are missing.
+However, the ‘non-recorded’ spikes did reach their target neurons on the wafer.</p></li>
+</ol>
+<p>Spikes can also be lost on the wafer, but only in rare cases when many neuron located on the same HICANN fire synchronously.</p>
+<ol class="arabic simple" start="3">
+<li><p>On-wafer Spike Loss:
+This is the case of pulses lost in the on-wafer pulse-communication system (also called <cite>Layer 1 network</cite>). If this happens, spikes are completely deleted, and reach no other neuron.</p></li>
+<li><p>Spike Drop before Simulation:
+The playback module of the FPGA, which plays back the stimuli pulses at given times, also has a limited bandwidth. This limitation is considered beforehand, such that spikes are dropped even before the simulation, in order to avoid a further delaying of many more spikes during an experiment.</p></li>
+</ol>
+<p>The ESS counts the lost and sent pulses.
+After the simulation, you will see something in the log for a loglevel&gt;=2:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">INFO</span>  <span class="n">Default</span> <span class="o">*************************************</span>
+<span class="n">INFO</span>  <span class="n">Default</span> <span class="n">LostEventLogger</span><span class="p">::</span><span class="n">summary</span>
+<span class="n">INFO</span>  <span class="n">Default</span> <span class="n">Layer</span> <span class="mi">2</span> <span class="n">events</span> <span class="n">dropped</span> <span class="n">before</span> <span class="n">sim</span> <span class="p">:</span> <span class="mi">837</span><span class="o">/</span><span class="mi">3939</span> <span class="p">(</span><span class="mf">21.249</span> <span class="o">%</span><span class="p">)</span>
+<span class="n">INFO</span>  <span class="n">Default</span> <span class="n">Layer</span> <span class="mi">2</span> <span class="n">events</span> <span class="n">lost</span> <span class="p">:</span>               <span class="mi">243</span><span class="o">/</span><span class="mi">3199</span> <span class="p">(</span><span class="mf">7.59612</span> <span class="o">%</span><span class="p">)</span>
+<span class="n">INFO</span>  <span class="n">Default</span> <span class="n">Layer</span> <span class="mi">2</span> <span class="n">events</span> <span class="n">lost</span> <span class="n">downwards</span> <span class="p">:</span>     <span class="mi">243</span><span class="o">/</span><span class="mi">3102</span> <span class="p">(</span><span class="mf">7.83366</span> <span class="o">%</span><span class="p">)</span>
+<span class="n">INFO</span>  <span class="n">Default</span> <span class="n">Layer</span> <span class="mi">2</span> <span class="n">events</span> <span class="n">lost</span> <span class="n">upwards</span>   <span class="p">:</span>     <span class="mi">0</span><span class="o">/</span><span class="mi">97</span> <span class="p">(</span><span class="mi">0</span> <span class="o">%</span><span class="p">)</span>
+<span class="n">INFO</span>  <span class="n">Default</span> <span class="n">Layer</span> <span class="mi">1</span> <span class="n">events</span> <span class="n">lost</span> <span class="p">:</span> <span class="mi">0</span><span class="o">/</span><span class="mi">79</span> <span class="p">(</span><span class="mi">0</span> <span class="o">%</span><span class="p">)</span>
+<span class="n">INFO</span>  <span class="n">Default</span> <span class="o">*************************************</span>
+</pre></div>
+</div>
+<p>You can specify to get this data by specifying a file <code class="docutils literal notranslate"><span class="pre">pulse_statistics_file</span></code>
+in the <a class="reference internal" href="#ess-config">ESS Config</a>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">marocco</span><span class="o">.</span><span class="n">ess_config</span><span class="o">.</span><span class="n">pulse_statistics_file</span> <span class="o">=</span> <span class="s2">&quot;pulse_stats.py&quot;</span>
+<span class="n">sim</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">marocco</span><span class="o">=</span><span class="n">marocco</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Then the pulse statistics file contains a Python dictionary
+<code class="docutils literal notranslate"><span class="pre">pulse_statistics</span></code> which can be use for further processing:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pulse_statistics</span> <span class="o">=</span> <span class="p">{</span>
+<span class="s1">&#39;l2_down_before_sim&#39;</span><span class="p">:</span> <span class="mi">3939</span><span class="p">,</span>
+<span class="s1">&#39;l2_down_dropped_before_sim&#39;</span><span class="p">:</span> <span class="mi">837</span><span class="p">,</span>
+<span class="s1">&#39;l2_down_sent&#39;</span><span class="p">:</span> <span class="mi">3102</span><span class="p">,</span>
+<span class="s1">&#39;l2_down_lost&#39;</span><span class="p">:</span> <span class="mi">243</span><span class="p">,</span>
+<span class="s1">&#39;l2_up_sent&#39;</span><span class="p">:</span> <span class="mi">97</span><span class="p">,</span>
+<span class="s1">&#39;l2_up_lost&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+<span class="s1">&#39;l1_neuron_sent&#39;</span><span class="p">:</span> <span class="mi">79</span><span class="p">,</span>
+<span class="s1">&#39;l1_neuron_lost&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="using_pm_newflow.html">Using the BrainScaleS system</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="spikey.html">The Spikey “physical model” system</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

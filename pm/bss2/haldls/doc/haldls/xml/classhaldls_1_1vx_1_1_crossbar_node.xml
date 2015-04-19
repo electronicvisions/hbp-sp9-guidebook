@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_crossbar_node" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CrossbarNode</compoundname>
+    <includes refid="routing__crossbar_8h" local="no">routing_crossbar.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_crossbar_node_1aa593ce196330ceb68f24ea4bb1bbc355" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CrossbarNodeOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CrossbarNodeOnDLS haldls::vx::CrossbarNode::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="285" column="50" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_crossbar_node_1a9bd0c47a5fbfb26c5703c2627301ced9" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CrossbarNode::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="286" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_crossbar_node_1a3f7594c7c74b2a6e80c20ab4ba9d38d6" prot="public" static="no">
+        <type>halco::hicann_dls::vx::NeuronLabel</type>
+        <definition>typedef halco::hicann_dls::vx::NeuronLabel haldls::vx::CrossbarNode::neuron_label_type</definition>
+        <argsstring></argsstring>
+        <name>neuron_label_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="292" column="44" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_node_1ab60aebcacac6454af05e6f613e201441" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CrossbarNode::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="336" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_node_1aa843f7084d1fca820ef9ff23f4f59cb2" prot="public" static="yes" mutable="no">
+        <type>const SYMBOL_VISIBLE <ref refid="classhaldls_1_1vx_1_1_crossbar_node" kindref="compound">CrossbarNode</ref></type>
+        <definition>const SYMBOL_VISIBLE CrossbarNode haldls::vx::CrossbarNode::drop_all</definition>
+        <argsstring></argsstring>
+        <name>drop_all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="334" column="42" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_node_1a2de279ab9b7d2af658e0f2a1882d5537" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::CrossbarNode::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::hardware}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="288" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_crossbar_node_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="350" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_crossbar_node_1ac41b9e76ad1ae48a78b99775470b724e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CrossbarNode const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node" kindref="compound">CrossbarNode</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="347" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_node_1a624c08c96e3b003b930aa46370d2dabb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::CrossbarNode::m_enable_drop_counter</definition>
+        <argsstring></argsstring>
+        <name>m_enable_drop_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="356" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_node_1aa8c8029e7ff03b914566fd0c139d20a8" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node_1a3f7594c7c74b2a6e80c20ab4ba9d38d6" kindref="member">neuron_label_type</ref></type>
+        <definition>neuron_label_type haldls::vx::CrossbarNode::m_mask</definition>
+        <argsstring></argsstring>
+        <name>m_mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="354" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_crossbar_node_1ac464604bb8103e69289dec7886a56447" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node_1a3f7594c7c74b2a6e80c20ab4ba9d38d6" kindref="member">neuron_label_type</ref></type>
+        <definition>neuron_label_type haldls::vx::CrossbarNode::m_target</definition>
+        <argsstring></argsstring>
+        <name>m_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="355" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1a4d22928dd2ac38aea8481f20d586e355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CrossbarNode::CrossbarNode</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CrossbarNode</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="295" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1ab738a9d297f246dd584470f4c13bc790" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CrossbarNode::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_crossbar_node_1ab60aebcacac6454af05e6f613e201441" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="343" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1aa309f1959ac6473ae20c75e64af48918" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_crossbar_node_1ab60aebcacac6454af05e6f613e201441" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::CrossbarNode::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="341" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1a75f8f2191e5cd1bbbc8bbd4716704a8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CrossbarNode::get_enable_drop_counter</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_drop_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="326" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1a79b1045305ae0d149b6906e4e18621a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node_1a3f7594c7c74b2a6e80c20ab4ba9d38d6" kindref="member">neuron_label_type</ref></type>
+        <definition>neuron_label_type haldls::vx::CrossbarNode::get_mask</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_mask</name>
+        <briefdescription>
+<para>Get mask to apply with a logical bit-wise AND operation onto incoming event labels. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>NeuronLabel </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="302" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1aa385ad5deb2c61dee98207adef2ceab4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node_1a3f7594c7c74b2a6e80c20ab4ba9d38d6" kindref="member">neuron_label_type</ref></type>
+        <definition>neuron_label_type haldls::vx::CrossbarNode::get_target</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_target</name>
+        <briefdescription>
+<para>Get target to compare masked incoming event labels to with a bit-wise equality operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>NeuronLabel </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="316" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1a77bd475bab4ac9177b87488260d593e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CrossbarNode::operator!=</definition>
+        <argsstring>(CrossbarNode const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node" kindref="compound">CrossbarNode</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="332" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1af391bbaeac368f335da4710464eaeb19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CrossbarNode::operator==</definition>
+        <argsstring>(CrossbarNode const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node" kindref="compound">CrossbarNode</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="331" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1add5b5107e5bf45eee714d6a835185b34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CrossbarNode::set_enable_drop_counter</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_drop_counter</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="329" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1a29c11e3b71b99617280a0692e5f93f3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CrossbarNode::set_mask</definition>
+        <argsstring>(neuron_label_type value) SYMBOL_VISIBLE</argsstring>
+        <name>set_mask</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node_1a3f7594c7c74b2a6e80c20ab4ba9d38d6" kindref="member">neuron_label_type</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set mask to apply with a bit-wise AND operation onto incoming event labels. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NeuronLabel </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="309" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1ac276d9018d483bdeefabc047f4fe6403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CrossbarNode::set_target</definition>
+        <argsstring>(neuron_label_type value) SYMBOL_VISIBLE</argsstring>
+        <name>set_target</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node_1a3f7594c7c74b2a6e80c20ab4ba9d38d6" kindref="member">neuron_label_type</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set target to compare masked incoming event labels to with a bit-wise equality operation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NeuronLabel </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="323" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1a3acc7764de43b8bcf28633d74eb2bfdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_crossbar_node_1ab60aebcacac6454af05e6f613e201441" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::CrossbarNode::addresses</definition>
+        <argsstring>(coordinate_type const &amp;neuron) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node_1aa593ce196330ceb68f24ea4bb1bbc355" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="338" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_crossbar_node_1a5a34b187487e28fd8cd73fa3f94f68dc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CrossbarNode::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="352" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Node of the crossbar routing events from a CrossbarInputOnDLS to a CrossbarOutputOnDLS. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A event is routed exactly if the following statement is true: (event_label &amp; mask) == target </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CrossbarNode</label>
+        <link refid="classhaldls_1_1vx_1_1_crossbar_node"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>drop_all</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" line="282" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="283" bodyend="357"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a3acc7764de43b8bcf28633d74eb2bfdd" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1ab60aebcacac6454af05e6f613e201441" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1aa593ce196330ceb68f24ea4bb1bbc355" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a4d22928dd2ac38aea8481f20d586e355" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>CrossbarNode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1ab738a9d297f246dd584470f4c13bc790" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1aa843f7084d1fca820ef9ff23f4f59cb2" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>drop_all</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1aa309f1959ac6473ae20c75e64af48918" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a75f8f2191e5cd1bbbc8bbd4716704a8a" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>get_enable_drop_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a79b1045305ae0d149b6906e4e18621a3" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>get_mask</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1aa385ad5deb2c61dee98207adef2ceab4" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>get_target</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a9bd0c47a5fbfb26c5703c2627301ced9" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a624c08c96e3b003b930aa46370d2dabb" prot="private" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>m_enable_drop_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1aa8c8029e7ff03b914566fd0c139d20a8" prot="private" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>m_mask</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1ac464604bb8103e69289dec7886a56447" prot="private" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>m_target</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a3f7594c7c74b2a6e80c20ab4ba9d38d6" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>neuron_label_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a77bd475bab4ac9177b87488260d593e6" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1ac41b9e76ad1ae48a78b99775470b724e" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1af391bbaeac368f335da4710464eaeb19" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a5a34b187487e28fd8cd73fa3f94f68dc" prot="private" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1add5b5107e5bf45eee714d6a835185b34" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>set_enable_drop_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a29c11e3b71b99617280a0692e5f93f3b" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>set_mask</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1ac276d9018d483bdeefabc047f4fe6403" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>set_target</name></member>
+      <member refid="classhaldls_1_1vx_1_1_crossbar_node_1a2de279ab9b7d2af658e0f2a1882d5537" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarNode</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

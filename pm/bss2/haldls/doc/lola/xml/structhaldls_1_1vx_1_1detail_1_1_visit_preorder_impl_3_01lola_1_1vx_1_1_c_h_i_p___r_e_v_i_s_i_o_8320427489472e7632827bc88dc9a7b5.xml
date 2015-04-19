@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_8320427489472e7632827bc88dc9a7b5" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCSampleRow &gt;</compoundname>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_8320427489472e7632827bc88dc9a7b5_1ae8b3ff53b5ed7c377faa969c666c5490" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+          <param>
+            <type>typename VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCSampleRow &gt;::call</definition>
+        <argsstring>(ContainerT &amp;config, lola::vx::CHIP_REVISION_STR::CADCSampleRow::coordinate_type const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>call</name>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="v3_2neuron_8h_1a0e45b1afb0e892814a49ea8200e71d1b" kindref="member">lola::vx::CHIP_REVISION_STR::CADCSampleRow::coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="683" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="683" bodyend="748"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="680" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="681" bodyend="749"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_8320427489472e7632827bc88dc9a7b5_1ae8b3ff53b5ed7c377faa969c666c5490" prot="public" virt="non-virtual"><scope>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCSampleRow &gt;</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

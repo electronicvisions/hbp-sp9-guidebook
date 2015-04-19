@@ -1,0 +1,984 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::PhyConfigBase</compoundname>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_phy_config_chip" prot="public" virt="non-virtual">haldls::vx::PhyConfigChip</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_phy_config_f_p_g_a" prot="public" virt="non-virtual">haldls::vx::PhyConfigFPGA</derivedcompoundref>
+    <includes refid="phy_8h" local="no">phy.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_debug_outputs" prot="public">haldls::vx::detail::PhyConfigBase::DebugOutputs</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_manual_delay" prot="public">haldls::vx::detail::PhyConfigBase::ManualDelay</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias" prot="public">haldls::vx::detail::PhyConfigBase::VBias</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a20c8776fdd6351a5bccc99a6614d4f06" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::detail::PhyConfigBase::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="29" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="138" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a065649bdbf8a6ada60db41b55899f0c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PhyConfigBase const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base" kindref="compound">PhyConfigBase</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="133" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aa2fe957492b1eb677960e81d0fca314b" prot="protected" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_debug_outputs" kindref="compound">DebugOutputs</ref></type>
+        <definition>DebugOutputs haldls::vx::detail::PhyConfigBase::m_debug_outputs</definition>
+        <argsstring></argsstring>
+        <name>m_debug_outputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="155" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a692e5a786a524f24d66b1940c9b24474" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_auto_init</definition>
+        <argsstring></argsstring>
+        <name>m_enable_auto_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="160" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1add2c60001a31bfbfb148808b32ce96c1" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_ber_loopback</definition>
+        <argsstring></argsstring>
+        <name>m_enable_ber_loopback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="153" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a551a716ab36ed5244ec7d3e67ea85838" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_bit_slip</definition>
+        <argsstring></argsstring>
+        <name>m_enable_bit_slip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="145" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a377cadb91aef67de0e572f96fbe459b6" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_clock_pre_alignment</definition>
+        <argsstring></argsstring>
+        <name>m_enable_clock_pre_alignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="157" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a1e40ec5fd029bde821a9098c0f0c5433" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_delay_cell_measurement</definition>
+        <argsstring></argsstring>
+        <name>m_enable_delay_cell_measurement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="147" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ae6b890c304258733b5cd46f4e73c3998" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_des_recal</definition>
+        <argsstring></argsstring>
+        <name>m_enable_des_recal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="158" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a6f4ba96b7be179e844403d261680f3b9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_force_lvds_power_up</definition>
+        <argsstring></argsstring>
+        <name>m_enable_force_lvds_power_up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="150" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a6a53b7b9b868c9c59afa0a1b311c2f66" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_force_start</definition>
+        <argsstring></argsstring>
+        <name>m_enable_force_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="151" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac3922bb644509d99778ffe8d2e6234be" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_initialization_master_mode</definition>
+        <argsstring></argsstring>
+        <name>m_enable_initialization_master_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="148" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a12e926a4ff9ae212180813bfe82005da" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_loopback_en</definition>
+        <argsstring></argsstring>
+        <name>m_enable_loopback_en</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="159" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a9f04fbeca0d27c64fd737f99116e0bb0" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_manual_training_mode</definition>
+        <argsstring></argsstring>
+        <name>m_enable_manual_training_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="152" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a3525bde9bb75dec82ca6990d6d188464" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_manual_tx_data_valid_for_init</definition>
+        <argsstring></argsstring>
+        <name>m_enable_manual_tx_data_valid_for_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="149" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a36ed81ca8ab47361a005383c61bf29b6" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::m_enable_transmission_without_idle_pattern</definition>
+        <argsstring></argsstring>
+        <name>m_enable_transmission_without_idle_pattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="156" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac0d93c69ed4ba9d47e2dbd468c50192e" prot="protected" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_manual_delay" kindref="compound">ManualDelay</ref></type>
+        <definition>ManualDelay haldls::vx::detail::PhyConfigBase::m_manual_delay</definition>
+        <argsstring></argsstring>
+        <name>m_manual_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="146" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a92ae429849b835e91fbda4decbb546ac" prot="protected" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias" kindref="compound">VBias</ref></type>
+        <definition>VBias haldls::vx::detail::PhyConfigBase::m_vbias</definition>
+        <argsstring></argsstring>
+        <name>m_vbias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="154" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac728c4aaf56839dd8d66fcd7f685e08e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_debug_outputs" kindref="compound">DebugOutputs</ref></type>
+        <definition>DebugOutputs haldls::vx::detail::PhyConfigBase::get_debug_outputs</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_debug_outputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="100" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a8f4e09dba5dae2daac3101695ee314eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_auto_init</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_auto_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="125" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7b63fe0e21a4b550efacffcf763e0714" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_ber_loopback</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_ber_loopback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="90" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a8ed6896f622abfdd9f644a926381e036" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_bit_slip</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_bit_slip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="50" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ad48b961e7791f6e8b129e32f033a1dd0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_clock_pre_alignment</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_clock_pre_alignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="110" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1abc099ca1e623035b87dd4c939497342f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_delay_cell_measurement</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_delay_cell_measurement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="60" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1af3534122bfaa9ab2959c45639567a501" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_des_recal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_des_recal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="115" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7b39aa50a5717337ce7dcea5e4789a34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_force_lvds_power_up</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_force_lvds_power_up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="75" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ab8aaeebb369c96503dde13bf8bd026c7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_force_start</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_force_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="80" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a4fc054d448813fd3d6318b8cb6ed1745" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_initialization_master_mode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_initialization_master_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="65" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a63c4875e9958e11d6c4f04443175084c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_loopback_en</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_loopback_en</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="120" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ae70e67796b04474566000978f84c0299" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_manual_training_mode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_manual_training_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="85" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1abdea152f13c52458ee9713a7ad2c30df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_manual_tx_data_valid_for_init</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_manual_tx_data_valid_for_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="70" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a35d231513b3f3521f962a2fc3ab98a04" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::get_enable_transmission_without_idle_pattern</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_transmission_without_idle_pattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="105" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1abda57916077947e9f0fdac5e9600c465" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_manual_delay" kindref="compound">ManualDelay</ref></type>
+        <definition>ManualDelay haldls::vx::detail::PhyConfigBase::get_manual_delay</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_manual_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="55" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aa5eb070b9ac47fdec7b8ccefd17e0fb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias" kindref="compound">VBias</ref></type>
+        <definition>VBias haldls::vx::detail::PhyConfigBase::get_vbias</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_vbias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="95" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a20e9d500345e16cd549655d3a7e8020c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::operator!=</definition>
+        <argsstring>(PhyConfigBase const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base" kindref="compound">PhyConfigBase</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="130" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aacc3d3aa6395a17b5d34856f71f4cc82" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::PhyConfigBase::operator==</definition>
+        <argsstring>(PhyConfigBase const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base" kindref="compound">PhyConfigBase</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="129" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7c96541f903865a5a20c4116af59e17a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_debug_outputs</definition>
+        <argsstring>(DebugOutputs value) SYMBOL_VISIBLE</argsstring>
+        <name>set_debug_outputs</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_debug_outputs" kindref="compound">DebugOutputs</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="102" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7751ef2cc808e7d98bc47a85840941cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_auto_init</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_auto_init</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="127" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a73922e7bcfdcfde50d25b9fd11d53c6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_ber_loopback</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_ber_loopback</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="92" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a674cec3de40ca6955dc8403e4ca9158c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_bit_slip</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_bit_slip</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="52" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a234d6d933bdaf3e4cc5ce3618ba477e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_clock_pre_alignment</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_clock_pre_alignment</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="112" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aaabc665627d59a8a1e1228fb3c2d7372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_delay_cell_measurement</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_delay_cell_measurement</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="62" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a3b5572f865f9a78d124a2911d1b44c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_des_recal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_des_recal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="117" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1acf78a3118a841be924647482137d1cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_force_lvds_power_up</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_force_lvds_power_up</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="77" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a8e95ce25c591da43af3d43aec425e0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_force_start</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_force_start</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="82" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ab358ae6dc3bed6fef9385af9969fdcb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_initialization_master_mode</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_initialization_master_mode</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="67" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a51baf1692d392b3fd0bb73c33228bdcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_loopback_en</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_loopback_en</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="122" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac398e5db519082720228d26b0caf113a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_manual_training_mode</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_manual_training_mode</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="87" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a0732ee24de753c6d086e79a6083f79f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_manual_tx_data_valid_for_init</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_manual_tx_data_valid_for_init</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="72" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a8c6eb3a74785a781d99e0645fb4ba321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_enable_transmission_without_idle_pattern</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_transmission_without_idle_pattern</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="107" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7d834784131c22b332605869b056e386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_manual_delay</definition>
+        <argsstring>(ManualDelay value) SYMBOL_VISIBLE</argsstring>
+        <name>set_manual_delay</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_manual_delay" kindref="compound">ManualDelay</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="57" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1afe8c8879c12bc26c86c26c689823bd5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::set_vbias</definition>
+        <argsstring>(VBias value) SYMBOL_VISIBLE</argsstring>
+        <name>set_vbias</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias" kindref="compound">VBias</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="97" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aa9adef8c537717d79206a021f9dfa753" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::detail::PhyConfigBase::PhyConfigBase</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PhyConfigBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a373c0307a425e871a40af4a128d986ce" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::cerealize_impl</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>cerealize_impl</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="140" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7cd9347f076508f666e9d55622a22039" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t haldls::vx::detail::PhyConfigBase::pack</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>pack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="142" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac2d5a9206220c14ed4bb3f0912154a7a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::PhyConfigBase::unpack</definition>
+        <argsstring>(uint32_t value) SYMBOL_VISIBLE</argsstring>
+        <name>unpack</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="143" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Common base class for PhyConfig of the FPGA- and chip-side PHYs. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::detail::PhyConfigBase</label>
+        <link refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base"/>
+      </node>
+      <node id="3">
+        <label>haldls::vx::PhyConfigFPGA</label>
+        <link refid="classhaldls_1_1vx_1_1_phy_config_f_p_g_a"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::PhyConfigChip</label>
+        <link refid="classhaldls_1_1vx_1_1_phy_config_chip"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>halco::common::detail::RantWrapper&lt; DebugOutputs, uint_fast32_t, 1, 0 &gt;</label>
+      </node>
+      <node id="4">
+        <label>haldls::vx::detail::PhyConfigBase::VBias</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::PhyConfigBase</label>
+        <link refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_debug_outputs</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_vbias</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_manual_delay</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>halco::common::detail::RantWrapper&lt; ManualDelay, uint_fast32_t, 15, 0 &gt;</label>
+      </node>
+      <node id="5">
+        <label>halco::common::detail::RantWrapper&lt; VBias, uint_fast32_t, 7, 0 &gt;</label>
+      </node>
+      <node id="2">
+        <label>haldls::vx::detail::PhyConfigBase::DebugOutputs</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_debug_outputs"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>haldls::vx::detail::PhyConfigBase::ManualDelay</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_manual_delay"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="27" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a373c0307a425e871a40af4a128d986ce" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>cerealize_impl</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac728c4aaf56839dd8d66fcd7f685e08e" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_debug_outputs</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a8f4e09dba5dae2daac3101695ee314eb" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_auto_init</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7b63fe0e21a4b550efacffcf763e0714" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_ber_loopback</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a8ed6896f622abfdd9f644a926381e036" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_bit_slip</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ad48b961e7791f6e8b129e32f033a1dd0" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_clock_pre_alignment</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1abc099ca1e623035b87dd4c939497342f" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_delay_cell_measurement</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1af3534122bfaa9ab2959c45639567a501" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_des_recal</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7b39aa50a5717337ce7dcea5e4789a34" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_force_lvds_power_up</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ab8aaeebb369c96503dde13bf8bd026c7" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_force_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a4fc054d448813fd3d6318b8cb6ed1745" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_initialization_master_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a63c4875e9958e11d6c4f04443175084c" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_loopback_en</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ae70e67796b04474566000978f84c0299" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_manual_training_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1abdea152f13c52458ee9713a7ad2c30df" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_manual_tx_data_valid_for_init</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a35d231513b3f3521f962a2fc3ab98a04" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_enable_transmission_without_idle_pattern</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1abda57916077947e9f0fdac5e9600c465" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_manual_delay</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aa5eb070b9ac47fdec7b8ccefd17e0fb1" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>get_vbias</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a20c8776fdd6351a5bccc99a6614d4f06" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aa2fe957492b1eb677960e81d0fca314b" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_debug_outputs</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a692e5a786a524f24d66b1940c9b24474" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_auto_init</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1add2c60001a31bfbfb148808b32ce96c1" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_ber_loopback</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a551a716ab36ed5244ec7d3e67ea85838" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_bit_slip</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a377cadb91aef67de0e572f96fbe459b6" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_clock_pre_alignment</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a1e40ec5fd029bde821a9098c0f0c5433" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_delay_cell_measurement</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ae6b890c304258733b5cd46f4e73c3998" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_des_recal</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a6f4ba96b7be179e844403d261680f3b9" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_force_lvds_power_up</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a6a53b7b9b868c9c59afa0a1b311c2f66" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_force_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac3922bb644509d99778ffe8d2e6234be" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_initialization_master_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a12e926a4ff9ae212180813bfe82005da" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_loopback_en</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a9f04fbeca0d27c64fd737f99116e0bb0" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_manual_training_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a3525bde9bb75dec82ca6990d6d188464" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_manual_tx_data_valid_for_init</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a36ed81ca8ab47361a005383c61bf29b6" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_enable_transmission_without_idle_pattern</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac0d93c69ed4ba9d47e2dbd468c50192e" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_manual_delay</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a92ae429849b835e91fbda4decbb546ac" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>m_vbias</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a20e9d500345e16cd549655d3a7e8020c" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a065649bdbf8a6ada60db41b55899f0c9" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aacc3d3aa6395a17b5d34856f71f4cc82" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7cd9347f076508f666e9d55622a22039" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>pack</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aa9adef8c537717d79206a021f9dfa753" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>PhyConfigBase</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7c96541f903865a5a20c4116af59e17a" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_debug_outputs</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7751ef2cc808e7d98bc47a85840941cf" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_auto_init</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a73922e7bcfdcfde50d25b9fd11d53c6d" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_ber_loopback</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a674cec3de40ca6955dc8403e4ca9158c" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_bit_slip</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a234d6d933bdaf3e4cc5ce3618ba477e8" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_clock_pre_alignment</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1aaabc665627d59a8a1e1228fb3c2d7372" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_delay_cell_measurement</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a3b5572f865f9a78d124a2911d1b44c85" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_des_recal</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1acf78a3118a841be924647482137d1cd7" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_force_lvds_power_up</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a8e95ce25c591da43af3d43aec425e0b0" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_force_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ab358ae6dc3bed6fef9385af9969fdcb5" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_initialization_master_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a51baf1692d392b3fd0bb73c33228bdcc" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_loopback_en</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac398e5db519082720228d26b0caf113a" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_manual_training_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a0732ee24de753c6d086e79a6083f79f0" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_manual_tx_data_valid_for_init</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a8c6eb3a74785a781d99e0645fb4ba321" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_enable_transmission_without_idle_pattern</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1a7d834784131c22b332605869b056e386" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_manual_delay</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1afe8c8879c12bc26c86c26c689823bd5a" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>set_vbias</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base_1ac2d5a9206220c14ed4bb3f0912154a7a" prot="protected" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase</scope><name>unpack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

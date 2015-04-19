@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::JTAGIdCode::Version</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Version, uint_fast8_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="jtag_8h" local="no">jtag.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version_1a75a7a82230d78c2257fc1e7490de1d90" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::JTAGIdCode::Version::Version</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Version</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="182" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="182" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Hardware revision number, starting from 0. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Version, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::JTAGIdCode::Version</label>
+        <link refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Version, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::JTAGIdCode::Version</label>
+        <link refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" line="178" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/jtag.h" bodystart="181" bodyend="185"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version_1a75a7a82230d78c2257fc1e7490de1d90" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGIdCode::Version</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

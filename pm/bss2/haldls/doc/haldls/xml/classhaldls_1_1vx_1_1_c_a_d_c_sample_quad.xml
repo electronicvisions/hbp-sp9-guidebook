@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CADCSampleQuad</compoundname>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1_1_value" prot="public">haldls::vx::CADCSampleQuad::Value</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8de8d2722268b43e2add559f4068284f" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CADCSampleQuadOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CADCSampleQuadOnDLS haldls::vx::CADCSampleQuad::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="272" column="52" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a67725fa5529ad544813397abbda1da94" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CADCSampleQuad::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="271" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a413713d6c9bb0e2939de44f63bfa2f76" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CADCSampleQuad::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="308" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8e0792285c8870380817c71672705a00" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CADCSampleQuad::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="309" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="320" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1ac1dfd4f143a603c2390f6e44adb0db28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CADCSampleQuad const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad" kindref="compound">CADCSampleQuad</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="306" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a13b292047664c1d91936b440c1483fdc" prot="protected" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="structhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1_1_value" kindref="compound">Value</ref>, halco::hicann_dls::vx::EntryOnQuad &gt;</type>
+        <definition>halco::common::typed_array&lt;Value, halco::hicann_dls::vx::EntryOnQuad&gt; haldls::vx::CADCSampleQuad::m_samples</definition>
+        <argsstring></argsstring>
+        <name>m_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="324" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1ac48b403feaf43f3fd5f6855d1005b01b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CADCSampleQuad::CADCSampleQuad</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CADCSampleQuad</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="286" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a7473a26c1f4013fef806f1f9bacd32ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CADCSampleQuad::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Omnibus, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a413713d6c9bb0e2939de44f63bfa2f76" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="316" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a45a6aee2f740924457bb8ee66c56b2f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8e0792285c8870380817c71672705a00" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Omnibus, write_config_size_in_words&gt; haldls::vx::CADCSampleQuad::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="314" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a2ce80056cb58ed7e404079989586bec7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::CADCSampleQuad::get_sample</definition>
+        <argsstring>(halco::hicann_dls::vx::EntryOnQuad const &amp;coord) const SYMBOL_VISIBLE</argsstring>
+        <name>get_sample</name>
+        <param>
+          <type>halco::hicann_dls::vx::EntryOnQuad const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Get sample value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sample on quad coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1_1_value" kindref="compound">Value</ref> value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="293" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1aca5bcc17aeef66ee7c483c81ed7c1694" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CADCSampleQuad::operator!=</definition>
+        <argsstring>(CADCSampleQuad const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad" kindref="compound">CADCSampleQuad</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="303" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1abb6e489a98a39529688d0767daa93c00" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CADCSampleQuad::operator==</definition>
+        <argsstring>(CADCSampleQuad const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad" kindref="compound">CADCSampleQuad</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="302" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8b77cbfbd0f121dadea5b35248f87164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CADCSampleQuad::set_sample</definition>
+        <argsstring>(halco::hicann_dls::vx::EntryOnQuad const &amp;coord, Value value) SYMBOL_VISIBLE</argsstring>
+        <name>set_sample</name>
+        <param>
+          <type>halco::hicann_dls::vx::EntryOnQuad const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1_1_value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set sample value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sample on quad coordinate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1_1_value" kindref="compound">Value</ref> value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="300" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a737dbf53251fedafecbac6ceb07faf59" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a413713d6c9bb0e2939de44f63bfa2f76" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, read_config_size_in_words&gt; haldls::vx::CADCSampleQuad::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8de8d2722268b43e2add559f4068284f" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="311" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a9ac4174b11dab2495c2cfd37da7bd1b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8e0792285c8870380817c71672705a00" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, write_config_size_in_words&gt; haldls::vx::CADCSampleQuad::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8de8d2722268b43e2add559f4068284f" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="313" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a3dfb9c9f9189b63d6365ee8d6060c5db" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CADCSampleQuad::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="322" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>CADC container of four CADC samples. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" line="268" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/cadc.h" bodystart="269" bodyend="325"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1ac48b403feaf43f3fd5f6855d1005b01b" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>CADCSampleQuad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8de8d2722268b43e2add559f4068284f" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a7473a26c1f4013fef806f1f9bacd32ff" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a45a6aee2f740924457bb8ee66c56b2f9" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a2ce80056cb58ed7e404079989586bec7" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>get_sample</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a67725fa5529ad544813397abbda1da94" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a13b292047664c1d91936b440c1483fdc" prot="protected" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>m_samples</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1aca5bcc17aeef66ee7c483c81ed7c1694" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1ac1dfd4f143a603c2390f6e44adb0db28" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1abb6e489a98a39529688d0767daa93c00" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a737dbf53251fedafecbac6ceb07faf59" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a413713d6c9bb0e2939de44f63bfa2f76" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a3dfb9c9f9189b63d6365ee8d6060c5db" prot="protected" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8b77cbfbd0f121dadea5b35248f87164" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>set_sample</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a9ac4174b11dab2495c2cfd37da7bd1b4" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1a8e0792285c8870380817c71672705a00" prot="public" virt="non-virtual"><scope>haldls::vx::CADCSampleQuad</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

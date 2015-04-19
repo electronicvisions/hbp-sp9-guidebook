@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonPhyConfigFPGA</compoundname>
+    <includes refid="phy_8h" local="no">phy.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a9a2a76fff74d9cb7fb935ddca128c998" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CommonPhyConfigFPGAOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CommonPhyConfigFPGAOnDLS haldls::vx::CommonPhyConfigFPGA::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="266" column="57" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a9f1a366cda9a41cf7e1408803ae5762f" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CommonPhyConfigFPGA::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="267" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a273f432edb4eb51b7b897b224e519f44" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CommonPhyConfigFPGA::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="284" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="293" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1ae87b6f812b07b88181ed4fa699a1d683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CommonPhyConfigFPGA const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a" kindref="compound">CommonPhyConfigFPGA</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="281" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a52ddb771f1b23d8a35bf85731f7c4c49" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::PhyConfigFPGAOnDLS &gt;</type>
+        <definition>halco::common::typed_array&lt;bool, halco::hicann_dls::vx::PhyConfigFPGAOnDLS&gt; haldls::vx::CommonPhyConfigFPGA::m_enable_phy</definition>
+        <argsstring></argsstring>
+        <name>m_enable_phy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="297" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a1884d0c4ece8b9d13ccab93fa1ae2f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CommonPhyConfigFPGA::CommonPhyConfigFPGA</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CommonPhyConfigFPGA</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="270" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a0437a20a11a663f9be02d1ce0082dac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonPhyConfigFPGA::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Omnibus, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a273f432edb4eb51b7b897b224e519f44" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="289" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a9c5513dd33f92635198d5d5524e44409" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a273f432edb4eb51b7b897b224e519f44" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Omnibus, config_size_in_words&gt; haldls::vx::CommonPhyConfigFPGA::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="287" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a7a662b15b6bd854c258d8e43c0a22c72" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonPhyConfigFPGA::get_enable_phy</definition>
+        <argsstring>(halco::hicann_dls::vx::PhyConfigFPGAOnDLS const &amp;coord) const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_phy</name>
+        <param>
+          <type>halco::hicann_dls::vx::PhyConfigFPGAOnDLS const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="272" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a236d3de6b3ea3fa0129d3fab526c9ac6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonPhyConfigFPGA::operator!=</definition>
+        <argsstring>(CommonPhyConfigFPGA const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a" kindref="compound">CommonPhyConfigFPGA</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="278" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1aa45bd48480ec88707356702d53d39aa0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CommonPhyConfigFPGA::operator==</definition>
+        <argsstring>(CommonPhyConfigFPGA const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a" kindref="compound">CommonPhyConfigFPGA</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="277" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a35bd79e3d3debd95fdc4962f5f498192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CommonPhyConfigFPGA::set_enable_phy</definition>
+        <argsstring>(halco::hicann_dls::vx::PhyConfigFPGAOnDLS const &amp;coord, bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_phy</name>
+        <param>
+          <type>halco::hicann_dls::vx::PhyConfigFPGAOnDLS const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="274" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1aa78c7944555e42edc3328bc525b9803a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a273f432edb4eb51b7b897b224e519f44" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, config_size_in_words&gt; haldls::vx::CommonPhyConfigFPGA::addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a9a2a76fff74d9cb7fb935ddca128c998" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="285" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1ae37a7af1d33b92d6de09235a78901488" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CommonPhyConfigFPGA::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="295" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for configuration of enable values for the FPGA-side PHYs. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="263" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="264" bodyend="298"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1aa78c7944555e42edc3328bc525b9803a" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a1884d0c4ece8b9d13ccab93fa1ae2f65" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>CommonPhyConfigFPGA</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a273f432edb4eb51b7b897b224e519f44" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a9a2a76fff74d9cb7fb935ddca128c998" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a0437a20a11a663f9be02d1ce0082dac9" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a9c5513dd33f92635198d5d5524e44409" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a7a662b15b6bd854c258d8e43c0a22c72" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>get_enable_phy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a9f1a366cda9a41cf7e1408803ae5762f" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a52ddb771f1b23d8a35bf85731f7c4c49" prot="private" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>m_enable_phy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a236d3de6b3ea3fa0129d3fab526c9ac6" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1ae87b6f812b07b88181ed4fa699a1d683" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1aa45bd48480ec88707356702d53d39aa0" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1ae37a7af1d33b92d6de09235a78901488" prot="private" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a_1a35bd79e3d3debd95fdc4962f5f498192" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPhyConfigFPGA</scope><name>set_enable_phy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_external_p_p_u_memory_byte_1_1_value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ExternalPPUMemoryByte::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::BaseType&lt; Value, uint8_t &gt;</basecompoundref>
+    <includes refid="fpga_8h" local="no">fpga.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_external_p_p_u_memory_byte_1_1_value_1a6ade103da1d80d06d3b9bd91bceb9fa9" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::ExternalPPUMemoryByte::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="209" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="209" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::BaseType&lt; Value, uint8_t &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ExternalPPUMemoryByte::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_external_p_p_u_memory_byte_1_1_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::BaseType&lt; Value, uint8_t &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ExternalPPUMemoryByte::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_external_p_p_u_memory_byte_1_1_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="206" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="208" bodyend="210"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_external_p_p_u_memory_byte_1_1_value_1a6ade103da1d80d06d3b9bd91bceb9fa9" prot="public" virt="non-virtual"><scope>haldls::vx::ExternalPPUMemoryByte::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

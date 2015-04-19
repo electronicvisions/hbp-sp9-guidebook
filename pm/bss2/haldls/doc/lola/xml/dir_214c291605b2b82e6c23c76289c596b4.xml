@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_214c291605b2b82e6c23c76289c596b4" kind="dir">
+    <compoundname>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx</compoundname>
+    <innerdir refid="dir_139dba3fb32f9c147aa086f8ec4f6572">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2</innerdir>
+    <innerdir refid="dir_c0853da24bdc4c9c7b05bed1836c885f">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3</innerdir>
+    <innerfile refid="cadc_8h">cadc.h</innerfile>
+    <innerfile refid="capmem_8h">capmem.h</innerfile>
+    <innerfile refid="cerealization_8h">cerealization.h</innerfile>
+    <innerfile refid="dac_8h">dac.h</innerfile>
+    <innerfile refid="genpybind_8h">genpybind.h</innerfile>
+    <innerfile refid="gray__scale_8h">gray_scale.h</innerfile>
+    <innerfile refid="hana_8h">hana.h</innerfile>
+    <innerfile refid="memory__timing_8h">memory_timing.h</innerfile>
+    <innerfile refid="ppu_8h">ppu.h</innerfile>
+    <innerfile refid="readout__chain_8h">readout_chain.h</innerfile>
+    <innerfile refid="routing__crossbar_8h">routing_crossbar.h</innerfile>
+    <innerfile refid="synapse_8h">synapse.h</innerfile>
+    <innerfile refid="synapse__block_8h">synapse_block.h</innerfile>
+    <innerfile refid="synapse__driver_8h">synapse_driver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/"/>
+  </compounddef>
+</doxygen>

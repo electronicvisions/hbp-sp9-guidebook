@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::v2::AtomicNeuron::EventRouting</compoundname>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1aedae5fe77cc67eea2abd4f17b12b802b" prot="public" static="no">
+        <type>haldls::vx::v2::NeuronBackendConfig::AddressOut</type>
+        <definition>typedef haldls::vx::v2::NeuronBackendConfig::AddressOut lola::vx::v2::AtomicNeuron::EventRouting::Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="285" column="57" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="enum" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1adbee80723947bbe5850f5047e32ff24d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AnalogOutputMode</name>
+        <enumvalue id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1adbee80723947bbe5850f5047e32ff24da3262d48df5d75e3452f0f16b313b7808" prot="public">
+          <name>off</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1adbee80723947bbe5850f5047e32ff24dafea087517c26fadd409bd4b9dc642555" prot="public">
+          <name>normal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1adbee80723947bbe5850f5047e32ff24da6f7f9432d35dea629c8384dab312259a" prot="public">
+          <name>strong</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Analog output (off/normal/strong) settings. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Non-off states enable event output from the analog part. This setting also affects the bypass circuits. &quot;Strong&quot; increases the strength of the analog part&apos;s pulse. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="293" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="294" bodyend="298"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a3cc5acf51b38d3ab8996121d020cc6a8" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1aedae5fe77cc67eea2abd4f17b12b802b" kindref="member">Address</ref></type>
+        <definition>Address lola::vx::v2::AtomicNeuron::EventRouting::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+<para>Lower 8 bit of address sent on event output. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="310" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a279c84d9b34ba02410bfb9ba7eaf86f4" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1adbee80723947bbe5850f5047e32ff24d" kindref="member">lola::vx::v2::AtomicNeuron::EventRouting::AnalogOutputMode</ref></type>
+        <definition>enum lola::vx::v2::AtomicNeuron::EventRouting::AnalogOutputMode lola::vx::v2::AtomicNeuron::EventRouting::analog_output</definition>
+        <argsstring></argsstring>
+        <name>analog_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="298" column="15"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a9f30b79e4e30ff53ffca1bd25edd82df" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::EventRouting::enable_bypass_excitatory</definition>
+        <argsstring></argsstring>
+        <name>enable_bypass_excitatory</name>
+        <briefdescription>
+<para>Enable excitatory bypass circuit. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="304" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a43d27e71c6c5f386d7c1df4d1c70c3b6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::EventRouting::enable_bypass_inhibitory</definition>
+        <argsstring></argsstring>
+        <name>enable_bypass_inhibitory</name>
+        <briefdescription>
+<para>Enable inhibitory bypass circuit. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="307" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1aea704518fab61b845eed7caa17b6095f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::EventRouting::enable_digital</definition>
+        <argsstring></argsstring>
+        <name>enable_digital</name>
+        <briefdescription>
+<para>Enable sending a spike packet out of the digital backend. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="301" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1af19f51493a8397c6fedd185d5478bf02" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::EventRouting::enable_post_overwrite</definition>
+        <argsstring></argsstring>
+        <name>enable_post_overwrite</name>
+        <briefdescription>
+<para>Enable usage of external post pulses reaching the synapses exclusively. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If disabled, the internal neuron spikes reach the synapses. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="316" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a87f95017f772b746c24966c8ff7222ca" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kindref="compound">EventRouting</ref> disabled</type>
+        <definition>const EventRouting disabled lola::vx::v2::AtomicNeuron::EventRouting::SYMBOL_VISIBLE</definition>
+        <argsstring></argsstring>
+        <name>SYMBOL_VISIBLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="326" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a04ffdc28b501a9efbd663b2b56a0c3ba" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kindref="compound">EventRouting</ref> enabled</type>
+        <definition>const EventRouting enabled lola::vx::v2::AtomicNeuron::EventRouting::SYMBOL_VISIBLE</definition>
+        <argsstring></argsstring>
+        <name>SYMBOL_VISIBLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="327" column="35" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1aa96c00b46d2b111c261918508d688bab" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kindref="compound">EventRouting</ref> bypass_exc</type>
+        <definition>const EventRouting bypass_exc lola::vx::v2::AtomicNeuron::EventRouting::SYMBOL_VISIBLE</definition>
+        <argsstring></argsstring>
+        <name>SYMBOL_VISIBLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="328" column="38" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1ae38a783580566a7492f641be9feb5a62" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kindref="compound">EventRouting</ref> bypass_inh</type>
+        <definition>const EventRouting bypass_inh lola::vx::v2::AtomicNeuron::EventRouting::SYMBOL_VISIBLE</definition>
+        <argsstring></argsstring>
+        <name>SYMBOL_VISIBLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="329" column="38" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1ab9f50faf3c9a3e7740ad79826572a0ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v2::AtomicNeuron::EventRouting::EventRouting</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>EventRouting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="283" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a98583d158e0d8f3d94853eee65336af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v2::AtomicNeuron::EventRouting::EventRouting</definition>
+        <argsstring>(AnalogOutputMode analog_output, bool enable_digital, bool enable_bypass_excitatory, bool enable_bypass_inhibitory, Address address, bool enable_post_overwrite) SYMBOL_VISIBLE</argsstring>
+        <name>EventRouting</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1adbee80723947bbe5850f5047e32ff24d" kindref="member">AnalogOutputMode</ref></type>
+          <declname>analog_output</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable_digital</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable_bypass_excitatory</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable_bypass_inhibitory</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1aedae5fe77cc67eea2abd4f17b12b802b" kindref="member">Address</ref></type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable_post_overwrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="318" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a62ef295bef86a48d6c25c91e476270e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::EventRouting::operator!=</definition>
+        <argsstring>(EventRouting const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kindref="compound">EventRouting</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="332" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1ac55cd9de5019762d3b58fe9bf1650dcc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::EventRouting::operator==</definition>
+        <argsstring>(EventRouting const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kindref="compound">EventRouting</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="331" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a12981e40973d89f55a2ee7438b539391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, EventRouting const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kindref="compound">EventRouting</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="335" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>lola::vx::v2::AtomicNeuron::EventRouting</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>SYMBOL_VISIBLE</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="281" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="282" bodyend="337"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1aedae5fe77cc67eea2abd4f17b12b802b" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>Address</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a3cc5acf51b38d3ab8996121d020cc6a8" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>address</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a279c84d9b34ba02410bfb9ba7eaf86f4" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>analog_output</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1adbee80723947bbe5850f5047e32ff24d" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>AnalogOutputMode</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a9f30b79e4e30ff53ffca1bd25edd82df" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>enable_bypass_excitatory</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a43d27e71c6c5f386d7c1df4d1c70c3b6" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>enable_bypass_inhibitory</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1aea704518fab61b845eed7caa17b6095f" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>enable_digital</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1af19f51493a8397c6fedd185d5478bf02" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>enable_post_overwrite</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1ab9f50faf3c9a3e7740ad79826572a0ed" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>EventRouting</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a98583d158e0d8f3d94853eee65336af6" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>EventRouting</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a62ef295bef86a48d6c25c91e476270e6" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a12981e40973d89f55a2ee7438b539391" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1ac55cd9de5019762d3b58fe9bf1650dcc" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a87f95017f772b746c24966c8ff7222ca" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>SYMBOL_VISIBLE</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1a04ffdc28b501a9efbd663b2b56a0c3ba" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>SYMBOL_VISIBLE</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1aa96c00b46d2b111c261918508d688bab" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>SYMBOL_VISIBLE</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing_1ae38a783580566a7492f641be9feb5a62" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::EventRouting</scope><name>SYMBOL_VISIBLE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

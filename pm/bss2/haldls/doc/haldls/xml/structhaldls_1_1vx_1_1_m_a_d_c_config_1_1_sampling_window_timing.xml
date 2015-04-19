@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::MADCConfig::SamplingWindowTiming</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; SamplingWindowTiming, uint_fast8_t, 31, 0 &gt;</basecompoundref>
+    <includes refid="madc_8h" local="no">madc.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing_1a402308d6a5eab4d18f0f6c4e34d5b711" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::MADCConfig::SamplingWindowTiming::SamplingWindowTiming</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>SamplingWindowTiming</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="208" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="208" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; SamplingWindowTiming, uint_fast8_t, 31, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::MADCConfig::SamplingWindowTiming</label>
+        <link refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; SamplingWindowTiming, uint_fast8_t, 31, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::MADCConfig::SamplingWindowTiming</label>
+        <link refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="205" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="207" bodyend="211"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing_1a402308d6a5eab4d18f0f6c4e34d5b711" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig::SamplingWindowTiming</scope><name>SamplingWindowTiming</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

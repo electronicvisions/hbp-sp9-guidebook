@@ -1,0 +1,1381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_neuron_block" kind="class" language="C++" prot="private">
+    <compoundname>NeuronBlock</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_neuron_block_1aef6dc0f1b640c44890eb204436a8960c" prot="public" static="no">
+        <type>haldls::vx::v2::CapMemCell::DisableRefresh</type>
+        <definition>typedef haldls::vx::v2::CapMemCell::DisableRefresh NeuronBlock::AnalogDisableRefresh</definition>
+        <argsstring></argsstring>
+        <name>AnalogDisableRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="515" column="52" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a5de68f1674f29e146de01c9980c7f60a" prot="public" static="no">
+        <type>haldls::vx::v3::CapMemCell::DisableRefresh</type>
+        <definition>typedef haldls::vx::v3::CapMemCell::DisableRefresh NeuronBlock::AnalogDisableRefresh</definition>
+        <argsstring></argsstring>
+        <name>AnalogDisableRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="524" column="52" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1aea2b4dc0bdd6ad19313a205a810055e1" prot="public" static="no">
+        <type>haldls::vx::v2::CapMemCell::Value</type>
+        <definition>typedef haldls::vx::v2::CapMemCell::Value NeuronBlock::AnalogValue</definition>
+        <argsstring></argsstring>
+        <name>AnalogValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="514" column="43" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="514" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a538d9ecb0c1e317fa56acf65eb61751a" prot="public" static="no">
+        <type>haldls::vx::v3::CapMemCell::Value</type>
+        <definition>typedef haldls::vx::v3::CapMemCell::Value NeuronBlock::AnalogValue</definition>
+        <argsstring></argsstring>
+        <name>AnalogValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="523" column="43" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a992cdd8400ef301164a2437a1f751e1e" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="v3_2neuron_8h_1a7723845027df25bec5b1d8122b9e27f0" kindref="member">AnalogValueVariant</ref>, halco::hicann_dls::vx::v2::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;AnalogValueVariant, halco::hicann_dls::vx::v2::CapMemBlockOnDLS&gt; NeuronBlock::AnalogValues</definition>
+        <argsstring></argsstring>
+        <name>AnalogValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="553" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1aa1121dd3dfcbe76879faf6c6542a089d" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="v3_2neuron_8h_1a7723845027df25bec5b1d8122b9e27f0" kindref="member">AnalogValueVariant</ref>, halco::hicann_dls::vx::v3::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;AnalogValueVariant, halco::hicann_dls::vx::v3::CapMemBlockOnDLS&gt; NeuronBlock::AnalogValues</definition>
+        <argsstring></argsstring>
+        <name>AnalogValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="562" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a86f22864bd4c43e029cff91d0dacedbf" prot="public" static="no">
+        <type>haldls::vx::v2::CapMemCell::value_type</type>
+        <definition>typedef haldls::vx::v2::CapMemCell::value_type NeuronBlock::AnalogValueVariant</definition>
+        <argsstring></argsstring>
+        <name>AnalogValueVariant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="516" column="48" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a95440c5aabec4adb309c542ed7ae5167" prot="public" static="no">
+        <type>haldls::vx::v3::CapMemCell::value_type</type>
+        <definition>typedef haldls::vx::v3::CapMemCell::value_type NeuronBlock::AnalogValueVariant</definition>
+        <argsstring></argsstring>
+        <name>AnalogValueVariant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="525" column="48" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1ac6ee1f34f8b8fe5152c38ca08a8a2301" prot="public" static="no">
+        <type>halco::common::typed_heap_array&lt; <ref refid="v3_2neuron_8h_1ae57b11d6885be576c29559edbdeabc26" kindref="member">AtomicNeuron</ref>, halco::hicann_dls::vx::v2::AtomicNeuronOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_heap_array&lt;AtomicNeuron, halco::hicann_dls::vx::v2::AtomicNeuronOnDLS&gt; NeuronBlock::AtomicNeurons</definition>
+        <argsstring></argsstring>
+        <name>AtomicNeurons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="525" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a47d05839fc0ee8c2f091e07ac74dad66" prot="public" static="no">
+        <type>halco::common::typed_heap_array&lt; <ref refid="v3_2neuron_8h_1ae57b11d6885be576c29559edbdeabc26" kindref="member">AtomicNeuron</ref>, halco::hicann_dls::vx::v3::AtomicNeuronOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_heap_array&lt;AtomicNeuron, halco::hicann_dls::vx::v3::AtomicNeuronOnDLS&gt; NeuronBlock::AtomicNeurons</definition>
+        <argsstring></argsstring>
+        <name>AtomicNeurons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="534" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a28ced52316cd9bcd78d573a81eeb0465" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v2::CommonNeuronBackendConfig, halco::hicann_dls::vx::v2::CommonNeuronBackendConfigOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::v2::CommonNeuronBackendConfig, halco::hicann_dls::vx::v2::CommonNeuronBackendConfigOnDLS&gt; NeuronBlock::Backends</definition>
+        <argsstring></argsstring>
+        <name>Backends</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="534" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1aa08915873d9986460bfc68fa24806cae" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v3::CommonNeuronBackendConfig, halco::hicann_dls::vx::v3::CommonNeuronBackendConfigOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::v3::CommonNeuronBackendConfig, halco::hicann_dls::vx::v3::CommonNeuronBackendConfigOnDLS&gt; NeuronBlock::Backends</definition>
+        <argsstring></argsstring>
+        <name>Backends</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="543" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="543" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a2a1daa894c887ce22439cfadc715a778" prot="public" static="no">
+        <type>halco::hicann_dls::vx::v2::NeuronBlockOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::v2::NeuronBlockOnDLS NeuronBlock::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="518" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a980271eec3526e615f8654204b52a166" prot="public" static="no">
+        <type>halco::hicann_dls::vx::v3::NeuronBlockOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::v3::NeuronBlockOnDLS NeuronBlock::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="527" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="527" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1adbdd49a17f1ab74dbb1322f7ff784017" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="namespacelola_1_1vx_1_1v2_1a8617e362094f999a46fe92f48341a596" kindref="member">lola::vx::v2::ColumnCurrentRow</ref>, halco::hicann_dls::vx::v2::ColumnCurrentRowOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; lola::vx::v2::ColumnCurrentRow, halco::hicann_dls::vx::v2::ColumnCurrentRowOnDLS&gt; NeuronBlock::CurrentRows</definition>
+        <argsstring></argsstring>
+        <name>CurrentRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="544" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a9ce660f72602a0e1488773929ba62917" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="namespacelola_1_1vx_1_1v3_1a7e9ec68a325c83518c13c551c8793ed5" kindref="member">lola::vx::v3::ColumnCurrentRow</ref>, halco::hicann_dls::vx::v3::ColumnCurrentRowOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; lola::vx::v3::ColumnCurrentRow, halco::hicann_dls::vx::v3::ColumnCurrentRowOnDLS&gt; NeuronBlock::CurrentRows</definition>
+        <argsstring></argsstring>
+        <name>CurrentRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="553" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a51195d3c144567ccdb6ab1fe6b36d9d6" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type NeuronBlock::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="519" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_neuron_block_1a51195d3c144567ccdb6ab1fe6b36d9d6" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type NeuronBlock::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="528" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="528" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_neuron_block_1ab4b029d73bcd645c59f35038be60135b" prot="public" static="no" mutable="no">
+        <type>AtomicNeurons</type>
+        <definition>AtomicNeurons NeuronBlock::atomic_neurons</definition>
+        <argsstring></argsstring>
+        <name>atomic_neurons</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Array of all neuron circuits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="529" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_neuron_block_1a40e3197748ce895e3d95a5d9ed8979ab" prot="public" static="no" mutable="no">
+        <type>Backends</type>
+        <definition>Backends NeuronBlock::backends</definition>
+        <argsstring></argsstring>
+        <name>backends</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Block-wise digital backend configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="539" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_neuron_block_1adf2e43d1ca06972a58d7de1fbaa42f27" prot="public" static="no" mutable="no">
+        <type>CurrentRows</type>
+        <definition>CurrentRows NeuronBlock::current_rows</definition>
+        <argsstring></argsstring>
+        <name>current_rows</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Switch-rows to synapse arrays. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="549" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_neuron_block_1a997434bc6aaa0bdb8d1b440f15093c13" prot="public" static="no" mutable="no">
+        <type>AnalogValues</type>
+        <definition>AnalogValues NeuronBlock::i_bias_leak_source_follower</definition>
+        <argsstring></argsstring>
+        <name>i_bias_leak_source_follower</name>
+        <initializer>{
+	    <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{100}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{100}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{100}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{100}}</initializer>
+        <briefdescription>
+<para>Bias current for the leak/reset input voltage drop source follower. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="569" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_neuron_block_1a0c733f06b4ca7f88239bdf10ca2a0a5b" prot="public" static="no" mutable="no">
+        <type>AnalogValues</type>
+        <definition>AnalogValues NeuronBlock::i_bias_readout_amp</definition>
+        <argsstring></argsstring>
+        <name>i_bias_readout_amp</name>
+        <initializer>{
+	    <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{110}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{110}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{110}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{110}}</initializer>
+        <briefdescription>
+<para>Bias current for the neuron&apos;s readout amplifier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="563" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_neuron_block_1a2c3ed3a9b67c4b99e2c5204606527745" prot="public" static="no" mutable="no">
+        <type>AnalogValues</type>
+        <definition>AnalogValues NeuronBlock::i_bias_synin_drop</definition>
+        <argsstring></argsstring>
+        <name>i_bias_synin_drop</name>
+        <initializer>{
+	    <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{300}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{300}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{300}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{300}}</initializer>
+        <briefdescription>
+<para>Bias current for the source follower controlling the drop of the voltage on the synaptic line before the OTA&apos;s input. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="591" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="591" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_neuron_block_1a365c64b99a75e52bc9d8c3fc5811e67d" prot="public" static="no" mutable="no">
+        <type>AnalogValues</type>
+        <definition>AnalogValues NeuronBlock::i_bias_threshold_comparator</definition>
+        <argsstring></argsstring>
+        <name>i_bias_threshold_comparator</name>
+        <initializer>{
+	    <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{200}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{200}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{200}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{200}}</initializer>
+        <briefdescription>
+<para>Bias current for the threshold comparator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="575" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_neuron_block_1a9318bff1fd8c3a1484269a1a14dd0a0b" prot="public" static="no" mutable="no">
+        <type>AnalogValues</type>
+        <definition>AnalogValues NeuronBlock::v_bias_casc_n</definition>
+        <argsstring></argsstring>
+        <name>v_bias_casc_n</name>
+        <initializer>{
+	    <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{250}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{250}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{250}, <ref refid="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" kindref="member">AnalogValue</ref>{250}}</initializer>
+        <briefdescription>
+<para>Cascode bias potential for various OTAs within the neuron. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="557" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="557" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_neuron_block_1af65173baf7ffa1cf2d524455a1f8f99e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NeuronBlock::NeuronBlock</definition>
+        <argsstring>()=default</argsstring>
+        <name>NeuronBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="521" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1af65173baf7ffa1cf2d524455a1f8f99e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NeuronBlock::NeuronBlock</definition>
+        <argsstring>()=default</argsstring>
+        <name>NeuronBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="530" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a91495f52ebdfb4d99cf695131db9e7dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;__getitem__&quot;, &amp;::lola::vx::v2::NeuronBlock::AnalogValues::get, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;), parent-&gt;py::return_value_policy::reference)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__getitem__&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::v2::NeuronBlock::AnalogValues::get</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <param>
+          <type>parent-&gt;py::return_value_policy::reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a55404c154b34063894218f4c32fc7759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;__getitem__&quot;, &amp;::lola::vx::v3::NeuronBlock::AnalogValues::get, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;), parent-&gt;py::return_value_policy::reference)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__getitem__&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::v3::NeuronBlock::AnalogValues::get</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <param>
+          <type>parent-&gt;py::return_value_policy::reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a5daad8f0f6c20778ec86989c2f6954cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;__iter__&quot;, [av](::lola::vx::v2::NeuronBlock::AnalogValues &amp;self) { return pybind11::make_iterator(self);}, parent-&gt;py::template keep_alive&lt; 0, 1 &gt;())</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__iter__&quot;</type>
+        </param>
+        <param>
+          <attributes>[av]</attributes>
+          <type>(::lola::vx::v2::NeuronBlock::AnalogValues &amp;self) { return pybind11::make_iterator(self);}</type>
+        </param>
+        <param>
+          <type>parent-&gt;py::template keep_alive&lt; 0, 1 &gt;</type>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1aed71deb16c375ebb19d4d5b6629054cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;__iter__&quot;, [av](::lola::vx::v3::NeuronBlock::AnalogValues &amp;self) { return pybind11::make_iterator(self);}, parent-&gt;py::template keep_alive&lt; 0, 1 &gt;())</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__iter__&quot;</type>
+        </param>
+        <param>
+          <attributes>[av]</attributes>
+          <type>(::lola::vx::v3::NeuronBlock::AnalogValues &amp;self) { return pybind11::make_iterator(self);}</type>
+        </param>
+        <param>
+          <type>parent-&gt;py::template keep_alive&lt; 0, 1 &gt;</type>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1abef3158e20684fcc25d56fcef9002fad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;__setitem__&quot;, &amp;::lola::vx::v2::NeuronBlock::AnalogValues::set, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;), parent-&gt;py::arg(&quot;value&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__setitem__&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::v2::NeuronBlock::AnalogValues::set</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;value&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a4a4fa136fa1547d290b05909b3dd3ea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;__setitem__&quot;, &amp;::lola::vx::v3::NeuronBlock::AnalogValues::set, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;), parent-&gt;py::arg(&quot;value&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;__setitem__&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::v3::NeuronBlock::AnalogValues::set</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;value&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1ac54ce1f6e8070cf72a00ed90f8639067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;at&quot;,(genpybind_at_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::at, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;at&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_at_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::at</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1ac54ce1f6e8070cf72a00ed90f8639067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;at&quot;,(genpybind_at_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::at, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;at&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_at_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::at</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a5e44fbf548a1216b293d54da16338fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;at&quot;,(genpybind_at_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::at, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;at&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_at_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::at</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a5e44fbf548a1216b293d54da16338fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;at&quot;,(genpybind_at_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::at, &quot;&quot;, parent-&gt;py::arg(&quot;key&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;at&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_at_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::at</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;key&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a1e58f814343181d4706fe78b7ee790b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;back&quot;,(genpybind_back_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::back, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;back&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_back_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::back</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a1e58f814343181d4706fe78b7ee790b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;back&quot;,(genpybind_back_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::back, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;back&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_back_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::back</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a88980cb29b8122a2d834529b3bd9c1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;back&quot;,(genpybind_back_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::back, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;back&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_back_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::back</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a88980cb29b8122a2d834529b3bd9c1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;back&quot;,(genpybind_back_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::back, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;back&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_back_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::back</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a7c620c6de15cb314f01338e7f2df17ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;fill&quot;, &amp;::lola::vx::v2::NeuronBlock::AnalogValues::fill, &quot;&quot;, parent-&gt;py::arg(&quot;val&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;fill&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::v2::NeuronBlock::AnalogValues::fill</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;val&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a78382258fb42438374c7783aa91ef4b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;fill&quot;, &amp;::lola::vx::v3::NeuronBlock::AnalogValues::fill, &quot;&quot;, parent-&gt;py::arg(&quot;val&quot;))</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;fill&quot;</type>
+        </param>
+        <param>
+          <type>&amp;::lola::vx::v3::NeuronBlock::AnalogValues::fill</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::arg</declname>
+          <array>&quot;val&quot;</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="4"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1adbe1c2497c7997337eee519dc4cfe65b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;from_numpy&quot;, [](::lola::vx::v2::NeuronBlock::AnalogValues &amp;self, pybind11::array const &amp;array) { ::halco::common::detail::from_numpy(self, array);})</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;from_numpy&quot;</type>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>(::lola::vx::v2::NeuronBlock::AnalogValues &amp;self, pybind11::array const &amp;array) { ::halco::common::detail::from_numpy(self, array);}</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1ae532f4e721616e657d2a3c5c9b8835b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;from_numpy&quot;, [](::lola::vx::v3::NeuronBlock::AnalogValues &amp;self, pybind11::array const &amp;array) { ::halco::common::detail::from_numpy(self, array);})</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;from_numpy&quot;</type>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>(::lola::vx::v3::NeuronBlock::AnalogValues &amp;self, pybind11::array const &amp;array) { ::halco::common::detail::from_numpy(self, array);}</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1aca2b1426475ae0882c0151464167299f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;front&quot;,(genpybind_front_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::front, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;front&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_front_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::front</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1aca2b1426475ae0882c0151464167299f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;front&quot;,(genpybind_front_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::front, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;front&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_front_type) &amp;::lola::vx::v2::NeuronBlock::AnalogValues::front</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a161148d3124a8dba74c7ab1969f03648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;front&quot;,(genpybind_front_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::front, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;front&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_front_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::front</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a161148d3124a8dba74c7ab1969f03648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;front&quot;,(genpybind_front_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::front, &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;front&quot;</type>
+        </param>
+        <param>
+          <type>(genpybind_front_type) &amp;::lola::vx::v3::NeuronBlock::AnalogValues::front</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a9e3f666f4d6a6043d0331e6539a693ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;to_numpy&quot;, [](::lola::vx::v2::NeuronBlock::AnalogValues const &amp;self) { return ::halco::common::detail::to_numpy(self);})</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;to_numpy&quot;</type>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>(::lola::vx::v2::NeuronBlock::AnalogValues const &amp;self) { return ::halco::common::detail::to_numpy(self);}</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1ad478ecc5c077b97a8e564ab590daa72c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(&quot;to_numpy&quot;, [](::lola::vx::v3::NeuronBlock::AnalogValues const &amp;self) { return ::halco::common::detail::to_numpy(self);})</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;to_numpy&quot;</type>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>(::lola::vx::v3::NeuronBlock::AnalogValues const &amp;self) { return ::halco::common::detail::to_numpy(self);}</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1ae554cf8da8a497493f431f3afa14406f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(parent-&gt;py::template init&lt; const ::lola::vx::v2::NeuronBlock::AnalogValues &amp; &gt;(), &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>parent-&gt;py::template init&lt; const ::lola::vx::v2::NeuronBlock::AnalogValues &amp; &gt;</type>
+          <array>()</array>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a01bc6ec1ea519282fa3a3b0092be6310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(parent-&gt;py::template init&lt; const ::lola::vx::v3::NeuronBlock::AnalogValues &amp; &gt;(), &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>parent-&gt;py::template init&lt; const ::lola::vx::v3::NeuronBlock::AnalogValues &amp; &gt;</type>
+          <array>()</array>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a4ad866c5f37d9c8286d8511851f1a442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(parent-&gt;py::template init&lt;&gt;(), &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>parent-&gt;py::template init&lt;&gt;</type>
+          <array>()</array>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a4ad866c5f37d9c8286d8511851f1a442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def</definition>
+        <argsstring>(parent-&gt;py::template init&lt;&gt;(), &quot;&quot;)</argsstring>
+        <name>def</name>
+        <param>
+          <type>parent-&gt;py::template init&lt;&gt;</type>
+          <array>()</array>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1aab73aff502435f607ba6d6ca2688c8ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def_property_readonly</definition>
+        <argsstring>(&quot;empty&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::v2::NeuronBlock::AnalogValues::empty))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;empty&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::v2::NeuronBlock::AnalogValues::empty</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="339"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a99f34d3d31083e6723dc28d8abc45fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def_property_readonly</definition>
+        <argsstring>(&quot;empty&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::v3::NeuronBlock::AnalogValues::empty))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;empty&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::v3::NeuronBlock::AnalogValues::empty</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="339"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a61fe519621c040a984006abc865f97e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def_property_readonly</definition>
+        <argsstring>(&quot;max_size&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::v2::NeuronBlock::AnalogValues::max_size))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;max_size&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::v2::NeuronBlock::AnalogValues::max_size</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1aaad4dd40499fbc789cb6fcee011699ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def_property_readonly</definition>
+        <argsstring>(&quot;max_size&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::v3::NeuronBlock::AnalogValues::max_size))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;max_size&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::v3::NeuronBlock::AnalogValues::max_size</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1aaf1b035c6c858745ec58d99c476b0cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def_property_readonly</definition>
+        <argsstring>(&quot;size&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::v2::NeuronBlock::AnalogValues::size))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;size&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::v2::NeuronBlock::AnalogValues::size</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="665" column="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a31390e5e66bc1ccce0ddd0e41ed6d497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>av</type>
+        <definition>av NeuronBlock::def_property_readonly</definition>
+        <argsstring>(&quot;size&quot;, parent-&gt;py::cpp_function(&amp;::lola::vx::v3::NeuronBlock::AnalogValues::size))</argsstring>
+        <name>def_property_readonly</name>
+        <param>
+          <type>&quot;size&quot;</type>
+        </param>
+        <param>
+          <type>parent-&gt;</type>
+          <declname>py::cpp_function</declname>
+          <array>&amp;::lola::vx::v3::NeuronBlock::AnalogValues::size</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="681" column="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1af53e2335ffa3377abf89c12ce842e7cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NeuronBlock::operator!=</definition>
+        <argsstring>(NeuronBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>NeuronBlock const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="579" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1af53e2335ffa3377abf89c12ce842e7cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NeuronBlock::operator!=</definition>
+        <argsstring>(NeuronBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>NeuronBlock const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="595" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a19ae268d91fec6aba94b52379159cce0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NeuronBlock::operator==</definition>
+        <argsstring>(NeuronBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>NeuronBlock const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="578" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_neuron_block_1a19ae268d91fec6aba94b52379159cce0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NeuronBlock::operator==</definition>
+        <argsstring>(NeuronBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>NeuronBlock const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="594" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_neuron_block_1a7cfd4d1aa8917262fe4150a3d50bf101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, NeuronBlock const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>NeuronBlock const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="582" column="8"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_neuron_block_1a7cfd4d1aa8917262fe4150a3d50bf101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, NeuronBlock const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>NeuronBlock const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="598" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Neuron block of all neurons on one chip including switches to synapses and global parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="511" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="512" bodyend="665"/>
+    <listofallmembers>
+      <member refid="class_neuron_block_1aef6dc0f1b640c44890eb204436a8960c" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AnalogDisableRefresh</name></member>
+      <member refid="class_neuron_block_1a5de68f1674f29e146de01c9980c7f60a" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AnalogDisableRefresh</name></member>
+      <member refid="class_neuron_block_1aea2b4dc0bdd6ad19313a205a810055e1" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AnalogValue</name></member>
+      <member refid="class_neuron_block_1a538d9ecb0c1e317fa56acf65eb61751a" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AnalogValue</name></member>
+      <member refid="class_neuron_block_1a992cdd8400ef301164a2437a1f751e1e" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AnalogValues</name></member>
+      <member refid="class_neuron_block_1aa1121dd3dfcbe76879faf6c6542a089d" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AnalogValues</name></member>
+      <member refid="class_neuron_block_1a86f22864bd4c43e029cff91d0dacedbf" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AnalogValueVariant</name></member>
+      <member refid="class_neuron_block_1a95440c5aabec4adb309c542ed7ae5167" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AnalogValueVariant</name></member>
+      <member refid="class_neuron_block_1ab4b029d73bcd645c59f35038be60135b" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>atomic_neurons</name></member>
+      <member refid="class_neuron_block_1ac6ee1f34f8b8fe5152c38ca08a8a2301" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AtomicNeurons</name></member>
+      <member refid="class_neuron_block_1a47d05839fc0ee8c2f091e07ac74dad66" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>AtomicNeurons</name></member>
+      <member refid="class_neuron_block_1a28ced52316cd9bcd78d573a81eeb0465" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>Backends</name></member>
+      <member refid="class_neuron_block_1aa08915873d9986460bfc68fa24806cae" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>Backends</name></member>
+      <member refid="class_neuron_block_1a40e3197748ce895e3d95a5d9ed8979ab" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>backends</name></member>
+      <member refid="class_neuron_block_1a2a1daa894c887ce22439cfadc715a778" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>coordinate_type</name></member>
+      <member refid="class_neuron_block_1a980271eec3526e615f8654204b52a166" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>coordinate_type</name></member>
+      <member refid="class_neuron_block_1adf2e43d1ca06972a58d7de1fbaa42f27" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>current_rows</name></member>
+      <member refid="class_neuron_block_1adbdd49a17f1ab74dbb1322f7ff784017" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>CurrentRows</name></member>
+      <member refid="class_neuron_block_1a9ce660f72602a0e1488773929ba62917" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>CurrentRows</name></member>
+      <member refid="class_neuron_block_1a7c620c6de15cb314f01338e7f2df17ea" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1ac54ce1f6e8070cf72a00ed90f8639067" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1ac54ce1f6e8070cf72a00ed90f8639067" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1aca2b1426475ae0882c0151464167299f" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1aca2b1426475ae0882c0151464167299f" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a1e58f814343181d4706fe78b7ee790b6" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a1e58f814343181d4706fe78b7ee790b6" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a91495f52ebdfb4d99cf695131db9e7dd" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1abef3158e20684fcc25d56fcef9002fad" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a5daad8f0f6c20778ec86989c2f6954cb" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a9e3f666f4d6a6043d0331e6539a693ed" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1adbe1c2497c7997337eee519dc4cfe65b" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1ae554cf8da8a497493f431f3afa14406f" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a4ad866c5f37d9c8286d8511851f1a442" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a78382258fb42438374c7783aa91ef4b6" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a5e44fbf548a1216b293d54da16338fa9" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a5e44fbf548a1216b293d54da16338fa9" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a161148d3124a8dba74c7ab1969f03648" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a161148d3124a8dba74c7ab1969f03648" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a88980cb29b8122a2d834529b3bd9c1a2" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a88980cb29b8122a2d834529b3bd9c1a2" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a55404c154b34063894218f4c32fc7759" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a4a4fa136fa1547d290b05909b3dd3ea7" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1aed71deb16c375ebb19d4d5b6629054cc" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1ad478ecc5c077b97a8e564ab590daa72c" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1ae532f4e721616e657d2a3c5c9b8835b5" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a01bc6ec1ea519282fa3a3b0092be6310" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1a4ad866c5f37d9c8286d8511851f1a442" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def</name></member>
+      <member refid="class_neuron_block_1aaf1b035c6c858745ec58d99c476b0cc5" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def_property_readonly</name></member>
+      <member refid="class_neuron_block_1a61fe519621c040a984006abc865f97e4" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def_property_readonly</name></member>
+      <member refid="class_neuron_block_1aab73aff502435f607ba6d6ca2688c8ab" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def_property_readonly</name></member>
+      <member refid="class_neuron_block_1a31390e5e66bc1ccce0ddd0e41ed6d497" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def_property_readonly</name></member>
+      <member refid="class_neuron_block_1aaad4dd40499fbc789cb6fcee011699ee" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def_property_readonly</name></member>
+      <member refid="class_neuron_block_1a99f34d3d31083e6723dc28d8abc45fe8" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>def_property_readonly</name></member>
+      <member refid="class_neuron_block_1a51195d3c144567ccdb6ab1fe6b36d9d6" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>has_local_data</name></member>
+      <member refid="class_neuron_block_1a51195d3c144567ccdb6ab1fe6b36d9d6" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>has_local_data</name></member>
+      <member refid="class_neuron_block_1a997434bc6aaa0bdb8d1b440f15093c13" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>i_bias_leak_source_follower</name></member>
+      <member refid="class_neuron_block_1a0c733f06b4ca7f88239bdf10ca2a0a5b" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>i_bias_readout_amp</name></member>
+      <member refid="class_neuron_block_1a2c3ed3a9b67c4b99e2c5204606527745" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>i_bias_synin_drop</name></member>
+      <member refid="class_neuron_block_1a365c64b99a75e52bc9d8c3fc5811e67d" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>i_bias_threshold_comparator</name></member>
+      <member refid="class_neuron_block_1af65173baf7ffa1cf2d524455a1f8f99e" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>NeuronBlock</name></member>
+      <member refid="class_neuron_block_1af65173baf7ffa1cf2d524455a1f8f99e" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>NeuronBlock</name></member>
+      <member refid="class_neuron_block_1af53e2335ffa3377abf89c12ce842e7cc" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>operator!=</name></member>
+      <member refid="class_neuron_block_1af53e2335ffa3377abf89c12ce842e7cc" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>operator!=</name></member>
+      <member refid="class_neuron_block_1a7cfd4d1aa8917262fe4150a3d50bf101" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_neuron_block_1a7cfd4d1aa8917262fe4150a3d50bf101" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_neuron_block_1a19ae268d91fec6aba94b52379159cce0" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>operator==</name></member>
+      <member refid="class_neuron_block_1a19ae268d91fec6aba94b52379159cce0" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>operator==</name></member>
+      <member refid="class_neuron_block_1a9318bff1fd8c3a1484269a1a14dd0a0b" prot="public" virt="non-virtual"><scope>NeuronBlock</scope><name>v_bias_casc_n</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

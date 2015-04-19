@@ -1,0 +1,4 @@
+<map id="haldls::vx::HicannARQStatus::ReadCount" name="haldls::vx::HicannARQStatus::ReadCount">
+<area shape="rect" id="node1" title="Number of words submitted to the ARQ from the Chip." alt="" coords="5,113,198,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="16,5,187,65"/>
+</map>

@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::NeuronSRAMTimingConfig</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config" prot="public" virt="non-virtual">haldls::vx::detail::SRAMTimingConfig</basecompoundref>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a7aff9c6b2f5b52f5d6120329ee2f8c9e" prot="public" static="no">
+        <type>halco::hicann_dls::vx::NeuronSRAMTimingConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::NeuronSRAMTimingConfigOnDLS haldls::vx::NeuronSRAMTimingConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="745" column="60" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a402efa1da872148387bfeefd127c4a2b" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::detail::SRAMTimingConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="36" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::detail::SRAMTimingConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="96" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a7e2ae8f91163588eadd72ecabe0fbe5c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::NeuronSRAMTimingConfig::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::simulation}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="747" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="747" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="763" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1ad6aae9c455194ad93ae408469fb0fa51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, NeuronSRAMTimingConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config" kindref="compound">NeuronSRAMTimingConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="755" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a4b144ac658f0ca2a6db2409278383bad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::NeuronSRAMTimingConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) const SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a7aff9c6b2f5b52f5d6120329ee2f8c9e" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="759" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1ac48369cc2b03d50f0bf848e667cda3a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::detail::SRAMTimingConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="100" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a1cbb7fb662301996850162360a026168" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::detail::SRAMTimingConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="98" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1abcfecf590074c1586296bb23f5917d74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_address_setup_time" kindref="compound">AddressSetupTime</ref></type>
+        <definition>AddressSetupTime haldls::vx::detail::SRAMTimingConfig::get_address_setup_time</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_address_setup_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="84" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1aa9fc2672c0012bcfbce94a219b6eac8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width" kindref="compound">EnableWidth</ref></type>
+        <definition>EnableWidth haldls::vx::detail::SRAMTimingConfig::get_enable_width</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="89" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a4eccc650937ff4b62168ef0b08da6dc2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay" kindref="compound">ReadDelay</ref></type>
+        <definition>ReadDelay haldls::vx::detail::SRAMTimingConfig::get_read_delay</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_read_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="79" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a1f05dc9427140617173017e266d58a14" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronSRAMTimingConfig::operator!=</definition>
+        <argsstring>(NeuronSRAMTimingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config" kindref="compound">NeuronSRAMTimingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="752" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a22c1c0222d94e60291e00bd84573a8ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::SRAMTimingConfig::operator!=</definition>
+        <argsstring>(SRAMTimingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a7a16f31e0dad457af0156880d91be12b" kindref="member">SRAMTimingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="94" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1acc2afd863102959693d87a7faef83731" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::NeuronSRAMTimingConfig::operator==</definition>
+        <argsstring>(NeuronSRAMTimingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config" kindref="compound">NeuronSRAMTimingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="751" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a494b877bceedc23bbe27cdf509156a31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::detail::SRAMTimingConfig::operator==</definition>
+        <argsstring>(SRAMTimingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a7a16f31e0dad457af0156880d91be12b" kindref="member">SRAMTimingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="93" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a504db8c6d25f69138d96118899fa456e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::SRAMTimingConfig::set_address_setup_time</definition>
+        <argsstring>(AddressSetupTime value) SYMBOL_VISIBLE</argsstring>
+        <name>set_address_setup_time</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_address_setup_time" kindref="compound">AddressSetupTime</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="86" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1afe9331ec953626d8860353a2dffe479d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::SRAMTimingConfig::set_enable_width</definition>
+        <argsstring>(EnableWidth value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_width</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width" kindref="compound">EnableWidth</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="91" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a1d32ad15b5b2e96a66b9988b1fa9791c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::detail::SRAMTimingConfig::set_read_delay</definition>
+        <argsstring>(ReadDelay value) SYMBOL_VISIBLE</argsstring>
+        <name>set_read_delay</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay" kindref="compound">ReadDelay</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/sram_controller.h" line="81" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a72942c94a306388a2941ccfed2ddebea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::NeuronSRAMTimingConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="765" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>haldls::vx::detail::SRAMTimingConfig</label>
+        <link refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::NeuronSRAMTimingConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>haldls::vx::detail::SRAMTimingConfig</label>
+        <link refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::NeuronSRAMTimingConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" line="742" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/neuron.h" bodystart="743" bodyend="766"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a4b144ac658f0ca2a6db2409278383bad" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a16f4407f6ed4ccff591eba4fd99d9c71" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a7aff9c6b2f5b52f5d6120329ee2f8c9e" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1ac48369cc2b03d50f0bf848e667cda3a2" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a1cbb7fb662301996850162360a026168" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1abcfecf590074c1586296bb23f5917d74" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>get_address_setup_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1aa9fc2672c0012bcfbce94a219b6eac8b" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>get_enable_width</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a4eccc650937ff4b62168ef0b08da6dc2" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>get_read_delay</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a402efa1da872148387bfeefd127c4a2b" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a1f05dc9427140617173017e266d58a14" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a22c1c0222d94e60291e00bd84573a8ed" prot="public" virt="non-virtual" ambiguityscope="haldls::vx::detail::SRAMTimingConfig::"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1ad6aae9c455194ad93ae408469fb0fa51" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1acc2afd863102959693d87a7faef83731" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a494b877bceedc23bbe27cdf509156a31" prot="public" virt="non-virtual" ambiguityscope="haldls::vx::detail::SRAMTimingConfig::"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a72942c94a306388a2941ccfed2ddebea" prot="private" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a504db8c6d25f69138d96118899fa456e" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>set_address_setup_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1afe9331ec953626d8860353a2dffe479d" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>set_enable_width</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a1d32ad15b5b2e96a66b9988b1fa9791c" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>set_read_delay</name></member>
+      <member refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1a7a16f31e0dad457af0156880d91be12b" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>SRAMTimingConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config_1a7e2ae8f91163588eadd72ecabe0fbe5c" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronSRAMTimingConfig</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

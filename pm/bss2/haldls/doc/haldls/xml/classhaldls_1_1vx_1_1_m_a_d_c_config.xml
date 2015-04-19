@@ -1,0 +1,1852 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_m_a_d_c_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::MADCConfig</compoundname>
+    <includes refid="madc_8h" local="no">madc.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_active_mux_input_select_length" prot="public">haldls::vx::MADCConfig::ActiveMuxInputSelectLength</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_calibration_wait_value" prot="public">haldls::vx::MADCConfig::CalibrationWaitValue</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset" prot="public">haldls::vx::MADCConfig::ConversionCyclesOffset</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_m_a_d_c_clock_scale_value" prot="public">haldls::vx::MADCConfig::MADCClockScaleValue</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_number_of_samples" prot="public">haldls::vx::MADCConfig::NumberOfSamples</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_powerup_wait_value" prot="public">haldls::vx::MADCConfig::PowerupWaitValue</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size" prot="public">haldls::vx::MADCConfig::PreampGainCapacitorSize</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sample_duration_adjust" prot="public">haldls::vx::MADCConfig::SampleDurationAdjust</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" prot="public">haldls::vx::MADCConfig::SamplingWindowTiming</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_length" prot="public">haldls::vx::MADCConfig::SARResetLength</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait" prot="public">haldls::vx::MADCConfig::SARResetWait</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a6d7e740b5795a42292536ddb01c8d017" prot="public" static="no">
+        <type>halco::hicann_dls::vx::MADCConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::MADCConfigOnDLS haldls::vx::MADCConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="137" column="48" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5a9288dcb080423a98932513c4591e8a" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::HemisphereOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::HemisphereOnDLS&gt; haldls::vx::MADCConfig::hemisphere_type</definition>
+        <argsstring></argsstring>
+        <name>hemisphere_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="229" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a455d6df03838873965609bc87a0b30f6" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection</type>
+        <definition>typedef halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection haldls::vx::MADCConfig::input_selection_type</definition>
+        <argsstring></argsstring>
+        <name>input_selection_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="138" column="74" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab3dd5e5b3fb5243a5afd289d8746a9af" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::MADCConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="139" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a7d30a6137083acd8132303b02ce827e1" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::SynapticInputOnNeuron &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::SynapticInputOnNeuron&gt; haldls::vx::MADCConfig::synapse_target_type</definition>
+        <argsstring></argsstring>
+        <name>synapse_target_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="233" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a19d90b65762b43d258a76e466731a8aa" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::MADCConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="544" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="557" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="557" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a2cc32aa6544132e52ee20eea7c13806b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, MADCConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config" kindref="compound">MADCConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="554" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a69802aeb43cb664d929e8e95d4dd59b6" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a455d6df03838873965609bc87a0b30f6" kindref="member">input_selection_type</ref></type>
+        <definition>input_selection_type haldls::vx::MADCConfig::m_active_mux_initially_selected_input</definition>
+        <argsstring></argsstring>
+        <name>m_active_mux_initially_selected_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="561" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a0be60f33b129f608aeff8d838d9930b0" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_active_mux_input_select_length" kindref="compound">ActiveMuxInputSelectLength</ref></type>
+        <definition>ActiveMuxInputSelectLength haldls::vx::MADCConfig::m_active_mux_input_select_length</definition>
+        <argsstring></argsstring>
+        <name>m_active_mux_input_select_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="562" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aac29f5e1d2f1ae3e482e81970bc085bd" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_calibration_wait_value" kindref="compound">CalibrationWaitValue</ref></type>
+        <definition>CalibrationWaitValue haldls::vx::MADCConfig::m_calibration_wait_value</definition>
+        <argsstring></argsstring>
+        <name>m_calibration_wait_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="569" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aac8635ce0ed880d334d5919a2461e914" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5a9288dcb080423a98932513c4591e8a" kindref="member">hemisphere_type</ref></type>
+        <definition>hemisphere_type haldls::vx::MADCConfig::m_connect_iconv_neuron</definition>
+        <argsstring></argsstring>
+        <name>m_connect_iconv_neuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="591" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="591" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a34038a0603537282a6a4ca0e17dcb49c" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a7d30a6137083acd8132303b02ce827e1" kindref="member">synapse_target_type</ref></type>
+        <definition>synapse_target_type haldls::vx::MADCConfig::m_connect_iconv_synapse</definition>
+        <argsstring></argsstring>
+        <name>m_connect_iconv_synapse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="592" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a06c4993dfa73629b1873a6a777db95de" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_connect_pads_to_madc</definition>
+        <argsstring></argsstring>
+        <name>m_connect_pads_to_madc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="579" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a76bdd36bb11c733833e10e12ce0d6c18" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_connect_preamp_to_madc</definition>
+        <argsstring></argsstring>
+        <name>m_connect_preamp_to_madc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="578" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a778cd34c42dedd45a01ae72438175216" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_connect_preamp_to_pads</definition>
+        <argsstring></argsstring>
+        <name>m_connect_preamp_to_pads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="580" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ae76542fa4328c26316f3e729f29a53e9" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset" kindref="compound">ConversionCyclesOffset</ref></type>
+        <definition>ConversionCyclesOffset haldls::vx::MADCConfig::m_conversion_cycles_offset</definition>
+        <argsstring></argsstring>
+        <name>m_conversion_cycles_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="568" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="568" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a219696246cd8cb62cab729bc2d59ef8e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_enable_active_mux_amplifiers</definition>
+        <argsstring></argsstring>
+        <name>m_enable_active_mux_amplifiers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="584" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a66b9614d2c9420cd1faaebaf13c60d5b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_enable_calibration</definition>
+        <argsstring></argsstring>
+        <name>m_enable_calibration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="570" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="570" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a9128a5ca3188c63c23343d7c30f34a9c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_enable_dummy_data</definition>
+        <argsstring></argsstring>
+        <name>m_enable_dummy_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="577" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="577" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aaf9b09c678c1c49f74a901e403121b1e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_enable_iconv_amplifier</definition>
+        <argsstring></argsstring>
+        <name>m_enable_iconv_amplifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="590" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="590" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a24abbe70f10d133433faffb24a360ef9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_enable_madc_clock_scaling</definition>
+        <argsstring></argsstring>
+        <name>m_enable_madc_clock_scaling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="582" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="582" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a0cfd5d946e58d875dfcf13caee879799" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5a9288dcb080423a98932513c4591e8a" kindref="member">hemisphere_type</ref></type>
+        <definition>hemisphere_type haldls::vx::MADCConfig::m_enable_pseudo_differential_reference</definition>
+        <argsstring></argsstring>
+        <name>m_enable_pseudo_differential_reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="585" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="585" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a427219f3ba95b5b44a554254b602afc7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_enable_sar_reset_on_fall</definition>
+        <argsstring></argsstring>
+        <name>m_enable_sar_reset_on_fall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="564" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1abd8dd934a2f616f94a0841818dbb5178" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming haldls::vx::MADCConfig::m_iconv_sampling_window_end</definition>
+        <argsstring></argsstring>
+        <name>m_iconv_sampling_window_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="575" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a93d28101f689159e2d26f57ee46b802e" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming haldls::vx::MADCConfig::m_iconv_sampling_window_start</definition>
+        <argsstring></argsstring>
+        <name>m_iconv_sampling_window_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="574" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1adc56e9b1192cd95279c415cf1858dee7" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_m_a_d_c_clock_scale_value" kindref="compound">MADCClockScaleValue</ref></type>
+        <definition>MADCClockScaleValue haldls::vx::MADCConfig::m_madc_clock_scale_value</definition>
+        <argsstring></argsstring>
+        <name>m_madc_clock_scale_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="583" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="583" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1add2b72f7c93af8cd50fb12f5b53c8f71" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_number_of_samples" kindref="compound">NumberOfSamples</ref></type>
+        <definition>NumberOfSamples haldls::vx::MADCConfig::m_number_of_samples</definition>
+        <argsstring></argsstring>
+        <name>m_number_of_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="571" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a51ee8fe089f88e07590dc60ef80b85d8" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_powerup_wait_value" kindref="compound">PowerupWaitValue</ref></type>
+        <definition>PowerupWaitValue haldls::vx::MADCConfig::m_powerup_wait_value</definition>
+        <argsstring></argsstring>
+        <name>m_powerup_wait_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="567" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="567" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ae9ce2512013e51471f91cdbf28f4d255" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size" kindref="compound">PreampGainCapacitorSize</ref></type>
+        <definition>PreampGainCapacitorSize haldls::vx::MADCConfig::m_preamp_gain_capacitor_size</definition>
+        <argsstring></argsstring>
+        <name>m_preamp_gain_capacitor_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="581" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="581" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3543fd13facfa087901b4a74fd0cfc4e" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming haldls::vx::MADCConfig::m_preamp_sampling_window_end</definition>
+        <argsstring></argsstring>
+        <name>m_preamp_sampling_window_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="573" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac376a34d4d5ec37a6684d136cbf0a16e" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming haldls::vx::MADCConfig::m_preamp_sampling_window_start</definition>
+        <argsstring></argsstring>
+        <name>m_preamp_sampling_window_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="572" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab7fd771c939f9365dd587824945d18ba" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sample_duration_adjust" kindref="compound">SampleDurationAdjust</ref></type>
+        <definition>SampleDurationAdjust haldls::vx::MADCConfig::m_sample_duration_adjust</definition>
+        <argsstring></argsstring>
+        <name>m_sample_duration_adjust</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="563" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a096491a65e3ef591902d5045b07572fc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_sample_on_positive_edge</definition>
+        <argsstring></argsstring>
+        <name>m_sample_on_positive_edge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="576" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a35a2bb3964414ef848160d22f78ff38f" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_length" kindref="compound">SARResetLength</ref></type>
+        <definition>SARResetLength haldls::vx::MADCConfig::m_sar_reset_length</definition>
+        <argsstring></argsstring>
+        <name>m_sar_reset_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="566" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="566" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1af144aa6730c1e08933fc80f546f37bd9" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait" kindref="compound">SARResetWait</ref></type>
+        <definition>SARResetWait haldls::vx::MADCConfig::m_sar_reset_wait</definition>
+        <argsstring></argsstring>
+        <name>m_sar_reset_wait</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="565" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a15ea65e89340484e54497b7f42bc3c28" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_signal_selection_connect_active_mux</definition>
+        <argsstring></argsstring>
+        <name>m_signal_selection_connect_active_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="587" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aed6ca2b01faa394f8e432625b8fc0d02" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_signal_selection_connect_current_meter</definition>
+        <argsstring></argsstring>
+        <name>m_signal_selection_connect_current_meter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="586" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a2e724e819ff0007b183a999d7bfc1833" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_signal_selection_connect_debug</definition>
+        <argsstring></argsstring>
+        <name>m_signal_selection_connect_debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="588" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="588" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3863a494db564de36cc2214cd7df8811" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::m_signal_selection_connect_preamp</definition>
+        <argsstring></argsstring>
+        <name>m_signal_selection_connect_preamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="589" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="589" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aa4a27c649a37d3e39c4904b65f8e51c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::MADCConfig::MADCConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>MADCConfig</name>
+        <briefdescription>
+<para>Default constructor for the MADC config. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The default values are in a usable state, the MADC is connected to the SourceMultiplexerOnReadoutSourceSelection(0). Only the number of samples to record is required to be set. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="241" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1adc2a6a0f9bc521d238de300a67ea283d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a19d90b65762b43d258a76e466731a8aa" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::MADCConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) const</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a6d7e740b5795a42292536ddb01c8d017" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="546" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad4056f6db8f5762732d1fdbf0b04ba49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double haldls::vx::MADCConfig::calculate_sample_rate</definition>
+        <argsstring>(double const &amp;madc_base_frequency) const SYMBOL_VISIBLE</argsstring>
+        <name>calculate_sample_rate</name>
+        <param>
+          <type>double const &amp;</type>
+          <declname>madc_base_frequency</declname>
+        </param>
+        <briefdescription>
+<para>Accessors for the sampling rate of the madc in Hz. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The calculation considers the following settings of the MADC state:<itemizedlist>
+<listitem><para>m_sample_duration_adjust</para>
+</listitem><listitem><para>m_enable_madc_clock_scaling</para>
+</listitem><listitem><para>m_madc_clock_scale_value <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>madc_base_frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Base frequency of the madc, which can be obtained from the <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> settings and PLLClockOutputBlock. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Double describing the madc sample rate </para>
+</simplesect>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="539" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aeedef9e5bc47306da176680675655833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a19d90b65762b43d258a76e466731a8aa" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="551" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a6a793b7dea4bbd2f94f3aeb01843bb72" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a19d90b65762b43d258a76e466731a8aa" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::MADCConfig::encode</definition>
+        <argsstring>() const</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="549" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a704ce5f142c2c3e310ae35ae2540333e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a455d6df03838873965609bc87a0b30f6" kindref="member">input_selection_type</ref></type>
+        <definition>input_selection_type haldls::vx::MADCConfig::get_active_mux_initially_selected_input</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_active_mux_initially_selected_input</name>
+        <briefdescription>
+<para>Set the initially selected input of the active mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Caution: the property is called <computeroutput>initially_selected_amp</computeroutput> in RTL. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="251" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aa22f0bc79f180b30e3fab2537eed3105" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_active_mux_input_select_length" kindref="compound">ActiveMuxInputSelectLength</ref></type>
+        <definition>ActiveMuxInputSelectLength haldls::vx::MADCConfig::get_active_mux_input_select_length</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_active_mux_input_select_length</name>
+        <briefdescription>
+<para>Set the number of samples the mux&apos;s inputs are selected for in direct succession. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In the following example the MADC would record <emphasis>four</emphasis> samples on one input, before the mux switches to the other one: input 0: |||| |||| … input 1: |||| |||| …</para>
+<para>Caution: the property is called <computeroutput>amp_select_length</computeroutput> in RTL. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="266" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1afa3996776c2a536c1076f8f4db2ad690" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_calibration_wait_value" kindref="compound">CalibrationWaitValue</ref></type>
+        <definition>CalibrationWaitValue haldls::vx::MADCConfig::get_calibration_wait_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_calibration_wait_value</name>
+        <briefdescription>
+<para>Accessors for the built-in calibration&apos;s timing of the MADC. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="327" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a0cadb6a9a81ec598c9caf421a6b3f467" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_connect_pads_to_madc</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_connect_pads_to_madc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="423" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1af3fbde80703a9556aa6875bbb4a50bd3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_connect_preamp_to_madc</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_connect_preamp_to_madc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="418" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1af7ad746ccf48d68e1ec7df13b63baecd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_connect_preamp_to_pads</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_connect_preamp_to_pads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="428" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a7d782758812d9f7ed8a10a2b3a84011d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset" kindref="compound">ConversionCyclesOffset</ref></type>
+        <definition>ConversionCyclesOffset haldls::vx::MADCConfig::get_conversion_cycles_offset</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_conversion_cycles_offset</name>
+        <briefdescription>
+<para>Configuration for the conversion cycles offset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This seems to be redundant to <computeroutput>sample_duration_adjust</computeroutput>. Both settings are summed up in hardware.</para>
+<para>Caution: the meaning of this setting was reverse engineered due to a lack of documentation! </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="319" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5bda08e0338f97fab667f11ad8d390aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_enable_active_mux_amplifiers</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_active_mux_amplifiers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="461" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a62c3c7ef32617caada0f1c56dbc97771" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_enable_calibration</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_calibration</name>
+        <briefdescription>
+<para>Accessors for the built-in self-calibration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="335" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac69199d3aceba4cdb9e61a12bd202734" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_enable_dummy_data</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_dummy_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="398" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aef192aed7528ed7186592dbd9606b442" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_enable_iconv_amplifier</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_iconv_amplifier</name>
+        <briefdescription>
+<para>Accessors for the configuration of the current conversion circuit. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The first property enables the internal amplifier of the circuit. The other properties allow to connect either the direct neuron access or the synaptic debug lines. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="514" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a6d37053ae1eb9b5d3d9dd7c9fcf87cb5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_enable_madc_clock_scaling</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_madc_clock_scaling</name>
+        <briefdescription>
+<para>Accessors for the clock scaling configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The clock is derived from a PLL madc_clk output. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="445" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5c7c2df2e49ddc2e5a6fd5b295f87bb0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_enable_sar_reset_on_fall</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_sar_reset_on_fall</name>
+        <briefdescription>
+<para>Configuration of the MADC&apos;s SAR reset timing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="287" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a29454aaf2ef77e34bf7841c4f75eedef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming haldls::vx::MADCConfig::get_iconv_sampling_window_end</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_iconv_sampling_window_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="378" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a961cba9776af75080cad187f61936e16" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming haldls::vx::MADCConfig::get_iconv_sampling_window_start</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_iconv_sampling_window_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="373" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aaba9af0c6e525c3872ef72a19aeb2253" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_m_a_d_c_clock_scale_value" kindref="compound">MADCClockScaleValue</ref></type>
+        <definition>MADCClockScaleValue haldls::vx::MADCConfig::get_madc_clock_scale_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_madc_clock_scale_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="450" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1acc08c67a467bd1e38f18437166455d96" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_number_of_samples" kindref="compound">NumberOfSamples</ref></type>
+        <definition>NumberOfSamples haldls::vx::MADCConfig::get_number_of_samples</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_number_of_samples</name>
+        <briefdescription>
+<para>Accessors for the number of samples recorded by the MADC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The MADC records a fixed number of samples as long as it is not configured to sample continuously (c.f. <computeroutput>enable_sample_continously</computeroutput>).</para>
+<para>Caution: this property is called <computeroutput>num_samples</computeroutput> in the RTL description. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="347" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a31bffcf3dac66c7b60ea1ceb2d6e3f1b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_powerup_wait_value" kindref="compound">PowerupWaitValue</ref></type>
+        <definition>PowerupWaitValue haldls::vx::MADCConfig::get_powerup_wait_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_powerup_wait_value</name>
+        <briefdescription>
+<para>Configuration of the powerup wait value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This MADC remains in the wake up state for a number of MADC clock cycles determined by this property before transitioning to the <computeroutput>READY</computeroutput> state (via <computeroutput>ENABLE</computeroutput>). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="307" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3fc91a814c6f757f6417763805993d94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size" kindref="compound">PreampGainCapacitorSize</ref></type>
+        <definition>PreampGainCapacitorSize haldls::vx::MADCConfig::get_preamp_gain_capacitor_size</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_preamp_gain_capacitor_size</name>
+        <briefdescription>
+<para>Accessors for the preamplifier&apos;s gain selection capacitor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="436" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad953171545ca96dd875bdd95b1f0f172" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming haldls::vx::MADCConfig::get_preamp_sampling_window_end</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_preamp_sampling_window_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="368" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a07208d93effbda985b02134a7d428336" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref></type>
+        <definition>SamplingWindowTiming haldls::vx::MADCConfig::get_preamp_sampling_window_start</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_preamp_sampling_window_start</name>
+        <briefdescription>
+<para>Accessors for the timing of the sampling phase for both, the (voltage recording) preamp and the current conversion circuit. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The sampling window is determined by the timing of its rising and falling edge.</para>
+<para>Caution: these properties are called <computeroutput>phi_vga_toggle[0,1]</computeroutput> and <computeroutput>phi_2quadrant_toggle[0,1]</computeroutput> for the preamp and current conversion, respectively. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="363" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad7b6b95e4875e79a26a578ead1dc37a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sample_duration_adjust" kindref="compound">SampleDurationAdjust</ref></type>
+        <definition>SampleDurationAdjust haldls::vx::MADCConfig::get_sample_duration_adjust</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_sample_duration_adjust</name>
+        <briefdescription>
+<para>Accessors for the sample duration adjustment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This seems to be redundant to <computeroutput>conversion_cycles_offset</computeroutput>. Both settings are summed up in hardware.</para>
+<para>Caution: the property is called <computeroutput>sample_adjust</computeroutput> in RTL. Caution: the meaning of this setting was reverse engineered due to a lack of documentation! </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="279" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a4a85ffcc8ae6496d59d17f059a5980f0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_sample_on_positive_edge</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_sample_on_positive_edge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="388" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a265fa3207e2778e29687d42d9bf98a5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_length" kindref="compound">SARResetLength</ref></type>
+        <definition>SARResetLength haldls::vx::MADCConfig::get_sar_reset_length</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_sar_reset_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="297" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a039b2210d76e5f54cf9b56f5ff89998f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait" kindref="compound">SARResetWait</ref></type>
+        <definition>SARResetWait haldls::vx::MADCConfig::get_sar_reset_wait</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_sar_reset_wait</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="292" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aca4f69517bd9712601fa4e62944b42ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_signal_selection_connect_active_mux</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_signal_selection_connect_active_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="492" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a1f23843c4bf071673b0adb8b5144931f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_signal_selection_connect_current_meter</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_signal_selection_connect_current_meter</name>
+        <briefdescription>
+<para>Accessors for the preamp mux located before the preamplifier. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This mux has four (pairs of) inputs: the active mux (for voltage measurements), the current conversion circuit, two debug lines (which might be applied to the chip&apos;s pads), and the preamplifier. The first two serve as signal sources, the latter as a sink. The pads may serve as either. To connect two (or more) sources/sinks, the user must connect any of them.</para>
+<para>Caution: the respective properties are called <computeroutput>fmc_2_quadrant</computeroutput>, <computeroutput>fmc_act_mux</computeroutput>, <computeroutput>fmc_debug</computeroutput>, and <computeroutput>fmc_to_vga</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="487" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad1bc5863009a65c386fb40fd75793014" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_signal_selection_connect_debug</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_signal_selection_connect_debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="497" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab71aa9e02db9486a88a55f8992ecfb68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::get_signal_selection_connect_preamp</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_signal_selection_connect_preamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="502" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aa69ea82a19f2c5ad29408f00c8aec2af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::operator!=</definition>
+        <argsstring>(MADCConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config" kindref="compound">MADCConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="542" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a98bcf9166ab5658845c45160a8c2b52d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCConfig::operator==</definition>
+        <argsstring>(MADCConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config" kindref="compound">MADCConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="541" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a13e2521c476854f4878bf4c8fdb9e4d3" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::MADCConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) hemisphere_type const &amp;get_connect_iconv_neuron() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="518" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a56fc58f592411e7648e35f82865b784a" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::MADCConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) hemisphere_type const &amp;get_enable_pseudo_differential_reference() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="469" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a86d8bdcf53476a9b2bc398e9604195e9" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::MADCConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) synapse_target_type const &amp;get_connect_iconv_synapse() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="523" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a62069a2e8a499da52405722e0a3f4a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_active_mux_initially_selected_input</definition>
+        <argsstring>(input_selection_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_active_mux_initially_selected_input</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a455d6df03838873965609bc87a0b30f6" kindref="member">input_selection_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="253" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5a325a7bf730dc16fea291f0489acaaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_active_mux_input_select_length</definition>
+        <argsstring>(ActiveMuxInputSelectLength const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_active_mux_input_select_length</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_active_mux_input_select_length" kindref="compound">ActiveMuxInputSelectLength</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="268" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a78623e6e91db00aad5412624a3395b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_calibration_wait_value</definition>
+        <argsstring>(CalibrationWaitValue const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_calibration_wait_value</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_calibration_wait_value" kindref="compound">CalibrationWaitValue</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="329" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac64c3b8bbc965bf77221566aa46a195d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_connect_iconv_neuron</definition>
+        <argsstring>(hemisphere_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_connect_iconv_neuron</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5a9288dcb080423a98932513c4591e8a" kindref="member">hemisphere_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="521" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab08afec0bf1f58401bb21976222d1e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_connect_iconv_synapse</definition>
+        <argsstring>(synapse_target_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_connect_iconv_synapse</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a7d30a6137083acd8132303b02ce827e1" kindref="member">synapse_target_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="526" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1af6c1b5dc47953a0e276648709f0df8a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_connect_pads_to_madc</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_connect_pads_to_madc</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="425" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3a74991e18446923e7e9def5701de628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_connect_preamp_to_madc</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_connect_preamp_to_madc</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="420" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad0d113469a337e66453fa3dc5b0eb831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_connect_preamp_to_pads</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_connect_preamp_to_pads</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="430" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad36aef39eb7ab3bfb6a7807bc9180f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_conversion_cycles_offset</definition>
+        <argsstring>(ConversionCyclesOffset const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_conversion_cycles_offset</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset" kindref="compound">ConversionCyclesOffset</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="321" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3d99420570dd6d5823c67c7baf69e89d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_enable_active_mux_amplifiers</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_active_mux_amplifiers</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="463" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a55145f6000f45f96e564b83a3cc3784f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_enable_calibration</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_calibration</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="337" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a08b383a6d4be8ca7ac8b5baec08f9250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_enable_dummy_data</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_dummy_data</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="400" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad1eaef780625c55f53ed706b0e145e97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_enable_iconv_amplifier</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_iconv_amplifier</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="516" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a2d6fa9964654ffe3f409e65cfd05e81b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_enable_madc_clock_scaling</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_madc_clock_scaling</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="447" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1afdeebbe6307dfef27680136a8c24aa86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_enable_pseudo_differential_reference</definition>
+        <argsstring>(hemisphere_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_pseudo_differential_reference</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5a9288dcb080423a98932513c4591e8a" kindref="member">hemisphere_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="472" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a7b7184d4c7b98cb7da1f95cf134ba284" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_enable_sar_reset_on_fall</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_sar_reset_on_fall</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="289" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a64d1ac08d4392240e191d4cfe19d0fb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_iconv_sampling_window_end</definition>
+        <argsstring>(SamplingWindowTiming const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_iconv_sampling_window_end</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="380" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a49f1728fcd99fc9e8ec529897235a19f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_iconv_sampling_window_start</definition>
+        <argsstring>(SamplingWindowTiming const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_iconv_sampling_window_start</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="375" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac7927947b33939ef30b6fb9d281926c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_madc_clock_scale_value</definition>
+        <argsstring>(MADCClockScaleValue const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_madc_clock_scale_value</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_m_a_d_c_clock_scale_value" kindref="compound">MADCClockScaleValue</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="452" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a2b1277074a6b8ebed865c03a06fd72f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_number_of_samples</definition>
+        <argsstring>(NumberOfSamples const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_number_of_samples</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_number_of_samples" kindref="compound">NumberOfSamples</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="349" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a93e7f5ce946ba14d985809901eeef791" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_powerup_wait_value</definition>
+        <argsstring>(PowerupWaitValue const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_powerup_wait_value</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_powerup_wait_value" kindref="compound">PowerupWaitValue</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="309" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a29b31bb38090edef2662cb88df7218fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_preamp_gain_capacitor_size</definition>
+        <argsstring>(PreampGainCapacitorSize const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_preamp_gain_capacitor_size</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size" kindref="compound">PreampGainCapacitorSize</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="438" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1abfbf94ee512e588465247fe74ccff1bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_preamp_sampling_window_end</definition>
+        <argsstring>(SamplingWindowTiming const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_preamp_sampling_window_end</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="370" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a0c47774bb152c3ce2c6aabd73f39b0a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_preamp_sampling_window_start</definition>
+        <argsstring>(SamplingWindowTiming const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_preamp_sampling_window_start</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing" kindref="compound">SamplingWindowTiming</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="365" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1afeae900ae221130b5eb55c775636a86c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_sample_duration_adjust</definition>
+        <argsstring>(SampleDurationAdjust const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_sample_duration_adjust</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sample_duration_adjust" kindref="compound">SampleDurationAdjust</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="281" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3fbd53e8612e9b3f1e38fa288291055c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_sample_on_positive_edge</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_sample_on_positive_edge</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="390" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab02d8b4c4eb6b1b79275858a8f744254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_sar_reset_length</definition>
+        <argsstring>(SARResetLength const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_sar_reset_length</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_length" kindref="compound">SARResetLength</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="299" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac7029c33f3da37ff14aaeaee7495f633" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_sar_reset_wait</definition>
+        <argsstring>(SARResetWait const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_sar_reset_wait</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait" kindref="compound">SARResetWait</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="294" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a21c0575f0a4aa545a7b094916a8b06f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_signal_selection_connect_active_mux</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_signal_selection_connect_active_mux</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="494" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1ae6801910623c11a6276f1c8edc03c663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_signal_selection_connect_current_meter</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_signal_selection_connect_current_meter</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="489" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1af7894123adf638b46fc4dea8c935aaa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_signal_selection_connect_debug</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_signal_selection_connect_debug</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="499" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1a22d3c649a104d7c71bee167688a63d30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::set_signal_selection_connect_preamp</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_signal_selection_connect_preamp</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="504" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_config_1aacede01dfe48f4b8896d72f828b942ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::MADCConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="559" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration container for MADC and related circuitry. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="134" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="135" bodyend="593"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1adc2a6a0f9bc521d238de300a67ea283d" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad4056f6db8f5762732d1fdbf0b04ba49" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>calculate_sample_rate</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a19d90b65762b43d258a76e466731a8aa" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a6d7e740b5795a42292536ddb01c8d017" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aeedef9e5bc47306da176680675655833" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a6a793b7dea4bbd2f94f3aeb01843bb72" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a704ce5f142c2c3e310ae35ae2540333e" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_active_mux_initially_selected_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aa22f0bc79f180b30e3fab2537eed3105" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_active_mux_input_select_length</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1afa3996776c2a536c1076f8f4db2ad690" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_calibration_wait_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a0cadb6a9a81ec598c9caf421a6b3f467" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_connect_pads_to_madc</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1af3fbde80703a9556aa6875bbb4a50bd3" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_connect_preamp_to_madc</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1af7ad746ccf48d68e1ec7df13b63baecd" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_connect_preamp_to_pads</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a7d782758812d9f7ed8a10a2b3a84011d" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_conversion_cycles_offset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5bda08e0338f97fab667f11ad8d390aa" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_enable_active_mux_amplifiers</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a62c3c7ef32617caada0f1c56dbc97771" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_enable_calibration</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac69199d3aceba4cdb9e61a12bd202734" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_enable_dummy_data</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aef192aed7528ed7186592dbd9606b442" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_enable_iconv_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a6d37053ae1eb9b5d3d9dd7c9fcf87cb5" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_enable_madc_clock_scaling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5c7c2df2e49ddc2e5a6fd5b295f87bb0" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_enable_sar_reset_on_fall</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a29454aaf2ef77e34bf7841c4f75eedef" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_iconv_sampling_window_end</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a961cba9776af75080cad187f61936e16" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_iconv_sampling_window_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aaba9af0c6e525c3872ef72a19aeb2253" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_madc_clock_scale_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1acc08c67a467bd1e38f18437166455d96" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_number_of_samples</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a31bffcf3dac66c7b60ea1ceb2d6e3f1b" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_powerup_wait_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3fc91a814c6f757f6417763805993d94" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_preamp_gain_capacitor_size</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad953171545ca96dd875bdd95b1f0f172" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_preamp_sampling_window_end</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a07208d93effbda985b02134a7d428336" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_preamp_sampling_window_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad7b6b95e4875e79a26a578ead1dc37a8" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_sample_duration_adjust</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a4a85ffcc8ae6496d59d17f059a5980f0" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_sample_on_positive_edge</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a265fa3207e2778e29687d42d9bf98a5a" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_sar_reset_length</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a039b2210d76e5f54cf9b56f5ff89998f" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_sar_reset_wait</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aca4f69517bd9712601fa4e62944b42ec" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_signal_selection_connect_active_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a1f23843c4bf071673b0adb8b5144931f" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_signal_selection_connect_current_meter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad1bc5863009a65c386fb40fd75793014" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_signal_selection_connect_debug</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab71aa9e02db9486a88a55f8992ecfb68" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>get_signal_selection_connect_preamp</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5a9288dcb080423a98932513c4591e8a" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>hemisphere_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a455d6df03838873965609bc87a0b30f6" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>input_selection_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab3dd5e5b3fb5243a5afd289d8746a9af" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a69802aeb43cb664d929e8e95d4dd59b6" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_active_mux_initially_selected_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a0be60f33b129f608aeff8d838d9930b0" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_active_mux_input_select_length</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aac29f5e1d2f1ae3e482e81970bc085bd" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_calibration_wait_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aac8635ce0ed880d334d5919a2461e914" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_connect_iconv_neuron</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a34038a0603537282a6a4ca0e17dcb49c" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_connect_iconv_synapse</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a06c4993dfa73629b1873a6a777db95de" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_connect_pads_to_madc</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a76bdd36bb11c733833e10e12ce0d6c18" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_connect_preamp_to_madc</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a778cd34c42dedd45a01ae72438175216" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_connect_preamp_to_pads</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ae76542fa4328c26316f3e729f29a53e9" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_conversion_cycles_offset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a219696246cd8cb62cab729bc2d59ef8e" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_enable_active_mux_amplifiers</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a66b9614d2c9420cd1faaebaf13c60d5b" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_enable_calibration</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a9128a5ca3188c63c23343d7c30f34a9c" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_enable_dummy_data</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aaf9b09c678c1c49f74a901e403121b1e" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_enable_iconv_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a24abbe70f10d133433faffb24a360ef9" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_enable_madc_clock_scaling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a0cfd5d946e58d875dfcf13caee879799" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_enable_pseudo_differential_reference</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a427219f3ba95b5b44a554254b602afc7" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_enable_sar_reset_on_fall</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1abd8dd934a2f616f94a0841818dbb5178" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_iconv_sampling_window_end</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a93d28101f689159e2d26f57ee46b802e" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_iconv_sampling_window_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1adc56e9b1192cd95279c415cf1858dee7" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_madc_clock_scale_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1add2b72f7c93af8cd50fb12f5b53c8f71" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_number_of_samples</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a51ee8fe089f88e07590dc60ef80b85d8" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_powerup_wait_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ae9ce2512013e51471f91cdbf28f4d255" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_preamp_gain_capacitor_size</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3543fd13facfa087901b4a74fd0cfc4e" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_preamp_sampling_window_end</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac376a34d4d5ec37a6684d136cbf0a16e" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_preamp_sampling_window_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab7fd771c939f9365dd587824945d18ba" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_sample_duration_adjust</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a096491a65e3ef591902d5045b07572fc" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_sample_on_positive_edge</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a35a2bb3964414ef848160d22f78ff38f" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_sar_reset_length</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1af144aa6730c1e08933fc80f546f37bd9" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_sar_reset_wait</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a15ea65e89340484e54497b7f42bc3c28" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_signal_selection_connect_active_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aed6ca2b01faa394f8e432625b8fc0d02" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_signal_selection_connect_current_meter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a2e724e819ff0007b183a999d7bfc1833" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_signal_selection_connect_debug</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3863a494db564de36cc2214cd7df8811" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>m_signal_selection_connect_preamp</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aa4a27c649a37d3e39c4904b65f8e51c6" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>MADCConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aa69ea82a19f2c5ad29408f00c8aec2af" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a2cc32aa6544132e52ee20eea7c13806b" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a98bcf9166ab5658845c45160a8c2b52d" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a56fc58f592411e7648e35f82865b784a" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a13e2521c476854f4878bf4c8fdb9e4d3" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a86d8bdcf53476a9b2bc398e9604195e9" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1aacede01dfe48f4b8896d72f828b942ad" prot="private" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a62069a2e8a499da52405722e0a3f4a89" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_active_mux_initially_selected_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a5a325a7bf730dc16fea291f0489acaaa" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_active_mux_input_select_length</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a78623e6e91db00aad5412624a3395b06" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_calibration_wait_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac64c3b8bbc965bf77221566aa46a195d" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_connect_iconv_neuron</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab08afec0bf1f58401bb21976222d1e88" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_connect_iconv_synapse</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1af6c1b5dc47953a0e276648709f0df8a6" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_connect_pads_to_madc</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3a74991e18446923e7e9def5701de628" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_connect_preamp_to_madc</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad0d113469a337e66453fa3dc5b0eb831" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_connect_preamp_to_pads</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad36aef39eb7ab3bfb6a7807bc9180f99" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_conversion_cycles_offset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3d99420570dd6d5823c67c7baf69e89d" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_enable_active_mux_amplifiers</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a55145f6000f45f96e564b83a3cc3784f" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_enable_calibration</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a08b383a6d4be8ca7ac8b5baec08f9250" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_enable_dummy_data</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ad1eaef780625c55f53ed706b0e145e97" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_enable_iconv_amplifier</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a2d6fa9964654ffe3f409e65cfd05e81b" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_enable_madc_clock_scaling</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1afdeebbe6307dfef27680136a8c24aa86" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_enable_pseudo_differential_reference</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a7b7184d4c7b98cb7da1f95cf134ba284" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_enable_sar_reset_on_fall</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a64d1ac08d4392240e191d4cfe19d0fb1" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_iconv_sampling_window_end</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a49f1728fcd99fc9e8ec529897235a19f" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_iconv_sampling_window_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac7927947b33939ef30b6fb9d281926c2" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_madc_clock_scale_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a2b1277074a6b8ebed865c03a06fd72f8" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_number_of_samples</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a93e7f5ce946ba14d985809901eeef791" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_powerup_wait_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a29b31bb38090edef2662cb88df7218fe" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_preamp_gain_capacitor_size</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1abfbf94ee512e588465247fe74ccff1bc" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_preamp_sampling_window_end</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a0c47774bb152c3ce2c6aabd73f39b0a9" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_preamp_sampling_window_start</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1afeae900ae221130b5eb55c775636a86c" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_sample_duration_adjust</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a3fbd53e8612e9b3f1e38fa288291055c" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_sample_on_positive_edge</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ab02d8b4c4eb6b1b79275858a8f744254" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_sar_reset_length</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ac7029c33f3da37ff14aaeaee7495f633" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_sar_reset_wait</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a21c0575f0a4aa545a7b094916a8b06f8" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_signal_selection_connect_active_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1ae6801910623c11a6276f1c8edc03c663" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_signal_selection_connect_current_meter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1af7894123adf638b46fc4dea8c935aaa2" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_signal_selection_connect_debug</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a22d3c649a104d7c71bee167688a63d30" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>set_signal_selection_connect_preamp</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_config_1a7d30a6137083acd8132303b02ce827e1" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig</scope><name>synapse_target_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

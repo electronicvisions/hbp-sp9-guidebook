@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1backend__container__type__from__backend" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::backend_container_type_from_backend</compoundname>
+    <includes refid="traits_8h" local="no">traits.h</includes>
+    <templateparamlist>
+      <param>
+        <type><ref refid="namespacehaldls_1_1vx_1a090837f0a96d7d15d40eeef01be6711c" kindref="member">Backend</ref></type>
+        <declname>B</declname>
+        <defname>B</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1detail_1_1backend__container__type__from__backend_1a28ca60363600d8876359f647c9f98f50" prot="public" static="no">
+        <type>hate::index_type_list_by_integer&lt; static_cast&lt; size_t &gt;B), <ref refid="namespacehaldls_1_1vx_1a98186b2568b381869c84a3ac98cb623b" kindref="member">BackendContainerList</ref> &gt;::type</type>
+        <definition>typedef hate::index_type_list_by_integer&lt;static_cast&lt;size_t&gt;B), BackendContainerList&gt;:: type haldls::vx::detail::backend_container_type_from_backend&lt; B &gt;::container_type</definition>
+        <argsstring></argsstring>
+        <name>container_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" line="50" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" line="46" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" bodystart="47" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1backend__container__type__from__backend_1a28ca60363600d8876359f647c9f98f50" prot="public" virt="non-virtual"><scope>haldls::vx::detail::backend_container_type_from_backend</scope><name>container_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

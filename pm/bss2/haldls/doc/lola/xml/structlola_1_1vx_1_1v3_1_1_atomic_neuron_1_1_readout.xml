@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::v3::AtomicNeuron::Readout</compoundname>
+    <includes refid="v3_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a05f09e0c2c93932e179033077c226870" prot="public" static="no">
+        <type>haldls::vx::v3::NeuronConfig::ReadoutSource</type>
+        <definition>typedef haldls::vx::v3::NeuronConfig::ReadoutSource lola::vx::v3::AtomicNeuron::Readout::Source</definition>
+        <argsstring></argsstring>
+        <name>Source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="350" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1adf45d695eda063ba84b0f8d253b9edfb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::Readout::enable_amplifier</definition>
+        <argsstring></argsstring>
+        <name>enable_amplifier</name>
+        <briefdescription>
+<para>Enable readout amplifier. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="360" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1afb75fe77e9d4253c7be7a652801d2e10" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::Readout::enable_buffered_access</definition>
+        <argsstring></argsstring>
+        <name>enable_buffered_access</name>
+        <briefdescription>
+<para>Connect the readout amplifier&apos;s output to the shared readout lines. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Do not enable this setting for more than one neuron per line. This setting does not need to be enabled to reach the CADCs. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="357" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a07538ba0b2d6285107c29259967972b4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::Readout::enable_unbuffered_access</definition>
+        <argsstring></argsstring>
+        <name>enable_unbuffered_access</name>
+        <briefdescription>
+<para>Enable direct, unbuffered access. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Connects output of readout mux to shared line different from the buffered readout lines. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="366" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a5584770c70c5c098487612da8b8d1e37" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a05f09e0c2c93932e179033077c226870" kindref="member">Source</ref></type>
+        <definition>Source lola::vx::v3::AtomicNeuron::Readout::source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+<para>Source of readout output. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This multiplexer affects both buffered and unbuffered access.</para>
+<para>When choosing one of the synaptic inputs, the voltage is dropped by a source follower before reaching the multiplexer. The source follower bias current is derived from the readout amplifier, thus the enable_amplifier flag and the current i_bias have to be set, even when using unbuffered access only.</para>
+<para>The mux is not capable of disconnecting signals above 1.2 V properly, which can occur on the membrane as a result of synaptic input. In order to record low voltages from e.g. the synaptic input, the synaptic inputs should be disabled. During normal operation, the source follower in the synaptic input prevents feedback. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="383" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1acb6ef4a327b425e0f4100528518b2a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v3::AtomicNeuron::Readout::Readout</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Readout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="385" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a5ea46a8085185c70de345649b424466b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::Readout::operator!=</definition>
+        <argsstring>(Readout const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout" kindref="compound">Readout</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="388" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a3e6af43568854c5c3a9bfe6324873f0e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::AtomicNeuron::Readout::operator==</definition>
+        <argsstring>(Readout const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout" kindref="compound">Readout</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="387" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a9e860d80410b9cd34aa6db0b6d284bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Readout const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout" kindref="compound">Readout</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="391" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="348" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="349" bodyend="392"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1adf45d695eda063ba84b0f8d253b9edfb" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>enable_amplifier</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1afb75fe77e9d4253c7be7a652801d2e10" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>enable_buffered_access</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a07538ba0b2d6285107c29259967972b4" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>enable_unbuffered_access</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a5ea46a8085185c70de345649b424466b" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a9e860d80410b9cd34aa6db0b6d284bf1" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a3e6af43568854c5c3a9bfe6324873f0e" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1acb6ef4a327b425e0f4100528518b2a95" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>Readout</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a05f09e0c2c93932e179033077c226870" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>Source</name></member>
+      <member refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout_1a5584770c70c5c098487612da8b8d1e37" prot="public" virt="non-virtual"><scope>lola::vx::v3::AtomicNeuron::Readout</scope><name>source</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

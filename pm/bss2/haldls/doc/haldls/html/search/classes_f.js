@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['rate_1812',['Rate',['../structhaldls_1_1vx_1_1_background_spike_source_1_1_rate.html',1,'haldls::vx::BackgroundSpikeSource']]],
+  ['readcount_1813',['ReadCount',['../structhaldls_1_1vx_1_1_hicann_a_r_q_status_1_1_read_count.html',1,'haldls::vx::HicannARQStatus']]],
+  ['readdelay_1814',['ReadDelay',['../structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay.html',1,'haldls::vx::detail::SRAMTimingConfig']]],
+  ['readoutsourceselection_1815',['ReadoutSourceSelection',['../classhaldls_1_1vx_1_1_readout_source_selection.html',1,'haldls::vx']]],
+  ['received_1816',['Received',['../structhaldls_1_1vx_1_1_perf_test_status_1_1_received.html',1,'haldls::vx::PerfTestStatus']]],
+  ['recovery_1817',['Recovery',['../structhaldls_1_1vx_1_1_synapse_driver_config_1_1_recovery.html',1,'haldls::vx::SynapseDriverConfig']]],
+  ['recoveryclockspeed_1818',['RecoveryClockSpeed',['../structhaldls_1_1vx_1_1_common_s_t_p_config_1_1_recovery_clock_speed.html',1,'haldls::vx::CommonSTPConfig']]],
+  ['referencecontrol_1819',['ReferenceControl',['../struct_reference_generator_config_1_1_reference_control.html',1,'ReferenceGeneratorConfig']]],
+  ['referencegeneratorconfig_1820',['ReferenceGeneratorConfig',['../class_reference_generator_config.html',1,'']]],
+  ['refractorytime_1821',['RefractoryTime',['../structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time.html',1,'haldls::vx::NeuronBackendConfig']]],
+  ['resendcount_1822',['ResendCount',['../structhaldls_1_1vx_1_1_vector_generator_control_1_1_resend_count.html',1,'haldls::vx::VectorGeneratorControl']]],
+  ['resetchip_1823',['ResetChip',['../classhaldls_1_1vx_1_1_reset_chip.html',1,'haldls::vx']]],
+  ['resetduration_1824',['ResetDuration',['../structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_duration.html',1,'haldls::vx::CommonCorrelationConfig']]],
+  ['resetfalltime_1825',['ResetFallTime',['../structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_fall_time.html',1,'haldls::vx::CommonCorrelationConfig']]],
+  ['resetholdoff_1826',['ResetHoldoff',['../structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff.html',1,'haldls::vx::NeuronBackendConfig']]],
+  ['resetjtagtap_1827',['ResetJTAGTap',['../classhaldls_1_1vx_1_1_reset_j_t_a_g_tap.html',1,'haldls::vx']]],
+  ['resetwait_1828',['ResetWait',['../structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait.html',1,'haldls::vx::CADCConfig']]],
+  ['resistorcontrol_1829',['ResistorControl',['../struct_reference_generator_config_1_1_resistor_control.html',1,'ReferenceGeneratorConfig']]],
+  ['rowaddresscomparemask_1830',['RowAddressCompareMask',['../structhaldls_1_1vx_1_1_synapse_driver_config_1_1_row_address_compare_mask.html',1,'haldls::vx::SynapseDriverConfig']]],
+  ['rowselectaddress_1831',['RowSelectAddress',['../structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address.html',1,'haldls::vx::PADIEvent']]],
+  ['rxcount_1832',['RxCount',['../structhaldls_1_1vx_1_1_hicann_a_r_q_status_1_1_rx_count.html',1,'haldls::vx::HicannARQStatus::RxCount'],['../structhaldls_1_1vx_1_1_phy_status_1_1_rx_count.html',1,'haldls::vx::PhyStatus::RxCount']]],
+  ['rxdroppedcount_1833',['RxDroppedCount',['../structhaldls_1_1vx_1_1_phy_status_1_1_rx_dropped_count.html',1,'haldls::vx::PhyStatus']]]
+];

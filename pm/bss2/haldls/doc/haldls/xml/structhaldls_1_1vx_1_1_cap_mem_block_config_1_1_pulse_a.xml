@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CapMemBlockConfig::PulseA</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PulseA, uint_fast16_t, 65535, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a_1a4aa66a8b08997a3ec981993c627e3f55" prot="public" static="no">
+        <type>halco::common::detail::RantWrapper&lt; <ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a" kindref="compound">PulseA</ref>, uint_fast16_t, 65535, 0 &gt;::<ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a_1a4aa66a8b08997a3ec981993c627e3f55" kindref="member">rant_t</ref></type>
+        <definition>typedef halco::common::detail::RantWrapper&lt;PulseA, uint_fast16_t, 65535, 0&gt;::rant_t haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PulseA::rant_t</definition>
+        <argsstring></argsstring>
+        <name>rant_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="295" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a_1a9d1cf9fc177a3f841573cbe2d7710335" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PulseA::PulseA</definition>
+        <argsstring>()</argsstring>
+        <name>PulseA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="296" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a_1a5772031a911661589932982b2de4840b" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PulseA::PulseA</definition>
+        <argsstring>(uintmax_t const val)</argsstring>
+        <name>PulseA</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="297" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="297" bodyend="298"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PulseA</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PulseA, uint_fast16_t, 65535, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PulseA</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PulseA, uint_fast16_t, 65535, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="291" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="293" bodyend="299"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a_1a9d1cf9fc177a3f841573cbe2d7710335" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PulseA</scope><name>PulseA</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a_1a5772031a911661589932982b2de4840b" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PulseA</scope><name>PulseA</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a_1a4aa66a8b08997a3ec981993c627e3f55" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PulseA</scope><name>rant_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

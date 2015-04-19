@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kind="struct" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</compoundname>
+    <includes refid="readout__chain_8h" local="no">readout_chain.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ae682fa9bdf719c1d5923ef5b5330ba11" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::CalibrationWaitValue</type>
+        <definition>typedef haldls::vx::MADCConfig::CalibrationWaitValue GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::CalibrationWaitValue</definition>
+        <argsstring></argsstring>
+        <name>CalibrationWaitValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="301" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1acc6089f45cbf7074713e8a20797fcdce" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::MADCClockScaleValue</type>
+        <definition>typedef haldls::vx::MADCConfig::MADCClockScaleValue GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::ClockScaleValue</definition>
+        <argsstring></argsstring>
+        <name>ClockScaleValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="304" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a7adaca74d53b1dcda2f92e6cc75abba4" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::ConversionCyclesOffset</type>
+        <definition>typedef haldls::vx::MADCConfig::ConversionCyclesOffset GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::ConversionCyclesOffset</definition>
+        <argsstring></argsstring>
+        <name>ConversionCyclesOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="305" column="56" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ac680bd3ca9da2ee598389f949b40d31d" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::NumberOfSamples</type>
+        <definition>typedef haldls::vx::MADCConfig::NumberOfSamples GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::NumberOfSamples</definition>
+        <argsstring></argsstring>
+        <name>NumberOfSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="303" column="49" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a79e8fc35c94ceeef34266c1fa266a7da" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::PowerupWaitValue</type>
+        <definition>typedef haldls::vx::MADCConfig::PowerupWaitValue GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::PowerupWaitValue</definition>
+        <argsstring></argsstring>
+        <name>PowerupWaitValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="300" column="50" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a0f43cfcfb4b4f9c1c19dfe817834c3cc" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::SampleDurationAdjust</type>
+        <definition>typedef haldls::vx::MADCConfig::SampleDurationAdjust GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::SampleDurationAdjust</definition>
+        <argsstring></argsstring>
+        <name>SampleDurationAdjust</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="296" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a6e1842b7e048c3b5fec7e2b4be68eb7c" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::SARResetLength</type>
+        <definition>typedef haldls::vx::MADCConfig::SARResetLength GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::SARResetLength</definition>
+        <argsstring></argsstring>
+        <name>SARResetLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="299" column="48" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1accb934e45ce8145ca0238058ab007b4a" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::SARResetWait</type>
+        <definition>typedef haldls::vx::MADCConfig::SARResetWait GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::SARResetWait</definition>
+        <argsstring></argsstring>
+        <name>SARResetWait</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="298" column="46" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a3943083de5986a78345572e0efd2c56f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ae682fa9bdf719c1d5923ef5b5330ba11" kindref="member">CalibrationWaitValue</ref></type>
+        <definition>CalibrationWaitValue GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::calibration_wait_value</definition>
+        <argsstring></argsstring>
+        <name>calibration_wait_value</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Built-in calibration&apos;s timing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="344" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1af6c8989196fe2debc97ae410cb8753e8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1acc6089f45cbf7074713e8a20797fcdce" kindref="member">ClockScaleValue</ref></type>
+        <definition>ClockScaleValue GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::clock_scale_value</definition>
+        <argsstring></argsstring>
+        <name>clock_scale_value</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Clock scale value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The clock is derived from a PLL madc_clk output. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="375" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a8c896728e73de3e1d9cb57a49b0398b7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a7adaca74d53b1dcda2f92e6cc75abba4" kindref="member">ConversionCyclesOffset</ref></type>
+        <definition>ConversionCyclesOffset GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::conversion_cycles_offset</definition>
+        <argsstring></argsstring>
+        <name>conversion_cycles_offset</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Conversion cycles offset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This seems to be redundant to <computeroutput>sample_duration_adjust</computeroutput>. Both settings are summed up in hardware. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="334" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ae03fab6595d9f2c86598683765948bb3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::enable_calibration</definition>
+        <argsstring></argsstring>
+        <name>enable_calibration</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+<para>Enable built-in calibration of the <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="339" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a15e3f63d23eab44b7428cc0efce2e3a5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::enable_dummy_data</definition>
+        <argsstring></argsstring>
+        <name>enable_dummy_data</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="363" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a868927569d0dabb8b5b262bb8a1c0629" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::enable_madc_clock_scaling</definition>
+        <argsstring></argsstring>
+        <name>enable_madc_clock_scaling</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+<para>Enable clock scaling. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The clock is derived from a PLL madc_clk output. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="369" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a9d3dc5bf7453f18168e096b3fc7f504f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::enable_sar_reset_on_fall</definition>
+        <argsstring></argsstring>
+        <name>enable_sar_reset_on_fall</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+<para>Configuration of the <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref>&apos;s SAR reset timing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="318" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ac83aeab80161be1b285804d6bd3df133" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::in_500na</definition>
+        <argsstring></argsstring>
+        <name>in_500na</name>
+        <initializer>{<ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4654b99c9793c99a2c9969a3ae900e80" kindref="member">AnalogValue</ref>{500}}</initializer>
+        <briefdescription>
+<para>500nA reference current. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="380" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1af29a9e66db879d7fa606865e773e74c5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ac680bd3ca9da2ee598389f949b40d31d" kindref="member">NumberOfSamples</ref></type>
+        <definition>NumberOfSamples GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::number_of_samples</definition>
+        <argsstring></argsstring>
+        <name>number_of_samples</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Number of samples recorded by the <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref> records a fixed number of samples as long as it is not configured to sample continuously (c.f. <computeroutput>enable_sample_continously</computeroutput> in MADCControl). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="351" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a5195ae4f9b88a791ed673be8c49b4492" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a79e8fc35c94ceeef34266c1fa266a7da" kindref="member">PowerupWaitValue</ref></type>
+        <definition>PowerupWaitValue GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::powerup_wait_value</definition>
+        <argsstring></argsstring>
+        <name>powerup_wait_value</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Powerup wait value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref> remains in the wake up state for a number of <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref> clock cycles determined by this property before transitioning to the <computeroutput>READY</computeroutput> state (via <computeroutput>ENABLE</computeroutput>). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="327" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1afe35f15e9412f79d725809df252a5ebf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a0f43cfcfb4b4f9c1c19dfe817834c3cc" kindref="member">SampleDurationAdjust</ref></type>
+        <definition>SampleDurationAdjust GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::sample_duration_adjust</definition>
+        <argsstring></argsstring>
+        <name>sample_duration_adjust</name>
+        <initializer>{<ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a0f43cfcfb4b4f9c1c19dfe817834c3cc" kindref="member">SampleDurationAdjust</ref>()}</initializer>
+        <briefdescription>
+<para>Sample duration adjustment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This seems to be redundant to <computeroutput>conversion_cycles_offset</computeroutput>. Both settings are summed up in hardware. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="313" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a90390d706d0e26590af0f207854f249f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::sample_on_positive_edge</definition>
+        <argsstring></argsstring>
+        <name>sample_on_positive_edge</name>
+        <initializer>{true}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="356" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a8ee394505c9f3c06a4e3403c6445f071" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a6e1842b7e048c3b5fec7e2b4be68eb7c" kindref="member">SARResetLength</ref></type>
+        <definition>SARResetLength GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::sar_reset_length</definition>
+        <argsstring></argsstring>
+        <name>sar_reset_length</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="320" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a32949aaddb47c381947294ea43bc31bb" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1accb934e45ce8145ca0238058ab007b4a" kindref="member">SARResetWait</ref></type>
+        <definition>SARResetWait GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::sar_reset_wait</definition>
+        <argsstring></argsstring>
+        <name>sar_reset_wait</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="319" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a5ff30dcefdaeeae01e51367c6fa7133a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::MADC</definition>
+        <argsstring>()=default</argsstring>
+        <name>MADC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="294" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a826afd4c8fa9193544daf51c2c94e43d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::operator!=</definition>
+        <argsstring>(MADC const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="383" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ae5215482ee9ff1b6ab2d1c5c9bcb1607" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC::operator==</definition>
+        <argsstring>(MADC const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="382" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1af748400c5040de36bab41daed17df529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, MADC const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="385" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration of the <ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c" kindref="compound">MADC</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="292" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="293" bodyend="386"/>
+    <listofallmembers>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a3943083de5986a78345572e0efd2c56f" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>calibration_wait_value</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ae682fa9bdf719c1d5923ef5b5330ba11" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>CalibrationWaitValue</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1af6c8989196fe2debc97ae410cb8753e8" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>clock_scale_value</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1acc6089f45cbf7074713e8a20797fcdce" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>ClockScaleValue</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a8c896728e73de3e1d9cb57a49b0398b7" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>conversion_cycles_offset</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a7adaca74d53b1dcda2f92e6cc75abba4" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>ConversionCyclesOffset</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ae03fab6595d9f2c86598683765948bb3" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>enable_calibration</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a15e3f63d23eab44b7428cc0efce2e3a5" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>enable_dummy_data</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a868927569d0dabb8b5b262bb8a1c0629" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>enable_madc_clock_scaling</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a9d3dc5bf7453f18168e096b3fc7f504f" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>enable_sar_reset_on_fall</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ac83aeab80161be1b285804d6bd3df133" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>in_500na</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a5ff30dcefdaeeae01e51367c6fa7133a" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>MADC</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1af29a9e66db879d7fa606865e773e74c5" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>number_of_samples</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ac680bd3ca9da2ee598389f949b40d31d" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>NumberOfSamples</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a826afd4c8fa9193544daf51c2c94e43d" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>operator!=</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1af748400c5040de36bab41daed17df529" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1ae5215482ee9ff1b6ab2d1c5c9bcb1607" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>operator==</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a5195ae4f9b88a791ed673be8c49b4492" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>powerup_wait_value</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a79e8fc35c94ceeef34266c1fa266a7da" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>PowerupWaitValue</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1afe35f15e9412f79d725809df252a5ebf" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>sample_duration_adjust</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a90390d706d0e26590af0f207854f249f" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>sample_on_positive_edge</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a0f43cfcfb4b4f9c1c19dfe817834c3cc" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>SampleDurationAdjust</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a8ee394505c9f3c06a4e3403c6445f071" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>sar_reset_length</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a32949aaddb47c381947294ea43bc31bb" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>sar_reset_wait</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1a6e1842b7e048c3b5fec7e2b4be68eb7c" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>SARResetLength</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_m_a_d_c_1accb934e45ce8145ca0238058ab007b4a" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::MADC</scope><name>SARResetWait</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

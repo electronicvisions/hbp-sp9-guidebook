@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_vector_generator_control_1_1_wait" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::VectorGeneratorControl::Wait</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Wait, uint_fast8_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="vector__generator_8h" local="no">vector_generator.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_vector_generator_control_1_1_wait_1a3f933af99a62e98f3c2e3889e77e1c7b" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::VectorGeneratorControl::Wait::Wait</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Wait</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="50" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="50" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_vector_generator_control_1_1_wait" kindref="compound">Wait</ref> value to use. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::VectorGeneratorControl::Wait</label>
+        <link refid="structhaldls_1_1vx_1_1_vector_generator_control_1_1_wait"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Wait, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::VectorGeneratorControl::Wait</label>
+        <link refid="structhaldls_1_1vx_1_1_vector_generator_control_1_1_wait"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Wait, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="47" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="49" bodyend="53"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_vector_generator_control_1_1_wait_1a3f933af99a62e98f3c2e3889e77e1c7b" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorControl::Wait</scope><name>Wait</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

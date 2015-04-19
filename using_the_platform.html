@@ -1,0 +1,476 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Running simulations &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/hbpdoc.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/extra.js"></script>
+    <script src="_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The BrainScaleS “physical model” system" href="pm/pm.html" />
+    <link rel="prev" title="Building models" href="building_models.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Running simulations</a><ul>
+<li><a class="reference internal" href="#format-of-a-job">Format of a job</a><ul>
+<li><a class="reference internal" href="#experiment-description">Experiment description</a></li>
+<li><a class="reference internal" href="#input-data">Input data</a></li>
+<li><a class="reference internal" href="#hardware-platform-configuration">Hardware platform configuration</a><ul>
+<li><a class="reference internal" href="#spinnaker">SpiNNaker</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-the-web-interface">Using the web interface</a><ul>
+<li><a class="reference internal" href="#setting-up-your-collab">Setting up your Collab</a></li>
+<li><a class="reference internal" href="#submitting-a-simulation-job">Submitting a simulation job</a></li>
+<li><a class="reference internal" href="#retrieving-the-results-of-a-job">Retrieving the results of a job</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-the-python-client">Using the Python client</a><ul>
+<li><a class="reference internal" href="#installing-the-python-client">Installing the Python client</a></li>
+<li><a class="reference internal" href="#configuring-the-client">Configuring the client</a></li>
+<li><a class="reference internal" href="#submitting-a-job">Submitting a job</a></li>
+<li><a class="reference internal" href="#monitoring-job-status">Monitoring job status</a></li>
+<li><a class="reference internal" href="#id2">Retrieving the results of a job</a></li>
+<li><a class="reference internal" href="#deleting-a-job">Deleting a job</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#using-the-command-line">Using the command-line</a><ul>
+<li><a class="reference internal" href="#installing-the-command-line-client">Installing the command-line client</a></li>
+<li><a class="reference internal" href="#id3">Configuring the client</a></li>
+<li><a class="reference internal" href="#id4">Submitting a job</a></li>
+<li><a class="reference internal" href="#submitting-a-batch-job">Submitting a batch job</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="building_models.html"
+                        title="previous chapter">Building models</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="pm/pm.html"
+                        title="next chapter">The BrainScaleS “physical model” system</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/using_the_platform.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="building_models.html">Building models</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="pm/pm.html">The BrainScaleS “physical model” system</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="running-simulations">
+<h1>Running simulations<a class="headerlink" href="#running-simulations" title="Permalink to this headline">¶</a></h1>
+<p>The Neuromorphic Computing part of the  <a class="reference external" href="https://ebrains.eu/service/neuromorphic-computing">EBRAINS research infrastructure</a> contains two very different neuromorphic hardware architectures
+- BrainScaleS (also known as “NM-PM-1”, “physical model” - with the wafer scale BrainScaleS-1 and the newer, so far single chip BrainScaleS-2 as well as the older Spikey) and SpiNNaker (also known as “NM-MC-1”, “many core”) - but has a single interface.</p>
+<p>Jobs are written as Python scripts using the PyNN API, submitted to a queue server, then executed on one of the
+neuromorphic systems. On job completion, the user may retrieve the results of the simulation/emulation.</p>
+<p>There are several ways of interacting with the queue server. The access via Jupyter notebook examples, provided with the initial test collab (see the <a class="reference internal" href="quick_start.html"><span class="doc">Getting started</span></a> section), is easiest for a quick start.
+This document describes the web interface, the Python
+client and the command-line client.</p>
+<section id="format-of-a-job">
+<h2>Format of a job<a class="headerlink" href="#format-of-a-job" title="Permalink to this headline">¶</a></h2>
+<p>Whether using the web interface or the Python client, a job for the HBP Neuromorphic Computing
+Platform consists of:</p>
+<ul class="simple">
+<li><p>an experiment description</p></li>
+<li><p>input data</p></li>
+<li><p>hardware platform configuration</p></li>
+</ul>
+<section id="experiment-description">
+<h3>Experiment description<a class="headerlink" href="#experiment-description" title="Permalink to this headline">¶</a></h3>
+<p>The experiment description takes the form of a Python script using the PyNN API. You must provide one of:</p>
+<ul class="simple">
+<li><p>a single script, uploaded as part of the job submission or pasted into the web form</p></li>
+<li><p>the file path of a single script located on your local machine (Python client only)</p></li>
+<li><p>the URL of a public Git repository</p></li>
+<li><p>the URL of a zip or tar.gz archive</p></li>
+</ul>
+<p>In the latter two cases, you may optionally specify the path to the main Python script you wish
+to run, together with any command-line arguments. The command-line arguments may contain a
+placeholder, “<code class="docutils literal notranslate"><span class="pre">{system}</span></code>”, which will be replaced with the name of the PyNN backend module
+to be used (e.g. “spinnaker”). Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">main</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">option1</span><span class="o">=</span><span class="mi">42</span> <span class="p">{</span><span class="n">system</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>If the path is not specified, the script is assumed to be named <code class="file docutils literal notranslate"><span class="pre">run.py</span></code>,
+i.e. the default is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">run</span><span class="o">.</span><span class="n">py</span> <span class="p">{</span><span class="n">system</span><span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="input-data">
+<h3>Input data<a class="headerlink" href="#input-data" title="Permalink to this headline">¶</a></h3>
+<p>Input data are specified as a list of data items. Each data item is the URL of a data file that should be downloaded
+and placed in the job working directory. If your input data files are contained within your Git repository or zip
+archive, you do not need to specify them here.</p>
+</section>
+<section id="hardware-platform-configuration">
+<h3>Hardware platform configuration<a class="headerlink" href="#hardware-platform-configuration" title="Permalink to this headline">¶</a></h3>
+<p>Here you must choose the hardware system to be used (“BrainScaleS” for the Heidelberg system,
+“SpiNNaker” for the Manchester system, “BrainScaleS-ESS” for the software simulator of the BrainScaleS system,
+or “Spikey” for the Heidelberg single-chip system) and specify any
+specific configuration options for the hardware system you have chosen.</p>
+<section id="spinnaker">
+<h4>SpiNNaker<a class="headerlink" href="#spinnaker" title="Permalink to this headline">¶</a></h4>
+<p>On SpiNNaker, the “Hardware Config” box accepts a JSON-formatted object, with the following fields:</p>
+<dl class="field-list simple">
+<dt class="field-odd">“spynnaker_version”</dt>
+<dd class="field-odd"><p>The git tag or branch to run.  If a “semantic” version is specified, each part
+of the tools will download a “matching” semantic version if possible, or use
+git master if no match is found.  If any other name is used, each part of the
+tools will attempt to use a matching branch or tag from git, or git master if
+no match is found.</p>
+</dd>
+<dt class="field-even">“spinnaker_tools_version”</dt>
+<dd class="field-even"><p>By default, a version of spinnaker tools will be used that works with the
+software version used above.  If another version is required for any reason,
+this can be overridden here.</p>
+</dd>
+<dt class="field-odd">“extra_pip_installs”</dt>
+<dd class="field-odd"><p>Specifies an array of additional libraries that should be installed using pip.</p>
+</dd>
+<dt class="field-even">“extra_git_repositories”</dt>
+<dd class="field-even"><p>Specifies an array of additional git repositories that should be cloned.  The
+repository will be cloned into a sub-folder of the “current working directory”
+on the system, and so can be made use of when specifying the options below.</p>
+</dd>
+<dt class="field-odd">“extra_makes”</dt>
+<dd class="field-odd"><p>Specifies an array of additional folders in which “make” should be called.</p>
+</dd>
+<dt class="field-even">“extra_python_setups”</dt>
+<dd class="field-even"><p>Specifies an array of additional folders in which to run “python setup.py install”.</p>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="s2">&quot;spynnaker_version&quot;</span><span class="p">:</span> <span class="s2">&quot;master&quot;</span><span class="p">,</span>
+<span class="s2">&quot;spinnaker_tools_version&quot;</span><span class="p">:</span> <span class="s2">&quot;3.1.0&quot;</span><span class="p">,</span>
+<span class="s2">&quot;extra_pip_installs&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;elephant&quot;</span><span class="p">],</span>
+<span class="s2">&quot;extra_git_repositories&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;https://github.com/SpiNNakerManchester/SpiNNakerGraphFrontEnd&quot;</span><span class="p">],</span>
+<span class="s2">&quot;extra_makes&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;SpiNNakerGraphFrontEnd/spinnaker_graph_front_end/examples&quot;</span><span class="p">],</span>
+<span class="s2">&quot;extra_python_setups&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;SpiNNakerGraphFrontEnd&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="using-the-web-interface">
+<span id="id1"></span><h2>Using the web interface<a class="headerlink" href="#using-the-web-interface" title="Permalink to this headline">¶</a></h2>
+<section id="setting-up-your-collab">
+<h3>Setting up your Collab<a class="headerlink" href="#setting-up-your-collab" title="Permalink to this headline">¶</a></h3>
+<p>The neuromorphic computing platform can be accessed from within the EBRAINS Collaboratory using the
+“Neuromorphic Computing Platform Job Manager”.</p>
+<p>The Collab we create for you when you send your EBRAINS account username to <a class="reference external" href="mailto:neuromorphic&#37;&#52;&#48;humanbrainproject&#46;eu">neuromorphic<span>&#64;</span>humanbrainproject<span>&#46;</span>eu</a> already contains these the app and a test quota.</p>
+<p>Access is granted on a per-collab basis, not per-person. All members of this collab will be able to make use of the quota. When the test-quota is used up, please use the Job Managers ‘Quota’ link to request more quota.</p>
+</section>
+<section id="submitting-a-simulation-job">
+<span id="running-jobs"></span><h3>Submitting a simulation job<a class="headerlink" href="#submitting-a-simulation-job" title="Permalink to this headline">¶</a></h3>
+<p>To submit a simulation job to the Platform, click on <span class="guilabel">Job Manager</span>.</p>
+<p>You will see a list of jobs you have submitted to the platform.
+The first time you connect, of course, this list will be empty.</p>
+<p>To create a new simulation job click on the <span class="guilabel">‘+’</span> icon or the <span class="guilabel">New Job</span> button.</p>
+<p>In this dialog, you must choose the project with which the job is associated, the hardware
+platform on which you wish to run (“BrainScaleS”, “SpiNNaker”, “BrainScaleS-ESS” or “Spikey”), and provide the Python script which
+should be run, either by copy-and-pasting the script into the “Code” box,</p>
+<a class="reference internal image-reference" href="_images/create_job.png"><img alt="_images/create_job.png" class="align-center" src="_images/create_job.png" style="width: 70%;" /></a>
+<p>or by giving the URL of a version control repository or zip/tar archive together with a command-line
+invocation.</p>
+<a class="reference internal image-reference" href="_images/create_job_git.png"><img alt="_images/create_job_git.png" class="align-center" src="_images/create_job_git.png" style="width: 70%;" /></a>
+<p>In your Python script you should avoid hard-coding the name of the PyNN backend to run, as
+this will differ depending on the platform. Instead, your script should read the name of the
+backend from the command-line. With PyNN 0.8, this can be achieved using:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyNN.utility</span> <span class="kn">import</span> <span class="n">get_simulator</span>
+<span class="n">sim</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="n">get_simulator</span><span class="p">()</span>
+
+<span class="n">sim</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>For PyNN 0.7, see <a class="reference internal" href="building_models.html#using-different-backends"><span class="std std-ref">Using different backends</span></a>.</p>
+<p>The “Hardware config” box is optional, but may contain extra configuration options in JSON
+format (similar to the syntax for dictionaries in Python).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>more information on the available configuration options for the different hardware
+systems will be provided soon.</p>
+</div>
+<p>It is possible to provide input data files to the simulation. The files must be accessible
+online.</p>
+<p>After clicking “Submit” the job will be submitted to the queue, and will appear in the list of
+jobs with a “submitted” label.</p>
+<a class="reference internal image-reference" href="_images/job_list.png"><img alt="_images/job_list.png" class="align-center" src="_images/job_list.png" style="width: 100%;" /></a>
+<p>You will receive e-mail notifications when the job starts running and when it completes.</p>
+</section>
+<section id="retrieving-the-results-of-a-job">
+<h3>Retrieving the results of a job<a class="headerlink" href="#retrieving-the-results-of-a-job" title="Permalink to this headline">¶</a></h3>
+<p>Once the job is completed, click on the magnifying glass icon to see the job results and
+download the output data files.</p>
+<a class="reference internal image-reference" href="_images/ebrains_job_manager_jobresult.png"><img alt="_images/ebrains_job_manager_jobresult.png" class="align-center" src="_images/ebrains_job_manager_jobresult.png" style="width: 100%;" /></a>
+</section>
+</section>
+<section id="using-the-python-client">
+<h2>Using the Python client<a class="headerlink" href="#using-the-python-client" title="Permalink to this headline">¶</a></h2>
+<p>The Python client allows scripted access to the Platform. The same client software is used both by end users for
+submitting jobs to the queue, and by the hardware systems to take jobs off the queue and to post the results.</p>
+<section id="installing-the-python-client">
+<h3>Installing the Python client<a class="headerlink" href="#installing-the-python-client" title="Permalink to this headline">¶</a></h3>
+<p>Install the nmpi_client package from PyPI into a virtual environment, using for example
+virtualenv or Anaconda. The client works with Python 2.7 and Python 3.5 or newer.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install hbp_neuromorphic_platform
+</pre></div>
+</div>
+</section>
+<section id="configuring-the-client">
+<h3>Configuring the client<a class="headerlink" href="#configuring-the-client" title="Permalink to this headline">¶</a></h3>
+<p>Before using the Neuromorphic Computing Platform you must have an EBRAINS/HBP account, have created at
+least one Collab, and have a compute quota (a test-quota comes with the access).</p>
+<p>To interact with the Platform, you first create a <code class="xref py py-class docutils literal notranslate"><span class="pre">Client</span></code> object with your HBP username:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">nmpi</span>
+
+<span class="n">c</span> <span class="o">=</span> <span class="n">nmpi</span><span class="o">.</span><span class="n">Client</span><span class="p">(</span><span class="s2">&quot;myusername&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This will prompt you for your password.</p>
+<p>After you have connected once with your password, the platform provides a token which you
+can save to a file and use in place of the password.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">token</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">token</span>
+
+<span class="n">new_client</span> <span class="o">=</span> <span class="n">Client</span><span class="p">(</span><span class="s2">&quot;myusername&quot;</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">token</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This token will eventually expire. When it does, reconnect with your password to obtain a new token.</p>
+</section>
+<section id="submitting-a-job">
+<h3>Submitting a job<a class="headerlink" href="#submitting-a-job" title="Permalink to this headline">¶</a></h3>
+<p>Simple example: a single file on your local machine, no input data or parameter files.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">job_id</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">submit_job</span><span class="p">(</span><span class="n">source</span><span class="o">=</span><span class="s2">&quot;/Users/alice/dev/pyNN_0.7/examples/IF_cond_exp.py&quot;</span><span class="p">,</span>
+                      <span class="n">platform</span><span class="o">=</span><span class="n">nmpi</span><span class="o">.</span><span class="n">BRAINSCALES</span><span class="p">,</span>
+                      <span class="n">collab_id</span><span class="o">=</span><span class="mi">563</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The Collab ID is the first number in the URL of your Collab, e.g. <code class="docutils literal notranslate"><span class="pre">https://collab.humanbrainproject.eu/#/collab/563/nav/5043</span></code>.</p>
+<p>You can get a list of all your Collabs using:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">collabs</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">my_collabs</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>A more complex example: the experiment and model description are contained in a Git repository. The input to the
+network is an image file taken from the internet.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">job_id</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">submit_job</span><span class="p">(</span><span class="n">source</span><span class="o">=</span><span class="s2">&quot;https://github.com/apdavison/nmpi_test&quot;</span><span class="p">,</span>
+                      <span class="n">platform</span><span class="o">=</span><span class="n">nmpi</span><span class="o">.</span><span class="n">SPINNAKER</span><span class="p">,</span>
+                      <span class="n">collab_id</span><span class="o">=</span><span class="mi">141</span><span class="p">,</span>
+                      <span class="n">inputs</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;http://aloi.science.uva.nl/www-images/90/90.jpg&quot;</span><span class="p">],</span>
+                      <span class="n">command</span><span class="o">=</span><span class="s2">&quot;run.py </span><span class="si">{system}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="monitoring-job-status">
+<h3>Monitoring job status<a class="headerlink" href="#monitoring-job-status" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span><span class="o">.</span><span class="n">job_status</span><span class="p">(</span><span class="n">job_id</span><span class="p">)</span>
+<span class="go">u&#39;submitted&#39;</span>
+</pre></div>
+</div>
+</section>
+<section id="id2">
+<h3>Retrieving the results of a job<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">job</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">get_job</span><span class="p">(</span><span class="n">job_id</span><span class="p">,</span> <span class="n">with_log</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pprint</span><span class="p">(</span><span class="n">job</span><span class="p">)</span>
+<span class="go">{u&#39;code&#39;: u&#39;https://github.com/apdavison/nmpi_test&#39;,</span>
+<span class="go"> u&#39;hardware_config&#39;: u&#39;&#39;,</span>
+<span class="go"> u&#39;hardware_platform&#39;: u&#39;SpiNNaker&#39;,</span>
+<span class="go"> u&#39;id&#39;: 19,</span>
+<span class="go"> u&#39;input_data&#39;: [{u&#39;id&#39;: 34,</span>
+<span class="go">                  u&#39;resource_uri&#39;: u&#39;/api/v1/dataitem/34&#39;,</span>
+<span class="go">                  u&#39;url&#39;: u&#39;http://aloi.science.uva.nl/www-images/90/90.jpg&#39;}],</span>
+<span class="go"> u&#39;log&#39;: u&#39;&#39;,</span>
+<span class="go"> u&#39;output_data&#39;: [{u&#39;id&#39;: 35,</span>
+<span class="go">                  u&#39;resource_uri&#39;: u&#39;/api/v1/dataitem/35&#39;,</span>
+<span class="go">                  u&#39;url&#39;: u&#39;http://example.com/my_output_data.h5&#39;}],</span>
+<span class="go"> u&#39;collab_id&#39;: 141,</span>
+<span class="go"> u&#39;resource_uri&#39;: u&#39;/api/v1/queue/19&#39;,</span>
+<span class="go"> u&#39;status&#39;: u&#39;finished&#39;,</span>
+<span class="go"> u&#39;timestamp_completion&#39;: u&#39;2014-08-13T21:02:37.541732&#39;,</span>
+<span class="go"> u&#39;timestamp_submission&#39;: u&#39;2014-08-13T19:40:43.964541&#39;,</span>
+<span class="go"> u&#39;user&#39;: u&#39;myusername&#39;}</span>
+</pre></div>
+</div>
+<p>To download the data files generated by your simulation:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">filenames</span> <span class="o">=</span> <span class="n">download_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">job</span><span class="p">,</span> <span class="n">local_dir</span><span class="o">=</span><span class="s2">&quot;.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="deleting-a-job">
+<h3>Deleting a job<a class="headerlink" href="#deleting-a-job" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">remove_completed_job</span><span class="p">(</span><span class="n">job_id</span><span class="p">)</span>   <span class="c1"># for jobs with status &quot;finished&quot; or &quot;error&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">remove_queued_job</span><span class="p">(</span><span class="n">job_id</span><span class="p">)</span>      <span class="c1"># for jobs with status &quot;submitted&quot;</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="using-the-command-line">
+<h2>Using the command-line<a class="headerlink" href="#using-the-command-line" title="Permalink to this headline">¶</a></h2>
+<p>A third way to interact with the HBP Neuromorphic Computing Platform
+is to use the command-line client, <strong class="program">nmpi</strong>.
+This aims to mimic as closely as possible the experience of running simulations on a local machine,
+even though the job is actually running on the large BrainScaleS or SpiNNaker systems.
+In particular, your Python code (e.g. your PyNN scripts) can be on your local machine,
+and all simulation results will be downloaded to your local machine.</p>
+<section id="installing-the-command-line-client">
+<h3>Installing the command-line client<a class="headerlink" href="#installing-the-command-line-client" title="Permalink to this headline">¶</a></h3>
+<p>The command-line client is based on, and included with, the Python client.
+Installing the Python client, as descibed above, also gives you the <strong class="program">nmpi</strong> tool.</p>
+</section>
+<section id="id3">
+<h3>Configuring the client<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>In the directory from which you want to run simulations,
+usually the directory containing your PyNN scripts,
+create a file named <code class="file docutils literal notranslate"><span class="pre">nmpi_config.yml</span></code>,
+which should look something like this:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yourusername</span><span class="w"></span>
+<span class="nt">collab_id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">563</span><span class="w"></span>
+<span class="nt">default_platform</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">SpiNNaker</span><span class="w"></span>
+<span class="nt">default_output_dir</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">.</span><span class="w"></span>
+</pre></div>
+</div>
+<p>You can use the id of any Collab in which you have a quota.</p>
+</section>
+<section id="id4">
+<h3>Submitting a job<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ nmpi run myscript.py
+</pre></div>
+</div>
+<p>This will ask for your HBP password the first time you run it.
+Subsequent runs will use the stored authentication token until it expires,
+at which time you will be asked again for your password.</p>
+<p>All of the Python code in your current directory (and any subdirectories)
+will be uploaded to the Collaboratory storage (for the Collab ID in your config file).
+On subsequent runs, only files that have changed will be uploaded.</p>
+<p>The job will then be submitted to the queue for the default system,
+as defined in your config file, and the <strong class="program">nmpi</strong> command will wait
+until the job has been completed, and then download the simulation results
+to the default output directory.</p>
+<p>To submit a job to a different system than defined in your config, use the <code class="xref std std-option docutils literal notranslate"><span class="pre">-p</span></code> option,
+and to download data to a different output directory, use the <code class="xref std std-option docutils literal notranslate"><span class="pre">-o</span></code> option, e.g.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ nmpi run -p BrainScaleS -o results myscript.py
+</pre></div>
+</div>
+</section>
+<section id="submitting-a-batch-job">
+<h3>Submitting a batch job<a class="headerlink" href="#submitting-a-batch-job" title="Permalink to this headline">¶</a></h3>
+<p>If the platform is very busy, you know that your simulation will take a long time to run,
+or you wish to submit several jobs at one time, you may not wish to wait until the job has finished.
+In that scenario, you can submit in batch mode:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ nmpi run -b myscript.py
+</pre></div>
+</div>
+<p>With this option, the <strong class="program">nmpi</strong> command will return immediately.
+At a later time, you can run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ nmpi check
+</pre></div>
+</div>
+<p>to check whether your jobs have finished.
+For those that have, the simulation results will be downloaded to your local machine.</p>
+</section>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="building_models.html">Building models</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="pm/pm.html">The BrainScaleS “physical model” system</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

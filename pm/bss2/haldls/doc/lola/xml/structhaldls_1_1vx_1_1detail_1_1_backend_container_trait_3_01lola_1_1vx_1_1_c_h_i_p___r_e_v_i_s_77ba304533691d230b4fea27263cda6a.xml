@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_77ba304533691d230b4fea27263cda6a" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BackendContainerBase&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock, fisch::vx::word_access_type::Omnibus, fisch::vx::word_access_type::OmnibusChipOverJTAG &gt;</basecompoundref>
+    <includes refid="synapse__block_8h" local="no">synapse_block.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BackendContainerBase&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock, fisch::vx::word_access_type::Omnibus, fisch::vx::word_access_type::OmnibusChipOverJTAG &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_77ba304533691d230b4fea27263cda6a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BackendContainerBase&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock, fisch::vx::word_access_type::Omnibus, fisch::vx::word_access_type::OmnibusChipOverJTAG &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_77ba304533691d230b4fea27263cda6a"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_block.h" line="87" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_block.h" bodystart="92" bodyend="92"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

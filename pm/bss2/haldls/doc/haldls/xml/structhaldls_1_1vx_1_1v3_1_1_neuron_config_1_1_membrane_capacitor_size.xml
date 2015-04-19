@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1v3_1_1_neuron_config_1_1_membrane_capacitor_size" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::v3::NeuronConfig::MembraneCapacitorSize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; MembraneCapacitorSize, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="v3_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1v3_1_1_neuron_config_1_1_membrane_capacitor_size_1a42a77e2cd8acb6ae1653f1a69023719e" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::v3::NeuronConfig::MembraneCapacitorSize::MembraneCapacitorSize</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>MembraneCapacitorSize</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="58" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="58" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Size of membrane capacitor. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Maximal size is ~2.3pF. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::v3::NeuronConfig::MembraneCapacitorSize</label>
+        <link refid="structhaldls_1_1vx_1_1v3_1_1_neuron_config_1_1_membrane_capacitor_size"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; MembraneCapacitorSize, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::v3::NeuronConfig::MembraneCapacitorSize</label>
+        <link refid="structhaldls_1_1vx_1_1v3_1_1_neuron_config_1_1_membrane_capacitor_size"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; MembraneCapacitorSize, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="55" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="57" bodyend="62"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1v3_1_1_neuron_config_1_1_membrane_capacitor_size_1a42a77e2cd8acb6ae1653f1a69023719e" prot="public" virt="non-virtual"><scope>haldls::vx::v3::NeuronConfig::MembraneCapacitorSize</scope><name>MembraneCapacitorSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

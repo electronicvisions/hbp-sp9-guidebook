@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="capmem_8h" kind="file" language="C++">
+    <compoundname>capmem.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">ostream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">variant</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/common/iter_all.h</includes>
+    <includes local="yes">halco/common/typed_heap_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/capmem.h</includes>
+    <includes refid="cerealization_8h" local="yes">haldls/cerealization.h</includes>
+    <includes refid="common_8h" local="yes">haldls/vx/common.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/join.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes local="yes">hxcomm/vx/target.h</includes>
+    <includedby refid="v2_2capmem_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h</includedby>
+    <includedby refid="v3_2capmem_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h</includedby>
+    <incdepgraph>
+      <node id="25">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="3">
+        <label>cstdint</label>
+      </node>
+      <node id="9">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="6">
+        <label>variant</label>
+      </node>
+      <node id="8">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="24">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="21">
+        <label>fisch/vx/traits.h</label>
+      </node>
+      <node id="4">
+        <label>ostream</label>
+      </node>
+      <node id="20">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="23">
+        <label>boost/utility/enable_if.hpp</label>
+      </node>
+      <node id="15">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="18">
+        <label>utility</label>
+      </node>
+      <node id="11">
+        <label>haldls/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>array</label>
+      </node>
+      <node id="5">
+        <label>sstream</label>
+      </node>
+      <node id="7">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="13">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="14">
+        <label>iosfwd</label>
+      </node>
+      <node id="22">
+        <label>fisch/vx/word_access_type.h</label>
+      </node>
+      <node id="16">
+        <label>haldls/vx/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>type_traits</label>
+      </node>
+      <node id="26">
+        <label>hate/join.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h</label>
+        <link refid="capmem_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>halco/hicann-dls/vx/capmem.h</label>
+      </node>
+      <node id="12">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h</label>
+        <link refid="v2_2capmem_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/haldls.h</label>
+        <link refid="v3_2haldls_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pyhaldls.h</label>
+        <link refid="v2_2pyhaldls_8h"/>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h</label>
+        <link refid="v3_2pyhaldls_8h"/>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/haldls.h</label>
+        <link refid="v2_2haldls_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h</label>
+        <link refid="v3_2capmem_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h</label>
+        <link refid="capmem_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_cap_mem_block_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CapMemBlock&lt; Coordinates &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_cap_mem_block_config_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CapMemBlockConfig&lt; Coordinates &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_cap_mem_cell_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CapMemCell&lt; Coordinates &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_a" prot="public">haldls::vx::CapMemBlockConfig::BoostA</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_b" prot="public">haldls::vx::CapMemBlockConfig::BoostB</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_factor" prot="public">haldls::vx::CapMemBlockConfig::BoostFactor</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_cap_mem_block" prot="public">haldls::vx::CapMemBlock</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_cap_mem_block_config" prot="public">haldls::vx::CapMemBlockConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_cap_mem_cell" prot="public">haldls::vx::CapMemCell</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_current_cell_res" prot="public">haldls::vx::CapMemBlockConfig::CurrentCellRes</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_cell_1_1_disable_refresh" prot="public">haldls::vx::CapMemCell::DisableRefresh</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_level_shifter_bias" prot="public">haldls::vx::CapMemBlockConfig::LevelShifterBias</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_out_amp_bias" prot="public">haldls::vx::CapMemBlockConfig::OutAmpBias</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter" prot="public">haldls::vx::CapMemBlockConfig::PauseCounter</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause" prot="public">haldls::vx::CapMemBlockConfig::PrescalePause</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp" prot="public">haldls::vx::CapMemBlockConfig::PrescaleRamp</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a" prot="public">haldls::vx::CapMemBlockConfig::PulseA</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_b" prot="public">haldls::vx::CapMemBlockConfig::PulseB</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias" prot="public">haldls::vx::CapMemBlockConfig::SourceFollowerBias</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_sub_counter" prot="public">haldls::vx::CapMemBlockConfig::SubCounter</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_cell_1_1_value" prot="public">haldls::vx::CapMemCell::Value</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_v_global_bias" prot="public">haldls::vx::CapMemBlockConfig::VGlobalBias</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_cap_mem_block_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; CapMemBlock&lt; Coordinates &gt; &gt;</innerclass>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="capmem_8h_1a4e9a6ef8d7bf8aabc0c67fbb3b144843" prot="public" static="no">
+        <name>CAPMEM_EXTERN_TEMPLATE</name>
+        <param><defname>Coordinates</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="560" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="capmem_8h_1af5412305457bad22d1629b8f6b4be7d1" prot="public" static="no">
+        <name>CAPMEM_HALCO_GEOMETRY_HASH</name>
+        <param><defname>Coordinates</defname></param>
+        <initializer>	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_cell" kindref="compound">haldls::vx::CapMemCell</ref>&lt;Coordinates&gt;::Value)                 \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_cell" kindref="compound">haldls::vx::CapMemCell</ref>&lt;Coordinates&gt;::DisableRefresh)        \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::OutAmpBias)     \
+	HALCO_GEOMETRY_HASH_CLASS(                                                                     \
+	    typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::SourceFollowerBias)                   \
+	HALCO_GEOMETRY_HASH_CLASS(                                                                     \
+	    typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::LevelShifterBias)                     \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::VGlobalBias)    \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::CurrentCellRes) \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::BoostFactor)    \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::PrescalePause)  \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::PrescaleRamp)   \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::SubCounter)     \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::PauseCounter)   \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::PulseA)         \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::PulseB)         \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::BoostA)         \
+	HALCO_GEOMETRY_HASH_CLASS(typename <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">haldls::vx::CapMemBlockConfig</ref>&lt;Coordinates&gt;::BoostB)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="626" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="626" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h"/>
+  </compounddef>
+</doxygen>

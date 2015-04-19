@@ -1,0 +1,1277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_a_d_p_l_l" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::ADPLL</compoundname>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m0" prot="public">haldls::vx::ADPLL::CoreDivM0</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m1" prot="public">haldls::vx::ADPLL::CoreDivM1</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch" prot="public">haldls::vx::ADPLL::DcoPowerSwitch</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift" prot="public">haldls::vx::ADPLL::FilterShift</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n" prot="public">haldls::vx::ADPLL::LoopDivN</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int" prot="public">haldls::vx::ADPLL::LoopFilterInt</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_prop" prot="public">haldls::vx::ADPLL::LoopFilterProp</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p0" prot="public">haldls::vx::ADPLL::PreDivP0</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p1" prot="public">haldls::vx::ADPLL::PreDivP1</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p2" prot="public">haldls::vx::ADPLL::PreDivP2</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune" prot="public">haldls::vx::ADPLL::Tune</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a0896e163f7310851a55d61284b1f3649" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ADPLLOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ADPLLOnDLS haldls::vx::ADPLL::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="38" column="43" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a77603e5b152547ce39eb65c4c587c825" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::ADPLL::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="39" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="enum" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Output</name>
+        <enumvalue id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045a3cfd62c04844932e36d4eea4b398345c" prot="public">
+          <name>core_0</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045af286bb580644c55c988870d7c60d61a9" prot="public">
+          <name>core_1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045a2a2a29b669ee482ff1460cb5dc84a334" prot="public">
+          <name>dco</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Outputs of the <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="31" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="32" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6a670292993953d481087bef96d988a7" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::ADPLL::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="309" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="320" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1aebaf4091b268de1b6d482da4e09ba44f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ADPLL const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="307" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1abbff847aa54cd0a51f9166f342d07f7b" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m0" kindref="compound">CoreDivM0</ref></type>
+        <definition>CoreDivM0 haldls::vx::ADPLL::m_core_div_m0</definition>
+        <argsstring></argsstring>
+        <name>m_core_div_m0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="327" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a92d60803fa761cb451cce4cf420511c6" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m1" kindref="compound">CoreDivM1</ref></type>
+        <definition>CoreDivM1 haldls::vx::ADPLL::m_core_div_m1</definition>
+        <argsstring></argsstring>
+        <name>m_core_div_m1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="328" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a254f8714591910968fc0db27b18ec951" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch" kindref="compound">DcoPowerSwitch</ref></type>
+        <definition>DcoPowerSwitch haldls::vx::ADPLL::m_dco_power_switch</definition>
+        <argsstring></argsstring>
+        <name>m_dco_power_switch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="333" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a48286c434d67c71a5528fc675f95003d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::m_enable</definition>
+        <argsstring></argsstring>
+        <name>m_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="340" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1af8a51b9d811b8323adad5c0ef2ef05a5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::m_enable_output_clock</definition>
+        <argsstring></argsstring>
+        <name>m_enable_output_clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="339" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a0e6a5c24698dbb74ee91d026720bb270" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::m_enforce_lock</definition>
+        <argsstring></argsstring>
+        <name>m_enforce_lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="335" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a984f69b3079f3c8b54785d685897c6a4" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift" kindref="compound">FilterShift</ref></type>
+        <definition>FilterShift haldls::vx::ADPLL::m_filter_shift</definition>
+        <argsstring></argsstring>
+        <name>m_filter_shift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="338" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad1f83dfa4240922aae3a0bd5f0b5f81d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::m_lock_window</definition>
+        <argsstring></argsstring>
+        <name>m_lock_window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="337" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad2310a2edfcc22ff35960741c8fe7527" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n" kindref="compound">LoopDivN</ref></type>
+        <definition>LoopDivN haldls::vx::ADPLL::m_loop_div_n</definition>
+        <argsstring></argsstring>
+        <name>m_loop_div_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="326" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a96b5f84c7008bcf517d9598c981c346c" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int" kindref="compound">LoopFilterInt</ref></type>
+        <definition>LoopFilterInt haldls::vx::ADPLL::m_loop_filter_int</definition>
+        <argsstring></argsstring>
+        <name>m_loop_filter_int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="324" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a7e4067a2e49bc750d047c961156e52b9" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_prop" kindref="compound">LoopFilterProp</ref></type>
+        <definition>LoopFilterProp haldls::vx::ADPLL::m_loop_filter_prop</definition>
+        <argsstring></argsstring>
+        <name>m_loop_filter_prop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="325" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a534c8d92466ffdaaf66d40f9786fa3a8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::m_open_lock</definition>
+        <argsstring></argsstring>
+        <name>m_open_lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="334" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad6d6b8e98e9ae44d2a46fe57fa3a1c5e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::m_pfd_select</definition>
+        <argsstring></argsstring>
+        <name>m_pfd_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="336" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a201e0a3e173cf2b9e2aa1d122799dc45" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p0" kindref="compound">PreDivP0</ref></type>
+        <definition>PreDivP0 haldls::vx::ADPLL::m_pre_div_p0</definition>
+        <argsstring></argsstring>
+        <name>m_pre_div_p0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="329" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9c3382cc787bc8d1015fc7fd2abb2955" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p1" kindref="compound">PreDivP1</ref></type>
+        <definition>PreDivP1 haldls::vx::ADPLL::m_pre_div_p1</definition>
+        <argsstring></argsstring>
+        <name>m_pre_div_p1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="330" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a1d081bc2a0daf5467b35b76b21d24ddb" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p2" kindref="compound">PreDivP2</ref></type>
+        <definition>PreDivP2 haldls::vx::ADPLL::m_pre_div_p2</definition>
+        <argsstring></argsstring>
+        <name>m_pre_div_p2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="331" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1aa91836eb38a35bfa2cc3f69ad0bc8140" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune" kindref="compound">Tune</ref></type>
+        <definition>Tune haldls::vx::ADPLL::m_tune</definition>
+        <argsstring></argsstring>
+        <name>m_tune</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="332" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a3f1da5ef422274524d8cc6674e14e290" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::m_use_external_config</definition>
+        <argsstring></argsstring>
+        <name>m_use_external_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="341" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1acea96c541c6873c7c77e5769fb5c83b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ADPLL::ADPLL</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ADPLL</name>
+        <briefdescription>
+<para>Default construct <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="138" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6fe6cd3b08afeae4126f19cd810998ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double haldls::vx::ADPLL::calculate_output_frequency</definition>
+        <argsstring>(Output const &amp;output, double const &amp;f_ref=nominal_pll_f_reference) const SYMBOL_VISIBLE</argsstring>
+        <name>calculate_output_frequency</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045" kindref="member">Output</ref> const &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>double const &amp;</type>
+          <declname>f_ref</declname>
+          <defval><ref refid="namespacehaldls_1_1vx_1aaeda5701478060e04492eaecdd99cadf" kindref="member">nominal_pll_f_reference</ref></defval>
+        </param>
+        <briefdescription>
+<para>Calculate the frequency for the different outputs on the <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Frequencies are returned in Hz. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ouput for which the frequency shoud be returned </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>f_ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nominal reference frequency the PLL uses as input </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Frequency in Hz at specified output </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="300" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a4a3f0bda4b414b6ce91fc7c2864fb27e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6a670292993953d481087bef96d988a7" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="316" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1afd5681d901622fc062c2cc494167d735" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6a670292993953d481087bef96d988a7" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::ADPLL::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="314" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a85ce57309389347fb7b006f3170b65b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m0" kindref="compound">CoreDivM0</ref></type>
+        <definition>CoreDivM0 haldls::vx::ADPLL::get_core_div_m0</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_core_div_m0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="156" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6dcb42b991ef91345f8b0da12ca76058" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m1" kindref="compound">CoreDivM1</ref></type>
+        <definition>CoreDivM1 haldls::vx::ADPLL::get_core_div_m1</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_core_div_m1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="161" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1af378b28bb9019fdb639ee8003897d669" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch" kindref="compound">DcoPowerSwitch</ref></type>
+        <definition>DcoPowerSwitch haldls::vx::ADPLL::get_dco_power_switch</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_dco_power_switch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="186" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab0a073fc7563dedc86af049388408ae6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::get_enable</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable</name>
+        <briefdescription>
+<para>Get whether the <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="270" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad5f0d037132dd8a57418ba63ea816457" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::get_enable_output_clock</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_output_clock</name>
+        <briefdescription>
+<para>Get whether output clock is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="256" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9c2041df5a9f5d5461b8588c78aa776f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::get_enforce_lock</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enforce_lock</name>
+        <briefdescription>
+<para>Get whether the PLL signal is enforced to be locked. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="209" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a1818748832565e357aebf37dd815640c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift" kindref="compound">FilterShift</ref></type>
+        <definition>FilterShift haldls::vx::ADPLL::get_filter_shift</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_filter_shift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="247" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab62686472501068e7ce9f2fed95cd994" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::get_lock_window</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_lock_window</name>
+        <briefdescription>
+<para>Get the lock detection timing window (false: long, true: short). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="237" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a440933f5f10be634de20044154afd0a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n" kindref="compound">LoopDivN</ref></type>
+        <definition>LoopDivN haldls::vx::ADPLL::get_loop_div_n</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_loop_div_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="151" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a8906fb894eeadf39c59c8753b1b4aa5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int" kindref="compound">LoopFilterInt</ref></type>
+        <definition>LoopFilterInt haldls::vx::ADPLL::get_loop_filter_int</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_loop_filter_int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="141" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ac0a82357d9d31bb9c96ffc213f3b0557" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_prop" kindref="compound">LoopFilterProp</ref></type>
+        <definition>LoopFilterProp haldls::vx::ADPLL::get_loop_filter_prop</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_loop_filter_prop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="146" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a56a822d72d721066aadd905f9f279b3f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::get_open_lock</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_open_lock</name>
+        <briefdescription>
+<para>Get whether open loop mode of the DCO is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="195" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a0d95ed2f57fc993b0ea036619bc85f12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::get_pfd_select</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_pfd_select</name>
+        <briefdescription>
+<para>Get whether the pfd bit is set (with/without synchronizer). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="223" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1af5eabe62afa6d1adcf104ca38c281c6f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p0" kindref="compound">PreDivP0</ref></type>
+        <definition>PreDivP0 haldls::vx::ADPLL::get_pre_div_p0</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_pre_div_p0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="166" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad9f5732290bc6cbc0d4c98781f82015d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p1" kindref="compound">PreDivP1</ref></type>
+        <definition>PreDivP1 haldls::vx::ADPLL::get_pre_div_p1</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_pre_div_p1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="171" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a624c52e1f751bb78689b50a7ad769e9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p2" kindref="compound">PreDivP2</ref></type>
+        <definition>PreDivP2 haldls::vx::ADPLL::get_pre_div_p2</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_pre_div_p2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="176" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a006c039c31f9a78ffe3e9820ee68f773" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune" kindref="compound">Tune</ref></type>
+        <definition>Tune haldls::vx::ADPLL::get_tune</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_tune</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="181" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1abb43fd70280221e21f62ea3114d42d9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::get_use_external_config</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_use_external_config</name>
+        <briefdescription>
+<para>TODO: What exactly gets this? </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="284" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a4a1680d640ce513726e6a13a9c8f653d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::operator!=</definition>
+        <argsstring>(ADPLL const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="304" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1abb76e02116a9a151d1e9b5cff6d18bb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ADPLL::operator==</definition>
+        <argsstring>(ADPLL const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="303" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1adad037f1245cce4b7fe7ac0d570a1ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_core_div_m0</definition>
+        <argsstring>(CoreDivM0 value) SYMBOL_VISIBLE</argsstring>
+        <name>set_core_div_m0</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m0" kindref="compound">CoreDivM0</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="158" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ac01d47a53e2494eba51b0dee3a76720d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_core_div_m1</definition>
+        <argsstring>(CoreDivM1 value) SYMBOL_VISIBLE</argsstring>
+        <name>set_core_div_m1</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m1" kindref="compound">CoreDivM1</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="163" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9ac2087b84050c15ea6ba0e38265bdc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_dco_power_switch</definition>
+        <argsstring>(DcoPowerSwitch value) SYMBOL_VISIBLE</argsstring>
+        <name>set_dco_power_switch</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch" kindref="compound">DcoPowerSwitch</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="188" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6aa53a4e375706787fcb539d74c71616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_enable</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set to enable the <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="277" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a4d8092f0a53f9936e3fe3e591d6be094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_enable_output_clock</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_output_clock</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set whether to enable output clock. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="263" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a8ec6195df8a7872ca4cb6764b7d54acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_enforce_lock</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enforce_lock</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set to enforce a locked PLL signal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="216" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a4a63e4447f9916747c48c88b0d0c8a01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_filter_shift</definition>
+        <argsstring>(FilterShift value) SYMBOL_VISIBLE</argsstring>
+        <name>set_filter_shift</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift" kindref="compound">FilterShift</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="249" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9146e9bc184efff697f48ad010414ffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_lock_window</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_lock_window</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set the lock detection timing window (false: long, true: short). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="244" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a10dc5cec6e90752c42945310a2cc7cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_loop_div_n</definition>
+        <argsstring>(LoopDivN value) SYMBOL_VISIBLE</argsstring>
+        <name>set_loop_div_n</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n" kindref="compound">LoopDivN</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="153" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ae847259b82303a77319dba14626764a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_loop_filter_int</definition>
+        <argsstring>(LoopFilterInt value) SYMBOL_VISIBLE</argsstring>
+        <name>set_loop_filter_int</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int" kindref="compound">LoopFilterInt</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="143" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab01e038519072a532c85a5d4ba5afdaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_loop_filter_prop</definition>
+        <argsstring>(LoopFilterProp value) SYMBOL_VISIBLE</argsstring>
+        <name>set_loop_filter_prop</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_prop" kindref="compound">LoopFilterProp</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="148" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a708625e84e9227b68f7a49a2a022da56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_open_lock</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_open_lock</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable open loop mode of the DCO. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="202" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1af3f47df7975ce5e59b13749f0bafc1ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_pfd_select</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_pfd_select</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set the pfd bit (with/without synchronizer). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="230" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1acb59157c3739c5d5becb04cbaf837749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_pre_div_p0</definition>
+        <argsstring>(PreDivP0 value) SYMBOL_VISIBLE</argsstring>
+        <name>set_pre_div_p0</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p0" kindref="compound">PreDivP0</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="168" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab513a9b24dc0fadee760db38eeb1213e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_pre_div_p1</definition>
+        <argsstring>(PreDivP1 value) SYMBOL_VISIBLE</argsstring>
+        <name>set_pre_div_p1</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p1" kindref="compound">PreDivP1</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="173" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a243561bec160b11f6b983514358d5d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_pre_div_p2</definition>
+        <argsstring>(PreDivP2 value) SYMBOL_VISIBLE</argsstring>
+        <name>set_pre_div_p2</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p2" kindref="compound">PreDivP2</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="178" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5640c9e62ef1236fb4ad0e11f6fc7219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_tune</definition>
+        <argsstring>(Tune value) SYMBOL_VISIBLE</argsstring>
+        <name>set_tune</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune" kindref="compound">Tune</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="183" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab6774726cc15088f528c0741cba1782d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::set_use_external_config</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_use_external_config</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>TODO: What exactly sets this?. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="291" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9b2b8dc3f24180d4f3e601084951364a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6a670292993953d481087bef96d988a7" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::ADPLL::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a0896e163f7310851a55d61284b1f3649" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="311" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_a_d_p_l_l_1a789c4c98d15ad067ce3683790c5c687a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ADPLL::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="322" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for configuration of an <ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">ADPLL</ref> (All-Digital Phased-Locked-Loop) clock generator. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The PLL features two ADPLLs with three clock outputs each. The clock outputs are routed to the PLLClockOutputBlock with four clock output ports. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="28" bodyend="342"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9b2b8dc3f24180d4f3e601084951364a" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1acea96c541c6873c7c77e5769fb5c83b4" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>ADPLL</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6fe6cd3b08afeae4126f19cd810998ad" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>calculate_output_frequency</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6a670292993953d481087bef96d988a7" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a0896e163f7310851a55d61284b1f3649" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a4a3f0bda4b414b6ce91fc7c2864fb27e" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1afd5681d901622fc062c2cc494167d735" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a85ce57309389347fb7b006f3170b65b1" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_core_div_m0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6dcb42b991ef91345f8b0da12ca76058" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_core_div_m1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1af378b28bb9019fdb639ee8003897d669" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_dco_power_switch</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab0a073fc7563dedc86af049388408ae6" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad5f0d037132dd8a57418ba63ea816457" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_enable_output_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9c2041df5a9f5d5461b8588c78aa776f" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_enforce_lock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a1818748832565e357aebf37dd815640c" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_filter_shift</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab62686472501068e7ce9f2fed95cd994" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_lock_window</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a440933f5f10be634de20044154afd0a4" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_loop_div_n</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a8906fb894eeadf39c59c8753b1b4aa5a" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_loop_filter_int</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ac0a82357d9d31bb9c96ffc213f3b0557" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_loop_filter_prop</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a56a822d72d721066aadd905f9f279b3f" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_open_lock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a0d95ed2f57fc993b0ea036619bc85f12" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_pfd_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1af5eabe62afa6d1adcf104ca38c281c6f" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_pre_div_p0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad9f5732290bc6cbc0d4c98781f82015d" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_pre_div_p1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a624c52e1f751bb78689b50a7ad769e9d" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_pre_div_p2</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a006c039c31f9a78ffe3e9820ee68f773" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_tune</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1abb43fd70280221e21f62ea3114d42d9f" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>get_use_external_config</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a77603e5b152547ce39eb65c4c587c825" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1abbff847aa54cd0a51f9166f342d07f7b" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_core_div_m0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a92d60803fa761cb451cce4cf420511c6" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_core_div_m1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a254f8714591910968fc0db27b18ec951" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_dco_power_switch</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a48286c434d67c71a5528fc675f95003d" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1af8a51b9d811b8323adad5c0ef2ef05a5" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_enable_output_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a0e6a5c24698dbb74ee91d026720bb270" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_enforce_lock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a984f69b3079f3c8b54785d685897c6a4" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_filter_shift</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad1f83dfa4240922aae3a0bd5f0b5f81d" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_lock_window</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad2310a2edfcc22ff35960741c8fe7527" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_loop_div_n</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a96b5f84c7008bcf517d9598c981c346c" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_loop_filter_int</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a7e4067a2e49bc750d047c961156e52b9" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_loop_filter_prop</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a534c8d92466ffdaaf66d40f9786fa3a8" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_open_lock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ad6d6b8e98e9ae44d2a46fe57fa3a1c5e" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_pfd_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a201e0a3e173cf2b9e2aa1d122799dc45" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_pre_div_p0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9c3382cc787bc8d1015fc7fd2abb2955" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_pre_div_p1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a1d081bc2a0daf5467b35b76b21d24ddb" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_pre_div_p2</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1aa91836eb38a35bfa2cc3f69ad0bc8140" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_tune</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a3f1da5ef422274524d8cc6674e14e290" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>m_use_external_config</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a4a1680d640ce513726e6a13a9c8f653d" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1aebaf4091b268de1b6d482da4e09ba44f" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1abb76e02116a9a151d1e9b5cff6d18bb4" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5f4ca30b90ebd512873b0d3d789e8045" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>Output</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a789c4c98d15ad067ce3683790c5c687a" prot="private" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1adad037f1245cce4b7fe7ac0d570a1ae9" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_core_div_m0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ac01d47a53e2494eba51b0dee3a76720d" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_core_div_m1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9ac2087b84050c15ea6ba0e38265bdc8" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_dco_power_switch</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a6aa53a4e375706787fcb539d74c71616" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a4d8092f0a53f9936e3fe3e591d6be094" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_enable_output_clock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a8ec6195df8a7872ca4cb6764b7d54acf" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_enforce_lock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a4a63e4447f9916747c48c88b0d0c8a01" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_filter_shift</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a9146e9bc184efff697f48ad010414ffa" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_lock_window</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a10dc5cec6e90752c42945310a2cc7cd7" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_loop_div_n</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ae847259b82303a77319dba14626764a7" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_loop_filter_int</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab01e038519072a532c85a5d4ba5afdaa" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_loop_filter_prop</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a708625e84e9227b68f7a49a2a022da56" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_open_lock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1af3f47df7975ce5e59b13749f0bafc1ed" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_pfd_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1acb59157c3739c5d5becb04cbaf837749" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_pre_div_p0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab513a9b24dc0fadee760db38eeb1213e" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_pre_div_p1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a243561bec160b11f6b983514358d5d89" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_pre_div_p2</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1a5640c9e62ef1236fb4ad0e11f6fc7219" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_tune</name></member>
+      <member refid="classhaldls_1_1vx_1_1_a_d_p_l_l_1ab6774726cc15088f528c0741cba1782d" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL</scope><name>set_use_external_config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,4 @@
+<map id="haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;" name="haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,186,173"/>
+<area shape="rect" id="node2" title=" " alt="" coords="45,5,147,33"/>
+</map>

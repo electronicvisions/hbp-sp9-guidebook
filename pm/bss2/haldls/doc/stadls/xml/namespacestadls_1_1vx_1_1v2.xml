@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacestadls_1_1vx_1_1v2" kind="namespace" language="C++">
+    <compoundname>stadls::vx::v2</compoundname>
+    <innerclass refid="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container" prot="public">stadls::vx::v2::CoordinateToContainer</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1v2_1_1_digital_init" prot="public">stadls::vx::v2::DigitalInit</innerclass>
+    <innerclass refid="structstadls_1_1vx_1_1v2_1_1_dumper_done" prot="public">stadls::vx::v2::DumperDone</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1v2_1_1_experiment_init" prot="public">stadls::vx::v2::ExperimentInit</innerclass>
+    <innernamespace refid="namespacestadls_1_1vx_1_1v2_1_1detail">stadls::vx::v2::detail</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1v2_1af65c44ab331c7b712965bbbce425bd31" prot="public" static="no">
+        <type>hate::type_list&lt;#define <ref refid="v3_2playback__program__builder_8h_1a81489192049f471a239ebc8b4e314854" kindref="member">PLAYBACK_CONTAINER</ref>(Name, Type) # 13 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h&quot; 2#define <ref refid="v3_2coordinate__to__container_8h_1aa15fad99fdc0176449ba6857f9c0983e" kindref="member">LAST_PLAYBACK_CONTAINER</ref>(Name, Type) #define <ref refid="v3_2playback__program__builder_8h_1a81489192049f471a239ebc8b4e314854" kindref="member">PLAYBACK_CONTAINER</ref>(Name, Type) # 16 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h&quot; 2 &gt;</type>
+        <definition>typedef hate::type_list&lt;#define PLAYBACK_CONTAINER(Name, Type) # 13 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h&quot; 2#define LAST_PLAYBACK_CONTAINER(Name, Type) #define PLAYBACK_CONTAINER(Name, Type) # 16 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h&quot; 2 &gt; stadls::vx::v2::container_list</definition>
+        <argsstring></argsstring>
+        <name>container_list</name>
+        <briefdescription>
+<para>List of container types used to resolve a container type from a coordinate type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" line="18" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1v2_1a657d37d599e6409611dee9f37fca1e8e" prot="public" static="no">
+        <type>hate::type_list&lt;#define <ref refid="v3_2playback__program__builder_8h_1a81489192049f471a239ebc8b4e314854" kindref="member">PLAYBACK_CONTAINER</ref>(Name, Type) # 25 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h&quot; 2#define <ref refid="v3_2coordinate__to__container_8h_1aa15fad99fdc0176449ba6857f9c0983e" kindref="member">LAST_PLAYBACK_CONTAINER</ref>(Name, Type) #define <ref refid="v3_2playback__program__builder_8h_1a81489192049f471a239ebc8b4e314854" kindref="member">PLAYBACK_CONTAINER</ref>(Name, Type) # 28 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h&quot; 2 &gt;</type>
+        <definition>typedef hate::type_list&lt;#define PLAYBACK_CONTAINER(Name, Type) # 25 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h&quot; 2#define LAST_PLAYBACK_CONTAINER(Name, Type) #define PLAYBACK_CONTAINER(Name, Type) # 28 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h&quot; 2 &gt; stadls::vx::v2::coordinate_list</definition>
+        <argsstring></argsstring>
+        <name>coordinate_list</name>
+        <briefdescription>
+<para>List of coordinate types sorted the same way as the container list. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" line="30" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1v2_1abbee132afae6831074bf262c9bb49b7e" prot="public" static="no">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper" kindref="compound">stadls::vx::detail::Dumper</ref>&lt; <ref refid="structstadls_1_1vx_1_1v2_1_1_dumper_done" kindref="compound">DumperDone</ref> &gt;</type>
+        <definition>using stadls::vx::v2::Dumper = typedef stadls::vx::detail::Dumper&lt;DumperDone&gt;</definition>
+        <argsstring></argsstring>
+        <name>Dumper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h" line="18" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1v2_1ad131afa5fe29cd1aae4a419969558f0f" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename Result</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structstadls_1_1vx_1_1_playback_generator_return" kindref="compound">stadls::vx::PlaybackGeneratorReturn</ref>&lt; <ref refid="namespacestadls_1_1vx_1_1v2_1a79d496550462234929971ab82255d343" kindref="member">PlaybackProgramBuilder</ref>, Result &gt;</type>
+        <definition>using stadls::vx::v2::PlaybackGeneratorReturn = typedef stadls::vx::PlaybackGeneratorReturn&lt;PlaybackProgramBuilder, Result&gt;</definition>
+        <argsstring></argsstring>
+        <name>PlaybackGeneratorReturn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1v2_1a957c21e0c44f1a6dea5a5e63b21c1c38" prot="public" static="no">
+        <type><ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">stadls::vx::PlaybackProgram</ref></type>
+        <definition>using stadls::vx::v2::PlaybackProgram = typedef stadls::vx::PlaybackProgram</definition>
+        <argsstring></argsstring>
+        <name>PlaybackProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1v2_1a79d496550462234929971ab82255d343" prot="public" static="no">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">detail::PlaybackProgramBuilderAdapter</ref>&lt; fisch::vx::PlaybackProgramBuilder, <ref refid="namespacestadls_1_1vx_1_1v2_1a957c21e0c44f1a6dea5a5e63b21c1c38" kindref="member">PlaybackProgram</ref>, <ref refid="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container" kindref="compound">CoordinateToContainer</ref> &gt;</type>
+        <definition>using stadls::vx::v2::PlaybackProgramBuilder = typedef detail::PlaybackProgramBuilderAdapter&lt; fisch::vx::PlaybackProgramBuilder, PlaybackProgram, CoordinateToContainer&gt;</definition>
+        <argsstring></argsstring>
+        <name>PlaybackProgramBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h" line="30" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1v2_1aaf595cae62595ecd32c4e1a77e8fc682" prot="public" static="no">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">detail::PlaybackProgramBuilderAdapter</ref>&lt; <ref refid="namespacestadls_1_1vx_1_1v2_1abbee132afae6831074bf262c9bb49b7e" kindref="member">Dumper</ref>, <ref refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a96ea4d734ecd9fd6b629bc2a512404c0" kindref="member">Dumper::done_type</ref>, <ref refid="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container" kindref="compound">CoordinateToContainer</ref> &gt;</type>
+        <definition>using stadls::vx::v2::PlaybackProgramBuilderDumper = typedef detail::PlaybackProgramBuilderAdapter&lt;Dumper, Dumper::done_type, CoordinateToContainer&gt;</definition>
+        <argsstring></argsstring>
+        <name>PlaybackProgramBuilderDumper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h" line="42" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1v2_1a9e4b8b1dd8322b8b199fce23aba04aad" prot="public" static="no">
+        <type><ref refid="classstadls_1_1vx_1_1_reinit_stack_entry" kindref="compound">stadls::vx::ReinitStackEntry</ref></type>
+        <definition>typedef stadls::vx::ReinitStackEntry stadls::vx::v2::ReinitStackEntry</definition>
+        <argsstring></argsstring>
+        <name>ReinitStackEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h" line="7" column="38" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1_1v2_1a1eac22d2ea3c71bd23e95e83d4e4972c" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstadls_1_1vx_1_1v2_1_1_dumper_done" kindref="compound">stadls::vx::v2::DumperDone</ref></type>
+        <definition>struct stadls::vx::v2::DumperDone stadls::vx::v2::access</definition>
+        <argsstring></argsstring>
+        <name>access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumperdone.h" line="71" column="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1_1v2_1a14d07f64f62c9071434fcf2800ec3be9" prot="public" static="no" mutable="no">
+        <type>::pyhxcomm::vx::reinit_stack_entry_unroll_helper&lt; decltype(wrapped)&gt;</type>
+        <definition>::pyhxcomm::vx::reinit_stack_entry_unroll_helper&lt;decltype(wrapped)&gt; stadls::vx::v2::helper</definition>
+        <argsstring></argsstring>
+        <name>helper</name>
+        <initializer>{ 	    wrapped}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h" line="21" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1_1v2_1afdd6f35a7b7279a752ee9e0e85a46ebd" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const stadls::vx::v2::override</definition>
+        <argsstring></argsstring>
+        <name>override</name>
+        <initializer>{ 			PYBIND11_OVERLOAD_PURE(pybind11::tuple, ::stadls::vx::PlaybackGenerator, <ref refid="namespacestadls_1_1vx_1_1v2_1a0ac4a293170e7ebe8c4c0fe69b7aa4c9" kindref="member">generate</ref>, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h" line="43" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1v2_1a266f84c9bc15c8dd14385e29f3e859e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacestadls_1_1vx_1_1v2_1a79d496550462234929971ab82255d343" kindref="member">PlaybackProgramBuilder</ref></type>
+        <definition>PlaybackProgramBuilder stadls::vx::v2::convert_to_builder</definition>
+        <argsstring>(Dumper::done_type const &amp;cocos) SYMBOL_VISIBLE</argsstring>
+        <name>convert_to_builder</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a96ea4d734ecd9fd6b629bc2a512404c0" kindref="member">Dumper::done_type</ref> const &amp;</type>
+          <declname>cocos</declname>
+        </param>
+        <briefdescription>
+<para>Convert a sequence of coordinate container pairs to a PlaybackProgramBuilder. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cocos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate-Container pair sequence </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h" line="55" column="5" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h" declline="55" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1v2_1a69bf8eb65488d050b4af7fa9d61652e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacestadls_1_1vx_1_1v2_1a79d496550462234929971ab82255d343" kindref="member">PlaybackProgramBuilder</ref></type>
+        <definition>PlaybackProgramBuilder stadls::vx::v2::convert_to_builder</definition>
+        <argsstring>(PlaybackProgramBuilderDumper &amp;&amp;dumper) SYMBOL_VISIBLE</argsstring>
+        <name>convert_to_builder</name>
+        <param>
+          <type><ref refid="namespacestadls_1_1vx_1_1v2_1aaf595cae62595ecd32c4e1a77e8fc682" kindref="member">PlaybackProgramBuilderDumper</ref> &amp;&amp;</type>
+          <declname>dumper</declname>
+        </param>
+        <briefdescription>
+<para>Convert a PlaybackProgramBuilderDumper to a PlaybackProgramBuilder (rvalue reference overload). </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The dumper is emptied during the process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dumper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dumper to convert </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h" line="48" column="24" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h" declline="48" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1v2_1af673e2a12a57067ba4a6134fbbce788b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacestadls_1_1vx_1_1v2_1a79d496550462234929971ab82255d343" kindref="member">PlaybackProgramBuilder</ref></type>
+        <definition>PlaybackProgramBuilder stadls::vx::v2::convert_to_builder</definition>
+        <argsstring>(PlaybackProgramBuilderDumper &amp;dumper) SYMBOL_VISIBLE</argsstring>
+        <name>convert_to_builder</name>
+        <param>
+          <type><ref refid="namespacestadls_1_1vx_1_1v2_1aaf595cae62595ecd32c4e1a77e8fc682" kindref="member">PlaybackProgramBuilderDumper</ref> &amp;</type>
+          <declname>dumper</declname>
+        </param>
+        <briefdescription>
+<para>Convert a PlaybackProgramBuilderDumper to a PlaybackProgramBuilder. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The dumper is emptied during the process. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dumper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Dumper to convert </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h" line="41" column="5" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h" declline="41" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1v2_1a45584c3c21d0334393567ec7044f0a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>wrapped</type>
+        <definition>wrapped stadls::vx::v2::def</definition>
+        <argsstring>(&quot;pop&quot;, &amp;ReinitStackEntry::pop)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;pop&quot;</type>
+        </param>
+        <param>
+          <type>&amp;<ref refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a16f3c1a40385a7eb809348f390ac0e13" kindref="member">ReinitStackEntry::pop</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h" line="21" column="68" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h" declline="21" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1v2_1a989431121b048c82aa45b34e96571289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>wrapped</type>
+        <definition>wrapped stadls::vx::v2::def</definition>
+        <argsstring>(&quot;set&quot;, &amp;ReinitStackEntry::set, pybind11::arg(&quot;pbmem_request&quot;), pybind11::arg(&quot;pbmem_snapshot&quot;)=std::nullopt, pybind11::arg(&quot;enforce&quot;)=true)</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;set&quot;</type>
+        </param>
+        <param>
+          <type>&amp;<ref refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a439e2f1ee8477bb5d59c768dcdc3fb02" kindref="member">ReinitStackEntry::set</ref></type>
+        </param>
+        <param>
+          <type>pybind11::arg(&quot;pbmem_request&quot;)</type>
+        </param>
+        <param>
+          <type>pybind11::arg(&quot;pbmem_snapshot&quot;)</type>
+          <defval>std::nullopt</defval>
+        </param>
+        <param>
+          <type>pybind11::arg(&quot;enforce&quot;)</type>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h" line="21" column="80" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h" declline="21" declcolumn="80"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1v2_1a0ac4a293170e7ebe8c4c0fe69b7aa4c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::vx::v2::generate</definition>
+        <argsstring>(Ts &amp;&amp;... args) -&gt; decltype(stadls::vx::generate(std::forward&lt; Ts &gt;(args)...))</argsstring>
+        <name>generate</name>
+        <param>
+          <type>Ts &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h" line="12" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1v2_1af56f315983b5e6c3ede4707fbb0a299c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::vx::v2::run</definition>
+        <argsstring>(Ts &amp;&amp;... args) -&gt; decltype(stadls::vx::run(std::forward&lt; Ts &gt;(args)...))</argsstring>
+        <name>run</name>
+        <param>
+          <type>Ts &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/run.h" line="8" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/run.h" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1v2_1a9559e5f92d6ac37ac0d00de1d95711c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::v2::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumperdone.h" line="73" column="6" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumperdone.h" declline="73" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" line="6" column="1"/>
+  </compounddef>
+</doxygen>

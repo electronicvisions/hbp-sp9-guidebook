@@ -1,0 +1,4 @@
+<map id="haldls::vx::CommonNeuronBackendConfig" name="haldls::vx::CommonNeuronBackendConfig">
+<area shape="rect" id="node1" title="Read/write access to common neuron parameters." alt="" coords="5,97,187,141"/>
+<area shape="rect" id="node2" href="$classhaldls_1_1vx_1_1_differential_write_trait.html" title="Trait signalling derived&#45;from container type support differential write operation." alt="" coords="22,5,170,49"/>
+</map>

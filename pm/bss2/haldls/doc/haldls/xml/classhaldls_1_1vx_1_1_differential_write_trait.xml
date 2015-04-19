@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_differential_write_trait" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::DifferentialWriteTrait</compoundname>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_cap_mem_block" prot="public" virt="non-virtual">haldls::vx::CapMemBlock&lt; Coordinates &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" prot="public" virt="non-virtual">haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_cap_mem_cell" prot="public" virt="non-virtual">haldls::vx::CapMemCell&lt; Coordinates &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_column_correlation_quad" prot="public" virt="non-virtual">haldls::vx::ColumnCorrelationQuad</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_column_current_quad" prot="public" virt="non-virtual">haldls::vx::ColumnCurrentQuad</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_common_neuron_backend_config" prot="public" virt="non-virtual">haldls::vx::CommonNeuronBackendConfig</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config" prot="public" virt="non-virtual">haldls::vx::CommonPADIBusConfig</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_common_s_t_p_config" prot="public" virt="non-virtual">haldls::vx::CommonSTPConfig</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_common_synram_config" prot="public" virt="non-virtual">haldls::vx::CommonSynramConfig</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_d_a_c_channel" prot="public" virt="non-virtual">haldls::vx::DACChannel</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_d_a_c_control" prot="public" virt="non-virtual">haldls::vx::DACControl</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_neuron_backend_config" prot="public" virt="non-virtual">haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_p_p_u_control_register" prot="public" virt="non-virtual">haldls::vx::PPUControlRegister</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_shift_register" prot="public" virt="non-virtual">haldls::vx::ShiftRegister</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_synapse_correlation_calib_quad" prot="public" virt="non-virtual">haldls::vx::SynapseCorrelationCalibQuad</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_synapse_driver_config" prot="public" virt="non-virtual">haldls::vx::SynapseDriverConfig</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_synapse_label_quad" prot="public" virt="non-virtual">haldls::vx::SynapseLabelQuad</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_synapse_quad" prot="public" virt="non-virtual">haldls::vx::SynapseQuad</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1_synapse_weight_quad" prot="public" virt="non-virtual">haldls::vx::SynapseWeightQuad</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1v2_1_1_neuron_config" prot="public" virt="non-virtual">haldls::vx::v2::NeuronConfig</derivedcompoundref>
+    <derivedcompoundref refid="classhaldls_1_1vx_1_1v3_1_1_neuron_config" prot="public" virt="non-virtual">haldls::vx::v3::NeuronConfig</derivedcompoundref>
+    <includes refid="traits_8h" local="no">traits.h</includes>
+    <briefdescription>
+<para>Trait signalling derived-from container type support differential write operation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>haldls::vx::CommonSTPConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_s_t_p_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>haldls::vx::v3::NeuronConfig</label>
+        <link refid="classhaldls_1_1vx_1_1v3_1_1_neuron_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>haldls::vx::SynapseLabelQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_label_quad"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>haldls::vx::CommonPADIBusConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>haldls::vx::NeuronBackendConfig&lt; Coordinates &gt;</label>
+        <link refid="classhaldls_1_1vx_1_1_neuron_backend_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>haldls::vx::DACChannel</label>
+        <link refid="classhaldls_1_1vx_1_1_d_a_c_channel"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;</label>
+        <link refid="classhaldls_1_1vx_1_1_cap_mem_block_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>haldls::vx::v2::NeuronConfig</label>
+        <link refid="classhaldls_1_1vx_1_1v2_1_1_neuron_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>haldls::vx::PPUControlRegister</label>
+        <link refid="classhaldls_1_1vx_1_1_p_p_u_control_register"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>haldls::vx::CommonSynramConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_synram_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>haldls::vx::SynapseQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_quad"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+      <node id="4">
+        <label>haldls::vx::CapMemCell&lt; Coordinates &gt;</label>
+        <link refid="classhaldls_1_1vx_1_1_cap_mem_cell"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>haldls::vx::SynapseWeightQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_weight_quad"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>haldls::vx::ColumnCorrelationQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_column_correlation_quad"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>haldls::vx::CommonNeuronBackendConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_common_neuron_backend_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>haldls::vx::DACControl</label>
+        <link refid="classhaldls_1_1vx_1_1_d_a_c_control"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>haldls::vx::ShiftRegister</label>
+        <link refid="classhaldls_1_1vx_1_1_shift_register"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>haldls::vx::SynapseCorrelationCalibQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_correlation_calib_quad"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>haldls::vx::SynapseDriverConfig</label>
+        <link refid="classhaldls_1_1vx_1_1_synapse_driver_config"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>haldls::vx::ColumnCurrentQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_column_current_quad"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::CapMemBlock&lt; Coordinates &gt;</label>
+        <link refid="classhaldls_1_1vx_1_1_cap_mem_block"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" line="16" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" bodystart="17" bodyend="17"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

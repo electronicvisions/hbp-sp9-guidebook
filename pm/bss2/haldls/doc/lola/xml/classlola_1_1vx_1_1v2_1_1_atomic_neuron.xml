@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1v2_1_1_atomic_neuron" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::v2::AtomicNeuron</compoundname>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation" prot="public">lola::vx::v2::AtomicNeuron::Adaptation</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian" prot="public">lola::vx::v2::AtomicNeuron::Bayesian</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_constant_current" prot="public">lola::vx::v2::AtomicNeuron::ConstantCurrent</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" prot="public">lola::vx::v2::AtomicNeuron::EventRouting</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_exponential" prot="public">lola::vx::v2::AtomicNeuron::Exponential</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_leak" prot="public">lola::vx::v2::AtomicNeuron::Leak</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_membrane_capacitance" prot="public">lola::vx::v2::AtomicNeuron::MembraneCapacitance</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_multicompartment" prot="public">lola::vx::v2::AtomicNeuron::Multicompartment</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_readout" prot="public">lola::vx::v2::AtomicNeuron::Readout</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_refractory_period" prot="public">lola::vx::v2::AtomicNeuron::RefractoryPeriod</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_reset" prot="public">lola::vx::v2::AtomicNeuron::Reset</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_synaptic_input" prot="public">lola::vx::v2::AtomicNeuron::SynapticInput</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold" prot="public">lola::vx::v2::AtomicNeuron::Threshold</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a52ce75ff4d0882814125b5b6408e3f95" prot="public" static="no">
+        <type>haldls::vx::v2::CapMemCell::DisableRefresh</type>
+        <definition>typedef haldls::vx::v2::CapMemCell::DisableRefresh lola::vx::v2::AtomicNeuron::AnalogDisableRefresh</definition>
+        <argsstring></argsstring>
+        <name>AnalogDisableRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="17" column="52" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a2f55ae4a409a83b722fe35b7415cc807" prot="public" static="no">
+        <type>haldls::vx::v2::CapMemCell::Value</type>
+        <definition>typedef haldls::vx::v2::CapMemCell::Value lola::vx::v2::AtomicNeuron::AnalogValue</definition>
+        <argsstring></argsstring>
+        <name>AnalogValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="16" column="43" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7ebf298e4c0071c85ec5e52b8754c77a" prot="public" static="no">
+        <type>haldls::vx::v2::CapMemCell::value_type</type>
+        <definition>typedef haldls::vx::v2::CapMemCell::value_type lola::vx::v2::AtomicNeuron::AnalogValueVariant</definition>
+        <argsstring></argsstring>
+        <name>AnalogValueVariant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="18" column="48" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a5e0d5893e5893fef32b44c8a89c00238" prot="public" static="no">
+        <type>halco::hicann_dls::vx::v2::AtomicNeuronOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::v2::AtomicNeuronOnDLS lola::vx::v2::AtomicNeuron::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="457" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1abf4d118fa3f273502c81f0fdd194bb37" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::v2::AtomicNeuron::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="458" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a6f932cddef1c7feff761e12cf4b8f783" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation" kindref="compound">Adaptation</ref></type>
+        <definition>Adaptation lola::vx::v2::AtomicNeuron::adaptation</definition>
+        <argsstring></argsstring>
+        <name>adaptation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="470" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1afb57cc46cb6c392108aa5bcebd46f21f" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian" kindref="compound">Bayesian</ref></type>
+        <definition>Bayesian lola::vx::v2::AtomicNeuron::bayesian</definition>
+        <argsstring></argsstring>
+        <name>bayesian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="475" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1aa923a0c25e34a71af576bb2a06d91a10" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_constant_current" kindref="compound">ConstantCurrent</ref></type>
+        <definition>ConstantCurrent lola::vx::v2::AtomicNeuron::constant_current</definition>
+        <argsstring></argsstring>
+        <name>constant_current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="468" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7319b58a154d4a17f32f90799a41eaa1" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing" kindref="compound">EventRouting</ref></type>
+        <definition>EventRouting lola::vx::v2::AtomicNeuron::event_routing</definition>
+        <argsstring></argsstring>
+        <name>event_routing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="472" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a064bac0390feced75d9b4717ca67bfdc" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_synaptic_input" kindref="compound">SynapticInput</ref></type>
+        <definition>SynapticInput lola::vx::v2::AtomicNeuron::excitatory_input</definition>
+        <argsstring></argsstring>
+        <name>excitatory_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="462" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1ad124d98fcdb9253ab320827bd9d77f55" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_exponential" kindref="compound">Exponential</ref></type>
+        <definition>Exponential lola::vx::v2::AtomicNeuron::exponential</definition>
+        <argsstring></argsstring>
+        <name>exponential</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="471" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a595a826fc080ad7419e413c95a35b308" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_synaptic_input" kindref="compound">SynapticInput</ref></type>
+        <definition>SynapticInput lola::vx::v2::AtomicNeuron::inhibitory_input</definition>
+        <argsstring></argsstring>
+        <name>inhibitory_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="463" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a1010ea18f8e47cf9b7aa8bf166fa011c" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_leak" kindref="compound">Leak</ref></type>
+        <definition>Leak lola::vx::v2::AtomicNeuron::leak</definition>
+        <argsstring></argsstring>
+        <name>leak</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="464" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a3ae4ea5d37a1b32d4f6ff0da17ccba71" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_membrane_capacitance" kindref="compound">MembraneCapacitance</ref></type>
+        <definition>MembraneCapacitance lola::vx::v2::AtomicNeuron::membrane_capacitance</definition>
+        <argsstring></argsstring>
+        <name>membrane_capacitance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="469" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1add36dda6ece0b27d2ad4608dfd4fc8b1" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_multicompartment" kindref="compound">Multicompartment</ref></type>
+        <definition>Multicompartment lola::vx::v2::AtomicNeuron::multicompartment</definition>
+        <argsstring></argsstring>
+        <name>multicompartment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="467" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1ace5c41f9884161234741b723b3516b41" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_readout" kindref="compound">Readout</ref></type>
+        <definition>Readout lola::vx::v2::AtomicNeuron::readout</definition>
+        <argsstring></argsstring>
+        <name>readout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="473" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a9e510068d0ad89e129ce7bb1d5462110" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_refractory_period" kindref="compound">RefractoryPeriod</ref></type>
+        <definition>RefractoryPeriod lola::vx::v2::AtomicNeuron::refractory_period</definition>
+        <argsstring></argsstring>
+        <name>refractory_period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="474" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1acc53d8eade0e5c31312784c58362f455" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_reset" kindref="compound">Reset</ref></type>
+        <definition>Reset lola::vx::v2::AtomicNeuron::reset</definition>
+        <argsstring></argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="465" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a45d5e444175e170cae475059453feabd" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_synaptic_input" kindref="compound">lola::vx::v2::AtomicNeuron::SynapticInput</ref></type>
+        <definition>struct lola::vx::v2::AtomicNeuron::SynapticInput lola::vx::v2::AtomicNeuron::set_from</definition>
+        <argsstring></argsstring>
+        <name>set_from</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a510c604f5cf20739a212da5a93e21019" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold" kindref="compound">Threshold</ref></type>
+        <definition>Threshold lola::vx::v2::AtomicNeuron::threshold</definition>
+        <argsstring></argsstring>
+        <name>threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="466" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a155a71dd935e1bf32e307eb84c98344b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v2::AtomicNeuron::AtomicNeuron</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>AtomicNeuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="460" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1abbe13faab8ab188b1c3f5b9642996429" prot="public" static="no" const="yes" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v2::AtomicNeuron::operator haldls::vx::v2::NeuronConfig</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>operator haldls::vx::v2::NeuronConfig</name>
+        <briefdescription>
+<para>Allow converting to/from a haldls neuron config. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="478" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration of digital and analog parameters for a single-denmem neuron. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>lola::vx::v2::AtomicNeuron::RefractoryPeriod</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_refractory_period"/>
+      </node>
+      <node id="1">
+        <label>lola::vx::v2::AtomicNeuron</label>
+        <link refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>refractory_period</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>reset</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>bayesian</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>multicompartment</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>event_routing</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>membrane_capacitance</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>excitatory_input</edgelabel>
+          <edgelabel>inhibitory_input</edgelabel>
+          <edgelabel>set_from</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>readout</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>exponential</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>constant_current</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>threshold</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>adaptation</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>leak</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>lola::vx::v2::AtomicNeuron::Adaptation</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation"/>
+      </node>
+      <node id="4">
+        <label>lola::vx::v2::AtomicNeuron::Bayesian</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian"/>
+      </node>
+      <node id="11">
+        <label>lola::vx::v2::AtomicNeuron::ConstantCurrent</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_constant_current"/>
+      </node>
+      <node id="14">
+        <label>lola::vx::v2::AtomicNeuron::Leak</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_leak"/>
+      </node>
+      <node id="3">
+        <label>lola::vx::v2::AtomicNeuron::Reset</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_reset"/>
+      </node>
+      <node id="7">
+        <label>lola::vx::v2::AtomicNeuron::MembraneCapacitance</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_membrane_capacitance"/>
+      </node>
+      <node id="10">
+        <label>lola::vx::v2::AtomicNeuron::Exponential</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_exponential"/>
+      </node>
+      <node id="6">
+        <label>lola::vx::v2::AtomicNeuron::EventRouting</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>SYMBOL_VISIBLE</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lola::vx::v2::AtomicNeuron::Multicompartment</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_multicompartment"/>
+      </node>
+      <node id="9">
+        <label>lola::vx::v2::AtomicNeuron::Readout</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_readout"/>
+      </node>
+      <node id="8">
+        <label>lola::vx::v2::AtomicNeuron::SynapticInput</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_synaptic_input"/>
+      </node>
+      <node id="12">
+        <label>lola::vx::v2::AtomicNeuron::Threshold</label>
+        <link refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="14" bodyend="483"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a6f932cddef1c7feff761e12cf4b8f783" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>adaptation</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a52ce75ff4d0882814125b5b6408e3f95" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>AnalogDisableRefresh</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a2f55ae4a409a83b722fe35b7415cc807" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>AnalogValue</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7ebf298e4c0071c85ec5e52b8754c77a" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>AnalogValueVariant</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a155a71dd935e1bf32e307eb84c98344b" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>AtomicNeuron</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1afb57cc46cb6c392108aa5bcebd46f21f" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>bayesian</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1aa923a0c25e34a71af576bb2a06d91a10" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>constant_current</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a5e0d5893e5893fef32b44c8a89c00238" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7319b58a154d4a17f32f90799a41eaa1" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>event_routing</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a064bac0390feced75d9b4717ca67bfdc" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>excitatory_input</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1ad124d98fcdb9253ab320827bd9d77f55" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>exponential</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1abf4d118fa3f273502c81f0fdd194bb37" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a595a826fc080ad7419e413c95a35b308" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>inhibitory_input</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a1010ea18f8e47cf9b7aa8bf166fa011c" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>leak</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a3ae4ea5d37a1b32d4f6ff0da17ccba71" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>membrane_capacitance</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1add36dda6ece0b27d2ad4608dfd4fc8b1" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>multicompartment</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1abbe13faab8ab188b1c3f5b9642996429" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>operator haldls::vx::v2::NeuronConfig</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1ace5c41f9884161234741b723b3516b41" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>readout</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a9e510068d0ad89e129ce7bb1d5462110" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>refractory_period</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1acc53d8eade0e5c31312784c58362f455" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>reset</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a45d5e444175e170cae475059453feabd" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>set_from</name></member>
+      <member refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a510c604f5cf20739a212da5a93e21019" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron</scope><name>threshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ADPLL::LoopDivN</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; LoopDivN, uint_fast16_t, 31, 1 &gt;</basecompoundref>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n_1afbb453b53bc4134a1700309caa037d00" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::ADPLL::LoopDivN::LoopDivN</definition>
+        <argsstring>(uintmax_t const val=10)</argsstring>
+        <name>LoopDivN</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="62" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Divider to set the frequency of the DCO f_dco (Together with <ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p0" kindref="compound">PreDivP0</ref>). </para>
+    </briefdescription>
+    <detaileddescription>
+<para>f_dco = P0 * N * f_ref. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; LoopDivN, uint_fast16_t, 31, 1 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ADPLL::LoopDivN</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; LoopDivN, uint_fast16_t, 31, 1 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ADPLL::LoopDivN</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="59" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="61" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n_1afbb453b53bc4134a1700309caa037d00" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL::LoopDivN</scope><name>LoopDivN</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

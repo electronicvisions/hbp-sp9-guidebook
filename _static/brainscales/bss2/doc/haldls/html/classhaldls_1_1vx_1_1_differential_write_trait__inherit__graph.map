@@ -1,0 +1,24 @@
+<map id="haldls::vx::DifferentialWriteTrait" name="haldls::vx::DifferentialWriteTrait">
+<area shape="rect" id="node1" title="Trait signalling derived&#45;from container type support differential write operation." alt="" coords="5,613,153,657"/>
+<area shape="rect" id="node2" href="$classhaldls_1_1vx_1_1_cap_mem_block.html" title=" " alt="" coords="230,5,401,49"/>
+<area shape="rect" id="node3" href="$classhaldls_1_1vx_1_1_cap_mem_block_config.html" title=" " alt="" coords="211,73,420,117"/>
+<area shape="rect" id="node4" href="$classhaldls_1_1vx_1_1_cap_mem_cell.html" title=" " alt="" coords="235,141,396,185"/>
+<area shape="rect" id="node5" href="$classhaldls_1_1vx_1_1_column_correlation_quad.html" title=" " alt="" coords="201,209,429,237"/>
+<area shape="rect" id="node6" href="$classhaldls_1_1vx_1_1_column_current_quad.html" title=" " alt="" coords="212,261,419,289"/>
+<area shape="rect" id="node7" href="$classhaldls_1_1vx_1_1_common_neuron_backend_config.html" title="Read/write access to common neuron parameters." alt="" coords="224,313,406,357"/>
+<area shape="rect" id="node8" href="$classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config.html" title="Configuration for a PADI bus block." alt="" coords="219,381,412,425"/>
+<area shape="rect" id="node9" href="$classhaldls_1_1vx_1_1_common_s_t_p_config.html" title="Common STP configuration shared by synapse drivers per vertical half." alt="" coords="214,449,417,477"/>
+<area shape="rect" id="node10" href="$classhaldls_1_1vx_1_1_common_synram_config.html" title=" " alt="" coords="223,501,408,545"/>
+<area shape="rect" id="node11" href="$classhaldls_1_1vx_1_1_d_a_c_channel.html" title="Container for individual configuration of the value of a DAC channel of the xBoard DACs." alt="" coords="234,569,396,597"/>
+<area shape="rect" id="node12" href="$classhaldls_1_1vx_1_1_d_a_c_control.html" title="Container for enabling DAC channels of a xBoard DAC." alt="" coords="238,621,393,649"/>
+<area shape="rect" id="node13" href="$classhaldls_1_1vx_1_1_neuron_backend_config.html" title="Read/write access to the NeuronBackend container." alt="" coords="225,673,405,717"/>
+<area shape="rect" id="node14" href="$classhaldls_1_1vx_1_1_p_p_u_control_register.html" title=" " alt="" coords="213,741,418,769"/>
+<area shape="rect" id="node15" href="$classhaldls_1_1vx_1_1_shift_register.html" title="Container for configuration of the 24&#45;bit wide shift register controlling six VDD switches,..." alt="" coords="235,793,396,821"/>
+<area shape="rect" id="node16" href="$classhaldls_1_1vx_1_1_synapse_correlation_calib_quad.html" title=" " alt="" coords="215,845,416,889"/>
+<area shape="rect" id="node17" href="$classhaldls_1_1vx_1_1_synapse_driver_config.html" title=" " alt="" coords="229,913,401,957"/>
+<area shape="rect" id="node18" href="$classhaldls_1_1vx_1_1_synapse_label_quad.html" title=" " alt="" coords="215,981,416,1009"/>
+<area shape="rect" id="node19" href="$classhaldls_1_1vx_1_1_synapse_quad.html" title=" " alt="" coords="231,1033,400,1061"/>
+<area shape="rect" id="node20" href="$classhaldls_1_1vx_1_1_synapse_weight_quad.html" title=" " alt="" coords="210,1085,420,1113"/>
+<area shape="rect" id="node21" href="$classhaldls_1_1vx_1_1v2_1_1_neuron_config.html" title=" " alt="" coords="221,1137,409,1165"/>
+<area shape="rect" id="node22" href="$classhaldls_1_1vx_1_1v3_1_1_neuron_config.html" title=" " alt="" coords="221,1189,409,1217"/>
+</map>

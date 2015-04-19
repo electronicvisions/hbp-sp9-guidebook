@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dac_8h" kind="file" language="C++">
+    <compoundname>dac.h</compoundname>
+    <includes local="yes">halco/common/iter_all.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/dac.h</includes>
+    <includes local="yes">haldls/cerealization.h</includes>
+    <includes local="yes">haldls/vx/common.h</includes>
+    <includes local="yes">haldls/vx/spi.h</includes>
+    <includes local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="cerealization_8h" local="yes">lola/vx/cerealization.h</includes>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes local="no">boost/hana/adapt_struct.hpp</includes>
+    <includedby refid="v2_2dac_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/dac.h</includedby>
+    <includedby refid="v3_2dac_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/dac.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>halco/hicann-dls/vx/dac.h</label>
+      </node>
+      <node id="2">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="6">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="12">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h</label>
+        <link refid="dac_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="13">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="9">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="7">
+        <label>haldls/vx/spi.h</label>
+      </node>
+      <node id="8">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="10">
+        <label>lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="14">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>type_traits</label>
+      </node>
+      <node id="5">
+        <label>haldls/cerealization.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h</label>
+        <link refid="v2_2pylola_8h"/>
+      </node>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h</label>
+        <link refid="v3_2pylola_8h"/>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/dac.h</label>
+        <link refid="v2_2dac_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h</label>
+        <link refid="dac_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/lola.h</label>
+        <link refid="v3_2lola_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/dac.h</label>
+        <link refid="v3_2dac_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/lola.h</label>
+        <link refid="v2_2lola_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::DACChannelBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::DACControlBlock &gt;</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_d_a_c_channel_block" prot="public">lola::vx::DACChannelBlock</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_d_a_c_control_block" prot="public">lola::vx::DACControlBlock</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACChannelBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACControlBlock &gt;</innerclass>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dac_8h_1a25a1e36a4d5f59baed0c7d97087cc7ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::DACChannelBlock, value)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">lola::vx::DACChannelBlock</ref></type>
+        </param>
+        <param>
+          <type>value</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="166" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" declline="166" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dac_8h_1a9474a425589493611449574839e97efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::DACControlBlock, enable)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_d_a_c_control_block" kindref="compound">lola::vx::DACControlBlock</ref></type>
+        </param>
+        <param>
+          <type>enable</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="167" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" declline="167" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_event_recording_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::EventRecordingConfig</compoundname>
+    <includes refid="fpga_8h" local="no">fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_event_recording_config_1a516932c602e8f8fa8d9b71fa3560ad58" prot="public" static="no">
+        <type>halco::hicann_dls::vx::EventRecordingConfigOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::EventRecordingConfigOnFPGA haldls::vx::EventRecordingConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="99" column="59" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_event_recording_config_1aaf9590119b6a1ac78fa8525abe8f6345" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::EventRecordingConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="100" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_event_recording_config_1ae1046761c57d7fed82f823df8b86069c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::EventRecordingConfig::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="124" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_event_recording_config_1a6df2e1dc47484d2b69e8156a11f542b0" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::EventRecordingConfig::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="125" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_event_recording_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="136" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_event_recording_config_1ac4d5a303ce2d8eeccb98e8e6660b574d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, EventRecordingConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_event_recording_config" kindref="compound">EventRecordingConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="122" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_event_recording_config_1a20db3391bb5296c2429d2d68c147afb0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::EventRecordingConfig::m_enable_event_recording</definition>
+        <argsstring></argsstring>
+        <name>m_enable_event_recording</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="140" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1aefc28dc40d96e8b50c61ecc8454e276c" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::EventRecordingConfig::EventRecordingConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>EventRecordingConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="102" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1ac018ca4706bf1a5e3c3c067ebb0b751c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::EventRecordingConfig::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Omnibus, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_event_recording_config_1ae1046761c57d7fed82f823df8b86069c" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="132" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1a4513969275f655f1b1755d305932a767" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_event_recording_config_1a6df2e1dc47484d2b69e8156a11f542b0" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Omnibus, write_config_size_in_words&gt; haldls::vx::EventRecordingConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="130" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1ad227b4c8fc8518049469fa4ff990644c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::EventRecordingConfig::get_enable_event_recording</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_event_recording</name>
+        <briefdescription>
+<para>Get enable event recording. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="109" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1a8f5cb3fc7c01d166e2e71b8bc9793add" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::EventRecordingConfig::operator!=</definition>
+        <argsstring>(EventRecordingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_event_recording_config" kindref="compound">EventRecordingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="119" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1a03f597fdd89d0914e2379c87e9852c81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::EventRecordingConfig::operator==</definition>
+        <argsstring>(EventRecordingConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_event_recording_config" kindref="compound">EventRecordingConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="118" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1adc546858806fd3611f2ddcfed2294b73" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_event_recording_config_1ae1046761c57d7fed82f823df8b86069c" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;halco::hicann_dls::vx::OmnibusAddress, read_config_size_in_words&gt; haldls::vx::EventRecordingConfig::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) const SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_event_recording_config_1a516932c602e8f8fa8d9b71fa3560ad58" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="126" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1afd68825f31f9a3b75ec5cebfd4203803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::EventRecordingConfig::set_enable_event_recording</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_event_recording</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable_event_recording. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bool to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="116" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1abe3ed2be0d904eaed0a23beb20d6d050" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_event_recording_config_1a6df2e1dc47484d2b69e8156a11f542b0" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;halco::hicann_dls::vx::OmnibusAddress, write_config_size_in_words&gt; haldls::vx::EventRecordingConfig::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) const SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_event_recording_config_1a516932c602e8f8fa8d9b71fa3560ad58" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="128" column="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_event_recording_config_1a3ff3f71bd37515e6a9f861cc2e0f68ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::EventRecordingConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="138" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for the event (spikes, MADC samples) recording configuration register. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="96" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="97" bodyend="141"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1a516932c602e8f8fa8d9b71fa3560ad58" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1ac018ca4706bf1a5e3c3c067ebb0b751c" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1a4513969275f655f1b1755d305932a767" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1aefc28dc40d96e8b50c61ecc8454e276c" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>EventRecordingConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1ad227b4c8fc8518049469fa4ff990644c" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>get_enable_event_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1aaf9590119b6a1ac78fa8525abe8f6345" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1a20db3391bb5296c2429d2d68c147afb0" prot="private" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>m_enable_event_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1a8f5cb3fc7c01d166e2e71b8bc9793add" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1ac4d5a303ce2d8eeccb98e8e6660b574d" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1a03f597fdd89d0914e2379c87e9852c81" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1adc546858806fd3611f2ddcfed2294b73" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1ae1046761c57d7fed82f823df8b86069c" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1a3ff3f71bd37515e6a9f861cc2e0f68ca" prot="private" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1afd68825f31f9a3b75ec5cebfd4203803" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>set_enable_event_recording</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1abe3ed2be0d904eaed0a23beb20d6d050" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_event_recording_config_1a6df2e1dc47484d2b69e8156a11f542b0" prot="public" virt="non-virtual"><scope>haldls::vx::EventRecordingConfig</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

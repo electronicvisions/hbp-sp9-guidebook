@@ -1,0 +1,1429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacehaldls_1_1vx_1_1v3" kind="namespace" language="C++">
+    <compoundname>haldls::vx::v3</compoundname>
+    <innerclass refid="classhaldls_1_1vx_1_1v3_1_1_neuron_config" prot="public">haldls::vx::v3::NeuronConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1v3_1_1_neuron_reset_quad" prot="public">haldls::vx::v3::NeuronResetQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1v3_1_1_p_l_l_clock_output_block" prot="public">haldls::vx::v3::PLLClockOutputBlock</innerclass>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1v3_1_1detail">haldls::vx::v3::detail</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a8109f6311a26e1c767830eaf0d58544a" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_a_d5252_channel_config" kindref="compound">haldls::vx::AD5252ChannelConfig</ref></type>
+        <definition>using haldls::vx::v3::AD5252ChannelConfig = typedef haldls::vx::AD5252ChannelConfig</definition>
+        <argsstring></argsstring>
+        <name>AD5252ChannelConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a5d3344a73e20a169a8f0ae9d021da4f4" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_a_d5252_channel_config_persistent" kindref="compound">haldls::vx::AD5252ChannelConfigPersistent</ref></type>
+        <definition>using haldls::vx::v3::AD5252ChannelConfigPersistent = typedef haldls::vx::AD5252ChannelConfigPersistent</definition>
+        <argsstring></argsstring>
+        <name>AD5252ChannelConfigPersistent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a48cdc2d5491dfe2179e833d84d08bb7c" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_a_d_p_l_l" kindref="compound">haldls::vx::ADPLL</ref></type>
+        <definition>using haldls::vx::v3::ADPLL = typedef haldls::vx::ADPLL</definition>
+        <argsstring></argsstring>
+        <name>ADPLL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pll.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pll.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a055e545a0c1edcddf0a151df4a3d1d22" prot="public" static="no">
+        <type><ref refid="namespacehaldls_1_1vx_1a090837f0a96d7d15d40eeef01be6711c" kindref="member">haldls::vx::Backend</ref></type>
+        <definition>using haldls::vx::v3::Backend = typedef haldls::vx::Backend</definition>
+        <argsstring></argsstring>
+        <name>Backend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/traits.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/traits.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1aaf82f7afee6650b31589b34ebf073456" prot="public" static="no">
+        <type><ref refid="namespacehaldls_1_1vx_1a98186b2568b381869c84a3ac98cb623b" kindref="member">haldls::vx::BackendContainerList</ref></type>
+        <definition>using haldls::vx::v3::BackendContainerList = typedef haldls::vx::BackendContainerList</definition>
+        <argsstring></argsstring>
+        <name>BackendContainerList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/traits.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/traits.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a3f6aae47dea5cb08f069473d2302060e" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_background_spike_source" kindref="compound">haldls::vx::BackgroundSpikeSource</ref></type>
+        <definition>using haldls::vx::v3::BackgroundSpikeSource = typedef haldls::vx::BackgroundSpikeSource</definition>
+        <argsstring></argsstring>
+        <name>BackgroundSpikeSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/background.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/background.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1afdc37e8f8bb06ab7dff08abd7ddaf8e7" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_barrier" kindref="compound">haldls::vx::Barrier</ref></type>
+        <definition>using haldls::vx::v3::Barrier = typedef haldls::vx::Barrier</definition>
+        <argsstring></argsstring>
+        <name>Barrier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/barrier.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/barrier.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ac35d3ea716dbd6d0d6f09b83f1d8bb25" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_block_post_pulse" kindref="compound">haldls::vx::BlockPostPulse</ref></type>
+        <definition>using haldls::vx::v3::BlockPostPulse = typedef haldls::vx::BlockPostPulse</definition>
+        <argsstring></argsstring>
+        <name>BlockPostPulse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a1318e404e6c4dc0e4508b53d2e3f62ce" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_channel_config" kindref="compound">haldls::vx::CADCChannelConfig</ref></type>
+        <definition>using haldls::vx::v3::CADCChannelConfig = typedef haldls::vx::CADCChannelConfig</definition>
+        <argsstring></argsstring>
+        <name>CADCChannelConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/cadc.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/cadc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a3a2ba4dc98ad2c261cfb50dcc141e8e2" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_config" kindref="compound">haldls::vx::CADCConfig</ref></type>
+        <definition>using haldls::vx::v3::CADCConfig = typedef haldls::vx::CADCConfig</definition>
+        <argsstring></argsstring>
+        <name>CADCConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/cadc.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/cadc.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ab048abdf029cdf0548e8a8d171268099" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_offset_s_r_a_m_timing_config" kindref="compound">haldls::vx::CADCOffsetSRAMTimingConfig</ref></type>
+        <definition>using haldls::vx::v3::CADCOffsetSRAMTimingConfig = typedef haldls::vx::CADCOffsetSRAMTimingConfig</definition>
+        <argsstring></argsstring>
+        <name>CADCOffsetSRAMTimingConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/cadc.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/cadc.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a0038124fa7cfa92dc0b1c61bc40834bd" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad" kindref="compound">haldls::vx::CADCSampleQuad</ref></type>
+        <definition>using haldls::vx::v3::CADCSampleQuad = typedef haldls::vx::CADCSampleQuad</definition>
+        <argsstring></argsstring>
+        <name>CADCSampleQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/cadc.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/cadc.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1aa6dc79c318a38858d700cff3d7849555" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_block" kindref="compound">haldls::vx::CapMemBlock</ref>&lt; halco::hicann_dls::vx::v3::Coordinates &gt;</type>
+        <definition>typedef haldls::vx::CapMemBlock&lt; halco::hicann_dls::vx::v3::Coordinates &gt; haldls::vx::v3::CapMemBlock</definition>
+        <argsstring></argsstring>
+        <name>CapMemBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ad9187fe640ee5458aa3607ad710b15ea" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_cell" kindref="compound">haldls::vx::CapMemCell</ref>&lt; halco::hicann_dls::vx::v3::Coordinates &gt;</type>
+        <definition>using haldls::vx::v3::CapMemCell = typedef haldls::vx::CapMemCell&lt;halco::hicann_dls::vx::v3::Coordinates&gt;</definition>
+        <argsstring></argsstring>
+        <name>CapMemCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="23" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a5115786f7d3dd1ff3a837a31b5e5a4ad" prot="public" static="no">
+        <type><ref refid="namespacehaldls_1_1vx_1a5363e757d515e8058604c6d768878dad" kindref="member">haldls::vx::ChipTime</ref></type>
+        <definition>using haldls::vx::v3::ChipTime = typedef haldls::vx::ChipTime</definition>
+        <argsstring></argsstring>
+        <name>ChipTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ac1f2e683d1895a6f13325bbac69d1b98" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_column_correlation_quad" kindref="compound">haldls::vx::ColumnCorrelationQuad</ref></type>
+        <definition>using haldls::vx::v3::ColumnCorrelationQuad = typedef haldls::vx::ColumnCorrelationQuad</definition>
+        <argsstring></argsstring>
+        <name>ColumnCorrelationQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1abd32232185e662aa97ebc5fcea68d92c" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_column_current_quad" kindref="compound">haldls::vx::ColumnCurrentQuad</ref></type>
+        <definition>using haldls::vx::v3::ColumnCurrentQuad = typedef haldls::vx::ColumnCurrentQuad</definition>
+        <argsstring></argsstring>
+        <name>ColumnCurrentQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="14" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a103647d6bff74cb1f2967b8fc6959230" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_correlation_config" kindref="compound">haldls::vx::CommonCorrelationConfig</ref></type>
+        <definition>using haldls::vx::v3::CommonCorrelationConfig = typedef haldls::vx::CommonCorrelationConfig</definition>
+        <argsstring></argsstring>
+        <name>CommonCorrelationConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/correlation.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/correlation.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ae9a674fd2c2610d9715ea58e44b5e8c3" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_neuron_backend_config" kindref="compound">haldls::vx::CommonNeuronBackendConfig</ref></type>
+        <definition>using haldls::vx::v3::CommonNeuronBackendConfig = typedef haldls::vx::CommonNeuronBackendConfig</definition>
+        <argsstring></argsstring>
+        <name>CommonNeuronBackendConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="22" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a113d74b60ba8923b94be2f56f9fd1643" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config" kindref="compound">haldls::vx::CommonPADIBusConfig</ref></type>
+        <definition>using haldls::vx::v3::CommonPADIBusConfig = typedef haldls::vx::CommonPADIBusConfig</definition>
+        <argsstring></argsstring>
+        <name>CommonPADIBusConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/padi.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/padi.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a2ecbc261bf7f6c81a904c9745d563be7" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_chip" kindref="compound">haldls::vx::CommonPhyConfigChip</ref></type>
+        <definition>using haldls::vx::v3::CommonPhyConfigChip = typedef haldls::vx::CommonPhyConfigChip</definition>
+        <argsstring></argsstring>
+        <name>CommonPhyConfigChip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a56bbdd8b56b35cd1a9e8f471db67971e" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a" kindref="compound">haldls::vx::CommonPhyConfigFPGA</ref></type>
+        <definition>using haldls::vx::v3::CommonPhyConfigFPGA = typedef haldls::vx::CommonPhyConfigFPGA</definition>
+        <argsstring></argsstring>
+        <name>CommonPhyConfigFPGA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1afc97476860806d620cfe951608d1d66a" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_s_t_p_config" kindref="compound">haldls::vx::CommonSTPConfig</ref></type>
+        <definition>using haldls::vx::v3::CommonSTPConfig = typedef haldls::vx::CommonSTPConfig</definition>
+        <argsstring></argsstring>
+        <name>CommonSTPConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/padi.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/padi.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a734a20148d5ca88bc9b691b3634d1b88" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_common_synram_config" kindref="compound">haldls::vx::CommonSynramConfig</ref></type>
+        <definition>using haldls::vx::v3::CommonSynramConfig = typedef haldls::vx::CommonSynramConfig</definition>
+        <argsstring></argsstring>
+        <name>CommonSynramConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a8cc9ef9003e7c45b765b0e07dde2f365" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_correlation_reset" kindref="compound">haldls::vx::CorrelationReset</ref></type>
+        <definition>using haldls::vx::v3::CorrelationReset = typedef haldls::vx::CorrelationReset</definition>
+        <argsstring></argsstring>
+        <name>CorrelationReset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="15" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a3656385f44b6fa22d626ca407d0145a1" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_crossbar_input_drop_counter" kindref="compound">haldls::vx::CrossbarInputDropCounter</ref></type>
+        <definition>using haldls::vx::v3::CrossbarInputDropCounter = typedef haldls::vx::CrossbarInputDropCounter</definition>
+        <argsstring></argsstring>
+        <name>CrossbarInputDropCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/routing_crossbar.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/routing_crossbar.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1abca682281a3b68738bc841e00bd4d3eb" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_crossbar_node" kindref="compound">haldls::vx::CrossbarNode</ref></type>
+        <definition>using haldls::vx::v3::CrossbarNode = typedef haldls::vx::CrossbarNode</definition>
+        <argsstring></argsstring>
+        <name>CrossbarNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/routing_crossbar.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/routing_crossbar.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a20b2698732bed496b78ec92a4dc48d86" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_crossbar_output_config" kindref="compound">haldls::vx::CrossbarOutputConfig</ref></type>
+        <definition>using haldls::vx::v3::CrossbarOutputConfig = typedef haldls::vx::CrossbarOutputConfig</definition>
+        <argsstring></argsstring>
+        <name>CrossbarOutputConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/routing_crossbar.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/routing_crossbar.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1adc96ae9e150a608b248fe44be41f3992" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter" kindref="compound">haldls::vx::CrossbarOutputEventCounter</ref></type>
+        <definition>using haldls::vx::v3::CrossbarOutputEventCounter = typedef haldls::vx::CrossbarOutputEventCounter</definition>
+        <argsstring></argsstring>
+        <name>CrossbarOutputEventCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/routing_crossbar.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/routing_crossbar.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a956c4dc3d5b5edcf5bae97b53fdd0662" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_current_d_a_c" kindref="compound">haldls::vx::CurrentDAC</ref></type>
+        <definition>using haldls::vx::v3::CurrentDAC = typedef haldls::vx::CurrentDAC</definition>
+        <argsstring></argsstring>
+        <name>CurrentDAC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/current_dac.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/current_dac.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a8ce94d62fbbf2c4e87609a6d894d33e1" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_d_a_c6573_channel_config" kindref="compound">haldls::vx::DAC6573ChannelConfig</ref></type>
+        <definition>using haldls::vx::v3::DAC6573ChannelConfig = typedef haldls::vx::DAC6573ChannelConfig</definition>
+        <argsstring></argsstring>
+        <name>DAC6573ChannelConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a1c78fb956b0d3564e00b0cc9af353cb2" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_d_a_c_channel" kindref="compound">haldls::vx::DACChannel</ref></type>
+        <definition>using haldls::vx::v3::DACChannel = typedef haldls::vx::DACChannel</definition>
+        <argsstring></argsstring>
+        <name>DACChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/spi.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/spi.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1af4ab7633032f32765b67f24aaa98f25b" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_d_a_c_control" kindref="compound">haldls::vx::DACControl</ref></type>
+        <definition>using haldls::vx::v3::DACControl = typedef haldls::vx::DACControl</definition>
+        <argsstring></argsstring>
+        <name>DACControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/spi.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/spi.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a85328c2b76b11e9a9b10c9346f2943ee" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_differential_write_trait" kindref="compound">haldls::vx::DifferentialWriteTrait</ref></type>
+        <definition>using haldls::vx::v3::DifferentialWriteTrait = typedef haldls::vx::DifferentialWriteTrait</definition>
+        <argsstring></argsstring>
+        <name>DifferentialWriteTrait</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/traits.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/traits.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ab4850c1b046fb01352b814beca6bf751" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_event_recording_config" kindref="compound">haldls::vx::EventRecordingConfig</ref></type>
+        <definition>using haldls::vx::v3::EventRecordingConfig = typedef haldls::vx::EventRecordingConfig</definition>
+        <argsstring></argsstring>
+        <name>EventRecordingConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ad67c43f2042eeababc8604c2a0bb70ff" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_external_p_p_u_memory_byte" kindref="compound">haldls::vx::ExternalPPUMemoryByte</ref></type>
+        <definition>using haldls::vx::v3::ExternalPPUMemoryByte = typedef haldls::vx::ExternalPPUMemoryByte</definition>
+        <argsstring></argsstring>
+        <name>ExternalPPUMemoryByte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a0d6db4fbad4baa361db773933e2cd4e5" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_external_p_p_u_memory_quad" kindref="compound">haldls::vx::ExternalPPUMemoryQuad</ref></type>
+        <definition>using haldls::vx::v3::ExternalPPUMemoryQuad = typedef haldls::vx::ExternalPPUMemoryQuad</definition>
+        <argsstring></argsstring>
+        <name>ExternalPPUMemoryQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a27938b7e8578709ee769f379cbe79e91" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" kindref="compound">haldls::vx::FPGADeviceDNA</ref></type>
+        <definition>using haldls::vx::v3::FPGADeviceDNA = typedef haldls::vx::FPGADeviceDNA</definition>
+        <argsstring></argsstring>
+        <name>FPGADeviceDNA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1aa5309b95565d596710a7480af171b860" prot="public" static="no">
+        <type><ref refid="namespacehaldls_1_1vx_1a551584a55b25ec985dff7c305848260e" kindref="member">haldls::vx::FPGATime</ref></type>
+        <definition>using haldls::vx::v3::FPGATime = typedef haldls::vx::FPGATime</definition>
+        <argsstring></argsstring>
+        <name>FPGATime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a0b6abae5a1c7075d2d2703c0c0e8a302" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_hicann_a_r_q_status" kindref="compound">haldls::vx::HicannARQStatus</ref></type>
+        <definition>using haldls::vx::v3::HicannARQStatus = typedef haldls::vx::HicannARQStatus</definition>
+        <argsstring></argsstring>
+        <name>HicannARQStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/arq.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/arq.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ae82b513f7256a5b8f5a402385b5bcf49" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_highspeed_link_notification" kindref="compound">haldls::vx::HighspeedLinkNotification</ref></type>
+        <definition>using haldls::vx::v3::HighspeedLinkNotification = typedef haldls::vx::HighspeedLinkNotification</definition>
+        <argsstring></argsstring>
+        <name>HighspeedLinkNotification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="15" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a9f1f9cdf7571bead2d773079acf21eee" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config" kindref="compound">haldls::vx::INA219Config</ref></type>
+        <definition>using haldls::vx::v3::INA219Config = typedef haldls::vx::INA219Config</definition>
+        <argsstring></argsstring>
+        <name>INA219Config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1af18b8f6612bd1aad8a0635f1f60b2b9a" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_status" kindref="compound">haldls::vx::INA219Status</ref></type>
+        <definition>using haldls::vx::v3::INA219Status = typedef haldls::vx::INA219Status</definition>
+        <argsstring></argsstring>
+        <name>INA219Status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a1592048d3af9ce53e52e4ce5002e946a" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config" kindref="compound">haldls::vx::InstructionTimeoutConfig</ref></type>
+        <definition>using haldls::vx::v3::InstructionTimeoutConfig = typedef haldls::vx::InstructionTimeoutConfig</definition>
+        <argsstring></argsstring>
+        <name>InstructionTimeoutConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/fpga.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1af52b818555d36535ada9b3f4a75ddcdb" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_j_t_a_g_clock_scaler" kindref="compound">haldls::vx::JTAGClockScaler</ref></type>
+        <definition>using haldls::vx::v3::JTAGClockScaler = typedef haldls::vx::JTAGClockScaler</definition>
+        <argsstring></argsstring>
+        <name>JTAGClockScaler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/jtag.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/jtag.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a20d33b1aeb723456d8733a9f8c8f1bca" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code" kindref="compound">haldls::vx::JTAGIdCode</ref></type>
+        <definition>using haldls::vx::v3::JTAGIdCode = typedef haldls::vx::JTAGIdCode</definition>
+        <argsstring></argsstring>
+        <name>JTAGIdCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/jtag.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/jtag.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1adf6eeb9cca96e09668c0f80a94f638ae" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_config" kindref="compound">haldls::vx::MADCConfig</ref></type>
+        <definition>using haldls::vx::v3::MADCConfig = typedef haldls::vx::MADCConfig</definition>
+        <argsstring></argsstring>
+        <name>MADCConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/madc.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/madc.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ac1ec6c7e7e8ab7ff700bd988ab6d2112" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_control" kindref="compound">haldls::vx::MADCControl</ref></type>
+        <definition>using haldls::vx::v3::MADCControl = typedef haldls::vx::MADCControl</definition>
+        <argsstring></argsstring>
+        <name>MADCControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/madc.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/madc.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a6786e48dd4f33544e7c8b0193752e707" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip" kindref="compound">haldls::vx::MADCSampleFromChip</ref></type>
+        <definition>using haldls::vx::v3::MADCSampleFromChip = typedef haldls::vx::MADCSampleFromChip</definition>
+        <argsstring></argsstring>
+        <name>MADCSampleFromChip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="14" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ae40949a29f94deb0b1eeaa87dc4bc5fd" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_config" kindref="compound">haldls::vx::NeuronBackendConfig</ref>&lt; halco::hicann_dls::vx::v3::Coordinates &gt;</type>
+        <definition>using haldls::vx::v3::NeuronBackendConfig = typedef haldls::vx::NeuronBackendConfig&lt;halco::hicann_dls::vx::v3::Coordinates&gt;</definition>
+        <argsstring></argsstring>
+        <name>NeuronBackendConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="23" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a31c00126635df663fe2de0249b2a070c" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_neuron_backend_s_r_a_m_timing_config" kindref="compound">haldls::vx::NeuronBackendSRAMTimingConfig</ref></type>
+        <definition>using haldls::vx::v3::NeuronBackendSRAMTimingConfig = typedef haldls::vx::NeuronBackendSRAMTimingConfig</definition>
+        <argsstring></argsstring>
+        <name>NeuronBackendSRAMTimingConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="29" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a91703a99dc32d4c0c0f2fc4a613e703c" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_neuron_reset" kindref="compound">haldls::vx::NeuronReset</ref></type>
+        <definition>using haldls::vx::v3::NeuronReset = typedef haldls::vx::NeuronReset</definition>
+        <argsstring></argsstring>
+        <name>NeuronReset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="25" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ac8d910c9e28df078b6f7d03fb4baad50" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config" kindref="compound">haldls::vx::NeuronSRAMTimingConfig</ref></type>
+        <definition>using haldls::vx::v3::NeuronSRAMTimingConfig = typedef haldls::vx::NeuronSRAMTimingConfig</definition>
+        <argsstring></argsstring>
+        <name>NeuronSRAMTimingConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="30" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a76ab449fc1bc3f1850805b5855fb74de" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_null_payload_readable" kindref="compound">haldls::vx::NullPayloadReadable</ref></type>
+        <definition>using haldls::vx::v3::NullPayloadReadable = typedef haldls::vx::NullPayloadReadable</definition>
+        <argsstring></argsstring>
+        <name>NullPayloadReadable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/null_payload_readable.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/null_payload_readable.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a9e02b951a5e4251b07ca5bcd0ca464b5" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_a_d_i_event" kindref="compound">haldls::vx::PADIEvent</ref></type>
+        <definition>using haldls::vx::v3::PADIEvent = typedef haldls::vx::PADIEvent</definition>
+        <argsstring></argsstring>
+        <name>PADIEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/padi.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/padi.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a2cb0df9eea33b6263a694473bb2ac796" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config" kindref="compound">haldls::vx::PadMultiplexerConfig</ref></type>
+        <definition>using haldls::vx::v3::PadMultiplexerConfig = typedef haldls::vx::PadMultiplexerConfig</definition>
+        <argsstring></argsstring>
+        <name>PadMultiplexerConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/readout.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/readout.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1aebaa9fb6fd820865f5ca273a2e739d16" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_perf_test" kindref="compound">haldls::vx::PerfTest</ref></type>
+        <definition>using haldls::vx::v3::PerfTest = typedef haldls::vx::PerfTest</definition>
+        <argsstring></argsstring>
+        <name>PerfTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/perftest.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/perftest.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ac7a5b5c4470dff3ac1cdfd7ac0881737" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_perf_test_status" kindref="compound">haldls::vx::PerfTestStatus</ref></type>
+        <definition>using haldls::vx::v3::PerfTestStatus = typedef haldls::vx::PerfTestStatus</definition>
+        <argsstring></argsstring>
+        <name>PerfTestStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/perftest.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/perftest.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a2cf2f613ac876a96fce17fb5bd9304a5" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_phy_config_chip" kindref="compound">haldls::vx::PhyConfigChip</ref></type>
+        <definition>using haldls::vx::v3::PhyConfigChip = typedef haldls::vx::PhyConfigChip</definition>
+        <argsstring></argsstring>
+        <name>PhyConfigChip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a752254f900b53f3bbee8f935e4aa3bda" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_phy_config_f_p_g_a" kindref="compound">haldls::vx::PhyConfigFPGA</ref></type>
+        <definition>using haldls::vx::v3::PhyConfigFPGA = typedef haldls::vx::PhyConfigFPGA</definition>
+        <argsstring></argsstring>
+        <name>PhyConfigFPGA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a259a01d23485568ee801e03476048d32" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_phy_status" kindref="compound">haldls::vx::PhyStatus</ref></type>
+        <definition>using haldls::vx::v3::PhyStatus = typedef haldls::vx::PhyStatus</definition>
+        <argsstring></argsstring>
+        <name>PhyStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/phy.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1aa428e137f60ee44f76af4f9697e9a83e" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test" kindref="compound">haldls::vx::PLLSelfTest</ref></type>
+        <definition>using haldls::vx::v3::PLLSelfTest = typedef haldls::vx::PLLSelfTest</definition>
+        <argsstring></argsstring>
+        <name>PLLSelfTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pll.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pll.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a2e6a46ef0bc154cb1d41ad8bcfdb8839" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status" kindref="compound">haldls::vx::PLLSelfTestStatus</ref></type>
+        <definition>using haldls::vx::v3::PLLSelfTestStatus = typedef haldls::vx::PLLSelfTestStatus</definition>
+        <argsstring></argsstring>
+        <name>PLLSelfTestStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pll.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pll.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a593b82a10a82bef4e8d46b574e7217a5" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_polling_omnibus_block" kindref="compound">haldls::vx::PollingOmnibusBlock</ref></type>
+        <definition>using haldls::vx::v3::PollingOmnibusBlock = typedef haldls::vx::PollingOmnibusBlock</definition>
+        <argsstring></argsstring>
+        <name>PollingOmnibusBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/block.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/block.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ad1969d9ef7502aa728bc9af02ac8d74c" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_polling_omnibus_block_config" kindref="compound">haldls::vx::PollingOmnibusBlockConfig</ref></type>
+        <definition>using haldls::vx::v3::PollingOmnibusBlockConfig = typedef haldls::vx::PollingOmnibusBlockConfig</definition>
+        <argsstring></argsstring>
+        <name>PollingOmnibusBlockConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/block.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/block.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a8571398174dc3b8d0ff1f52f6f64974c" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_control_register" kindref="compound">haldls::vx::PPUControlRegister</ref></type>
+        <definition>using haldls::vx::v3::PPUControlRegister = typedef haldls::vx::PPUControlRegister</definition>
+        <argsstring></argsstring>
+        <name>PPUControlRegister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/ppu.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/ppu.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1aa3cfc2cd6418d679dbf07ab452d6dad6" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory" kindref="compound">haldls::vx::PPUMemory</ref></type>
+        <definition>typedef haldls::vx::PPUMemory haldls::vx::v3::PPUMemory</definition>
+        <argsstring></argsstring>
+        <name>PPUMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" line="29" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1afe70459fb03fa9adf5b59b19c32367c6" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_block" kindref="compound">haldls::vx::PPUMemoryBlock</ref></type>
+        <definition>typedef haldls::vx::PPUMemoryBlock haldls::vx::v3::PPUMemoryBlock</definition>
+        <argsstring></argsstring>
+        <name>PPUMemoryBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" line="28" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1af472caa1ad0b71418eab5e451c0109e5" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_word" kindref="compound">haldls::vx::PPUMemoryWord</ref></type>
+        <definition>using haldls::vx::v3::PPUMemoryWord = typedef haldls::vx::PPUMemoryWord</definition>
+        <argsstring></argsstring>
+        <name>PPUMemoryWord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/ppu.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/ppu.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ac113f3b33a39880f7d7e2a43d95e2c57" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_status_register" kindref="compound">haldls::vx::PPUStatusRegister</ref></type>
+        <definition>using haldls::vx::v3::PPUStatusRegister = typedef haldls::vx::PPUStatusRegister</definition>
+        <argsstring></argsstring>
+        <name>PPUStatusRegister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/ppu.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/ppu.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a02518899e197d27da434ccca8f902932" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_readout_source_selection" kindref="compound">haldls::vx::ReadoutSourceSelection</ref></type>
+        <definition>using haldls::vx::v3::ReadoutSourceSelection = typedef haldls::vx::ReadoutSourceSelection</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSourceSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/readout.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/readout.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a62cad6f0ed37849b05a5ced87f9a1fff" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_reset_chip" kindref="compound">haldls::vx::ResetChip</ref></type>
+        <definition>using haldls::vx::v3::ResetChip = typedef haldls::vx::ResetChip</definition>
+        <argsstring></argsstring>
+        <name>ResetChip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/reset.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/reset.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ab8bfb0cd822bd42f3b542e93f05b3482" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_reset_j_t_a_g_tap" kindref="compound">haldls::vx::ResetJTAGTap</ref></type>
+        <definition>using haldls::vx::v3::ResetJTAGTap = typedef haldls::vx::ResetJTAGTap</definition>
+        <argsstring></argsstring>
+        <name>ResetJTAGTap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/jtag.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/jtag.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a79f2a43465134cf720013ee77605428f" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_shift_register" kindref="compound">haldls::vx::ShiftRegister</ref></type>
+        <definition>using haldls::vx::v3::ShiftRegister = typedef haldls::vx::ShiftRegister</definition>
+        <argsstring></argsstring>
+        <name>ShiftRegister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/spi.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/spi.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a6f6d6d22a6819474936f60869ea9737d" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_spike_counter_read" kindref="compound">haldls::vx::SpikeCounterRead</ref></type>
+        <definition>using haldls::vx::v3::SpikeCounterRead = typedef haldls::vx::SpikeCounterRead</definition>
+        <argsstring></argsstring>
+        <name>SpikeCounterRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a19ffcb0a5ec0faf9a3398313d46ab80a" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_spike_counter_reset" kindref="compound">haldls::vx::SpikeCounterReset</ref></type>
+        <definition>using haldls::vx::v3::SpikeCounterReset = typedef haldls::vx::SpikeCounterReset</definition>
+        <argsstring></argsstring>
+        <name>SpikeCounterReset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="28" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ad55dad2779dd7ea742b7298005d33886" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_spike_from_chip" kindref="compound">haldls::vx::SpikeFromChip</ref></type>
+        <definition>using haldls::vx::v3::SpikeFromChip = typedef haldls::vx::SpikeFromChip</definition>
+        <argsstring></argsstring>
+        <name>SpikeFromChip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a70ade2bd60c13f6108485f930400afc6" prot="public" static="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_spike_label" kindref="compound">haldls::vx::SpikeLabel</ref></type>
+        <definition>using haldls::vx::v3::SpikeLabel = typedef haldls::vx::SpikeLabel</definition>
+        <argsstring></argsstring>
+        <name>SpikeLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a4fb48656dcc93d2c5ccf887e8c6668af" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_spike_pack1_to_chip" kindref="compound">haldls::vx::SpikePack1ToChip</ref></type>
+        <definition>using haldls::vx::v3::SpikePack1ToChip = typedef haldls::vx::SpikePack1ToChip</definition>
+        <argsstring></argsstring>
+        <name>SpikePack1ToChip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1acafb31941972dbdb8c3791f031e7b2ce" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_spike_pack2_to_chip" kindref="compound">haldls::vx::SpikePack2ToChip</ref></type>
+        <definition>using haldls::vx::v3::SpikePack2ToChip = typedef haldls::vx::SpikePack2ToChip</definition>
+        <argsstring></argsstring>
+        <name>SpikePack2ToChip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1abea0b11f0c62e9f057185d57a2e2b550" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_spike_pack3_to_chip" kindref="compound">haldls::vx::SpikePack3ToChip</ref></type>
+        <definition>using haldls::vx::v3::SpikePack3ToChip = typedef haldls::vx::SpikePack3ToChip</definition>
+        <argsstring></argsstring>
+        <name>SpikePack3ToChip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1aafd14e0240f3d6a43161fdc7f0935ba5" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection" kindref="compound">haldls::vx::SynapseBiasSelection</ref></type>
+        <definition>using haldls::vx::v3::SynapseBiasSelection = typedef haldls::vx::SynapseBiasSelection</definition>
+        <argsstring></argsstring>
+        <name>SynapseBiasSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a51730406e997ff0bf4adf7baec62a7df" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_correlation_calib_quad" kindref="compound">haldls::vx::SynapseCorrelationCalibQuad</ref></type>
+        <definition>using haldls::vx::v3::SynapseCorrelationCalibQuad = typedef haldls::vx::SynapseCorrelationCalibQuad</definition>
+        <argsstring></argsstring>
+        <name>SynapseCorrelationCalibQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1af56a9e0cf2b0ebe679d0f19f5db9312b" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_driver_config" kindref="compound">haldls::vx::SynapseDriverConfig</ref></type>
+        <definition>using haldls::vx::v3::SynapseDriverConfig = typedef haldls::vx::SynapseDriverConfig</definition>
+        <argsstring></argsstring>
+        <name>SynapseDriverConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse_driver.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse_driver.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1aa14cba42321e56d793af13a5aa4c7cb1" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config" kindref="compound">haldls::vx::SynapseDriverSRAMTimingConfig</ref></type>
+        <definition>using haldls::vx::v3::SynapseDriverSRAMTimingConfig = typedef haldls::vx::SynapseDriverSRAMTimingConfig</definition>
+        <argsstring></argsstring>
+        <name>SynapseDriverSRAMTimingConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse_driver.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse_driver.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ad726f0372c042d672be0f05136fba493" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_label_quad" kindref="compound">haldls::vx::SynapseLabelQuad</ref></type>
+        <definition>using haldls::vx::v3::SynapseLabelQuad = typedef haldls::vx::SynapseLabelQuad</definition>
+        <argsstring></argsstring>
+        <name>SynapseLabelQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a6aed6a713164ff81c279135029cdecc6" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_quad" kindref="compound">haldls::vx::SynapseQuad</ref></type>
+        <definition>using haldls::vx::v3::SynapseQuad = typedef haldls::vx::SynapseQuad</definition>
+        <argsstring></argsstring>
+        <name>SynapseQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a0d4519f6ad20646713b394f646ea2e5a" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_weight_quad" kindref="compound">haldls::vx::SynapseWeightQuad</ref></type>
+        <definition>using haldls::vx::v3::SynapseWeightQuad = typedef haldls::vx::SynapseWeightQuad</definition>
+        <argsstring></argsstring>
+        <name>SynapseWeightQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ae8e0ad4af00dd05a85dc81e6808dfe76" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_systime_sync" kindref="compound">haldls::vx::SystimeSync</ref></type>
+        <definition>using haldls::vx::v3::SystimeSync = typedef haldls::vx::SystimeSync</definition>
+        <argsstring></argsstring>
+        <name>SystimeSync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/systime.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/systime.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a2d347c75223def5a720890ad13198926" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_systime_sync_base" kindref="compound">haldls::vx::SystimeSyncBase</ref></type>
+        <definition>using haldls::vx::v3::SystimeSyncBase = typedef haldls::vx::SystimeSyncBase</definition>
+        <argsstring></argsstring>
+        <name>SystimeSyncBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/systime.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/systime.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a28e37d7d9a90754ced4b039524a2b550" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config" kindref="compound">haldls::vx::TCA9554Config</ref></type>
+        <definition>using haldls::vx::v3::TCA9554Config = typedef haldls::vx::TCA9554Config</definition>
+        <argsstring></argsstring>
+        <name>TCA9554Config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a2ed633c43236dad31273c8a6466daaf3" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_inputs" kindref="compound">haldls::vx::TCA9554Inputs</ref></type>
+        <definition>using haldls::vx::v3::TCA9554Inputs = typedef haldls::vx::TCA9554Inputs</definition>
+        <argsstring></argsstring>
+        <name>TCA9554Inputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a07917c2894223becc1920c2b8d474d3d" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_timer" kindref="compound">haldls::vx::Timer</ref></type>
+        <definition>using haldls::vx::v3::Timer = typedef haldls::vx::Timer</definition>
+        <argsstring></argsstring>
+        <name>Timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/timer.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/timer.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ab313a05659b4845e3dded2d64ae3c434" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_control" kindref="compound">haldls::vx::VectorGeneratorControl</ref></type>
+        <definition>using haldls::vx::v3::VectorGeneratorControl = typedef haldls::vx::VectorGeneratorControl</definition>
+        <argsstring></argsstring>
+        <name>VectorGeneratorControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1ac259bba15259f466f71ba48b7ea212cd" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word" kindref="compound">haldls::vx::VectorGeneratorFIFOWord</ref></type>
+        <definition>using haldls::vx::v3::VectorGeneratorFIFOWord = typedef haldls::vx::VectorGeneratorFIFOWord</definition>
+        <argsstring></argsstring>
+        <name>VectorGeneratorFIFOWord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a7ae1888ad5498361a422aadf8de5d5e4" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_l_u_t_entry" kindref="compound">haldls::vx::VectorGeneratorLUTEntry</ref></type>
+        <definition>using haldls::vx::v3::VectorGeneratorLUTEntry = typedef haldls::vx::VectorGeneratorLUTEntry</definition>
+        <argsstring></argsstring>
+        <name>VectorGeneratorLUTEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1acd2ad6a9cc06ce544c06918ab0ee22a4" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_notification_address" kindref="compound">haldls::vx::VectorGeneratorNotificationAddress</ref></type>
+        <definition>using haldls::vx::v3::VectorGeneratorNotificationAddress = typedef haldls::vx::VectorGeneratorNotificationAddress</definition>
+        <argsstring></argsstring>
+        <name>VectorGeneratorNotificationAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1v3_1a6f784e891cf231a8482da0e46cf7fdfc" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_trigger" kindref="compound">haldls::vx::VectorGeneratorTrigger</ref></type>
+        <definition>using haldls::vx::v3::VectorGeneratorTrigger = typedef haldls::vx::VectorGeneratorTrigger</definition>
+        <argsstring></argsstring>
+        <name>VectorGeneratorTrigger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1_1v3_1a4f98a2f95c0af799079bdbdfca4b130f" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::v3::chip_reset_high_duration</definition>
+        <argsstring></argsstring>
+        <name>chip_reset_high_duration</name>
+        <initializer>=
+    haldls::vx::chip_reset_high_duration</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" line="11" column="35" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1_1v3_1a637afd230280d3fda562021238ed52c7" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::v3::chip_reset_low_duration</definition>
+        <argsstring></argsstring>
+        <name>chip_reset_low_duration</name>
+        <initializer>=
+    haldls::vx::chip_reset_low_duration</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" line="13" column="35" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1_1v3_1a3516f250be4a3107aa324427190d69aa" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::v3::pll_and_omnibus_settling_duration</definition>
+        <argsstring></argsstring>
+        <name>pll_and_omnibus_settling_duration</name>
+        <initializer>=
+    haldls::vx::pll_and_omnibus_settling_duration</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" line="7" column="35" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1_1v3_1a05230aa205f7cb2f5a3a266ebe4411be" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::v3::reference_generator_reset_duration</definition>
+        <argsstring></argsstring>
+        <name>reference_generator_reset_duration</name>
+        <initializer>=
+    haldls::vx::reference_generator_reset_duration</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" line="15" column="35" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1_1v3_1ac0fe52ad9174f30b96722bbadf54a75b" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::v3::xboard_dac_settling_duration</definition>
+        <argsstring></argsstring>
+        <name>xboard_dac_settling_duration</name>
+        <initializer>=
+    haldls::vx::xboard_dac_settling_duration</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" line="9" column="35" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/constants.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1_1v3_1a738e055984d613a56fb6a5b2f5aaffaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cls def(pybind11::init&lt;::<ref refid="structhaldls_1_1vx_1_1_cap_mem_cell_1_1_value" kindref="compound">haldls::vx::v3::CapMemCell::Value</ref> &gt;(), pybind11::arg(&quot;value&quot;)=::haldls::vx::v3::CapMemCell::Value(0)) .def(pybind11 parent</type>
+        <definition>cls def ( pybind11::init&lt;::haldls::vx::v3::CapMemCell::Value&gt;(), pybind11::arg(&quot;value&quot;) = ::haldls::vx::v3::CapMemCell::Value(0)) .def( pybind11 parent haldls::vx::v3::attr</definition>
+        <argsstring>(&quot;CapMemCell&quot;).attr(&quot;value_type&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;CapMemCell&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="34" column="47" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" declline="34" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1_1v3_1a272d06cce359a23fa418df75c6f6485b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; haldls::vx::v3::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;, NeuronConfig::ReadoutSource const &amp;) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1v3_1_1_neuron_config_1a5099259c61f88391e73d54a4c042dc59" kindref="member">NeuronConfig::ReadoutSource</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" line="362" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/neuron.h" declline="362" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1_1v3_1a45db56f3c5ac460959e514e6fac604a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto haldls::vx::v3::visit_preorder</definition>
+        <argsstring>(Ts &amp;&amp;... args) -&gt; decltype(haldls::vx::visit_preorder(std::forward&lt; Ts &gt;(args)...))</argsstring>
+        <name>visit_preorder</name>
+        <param>
+          <type>Ts &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/common.h" line="8" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/common.h" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" line="26" column="1"/>
+  </compounddef>
+</doxygen>

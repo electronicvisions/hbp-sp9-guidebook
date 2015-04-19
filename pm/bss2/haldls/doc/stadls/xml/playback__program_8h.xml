@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="playback__program_8h" kind="file" language="C++">
+    <compoundname>playback_program.h</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">optional</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">boost/variant.hpp</includes>
+    <includes local="yes">fisch/vx/container_cast.h</includes>
+    <includes local="yes">fisch/vx/container_ticket.h</includes>
+    <includes local="yes">fisch/vx/playback_program.h</includes>
+    <includes local="yes">haldls/cerealization.h</includes>
+    <includes local="yes">haldls/vx/common.h</includes>
+    <includes local="yes">haldls/vx/event.h</includes>
+    <includes local="yes">hate/type_list.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes local="yes">hxcomm/vx/target.h</includes>
+    <includes refid="genpybind_8h" local="yes">stadls/vx/genpybind.h</includes>
+    <includes refid="run__time__info_8h" local="yes">stadls/vx/run_time_info.h</includes>
+    <includedby refid="dumper_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h</includedby>
+    <includedby refid="playback__program__builder_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h</includedby>
+    <includedby refid="reinit__stack__entry_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h</includedby>
+    <includedby refid="stadls_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/stadls.h</includedby>
+    <includedby refid="v2_2playback__program_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program.h</includedby>
+    <includedby refid="v3_2playback__program_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/playback_program.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>cstdint</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>fisch/vx/run_time_info.h</label>
+      </node>
+      <node id="12">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="13">
+        <label>haldls/vx/event.h</label>
+      </node>
+      <node id="7">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="16">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="4">
+        <label>optional</label>
+      </node>
+      <node id="8">
+        <label>fisch/vx/container_cast.h</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="18">
+        <label>stadls/vx/run_time_info.h</label>
+        <link refid="run__time__info_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>fisch/vx/playback_program.h</label>
+      </node>
+      <node id="17">
+        <label>stadls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="9">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h</label>
+        <link refid="playback__program_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>memory</label>
+      </node>
+      <node id="11">
+        <label>haldls/cerealization.h</label>
+      </node>
+      <node id="14">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="16">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/playback_generator.h</label>
+        <link refid="v3_2playback__generator_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h</label>
+        <link refid="v2_2dumper_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/stadls.h</label>
+        <link refid="v3_2stadls_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program.h</label>
+        <link refid="v2_2playback__program_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/playback_program.h</label>
+        <link refid="v3_2playback__program_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/pystadls.h</label>
+        <link refid="v2_2pystadls_8h"/>
+      </node>
+      <node id="17">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h</label>
+        <link refid="reinit__stack__entry_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/playback_program_builder.h</label>
+        <link refid="v3_2playback__program__builder_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h</label>
+        <link refid="v2_2playback__program__builder_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/reinit_stack_entry.h</label>
+        <link refid="v2_2reinit__stack__entry_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/dumper.h</label>
+        <link refid="v3_2dumper_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h</label>
+        <link refid="v2_2playback__generator_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/pystadls.h</label>
+        <link refid="v3_2pystadls_8h"/>
+      </node>
+      <node id="13">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h</label>
+        <link refid="v3_2init__generator_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/stadls.h</label>
+        <link refid="v2_2stadls_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/stadls.h</label>
+        <link refid="stadls_8h"/>
+      </node>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h</label>
+        <link refid="v2_2init__generator_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/reinit_stack_entry.h</label>
+        <link refid="v3_2reinit__stack__entry_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/dumper.h</label>
+        <link refid="dumper_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h</label>
+        <link refid="playback__program_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program_builder.h</label>
+        <link refid="playback__program__builder_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket" prot="public">stadls::vx::PlaybackProgram::ContainerTicket</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1_playback_program" prot="public">stadls::vx::PlaybackProgram</innerclass>
+    <innerclass refid="structstadls_1_1vx_1_1detail_1_1to__ticket__variant_3_01hate_1_1type__list_3_01_backend_container_8_8_8_01_4_01_4" prot="public">stadls::vx::detail::to_ticket_variant&lt; hate::type_list&lt; BackendContainer... &gt; &gt;</innerclass>
+    <innernamespace refid="namespacestadls">stadls</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx">stadls::vx</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx_1_1detail">stadls::vx::detail</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="playback__program_8h_1a119e4d72651a5ff3d6abe5ead7b79f5a" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; fisch::vx::PlaybackProgram &gt;</type>
+        <definition>std::shared_ptr&lt;fisch::vx::PlaybackProgram&gt; m_program_impl</definition>
+        <argsstring></argsstring>
+        <name>m_program_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="280" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="playback__program_8h_1aa1e3fc11ae7a9173c9ee249a7a1c9006" prot="private" static="no" mutable="no">
+        <type>std::unordered_set&lt; hxcomm::vx::Target &gt;</type>
+        <definition>std::unordered_set&lt;hxcomm::vx::Target&gt; m_unsupported_targets</definition>
+        <argsstring></argsstring>
+        <name>m_unsupported_targets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="282" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="playback__program_8h_1a8d09dc5edfa58c7a2aa1f2588936471b" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend ReinitStackEntry</definition>
+        <argsstring></argsstring>
+        <name>ReinitStackEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="268" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="playback__program_8h_1a2a65f9ee2106c4c75fdbdf3b8ea12115" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PlaybackProgram</definition>
+        <argsstring>(std::shared_ptr&lt; fisch::vx::PlaybackProgram &gt; const &amp;program_impl, std::unordered_set&lt; hxcomm::vx::Target &gt; unsupported_targets) SYMBOL_VISIBLE</argsstring>
+        <name>PlaybackProgram</name>
+        <param>
+          <type>std::shared_ptr&lt; fisch::vx::PlaybackProgram &gt; const &amp;</type>
+          <declname>program_impl</declname>
+        </param>
+        <param>
+          <type>std::unordered_set&lt; hxcomm::vx::Target &gt;</type>
+          <declname>unsupported_targets</declname>
+        </param>
+        <briefdescription>
+<para>Construct PlaybackProgram from implementation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Used in PlaybackProgramBuilderAdapter <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>program_impl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Implementation playback program </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unsupported_targets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Build-imposed restrictions on targets </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="276" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" declline="276" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="playback__program_8h_1a008f194b604ac75e06ee31969ea09c9d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Connection</type>
+          </param>
+        </templateparamlist>
+        <type>RunTimeInfo</type>
+        <definition>friend RunTimeInfo run</definition>
+        <argsstring>(Connection &amp;, PlaybackProgram &amp;)</argsstring>
+        <name>run</name>
+        <param>
+          <type>Connection &amp;</type>
+        </param>
+        <param>
+          <type>PlaybackProgram &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="266" column="20" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" declline="266" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="playback__program_8h_1ae2cb039616c1db5b08ab8600880f4487" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void serialize</definition>
+        <argsstring>(Archive &amp;ar, uint32_t)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="257" column="6" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" declline="257" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h"/>
+  </compounddef>
+</doxygen>

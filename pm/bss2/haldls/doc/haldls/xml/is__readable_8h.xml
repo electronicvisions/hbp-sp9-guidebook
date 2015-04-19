@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="is__readable_8h" kind="file" language="C++">
+    <compoundname>is_readable.h</compoundname>
+    <includes local="yes">fisch/vx/traits.h</includes>
+    <includes local="yes">hate/type_list.h</includes>
+    <includedby refid="is__writereadable_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writereadable.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fisch/vx/traits.h</label>
+      </node>
+      <node id="3">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_readable" prot="public">haldls::vx::detail::IsReadable</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01std_1_1enable__if__t_3_01hate_1_1is__in52349e4c8b62557f32257c4d96054dd8" prot="public">haldls::vx::detail::IsReadable&lt; T, std::enable_if_t&lt; hate::is_in_type_list&lt; T, NonLeafNodeReadableContainerList &gt;::value &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01typename_01boost_1_1enable__if__has__tydc1ee37345a0bb947e0685c0247ea7c7" prot="public">haldls::vx::detail::IsReadable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01typename_01boost_1_1enable__if__has__ty1ca83ba67d6c660c6fe17948d688c3be" prot="public">haldls::vx::detail::IsReadable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::read_config_size_in_words)&gt;::type &gt;</innerclass>
+    <innernamespace refid="namespacehalco">halco</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls">halco::hicann_dls</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx">halco::hicann_dls::vx</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx_1_1v2">halco::hicann_dls::vx::v2</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx_1_1v3">halco::hicann_dls::vx::v3</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1v2">haldls::vx::v2</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1v3">haldls::vx::v3</innernamespace>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v2">lola::vx::v2</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v3">lola::vx::v3</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h"/>
+  </compounddef>
+</doxygen>

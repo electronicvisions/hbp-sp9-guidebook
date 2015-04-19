@@ -1,0 +1,5 @@
+var structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4 =
+[
+    [ "container_type", "structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4.html#a1c5b156bb8d7ccf17ceb0957ffb9b3b6", null ],
+    [ "call", "structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4.html#afaae5a1f333ab9740410c2b00a411a28", null ]
+];

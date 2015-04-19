@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_multicompartment" kind="struct" language="C++" prot="public">
+    <compoundname>Multicompartment</compoundname>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_multicompartment_1abcec1ce23577719670440f9711f1ae7b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Multicompartment::connect_right</definition>
+        <argsstring></argsstring>
+        <name>connect_right</name>
+        <briefdescription>
+<para>Connect local membrane to membrane on the right. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="137" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_multicompartment_1afe6d329d19b06f32e00868bf25a1c049" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Multicompartment::connect_soma</definition>
+        <argsstring></argsstring>
+        <name>connect_soma</name>
+        <briefdescription>
+<para>Connect local membrane to soma. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="131" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_multicompartment_1ad49465152a37c2bf4ebc214a53c89181" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Multicompartment::connect_soma_right</definition>
+        <argsstring></argsstring>
+        <name>connect_soma_right</name>
+        <briefdescription>
+<para>Connect soma to soma on the right. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="134" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_multicompartment_1a1eb35b8ceb3585ee913eef74b098123e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Multicompartment::connect_vertical</definition>
+        <argsstring></argsstring>
+        <name>connect_vertical</name>
+        <briefdescription>
+<para>Connect local membrane vertically to membrane on the opposite hemisphere. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="140" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_multicompartment_1a2b812dc1f58d336012c68dc4db2888c3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Multicompartment::enable_conductance</definition>
+        <argsstring></argsstring>
+        <name>enable_conductance</name>
+        <briefdescription>
+<para>Enable inter-compartment conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="143" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_multicompartment_1a71fc8300b8b7a50c66920f0367070108" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Multicompartment::enable_conductance_division</definition>
+        <argsstring></argsstring>
+        <name>enable_conductance_division</name>
+        <briefdescription>
+<para>Enable division (/4) of inter-compartment conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="146" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_multicompartment_1a56fc4c4177ca9071f64204f0ce943285" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Multicompartment::enable_conductance_multiplication</definition>
+        <argsstring></argsstring>
+        <name>enable_conductance_multiplication</name>
+        <briefdescription>
+<para>Enable multiplication (*4) of inter-compartment conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="149" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_multicompartment_1a9d6e82bde495c08c2a0331d5f2d53147" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant Multicompartment::i_bias_nmda</definition>
+        <argsstring></argsstring>
+        <name>i_bias_nmda</name>
+        <briefdescription>
+<para>Bias current of inter-compartmental conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="152" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_multicompartment_1a06779c5d46295538b511f43afdcd30cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Multicompartment::Multicompartment</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Multicompartment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_multicompartment_1a06779c5d46295538b511f43afdcd30cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Multicompartment::Multicompartment</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Multicompartment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="137" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_multicompartment_1a6ee4aae1aa178cf4f8607c8f284d66d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Multicompartment::operator!=</definition>
+        <argsstring>(Multicompartment const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="155" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_multicompartment_1a6ee4aae1aa178cf4f8607c8f284d66d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Multicompartment::operator!=</definition>
+        <argsstring>(Multicompartment const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="164" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_multicompartment_1ae25d1a5f0f4c2de268ac9acde4efc0ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Multicompartment::operator==</definition>
+        <argsstring>(Multicompartment const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="154" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_multicompartment_1ae25d1a5f0f4c2de268ac9acde4efc0ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Multicompartment::operator==</definition>
+        <argsstring>(Multicompartment const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="163" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_multicompartment_1a4272da6228b5b745bec5519f13e9301e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Multicompartment const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="158" column="8"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_multicompartment_1a4272da6228b5b745bec5519f13e9301e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Multicompartment const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="167" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="struct_multicompartment" kindref="compound">Multicompartment</ref> configuration of connectivity to adjacent neurons. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>See <ulink url="https://arxiv.org/abs/1804.01840">https://arxiv.org/abs/1804.01840</ulink> III.A for more information about the circuit. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="126" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="127" bodyend="160"/>
+    <listofallmembers>
+      <member refid="struct_multicompartment_1abcec1ce23577719670440f9711f1ae7b" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>connect_right</name></member>
+      <member refid="struct_multicompartment_1afe6d329d19b06f32e00868bf25a1c049" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>connect_soma</name></member>
+      <member refid="struct_multicompartment_1ad49465152a37c2bf4ebc214a53c89181" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>connect_soma_right</name></member>
+      <member refid="struct_multicompartment_1a1eb35b8ceb3585ee913eef74b098123e" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>connect_vertical</name></member>
+      <member refid="struct_multicompartment_1a2b812dc1f58d336012c68dc4db2888c3" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>enable_conductance</name></member>
+      <member refid="struct_multicompartment_1a71fc8300b8b7a50c66920f0367070108" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>enable_conductance_division</name></member>
+      <member refid="struct_multicompartment_1a56fc4c4177ca9071f64204f0ce943285" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>enable_conductance_multiplication</name></member>
+      <member refid="struct_multicompartment_1a9d6e82bde495c08c2a0331d5f2d53147" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>i_bias_nmda</name></member>
+      <member refid="struct_multicompartment_1a06779c5d46295538b511f43afdcd30cc" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>Multicompartment</name></member>
+      <member refid="struct_multicompartment_1a06779c5d46295538b511f43afdcd30cc" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>Multicompartment</name></member>
+      <member refid="struct_multicompartment_1a6ee4aae1aa178cf4f8607c8f284d66d0" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>operator!=</name></member>
+      <member refid="struct_multicompartment_1a6ee4aae1aa178cf4f8607c8f284d66d0" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>operator!=</name></member>
+      <member refid="struct_multicompartment_1a4272da6228b5b745bec5519f13e9301e" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_multicompartment_1a4272da6228b5b745bec5519f13e9301e" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_multicompartment_1ae25d1a5f0f4c2de268ac9acde4efc0ba" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>operator==</name></member>
+      <member refid="struct_multicompartment_1ae25d1a5f0f4c2de268ac9acde4efc0ba" prot="public" virt="non-virtual"><scope>Multicompartment</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

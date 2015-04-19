@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classstadls_1_1vx_1_1v3_1_1_experiment_init" kind="class" language="C++" prot="public">
+    <compoundname>stadls::vx::v3::ExperimentInit</compoundname>
+    <basecompoundref refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator" prot="public" virt="non-virtual">stadls::vx::v3::detail::InitGenerator</basecompoundref>
+    <includes refid="v3_2init__generator_8h" local="no">init_generator.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa27ae84b0d5159a372ec8794726f1800" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::ADPLL, halco::hicann_dls::vx::v3::ADPLLOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;haldls::vx::ADPLL, halco::hicann_dls::vx::v3::ADPLLOnDLS&gt; stadls::vx::v3::detail::InitGenerator::adplls_type</definition>
+        <argsstring></argsstring>
+        <name>adplls_type</name>
+        <briefdescription>
+<para>ADPLL setting. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="46" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ac7bed4537f8b1a6e679ebacd7ecfac73" prot="public" static="no">
+        <type><ref refid="namespacestadls_1_1vx_1_1v3_1a6731a47ca1d52727cb67c9892d84e451" kindref="member">PlaybackProgramBuilder</ref></type>
+        <definition>typedef PlaybackProgramBuilder stadls::vx::v3::ExperimentInit::Builder</definition>
+        <argsstring></argsstring>
+        <name>Builder</name>
+        <briefdescription>
+<para>Builder typedef (e.g. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>for usage in generators). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="166" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a83a3389df93f5702a3b7b723103810ee" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v3::CapMemBlockConfig, halco::hicann_dls::vx::v3::CapMemBlockConfigOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::v3::CapMemBlockConfig, halco::hicann_dls::vx::v3::CapMemBlockConfigOnDLS&gt; stadls::vx::v3::detail::InitGenerator::capmem_block_config_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_block_config_type</name>
+        <briefdescription>
+<para>Initialize the CapMem with usable default values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="110" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1afa415c7ecfd65c4ef1e7fd9dfe80f0c9" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v3::CapMemBlock, halco::hicann_dls::vx::v3::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;haldls::vx::v3::CapMemBlock, halco::hicann_dls::vx::v3::CapMemBlockOnDLS&gt; stadls::vx::v3::detail::InitGenerator::capmem_block_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_block_type</name>
+        <briefdescription>
+<para>Set initial CapMem config. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>By default, a value of zero is written to all cells. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="117" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a145fc79c54a770b643840f20d98ba36b" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v3::ColumnCorrelationQuad, halco::hicann_dls::vx::v3::ColumnCorrelationQuadOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::v3::ColumnCorrelationQuad, halco::hicann_dls::vx::v3::ColumnCorrelationQuadOnDLS&gt; stadls::vx::v3::ExperimentInit::column_correlation_quad_type</definition>
+        <argsstring></argsstring>
+        <name>column_correlation_quad_type</name>
+        <briefdescription>
+<para>Set ColumnCorrelationQuad/Switch connections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="180" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a66b459dbe5096bc9cafbd566a2f7c967" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v3::ColumnCurrentQuad, halco::hicann_dls::vx::v3::ColumnCurrentQuadOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::v3::ColumnCurrentQuad, halco::hicann_dls::vx::v3::ColumnCurrentQuadOnDLS&gt; stadls::vx::v3::ExperimentInit::column_current_quad_type</definition>
+        <argsstring></argsstring>
+        <name>column_current_quad_type</name>
+        <briefdescription>
+<para>Set ColumnCurrentQuad/Switch connections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="187" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a480a129612dfa95ccd60277a531428e8" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v3::CommonCorrelationConfig, halco::hicann_dls::vx::v3::CommonCorrelationConfigOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::v3::CommonCorrelationConfig, halco::hicann_dls::vx::v3::CommonCorrelationConfigOnDLS&gt; stadls::vx::v3::ExperimentInit::common_correlation_config_type</definition>
+        <argsstring></argsstring>
+        <name>common_correlation_config_type</name>
+        <briefdescription>
+<para>Set common correlation config. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="194" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a48bdcb810930c46501cd53bf8391c6f1" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::CommonNeuronBackendConfig, halco::hicann_dls::vx::v3::CommonNeuronBackendConfigOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::CommonNeuronBackendConfig, halco::hicann_dls::vx::v3::CommonNeuronBackendConfigOnDLS&gt; stadls::vx::v3::ExperimentInit::common_neuron_backend_config_type</definition>
+        <argsstring></argsstring>
+        <name>common_neuron_backend_config_type</name>
+        <briefdescription>
+<para>Set common neuron backend with clocks enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If clocks are disabled, it may behave strangely. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="173" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ad04e06d4a67ea10bcc1e53dd733a3519" prot="public" static="no">
+        <type><ref refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aac7abc0bce8d65cd2aea0c870b5bd3a6" kindref="member">detail::InitGenerator::Result</ref></type>
+        <definition>typedef detail::InitGenerator::Result stadls::vx::v3::ExperimentInit::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="197" column="39" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a010f72743a3c21acf91899ff4fdd1ce7" prot="public" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa27ae84b0d5159a372ec8794726f1800" kindref="member">adplls_type</ref></type>
+        <definition>adplls_type stadls::vx::v3::detail::InitGenerator::adplls</definition>
+        <argsstring></argsstring>
+        <name>adplls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="47" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ae03563bd1d5a61696da6e7321aef91c5" prot="public" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a83a3389df93f5702a3b7b723103810ee" kindref="member">capmem_block_config_type</ref></type>
+        <definition>capmem_block_config_type stadls::vx::v3::detail::InitGenerator::capmem_block_config</definition>
+        <argsstring></argsstring>
+        <name>capmem_block_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="111" column="26" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab105e4d2fb709b1765c907fdd640c063" prot="public" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1afa415c7ecfd65c4ef1e7fd9dfe80f0c9" kindref="member">capmem_block_type</ref></type>
+        <definition>capmem_block_type stadls::vx::v3::detail::InitGenerator::capmem_config</definition>
+        <argsstring></argsstring>
+        <name>capmem_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="118" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a53068f1598d2b244dc4371b9a0e134f2" prot="public" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a145fc79c54a770b643840f20d98ba36b" kindref="member">column_correlation_quad_type</ref></type>
+        <definition>column_correlation_quad_type stadls::vx::v3::ExperimentInit::column_correlation_quad_config</definition>
+        <argsstring></argsstring>
+        <name>column_correlation_quad_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="181" column="30" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a9630a5208f71d845988c2041b6687e7f" prot="public" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a66b459dbe5096bc9cafbd566a2f7c967" kindref="member">column_current_quad_type</ref></type>
+        <definition>column_current_quad_type stadls::vx::v3::ExperimentInit::column_current_quad_config</definition>
+        <argsstring></argsstring>
+        <name>column_current_quad_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="188" column="26" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ab9295d42dde267668a90aa47d6282202" prot="public" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a480a129612dfa95ccd60277a531428e8" kindref="member">common_correlation_config_type</ref></type>
+        <definition>common_correlation_config_type stadls::vx::v3::ExperimentInit::common_correlation_config</definition>
+        <argsstring></argsstring>
+        <name>common_correlation_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="195" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a637d0b104a0f33b99d05c87b64f6adac" prot="public" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a48bdcb810930c46501cd53bf8391c6f1" kindref="member">common_neuron_backend_config_type</ref></type>
+        <definition>common_neuron_backend_config_type stadls::vx::v3::ExperimentInit::common_neuron_backend_config</definition>
+        <argsstring></argsstring>
+        <name>common_neuron_backend_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="174" column="35" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a61e14ec3a1e388db97ebe06ad1ffd771" prot="public" static="no" mutable="no">
+        <type>lola::vx::DACChannelBlock</type>
+        <definition>lola::vx::DACChannelBlock stadls::vx::v3::detail::InitGenerator::dac_channel_block</definition>
+        <argsstring></argsstring>
+        <name>dac_channel_block</name>
+        <briefdescription>
+<para>DAC channel configs on xBoard. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="29" column="27" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ac1e9f135e4c43bb9ca4b90fdb33ae2eb" prot="public" static="no" mutable="no">
+        <type>lola::vx::DACControlBlock</type>
+        <definition>lola::vx::DACControlBlock stadls::vx::v3::detail::InitGenerator::dac_control_block</definition>
+        <argsstring></argsstring>
+        <name>dac_control_block</name>
+        <briefdescription>
+<para>DAC control config on xBoard. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="26" column="27" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa92520d2804e48b0b3682ff4fcc28721" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool stadls::vx::v3::detail::InitGenerator::enable_capmem</definition>
+        <argsstring></argsstring>
+        <name>enable_capmem</name>
+        <briefdescription>
+<para>Select whether the CapMem should be enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>The CapMem initialization requires highspeed access. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="101" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a029e7548d155cc8bdbfe6bac7a38fe9c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool stadls::vx::v3::detail::InitGenerator::enable_highspeed_link</definition>
+        <argsstring></argsstring>
+        <name>enable_highspeed_link</name>
+        <briefdescription>
+<para>Enable Highspeed connection. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Disabling this discards all highspeed related configuration. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="89" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca49342ed3ee19a9d989603fcca74d9b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool stadls::vx::v3::detail::InitGenerator::enable_xboard</definition>
+        <argsstring></argsstring>
+        <name>enable_xboard</name>
+        <briefdescription>
+<para>Enable xBoard DAC and shift register configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Disabling this allows to discard unnecessary configuration when simulating. <simplesect kind="note"><para>Disabling this discards all xBoard configuration </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="36" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ade10433675dfc19a3f6dc82eb452fc3e" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link" kindref="compound">stadls::vx::v3::detail::InitGenerator::HighspeedLink</ref></type>
+        <definition>struct stadls::vx::v3::detail::InitGenerator::HighspeedLink stadls::vx::v3::detail::InitGenerator::highspeed_link</definition>
+        <argsstring></argsstring>
+        <name>highspeed_link</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="83" column="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a0ad736f5d1fef404b668bfcb32ea2633" prot="public" static="no" mutable="no">
+        <type>haldls::vx::InstructionTimeoutConfig</type>
+        <definition>haldls::vx::InstructionTimeoutConfig stadls::vx::v3::detail::InitGenerator::instruction_timeout</definition>
+        <argsstring></argsstring>
+        <name>instruction_timeout</name>
+        <briefdescription>
+<para>Instruction timeout duration on FPGA config. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="20" column="38" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab877516c4a091ce79096ec2a0cd82fb4" prot="public" static="no" mutable="no">
+        <type>haldls::vx::JTAGClockScaler</type>
+        <definition>haldls::vx::JTAGClockScaler stadls::vx::v3::detail::InitGenerator::jtag_clock_scaler</definition>
+        <argsstring></argsstring>
+        <name>jtag_clock_scaler</name>
+        <briefdescription>
+<para>JTAG clock scaler setting. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="39" column="29" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a5996a3a35cee1c121b15d51d8233c2ec" prot="public" static="no" mutable="no">
+        <type>lola::vx::v3::MemoryTiming</type>
+        <definition>lola::vx::v3::MemoryTiming stadls::vx::v3::detail::InitGenerator::memory_timing</definition>
+        <argsstring></argsstring>
+        <name>memory_timing</name>
+        <briefdescription>
+<para>Memory timing settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="92" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca5f1a0a3accebe3e7ab800963ca9efb" prot="public" static="no" mutable="no">
+        <type>haldls::vx::v3::PLLClockOutputBlock</type>
+        <definition>haldls::vx::v3::PLLClockOutputBlock stadls::vx::v3::detail::InitGenerator::pll_clock_output_block</definition>
+        <argsstring></argsstring>
+        <name>pll_clock_output_block</name>
+        <briefdescription>
+<para>PLL clock output block setting. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="42" column="37" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a6934f3c5daff25e7d5c9f70242af72b3" prot="public" static="no" mutable="no">
+        <type>haldls::vx::v3::ReferenceGeneratorConfig</type>
+        <definition>haldls::vx::v3::ReferenceGeneratorConfig stadls::vx::v3::detail::InitGenerator::reference_generator_config</definition>
+        <argsstring></argsstring>
+        <name>reference_generator_config</name>
+        <briefdescription>
+<para>Generate usable reference current for the CapMem. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="104" column="42" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a684abca46d9aa4cf572219157ddb934c" prot="public" static="no" mutable="no">
+        <type>haldls::vx::ShiftRegister</type>
+        <definition>haldls::vx::ShiftRegister stadls::vx::v3::detail::InitGenerator::shift_register</definition>
+        <argsstring></argsstring>
+        <name>shift_register</name>
+        <briefdescription>
+<para>Shift register on xBoard config. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="23" column="27" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a88e08e57870a2dff6c2f36676491f599" prot="public" static="no" mutable="no">
+        <type>haldls::vx::SynapseBiasSelection</type>
+        <definition>haldls::vx::SynapseBiasSelection stadls::vx::v3::detail::InitGenerator::synapse_bias_selection</definition>
+        <argsstring></argsstring>
+        <name>synapse_bias_selection</name>
+        <briefdescription>
+<para>Select internal bias currents for synapses. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="95" column="34" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1aa14999a0b3b6ad2c5551bf56b4a7555a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::v3::ExperimentInit::ExperimentInit</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ExperimentInit</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="163" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a5e23703e9085c8cd5ceded3032de0252" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto stadls::vx::generate</definition>
+        <argsstring>(ExperimentInit const &amp;)</argsstring>
+        <name>stadls::vx::generate</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1v3_1_1_experiment_init" kindref="compound">ExperimentInit</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="200" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a0c1f62db01bfaf9f0b3f95f1193b35a5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacestadls_1_1vx_1_1v3_1a833d1a884822a9978495d628a01df293" kindref="member">PlaybackGeneratorReturn</ref>&lt; <ref refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aac7abc0bce8d65cd2aea0c870b5bd3a6" kindref="member">Result</ref> &gt;</type>
+        <definition>PlaybackGeneratorReturn&lt;Result&gt; stadls::vx::v3::ExperimentInit::generate</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>generate</name>
+        <briefdescription>
+<para>Generate PlaybackProgramBuilder. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structstadls_1_1vx_1_1_playback_generator_return" kindref="compound">PlaybackGeneratorReturn</ref> instance with sequence embodied and specified Result value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="206" column="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Generator for initialization required for typical experiments. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Uses the <ref refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab342e7c30156933a3bd35a62269f9731" kindref="member">InitGenerator()</ref> to establish digital communication to the chip, and further initializes the CapMem in a working state and selects internal bias currents for synapses. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>stadls::vx::v3::detail::InitGenerator</label>
+        <link refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator"/>
+      </node>
+      <node id="1">
+        <label>stadls::vx::v3::ExperimentInit</label>
+        <link refid="classstadls_1_1vx_1_1v3_1_1_experiment_init"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>stadls::vx::v3::detail::InitGenerator::HighspeedLink</label>
+        <link refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link"/>
+      </node>
+      <node id="2">
+        <label>stadls::vx::v3::detail::InitGenerator</label>
+        <link refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>highspeed_link</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>stadls::vx::v3::ExperimentInit</label>
+        <link refid="classstadls_1_1vx_1_1v3_1_1_experiment_init"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" line="159" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h" bodystart="160" bodyend="207"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a010f72743a3c21acf91899ff4fdd1ce7" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>adplls</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa27ae84b0d5159a372ec8794726f1800" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>adplls_type</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ac7bed4537f8b1a6e679ebacd7ecfac73" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>Builder</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ae03563bd1d5a61696da6e7321aef91c5" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>capmem_block_config</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a83a3389df93f5702a3b7b723103810ee" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>capmem_block_config_type</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1afa415c7ecfd65c4ef1e7fd9dfe80f0c9" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>capmem_block_type</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab105e4d2fb709b1765c907fdd640c063" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>capmem_config</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a53068f1598d2b244dc4371b9a0e134f2" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>column_correlation_quad_config</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a145fc79c54a770b643840f20d98ba36b" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>column_correlation_quad_type</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a9630a5208f71d845988c2041b6687e7f" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>column_current_quad_config</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a66b459dbe5096bc9cafbd566a2f7c967" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>column_current_quad_type</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ab9295d42dde267668a90aa47d6282202" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>common_correlation_config</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a480a129612dfa95ccd60277a531428e8" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>common_correlation_config_type</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a637d0b104a0f33b99d05c87b64f6adac" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>common_neuron_backend_config</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a48bdcb810930c46501cd53bf8391c6f1" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>common_neuron_backend_config_type</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a61e14ec3a1e388db97ebe06ad1ffd771" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>dac_channel_block</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ac1e9f135e4c43bb9ca4b90fdb33ae2eb" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>dac_control_block</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa92520d2804e48b0b3682ff4fcc28721" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>enable_capmem</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a029e7548d155cc8bdbfe6bac7a38fe9c" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>enable_highspeed_link</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca49342ed3ee19a9d989603fcca74d9b" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>enable_xboard</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1aa14999a0b3b6ad2c5551bf56b4a7555a" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>ExperimentInit</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a0c1f62db01bfaf9f0b3f95f1193b35a5" prot="private" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>generate</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ade10433675dfc19a3f6dc82eb452fc3e" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>highspeed_link</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab342e7c30156933a3bd35a62269f9731" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>InitGenerator</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a0ad736f5d1fef404b668bfcb32ea2633" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>instruction_timeout</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab877516c4a091ce79096ec2a0cd82fb4" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>jtag_clock_scaler</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a5996a3a35cee1c121b15d51d8233c2ec" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>memory_timing</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca5f1a0a3accebe3e7ab800963ca9efb" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>pll_clock_output_block</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a6934f3c5daff25e7d5c9f70242af72b3" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>reference_generator_config</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ad04e06d4a67ea10bcc1e53dd733a3519" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>Result</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a684abca46d9aa4cf572219157ddb934c" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>shift_register</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a5e23703e9085c8cd5ceded3032de0252" prot="private" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>stadls::vx::generate</name></member>
+      <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a88e08e57870a2dff6c2f36676491f599" prot="public" virt="non-virtual"><scope>stadls::vx::v3::ExperimentInit</scope><name>synapse_bias_selection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

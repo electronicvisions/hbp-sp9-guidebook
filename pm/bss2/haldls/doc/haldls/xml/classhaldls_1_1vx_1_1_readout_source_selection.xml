@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_readout_source_selection" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::ReadoutSourceSelection</compoundname>
+    <includes refid="readout_8h" local="no">readout.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" prot="public">haldls::vx::ReadoutSourceSelection::SourceMultiplexer</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_readout_source_selection_1a2b2e279d1f5d3d6af87abf2a15464c4f" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ReadoutSourceSelectionOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ReadoutSourceSelectionOnDLS haldls::vx::ReadoutSourceSelection::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="245" column="60" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_readout_source_selection_1a74727d828fe52126a51f00e89040d366" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::ReadoutSourceSelection::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="246" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_readout_source_selection_1a29fc8dbc913c90f3eaac865c55967904" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;bool, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection&gt; haldls::vx::ReadoutSourceSelection::source_multiplexer_type</definition>
+        <argsstring></argsstring>
+        <name>source_multiplexer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="355" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_readout_source_selection_1a1cff023796dc85f3cc365cc1ad4b85f5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::ReadoutSourceSelection::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="364" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_readout_source_selection_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="384" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_readout_source_selection_1aa23b0ca8f8e88db5869ac09ec9253e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ReadoutSourceSelection const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_readout_source_selection" kindref="compound">ReadoutSourceSelection</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="377" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_readout_source_selection_1a8fcf0206722a6154f30697710e2d8fb2" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" kindref="compound">SourceMultiplexer</ref>, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection &gt;</type>
+        <definition>halco::common::typed_array&lt; SourceMultiplexer, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection&gt; haldls::vx::ReadoutSourceSelection::m_buffers</definition>
+        <argsstring></argsstring>
+        <name>m_buffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="391" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_readout_source_selection_1a0fc3a00561a6f2acb54281affd0eff5e" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_readout_source_selection_1a29fc8dbc913c90f3eaac865c55967904" kindref="member">source_multiplexer_type</ref></type>
+        <definition>source_multiplexer_type haldls::vx::ReadoutSourceSelection::m_enable_buffer_to_pad</definition>
+        <argsstring></argsstring>
+        <name>m_enable_buffer_to_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="392" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1aa5a6637c898b75833e4c6c9755c88cf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ReadoutSourceSelection::ReadoutSourceSelection</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ReadoutSourceSelection</name>
+        <briefdescription>
+<para>Default constructor with both buffers and muxes disabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="344" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1a8cb96725f78ab92dc41f06fc1d0eefab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_readout_source_selection_1a1cff023796dc85f3cc365cc1ad4b85f5" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="374" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1a0401fff1357d5a918ac6923c7ce4eff4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_readout_source_selection_1a1cff023796dc85f3cc365cc1ad4b85f5" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::ReadoutSourceSelection::encode</definition>
+        <argsstring>() const</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="371" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1ab745f338fac5e6c0bba5cc7d0f78ab9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" kindref="compound">SourceMultiplexer</ref></type>
+        <definition>SourceMultiplexer haldls::vx::ReadoutSourceSelection::get_buffer</definition>
+        <argsstring>(halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection const &amp;buffer) const SYMBOL_VISIBLE</argsstring>
+        <name>get_buffer</name>
+        <param>
+          <type>halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection const &amp;</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="346" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1a6928267b6e45d7e7d83ef9d2fea00f9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::operator!=</definition>
+        <argsstring>(ReadoutSourceSelection const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_readout_source_selection" kindref="compound">ReadoutSourceSelection</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="381" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1acaa34e321763d15325106e7e323b6cac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::operator==</definition>
+        <argsstring>(ReadoutSourceSelection const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_readout_source_selection" kindref="compound">ReadoutSourceSelection</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="380" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1a633dc6b862efe690bec6bb1016db58f4" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ReadoutSourceSelection::return_value_policy</definition>
+        <argsstring>(reference_internal)) source_multiplexer_type const &amp;get_enable_buffer_to_pad() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="359" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1a28e55fb608d191cae0800fc163f95fcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::set_buffer</definition>
+        <argsstring>(halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection const &amp;buffer, SourceMultiplexer const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_buffer</name>
+        <param>
+          <type>halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection const &amp;</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" kindref="compound">SourceMultiplexer</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="349" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1a30f83c5229b1d2d8238cbfcd08adac9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::set_enable_buffer_to_pad</definition>
+        <argsstring>(source_multiplexer_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_buffer_to_pad</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_readout_source_selection_1a29fc8dbc913c90f3eaac865c55967904" kindref="member">source_multiplexer_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="362" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1a51ee13636f08256b0fc7e0790f273676" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_readout_source_selection_1a1cff023796dc85f3cc365cc1ad4b85f5" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::ReadoutSourceSelection::addresses</definition>
+        <argsstring>(coordinate_type const &amp;block)</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_readout_source_selection_1a2b2e279d1f5d3d6af87abf2a15464c4f" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="367" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_readout_source_selection_1adfbf93f04e350e096bd4937a0b25b073" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="386" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration container for the two mux and buffer blocks for voltage readout. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows selection of various signal sources on chip and drives the signals. To reach the pads, the buffer_to_pad option in the <ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config" kindref="compound">PadMultiplexerConfig</ref> needs to be set.</para>
+<para>Some of the selectable voltages in this container can also be selected in the <ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config" kindref="compound">PadMultiplexerConfig</ref> directly. Note that there the connection is direct, not buffered, while here the signal is amplified. Do not enable both connections, as there will be feedback otherwise! </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="242" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="243" bodyend="393"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a51ee13636f08256b0fc7e0790f273676" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a1cff023796dc85f3cc365cc1ad4b85f5" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a2b2e279d1f5d3d6af87abf2a15464c4f" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a8cb96725f78ab92dc41f06fc1d0eefab" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a0401fff1357d5a918ac6923c7ce4eff4" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1ab745f338fac5e6c0bba5cc7d0f78ab9d" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>get_buffer</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a74727d828fe52126a51f00e89040d366" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a8fcf0206722a6154f30697710e2d8fb2" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>m_buffers</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a0fc3a00561a6f2acb54281affd0eff5e" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>m_enable_buffer_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a6928267b6e45d7e7d83ef9d2fea00f9a" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1aa23b0ca8f8e88db5869ac09ec9253e5e" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1acaa34e321763d15325106e7e323b6cac" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1aa5a6637c898b75833e4c6c9755c88cf3" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>ReadoutSourceSelection</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a633dc6b862efe690bec6bb1016db58f4" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1adfbf93f04e350e096bd4937a0b25b073" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a28e55fb608d191cae0800fc163f95fcf" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>set_buffer</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a30f83c5229b1d2d8238cbfcd08adac9c" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>set_enable_buffer_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_readout_source_selection_1a29fc8dbc913c90f3eaac865c55967904" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection</scope><name>source_multiplexer_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1_1_dacen_pulse_extension" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonPADIBusConfig::DacenPulseExtension</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; DacenPulseExtension, uint_fast16_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="padi_8h" local="no">padi.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1_1_dacen_pulse_extension_1a7a0a8cc74fe42895f6652bbe58d71039" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CommonPADIBusConfig::DacenPulseExtension::DacenPulseExtension</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>DacenPulseExtension</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="181" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="181" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; DacenPulseExtension, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CommonPADIBusConfig::DacenPulseExtension</label>
+        <link refid="structhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1_1_dacen_pulse_extension"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; DacenPulseExtension, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::CommonPADIBusConfig::DacenPulseExtension</label>
+        <link refid="structhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1_1_dacen_pulse_extension"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" line="178" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h" bodystart="180" bodyend="185"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1_1_dacen_pulse_extension_1a7a0a8cc74fe42895f6652bbe58d71039" prot="public" virt="non-virtual"><scope>haldls::vx::CommonPADIBusConfig::DacenPulseExtension</scope><name>DacenPulseExtension</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

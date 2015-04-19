@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ADPLL::LoopFilterInt</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; LoopFilterInt, uint_fast16_t, 31, 1 &gt;</basecompoundref>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int_1a4b78a22855cdb68fe89bb0eacc63db92" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::ADPLL::LoopFilterInt::LoopFilterInt</definition>
+        <argsstring>(uintmax_t const val=2)</argsstring>
+        <name>LoopFilterInt</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="45" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Integral part of the PID controller for the DCO. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::ADPLL::LoopFilterInt</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; LoopFilterInt, uint_fast16_t, 31, 1 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::ADPLL::LoopFilterInt</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; LoopFilterInt, uint_fast16_t, 31, 1 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="42" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="44" bodyend="46"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int_1a4b78a22855cdb68fe89bb0eacc63db92" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL::LoopFilterInt</scope><name>LoopFilterInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

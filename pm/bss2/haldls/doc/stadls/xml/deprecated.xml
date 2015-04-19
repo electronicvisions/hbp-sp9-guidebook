@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="deprecated" kind="page">
+    <compoundname>deprecated</compoundname>
+    <title>Deprecated List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term>Member <ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1adaa5ed11ff855da9680c6cfe6153f567" kindref="member">stadls::vx::detail::PlaybackProgramBuilderAdapter&lt; BuilderStorage, DoneType, CoordinateToContainer &gt;::wait_until</ref>  (typename haldls::vx::Timer::coordinate_type const &amp;coord, haldls::vx::Timer::Value time)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000001"/>In favor of block_until  </para>
+</listitem>
+<varlistentry><term>Member <ref refid="playback__program__builder_8h_1a0354c92b67604a299bae2a818224fe76" kindref="member">wait_until</ref>  (typename haldls::vx::Timer::coordinate_type const &amp;coord, haldls::vx::Timer::Value time)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000002"/>In favor of block_until </para>
+</listitem>
+</variablelist>
+</para>
+    </detaileddescription>
+    <location file="deprecated"/>
+  </compounddef>
+</doxygen>

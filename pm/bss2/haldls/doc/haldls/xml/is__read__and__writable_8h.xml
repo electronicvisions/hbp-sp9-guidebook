@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="is__read__and__writable_8h" kind="file" language="C++">
+    <compoundname>is_read_and_writable.h</compoundname>
+    <includes local="yes">fisch/vx/container_cast.h</includes>
+    <includes local="yes">fisch/vx/traits.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/type_list.h</includes>
+    <includes local="no">array</includes>
+    <includes local="no">type_traits</includes>
+    <incdepgraph>
+      <node id="12">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="11">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="3">
+        <label>fisch/vx/traits.h</label>
+      </node>
+      <node id="4">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>boost/utility/enable_if.hpp</label>
+      </node>
+      <node id="2">
+        <label>fisch/vx/container_cast.h</label>
+      </node>
+      <node id="13">
+        <label>array</label>
+      </node>
+      <node id="8">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="5">
+        <label>fisch/vx/word_access_type.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h</label>
+        <link refid="is__read__and__writable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>type_traits</label>
+      </node>
+      <node id="7">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1gen__is__read__and__writeable__lookup__table_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4" prot="public">haldls::vx::detail::gen_is_read_and_writeable_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</innerclass>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h"/>
+  </compounddef>
+</doxygen>

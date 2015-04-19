@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacecereal" kind="namespace" language="C++">
+    <compoundname>cereal</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacecereal_1a1d012048b917441637c28395ca65758e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::enable_if_t&lt; boost::hana::Struct&lt; T &gt;::value &gt;</type>
+        <definition>std::enable_if_t&lt;boost::hana::Struct&lt;T&gt;::value&gt; cereal::CEREAL_SERIALIZE_FUNCTION_NAME</definition>
+        <argsstring>(Archive &amp;ar, T &amp;value)</argsstring>
+        <name>CEREAL_SERIALIZE_FUNCTION_NAME</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cerealization.h" line="9" column="19" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cerealization.h" declline="9" declcolumn="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cerealization.h" line="6" column="1"/>
+  </compounddef>
+</doxygen>

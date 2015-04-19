@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_synaptic_input" kind="struct" language="C++" prot="public">
+    <compoundname>SynapticInput</compoundname>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_synaptic_input_1ad2c64e1bbfbf0ab4898db89fb97b9c94" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SynapticInput::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <briefdescription>
+<para>Digital enable of synaptic input. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="12" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a7d9e920d54a6b84b4263a41659de56ad" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SynapticInput::enable_coba_mode</definition>
+        <argsstring></argsstring>
+        <name>enable_coba_mode</name>
+        <briefdescription>
+<para>Switch synaptic input from CUBA to COBA mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="46" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a684da57a8b7612daef8c9ea3f38e30e8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SynapticInput::enable_high_resistance</definition>
+        <argsstring></argsstring>
+        <name>enable_high_resistance</name>
+        <briefdescription>
+<para>Enable high resistance mode controlling the time constant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="37" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a6bfd5db8df3be4be7bf001bc4c51ce5e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SynapticInput::enable_small_capacitance</definition>
+        <argsstring></argsstring>
+        <name>enable_small_capacitance</name>
+        <briefdescription>
+<para>Enable small capacitance mode of the synaptic input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This disconnects the capacitor connected to the line in the synapse array, using only parasitic capacitance of the line. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="40" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a4a67b54374a751c1b64f0eb6f11b2d4a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SynapticInput::enable_small_capacitor</definition>
+        <argsstring></argsstring>
+        <name>enable_small_capacitor</name>
+        <briefdescription>
+<para>Enable use of small capacitor connected to the line in the synapse array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="34" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a7499934edf279d041b723a0127dfe4a7" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant SynapticInput::i_bias_coba</definition>
+        <argsstring></argsstring>
+        <name>i_bias_coba</name>
+        <briefdescription>
+<para>Bias current for the conductance based mode of the synaptic input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Scales the conductivity at a given difference between membrane and reversal potential. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="23" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a3ee14f44cae760f19bbbbabcffb93e18" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant SynapticInput::i_bias_gm</definition>
+        <argsstring></argsstring>
+        <name>i_bias_gm</name>
+        <briefdescription>
+<para>Bias current of synaptic input OTA for current-based input. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="31" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a9b4b748dfabff7cc5282c4632b88e56c" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant SynapticInput::i_bias_tau</definition>
+        <argsstring></argsstring>
+        <name>i_bias_tau</name>
+        <briefdescription>
+<para>Bias current for the RC circuit controlling the synaptic input time constant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="16" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a0bf2412b4c6a1dcb322758da4ccb6b30" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant SynapticInput::i_drop_input</definition>
+        <argsstring></argsstring>
+        <name>i_drop_input</name>
+        <briefdescription>
+<para>Bias current for the source follower controlling the drop of the voltage on the synaptic line before the OTA&apos;s input. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="22" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a43f9e75fac14f3db7211633855a71237" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant SynapticInput::i_shift_reference</definition>
+        <argsstring></argsstring>
+        <name>i_shift_reference</name>
+        <briefdescription>
+<para>Bias current for the source follower controlling the reference voltage for the synaptic input&apos;s OTA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="28" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_synaptic_input_1a1dc5b1ada1231c160124ea32b7d6a583" prot="public" static="no" mutable="no">
+        <type><ref refid="v2_2neuron_8h_1ab0217f9fcf927477cfb3828fda8c4fae" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant SynapticInput::v_rev_coba</definition>
+        <argsstring></argsstring>
+        <name>v_rev_coba</name>
+        <briefdescription>
+<para>Reversal potential of the COBA based synaptic input. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="35" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_synaptic_input_1a155791fb82ddabe6262d7ecdd2c3b8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SynapticInput::SynapticInput</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SynapticInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="7" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_synaptic_input_1a155791fb82ddabe6262d7ecdd2c3b8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SynapticInput::SynapticInput</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SynapticInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="7" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_synaptic_input_1a3e4ebb35d7d5b00d584999df4d835358" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SynapticInput::operator!=</definition>
+        <argsstring>(SynapticInput const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_synaptic_input" kindref="compound">SynapticInput</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="40" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_synaptic_input_1a3e4ebb35d7d5b00d584999df4d835358" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SynapticInput::operator!=</definition>
+        <argsstring>(SynapticInput const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_synaptic_input" kindref="compound">SynapticInput</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="49" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_synaptic_input_1a4c06a6d936f72e3e85d71c1b0057bd9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SynapticInput::operator==</definition>
+        <argsstring>(SynapticInput const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_synaptic_input" kindref="compound">SynapticInput</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="39" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_synaptic_input_1a4c06a6d936f72e3e85d71c1b0057bd9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SynapticInput::operator==</definition>
+        <argsstring>(SynapticInput const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_synaptic_input" kindref="compound">SynapticInput</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="48" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_synaptic_input_1a14986f7fe6367d4259d4ec168f26ad78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SynapticInput const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_synaptic_input" kindref="compound">SynapticInput</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="43" column="8"/>
+      </memberdef>
+      <memberdef kind="friend" id="struct_synaptic_input_1a14986f7fe6367d4259d4ec168f26ad78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SynapticInput const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_synaptic_input" kindref="compound">SynapticInput</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="52" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="5" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="6" bodyend="45"/>
+    <listofallmembers>
+      <member refid="struct_synaptic_input_1ad2c64e1bbfbf0ab4898db89fb97b9c94" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>enable</name></member>
+      <member refid="struct_synaptic_input_1a7d9e920d54a6b84b4263a41659de56ad" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>enable_coba_mode</name></member>
+      <member refid="struct_synaptic_input_1a684da57a8b7612daef8c9ea3f38e30e8" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>enable_high_resistance</name></member>
+      <member refid="struct_synaptic_input_1a6bfd5db8df3be4be7bf001bc4c51ce5e" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>enable_small_capacitance</name></member>
+      <member refid="struct_synaptic_input_1a4a67b54374a751c1b64f0eb6f11b2d4a" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>enable_small_capacitor</name></member>
+      <member refid="struct_synaptic_input_1a7499934edf279d041b723a0127dfe4a7" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>i_bias_coba</name></member>
+      <member refid="struct_synaptic_input_1a3ee14f44cae760f19bbbbabcffb93e18" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>i_bias_gm</name></member>
+      <member refid="struct_synaptic_input_1a9b4b748dfabff7cc5282c4632b88e56c" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>i_bias_tau</name></member>
+      <member refid="struct_synaptic_input_1a0bf2412b4c6a1dcb322758da4ccb6b30" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>i_drop_input</name></member>
+      <member refid="struct_synaptic_input_1a43f9e75fac14f3db7211633855a71237" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>i_shift_reference</name></member>
+      <member refid="struct_synaptic_input_1a3e4ebb35d7d5b00d584999df4d835358" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>operator!=</name></member>
+      <member refid="struct_synaptic_input_1a3e4ebb35d7d5b00d584999df4d835358" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>operator!=</name></member>
+      <member refid="struct_synaptic_input_1a14986f7fe6367d4259d4ec168f26ad78" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_synaptic_input_1a14986f7fe6367d4259d4ec168f26ad78" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_synaptic_input_1a4c06a6d936f72e3e85d71c1b0057bd9f" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>operator==</name></member>
+      <member refid="struct_synaptic_input_1a4c06a6d936f72e3e85d71c1b0057bd9f" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>operator==</name></member>
+      <member refid="struct_synaptic_input_1a155791fb82ddabe6262d7ecdd2c3b8da" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>SynapticInput</name></member>
+      <member refid="struct_synaptic_input_1a155791fb82ddabe6262d7ecdd2c3b8da" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>SynapticInput</name></member>
+      <member refid="struct_synaptic_input_1a1dc5b1ada1231c160124ea32b7d6a583" prot="public" virt="non-virtual"><scope>SynapticInput</scope><name>v_rev_coba</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

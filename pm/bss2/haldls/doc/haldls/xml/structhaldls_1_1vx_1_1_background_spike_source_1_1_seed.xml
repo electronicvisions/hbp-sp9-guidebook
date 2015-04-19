@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::BackgroundSpikeSource::Seed</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; Seed, uint_fast64_t, hate::math::pow(2, 32) - 1, 0 &gt;</basecompoundref>
+    <includes refid="background_8h" local="no">background.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed_1a18a2e7487373784e4a56682c15c0cfb8" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::BackgroundSpikeSource::Seed::Seed</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Seed</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="81" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="81" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Random seed for random number generation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Only the lower 16 bit of the generator are used on every draw. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::BackgroundSpikeSource::Seed</label>
+        <link refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; Seed, uint_fast64_t, hate::math::pow(2, 32) - 1, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::BackgroundSpikeSource::Seed</label>
+        <link refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; Seed, uint_fast64_t, hate::math::pow(2, 32) - 1, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="77" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="80" bodyend="84"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed_1a18a2e7487373784e4a56682c15c0cfb8" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource::Seed</scope><name>Seed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::INA219Status::BusVoltage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; BusVoltage, uint_fast16_t, 4000, 0 &gt;</basecompoundref>
+    <includes refid="i2c_8h" local="no">i2c.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage_1a153a729d7aefa7da6db70f15654cf126" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::INA219Status::BusVoltage::BusVoltage</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>BusVoltage</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="134" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage_1a72720a947c765f1bd0ce444777f9c23b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float haldls::vx::INA219Status::BusVoltage::toUncalibratedVoltage</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>toUncalibratedVoltage</name>
+        <briefdescription>
+<para>Convert to uncalibrated voltage <ulink url="i.e. ideal conversion">V</ulink>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="141" column="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Bus voltage with linear conversion and LSB = 4mV. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::INA219Status::BusVoltage</label>
+        <link refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; BusVoltage, uint_fast16_t, 4000, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::INA219Status::BusVoltage</label>
+        <link refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; BusVoltage, uint_fast16_t, 4000, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="131" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="133" bodyend="142"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage_1a153a729d7aefa7da6db70f15654cf126" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Status::BusVoltage</scope><name>BusVoltage</name></member>
+      <member refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage_1a72720a947c765f1bd0ce444777f9c23b" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Status::BusVoltage</scope><name>toUncalibratedVoltage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

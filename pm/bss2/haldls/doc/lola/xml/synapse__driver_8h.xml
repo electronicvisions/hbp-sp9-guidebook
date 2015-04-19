@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="synapse__driver_8h" kind="file" language="C++">
+    <compoundname>synapse_driver.h</compoundname>
+    <includes local="yes">haldlsID(/)vxID(/)vID(CHIP_REVISION)/capmem.h</includes>
+    <includes local="yes">haldlsID(/)vxID(/)vID(CHIP_REVISION)/padi.h</includes>
+    <includes local="yes">haldlsID(/)vxID(/)vID(CHIP_REVISION)/synapse_driver.h</includes>
+    <includes local="yes">halco/common/iter_all.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">haldls/cerealization.h</includes>
+    <includes local="yes">haldls/vx/common.h</includes>
+    <includes local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="cerealization_8h" local="yes">lola/vx/cerealization.h</includes>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes local="no">boost/hana/adapt_struct.hpp</includes>
+    <includedby refid="v2_2synapse__driver_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse_driver.h</includedby>
+    <includedby refid="v3_2synapse__driver_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/synapse_driver.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/synapse_driver.h</label>
+      </node>
+      <node id="5">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="3">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/padi.h</label>
+      </node>
+      <node id="8">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="13">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="2">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/capmem.h</label>
+      </node>
+      <node id="6">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="14">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="10">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="9">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="11">
+        <label>lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="15">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>type_traits</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h</label>
+        <link refid="synapse__driver_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>haldls/cerealization.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h</label>
+        <link refid="v2_2pylola_8h"/>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h</label>
+        <link refid="v3_2pylola_8h"/>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse_driver.h</label>
+        <link refid="v2_2synapse__driver_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</label>
+        <link refid="v3_2chip_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/chip.h</label>
+        <link refid="v2_2chip_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/synapse_driver.h</label>
+        <link refid="v3_2synapse__driver_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/lola.h</label>
+        <link refid="v3_2lola_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/lola.h</label>
+        <link refid="v2_2lola_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h</label>
+        <link refid="synapse__driver_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_dcaed0f6dea43ddb99fff1e44e74d242" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::SynapseDriverBlock &gt;</innerclass>
+    <innerclass refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_synapse_driver_block" prot="public">GENPYBIND_TAG_LOLA_VX_VY::SynapseDriverBlock</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_436fb9aa0b302668a8a0bfbadbfce023" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::SynapseDriverBlock &gt;</innerclass>
+    <innernamespace refid="namespace_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y">GENPYBIND_TAG_LOLA_VX_VY</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="synapse__driver_8h_1a7b21067a695ee0453e6d9bd594ccecd1" prot="public" static="no">
+        <name>CONCAT</name>
+        <param><defname>w</defname></param>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <param><defname>z</defname></param>
+        <initializer><ref refid="synapse__driver_8h_1a18d295a837ac71add5578860b55e5502" kindref="member">STR</ref>(<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(w)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(x)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(v)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(y)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(z))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" line="11" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="synapse__driver_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" prot="public" static="no">
+        <name>ID</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" line="7" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="synapse__driver_8h_1a18d295a837ac71add5578860b55e5502" prot="public" static="no">
+        <name>STR</name>
+        <param><defname>x</defname></param>
+        <initializer><ref refid="synapse__driver_8h_1abe87b341f562fd1cf40b7672e4d759da" kindref="member">XSTR</ref>(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" line="9" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="synapse__driver_8h_1abe87b341f562fd1cf40b7672e4d759da" prot="public" static="no">
+        <name>XSTR</name>
+        <param><defname>x</defname></param>
+        <initializer>#x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" line="8" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="synapse__driver_8h_1ae3046923986051530fd914123f3ea889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CHIP_REVISION_STR::SynapseDriverBlock, synapse_drivers, padi_bus, stp, stp_v_charge_0, stp_v_charge_1, stp_v_recover_0, stp_v_recover_1, stp_i_bias_comparator, stp_i_ramp, stp_i_calib, stp_i_bias_readout, hagen_i_bias_dac)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type>lola::vx::CHIP_REVISION_STR::SynapseDriverBlock</type>
+        </param>
+        <param>
+          <type>synapse_drivers</type>
+        </param>
+        <param>
+          <type>padi_bus</type>
+        </param>
+        <param>
+          <type>stp</type>
+        </param>
+        <param>
+          <type>stp_v_charge_0</type>
+        </param>
+        <param>
+          <type>stp_v_charge_1</type>
+        </param>
+        <param>
+          <type>stp_v_recover_0</type>
+        </param>
+        <param>
+          <type>stp_v_recover_1</type>
+        </param>
+        <param>
+          <type>stp_i_bias_comparator</type>
+        </param>
+        <param>
+          <type>stp_i_ramp</type>
+        </param>
+        <param>
+          <type>stp_i_calib</type>
+        </param>
+        <param>
+          <type>stp_i_bias_readout</type>
+        </param>
+        <param>
+          <type>hagen_i_bias_dac</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" line="231" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h" declline="231" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_driver.h"/>
+  </compounddef>
+</doxygen>

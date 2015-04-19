@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ADPLL::Tune</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Tune, uint_fast16_t, 4095, 0 &gt;</basecompoundref>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune_1a4fb0a3ee8fd6c8b215d8ee35e2f64599" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::ADPLL::Tune::Tune</definition>
+        <argsstring>(uintmax_t const val=512)</argsstring>
+        <name>Tune</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>512</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="120" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune" kindref="compound">Tune</ref> value of the DCO. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::ADPLL::Tune</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Tune, uint_fast16_t, 4095, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::ADPLL::Tune</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Tune, uint_fast16_t, 4095, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="117" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="119" bodyend="121"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune_1a4fb0a3ee8fd6c8b215d8ee35e2f64599" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL::Tune</scope><name>Tune</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

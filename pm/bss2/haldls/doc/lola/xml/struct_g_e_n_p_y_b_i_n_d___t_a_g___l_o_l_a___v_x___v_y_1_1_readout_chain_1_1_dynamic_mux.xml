@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux" kind="struct" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</compoundname>
+    <includes refid="readout__chain_8h" local="no">readout_chain.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a0e4138ea41574265a78ce7286d1f9387" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::input_selection_type</type>
+        <definition>typedef haldls::vx::MADCConfig::input_selection_type GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::InputSelect</definition>
+        <argsstring></argsstring>
+        <name>InputSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="115" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a8f4bd0a964409c9209fd9496c0e40f1b" prot="public" static="no">
+        <type>haldls::vx::MADCConfig::ActiveMuxInputSelectLength</type>
+        <definition>typedef haldls::vx::MADCConfig::ActiveMuxInputSelectLength GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::InputSelectLength</definition>
+        <argsstring></argsstring>
+        <name>InputSelectLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="113" column="60" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a11b2f92aba343e5bb9a2a51d45fc99a1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::enable_amplifiers</definition>
+        <argsstring></argsstring>
+        <name>enable_amplifiers</name>
+        <initializer>{true}</initializer>
+        <briefdescription>
+<para>Enable Mux amplifiers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="119" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a316a5829c6a73df2268b0bb9596368cf" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::i_bias</definition>
+        <argsstring></argsstring>
+        <name>i_bias</name>
+        <initializer>{<ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1a4654b99c9793c99a2c9969a3ae900e80" kindref="member">AnalogValue</ref>{500}}</initializer>
+        <briefdescription>
+<para>Bias current for amplifier in dynamic mux. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="135" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1abd2b8d0c37b55d8093438d4750245ad5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a0e4138ea41574265a78ce7286d1f9387" kindref="member">InputSelect</ref></type>
+        <definition>InputSelect GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::initially_selected_input</definition>
+        <argsstring></argsstring>
+        <name>initially_selected_input</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Input channel (one of two multiplexers) to acquire the first batch of samples from. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="124" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1af632a8c0a0e2ca133825bf82d7a2735b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a8f4bd0a964409c9209fd9496c0e40f1b" kindref="member">InputSelectLength</ref></type>
+        <definition>InputSelectLength GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::input_select_length</definition>
+        <argsstring></argsstring>
+        <name>input_select_length</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Number of samples after which the other input channel is selected. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Use 1 to sample both channels alternately. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="130" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a346c7e32d79eaf1c9e7f2a60e43cbf6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::DynamicMux</definition>
+        <argsstring>()=default</argsstring>
+        <name>DynamicMux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1adb4182b23ef2d890539c2d3816132fb5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::operator!=</definition>
+        <argsstring>(DynamicMux const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux" kindref="compound">DynamicMux</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="138" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a2f4f6ac4ee13c4bf42d3f94652128232" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux::operator==</definition>
+        <argsstring>(DynamicMux const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux" kindref="compound">DynamicMux</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="137" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1ab4e1670faa57e787ff87608a50ca1923" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, DynamicMux const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux" kindref="compound">DynamicMux</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="140" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration of the Dynamic multiplexer. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This multiplexer switches between the two available input channels (source multiplexers) on a per-sample basis. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="109" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="110" bodyend="141"/>
+    <listofallmembers>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a346c7e32d79eaf1c9e7f2a60e43cbf6b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>DynamicMux</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a11b2f92aba343e5bb9a2a51d45fc99a1" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>enable_amplifiers</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a316a5829c6a73df2268b0bb9596368cf" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>i_bias</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1abd2b8d0c37b55d8093438d4750245ad5" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>initially_selected_input</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1af632a8c0a0e2ca133825bf82d7a2735b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>input_select_length</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a0e4138ea41574265a78ce7286d1f9387" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>InputSelect</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a8f4bd0a964409c9209fd9496c0e40f1b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>InputSelectLength</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1adb4182b23ef2d890539c2d3816132fb5" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>operator!=</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1ab4e1670faa57e787ff87608a50ca1923" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_dynamic_mux_1a2f4f6ac4ee13c4bf42d3f94652128232" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::DynamicMux</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

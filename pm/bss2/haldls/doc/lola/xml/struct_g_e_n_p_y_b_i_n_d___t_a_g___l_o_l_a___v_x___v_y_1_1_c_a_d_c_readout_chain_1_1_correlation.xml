@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" kind="struct" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</compoundname>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a36a6a803bf5d83a02e9be574b736a9b4" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::DisableRefresh</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::DisableRefresh GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::AnalogDisableRefresh</definition>
+        <argsstring></argsstring>
+        <name>AnalogDisableRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="195" column="67" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a10bfcccc735547fe2964fd54f43b2e66" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::Value</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::Value GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::AnalogValue</definition>
+        <argsstring></argsstring>
+        <name>AnalogValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="194" column="58" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a10f05a73be2ab83c7778ebcf1aac9f92" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::ResetDuration</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::ResetDuration GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::ResetDuration</definition>
+        <argsstring></argsstring>
+        <name>ResetDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="188" column="79" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a0b2326d1aaed32d35a120e9cdc88b979" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::ResetFallTime</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::ResetFallTime GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::ResetFallTime</definition>
+        <argsstring></argsstring>
+        <name>ResetFallTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="190" column="79" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1ae51ae7affc9b6d62eb4799f205e47bfd" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::ResetMode</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::ResetMode GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::ResetMode</definition>
+        <argsstring></argsstring>
+        <name>ResetMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="192" column="75" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a48468373515a2bda958de3485daea987" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::SenseDelay</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::SenseDelay GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::SenseDelay</definition>
+        <argsstring></argsstring>
+        <name>SenseDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="186" column="76" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a78f77c79ed9083d78e254bbdfe6ce8dc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" kindref="member">CADCReadoutChain::AnalogValues</ref></type>
+        <definition>CADCReadoutChain::AnalogValues GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::i_bias_corout</definition>
+        <argsstring></argsstring>
+        <name>i_bias_corout</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" kindref="compound">Correlation</ref> readout bias current, applied to the source follower in the readout of the accumulation capacitor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>When using auto-calibrating reset, this current also controls the discharge rate of the correlation capacitor after the initial reset. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="253" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a238fc80d5373446231a55f1019ee9dd4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" kindref="member">CADCReadoutChain::AnalogValues</ref></type>
+        <definition>CADCReadoutChain::AnalogValues GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::i_bias_ramp</definition>
+        <argsstring></argsstring>
+        <name>i_bias_ramp</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" kindref="compound">Correlation</ref> ramp bias, controlling the time constant of the correlation measurements. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A lower ramp current corresponds to a longer time constant. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="241" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a82793cba479319ee344be9a25f72d27e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" kindref="member">CADCReadoutChain::AnalogValues</ref></type>
+        <definition>CADCReadoutChain::AnalogValues GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::i_bias_store</definition>
+        <argsstring></argsstring>
+        <name>i_bias_store</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" kindref="compound">Correlation</ref> storage bias, controlling the amplitude of each correlated spike pair that is stored on the accumulation capacitor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Lower bias currents result in a higher amplitude per spike pair. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="247" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a0bc26323364244af40c1f4251fe8f435" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a10f05a73be2ab83c7778ebcf1aac9f92" kindref="member">ResetDuration</ref></type>
+        <definition>ResetDuration GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::reset_duration</definition>
+        <argsstring></argsstring>
+        <name>reset_duration</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Duration of a correlation reset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Has to be sufficient to charge the correlation accumulation capacitor. Given in PPU clock cycles. This setting also affects the parallel neuron reset. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="210" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1aa659859612182a485739699eec47b1f5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a0b2326d1aaed32d35a120e9cdc88b979" kindref="member">ResetFallTime</ref></type>
+        <definition>ResetFallTime GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::reset_fall_time</definition>
+        <argsstring></argsstring>
+        <name>reset_fall_time</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>When using auto-calibrating correlation reset, this setting controls the maximum discharge time per synapse, after the initial reset to a higher voltage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The comparator needs to trigger within this time. Given in PPU clock cycles. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="216" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1abf2082c62f3604044639de0885433742" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1ae51ae7affc9b6d62eb4799f205e47bfd" kindref="member">ResetMode</ref></type>
+        <definition>ResetMode GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::reset_mode</definition>
+        <argsstring></argsstring>
+        <name>reset_mode</name>
+        <initializer>{ResetMode::normal}</initializer>
+        <briefdescription>
+<para>Select between normal and auto-calibrating correlation reset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Normal reset: The correlation accumulation capacitors are connected to an external voltage (v_reset) for a given period of time (reset_duration).</para>
+<para>Auto-calibrating reset: The correlation readout is enabled for the synapses to be reset. The correlation accumulation capacitor is connected to an external voltage (v_reset) for reset_duration. V_reset must be higher than the target reset potential. After this initial reset, the capacitor is discharged by a constant current (controlled by i_bias_corout) until the column&apos;s CADC comparator triggers. The resulting potential on the correlation accumulation capacitor should therefore be close to v_offset of the CADC (given i_slope is zero). Note that while using auto-calibrating reset, the CADC cannot be used normally, a read will never return. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="235" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a0184446f20b1f83f7ac2bdc2acf0c72c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a48468373515a2bda958de3485daea987" kindref="member">SenseDelay</ref></type>
+        <definition>SenseDelay GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::sense_delay</definition>
+        <argsstring></argsstring>
+        <name>sense_delay</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Delay between issuing a read command, i.e. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>connecting correlation output of a given synapse row to the CADC channels, and triggering the CADC read. Given in PPU clock cycles. This setting also adds a delay to reading potentials from the neurons and the start of the auto-calibrating reset. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="204" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1ad181f7232d42cf08d43620a2b343bb96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::Correlation</definition>
+        <argsstring>()=default</argsstring>
+        <name>Correlation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="255" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a66167ccaea7d9131b2e085d919b095e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::operator!=</definition>
+        <argsstring>(Correlation const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" kindref="compound">Correlation</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="258" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a76e964abba17e121c496c155495bc77e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation::operator==</definition>
+        <argsstring>(Correlation const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" kindref="compound">Correlation</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="257" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1aa9cfabc7a911e06faf06c4b0ddacf5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Correlation const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation" kindref="compound">Correlation</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="261" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Synapses&apos; correlation settings, affecting correlation reset, measurement and readout, but also CADC behaviour and neuron resets and readout. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="184" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="185" bodyend="262"/>
+    <listofallmembers>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a36a6a803bf5d83a02e9be574b736a9b4" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>AnalogDisableRefresh</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a10bfcccc735547fe2964fd54f43b2e66" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>AnalogValue</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1ad181f7232d42cf08d43620a2b343bb96" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>Correlation</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a78f77c79ed9083d78e254bbdfe6ce8dc" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>i_bias_corout</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a238fc80d5373446231a55f1019ee9dd4" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>i_bias_ramp</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a82793cba479319ee344be9a25f72d27e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>i_bias_store</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a66167ccaea7d9131b2e085d919b095e3" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>operator!=</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1aa9cfabc7a911e06faf06c4b0ddacf5eb" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a76e964abba17e121c496c155495bc77e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>operator==</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a0bc26323364244af40c1f4251fe8f435" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>reset_duration</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1aa659859612182a485739699eec47b1f5" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>reset_fall_time</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1abf2082c62f3604044639de0885433742" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>reset_mode</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a10f05a73be2ab83c7778ebcf1aac9f92" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>ResetDuration</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a0b2326d1aaed32d35a120e9cdc88b979" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>ResetFallTime</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1ae51ae7affc9b6d62eb4799f205e47bfd" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>ResetMode</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a0184446f20b1f83f7ac2bdc2acf0c72c" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>sense_delay</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_correlation_1a48468373515a2bda958de3485daea987" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Correlation</scope><name>SenseDelay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

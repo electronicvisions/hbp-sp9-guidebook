@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_synapse_weight_matrix" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::SynapseWeightMatrix</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a908927b848ef2430795ce40558a5ce89" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a6591ecedc5e84c3c2f6c86bbab9fd84a" kindref="member">row_type</ref>&lt; <ref refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0d4037e3f696f41cb32d14c15c46a702" kindref="member">Value</ref> &gt;</type>
+        <definition>typedef row_type&lt;Value&gt; lola::vx::SynapseWeightMatrix::_row_type</definition>
+        <argsstring></argsstring>
+        <name>_row_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="227" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a0dd5d4d1abcad92ad92509d9b4b389fc" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0e052da41bbe4588f2a8b1e22abf6d0a" kindref="member">matrix_type</ref>&lt; <ref refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0d4037e3f696f41cb32d14c15c46a702" kindref="member">Value</ref> &gt;</type>
+        <definition>typedef matrix_type&lt;Value&gt; lola::vx::SynapseWeightMatrix::_values_type</definition>
+        <argsstring></argsstring>
+        <name>_values_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="228" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a8701b1ab7258a1cc4bf118cd69c2dcc2" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SynapseWeightMatrixOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::SynapseWeightMatrixOnDLS lola::vx::SynapseWeightMatrix::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="216" column="57" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a546d28ce01e84940284d68b8432468cb" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::SynapseWeightMatrix::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="215" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a0e052da41bbe4588f2a8b1e22abf6d0a" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>halco::common::typed_heap_array&lt; <ref refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a6591ecedc5e84c3c2f6c86bbab9fd84a" kindref="member">row_type</ref>&lt; T &gt;, halco::hicann_dls::vx::SynapseRowOnSynram &gt;</type>
+        <definition>using lola::vx::SynapseWeightMatrix::matrix_type =  halco::common::typed_heap_array&lt;row_type&lt;T&gt;, halco::hicann_dls::vx::SynapseRowOnSynram&gt;</definition>
+        <argsstring></argsstring>
+        <name>matrix_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="222" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a6591ecedc5e84c3c2f6c86bbab9fd84a" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>halco::common::typed_array&lt; T, halco::hicann_dls::vx::SynapseOnSynapseRow &gt;</type>
+        <definition>using lola::vx::SynapseWeightMatrix::row_type =  halco::common::typed_array&lt;T, halco::hicann_dls::vx::SynapseOnSynapseRow&gt;</definition>
+        <argsstring></argsstring>
+        <name>row_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="219" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a0d4037e3f696f41cb32d14c15c46a702" prot="public" static="no">
+        <type>haldls::vx::SynapseWeightQuad::Value</type>
+        <definition>typedef haldls::vx::SynapseWeightQuad::Value lola::vx::SynapseWeightMatrix::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="225" column="46" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_synapse_weight_matrix_1ae8db0fae27c76793c5b04c66f3771be8" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0dd5d4d1abcad92ad92509d9b4b389fc" kindref="member">_values_type</ref></type>
+        <definition>_values_type lola::vx::SynapseWeightMatrix::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <briefdescription>
+<para>Synapse weight array. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="234" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a66f428da0e5a0a6bec40d019984ee779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; SynapseWeightMatrix &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseWeightMatrix &gt;</name>
+        <param>
+          <type>haldls::vx::detail::VisitPreorderImpl&lt; <ref refid="classlola_1_1vx_1_1_synapse_weight_matrix" kindref="compound">SynapseWeightMatrix</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="240" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a43a0eda54ecd3dc857bbaa150a25f43b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SynapseWeightMatrix const &amp;row) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_weight_matrix" kindref="compound">SynapseWeightMatrix</ref> const &amp;</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="240" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_synapse_weight_matrix_1aa3af51ded3e8f40b6b70f919fd9e0c70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::SynapseWeightMatrix::SynapseWeightMatrix</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SynapseWeightMatrix</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="231" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_synapse_weight_matrix_1a3a9e38f8a2e30e9ba11f7eec66feacc9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::SynapseWeightMatrix::operator!=</definition>
+        <argsstring>(SynapseWeightMatrix const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_weight_matrix" kindref="compound">SynapseWeightMatrix</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="237" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_synapse_weight_matrix_1adb611dccca17e19470a0e45a0f10b30a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::SynapseWeightMatrix::operator==</definition>
+        <argsstring>(SynapseWeightMatrix const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_weight_matrix" kindref="compound">SynapseWeightMatrix</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="236" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>lola::vx::SynapseWeightMatrix</label>
+        <link refid="classlola_1_1vx_1_1_synapse_weight_matrix"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>lola::vx::SynapseWeightMatrix</label>
+        <link refid="classlola_1_1vx_1_1_synapse_weight_matrix"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="212" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="213" bodyend="245"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a908927b848ef2430795ce40558a5ce89" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>_row_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0dd5d4d1abcad92ad92509d9b4b389fc" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>_values_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a8701b1ab7258a1cc4bf118cd69c2dcc2" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a66f428da0e5a0a6bec40d019984ee779" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseWeightMatrix &gt;</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a546d28ce01e84940284d68b8432468cb" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0e052da41bbe4588f2a8b1e22abf6d0a" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>matrix_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a3a9e38f8a2e30e9ba11f7eec66feacc9" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a43a0eda54ecd3dc857bbaa150a25f43b" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1adb611dccca17e19470a0e45a0f10b30a" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a6591ecedc5e84c3c2f6c86bbab9fd84a" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>row_type</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1aa3af51ded3e8f40b6b70f919fd9e0c70" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>SynapseWeightMatrix</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0d4037e3f696f41cb32d14c15c46a702" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>Value</name></member>
+      <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1ae8db0fae27c76793c5b04c66f3771be8" prot="public" virt="non-virtual"><scope>lola::vx::SynapseWeightMatrix</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

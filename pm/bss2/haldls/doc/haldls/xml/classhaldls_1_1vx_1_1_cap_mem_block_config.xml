@@ -1,0 +1,1306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_cap_mem_block_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::CapMemBlockConfig</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_a" prot="public">haldls::vx::CapMemBlockConfig::BoostA</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_b" prot="public">haldls::vx::CapMemBlockConfig::BoostB</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_factor" prot="public">haldls::vx::CapMemBlockConfig::BoostFactor</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_current_cell_res" prot="public">haldls::vx::CapMemBlockConfig::CurrentCellRes</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_level_shifter_bias" prot="public">haldls::vx::CapMemBlockConfig::LevelShifterBias</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_out_amp_bias" prot="public">haldls::vx::CapMemBlockConfig::OutAmpBias</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter" prot="public">haldls::vx::CapMemBlockConfig::PauseCounter</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause" prot="public">haldls::vx::CapMemBlockConfig::PrescalePause</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp" prot="public">haldls::vx::CapMemBlockConfig::PrescaleRamp</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a" prot="public">haldls::vx::CapMemBlockConfig::PulseA</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_b" prot="public">haldls::vx::CapMemBlockConfig::PulseB</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias" prot="public">haldls::vx::CapMemBlockConfig::SourceFollowerBias</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_sub_counter" prot="public">haldls::vx::CapMemBlockConfig::SubCounter</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_v_global_bias" prot="public">haldls::vx::CapMemBlockConfig::VGlobalBias</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Coordinates</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8b9f98f7fbaae0b1fe0c3b4e8412cacf" prot="public" static="no">
+        <type>Coordinates::CapMemBlockConfigOnDLS</type>
+        <definition>typedef Coordinates::CapMemBlockConfigOnDLS haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="176" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aaa0185a35642024627dbe0b584670918" prot="public" static="no">
+        <type><ref refid="namespacehaldls_1_1vx_1ad042e6e6b912d0cb9b58d4fd779f9121" kindref="member">CapMemBlockConfigIOutSelect</ref></type>
+        <definition>typedef CapMemBlockConfigIOutSelect haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::IOutSelect</definition>
+        <argsstring></argsstring>
+        <name>IOutSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="329" column="37" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a3180d68288bb7e2ecf0f8ae8571a08bd" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="177" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aed0806c462455599003896246b83fb95" prot="public" static="no">
+        <type><ref refid="namespacehaldls_1_1vx_1a9b9412800cd3836dd58d35589b4830f3" kindref="member">CapMemBlockConfigVRefSelect</ref></type>
+        <definition>typedef CapMemBlockConfigVRefSelect haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::VRefSelect</definition>
+        <argsstring></argsstring>
+        <name>VRefSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="328" column="37" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a5cdf0e611d10b384e72e236adef90335" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="438" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a75f9e304ccb32c98c7f807785815f64c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::hardware}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="179" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="482" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="482" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a777e4ad354fecbff05c8e2d2b028fede" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CapMemBlockConfig&lt; Coordinates &gt; const &amp;config)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">CapMemBlockConfig</ref>&lt; Coordinates &gt; const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="451" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="451" bodyend="479"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a43b3d06aa0b9ea3ae1ec72af76f2f3a4" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_a" kindref="compound">BoostA</ref></type>
+        <definition>BoostA haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_boost_a</definition>
+        <argsstring></argsstring>
+        <name>m_boost_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="505" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a1bce1c23b3a58098f815d6351e7ff642" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_b" kindref="compound">BoostB</ref></type>
+        <definition>BoostB haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_boost_b</definition>
+        <argsstring></argsstring>
+        <name>m_boost_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="506" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="506" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a6028a203508a420f6909f717e99678dc" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_factor" kindref="compound">BoostFactor</ref></type>
+        <definition>BoostFactor haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_boost_factor</definition>
+        <argsstring></argsstring>
+        <name>m_boost_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="497" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aca50dbb234b0315ce4eddc6b3daab367" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_current_cell_res" kindref="compound">CurrentCellRes</ref></type>
+        <definition>CurrentCellRes haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_current_cell_res</definition>
+        <argsstring></argsstring>
+        <name>m_current_cell_res</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="495" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aee1e6bcb14703f7bd8c77f5734dcb84e" prot="private" static="no" mutable="no">
+        <type>Coordinates::CapMemCellOnCapMemBlock</type>
+        <definition>Coordinates::CapMemCellOnCapMemBlock haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_debug_capmem_coord</definition>
+        <argsstring></argsstring>
+        <name>m_debug_capmem_coord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="488" column="47" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="488" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a67b807bbc85aa60ba43cb2279346b671" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacehaldls_1_1vx_1ad042e6e6b912d0cb9b58d4fd779f9121" kindref="member">IOutSelect</ref></type>
+        <definition>IOutSelect haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_debug_i_out_select</definition>
+        <argsstring></argsstring>
+        <name>m_debug_i_out_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="490" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="490" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a0d15d008d1c2103b93901cf7ede6322f" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_level_shifter_bias" kindref="compound">LevelShifterBias</ref></type>
+        <definition>LevelShifterBias haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_debug_level_shifter_bias</definition>
+        <argsstring></argsstring>
+        <name>m_debug_level_shifter_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="493" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aa0ad148dbd8b39a4e08101c3b1468505" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_out_amp_bias" kindref="compound">OutAmpBias</ref></type>
+        <definition>OutAmpBias haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_debug_out_amp_bias</definition>
+        <argsstring></argsstring>
+        <name>m_debug_out_amp_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="491" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="491" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a98c44c640e16765575a05afee4c61a7f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_debug_readout_enable</definition>
+        <argsstring></argsstring>
+        <name>m_debug_readout_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="487" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a3a38942656c03897b306cdb1504a1d3e" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias" kindref="compound">SourceFollowerBias</ref></type>
+        <definition>SourceFollowerBias haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_debug_source_follower_bias</definition>
+        <argsstring></argsstring>
+        <name>m_debug_source_follower_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="492" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac38029c984607ec6a56f36cd06b0c975" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacehaldls_1_1vx_1a9b9412800cd3836dd58d35589b4830f3" kindref="member">VRefSelect</ref></type>
+        <definition>VRefSelect haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_debug_v_ref_select</definition>
+        <argsstring></argsstring>
+        <name>m_debug_v_ref_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="489" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="489" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ae0b4de320faf24270423e7bf49ba5ac6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_enable_autoboost</definition>
+        <argsstring></argsstring>
+        <name>m_enable_autoboost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="498" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aa9e183d31dc133a03d0964f6f91aed7f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_enable_boost</definition>
+        <argsstring></argsstring>
+        <name>m_enable_boost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="496" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a528483756e803b4db2f1191efdaf7a58" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_enable_capmem</definition>
+        <argsstring></argsstring>
+        <name>m_enable_capmem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="486" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a197a4cfe8470612923e8b5d5c6496609" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter" kindref="compound">PauseCounter</ref></type>
+        <definition>PauseCounter haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_pause_counter</definition>
+        <argsstring></argsstring>
+        <name>m_pause_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="502" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="502" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8823b15c577b5494a04feba2abf92edf" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause" kindref="compound">PrescalePause</ref></type>
+        <definition>PrescalePause haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_prescale_pause</definition>
+        <argsstring></argsstring>
+        <name>m_prescale_pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="499" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a95f168ca7d6d397d00d0b0911b6b0702" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp" kindref="compound">PrescaleRamp</ref></type>
+        <definition>PrescaleRamp haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_prescale_ramp</definition>
+        <argsstring></argsstring>
+        <name>m_prescale_ramp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="500" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="500" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a7f6548b79e1a82b81e249953a8a470a2" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a" kindref="compound">PulseA</ref></type>
+        <definition>PulseA haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_pulse_a</definition>
+        <argsstring></argsstring>
+        <name>m_pulse_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="503" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a82ba485feaf0f10e6e409868c4ba3e3c" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_b" kindref="compound">PulseB</ref></type>
+        <definition>PulseB haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_pulse_b</definition>
+        <argsstring></argsstring>
+        <name>m_pulse_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="504" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1af462a234606628c4b7b283dd9ac13faa" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_sub_counter" kindref="compound">SubCounter</ref></type>
+        <definition>SubCounter haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_sub_counter</definition>
+        <argsstring></argsstring>
+        <name>m_sub_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="501" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="501" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac1ea68fd93d93c4ee984c35444c9016e" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_v_global_bias" kindref="compound">VGlobalBias</ref></type>
+        <definition>VGlobalBias haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::m_v_global_bias</definition>
+        <argsstring></argsstring>
+        <name>m_v_global_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="494" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="494" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ae94d677f3d72c9cc9b7de168da2ef3df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::CapMemBlockConfig</definition>
+        <argsstring>()</argsstring>
+        <name>CapMemBlockConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="331" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1adf415fc6413e9b4f4fe31ef1f031d850" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>template SYMBOL_VISIBLE void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a5cdf0e611d10b384e72e236adef90335" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="445" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a11d2a5b5f13b4ba6f5ed87429af8f11d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a5cdf0e611d10b384e72e236adef90335" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>template SYMBOL_VISIBLE std::array&lt; fisch::vx::word_access_type::Omnibus, CapMemBlockConfig&lt; halco::hicann_dls::vx::v3::Coordinates &gt;::config_size_in_words &gt; haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::encode</definition>
+        <argsstring>() const</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="443" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8acad5be25c7c09783063659b334c5a2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_a" kindref="compound">BoostA</ref></type>
+        <definition>BoostA haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_boost_a</definition>
+        <argsstring>() const</argsstring>
+        <name>get_boost_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="429" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a04fbc777152f18ee8870f3c738614290" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_b" kindref="compound">BoostB</ref></type>
+        <definition>BoostB haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_boost_b</definition>
+        <argsstring>() const</argsstring>
+        <name>get_boost_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="434" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a7bd60b7fd1658fa002ba35297aa8a663" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_factor" kindref="compound">BoostFactor</ref></type>
+        <definition>BoostFactor haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_boost_factor</definition>
+        <argsstring>() const</argsstring>
+        <name>get_boost_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="384" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac9d52425b65e481446009c55d7902a1b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_current_cell_res" kindref="compound">CurrentCellRes</ref></type>
+        <definition>CurrentCellRes haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_current_cell_res</definition>
+        <argsstring>() const</argsstring>
+        <name>get_current_cell_res</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="379" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a7bde08e3398da3eb80765b390e875080" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Coordinates::CapMemCellOnCapMemBlock</type>
+        <definition>Coordinates::CapMemCellOnCapMemBlock haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_debug_capmem_coord</definition>
+        <argsstring>() const</argsstring>
+        <name>get_debug_capmem_coord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="344" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a9d30610db68461653dfd28688351eef6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacehaldls_1_1vx_1ad042e6e6b912d0cb9b58d4fd779f9121" kindref="member">IOutSelect</ref></type>
+        <definition>IOutSelect haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_debug_i_out_select</definition>
+        <argsstring>() const</argsstring>
+        <name>get_debug_i_out_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="354" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a3ddad29f50001defaafd48750be946b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_level_shifter_bias" kindref="compound">LevelShifterBias</ref></type>
+        <definition>LevelShifterBias haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_debug_level_shifter_bias</definition>
+        <argsstring>() const</argsstring>
+        <name>get_debug_level_shifter_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="369" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a536dc39fd8d71037796704faed75c19f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_out_amp_bias" kindref="compound">OutAmpBias</ref></type>
+        <definition>OutAmpBias haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_debug_out_amp_bias</definition>
+        <argsstring>() const</argsstring>
+        <name>get_debug_out_amp_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="359" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac38fa90adcc36c4bd18dcac030edd12d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_debug_readout_enable</definition>
+        <argsstring>() const</argsstring>
+        <name>get_debug_readout_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="339" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac222236d42891dd105dbc40c375de7ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias" kindref="compound">SourceFollowerBias</ref></type>
+        <definition>SourceFollowerBias haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_debug_source_follower_bias</definition>
+        <argsstring>() const</argsstring>
+        <name>get_debug_source_follower_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="364" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aa845f3e39f9a32318b25a6ceb5ac10c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacehaldls_1_1vx_1a9b9412800cd3836dd58d35589b4830f3" kindref="member">VRefSelect</ref></type>
+        <definition>VRefSelect haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_debug_v_ref_select</definition>
+        <argsstring>() const</argsstring>
+        <name>get_debug_v_ref_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="349" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a3cc58eea6c1d82d195256fb83641a045" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_enable_autoboost</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_autoboost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="394" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a917837b7057eded97026137080184f63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_enable_boost</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_boost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="389" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a42eb65b1cce7e27e3b071a03226dce84" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_enable_capmem</definition>
+        <argsstring>() const</argsstring>
+        <name>get_enable_capmem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="334" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ad227e41675a57bc6cfd2ebf3812f07d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter" kindref="compound">PauseCounter</ref></type>
+        <definition>PauseCounter haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_pause_counter</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pause_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="414" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aa08b0240d1eb8996ec5ed3c8ccb64897" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause" kindref="compound">PrescalePause</ref></type>
+        <definition>PrescalePause haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_prescale_pause</definition>
+        <argsstring>() const</argsstring>
+        <name>get_prescale_pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="399" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a591e341d28e1b9c6e2115c4ee8b92d2c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp" kindref="compound">PrescaleRamp</ref></type>
+        <definition>PrescaleRamp haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_prescale_ramp</definition>
+        <argsstring>() const</argsstring>
+        <name>get_prescale_ramp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="404" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a524af6063139df9c2378174ca07f72b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a" kindref="compound">PulseA</ref></type>
+        <definition>PulseA haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_pulse_a</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pulse_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="419" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac26644234d61d791a7aff30b73b3ab9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_b" kindref="compound">PulseB</ref></type>
+        <definition>PulseB haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_pulse_b</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pulse_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="424" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a1673929f349226d97063d280afe828eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_sub_counter" kindref="compound">SubCounter</ref></type>
+        <definition>SubCounter haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_sub_counter</definition>
+        <argsstring>() const</argsstring>
+        <name>get_sub_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="409" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a5a3c4cf7fb1502332a6a209f4e9ef289" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_v_global_bias" kindref="compound">VGlobalBias</ref></type>
+        <definition>VGlobalBias haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::get_v_global_bias</definition>
+        <argsstring>() const</argsstring>
+        <name>get_v_global_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="374" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ad773f1c9631ac775f7ce4772347ef68e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::operator!=</definition>
+        <argsstring>(CapMemBlockConfig const &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">CapMemBlockConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="448" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a2acf550502decc9d9c1db1889eb4a2f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::operator==</definition>
+        <argsstring>(CapMemBlockConfig const &amp;other) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config" kindref="compound">CapMemBlockConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="447" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8cec4a1d3fb8a8194ab6ffef4ccb705f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_boost_a</definition>
+        <argsstring>(BoostA const &amp;value)</argsstring>
+        <name>set_boost_a</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_a" kindref="compound">BoostA</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="431" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac857daa4447415bda5f6d663f1918925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_boost_b</definition>
+        <argsstring>(BoostB const &amp;value)</argsstring>
+        <name>set_boost_b</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_b" kindref="compound">BoostB</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="436" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a41b8fcb68f2e37a49b9dd286a19f5df8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_boost_factor</definition>
+        <argsstring>(BoostFactor const &amp;value)</argsstring>
+        <name>set_boost_factor</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_boost_factor" kindref="compound">BoostFactor</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="386" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a211bc59f2471520e36bc6d4d2955db77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_current_cell_res</definition>
+        <argsstring>(CurrentCellRes const &amp;value)</argsstring>
+        <name>set_current_cell_res</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_current_cell_res" kindref="compound">CurrentCellRes</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="381" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a734978a5b0eb3cbfad5a440443abfffd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_debug_capmem_coord</definition>
+        <argsstring>(typename Coordinates::CapMemCellOnCapMemBlock const &amp;value)</argsstring>
+        <name>set_debug_capmem_coord</name>
+        <param>
+          <type>typename Coordinates::CapMemCellOnCapMemBlock const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="346" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a1f37dbd8e89dbedabb891a881847472a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_debug_i_out_select</definition>
+        <argsstring>(IOutSelect const &amp;value)</argsstring>
+        <name>set_debug_i_out_select</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1ad042e6e6b912d0cb9b58d4fd779f9121" kindref="member">IOutSelect</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="356" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a9f9828616b109ada01be6e08f80f811b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_debug_level_shifter_bias</definition>
+        <argsstring>(LevelShifterBias const &amp;value)</argsstring>
+        <name>set_debug_level_shifter_bias</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_level_shifter_bias" kindref="compound">LevelShifterBias</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="371" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a07b10ee97b6dd65d57d260225f6a08ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_debug_out_amp_bias</definition>
+        <argsstring>(OutAmpBias const &amp;value)</argsstring>
+        <name>set_debug_out_amp_bias</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_out_amp_bias" kindref="compound">OutAmpBias</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="361" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a16cebee1c308bcc45698100f6e326217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_debug_readout_enable</definition>
+        <argsstring>(bool const value)</argsstring>
+        <name>set_debug_readout_enable</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="341" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aede8865fcd9f3cf7a6146d8b7cd37690" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_debug_source_follower_bias</definition>
+        <argsstring>(SourceFollowerBias const &amp;value)</argsstring>
+        <name>set_debug_source_follower_bias</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias" kindref="compound">SourceFollowerBias</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="366" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a36641175d734975b2b2b9d899d8414ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_debug_v_ref_select</definition>
+        <argsstring>(VRefSelect const &amp;value)</argsstring>
+        <name>set_debug_v_ref_select</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a9b9412800cd3836dd58d35589b4830f3" kindref="member">VRefSelect</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="351" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1aaded51e089b4951b7440a346a4b64c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_enable_autoboost</definition>
+        <argsstring>(bool const value)</argsstring>
+        <name>set_enable_autoboost</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="396" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a49f03042805df823324f76f6988d0ed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_enable_boost</definition>
+        <argsstring>(bool const value)</argsstring>
+        <name>set_enable_boost</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="391" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a126be9cb1318a4c48d556c9242e0d75a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_enable_capmem</definition>
+        <argsstring>(bool const value)</argsstring>
+        <name>set_enable_capmem</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="336" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a14b5dbd42f313d03bae5754acfec8520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_pause_counter</definition>
+        <argsstring>(PauseCounter const &amp;value)</argsstring>
+        <name>set_pause_counter</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pause_counter" kindref="compound">PauseCounter</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="416" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ab15037cee4db0fd72e16d7852c8ae8d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_prescale_pause</definition>
+        <argsstring>(PrescalePause const &amp;value)</argsstring>
+        <name>set_prescale_pause</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause" kindref="compound">PrescalePause</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="401" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac5e6679cc3f4b44e23e199a3c88af7b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_prescale_ramp</definition>
+        <argsstring>(PrescaleRamp const &amp;value)</argsstring>
+        <name>set_prescale_ramp</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp" kindref="compound">PrescaleRamp</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="406" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a9e76ce852c956e9ddd8ff845efedca89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_pulse_a</definition>
+        <argsstring>(PulseA const &amp;value)</argsstring>
+        <name>set_pulse_a</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_a" kindref="compound">PulseA</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="421" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8564af3d6abd618aec69e48c92131256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_pulse_b</definition>
+        <argsstring>(PulseB const &amp;value)</argsstring>
+        <name>set_pulse_b</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_pulse_b" kindref="compound">PulseB</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="426" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a2b133271a380b1a36f9b216b8349ec18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_sub_counter</definition>
+        <argsstring>(SubCounter const &amp;value)</argsstring>
+        <name>set_sub_counter</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_sub_counter" kindref="compound">SubCounter</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="411" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a36c2a42c3b4367cde8ce487a4a10a91c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::set_v_global_bias</definition>
+        <argsstring>(VGlobalBias const &amp;value)</argsstring>
+        <name>set_v_global_bias</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_v_global_bias" kindref="compound">VGlobalBias</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="376" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1a66fe1cedeea1fd3ccd1798e59f0ba86f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a5cdf0e611d10b384e72e236adef90335" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>template SYMBOL_VISIBLE std::array&lt; halco::hicann_dls::vx::OmnibusAddress, CapMemBlockConfig&lt; halco::hicann_dls::vx::v3::Coordinates &gt;::config_size_in_words &gt; haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord)</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8b9f98f7fbaae0b1fe0c3b4e8412cacf" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="440" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac0ffbd44ff2051ddf53c82627388b108" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="484" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;</label>
+        <link refid="classhaldls_1_1vx_1_1_cap_mem_block_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;</label>
+        <link refid="classhaldls_1_1vx_1_1_cap_mem_block_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="173" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="174" bodyend="507"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a66fe1cedeea1fd3ccd1798e59f0ba86f" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ae94d677f3d72c9cc9b7de168da2ef3df" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>CapMemBlockConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a5cdf0e611d10b384e72e236adef90335" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8b9f98f7fbaae0b1fe0c3b4e8412cacf" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1adf415fc6413e9b4f4fe31ef1f031d850" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a11d2a5b5f13b4ba6f5ed87429af8f11d" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8acad5be25c7c09783063659b334c5a2" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_boost_a</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a04fbc777152f18ee8870f3c738614290" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_boost_b</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a7bd60b7fd1658fa002ba35297aa8a663" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_boost_factor</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac9d52425b65e481446009c55d7902a1b" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_current_cell_res</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a7bde08e3398da3eb80765b390e875080" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_debug_capmem_coord</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a9d30610db68461653dfd28688351eef6" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_debug_i_out_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a3ddad29f50001defaafd48750be946b2" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_debug_level_shifter_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a536dc39fd8d71037796704faed75c19f" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_debug_out_amp_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac38fa90adcc36c4bd18dcac030edd12d" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_debug_readout_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac222236d42891dd105dbc40c375de7ed" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_debug_source_follower_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aa845f3e39f9a32318b25a6ceb5ac10c6" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_debug_v_ref_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a3cc58eea6c1d82d195256fb83641a045" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_enable_autoboost</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a917837b7057eded97026137080184f63" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_enable_boost</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a42eb65b1cce7e27e3b071a03226dce84" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_enable_capmem</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ad227e41675a57bc6cfd2ebf3812f07d6" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_pause_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aa08b0240d1eb8996ec5ed3c8ccb64897" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_prescale_pause</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a591e341d28e1b9c6e2115c4ee8b92d2c" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_prescale_ramp</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a524af6063139df9c2378174ca07f72b0" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_pulse_a</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac26644234d61d791a7aff30b73b3ab9e" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_pulse_b</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a1673929f349226d97063d280afe828eb" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_sub_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a5a3c4cf7fb1502332a6a209f4e9ef289" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>get_v_global_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aaa0185a35642024627dbe0b584670918" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>IOutSelect</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a3180d68288bb7e2ecf0f8ae8571a08bd" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a43b3d06aa0b9ea3ae1ec72af76f2f3a4" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_boost_a</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a1bce1c23b3a58098f815d6351e7ff642" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_boost_b</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a6028a203508a420f6909f717e99678dc" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_boost_factor</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aca50dbb234b0315ce4eddc6b3daab367" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_current_cell_res</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aee1e6bcb14703f7bd8c77f5734dcb84e" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_debug_capmem_coord</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a67b807bbc85aa60ba43cb2279346b671" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_debug_i_out_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a0d15d008d1c2103b93901cf7ede6322f" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_debug_level_shifter_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aa0ad148dbd8b39a4e08101c3b1468505" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_debug_out_amp_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a98c44c640e16765575a05afee4c61a7f" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_debug_readout_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a3a38942656c03897b306cdb1504a1d3e" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_debug_source_follower_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac38029c984607ec6a56f36cd06b0c975" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_debug_v_ref_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ae0b4de320faf24270423e7bf49ba5ac6" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_enable_autoboost</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aa9e183d31dc133a03d0964f6f91aed7f" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_enable_boost</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a528483756e803b4db2f1191efdaf7a58" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_enable_capmem</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a197a4cfe8470612923e8b5d5c6496609" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_pause_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8823b15c577b5494a04feba2abf92edf" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_prescale_pause</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a95f168ca7d6d397d00d0b0911b6b0702" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_prescale_ramp</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a7f6548b79e1a82b81e249953a8a470a2" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_pulse_a</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a82ba485feaf0f10e6e409868c4ba3e3c" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_pulse_b</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1af462a234606628c4b7b283dd9ac13faa" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_sub_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac1ea68fd93d93c4ee984c35444c9016e" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>m_v_global_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ad773f1c9631ac775f7ce4772347ef68e" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a777e4ad354fecbff05c8e2d2b028fede" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a2acf550502decc9d9c1db1889eb4a2f8" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac0ffbd44ff2051ddf53c82627388b108" prot="private" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8cec4a1d3fb8a8194ab6ffef4ccb705f" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_boost_a</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac857daa4447415bda5f6d663f1918925" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_boost_b</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a41b8fcb68f2e37a49b9dd286a19f5df8" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_boost_factor</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a211bc59f2471520e36bc6d4d2955db77" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_current_cell_res</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a734978a5b0eb3cbfad5a440443abfffd" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_debug_capmem_coord</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a1f37dbd8e89dbedabb891a881847472a" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_debug_i_out_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a9f9828616b109ada01be6e08f80f811b" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_debug_level_shifter_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a07b10ee97b6dd65d57d260225f6a08ca" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_debug_out_amp_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a16cebee1c308bcc45698100f6e326217" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_debug_readout_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aede8865fcd9f3cf7a6146d8b7cd37690" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_debug_source_follower_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a36641175d734975b2b2b9d899d8414ca" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_debug_v_ref_select</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aaded51e089b4951b7440a346a4b64c01" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_enable_autoboost</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a49f03042805df823324f76f6988d0ed7" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_enable_boost</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a126be9cb1318a4c48d556c9242e0d75a" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_enable_capmem</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a14b5dbd42f313d03bae5754acfec8520" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_pause_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ab15037cee4db0fd72e16d7852c8ae8d8" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_prescale_pause</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1ac5e6679cc3f4b44e23e199a3c88af7b6" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_prescale_ramp</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a9e76ce852c956e9ddd8ff845efedca89" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_pulse_a</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a8564af3d6abd618aec69e48c92131256" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_pulse_b</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a2b133271a380b1a36f9b216b8349ec18" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_sub_counter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a36c2a42c3b4367cde8ce487a4a10a91c" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>set_v_global_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1a75f9e304ccb32c98c7f807785815f64c" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>unsupported_read_targets</name></member>
+      <member refid="classhaldls_1_1vx_1_1_cap_mem_block_config_1aed0806c462455599003896246b83fb95" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig</scope><name>VRefSelect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

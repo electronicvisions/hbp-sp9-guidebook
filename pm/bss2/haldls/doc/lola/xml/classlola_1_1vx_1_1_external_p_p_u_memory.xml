@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_external_p_p_u_memory" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::ExternalPPUMemory</compoundname>
+    <includes refid="ppu_8h" local="no">ppu.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_external_p_p_u_memory_1abf4b757214b439600a8bb4830261ebd8" prot="public" static="no">
+        <type>halco::common::typed_heap_array&lt; haldls::vx::ExternalPPUMemoryByte, halco::hicann_dls::vx::ExternalPPUMemoryByteOnFPGA &gt;</type>
+        <definition>typedef halco::common::typed_heap_array&lt; haldls::vx::ExternalPPUMemoryByte, halco::hicann_dls::vx::ExternalPPUMemoryByteOnFPGA&gt; lola::vx::ExternalPPUMemory::Bytes</definition>
+        <argsstring></argsstring>
+        <name>Bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="82" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_external_p_p_u_memory_1a32b86edb7ff616ea78db7fa6120a0a50" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ExternalPPUMemoryOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::ExternalPPUMemoryOnFPGA lola::vx::ExternalPPUMemory::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="76" column="56" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_external_p_p_u_memory_1adc0b144ed13cc9532ad6b79628b862f5" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::ExternalPPUMemory::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="77" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_external_p_p_u_memory_1acc2ffbbe1003066a3353ae5cf27491d7" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ExternalPPUMemoryBlockSize</type>
+        <definition>typedef halco::hicann_dls::vx::ExternalPPUMemoryBlockSize lola::vx::ExternalPPUMemory::size_type</definition>
+        <argsstring></argsstring>
+        <name>size_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="84" column="59" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_external_p_p_u_memory_1a2e3c57213c6c2ce8727503dc0f28d280" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory_1abf4b757214b439600a8bb4830261ebd8" kindref="member">Bytes</ref></type>
+        <definition>Bytes lola::vx::ExternalPPUMemory::bytes</definition>
+        <argsstring></argsstring>
+        <name>bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="88" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_external_p_p_u_memory_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="109" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_external_p_p_u_memory_1aa88ae75d5f6f459898df98cdcdef6fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ExternalPPUMemory const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory" kindref="compound">ExternalPPUMemory</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="97" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_external_p_p_u_memory_1a6098a67d245bcf63b25ca0a4919c86f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::ExternalPPUMemory::ExternalPPUMemory</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ExternalPPUMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_external_p_p_u_memory_1aa00e756e3e2983e152c07f4bd8314d1e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory_block" kindref="compound">ExternalPPUMemoryBlock</ref></type>
+        <definition>ExternalPPUMemoryBlock lola::vx::ExternalPPUMemory::get_subblock</definition>
+        <argsstring>(size_t begin, size_type length) const SYMBOL_VISIBLE</argsstring>
+        <name>get_subblock</name>
+        <param>
+          <type>size_t</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory_1acc2ffbbe1003066a3353ae5cf27491d7" kindref="member">size_type</ref></type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="90" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_external_p_p_u_memory_1aed98a9b4e757fa0d7b1857b22e688647" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::ExternalPPUMemory::operator!=</definition>
+        <argsstring>(ExternalPPUMemory const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory" kindref="compound">ExternalPPUMemory</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="94" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_external_p_p_u_memory_1a24f426395bfe1f0488587acb4fba594c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::ExternalPPUMemory::operator==</definition>
+        <argsstring>(ExternalPPUMemory const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory" kindref="compound">ExternalPPUMemory</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="93" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_external_p_p_u_memory_1a8d7abca89b662e0cffc3816c95135b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void lola::vx::ExternalPPUMemory::set_subblock</definition>
+        <argsstring>(size_t begin, ExternalPPUMemoryBlock const &amp;subblock) SYMBOL_VISIBLE</argsstring>
+        <name>set_subblock</name>
+        <param>
+          <type>size_t</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory_block" kindref="compound">ExternalPPUMemoryBlock</ref> const &amp;</type>
+          <declname>subblock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="91" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_external_p_p_u_memory_1a85a4c6b7c57ec144d995ed7acc8ed7ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string lola::vx::ExternalPPUMemory::to_string</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>to_string</name>
+        <briefdescription>
+<para>Print words as string discarding non-printable characters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Printable characters as string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="104" column="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_external_p_p_u_memory_1a6d1803d15418622b6775618f9f3dbdaf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void lola::vx::ExternalPPUMemory::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="111" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Complete external PPU memory. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" line="73" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/ppu.h" bodystart="74" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1abf4b757214b439600a8bb4830261ebd8" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>Bytes</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1a2e3c57213c6c2ce8727503dc0f28d280" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>bytes</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>cereal::access</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1a32b86edb7ff616ea78db7fa6120a0a50" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1a6098a67d245bcf63b25ca0a4919c86f6" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>ExternalPPUMemory</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1aa00e756e3e2983e152c07f4bd8314d1e" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>get_subblock</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1adc0b144ed13cc9532ad6b79628b862f5" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1aed98a9b4e757fa0d7b1857b22e688647" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1aa88ae75d5f6f459898df98cdcdef6fc9" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1a24f426395bfe1f0488587acb4fba594c" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1a6d1803d15418622b6775618f9f3dbdaf" prot="private" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>serialize</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1a8d7abca89b662e0cffc3816c95135b8f" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>set_subblock</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1acc2ffbbe1003066a3353ae5cf27491d7" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>size_type</name></member>
+      <member refid="classlola_1_1vx_1_1_external_p_p_u_memory_1a85a4c6b7c57ec144d995ed7acc8ed7ad" prot="public" virt="non-virtual"><scope>lola::vx::ExternalPPUMemory</scope><name>to_string</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

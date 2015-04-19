@@ -1,0 +1,4 @@
+<map id="haldls::vx::ADPLL::CoreDivM1" name="haldls::vx::ADPLL::CoreDivM1">
+<area shape="rect" id="node1" title="Divider to set the output frequency f_clk_core1 (Together with PreDivP1)." alt="" coords="33,113,167,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,195,65"/>
+</map>

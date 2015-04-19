@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_d_a_c_channel_block" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::DACChannelBlock</compoundname>
+    <includes refid="dac_8h" local="no">dac.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a1999078551ecaa930095b011f4898b96" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a22798897812dc5cac5733d37f6c83e1c" kindref="member">Value</ref>, halco::hicann_dls::vx::DACChannelOnBoard &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;Value, halco::hicann_dls::vx::DACChannelOnBoard&gt; lola::vx::DACChannelBlock::_value_type</definition>
+        <argsstring></argsstring>
+        <name>_value_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="30" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a2e37347c2dbfd7b6f7cd6a6dbac08395" prot="public" static="no">
+        <type>halco::hicann_dls::vx::DACChannelBlockOnBoard</type>
+        <definition>typedef halco::hicann_dls::vx::DACChannelBlockOnBoard lola::vx::DACChannelBlock::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="22" column="55" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_d_a_c_channel_block_1ac742ed81625a36f51c1bedc9b235c41c" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::DACChannelBlock::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="23" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a22798897812dc5cac5733d37f6c83e1c" prot="public" static="no">
+        <type>haldls::vx::DACChannel::Value</type>
+        <definition>typedef haldls::vx::DACChannel::Value lola::vx::DACChannelBlock::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="25" column="39" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_d_a_c_channel_block_1adf58a622ff9698397c4e382b3f3424e8" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a1999078551ecaa930095b011f4898b96" kindref="member">_value_type</ref></type>
+        <definition>_value_type lola::vx::DACChannelBlock::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+<para>Array of channel values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="34" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_d_a_c_channel_block_1ae4e1638f10a9812a17ed4431f4e1332d" prot="public" static="yes" mutable="no">
+        <type>const SYMBOL_VISIBLE <ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">DACChannelBlock</ref></type>
+        <definition>const SYMBOL_VISIBLE DACChannelBlock lola::vx::DACChannelBlock::default_ldo_1</definition>
+        <argsstring></argsstring>
+        <name>default_ldo_1</name>
+        <briefdescription>
+<para>Default value for LDO version 1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="39" column="46" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a101f48085ac861e2bbec20f3d9a4f407" prot="public" static="yes" mutable="no">
+        <type>const SYMBOL_VISIBLE <ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">DACChannelBlock</ref></type>
+        <definition>const SYMBOL_VISIBLE DACChannelBlock lola::vx::DACChannelBlock::default_ldo_2</definition>
+        <argsstring></argsstring>
+        <name>default_ldo_2</name>
+        <briefdescription>
+<para>Default value for LDO version 2. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="44" column="46" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a2f62d4b886ebfb40c36606b924582770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACChannelBlock &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACChannelBlock &gt;</name>
+        <param>
+          <type>haldls::vx::detail::VisitPreorderImpl&lt; <ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">lola::vx::DACChannelBlock</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="66" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_d_a_c_channel_block_1af5e338324886afd2abc64d64f3cf5f6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, DACChannelBlock const &amp;block) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">DACChannelBlock</ref> const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="66" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_d_a_c_channel_block_1ae6ccc9db72ae4f0fd2dc630ec350a3d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::DACChannelBlock::DACChannelBlock</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>DACChannelBlock</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a2403740b21469051aebfa1f12880237a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double lola::vx::DACChannelBlock::get_voltage</definition>
+        <argsstring>(halco::hicann_dls::vx::DACChannelOnBoard coord) const SYMBOL_VISIBLE</argsstring>
+        <name>get_voltage</name>
+        <param>
+          <type>halco::hicann_dls::vx::DACChannelOnBoard</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Getter for DAC values in volts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of the DAC channel to read. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Voltage in Volt (V) applied at that channel. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="60" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a47e9d9fe2fd6f31fcbfd448c1c33e14d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::DACChannelBlock::operator!=</definition>
+        <argsstring>(DACChannelBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">DACChannelBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="63" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a276c5eadd7fc6b124b81361a90d0166d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::DACChannelBlock::operator==</definition>
+        <argsstring>(DACChannelBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">DACChannelBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="62" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_d_a_c_channel_block_1a0af4543b23d4f284b1028df1c1358ff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void lola::vx::DACChannelBlock::set_voltage</definition>
+        <argsstring>(halco::hicann_dls::vx::DACChannelOnBoard coord, double voltage) SYMBOL_VISIBLE</argsstring>
+        <name>set_voltage</name>
+        <param>
+          <type>halco::hicann_dls::vx::DACChannelOnBoard</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>voltage</declname>
+        </param>
+        <briefdescription>
+<para>Setter for DAC values in volts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of the DAC channel to configure. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>voltage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Voltage in Volt (V) to apply at that channel. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="52" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for configuration of all DAC channels on the xBoard. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>lola::vx::DACChannelBlock</label>
+        <link refid="classlola_1_1vx_1_1_d_a_c_channel_block"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>default_ldo_1</edgelabel>
+          <edgelabel>default_ldo_2</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" line="19" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/dac.h" bodystart="20" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a1999078551ecaa930095b011f4898b96" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>_value_type</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a2e37347c2dbfd7b6f7cd6a6dbac08395" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1ae6ccc9db72ae4f0fd2dc630ec350a3d9" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>DACChannelBlock</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1ae4e1638f10a9812a17ed4431f4e1332d" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>default_ldo_1</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a101f48085ac861e2bbec20f3d9a4f407" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>default_ldo_2</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a2403740b21469051aebfa1f12880237a" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>get_voltage</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a2f62d4b886ebfb40c36606b924582770" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACChannelBlock &gt;</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1ac742ed81625a36f51c1bedc9b235c41c" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a47e9d9fe2fd6f31fcbfd448c1c33e14d" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1af5e338324886afd2abc64d64f3cf5f6d" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a276c5eadd7fc6b124b81361a90d0166d" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a0af4543b23d4f284b1028df1c1358ff1" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>set_voltage</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a22798897812dc5cac5733d37f6c83e1c" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>Value</name></member>
+      <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1adf58a622ff9698397c4e382b3f3424e8" prot="public" virt="non-virtual"><scope>lola::vx::DACChannelBlock</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

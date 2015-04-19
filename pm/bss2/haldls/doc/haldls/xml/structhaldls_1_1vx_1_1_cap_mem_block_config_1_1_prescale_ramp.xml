@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CapMemBlockConfig::PrescaleRamp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PrescaleRamp, uint_fast16_t, 6, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp_1af703fe3ce050c945eb1b856f2ca19997" prot="public" static="no">
+        <type>halco::common::detail::RantWrapper&lt; <ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp" kindref="compound">PrescaleRamp</ref>, uint_fast16_t, 6, 0 &gt;::<ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp_1af703fe3ce050c945eb1b856f2ca19997" kindref="member">rant_t</ref></type>
+        <definition>typedef halco::common::detail::RantWrapper&lt;PrescaleRamp, uint_fast16_t, 6, 0&gt;::rant_t haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescaleRamp::rant_t</definition>
+        <argsstring></argsstring>
+        <name>rant_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="263" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp_1a0524a9616f50beaa3778aa511257b89b" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescaleRamp::PrescaleRamp</definition>
+        <argsstring>()</argsstring>
+        <name>PrescaleRamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="264" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="264" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp_1a428d9b525343c419b889b1cd0f1cfbd2" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescaleRamp::PrescaleRamp</definition>
+        <argsstring>(uintmax_t const val)</argsstring>
+        <name>PrescaleRamp</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="265" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="265" bodyend="267"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescaleRamp</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PrescaleRamp, uint_fast16_t, 6, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescaleRamp</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PrescaleRamp, uint_fast16_t, 6, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="258" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="260" bodyend="268"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp_1a0524a9616f50beaa3778aa511257b89b" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PrescaleRamp</scope><name>PrescaleRamp</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp_1a428d9b525343c419b889b1cd0f1cfbd2" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PrescaleRamp</scope><name>PrescaleRamp</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_ramp_1af703fe3ce050c945eb1b856f2ca19997" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PrescaleRamp</scope><name>rant_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_synapse_bias_selection" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseBiasSelection</compoundname>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::CapMemBlockOnDLS&gt; haldls::vx::SynapseBiasSelection::bias_selection_type</definition>
+        <argsstring></argsstring>
+        <name>bias_selection_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="162" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a45eedcafdaa2866fee8e8d8904667507" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SynapseBiasSelectionOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::SynapseBiasSelectionOnDLS haldls::vx::SynapseBiasSelection::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="154" column="58" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a085c495de11993603cbba987da09518c" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::SynapseBiasSelection::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="155" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a52ab2df5617f05c40aa23196cd02e549" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::SynapseBiasSelection::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="198" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1adc5201cf3faf18aa6e1e66245cecbf82" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::SynapseBiasSelection::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::hardware, hxcomm::vx::Target::simulation}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="157" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="212" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1ae548d9eb81eff9b1afd64f71c6411fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SynapseBiasSelection const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection" kindref="compound">SynapseBiasSelection</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="195" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a4ea8034d80401d182ce9fde23cf910e5" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" kindref="member">bias_selection_type</ref></type>
+        <definition>bias_selection_type haldls::vx::SynapseBiasSelection::m_int_dac_bias</definition>
+        <argsstring></argsstring>
+        <name>m_int_dac_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="216" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1aae33c133b99631801a5847f0ce4eef5e" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" kindref="member">bias_selection_type</ref></type>
+        <definition>bias_selection_type haldls::vx::SynapseBiasSelection::m_int_output_bias</definition>
+        <argsstring></argsstring>
+        <name>m_int_output_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="219" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a701c60b3fa9c93c8b91b81c4ecf7f6d1" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" kindref="member">bias_selection_type</ref></type>
+        <definition>bias_selection_type haldls::vx::SynapseBiasSelection::m_int_ramp_bias</definition>
+        <argsstring></argsstring>
+        <name>m_int_ramp_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="217" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a0c0378630ba3170cec903d8fe190fa5f" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" kindref="member">bias_selection_type</ref></type>
+        <definition>bias_selection_type haldls::vx::SynapseBiasSelection::m_int_store_bias</definition>
+        <argsstring></argsstring>
+        <name>m_int_store_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="218" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1ac2a62a07eb0fee29e09a45827653cc99" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SynapseBiasSelection::SynapseBiasSelection</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SynapseBiasSelection</name>
+        <briefdescription>
+<para>Construct Synapse Bias Selection container with all internal biases enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="165" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a230b0bfc760ea52c7bf237bcc77599b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SynapseBiasSelection::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;words) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a52ab2df5617f05c40aa23196cd02e549" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>words</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="208" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1ac6bef1d3cffb9212f699095089bc47fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a52ab2df5617f05c40aa23196cd02e549" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::SynapseBiasSelection::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="205" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1af770c33e9ea40b55e2040b33bf33d180" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SynapseBiasSelection::operator!=</definition>
+        <argsstring>(SynapseBiasSelection const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection" kindref="compound">SynapseBiasSelection</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="192" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1ac93552fca55c701dce7370483f689bd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SynapseBiasSelection::operator==</definition>
+        <argsstring>(SynapseBiasSelection const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection" kindref="compound">SynapseBiasSelection</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="191" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a22fe467bea08cd91bf3c85b7af10e1ca" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SynapseBiasSelection::return_value_policy</definition>
+        <argsstring>(reference_internal)) bias_selection_type const &amp;get_enable_internal_dac_bias() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="168" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a6456292a5a26afc401cab910072a9428" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SynapseBiasSelection::return_value_policy</definition>
+        <argsstring>(reference_internal)) bias_selection_type const &amp;get_enable_internal_output_bias() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="186" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1aab2217d43ae5da308fc952a1def915cf" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SynapseBiasSelection::return_value_policy</definition>
+        <argsstring>(reference_internal)) bias_selection_type const &amp;get_enable_internal_ramp_bias() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="174" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a20fa1c7a2d6a7b2e3babd3c41fdbee8e" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SynapseBiasSelection::return_value_policy</definition>
+        <argsstring>(reference_internal)) bias_selection_type const &amp;get_enable_internal_store_bias() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="180" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a87c2962bf6a3bdb6f2e8dc0ab8d7ba03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseBiasSelection::set_enable_internal_dac_bias</definition>
+        <argsstring>(bias_selection_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_internal_dac_bias</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" kindref="member">bias_selection_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="171" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a13d35fb711a4152babad5428768b763e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseBiasSelection::set_enable_internal_output_bias</definition>
+        <argsstring>(bias_selection_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_internal_output_bias</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" kindref="member">bias_selection_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="189" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a1effc0db830ed47fa485edaba46bc031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseBiasSelection::set_enable_internal_ramp_bias</definition>
+        <argsstring>(bias_selection_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_internal_ramp_bias</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" kindref="member">bias_selection_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="177" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a78b28774b44c6fdf420aab4d4f0f8ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseBiasSelection::set_enable_internal_store_bias</definition>
+        <argsstring>(bias_selection_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_internal_store_bias</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" kindref="member">bias_selection_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="183" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1aaa7375c77d251e1fa44618a0acf43960" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a52ab2df5617f05c40aa23196cd02e549" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::SynapseBiasSelection::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a45eedcafdaa2866fee8e8d8904667507" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="201" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_synapse_bias_selection_1a947fb55c3028eb9833d298b2729d945e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SynapseBiasSelection::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="214" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="151" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="152" bodyend="220"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aaa7375c77d251e1fa44618a0acf43960" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aa755c14ea3aa0439fd8b530e87d47fd3" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>bias_selection_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a52ab2df5617f05c40aa23196cd02e549" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a45eedcafdaa2866fee8e8d8904667507" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a230b0bfc760ea52c7bf237bcc77599b8" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1ac6bef1d3cffb9212f699095089bc47fd" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a085c495de11993603cbba987da09518c" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a4ea8034d80401d182ce9fde23cf910e5" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>m_int_dac_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aae33c133b99631801a5847f0ce4eef5e" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>m_int_output_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a701c60b3fa9c93c8b91b81c4ecf7f6d1" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>m_int_ramp_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a0c0378630ba3170cec903d8fe190fa5f" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>m_int_store_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1af770c33e9ea40b55e2040b33bf33d180" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1ae548d9eb81eff9b1afd64f71c6411fe8" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1ac93552fca55c701dce7370483f689bd6" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a22fe467bea08cd91bf3c85b7af10e1ca" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1aab2217d43ae5da308fc952a1def915cf" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a20fa1c7a2d6a7b2e3babd3c41fdbee8e" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a6456292a5a26afc401cab910072a9428" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a947fb55c3028eb9833d298b2729d945e" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a87c2962bf6a3bdb6f2e8dc0ab8d7ba03" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>set_enable_internal_dac_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a13d35fb711a4152babad5428768b763e" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>set_enable_internal_output_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a1effc0db830ed47fa485edaba46bc031" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>set_enable_internal_ramp_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1a78b28774b44c6fdf420aab4d4f0f8ef1" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>set_enable_internal_store_bias</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1ac2a62a07eb0fee29e09a45827653cc99" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>SynapseBiasSelection</name></member>
+      <member refid="classhaldls_1_1vx_1_1_synapse_bias_selection_1adc5201cf3faf18aa6e1e66245cecbf82" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseBiasSelection</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

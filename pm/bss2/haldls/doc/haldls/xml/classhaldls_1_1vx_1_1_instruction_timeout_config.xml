@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_instruction_timeout_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::InstructionTimeoutConfig</compoundname>
+    <includes refid="fpga_8h" local="no">fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a4cb182d65f28b38d1d5553c6d045ba91" prot="public" static="no">
+        <type>halco::hicann_dls::vx::InstructionTimeoutConfigOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::InstructionTimeoutConfigOnFPGA haldls::vx::InstructionTimeoutConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="151" column="63" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a8a3e96d4ac37a77b91eb88934931547a" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::InstructionTimeoutConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="152" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1acb043853772df02c93e35ea162212a08" prot="public" static="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>typedef Timer::Value haldls::vx::InstructionTimeoutConfig::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="154" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a34cf9e05a7c565784756920fe2b95298" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::InstructionTimeoutConfig::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="179" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a4a116eac98097c0c18e5731801f57c5f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::InstructionTimeoutConfig::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="180" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="191" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a960ab709fe28b58d9e8daa0f72c592a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, InstructionTimeoutConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config" kindref="compound">InstructionTimeoutConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="176" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a343802dd56f75c8a18ff0eb037fd82e4" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1acb043853772df02c93e35ea162212a08" kindref="member">Value</ref></type>
+        <definition>Value haldls::vx::InstructionTimeoutConfig::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="195" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1ad220a712c45b33bec165bbd31a5c54f0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::InstructionTimeoutConfig::InstructionTimeoutConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>InstructionTimeoutConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="156" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a01fe9f925ee354941b352e14a3a2f3f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::InstructionTimeoutConfig::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Omnibus, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a34cf9e05a7c565784756920fe2b95298" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="187" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a0f393b908f2447e551399b74b8bae6c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a4a116eac98097c0c18e5731801f57c5f" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Omnibus, write_config_size_in_words&gt; haldls::vx::InstructionTimeoutConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="185" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a5a6ffc68b4ff590d38984d6668260783" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1acb043853772df02c93e35ea162212a08" kindref="member">Value</ref></type>
+        <definition>Value haldls::vx::InstructionTimeoutConfig::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+<para>Get value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Duration value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="163" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1aadb9a68a390c87c58d4b71cb3835538b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::InstructionTimeoutConfig::operator!=</definition>
+        <argsstring>(InstructionTimeoutConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config" kindref="compound">InstructionTimeoutConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="173" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a3311ef26313b9db00869ebbe6185deca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::InstructionTimeoutConfig::operator==</definition>
+        <argsstring>(InstructionTimeoutConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config" kindref="compound">InstructionTimeoutConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="172" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a5b37e766bb5d72fdeee0a45fffb7d210" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a34cf9e05a7c565784756920fe2b95298" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;halco::hicann_dls::vx::OmnibusAddress, read_config_size_in_words&gt; haldls::vx::InstructionTimeoutConfig::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) const SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a4cb182d65f28b38d1d5553c6d045ba91" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="181" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1adc5de06da0e8dec32584af5e9f0aaf55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::InstructionTimeoutConfig::set_value</definition>
+        <argsstring>(Value value) SYMBOL_VISIBLE</argsstring>
+        <name>set_value</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1acb043853772df02c93e35ea162212a08" kindref="member">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="170" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a17ef081a7f05c1b44015b9bde408e11a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a4a116eac98097c0c18e5731801f57c5f" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;halco::hicann_dls::vx::OmnibusAddress, write_config_size_in_words&gt; haldls::vx::InstructionTimeoutConfig::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) const SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a4cb182d65f28b38d1d5553c6d045ba91" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="183" column="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_instruction_timeout_config_1a1e42f31df96846b7acce8eb11bab681a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::InstructionTimeoutConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="193" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for the configuration of the playback instruction timeout duration. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" line="148" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/fpga.h" bodystart="149" bodyend="196"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a4cb182d65f28b38d1d5553c6d045ba91" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a01fe9f925ee354941b352e14a3a2f3f1" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a0f393b908f2447e551399b74b8bae6c6" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a5a6ffc68b4ff590d38984d6668260783" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>get_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1ad220a712c45b33bec165bbd31a5c54f0" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>InstructionTimeoutConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a8a3e96d4ac37a77b91eb88934931547a" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a343802dd56f75c8a18ff0eb037fd82e4" prot="private" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1aadb9a68a390c87c58d4b71cb3835538b" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a960ab709fe28b58d9e8daa0f72c592a8" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a3311ef26313b9db00869ebbe6185deca" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a5b37e766bb5d72fdeee0a45fffb7d210" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a34cf9e05a7c565784756920fe2b95298" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a1e42f31df96846b7acce8eb11bab681a" prot="private" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1adc5de06da0e8dec32584af5e9f0aaf55" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>set_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1acb043853772df02c93e35ea162212a08" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>Value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a17ef081a7f05c1b44015b9bde408e11a" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_instruction_timeout_config_1a4a116eac98097c0c18e5731801f57c5f" prot="public" virt="non-virtual"><scope>haldls::vx::InstructionTimeoutConfig</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

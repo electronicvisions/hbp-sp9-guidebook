@@ -1,0 +1,174 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Frequently asked questions (FAQ) &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/hbpdoc.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/extra.js"></script>
+    <script src="../../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Built-in calibrations" href="calibration.html" />
+    <link rel="prev" title="Spikey school" href="spikey_school.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="../../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Frequently asked questions (FAQ)</a><ul>
+<li><a class="reference internal" href="#characterization-of-analog-circuits">Characterization of analog circuits</a></li>
+<li><a class="reference internal" href="#nest-model-of-hardware-stdp-synapses">NEST model of hardware STDP synapses</a></li>
+<li><a class="reference internal" href="#list-of-publications">List of publications</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="spikey_school.html"
+                        title="previous chapter">Spikey school</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="calibration.html"
+                        title="next chapter">Built-in calibrations</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/pm/spikey/faq.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+                <div class="breadcrumb breadcrumb-meta expand">
+                    
+                    <a href="../spikey.html">The Spikey “physical model” system</a>
+                    
+                </div>
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="spikey_school.html">Spikey school</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="calibration.html">Built-in calibrations</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="frequently-asked-questions-faq">
+<h1>Frequently asked questions (FAQ)<a class="headerlink" href="#frequently-asked-questions-faq" title="Permalink to this headline">¶</a></h1>
+<p>For contact information, frequently asked questions and further documentation, please visit our <a class="reference external" href="http://www.kip.uni-heidelberg.de/spikey">website</a>.</p>
+<section id="characterization-of-analog-circuits">
+<h2>Characterization of analog circuits<a class="headerlink" href="#characterization-of-analog-circuits" title="Permalink to this headline">¶</a></h2>
+<p>For measurements of analog circuits see <a class="reference internal" href="#bruederle2009phd" id="id1"><span>[Bruederle2009PhD]</span></a>.
+Note that version 3 of the Spikey chip was used in this thesis.</p>
+</section>
+<section id="nest-model-of-hardware-stdp-synapses">
+<h2>NEST model of hardware STDP synapses<a class="headerlink" href="#nest-model-of-hardware-stdp-synapses" title="Permalink to this headline">¶</a></h2>
+<p>In the scope of [Pfeil2012STDP] we implemented an STDP synapse in NEST considering the following features of STDP synapses on the Spikey chip:</p>
+<ul class="simple">
+<li><p>Local measurement and accumulation of correlations between pre- and postsynaptic spikes.</p></li>
+<li><p>Global mechanism that sequentially evaluates these accumulated correlations and updates the synaptic weight.</p></li>
+<li><p>Discretization of synaptic weights with a 4-bit resolution (16 values).</p></li>
+<li><p>Reduced symmetric nearest-neighbor spike pairing scheme (see [Morrison2008]).</p></li>
+</ul>
+<p>Please not that parameter variations (fixed-pattern noise) are not considered, but can be implemented by distributing the thresholds for the evaluation of the charge on the capacitors.</p>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../../_images/hw_synapse_nest.png"><img alt="NEST model of hardware STDP synapses" src="../../_images/hw_synapse_nest.png" style="width: 400px;" /></a>
+<figcaption>
+<p><span class="caption-text">Figure 56: Regular pairs of pre- before postsynaptic spikes are presented (with a frequency of 10 hertz).
+The charge on the capacitor for causal correlations (green) accumulates and after crossing the threshold (dashed line) the discretized synaptic weight (blue) is increased
+(<a class="reference external" href="https://github.com/electronicvisions/spikey_demo/blob/master/networks/rate_over_gleak.py">source code of NEST model of hardware STDP synapse</a>).</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="list-of-publications">
+<h2>List of publications<a class="headerlink" href="#list-of-publications" title="Permalink to this headline">¶</a></h2>
+<dl class="citation">
+<dt class="label" id="bruederle2009phd"><span class="brackets"><a class="fn-backref" href="#id1">Bruederle2009PhD</a></span></dt>
+<dd><p>Brüderle, D. (2009). <a class="reference external" href="http://archiv.ub.uni-heidelberg.de/volltextserver/9656/1/dissertation_bruederle.pdf">Neuroscientific Modeling with a Mixed-Signal VLSI Hardware System</a>. PhD thesis, Heidelberg University. HD-KIP 09-30.</p>
+</dd>
+</dl>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="spikey_school.html">Spikey school</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="calibration.html">Built-in calibrations</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

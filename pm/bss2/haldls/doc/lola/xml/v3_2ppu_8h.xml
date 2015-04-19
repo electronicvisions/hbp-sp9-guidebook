@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="v3_2ppu_8h" kind="file" language="C++">
+    <compoundname>ppu.h</compoundname>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes refid="ppu_8h" local="yes">lola/vx/ppu.h</includes>
+    <includedby refid="v3_2chip_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</includedby>
+    <includedby refid="v3_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</includedby>
+    <incdepgraph>
+      <node id="14">
+        <label>haldls/vx/ppu.h</label>
+      </node>
+      <node id="4">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="13">
+        <label>haldls/vx/fpga.h</label>
+      </node>
+      <node id="10">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="15">
+        <label>lola/vx/ppu.tcc</label>
+      </node>
+      <node id="3">
+        <label>lola/vx/ppu.h</label>
+        <link refid="ppu_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>halco/hicann-dls/vx/coordinates.h</label>
+      </node>
+      <node id="11">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="7">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="8">
+        <label>lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/ppu.h</label>
+        <link refid="v3_2ppu_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>type_traits</label>
+      </node>
+      <node id="6">
+        <label>haldls/cerealization.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h</label>
+        <link refid="v3_2pylola_8h"/>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</label>
+        <link refid="v3_2chip_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/lola.h</label>
+        <link refid="v3_2lola_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/ppu.h</label>
+        <link refid="v3_2ppu_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v3">lola::vx::v3</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/ppu.h"/>
+  </compounddef>
+</doxygen>

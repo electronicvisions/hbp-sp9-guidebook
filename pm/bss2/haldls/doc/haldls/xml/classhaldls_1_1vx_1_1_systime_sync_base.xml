@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_systime_sync_base" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::SystimeSyncBase</compoundname>
+    <includes refid="systime_8h" local="no">systime.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value" prot="public">haldls::vx::SystimeSyncBase::Value</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_systime_sync_base_1a99d685e8bfafb7dfbc1a2adfffc47356" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SystimeSyncBaseOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::SystimeSyncBaseOnDLS haldls::vx::SystimeSyncBase::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="30" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_systime_sync_base_1a9388cd2d1de9d196cbb0d640fd45e962" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::SystimeSyncBase::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="31" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_systime_sync_base_1ab6ba73bfb5eee9659cea2ffc90c9ad58" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::SystimeSyncBase::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="54" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_systime_sync_base_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="65" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_systime_sync_base_1aaf9e93bc9ae6e8e5ad1aa158ffea6948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SystimeSyncBase const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync_base" kindref="compound">SystimeSyncBase</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="52" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_systime_sync_base_1a459b8b00e5ef0783cbbd6ef07cf19c40" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::SystimeSyncBase::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="69" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1aba6faf4f214ea5b4fc60f56abca36e8f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SystimeSyncBase::SystimeSyncBase</definition>
+        <argsstring>(Value const value=Value()) SYMBOL_VISIBLE</argsstring>
+        <name>SystimeSyncBase</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value" kindref="compound">Value</ref> const</type>
+          <declname>value</declname>
+          <defval><ref refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value" kindref="compound">Value</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="41" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1a268333ee6381664a0a235de702465f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SystimeSyncBase::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_systime_sync_base_1ab6ba73bfb5eee9659cea2ffc90c9ad58" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="61" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1a64ecd3231854fbf8a10b0ead0642d899" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_systime_sync_base_1ab6ba73bfb5eee9659cea2ffc90c9ad58" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::SystimeSyncBase::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="59" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1ad48d07b4994940ec48c3454c7f49ec81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::SystimeSyncBase::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="44" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1ac2420be79bae9e13a2f0eca18856ef91" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SystimeSyncBase::operator!=</definition>
+        <argsstring>(SystimeSyncBase const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync_base" kindref="compound">SystimeSyncBase</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="49" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1aca1669f9ed1ed4e737dba5fb3aaa96e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SystimeSyncBase::operator==</definition>
+        <argsstring>(SystimeSyncBase const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync_base" kindref="compound">SystimeSyncBase</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="48" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1a8cd6792f49c1c803cfd06e058157920d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SystimeSyncBase::set_value</definition>
+        <argsstring>(Value const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_value</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value" kindref="compound">Value</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="46" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1a0442036422137e0e6af335b3d6966aac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_systime_sync_base_1ab6ba73bfb5eee9659cea2ffc90c9ad58" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::SystimeSyncBase::addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync_base_1a99d685e8bfafb7dfbc1a2adfffc47356" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="56" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_base_1a64669d086d23570582c9b7ef2a927abd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SystimeSyncBase::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="67" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for configuring the initial counter value of the systime counter in the chip and in the FPGA after the next systime syncronization operation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="28" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1a0442036422137e0e6af335b3d6966aac" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1ab6ba73bfb5eee9659cea2ffc90c9ad58" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1a99d685e8bfafb7dfbc1a2adfffc47356" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1a268333ee6381664a0a235de702465f87" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1a64ecd3231854fbf8a10b0ead0642d899" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1ad48d07b4994940ec48c3454c7f49ec81" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>get_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1a9388cd2d1de9d196cbb0d640fd45e962" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1a459b8b00e5ef0783cbbd6ef07cf19c40" prot="private" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1ac2420be79bae9e13a2f0eca18856ef91" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1aaf9e93bc9ae6e8e5ad1aa158ffea6948" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1aca1669f9ed1ed4e737dba5fb3aaa96e5" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1a64669d086d23570582c9b7ef2a927abd" prot="private" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1a8cd6792f49c1c803cfd06e058157920d" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>set_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_base_1aba6faf4f214ea5b4fc60f56abca36e8f" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSyncBase</scope><name>SystimeSyncBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

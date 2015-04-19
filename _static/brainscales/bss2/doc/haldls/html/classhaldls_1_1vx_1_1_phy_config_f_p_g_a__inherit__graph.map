@@ -1,0 +1,4 @@
+<map id="haldls::vx::PhyConfigFPGA" name="haldls::vx::PhyConfigFPGA">
+<area shape="rect" id="node1" title="Container for individual configuration of FPGA&#45;side PHYs." alt="" coords="5,97,187,125"/>
+<area shape="rect" id="node2" href="$classhaldls_1_1vx_1_1detail_1_1_phy_config_base.html" title="Common base class for PhyConfig of the FPGA&#45; and chip&#45;side PHYs." alt="" coords="36,5,157,49"/>
+</map>

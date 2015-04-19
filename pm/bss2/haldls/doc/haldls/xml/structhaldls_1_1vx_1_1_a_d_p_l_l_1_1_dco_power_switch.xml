@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ADPLL::DcoPowerSwitch</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; DcoPowerSwitch, uint_fast16_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch_1a92e1610fe4effeeb82150258ba7e49b2" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::ADPLL::DcoPowerSwitch::DcoPowerSwitch</definition>
+        <argsstring>(uintmax_t const val=63)</argsstring>
+        <name>DcoPowerSwitch</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>63</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="127" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Number of activated PMOS header power switches during DCO operation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; DcoPowerSwitch, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ADPLL::DcoPowerSwitch</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; DcoPowerSwitch, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ADPLL::DcoPowerSwitch</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="124" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="126" bodyend="128"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch_1a92e1610fe4effeeb82150258ba7e49b2" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL::DcoPowerSwitch</scope><name>DcoPowerSwitch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

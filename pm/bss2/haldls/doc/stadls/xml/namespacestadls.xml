@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacestadls" kind="namespace" language="C++">
+    <compoundname>stadls</compoundname>
+    <innerclass refid="classstadls_1_1_decode_visitor" prot="public">stadls::DecodeVisitor</innerclass>
+    <innerclass refid="classstadls_1_1_encode_visitor" prot="public">stadls::EncodeVisitor</innerclass>
+    <innerclass refid="structstadls_1_1_read_address_visitor" prot="public">stadls::ReadAddressVisitor</innerclass>
+    <innerclass refid="structstadls_1_1_write_address_visitor" prot="public">stadls::WriteAddressVisitor</innerclass>
+    <innernamespace refid="namespacestadls_1_1vx">stadls::vx</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/visitors.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

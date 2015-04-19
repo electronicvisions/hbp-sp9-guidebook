@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</compoundname>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="599" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1aa15781b5308682ecae825d07f6854e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ColumnCorrelationSwitch const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationSwitch</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="595" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a1e459fce60ab0fba9b0a329095db122b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::m_enable_cadc_neuron_readout_acausal</definition>
+        <argsstring></argsstring>
+        <name>m_enable_cadc_neuron_readout_acausal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="608" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="608" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a53378f7497465f180f6ea0a4901c5938" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::m_enable_cadc_neuron_readout_causal</definition>
+        <argsstring></argsstring>
+        <name>m_enable_cadc_neuron_readout_causal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="607" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="607" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1adf16635a30d6035e31484f57209168b6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::m_enable_debug_acausal</definition>
+        <argsstring></argsstring>
+        <name>m_enable_debug_acausal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="606" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a0bf41b36679eae6a457e35f8c4b1a604" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::m_enable_debug_causal</definition>
+        <argsstring></argsstring>
+        <name>m_enable_debug_causal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="605" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a8572379aa0d1cd1949ffd5488b35d9ee" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::m_enable_internal_acausal</definition>
+        <argsstring></argsstring>
+        <name>m_enable_internal_acausal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="604" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1adaa22fde7def708738a328c448c3cb1f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::m_enable_internal_causal</definition>
+        <argsstring></argsstring>
+        <name>m_enable_internal_causal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="603" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="603" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a6dfc1e5fe97a71efc52230d384db3434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::ColumnCorrelationSwitch</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ColumnCorrelationSwitch</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="489" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a8a18a0f0ca5076ed89005f86a8fc3e50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::get_enable_cadc_neuron_readout_acausal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_cadc_neuron_readout_acausal</name>
+        <briefdescription>
+<para>Get enable value for connecting the neuron&apos;s readout circuit to the respective acausal CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Keep in mind that the neuron&apos;s readout amplifier must be enabled and biased, but the neuron must not be connected to the readout chain via the collective lines. Otherwise the neurons will be shorted. <simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="579" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a3df730138e8feacf06d3ac7aa2a1d2c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::get_enable_cadc_neuron_readout_causal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_cadc_neuron_readout_causal</name>
+        <briefdescription>
+<para>Get enable value for connecting the neuron&apos;s readout circuit to the respective causal CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Keep in mind that the neuron&apos;s readout amplifier must be enabled and biased, but the neuron must not be connected to the readout chain via the collective lines. Otherwise the neurons will be shorted. <simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="559" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1aa9edbf43d04a287dc0e316b66b1e5355" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::get_enable_debug_acausal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_debug_acausal</name>
+        <briefdescription>
+<para>Get enable value for connecting acausal correlation to shared debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="542" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a3b460f62bc4304e0c2e81c513e319757" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::get_enable_debug_causal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_debug_causal</name>
+        <briefdescription>
+<para>Get enable value for connecting causal correlation to shared debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="528" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a746335a55bde1533312cd6eaad6d4d08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::get_enable_internal_acausal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_internal_acausal</name>
+        <briefdescription>
+<para>Get enable value for the connection between the internal acausal line and the CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="513" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a299e27aee1f025631990c657132441e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::get_enable_internal_causal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_internal_causal</name>
+        <briefdescription>
+<para>Get enable value for the connection between the internal causal line and the CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="497" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a6bb4415d68f789919b29d161db4173f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::operator!=</definition>
+        <argsstring>(ColumnCorrelationSwitch const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationSwitch</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="592" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1ac4f3981ae0ed7cdf422ef1780d143186" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::operator==</definition>
+        <argsstring>(ColumnCorrelationSwitch const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationSwitch</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="591" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1ac68349d33c4920393e553ec3829d0055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::set_enable_cadc_neuron_readout_acausal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_cadc_neuron_readout_acausal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for connecting the neuron&apos;s readout circuit to the respective acausal CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Keep in mind that the neuron&apos;s readout amplifier must be enabled and biased, but the neuron must not be connected to the readout chain via the collective lines. Otherwise the neurons will be shorted. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="589" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a757d6f48755a6ded855b37105ce10036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::set_enable_cadc_neuron_readout_causal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_cadc_neuron_readout_causal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for connecting the neuron&apos;s readout circuit to the respective causal CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Keep in mind that the neuron&apos;s readout amplifier must be enabled and biased, but the neuron must not be connected to the readout chain via the collective lines. Otherwise the neurons will be shorted. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="569" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1ad12a09b06e3126d19d0c34f56c9fed16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::set_enable_debug_acausal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_debug_acausal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for connecting acausal correlation to shared debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="549" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a49a99eb89497ecc77c68d8eca8b77f7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::set_enable_debug_causal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_debug_causal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for connecting causal correlation to shared debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="535" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a4c106f4f9262c5f6e3076138f1f70e9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::set_enable_internal_acausal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_internal_acausal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for the connection between the internal acausal line and the CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="521" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a8f2955b773d587baf3fe1abcde1e3ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::set_enable_internal_causal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_internal_causal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for the connection between the internal causal line and the CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="505" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a00eebdbe6c5b2629db35cc2bad797bc8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="601" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="486" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="487" bodyend="609"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>cereal::access</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a6dfc1e5fe97a71efc52230d384db3434" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>ColumnCorrelationSwitch</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a8a18a0f0ca5076ed89005f86a8fc3e50" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>get_enable_cadc_neuron_readout_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a3df730138e8feacf06d3ac7aa2a1d2c2" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>get_enable_cadc_neuron_readout_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1aa9edbf43d04a287dc0e316b66b1e5355" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>get_enable_debug_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a3b460f62bc4304e0c2e81c513e319757" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>get_enable_debug_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a746335a55bde1533312cd6eaad6d4d08" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>get_enable_internal_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a299e27aee1f025631990c657132441e0" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>get_enable_internal_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a1e459fce60ab0fba9b0a329095db122b" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>m_enable_cadc_neuron_readout_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a53378f7497465f180f6ea0a4901c5938" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>m_enable_cadc_neuron_readout_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1adf16635a30d6035e31484f57209168b6" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>m_enable_debug_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a0bf41b36679eae6a457e35f8c4b1a604" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>m_enable_debug_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a8572379aa0d1cd1949ffd5488b35d9ee" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>m_enable_internal_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1adaa22fde7def708738a328c448c3cb1f" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>m_enable_internal_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a6bb4415d68f789919b29d161db4173f2" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>operator!=</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1aa15781b5308682ecae825d07f6854e59" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1ac4f3981ae0ed7cdf422ef1780d143186" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>operator==</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a00eebdbe6c5b2629db35cc2bad797bc8" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>serialize</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1ac68349d33c4920393e553ec3829d0055" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>set_enable_cadc_neuron_readout_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a757d6f48755a6ded855b37105ce10036" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>set_enable_cadc_neuron_readout_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1ad12a09b06e3126d19d0c34f56c9fed16" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>set_enable_debug_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a49a99eb89497ecc77c68d8eca8b77f7d" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>set_enable_debug_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a4c106f4f9262c5f6e3076138f1f70e9e" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>set_enable_internal_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch_1a8f2955b773d587baf3fe1abcde1e3ebd" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</scope><name>set_enable_internal_causal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

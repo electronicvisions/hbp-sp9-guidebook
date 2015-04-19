@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;</compoundname>
+    <includes refid="synapse__block_8h" local="no">synapse_block.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1_1abe6208bd61cb9e54a395f56be5fb1399" prot="public" static="no">
+        <type>lola::vx::CHIP_REVISION_STR::SynapseBlock</type>
+        <definition>typedef lola::vx::CHIP_REVISION_STR::SynapseBlock haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;::container_type</definition>
+        <argsstring></argsstring>
+        <name>container_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_block.h" line="97" column="51" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_block.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1_1ab3c2a039a9145a1eea0834cfe9e7665a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+          <param>
+            <type>typename VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;::call</definition>
+        <argsstring>(ContainerT &amp;config, typename container_type::coordinate_type const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>call</name>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>typename <ref refid="v3_2neuron_8h_1a0e45b1afb0e892814a49ea8200e71d1b" kindref="member">container_type::coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_block.h" line="100" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_block.h" bodystart="100" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_block.h" line="95" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse_block.h" bodystart="96" bodyend="124"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1_1ab3c2a039a9145a1eea0834cfe9e7665a" prot="public" virt="non-virtual"><scope>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;</scope><name>call</name></member>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1_1abe6208bd61cb9e54a395f56be5fb1399" prot="public" virt="non-virtual"><scope>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;</scope><name>container_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

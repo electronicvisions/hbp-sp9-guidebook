@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="i2c_8h" kind="file" language="C++">
+    <compoundname>i2c.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">iosfwd</includes>
+    <includes local="no">limits</includes>
+    <includes local="yes">fisch/vx/constants.h</includes>
+    <includes local="yes">fisch/vx/word_access/type/i2c.h</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/common/iter_all.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/i2c.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/ultra96.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/xboard.h</includes>
+    <includes refid="cerealization_8h" local="yes">haldls/cerealization.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/math.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes local="yes">hxcomm/vx/target.h</includes>
+    <includedby refid="v2_2i2c_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/i2c.h</includedby>
+    <includedby refid="v3_2i2c_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h</includedby>
+    <incdepgraph>
+      <node id="25">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="4">
+        <label>limits</label>
+      </node>
+      <node id="6">
+        <label>fisch/vx/word_access/type/i2c.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h</label>
+        <link refid="i2c_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>cstdint</label>
+      </node>
+      <node id="8">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="24">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="20">
+        <label>fisch/vx/traits.h</label>
+      </node>
+      <node id="19">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="23">
+        <label>boost/utility/enable_if.hpp</label>
+      </node>
+      <node id="9">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="17">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="13">
+        <label>haldls/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>halco/hicann-dls/vx/xboard.h</label>
+      </node>
+      <node id="2">
+        <label>array</label>
+      </node>
+      <node id="10">
+        <label>halco/hicann-dls/vx/i2c.h</label>
+      </node>
+      <node id="7">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="15">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="3">
+        <label>iosfwd</label>
+      </node>
+      <node id="21">
+        <label>fisch/vx/word_access_type.h</label>
+      </node>
+      <node id="5">
+        <label>fisch/vx/constants.h</label>
+      </node>
+      <node id="26">
+        <label>hate/math.h</label>
+      </node>
+      <node id="18">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>type_traits</label>
+      </node>
+      <node id="11">
+        <label>halco/hicann-dls/vx/ultra96.h</label>
+      </node>
+      <node id="14">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h</label>
+        <link refid="i2c_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/i2c.h</label>
+        <link refid="v3_2i2c_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/haldls.h</label>
+        <link refid="v3_2haldls_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pyhaldls.h</label>
+        <link refid="v2_2pyhaldls_8h"/>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h</label>
+        <link refid="v3_2pyhaldls_8h"/>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/i2c.h</label>
+        <link refid="v2_2i2c_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/haldls.h</label>
+        <link refid="v2_2haldls_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classhaldls_1_1vx_1_1_a_d5252_channel_config" prot="public">haldls::vx::AD5252ChannelConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_a_d5252_channel_config_persistent" prot="public">haldls::vx::AD5252ChannelConfigPersistent</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_a_d5252_channel_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; AD5252ChannelConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_a_d5252_channel_config_persistent_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; AD5252ChannelConfigPersistent &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_d_a_c6573_channel_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; DAC6573ChannelConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_i_n_a219_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; INA219Config &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_i_n_a219_status_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; INA219Status &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_t_c_a9554_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; TCA9554Config &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_t_c_a9554_inputs_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; TCA9554Inputs &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage" prot="public">haldls::vx::INA219Status::BusVoltage</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_d_a_c6573_channel_config" prot="public">haldls::vx::DAC6573ChannelConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_i_n_a219_config" prot="public">haldls::vx::INA219Config</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_i_n_a219_status" prot="public">haldls::vx::INA219Status</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage" prot="public">haldls::vx::INA219Status::ShuntVoltage</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_t_c_a9554_config" prot="public">haldls::vx::TCA9554Config</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_t_c_a9554_inputs" prot="public">haldls::vx::TCA9554Inputs</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_i_n_a219_status_1_1_uncalibrated_power" prot="public">haldls::vx::INA219Status::UncalibratedPower</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_d_a_c6573_channel_config_1_1_value" prot="public">haldls::vx::DAC6573ChannelConfig::Value</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d5252_channel_config_1_1_wiper_setting" prot="public">haldls::vx::AD5252ChannelConfig::WiperSetting</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d5252_channel_config_persistent_1_1_wiper_setting" prot="public">haldls::vx::AD5252ChannelConfigPersistent::WiperSetting</innerclass>
+    <innernamespace refid="namespacehalco">halco</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls">halco::hicann_dls</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx">halco::hicann_dls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h"/>
+  </compounddef>
+</doxygen>

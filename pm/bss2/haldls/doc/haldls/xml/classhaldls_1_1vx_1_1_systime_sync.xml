@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_systime_sync" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::SystimeSync</compoundname>
+    <includes refid="systime_8h" local="no">systime.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_systime_sync_1af511e3395dfd11699c53830c5b7f9557" prot="public" static="no">
+        <type>halco::hicann_dls::vx::SystimeSyncOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::SystimeSyncOnFPGA haldls::vx::SystimeSync::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="98" column="50" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_systime_sync_1a8e55edb5bd067629ef8d065a5e20879a" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::SystimeSync::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="99" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_systime_sync_1a52e206fdc7ceba44985b32349e6e5cb3" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::SystimeSync::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="126" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_systime_sync_1a71fec4c23566726e2766accd95e72d5e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::SystimeSync::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="127" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_systime_sync_1aec623cb8c1d4ab5fb2616a45d575da25" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::SystimeSync::m_do_sync</definition>
+        <argsstring></argsstring>
+        <name>m_do_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="139" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_systime_sync_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="141" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_systime_sync_1a059eb9574e60c3e2af5731fa16c81316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SystimeSync const &amp;systime_sync) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync" kindref="compound">SystimeSync</ref> const &amp;</type>
+          <declname>systime_sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="120" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1ae75efee35b8c3958009deedc6f71993c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SystimeSync::SystimeSync</definition>
+        <argsstring>(bool do_sync=true) SYMBOL_VISIBLE</argsstring>
+        <name>SystimeSync</name>
+        <param>
+          <type>bool</type>
+          <declname>do_sync</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1adc45897918529f619b6aa65cd03040f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SystimeSync::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::SystimeSync, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::SystimeSync, <ref refid="classhaldls_1_1vx_1_1_systime_sync_1a52e206fdc7ceba44985b32349e6e5cb3" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="134" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1a9070536e609e6b30b408939540443bcb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::SystimeSync, <ref refid="classhaldls_1_1vx_1_1_systime_sync_1a71fec4c23566726e2766accd95e72d5e" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::SystimeSync, write_config_size_in_words&gt; haldls::vx::SystimeSync::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="132" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1ab482b2423c211072a38086bc3e0005f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SystimeSync::get_do_sync</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_do_sync</name>
+        <briefdescription>
+<para>Get systime sync enable value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On true, systime sync is triggered, on false only a systime update response is emitted. <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="109" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1a120bac661bccb811dfd94a37d56df3e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SystimeSync::operator!=</definition>
+        <argsstring>(SystimeSync const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync" kindref="compound">SystimeSync</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="124" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1a28f1434203affa5755bf8d0fcab5ae65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SystimeSync::operator==</definition>
+        <argsstring>(SystimeSync const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync" kindref="compound">SystimeSync</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="123" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1a567a13735926bb363d5b9581f3cbd867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SystimeSync::set_do_sync</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_do_sync</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set systime sync enable value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On true, systime sync is triggered, on false only a systime update response is emitted. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="117" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1a39c60d8c0242ead4b5ae0d188b6d8d7f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="classhaldls_1_1vx_1_1_systime_sync_1af511e3395dfd11699c53830c5b7f9557" kindref="member">coordinate_type</ref>, <ref refid="classhaldls_1_1vx_1_1_systime_sync_1a52e206fdc7ceba44985b32349e6e5cb3" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;coordinate_type, read_config_size_in_words&gt; haldls::vx::SystimeSync::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync_1af511e3395dfd11699c53830c5b7f9557" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="128" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1a8a5c10746954add1dcbea8c18eaf4ae1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="classhaldls_1_1vx_1_1_systime_sync_1af511e3395dfd11699c53830c5b7f9557" kindref="member">coordinate_type</ref>, <ref refid="classhaldls_1_1vx_1_1_systime_sync_1a71fec4c23566726e2766accd95e72d5e" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;coordinate_type, write_config_size_in_words&gt; haldls::vx::SystimeSync::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_systime_sync_1af511e3395dfd11699c53830c5b7f9557" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="130" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_systime_sync_1ab5dfbc22fd716d342382516eaab74a4e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SystimeSync::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="143" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for syncronization of chip and FPGA systime. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>After syncronization the FPGA will annotate responses with systime information by sending additional timing messages. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" line="95" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/systime.h" bodystart="96" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1af511e3395dfd11699c53830c5b7f9557" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1adc45897918529f619b6aa65cd03040f5" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a9070536e609e6b30b408939540443bcb" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1ab482b2423c211072a38086bc3e0005f1" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>get_do_sync</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a8e55edb5bd067629ef8d065a5e20879a" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1aec623cb8c1d4ab5fb2616a45d575da25" prot="private" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>m_do_sync</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a120bac661bccb811dfd94a37d56df3e4" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a059eb9574e60c3e2af5731fa16c81316" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a28f1434203affa5755bf8d0fcab5ae65" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a39c60d8c0242ead4b5ae0d188b6d8d7f" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a52e206fdc7ceba44985b32349e6e5cb3" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1ab5dfbc22fd716d342382516eaab74a4e" prot="private" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a567a13735926bb363d5b9581f3cbd867" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>set_do_sync</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1ae75efee35b8c3958009deedc6f71993c" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>SystimeSync</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a8a5c10746954add1dcbea8c18eaf4ae1" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_systime_sync_1a71fec4c23566726e2766accd95e72d5e" prot="public" virt="non-virtual"><scope>haldls::vx::SystimeSync</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

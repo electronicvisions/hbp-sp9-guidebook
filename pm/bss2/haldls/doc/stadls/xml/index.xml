@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket" kind="class"><name>stadls::vx::PlaybackProgram::ContainerTicket</name>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1a95b904ecf28c537f983d02c7a628dc6d" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1a55861505f28cd072784c38d1b9369a19" kind="typedef"><name>ticket_impl_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1ae85487a4d41a9d04f81c508dff1a6067" kind="friend"><name>detail::PlaybackProgramBuilderAdapterImpl</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1a09043c8d73ba2f17a59f10229d4c2538" kind="variable"><name>m_coord</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1a91dcdc38e97e066ecf1bb92a2707fe91" kind="variable"><name>m_ticket_impl</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1abb5d115747a8eea874c34cd65257b60e" kind="function"><name>get</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1a8030742491577d1d03ff15f1bca9bcac" kind="function"><name>get_coordinate</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1a76cec2f238ffa7ad9f2172edd6d70ba2" kind="function"><name>get_fpga_time</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1ab7308af7e4ac305468bab8cdc6e405b9" kind="function"><name>valid</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket_1aa4fe66a636e8fb15a267c070d0fc6428" kind="function"><name>ContainerTicket</name></member>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container" kind="struct"><name>stadls::vx::v2::CoordinateToContainer</name>
+    <member refid="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container_1a0854e99b1fcc71e6bb6f775910346dc6" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1v3_1_1_coordinate_to_container" kind="struct"><name>stadls::vx::v3::CoordinateToContainer</name>
+    <member refid="structstadls_1_1vx_1_1v3_1_1_coordinate_to_container_1a4e7ae32a5bfd1364ec8c88af68cd45f0" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="classstadls_1_1_decode_visitor" kind="class"><name>stadls::DecodeVisitor</name>
+    <member refid="classstadls_1_1_decode_visitor_1aa1a13ee826baa0c605772a1ede5f099b" kind="typedef"><name>value_type</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1af147e7b7cbb291f14039a78d976f7180" kind="variable"><name>m_data</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1a2b2e2ce033d5ce69b078a8455cd44d02" kind="variable"><name>m_it</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1a3b70ebd82bdcc34a343f7d6c265151d5" kind="function"><name>DecodeVisitor</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1a6df9cc509df55801493e43f53274a086" kind="function"><name>operator()</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1a10acacd1784444097cbf72e2dc8574af" kind="function"><name>operator()</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1a62e7f379cb55d28d2e7fbf8da3edea76" kind="function"><name>operator()</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1ae290de14f4cd5358ee0d223f638a7ecf" kind="function"><name>decode</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1a6d6f3522c0b7b8bd4ebfc0b6e97e0c0d" kind="function"><name>decode</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1ab32e7cd599e39ff350d8e0544b142cc5" kind="function"><name>remaining</name></member>
+    <member refid="classstadls_1_1_decode_visitor_1aef20e5f97ae517f60e9907e51b7d3226" kind="function"><name>slice</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1v2_1_1_digital_init" kind="class"><name>stadls::vx::v2::DigitalInit</name>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_digital_init_1aefa3dccbc1472e73dc45528ebe3b8bf8" kind="function"><name>DigitalInit</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_digital_init_1abc14565b6cf4fc25fe505e65fc2e30f0" kind="friend"><name>stadls::vx::generate</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1ae53b60a9517423a2dd1cae1a6679f834" kind="typedef"><name>adplls_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1ade09b2f158acf0ebc37621f2e81c8aa7" kind="typedef"><name>Builder</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1afd30aecfa5ef7764af10bb901d989c97" kind="typedef"><name>capmem_block_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa18eb142a381171c781430b9e8800e8b" kind="typedef"><name>capmem_block_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a16c19fa163adbb241034a9db86ab83c4" kind="typedef"><name>Result</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a9f61e8806c222cfbf9b1134cfa46043f" kind="variable"><name>adplls</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a629b8a3bba85528705b646fd98ec7d17" kind="variable"><name>capmem_block_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa6386f9eccd91d8774325e468c6c1953" kind="variable"><name>capmem_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1abfc95b70a37942e526b5376df5cd3e9d" kind="variable"><name>dac_channel_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a0864169b4683f8bbf5463040bf0db827" kind="variable"><name>dac_control_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a1b514bb60f3d467e1b4ffb38ce943d3f" kind="variable"><name>enable_capmem</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa5c689d4b196450f9754864b974c21d3" kind="variable"><name>enable_highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a9f5164bcfc0a3af734f73577e2a0654a" kind="variable"><name>enable_xboard</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a4bc28506b00d3e0ed5ea101de7adbbc8" kind="variable"><name>highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a36b136fc8889dafcff30a34f870db879" kind="variable"><name>instruction_timeout</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1ae32077f1efc9a9cbbac2cfae0b61cf32" kind="variable"><name>jtag_clock_scaler</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a3097a7db5b09e5526678667205cbed19" kind="variable"><name>memory_timing</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a17b0af4e753f7f94e78da4f33129e327" kind="variable"><name>pll_clock_output_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a5a902bdb9b6ca86aa5e9febb52a5e9fe" kind="variable"><name>reference_generator_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a115ac1eb436a83185199b5273c42bb57" kind="variable"><name>shift_register</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a440d28e61b4150b31e21d5699bb95b9c" kind="variable"><name>synapse_bias_selection</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a23ca657911b3e3cbe746bceda256f906" kind="function"><name>generate</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1v3_1_1_digital_init" kind="class"><name>stadls::vx::v3::DigitalInit</name>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_digital_init_1ad0be2e58fd8ee033481a4e1d0f271c1c" kind="function"><name>DigitalInit</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_digital_init_1abc14565b6cf4fc25fe505e65fc2e30f0" kind="friend"><name>stadls::vx::generate</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa27ae84b0d5159a372ec8794726f1800" kind="typedef"><name>adplls_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a87c98e04b69615c04b0fecd4fefbca36" kind="typedef"><name>Builder</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a83a3389df93f5702a3b7b723103810ee" kind="typedef"><name>capmem_block_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1afa415c7ecfd65c4ef1e7fd9dfe80f0c9" kind="typedef"><name>capmem_block_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aac7abc0bce8d65cd2aea0c870b5bd3a6" kind="typedef"><name>Result</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a010f72743a3c21acf91899ff4fdd1ce7" kind="variable"><name>adplls</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ae03563bd1d5a61696da6e7321aef91c5" kind="variable"><name>capmem_block_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab105e4d2fb709b1765c907fdd640c063" kind="variable"><name>capmem_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a61e14ec3a1e388db97ebe06ad1ffd771" kind="variable"><name>dac_channel_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ac1e9f135e4c43bb9ca4b90fdb33ae2eb" kind="variable"><name>dac_control_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa92520d2804e48b0b3682ff4fcc28721" kind="variable"><name>enable_capmem</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a029e7548d155cc8bdbfe6bac7a38fe9c" kind="variable"><name>enable_highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca49342ed3ee19a9d989603fcca74d9b" kind="variable"><name>enable_xboard</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ade10433675dfc19a3f6dc82eb452fc3e" kind="variable"><name>highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a0ad736f5d1fef404b668bfcb32ea2633" kind="variable"><name>instruction_timeout</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab877516c4a091ce79096ec2a0cd82fb4" kind="variable"><name>jtag_clock_scaler</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a5996a3a35cee1c121b15d51d8233c2ec" kind="variable"><name>memory_timing</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca5f1a0a3accebe3e7ab800963ca9efb" kind="variable"><name>pll_clock_output_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a6934f3c5daff25e7d5c9f70242af72b3" kind="variable"><name>reference_generator_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a684abca46d9aa4cf572219157ddb934c" kind="variable"><name>shift_register</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a88e08e57870a2dff6c2f36676491f599" kind="variable"><name>synapse_bias_selection</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a2b121cc05aceb714c64e8008dbd6ecc5" kind="function"><name>generate</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1detail_1_1_dumper" kind="class"><name>stadls::vx::detail::Dumper</name>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a96ea4d734ecd9fd6b629bc2a512404c0" kind="typedef"><name>done_type</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1ab2f44cbb59a08132f4c843e5225bba0e" kind="friend"><name>cereal::access</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1ad65941e08d954f69a59aaee050df5ae4" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a938b73850f1a3a9be8d45aae6a7428d4" kind="variable"><name>m_dumpit</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a0f5a6f05012b38de0bfea19057be3092" kind="function"><name>Dumper</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a9852aa8f8e5a7004ea4699c3ffe5efc1" kind="function"><name>Dumper</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1ab71dc6fc90a608c251aed065785bdecf" kind="function"><name>Dumper</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1aeb32d09e1098f633b32fb4dc58c1f47c" kind="function"><name>~Dumper</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a5dffdbd9da2322892511f8ce4a2776d0" kind="function"><name>block_until</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a0d8cdede497578128436105aec0ce4dc" kind="function"><name>block_until</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a4ac973ee4720858a1686adec91963434" kind="function"><name>block_until</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a959acb0c05a7a2cc9d7bb8b45682da20" kind="function"><name>copy_back</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1abb54efef46a81522cffb9c34422484f9" kind="function"><name>done</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1aca1ef7840eaea8660657728688745b5f" kind="function"><name>empty</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a4d1cb770a4ad1d97f66d70d489cde467" kind="function"><name>merge_back</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a04d3b943863094eee3d33820cc080167" kind="function"><name>merge_front</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a6af19a3e71b95cd806de753915220cc5" kind="function"><name>operator=</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a3cb907cbb3aa5d1c737c7b5248ff897b" kind="function"><name>operator=</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a220f9108fcba9532b803a20d51bd1631" kind="function"><name>read</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a8e6bae8b55313201a631a436f2d16466" kind="function"><name>write</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a7d8a495b81cf11e1f44aa21ad8b4eb9b" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1v2_1_1_dumper_done" kind="struct"><name>stadls::vx::v2::DumperDone</name>
+    <member refid="structstadls_1_1vx_1_1v2_1_1_dumper_done_1ae40c63d1e390033a54f984a49a52aec5" kind="typedef"><name>coco_type</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1_dumper_done_1acd7a72ce7a348f45674d395a5eeb9918" kind="typedef"><name>values_type</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1_dumper_done_1ae303be6edaaffd13f1030f5b237b9e59" kind="variable"><name>values</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1_dumper_done_1a80d74172ed9204f3914001ee2ca6ecb4" kind="function"><name>DumperDone</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1_dumper_done_1a17bad851ced184296e8c2c262e438733" kind="function"><name>def</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1_dumper_done_1aabe111523e2b4a6ff337afa1a24e1a5e" kind="function"><name>operator!=</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1_dumper_done_1a67c9eb974139985b7de33ee212b56fa3" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1v3_1_1_dumper_done" kind="struct"><name>stadls::vx::v3::DumperDone</name>
+    <member refid="structstadls_1_1vx_1_1v3_1_1_dumper_done_1aa28a8bb697c9402da95b4191449e1a7f" kind="typedef"><name>coco_type</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1_dumper_done_1a5a2238d72d3e896b07c2e4f972192678" kind="typedef"><name>values_type</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1_dumper_done_1acdaa27f3b7281833eb93373e8fdd0e41" kind="variable"><name>values</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1_dumper_done_1a6cd8a8c4f30c92461d7834b217b5a951" kind="function"><name>DumperDone</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1_dumper_done_1aadc8874e99db32d56b18194d5b50b44f" kind="function"><name>def</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1_dumper_done_1a23cc7c179d2fe52dbd9d7b41d19e7f69" kind="function"><name>operator!=</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1_dumper_done_1a378b62183f3b1f7178eeac10de3f06c2" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classstadls_1_1_encode_visitor" kind="class"><name>stadls::EncodeVisitor</name>
+    <member refid="classstadls_1_1_encode_visitor_1a3e930fc3867f078a00fa537430bb5784" kind="typedef"><name>value_type</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1ad5de3197bdbda3be6898a7b6c959778b" kind="variable"><name>m_data</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1a6a29ceaf4a1821203e148e586b8de61b" kind="function"><name>EncodeVisitor</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1ad053df8c38ee39e777c8f831748d8f3b" kind="function"><name>operator()</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1abf25fa44df870745c5020ff2c9981bc6" kind="function"><name>operator()</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1a276c025504c6f6f89e6a2a174885be00" kind="function"><name>operator()</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1a8b3ee921c1c740d7a89db8b1cd7d139c" kind="function"><name>encode</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1ab3c087ae81685fef6d1e52d5dc4aff91" kind="function"><name>encode</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1a5e16f7da8fb8ca74f3454ee941418f90" kind="function"><name>encode</name></member>
+    <member refid="classstadls_1_1_encode_visitor_1ab806c62c3c82abbd11e469235a9c3750" kind="function"><name>encode</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1v2_1_1_experiment_init" kind="class"><name>stadls::vx::v2::ExperimentInit</name>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1ae53b60a9517423a2dd1cae1a6679f834" kind="typedef"><name>adplls_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a213e90ea640996c4ad4b625d7a7df6b9" kind="typedef"><name>Builder</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1afd30aecfa5ef7764af10bb901d989c97" kind="typedef"><name>capmem_block_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa18eb142a381171c781430b9e8800e8b" kind="typedef"><name>capmem_block_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a8603abb6b2a3f9df5f705b039b0a1e6c" kind="typedef"><name>column_correlation_quad_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a508d5c929709836d2c5436bec838fd00" kind="typedef"><name>column_current_quad_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a814a634b5b349981318ad7862589b285" kind="typedef"><name>common_correlation_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a24d65fce3e18e23db026e3b24aef4fe5" kind="typedef"><name>common_neuron_backend_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a94ce64e9c0877a092dd05d61f2900b8f" kind="typedef"><name>Result</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a9f61e8806c222cfbf9b1134cfa46043f" kind="variable"><name>adplls</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a629b8a3bba85528705b646fd98ec7d17" kind="variable"><name>capmem_block_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa6386f9eccd91d8774325e468c6c1953" kind="variable"><name>capmem_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1adfb751497439054aae8be028a6a0ffb9" kind="variable"><name>column_correlation_quad_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a4b8fd7e62018c42c1505adc3b5d13614" kind="variable"><name>column_current_quad_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1ab677e482e59826ebf7026e03a34fe7f5" kind="variable"><name>common_correlation_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a0ec9eb92dcdd910585bb2de8d6170f6a" kind="variable"><name>common_neuron_backend_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1abfc95b70a37942e526b5376df5cd3e9d" kind="variable"><name>dac_channel_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a0864169b4683f8bbf5463040bf0db827" kind="variable"><name>dac_control_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a1b514bb60f3d467e1b4ffb38ce943d3f" kind="variable"><name>enable_capmem</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa5c689d4b196450f9754864b974c21d3" kind="variable"><name>enable_highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a9f5164bcfc0a3af734f73577e2a0654a" kind="variable"><name>enable_xboard</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a4bc28506b00d3e0ed5ea101de7adbbc8" kind="variable"><name>highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a36b136fc8889dafcff30a34f870db879" kind="variable"><name>instruction_timeout</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1ae32077f1efc9a9cbbac2cfae0b61cf32" kind="variable"><name>jtag_clock_scaler</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a3097a7db5b09e5526678667205cbed19" kind="variable"><name>memory_timing</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a17b0af4e753f7f94e78da4f33129e327" kind="variable"><name>pll_clock_output_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a5a902bdb9b6ca86aa5e9febb52a5e9fe" kind="variable"><name>reference_generator_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a115ac1eb436a83185199b5273c42bb57" kind="variable"><name>shift_register</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a440d28e61b4150b31e21d5699bb95b9c" kind="variable"><name>synapse_bias_selection</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1aa6cd68c1e5ea92599598d777541cfca8" kind="function"><name>ExperimentInit</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1a5e23703e9085c8cd5ceded3032de0252" kind="friend"><name>stadls::vx::generate</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1_experiment_init_1adcfb4bc4ea5a428d7242fc656452f88a" kind="function"><name>generate</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1v3_1_1_experiment_init" kind="class"><name>stadls::vx::v3::ExperimentInit</name>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa27ae84b0d5159a372ec8794726f1800" kind="typedef"><name>adplls_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ac7bed4537f8b1a6e679ebacd7ecfac73" kind="typedef"><name>Builder</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a83a3389df93f5702a3b7b723103810ee" kind="typedef"><name>capmem_block_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1afa415c7ecfd65c4ef1e7fd9dfe80f0c9" kind="typedef"><name>capmem_block_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a145fc79c54a770b643840f20d98ba36b" kind="typedef"><name>column_correlation_quad_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a66b459dbe5096bc9cafbd566a2f7c967" kind="typedef"><name>column_current_quad_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a480a129612dfa95ccd60277a531428e8" kind="typedef"><name>common_correlation_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a48bdcb810930c46501cd53bf8391c6f1" kind="typedef"><name>common_neuron_backend_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ad04e06d4a67ea10bcc1e53dd733a3519" kind="typedef"><name>Result</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a010f72743a3c21acf91899ff4fdd1ce7" kind="variable"><name>adplls</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ae03563bd1d5a61696da6e7321aef91c5" kind="variable"><name>capmem_block_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab105e4d2fb709b1765c907fdd640c063" kind="variable"><name>capmem_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a53068f1598d2b244dc4371b9a0e134f2" kind="variable"><name>column_correlation_quad_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a9630a5208f71d845988c2041b6687e7f" kind="variable"><name>column_current_quad_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1ab9295d42dde267668a90aa47d6282202" kind="variable"><name>common_correlation_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a637d0b104a0f33b99d05c87b64f6adac" kind="variable"><name>common_neuron_backend_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a61e14ec3a1e388db97ebe06ad1ffd771" kind="variable"><name>dac_channel_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ac1e9f135e4c43bb9ca4b90fdb33ae2eb" kind="variable"><name>dac_control_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa92520d2804e48b0b3682ff4fcc28721" kind="variable"><name>enable_capmem</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a029e7548d155cc8bdbfe6bac7a38fe9c" kind="variable"><name>enable_highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca49342ed3ee19a9d989603fcca74d9b" kind="variable"><name>enable_xboard</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ade10433675dfc19a3f6dc82eb452fc3e" kind="variable"><name>highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a0ad736f5d1fef404b668bfcb32ea2633" kind="variable"><name>instruction_timeout</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab877516c4a091ce79096ec2a0cd82fb4" kind="variable"><name>jtag_clock_scaler</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a5996a3a35cee1c121b15d51d8233c2ec" kind="variable"><name>memory_timing</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca5f1a0a3accebe3e7ab800963ca9efb" kind="variable"><name>pll_clock_output_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a6934f3c5daff25e7d5c9f70242af72b3" kind="variable"><name>reference_generator_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a684abca46d9aa4cf572219157ddb934c" kind="variable"><name>shift_register</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a88e08e57870a2dff6c2f36676491f599" kind="variable"><name>synapse_bias_selection</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1aa14999a0b3b6ad2c5551bf56b4a7555a" kind="function"><name>ExperimentInit</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a5e23703e9085c8cd5ceded3032de0252" kind="friend"><name>stadls::vx::generate</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1_experiment_init_1a0c1f62db01bfaf9f0b3f95f1193b35a5" kind="function"><name>generate</name></member>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link" kind="struct"><name>stadls::vx::v2::detail::InitGenerator::HighspeedLink</name>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1ae7210dc47436f5b72595abe666bc5446" kind="typedef"><name>phy_configs_chip_type</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a56c9a67fcff8e9f3f0b1a36efaf8893b" kind="typedef"><name>phy_configs_fpga_type</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1aaed9e8d76633f7b7b1c9ff46db86885d" kind="variable"><name>common_phy_config_chip</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a5aab30c031b5059a4447a5d041a21f8d" kind="variable"><name>common_phy_config_fpga</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a2b090db79113aa0bf44476a3bffd651f" kind="variable"><name>enable_systime</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a6efd8b9dc62230a45024dc570293ca15" kind="variable"><name>phy_configs_chip</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1aff10c06cc87cfa7897a4eb36b5d2b916" kind="variable"><name>phy_configs_fpga</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a4aaa8b1ab7c3e180c890f5ac7f563f48" kind="variable"><name>systime_sync_base</name></member>
+    <member refid="structstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1_1_highspeed_link_1a26154b0cce8b944062adf2bbd232d41c" kind="function"><name>HighspeedLink</name></member>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link" kind="struct"><name>stadls::vx::v3::detail::InitGenerator::HighspeedLink</name>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1a8a4e9b32c2c9d705e355097a74b924cc" kind="typedef"><name>phy_configs_chip_type</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1a232fa05a3fc7b10c73f9733f634d1046" kind="typedef"><name>phy_configs_fpga_type</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1a7b60a70482e6a2df617a2364c080ef5f" kind="variable"><name>common_phy_config_chip</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1ac3616a60ba1285d2f07534dfd7f9a34c" kind="variable"><name>common_phy_config_fpga</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1a7eddbb08c2ab9dd39f9a309d0a365999" kind="variable"><name>enable_systime</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1afe1321de3889367f6ca7322a26cecfe6" kind="variable"><name>phy_configs_chip</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1a96b4529a1a93d92875445d214b061235" kind="variable"><name>phy_configs_fpga</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1add7d0d49919f33df725e790f2f1f31d4" kind="variable"><name>systime_sync_base</name></member>
+    <member refid="structstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1_1_highspeed_link_1a5b1125253495883c01b9c7867c8f2458" kind="function"><name>HighspeedLink</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator" kind="class"><name>stadls::vx::v2::detail::InitGenerator</name>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1ae53b60a9517423a2dd1cae1a6679f834" kind="typedef"><name>adplls_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1ade09b2f158acf0ebc37621f2e81c8aa7" kind="typedef"><name>Builder</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1afd30aecfa5ef7764af10bb901d989c97" kind="typedef"><name>capmem_block_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa18eb142a381171c781430b9e8800e8b" kind="typedef"><name>capmem_block_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a16c19fa163adbb241034a9db86ab83c4" kind="typedef"><name>Result</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a9f61e8806c222cfbf9b1134cfa46043f" kind="variable"><name>adplls</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a629b8a3bba85528705b646fd98ec7d17" kind="variable"><name>capmem_block_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa6386f9eccd91d8774325e468c6c1953" kind="variable"><name>capmem_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1abfc95b70a37942e526b5376df5cd3e9d" kind="variable"><name>dac_channel_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a0864169b4683f8bbf5463040bf0db827" kind="variable"><name>dac_control_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a1b514bb60f3d467e1b4ffb38ce943d3f" kind="variable"><name>enable_capmem</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aa5c689d4b196450f9754864b974c21d3" kind="variable"><name>enable_highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a9f5164bcfc0a3af734f73577e2a0654a" kind="variable"><name>enable_xboard</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a4bc28506b00d3e0ed5ea101de7adbbc8" kind="variable"><name>highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a36b136fc8889dafcff30a34f870db879" kind="variable"><name>instruction_timeout</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1ae32077f1efc9a9cbbac2cfae0b61cf32" kind="variable"><name>jtag_clock_scaler</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a3097a7db5b09e5526678667205cbed19" kind="variable"><name>memory_timing</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a17b0af4e753f7f94e78da4f33129e327" kind="variable"><name>pll_clock_output_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a5a902bdb9b6ca86aa5e9febb52a5e9fe" kind="variable"><name>reference_generator_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a115ac1eb436a83185199b5273c42bb57" kind="variable"><name>shift_register</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a440d28e61b4150b31e21d5699bb95b9c" kind="variable"><name>synapse_bias_selection</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1af6a3c5c28973d7dbad7494587c986536" kind="function"><name>InitGenerator</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a17e160bc3fa7b7e06f84d5edb2c40d9c" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1aeff247756e6948239a82c5a022ab6ad7" kind="friend"><name>stadls::vx::generate</name></member>
+    <member refid="classstadls_1_1vx_1_1v2_1_1detail_1_1_init_generator_1a23ca657911b3e3cbe746bceda256f906" kind="function"><name>generate</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator" kind="class"><name>stadls::vx::v3::detail::InitGenerator</name>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa27ae84b0d5159a372ec8794726f1800" kind="typedef"><name>adplls_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a87c98e04b69615c04b0fecd4fefbca36" kind="typedef"><name>Builder</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a83a3389df93f5702a3b7b723103810ee" kind="typedef"><name>capmem_block_config_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1afa415c7ecfd65c4ef1e7fd9dfe80f0c9" kind="typedef"><name>capmem_block_type</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aac7abc0bce8d65cd2aea0c870b5bd3a6" kind="typedef"><name>Result</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a010f72743a3c21acf91899ff4fdd1ce7" kind="variable"><name>adplls</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ae03563bd1d5a61696da6e7321aef91c5" kind="variable"><name>capmem_block_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab105e4d2fb709b1765c907fdd640c063" kind="variable"><name>capmem_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a61e14ec3a1e388db97ebe06ad1ffd771" kind="variable"><name>dac_channel_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ac1e9f135e4c43bb9ca4b90fdb33ae2eb" kind="variable"><name>dac_control_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aa92520d2804e48b0b3682ff4fcc28721" kind="variable"><name>enable_capmem</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a029e7548d155cc8bdbfe6bac7a38fe9c" kind="variable"><name>enable_highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca49342ed3ee19a9d989603fcca74d9b" kind="variable"><name>enable_xboard</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ade10433675dfc19a3f6dc82eb452fc3e" kind="variable"><name>highspeed_link</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a0ad736f5d1fef404b668bfcb32ea2633" kind="variable"><name>instruction_timeout</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab877516c4a091ce79096ec2a0cd82fb4" kind="variable"><name>jtag_clock_scaler</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a5996a3a35cee1c121b15d51d8233c2ec" kind="variable"><name>memory_timing</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aca5f1a0a3accebe3e7ab800963ca9efb" kind="variable"><name>pll_clock_output_block</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a6934f3c5daff25e7d5c9f70242af72b3" kind="variable"><name>reference_generator_config</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a684abca46d9aa4cf572219157ddb934c" kind="variable"><name>shift_register</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a88e08e57870a2dff6c2f36676491f599" kind="variable"><name>synapse_bias_selection</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1ab342e7c30156933a3bd35a62269f9731" kind="function"><name>InitGenerator</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a17e160bc3fa7b7e06f84d5edb2c40d9c" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1aeff247756e6948239a82c5a022ab6ad7" kind="friend"><name>stadls::vx::generate</name></member>
+    <member refid="classstadls_1_1vx_1_1v3_1_1detail_1_1_init_generator_1a2b121cc05aceb714c64e8008dbd6ecc5" kind="function"><name>generate</name></member>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1_playback_generator_return" kind="struct"><name>stadls::vx::PlaybackGeneratorReturn</name>
+    <member refid="structstadls_1_1vx_1_1_playback_generator_return_1a89543993671981f333ad48c5ab2c881c" kind="variable"><name>builder</name></member>
+    <member refid="structstadls_1_1vx_1_1_playback_generator_return_1ac5e41d66029fbf14dc4a1d8edf06f072" kind="variable"><name>result</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1_playback_program" kind="class"><name>stadls::vx::PlaybackProgram</name>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1aa3bb1b968ecfa004bf4ad2aa4824ff4c" kind="typedef"><name>_values_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a318bab1a9d96f9c6c94ec341a1e3deb6" kind="typedef"><name>fpga_time_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a0ca97b6fee2a7ae86895653b9e1841c1" kind="typedef"><name>highspeed_link_notifications_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a65b5cde9ee6155038836ce1f492cd7e0" kind="typedef"><name>madc_sample_pack_counts_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a1a5a72ee8bdd29d32c938ac36083cb50" kind="typedef"><name>madc_samples_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1ab961f6cd3a88e4caef83f3f2e7c7d2e0" kind="typedef"><name>spike_pack_counts_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a9339a1aac0d14892b2a0eac7578727a0" kind="typedef"><name>spikes_type</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1ad4c63a538cd2665f55c1650d3a6aed4c" kind="variable"><name>ism</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1acdf20ad0be7eb6b38499dc6b1167f9d1" kind="function"><name>PlaybackProgram</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1ad0c0b503d609556a40d965035978adc3" kind="function"><name>attr</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a3b42619776ee71e4117e7b92acbed539" kind="function"><name>empty</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a308f8794ca17127b25ca3d4a84eeafce" kind="function"><name>get_highspeed_link_notifications</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1afdd09c55519595cc6931d53883b3a807" kind="function"><name>get_madc_samples</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a5492571cb5c68720c0d1ae2f9ced4031" kind="function"><name>get_madc_samples_pack_counts</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a4b326f47c541bc5ff521556e47b13563" kind="function"><name>get_spikes</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a6edb1c0fe6f38e88db9b0126c651eba4" kind="function"><name>get_spikes_pack_counts</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1ad5649ff472850a33b77c618e66af8570" kind="function"><name>get_unsupported_targets</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a20b9c8b537b4101e5ce8c1d265f30625" kind="function"><name>operator!=</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a6c83d8191338f0f36ae6c7dcb559d76a" kind="function"><name>operator==</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1a528ca170d4ef4b168a1b425b7746d0e6" kind="function"><name>pybind11::bind_vector</name></member>
+    <member refid="classstadls_1_1vx_1_1_playback_program_1aa2ef584f3c2808b1307ac7520f258d6d" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kind="class"><name>stadls::vx::detail::PlaybackProgramBuilderAdapter</name>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a13117ae7407bf0fc776843a38cd77ebb" kind="typedef"><name>Builder</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a337b5fe8e952704b0bf2237d4afdca6a" kind="typedef"><name>dumper_types</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a64279434ad02b28642a264379648ee3a" kind="variable"><name>else</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a0865b4e202b52faa68acad9249bc91ba" kind="function"><name>PlaybackProgramBuilderAdapter</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a540971dcbff22763060f74d67974e721" kind="function"><name>PlaybackProgramBuilderAdapter</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1afba8258735a7905da94abf77e06e5a30" kind="function"><name>PlaybackProgramBuilderAdapter</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a66a0508ac8ea1780e696208163d7e1af" kind="function"><name>~PlaybackProgramBuilderAdapter</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aebfe97e31255139d1f0078b98d75f0d5" kind="function"><name>block_until</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ac7182906a56deaa3b7675d3e989fe129" kind="function"><name>block_until</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a320de8d31c7586f2caa579b7f037246d" kind="function"><name>block_until</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a2f9754ff8d80cdf9dcabd8f1c69e93d0" kind="function"><name>copy_back</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a366affde17ad9967be71949ce6ff4e2f" kind="function"><name>copy_back</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a7a40f940a196f6815cde20924743dabe" kind="function"><name>def</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a02b31bbffe51fce8e4e724f3d20d1d5b" kind="function"><name>done</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a854c4fb68c097a0928e30c260efd0c8c" kind="function"><name>if</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aaed3149bf4518ef01cb17e0fed26f244" kind="function"><name>merge_back</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ab3ecfd04d0a0482da3ff887aca1650ed" kind="function"><name>merge_back</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a2e9597b423c604781254b408cbaaef5c" kind="function"><name>merge_back</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a771d81a5d314234857090189371154d9" kind="function"><name>merge_back</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a7f58f517caff7e46b808eeae88e5996b" kind="function"><name>operator=</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ab070242808d4278064b1044c01236248" kind="function"><name>read</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1aeb175f07e9d5b09b7d4c2cf443302282" kind="function"><name>read</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a791de8ff59aece4524f4108d02d8be7a" kind="function"><name>str</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1adaa5ed11ff855da9680c6cfe6153f567" kind="function"><name>wait_until</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ae1834f713c5dcd86b5abdb24209f23a5" kind="function"><name>write</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a0e5d9db260c3835f7696496efb85581a" kind="function"><name>write</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1a17a10d18d27592abae40f2419c34fa9e" kind="function"><name>write</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1ac4e2ff1450ab5b8f562390b020861e11" kind="function"><name>write</name></member>
+    <member refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_1af8c1ede2cb412c82d139edbbec2ffb5e" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_impl" kind="class"><name>stadls::vx::detail::PlaybackProgramBuilderAdapterImpl</name>
+  </compound>
+  <compound refid="structstadls_1_1_read_address_visitor" kind="struct"><name>stadls::ReadAddressVisitor</name>
+    <member refid="structstadls_1_1_read_address_visitor_1a750a2b865f1a60ad89dde3c4272e7998" kind="variable"><name>addresses</name></member>
+    <member refid="structstadls_1_1_read_address_visitor_1a35df4b7f4203b1caa6be6ceb9a0f3498" kind="function"><name>operator()</name></member>
+    <member refid="structstadls_1_1_read_address_visitor_1a1e013aa2ade9c4c43d71f06e30c1eeeb" kind="function"><name>operator()</name></member>
+    <member refid="structstadls_1_1_read_address_visitor_1a58a9b69f5a19e90ac4fd0cb018a413b4" kind="function"><name>operator()</name></member>
+    <member refid="structstadls_1_1_read_address_visitor_1a6d857a1207e76c0c937440d4ba988e0c" kind="function"><name>operator()</name></member>
+    <member refid="structstadls_1_1_read_address_visitor_1aa27b3bc7a019b62d0caa841ef67ad89a" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="classstadls_1_1vx_1_1_reinit_stack_entry" kind="class"><name>stadls::vx::ReinitStackEntry</name>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1ad19f0ce6b01682ff696e164a47cd661f" kind="variable"><name>m_impl</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a55b89fd9707e675868e69d80ca7b9120" kind="function"><name>ReinitStackEntry</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a73435015a36c4c6768b0bf9e5a10826f" kind="function"><name>ReinitStackEntry</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a77e536e7d70dc04a6f4ca871a889644e" kind="function"><name>ReinitStackEntry</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a965eb05bed6415c2dc299a3eb5324c1c" kind="function"><name>ReinitStackEntry</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a90e42e3e5e8c8cc1a4250e9007c862ee" kind="function"><name>~ReinitStackEntry</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1af9592b524fde6775441e427adb74725d" kind="function"><name>enforce</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a1c1f0e37fbf7e947eeef05985519367a" kind="function"><name>operator=</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a16f3c1a40385a7eb809348f390ac0e13" kind="function"><name>pop</name></member>
+    <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a439e2f1ee8477bb5d59c768dcdc3fb02" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1detail_1_1to__ticket__variant" kind="struct"><name>stadls::vx::detail::to_ticket_variant</name>
+  </compound>
+  <compound refid="structstadls_1_1vx_1_1detail_1_1to__ticket__variant_3_01hate_1_1type__list_3_01_backend_container_8_8_8_01_4_01_4" kind="struct"><name>stadls::vx::detail::to_ticket_variant&lt; hate::type_list&lt; BackendContainer... &gt; &gt;</name>
+    <member refid="structstadls_1_1vx_1_1detail_1_1to__ticket__variant_3_01hate_1_1type__list_3_01_backend_container_8_8_8_01_4_01_4_1a362ff7163be0795323e3772959f481e9" kind="typedef"><name>type</name></member>
+  </compound>
+  <compound refid="structstadls_1_1_write_address_visitor" kind="struct"><name>stadls::WriteAddressVisitor</name>
+    <member refid="structstadls_1_1_write_address_visitor_1afe10baaf15f93df9776e30d220353e42" kind="variable"><name>addresses</name></member>
+    <member refid="structstadls_1_1_write_address_visitor_1ac1bb86b48554893b62e422cc3abc4c66" kind="function"><name>operator()</name></member>
+    <member refid="structstadls_1_1_write_address_visitor_1a1d0f3b3918ee0393b3f52949b1a4f2f3" kind="function"><name>operator()</name></member>
+    <member refid="structstadls_1_1_write_address_visitor_1ac226027340de83e170d37179fc7701d9" kind="function"><name>operator()</name></member>
+    <member refid="structstadls_1_1_write_address_visitor_1a26a74f87e99d59521de30210344f68b5" kind="function"><name>operator()</name></member>
+    <member refid="structstadls_1_1_write_address_visitor_1aeba30aab56cd847d4b9656504af52475" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="namespacefisch" kind="namespace"><name>fisch</name>
+  </compound>
+  <compound refid="namespacefisch_1_1vx" kind="namespace"><name>fisch::vx</name>
+  </compound>
+  <compound refid="namespacestadls" kind="namespace"><name>stadls</name>
+  </compound>
+  <compound refid="namespacestadls_1_1vx" kind="namespace"><name>stadls::vx</name>
+    <member refid="namespacestadls_1_1vx_1a130b5fbd43a12691e277eed19dc7c525" kind="typedef"><name>RunTimeInfo</name></member>
+    <member refid="namespacestadls_1_1vx_1a3cf7b4985a76326bd2fdc3928120bf81" kind="variable"><name>attr</name></member>
+    <member refid="namespacestadls_1_1vx_1a3880c59ccc60e57b9f4a890c325806ef" kind="variable"><name>ism</name></member>
+    <member refid="namespacestadls_1_1vx_1ab04502332db007f0a9c340dd0de88a03" kind="variable"><name>playback_memory_size_to_fpga</name></member>
+    <member refid="namespacestadls_1_1vx_1aa773803e416e20f8c231a310dec2b034" kind="variable"><name>to_numpy</name></member>
+    <member refid="namespacestadls_1_1vx_1a6bcf3979814994cecc15d42e2790b00b" kind="function"><name>attr</name></member>
+    <member refid="namespacestadls_1_1vx_1ade178771c7299835d3759768bfc6c348" kind="function"><name>convert_to_chip</name></member>
+    <member refid="namespacestadls_1_1vx_1ace3e92b9e5201dd432127ee207ca0aa2" kind="function"><name>convert_to_chip</name></member>
+    <member refid="namespacestadls_1_1vx_1a17d62fd9638c9e4092996e18fa54fbe9" kind="function"><name>convert_to_chip</name></member>
+    <member refid="namespacestadls_1_1vx_1aa2a2e771de5e241e2bb6d78ba397bf66" kind="function"><name>decode_ones</name></member>
+    <member refid="namespacestadls_1_1vx_1aa48113bb8f2a41dce0d71a02d85ae017" kind="function"><name>decode_ones</name></member>
+    <member refid="namespacestadls_1_1vx_1af233db2e50cbbeaf73dd3ec2652eca93" kind="function"><name>decode_ones</name></member>
+    <member refid="namespacestadls_1_1vx_1adf2e1b0efb7495993f8a92039dc704bc" kind="function"><name>decode_random</name></member>
+    <member refid="namespacestadls_1_1vx_1ab39a26701bf643d6b19bf4256b977f73" kind="function"><name>decode_random</name></member>
+    <member refid="namespacestadls_1_1vx_1a298070adf892408c308552ec45fb11b9" kind="function"><name>decode_random</name></member>
+    <member refid="namespacestadls_1_1vx_1a296854b28cbe24984e9764672ce5fe19" kind="function"><name>decode_random</name></member>
+    <member refid="namespacestadls_1_1vx_1a2f1e50308f80502d8ad962248d46623b" kind="function"><name>decode_random</name></member>
+    <member refid="namespacestadls_1_1vx_1a83ee14efd4ef099f0e877b3f649a8f2b" kind="function"><name>decode_random</name></member>
+    <member refid="namespacestadls_1_1vx_1afaf1817461388b1848f72340fb4a925c" kind="function"><name>generate</name></member>
+    <member refid="namespacestadls_1_1vx_1add6c62d85e08ba6153d8453f0c1929cb" kind="function"><name>pybind11::bind_vector&lt; stadls::vx::PlaybackProgram::madc_samples_type &gt;</name></member>
+    <member refid="namespacestadls_1_1vx_1a99cb458d1d034c8843db54f7fd28d24f" kind="function"><name>run</name></member>
+    <member refid="namespacestadls_1_1vx_1a05bc5162f4ab0d74dfff7f9b0b98a4e8" kind="function"><name>run</name></member>
+    <member refid="namespacestadls_1_1vx_1ae46fd475ed49d3bae258eb2462efb9f3" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="namespacestadls_1_1vx_1_1detail" kind="namespace"><name>stadls::vx::detail</name>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a53792440f7baa1a1276e6521b526b391" kind="typedef"><name>Impl</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a7799cad81b47176c7af804d4504f5818" kind="variable"><name>m_builder_impl</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1ac25cff478b4878bf110ac946d9d5caec" kind="variable"><name>m_unsupported_targets</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a9e6b5b81e5ac074dca78a4e0609ef3f5" kind="function"><name>count_decoding_words</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a2e02cd26870b797becec747faa1b85bd" kind="function"><name>empty</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a6de39b3738add5415dd7d616a87512ec" kind="function"><name>get_coord</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a02df0cf4f2fb133e391ee3f9384b7d85" kind="function"><name>is_write_only</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a9775181c7a7e034d3a91edf8ea5adc73" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a9de08d7bf16bc231c0f49297dbb4dbe4" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1aefbda718239b6191ffa4c9acc35207d3" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a8a57b618ec6a804675957149e2c93ac5" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1aa4951d0083ff73a43619cdd5f2038b5a" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1afc6bad4f992b1c4c6511c6b939cabc41" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a738efcebedd132ca3e9e6359c98b2863" kind="function"><name>serialize</name></member>
+    <member refid="namespacestadls_1_1vx_1_1detail_1a6036280811d24d93a4b4342a95659897" kind="function"><name>size_to_fpga</name></member>
+  </compound>
+  <compound refid="namespacestadls_1_1vx_1_1v2" kind="namespace"><name>stadls::vx::v2</name>
+    <member refid="namespacestadls_1_1vx_1_1v2_1af65c44ab331c7b712965bbbce425bd31" kind="typedef"><name>container_list</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a657d37d599e6409611dee9f37fca1e8e" kind="typedef"><name>coordinate_list</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1abbee132afae6831074bf262c9bb49b7e" kind="typedef"><name>Dumper</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1ad131afa5fe29cd1aae4a419969558f0f" kind="typedef"><name>PlaybackGeneratorReturn</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a957c21e0c44f1a6dea5a5e63b21c1c38" kind="typedef"><name>PlaybackProgram</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a79d496550462234929971ab82255d343" kind="typedef"><name>PlaybackProgramBuilder</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1aaf595cae62595ecd32c4e1a77e8fc682" kind="typedef"><name>PlaybackProgramBuilderDumper</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a9e4b8b1dd8322b8b199fce23aba04aad" kind="typedef"><name>ReinitStackEntry</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a1eac22d2ea3c71bd23e95e83d4e4972c" kind="variable"><name>access</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a14d07f64f62c9071434fcf2800ec3be9" kind="variable"><name>helper</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1afdd6f35a7b7279a752ee9e0e85a46ebd" kind="variable"><name>override</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a266f84c9bc15c8dd14385e29f3e859e2" kind="function"><name>convert_to_builder</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a69bf8eb65488d050b4af7fa9d61652e9" kind="function"><name>convert_to_builder</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1af673e2a12a57067ba4a6134fbbce788b" kind="function"><name>convert_to_builder</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a45584c3c21d0334393567ec7044f0a0c" kind="function"><name>def</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a989431121b048c82aa45b34e96571289" kind="function"><name>def</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a0ac4a293170e7ebe8c4c0fe69b7aa4c9" kind="function"><name>generate</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1af56f315983b5e6c3ede4707fbb0a299c" kind="function"><name>run</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v2_1a9559e5f92d6ac37ac0d00de1d95711c8" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="namespacestadls_1_1vx_1_1v2_1_1detail" kind="namespace"><name>stadls::vx::v2::detail</name>
+  </compound>
+  <compound refid="namespacestadls_1_1vx_1_1v3" kind="namespace"><name>stadls::vx::v3</name>
+    <member refid="namespacestadls_1_1vx_1_1v3_1aa79545a1f8c56f83db9c484b9a2d20d3" kind="typedef"><name>container_list</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1a19cbec176f6f8b0ed22cd4f9d4285144" kind="typedef"><name>coordinate_list</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1abbf9c35b8174bcda7c3cc64370743dd6" kind="typedef"><name>Dumper</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1a833d1a884822a9978495d628a01df293" kind="typedef"><name>PlaybackGeneratorReturn</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1ab0880ec9f26ef2893a1fdd69d3ea843d" kind="typedef"><name>PlaybackProgram</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1a6731a47ca1d52727cb67c9892d84e451" kind="typedef"><name>PlaybackProgramBuilder</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1aa9b882cea9bcd0483054998ddcacecc8" kind="typedef"><name>PlaybackProgramBuilderDumper</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1ab630ec323a31c1680a468c7692e232e1" kind="typedef"><name>ReinitStackEntry</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1ad0adfce64935ac424760cc3332c64723" kind="variable"><name>access</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1a12c786e313c985cef4a88df88e2868d4" kind="variable"><name>helper</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1afe143ac4b693fbbc8c35b973316ba244" kind="variable"><name>override</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1a35b46d073c321e71b561ab6b877a9277" kind="function"><name>convert_to_builder</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1aa9ce5e1c6f9d806feb8efc3e21d4a18c" kind="function"><name>convert_to_builder</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1af5f340867dddd8b1986fc0ad3dd0919c" kind="function"><name>convert_to_builder</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1a71f0c9d38b5eae0f2f2d752d49d8053d" kind="function"><name>def</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1aab874720e2f3a058d0daf15dd761dc95" kind="function"><name>def</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1ab02dcc48fc5f4d904aee458ab3fd2c88" kind="function"><name>generate</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1a4495b1cf8bd9a9b0fd1e713f51fc6928" kind="function"><name>run</name></member>
+    <member refid="namespacestadls_1_1vx_1_1v3_1a4479380a7641447f2ae6d65b167654f6" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="namespacestadls_1_1vx_1_1v3_1_1detail" kind="namespace"><name>stadls::vx::v3::detail</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="visitors_8h" kind="file"><name>visitors.h</name>
+  </compound>
+  <compound refid="constants_8h" kind="file"><name>constants.h</name>
+  </compound>
+  <compound refid="decode_8h" kind="file"><name>decode.h</name>
+    <member refid="decode_8h_1a7b21067a695ee0453e6d9bd594ccecd1" kind="define"><name>CONCAT</name></member>
+    <member refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kind="define"><name>ID</name></member>
+    <member refid="decode_8h_1a18d295a837ac71add5578860b55e5502" kind="define"><name>STR</name></member>
+    <member refid="decode_8h_1abe87b341f562fd1cf40b7672e4d759da" kind="define"><name>XSTR</name></member>
+  </compound>
+  <compound refid="v2_2decode_8h" kind="file"><name>decode.h</name>
+    <member refid="v2_2decode_8h_1a3e1b6949d331de046719e3cae03afa03" kind="define"><name>CHIP_REVISION</name></member>
+  </compound>
+  <compound refid="v3_2decode_8h" kind="file"><name>decode.h</name>
+    <member refid="v3_2decode_8h_1a3e1b6949d331de046719e3cae03afa03" kind="define"><name>CHIP_REVISION</name></member>
+  </compound>
+  <compound refid="dumper_8h" kind="file"><name>dumper.h</name>
+  </compound>
+  <compound refid="v2_2dumper_8h" kind="file"><name>dumper.h</name>
+    <member refid="v2_2dumper_8h_1a81489192049f471a239ebc8b4e314854" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="v2_2dumper_8h_1a81489192049f471a239ebc8b4e314854" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="v3_2dumper_8h" kind="file"><name>dumper.h</name>
+    <member refid="v3_2dumper_8h_1a81489192049f471a239ebc8b4e314854" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="v3_2dumper_8h_1a81489192049f471a239ebc8b4e314854" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="genpybind_8h" kind="file"><name>genpybind.h</name>
+    <member refid="genpybind_8h_1ae9173eb2b6761db7cc920518fa3f8441" kind="define"><name>GENPYBIND_TAG_STADLS_VX</name></member>
+    <member refid="genpybind_8h_1a46466ffd3be4e6be36f232c09efbe85f" kind="define"><name>GENPYBIND_TAG_STADLS_VX_V2</name></member>
+    <member refid="genpybind_8h_1a14ccfaa0b72073e037c7cf65f827453c" kind="define"><name>GENPYBIND_TAG_STADLS_VX_V3</name></member>
+  </compound>
+  <compound refid="playback__generator_8h" kind="file"><name>playback_generator.h</name>
+  </compound>
+  <compound refid="v2_2playback__generator_8h" kind="file"><name>playback_generator.h</name>
+    <member refid="v2_2playback__generator_8h_1ac0eb81d0730a7158a73358c65809f678" kind="function"><name>class_&lt;::stadls::vx::PlaybackGenerator, PyPlaybackGenerator &gt;</name></member>
+    <member refid="v2_2playback__generator_8h_1ac6c1e54270adc4e6691247b61e62b111" kind="function"><name>def</name></member>
+  </compound>
+  <compound refid="v3_2playback__generator_8h" kind="file"><name>playback_generator.h</name>
+    <member refid="v3_2playback__generator_8h_1ac0eb81d0730a7158a73358c65809f678" kind="function"><name>class_&lt;::stadls::vx::PlaybackGenerator, PyPlaybackGenerator &gt;</name></member>
+    <member refid="v3_2playback__generator_8h_1ac6c1e54270adc4e6691247b61e62b111" kind="function"><name>def</name></member>
+  </compound>
+  <compound refid="playback__program_8h" kind="file"><name>playback_program.h</name>
+    <member refid="playback__program_8h_1a119e4d72651a5ff3d6abe5ead7b79f5a" kind="variable"><name>m_program_impl</name></member>
+    <member refid="playback__program_8h_1aa1e3fc11ae7a9173c9ee249a7a1c9006" kind="variable"><name>m_unsupported_targets</name></member>
+    <member refid="playback__program_8h_1a8d09dc5edfa58c7a2aa1f2588936471b" kind="variable"><name>ReinitStackEntry</name></member>
+    <member refid="playback__program_8h_1a2a65f9ee2106c4c75fdbdf3b8ea12115" kind="function"><name>PlaybackProgram</name></member>
+    <member refid="playback__program_8h_1a008f194b604ac75e06ee31969ea09c9d" kind="function"><name>run</name></member>
+    <member refid="playback__program_8h_1ae2cb039616c1db5b08ab8600880f4487" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="v2_2playback__program_8h" kind="file"><name>playback_program.h</name>
+    <member refid="v2_2playback__program_8h_1a81489192049f471a239ebc8b4e314854" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="v3_2playback__program_8h" kind="file"><name>playback_program.h</name>
+    <member refid="v3_2playback__program_8h_1a81489192049f471a239ebc8b4e314854" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="playback__program__builder_8h" kind="file"><name>playback_program_builder.h</name>
+    <member refid="playback__program__builder_8h_1a290cd8e22d39554e4e65602d3168ddce" kind="typedef"><name>Builder</name></member>
+    <member refid="playback__program__builder_8h_1a0541932379b6d7c6f8414e434242f7f8" kind="typedef"><name>dumper_types</name></member>
+    <member refid="playback__program__builder_8h_1a0544c3fe466e421738dae463968b70ba" kind="variable"><name>else</name></member>
+    <member refid="playback__program__builder_8h_1aae06626f067a4e8ea7abf26d41fd7fe2" kind="function"><name>~PlaybackProgramBuilderAdapter</name></member>
+    <member refid="playback__program__builder_8h_1a87c1b3eb216f7d058af999deb521049f" kind="function"><name>block_until</name></member>
+    <member refid="playback__program__builder_8h_1a4d8eef92d34503b26a5c70a296f8e11f" kind="function"><name>block_until</name></member>
+    <member refid="playback__program__builder_8h_1a61763b3b88c84778fb919b5bdf6d1f18" kind="function"><name>block_until</name></member>
+    <member refid="playback__program__builder_8h_1ac2f2e2319c903f5870cc0fffe8188e96" kind="function"><name>copy_back</name></member>
+    <member refid="playback__program__builder_8h_1a03a800dafc10ba019947f43739033428" kind="function"><name>copy_back</name></member>
+    <member refid="playback__program__builder_8h_1a5b0c051c1cb47a2d1676a6537f540a2c" kind="function"><name>def</name></member>
+    <member refid="playback__program__builder_8h_1ab0a904333dd1c5f68ac105a1f47e1cf3" kind="function"><name>done</name></member>
+    <member refid="playback__program__builder_8h_1a0162cdd6ed298883e6949d6837ec6043" kind="function"><name>if</name></member>
+    <member refid="playback__program__builder_8h_1aace4ca11c78dfbe2ab5c6fbf1e2a5f11" kind="function"><name>merge_back</name></member>
+    <member refid="playback__program__builder_8h_1afd86623ed82eeb9c2aa2ad6ec15c9533" kind="function"><name>merge_back</name></member>
+    <member refid="playback__program__builder_8h_1a0ab0a5ce0a52f9ef085ade48dda8e908" kind="function"><name>merge_back</name></member>
+    <member refid="playback__program__builder_8h_1a3ae2228e66a4206e0ec224eecbec7c04" kind="function"><name>merge_back</name></member>
+    <member refid="playback__program__builder_8h_1ab5e7a31ee9606fe0a41c3e997ffc0434" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="playback__program__builder_8h_1a3378e1ab3637d08ffe3fb6801818f34e" kind="function"><name>operator=</name></member>
+    <member refid="playback__program__builder_8h_1ad38ca27d429e4e38c0d1ff4ed7e6117b" kind="function"><name>PlaybackProgramBuilderAdapter</name></member>
+    <member refid="playback__program__builder_8h_1a2390d33a3fe1e37fdb314ce0261758b5" kind="function"><name>PlaybackProgramBuilderAdapter</name></member>
+    <member refid="playback__program__builder_8h_1ab54bcef1897fcc561a0da2bc937c0af3" kind="function"><name>PlaybackProgramBuilderAdapter</name></member>
+    <member refid="playback__program__builder_8h_1aff46fe04fbedf2fc4695e01db743bbea" kind="function"><name>read</name></member>
+    <member refid="playback__program__builder_8h_1a92a4aad81dda02dcf7ecd7240e324f59" kind="function"><name>read</name></member>
+    <member refid="playback__program__builder_8h_1a9ce751ab836cd6ee6a3eff9e0dee60aa" kind="function"><name>str</name></member>
+    <member refid="playback__program__builder_8h_1a0354c92b67604a299bae2a818224fe76" kind="function"><name>wait_until</name></member>
+    <member refid="playback__program__builder_8h_1ab8118df3a651c09a790a6ad873469b78" kind="function"><name>write</name></member>
+    <member refid="playback__program__builder_8h_1afa4b10da881e6b2f0b91c4faffa50480" kind="function"><name>write</name></member>
+    <member refid="playback__program__builder_8h_1a251f92ca4aa883853b48ae7bc7c4f045" kind="function"><name>write</name></member>
+    <member refid="playback__program__builder_8h_1a01bf0c4ca38f8dbdd32da1b4bbb4062d" kind="function"><name>write</name></member>
+  </compound>
+  <compound refid="v2_2playback__program__builder_8h" kind="file"><name>playback_program_builder.h</name>
+    <member refid="v2_2playback__program__builder_8h_1a81489192049f471a239ebc8b4e314854" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="v3_2playback__program__builder_8h" kind="file"><name>playback_program_builder.h</name>
+    <member refid="v3_2playback__program__builder_8h_1a81489192049f471a239ebc8b4e314854" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="reinit__stack__entry_8h" kind="file"><name>reinit_stack_entry.h</name>
+  </compound>
+  <compound refid="v2_2reinit__stack__entry_8h" kind="file"><name>reinit_stack_entry.h</name>
+  </compound>
+  <compound refid="v3_2reinit__stack__entry_8h" kind="file"><name>reinit_stack_entry.h</name>
+  </compound>
+  <compound refid="run_8h" kind="file"><name>run.h</name>
+  </compound>
+  <compound refid="v2_2run_8h" kind="file"><name>run.h</name>
+  </compound>
+  <compound refid="v3_2run_8h" kind="file"><name>run.h</name>
+  </compound>
+  <compound refid="run__time__info_8h" kind="file"><name>run_time_info.h</name>
+  </compound>
+  <compound refid="stadls_8h" kind="file"><name>stadls.h</name>
+  </compound>
+  <compound refid="v2_2stadls_8h" kind="file"><name>stadls.h</name>
+  </compound>
+  <compound refid="v3_2stadls_8h" kind="file"><name>stadls.h</name>
+  </compound>
+  <compound refid="v2_2coordinate__to__container_8h" kind="file"><name>coordinate_to_container.h</name>
+    <member refid="v2_2coordinate__to__container_8h_1aa15fad99fdc0176449ba6857f9c0983e" kind="define"><name>LAST_PLAYBACK_CONTAINER</name></member>
+    <member refid="v2_2coordinate__to__container_8h_1aa15fad99fdc0176449ba6857f9c0983e" kind="define"><name>LAST_PLAYBACK_CONTAINER</name></member>
+    <member refid="v2_2coordinate__to__container_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="v2_2coordinate__to__container_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="v2_2coordinate__to__container_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="v2_2coordinate__to__container_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="v3_2coordinate__to__container_8h" kind="file"><name>coordinate_to_container.h</name>
+    <member refid="v3_2coordinate__to__container_8h_1aa15fad99fdc0176449ba6857f9c0983e" kind="define"><name>LAST_PLAYBACK_CONTAINER</name></member>
+    <member refid="v3_2coordinate__to__container_8h_1aa15fad99fdc0176449ba6857f9c0983e" kind="define"><name>LAST_PLAYBACK_CONTAINER</name></member>
+    <member refid="v3_2coordinate__to__container_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="v3_2coordinate__to__container_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="v3_2coordinate__to__container_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="v3_2coordinate__to__container_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="v2_2dumperdone_8h" kind="file"><name>dumperdone.h</name>
+    <member refid="v2_2dumperdone_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="v3_2dumperdone_8h" kind="file"><name>dumperdone.h</name>
+    <member refid="v3_2dumperdone_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+  </compound>
+  <compound refid="v2_2init__generator_8h" kind="file"><name>init_generator.h</name>
+  </compound>
+  <compound refid="v3_2init__generator_8h" kind="file"><name>init_generator.h</name>
+  </compound>
+  <compound refid="v2_2pystadls_8h" kind="file"><name>pystadls.h</name>
+  </compound>
+  <compound refid="v3_2pystadls_8h" kind="file"><name>pystadls.h</name>
+  </compound>
+  <compound refid="deprecated" kind="page"><name>deprecated</name>
+  </compound>
+  <compound refid="dir_9b6da1fe6bbf42b8d5e47bb3a3861509" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls</name>
+  </compound>
+  <compound refid="dir_5f2516aff7b09292cd2c4fd2ff000a03" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include</name>
+  </compound>
+  <compound refid="dir_257a9cfe6584893da9c6574172ac38ba" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls</name>
+  </compound>
+  <compound refid="dir_0ebc285f45968a21bbbe1a2580d48f77" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2</name>
+  </compound>
+  <compound refid="dir_a41a6d49b0e63c3e98edf816fab3d9be" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3</name>
+  </compound>
+  <compound refid="dir_3378281b45ecdd4281aad639e69ecf5d" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx</name>
+  </compound>
+</doxygenindex>

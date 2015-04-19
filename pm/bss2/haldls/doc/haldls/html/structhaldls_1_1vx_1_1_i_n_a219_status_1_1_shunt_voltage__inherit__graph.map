@@ -1,0 +1,4 @@
+<map id="haldls::vx::INA219Status::ShuntVoltage" name="haldls::vx::INA219Status::ShuntVoltage">
+<area shape="rect" id="node1" title="Shunt voltage with linear conversion and LSB = 10uV." alt="" coords="24,113,190,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,209,65"/>
+</map>

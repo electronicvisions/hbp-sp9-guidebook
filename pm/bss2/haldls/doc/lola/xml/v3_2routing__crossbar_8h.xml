@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="v3_2routing__crossbar_8h" kind="file" language="C++">
+    <compoundname>routing_crossbar.h</compoundname>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes refid="routing__crossbar_8h" local="yes">lola/vx/routing_crossbar.h</includes>
+    <includedby refid="v3_2chip_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</includedby>
+    <includedby refid="v3_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>lola/vx/routing_crossbar.tcc</label>
+      </node>
+      <node id="6">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="3">
+        <label>lola/vx/routing_crossbar.h</label>
+        <link refid="routing__crossbar_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/routing_crossbar.h</label>
+        <link refid="v3_2routing__crossbar_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>haldls/vx/routing_crossbar.h</label>
+      </node>
+      <node id="4">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="8">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="5">
+        <label>halco/hicann-dls/vx/routing_crossbar.h</label>
+      </node>
+      <node id="2">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h</label>
+        <link refid="v3_2pylola_8h"/>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</label>
+        <link refid="v3_2chip_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/routing_crossbar.h</label>
+        <link refid="v3_2routing__crossbar_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/lola.h</label>
+        <link refid="v3_2lola_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v3">lola::vx::v3</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/routing_crossbar.h"/>
+  </compounddef>
+</doxygen>

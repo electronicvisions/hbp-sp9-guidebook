@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="playback__generator_8h" kind="file" language="C++">
+    <compoundname>playback_generator.h</compoundname>
+    <includes local="yes">hate/nil.h</includes>
+    <includes local="yes">hate/type_traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="genpybind_8h" local="yes">stadls/vx/genpybind.h</includes>
+    <includedby refid="stadls_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/stadls.h</includedby>
+    <includedby refid="v2_2playback__generator_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h</includedby>
+    <includedby refid="v3_2playback__generator_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/playback_generator.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h</label>
+        <link refid="playback__generator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stadls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="3">
+        <label>hate/type_traits.h</label>
+      </node>
+      <node id="2">
+        <label>hate/nil.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/playback_generator.h</label>
+        <link refid="v3_2playback__generator_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/stadls.h</label>
+        <link refid="v3_2stadls_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/pystadls.h</label>
+        <link refid="v2_2pystadls_8h"/>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h</label>
+        <link refid="playback__generator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h</label>
+        <link refid="v2_2playback__generator_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/pystadls.h</label>
+        <link refid="v3_2pystadls_8h"/>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/init_generator.h</label>
+        <link refid="v3_2init__generator_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/stadls.h</label>
+        <link refid="v2_2stadls_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/stadls.h</label>
+        <link refid="stadls_8h"/>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h</label>
+        <link refid="v2_2init__generator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structstadls_1_1vx_1_1_playback_generator_return" prot="public">stadls::vx::PlaybackGeneratorReturn</innerclass>
+    <innernamespace refid="namespacestadls">stadls</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx">stadls::vx</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_generator.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_shift_register" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::ShiftRegister</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="spi_8h" local="no">spi.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190eb" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AnalogReadoutMux1Input</name>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190eba3262d48df5d75e3452f0f16b313b7808" prot="public">
+          <name>off</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190eba2b407e7e8559a6c7882d709d22a98149" prot="public">
+          <name>readout_chain_0</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190ebafe786ec687a8e635458ce75e0ea9baa9" prot="public">
+          <name>readout_chain_1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190eba0b638b3253b7bfabb0a1fc8ee1e21175" prot="public">
+          <name>mux_rfu_0</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="37" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="enum" id="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AnalogReadoutMux2Input</name>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273a3262d48df5d75e3452f0f16b313b7808" prot="public">
+          <name>off</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273a3d8a2ea7c63dc75e9422e03a88859a75" prot="public">
+          <name>v_reset</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273a6e1269cc69ea59e0c17804abf2a22f59" prot="public">
+          <name>vdd_res_meas</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273a6db8c7c790dacc12a73d3602ea2423f3" prot="public">
+          <name>mux_dac_25</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="45" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="46" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="enum" id="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>AnalogReadoutMux3Input</name>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735a3262d48df5d75e3452f0f16b313b7808" prot="public">
+          <name>off</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735a3b44ac1d22bdfa059e1984576a8383a9" prot="public">
+          <name>i_ref</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735aaa44cd369f908a143efb4162572d29ce" prot="public">
+          <name>mux_rfu_1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735a0c2d8bcdbdcb7cd716b5cf1e34039853" prot="public">
+          <name>mux_rfu_2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="53" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_shift_register_1a1c7dc0abaad4918c57638103770dc3c8" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ShiftRegisterOnBoard</type>
+        <definition>typedef halco::hicann_dls::vx::ShiftRegisterOnBoard haldls::vx::ShiftRegister::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="34" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_shift_register_1ad595e2984edddd2308828a57d03e7102" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::ShiftRegister::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="35" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1a4a90ee304f4dea15aeb1f76a8e08f687" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::ShiftRegister::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="235" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1a17d403adedd45c1fd275ea87c40b2be0" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::ShiftRegister::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="234" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_shift_register_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="247" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_shift_register_1ac8f1eacce167c2f193a608b405316005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ShiftRegister const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_shift_register" kindref="compound">ShiftRegister</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="232" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1acbf844cfd69148acf82a7129ec8cbb84" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::m_enable_adc_power_down</definition>
+        <argsstring></argsstring>
+        <name>m_enable_adc_power_down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="259" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1a6fc48501c27a8bed8634cac57495d352" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::m_enable_adc_reset</definition>
+        <argsstring></argsstring>
+        <name>m_enable_adc_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="260" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1a125ce7ff2d64589728a4b5324dc42f6d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::m_enable_dac_to_readout_0</definition>
+        <argsstring></argsstring>
+        <name>m_enable_dac_to_readout_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="256" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1ae812929071954a3371a1fe3741727cdc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::m_enable_dac_to_readout_1</definition>
+        <argsstring></argsstring>
+        <name>m_enable_dac_to_readout_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="257" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1a2c7d1aad1794d66e2e39ebccd76798c5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::m_enable_i_ref_board</definition>
+        <argsstring></argsstring>
+        <name>m_enable_i_ref_board</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="254" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1ae7ca29a00db3f2ba88b9174752796b7f" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::LEDOnBoard &gt;</type>
+        <definition>halco::common::typed_array&lt;bool, halco::hicann_dls::vx::LEDOnBoard&gt; haldls::vx::ShiftRegister::m_enable_led</definition>
+        <argsstring></argsstring>
+        <name>m_enable_led</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="258" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1ad8363394ecfe0aa9f227d1f51bde6865" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::m_enable_measure_i_ref</definition>
+        <argsstring></argsstring>
+        <name>m_enable_measure_i_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="255" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1ae1f6681b14567b7d6f171676030924d2" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::VDDOnBoard &gt;</type>
+        <definition>halco::common::typed_array&lt;bool, halco::hicann_dls::vx::VDDOnBoard&gt; haldls::vx::ShiftRegister::m_enable_vdd</definition>
+        <argsstring></argsstring>
+        <name>m_enable_vdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="261" column="28" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1ad7375563a222070e5a769a1189f9ae8e" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190eb" kindref="member">AnalogReadoutMux1Input</ref></type>
+        <definition>AnalogReadoutMux1Input haldls::vx::ShiftRegister::m_mux_1</definition>
+        <argsstring></argsstring>
+        <name>m_mux_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="251" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1aa9afbf22d27c68e085497547558c166f" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273" kindref="member">AnalogReadoutMux2Input</ref></type>
+        <definition>AnalogReadoutMux2Input haldls::vx::ShiftRegister::m_mux_2</definition>
+        <argsstring></argsstring>
+        <name>m_mux_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="252" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_shift_register_1aa700a8ea9b6798b3be122a0c9476a244" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735" kindref="member">AnalogReadoutMux3Input</ref></type>
+        <definition>AnalogReadoutMux3Input haldls::vx::ShiftRegister::m_mux_3</definition>
+        <argsstring></argsstring>
+        <name>m_mux_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="253" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a329c7cbceadbf79731e11a94886c297a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ShiftRegister::ShiftRegister</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ShiftRegister</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1af075b033720bd79dd78d741b6958332a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::SPIShiftRegister, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::SPIShiftRegister, <ref refid="classhaldls_1_1vx_1_1_shift_register_1a4a90ee304f4dea15aeb1f76a8e08f687" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="242" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1ac81b0e44f06c184641f49dbdafc9ff85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::SPIShiftRegister, <ref refid="classhaldls_1_1vx_1_1_shift_register_1a17d403adedd45c1fd275ea87c40b2be0" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::SPIShiftRegister, write_config_size_in_words&gt; haldls::vx::ShiftRegister::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="240" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a4e2b588d085ff50ea3a96e832f213b86" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::get_enable_adc_power_down</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_adc_power_down</name>
+        <briefdescription>
+<para>Get enable value of the ADC power-down pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The behavior can be controlled in the ADC container. <simplesect kind="see"><para>ADC </para>
+</simplesect>
+<simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="187" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a29697bdb847de8276e70e9cecb095fc1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::get_enable_adc_reset</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_adc_reset</name>
+        <briefdescription>
+<para>Get enable value of the ADC reset pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>ADC </para>
+</simplesect>
+<simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="204" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a09e8be170a8a6dd58209d229fffe6088" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::get_enable_dac_to_readout_0</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_dac_to_readout_0</name>
+        <briefdescription>
+<para>Get enable value for the DAC-powered Readout0 debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="143" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1ade26ec011798d2ff495fe96dde65c7ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::get_enable_dac_to_readout_1</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_dac_to_readout_1</name>
+        <briefdescription>
+<para>Get enable value for the DAC-powered Readout1 debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="157" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a9d0dea765bbbedc6e19d9423b740bd23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::get_enable_i_ref_board</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_i_ref_board</name>
+        <briefdescription>
+<para>Get enable value for connecting the DAC generating the CapMem reference current to the chip carrier board. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="70" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a7211c6fe82ae7e56cd023ba8cf520676" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::get_enable_led</definition>
+        <argsstring>(halco::hicann_dls::vx::LEDOnBoard const &amp;coord) const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_led</name>
+        <param>
+          <type>halco::hicann_dls::vx::LEDOnBoard const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Get enable value for the specified LED. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of LED to get enable value for </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="171" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1aa7a22a03c8af341fedc08476b9eceb1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::get_enable_measure_i_ref</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_measure_i_ref</name>
+        <briefdescription>
+<para>Get enable value for connecting the CapMem reference current to ground via a 2.2MOhm resistor for a current measurement with the ADC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="86" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a8d50e878ebf2548e65973c12e82d78e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::get_enable_vdd</definition>
+        <argsstring>(halco::hicann_dls::vx::VDDOnBoard const &amp;coord) const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_vdd</name>
+        <param>
+          <type>halco::hicann_dls::vx::VDDOnBoard const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Get enable value for the specified VDD line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of VDD line to get enable value for </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="219" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a1c7811215884435e5e256b92a5696bed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190eb" kindref="member">AnalogReadoutMux1Input</ref></type>
+        <definition>AnalogReadoutMux1Input haldls::vx::ShiftRegister::get_select_analog_readout_mux_1_input</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_select_analog_readout_mux_1_input</name>
+        <briefdescription>
+<para>Get the source selection for the first analog readout MUX. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Selected input </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="101" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a11c3db34b092a64520a2a67fbfac0ff5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273" kindref="member">AnalogReadoutMux2Input</ref></type>
+        <definition>AnalogReadoutMux2Input haldls::vx::ShiftRegister::get_select_analog_readout_mux_2_input</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_select_analog_readout_mux_2_input</name>
+        <briefdescription>
+<para>Get the source selection for the second analog readout MUX. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Selected input </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="115" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a7ad5cb1e53965f9e14e6c73b09af3008" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735" kindref="member">AnalogReadoutMux3Input</ref></type>
+        <definition>AnalogReadoutMux3Input haldls::vx::ShiftRegister::get_select_analog_readout_mux_3_input</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_select_analog_readout_mux_3_input</name>
+        <briefdescription>
+<para>Get the source selection for the third analog readout MUX. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Selected input </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="129" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a1d734e3dbe11d7c2b5458f0372a9b519" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::operator!=</definition>
+        <argsstring>(ShiftRegister const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_shift_register" kindref="compound">ShiftRegister</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="229" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a339dbe6dcfd2d9098b00d192b2b512db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ShiftRegister::operator==</definition>
+        <argsstring>(ShiftRegister const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_shift_register" kindref="compound">ShiftRegister</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="228" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1ab16c846683d7deccb747c9319273371f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_enable_adc_power_down</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_adc_power_down</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Get enable value of the ADC power-down pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The behavior can be controlled in the ADC container. <simplesect kind="see"><para>ADC </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="196" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a871359a4ac89b1ff1f469b3afee0ec61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_enable_adc_reset</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_adc_reset</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value of the ADC reset pin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>ADC </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="212" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1accefb6adc6b280e0bc86f6df2223718f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_enable_dac_to_readout_0</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_dac_to_readout_0</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for the DAC-powered Readout0 debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="150" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1af07a0a44f9b35de45f3330fd928e7e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_enable_dac_to_readout_1</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_dac_to_readout_1</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for the DAC-powered Readout0 debug line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="164" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a194b351212a852694f01d4e6e592e7c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_enable_i_ref_board</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_i_ref_board</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for connecting the DAC generating the CapMem reference current to the chip carrier board. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="78" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1ac25f8c450d959113546b3ca1b04ce4eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_enable_led</definition>
+        <argsstring>(halco::hicann_dls::vx::LEDOnBoard const &amp;coord, bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_led</name>
+        <param>
+          <type>halco::hicann_dls::vx::LEDOnBoard const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Get enable value for the specified LED. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of LED to set enable value for </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="178" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1aa70752ebe3f07f805822600c8df577eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_enable_measure_i_ref</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_measure_i_ref</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for connecting the CapMem reference current to ground via a 2.2MOhm resistor for a current measurement with the ADC. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="94" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a51ac8a630d9788535f79dcc3f0647a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_enable_vdd</definition>
+        <argsstring>(halco::hicann_dls::vx::VDDOnBoard const &amp;coord, bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_vdd</name>
+        <param>
+          <type>halco::hicann_dls::vx::VDDOnBoard const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for the specified VDD line. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of VDD line to set enable value for </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="226" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1ac73d481e248000c889082f88c8358738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_select_analog_readout_mux_1_input</definition>
+        <argsstring>(AnalogReadoutMux1Input value) SYMBOL_VISIBLE</argsstring>
+        <name>set_select_analog_readout_mux_1_input</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190eb" kindref="member">AnalogReadoutMux1Input</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set the source selection for the first analog readout MUX. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input to be selected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="108" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1aa187627e2d796bdcecf6b331bf2e4816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_select_analog_readout_mux_2_input</definition>
+        <argsstring>(AnalogReadoutMux2Input value) SYMBOL_VISIBLE</argsstring>
+        <name>set_select_analog_readout_mux_2_input</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273" kindref="member">AnalogReadoutMux2Input</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set the source selection for the second analog readout MUX. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input to be selected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="122" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a465f9a2128fff5e6598defcb384f48f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::set_select_analog_readout_mux_3_input</definition>
+        <argsstring>(AnalogReadoutMux3Input value) SYMBOL_VISIBLE</argsstring>
+        <name>set_select_analog_readout_mux_3_input</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735" kindref="member">AnalogReadoutMux3Input</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set the source selection for the third analog readout MUX. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input to be selected </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="136" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a50c72dceb626142245037ecc0e56ec91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::SPIShiftRegisterOnBoard, <ref refid="classhaldls_1_1vx_1_1_shift_register_1a4a90ee304f4dea15aeb1f76a8e08f687" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::SPIShiftRegisterOnBoard, read_config_size_in_words&gt; haldls::vx::ShiftRegister::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1a1c7dc0abaad4918c57638103770dc3c8" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="239" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1a4d136baa11cebb0a5574077217a76611" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::SPIShiftRegisterOnBoard, <ref refid="classhaldls_1_1vx_1_1_shift_register_1a17d403adedd45c1fd275ea87c40b2be0" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::SPIShiftRegisterOnBoard, write_config_size_in_words&gt; haldls::vx::ShiftRegister::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_shift_register_1a1c7dc0abaad4918c57638103770dc3c8" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="237" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_shift_register_1aa3efba2fc78eef1e6549b48e2c1ac994" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ShiftRegister::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="249" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for configuration of the 24-bit wide shift register controlling six VDD switches, the selection of the ADC source, ADC power down and reset pins, six LEDs, routing two DAC channels to a differential debug line and the CapMem reference current connection. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Information about the routing can be found in the xBoard wiki under <ulink url="https://brainscales-r.kip.uni-heidelberg.de/projects/symap2ic/wiki/xboard">https://brainscales-r.kip.uni-heidelberg.de/projects/symap2ic/wiki/xboard</ulink>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ShiftRegister</label>
+        <link refid="classhaldls_1_1vx_1_1_shift_register"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ShiftRegister</label>
+        <link refid="classhaldls_1_1vx_1_1_shift_register"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" line="31" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/spi.h" bodystart="32" bodyend="262"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ad3ff8f52482be98bf57ea8b0f58190eb" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>AnalogReadoutMux1Input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ad3a39a0eaed9c5a61b830248fe46f273" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>AnalogReadoutMux2Input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ad4854a8be8d593ad579c6f9013fba735" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>AnalogReadoutMux3Input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a1c7dc0abaad4918c57638103770dc3c8" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1af075b033720bd79dd78d741b6958332a" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ac81b0e44f06c184641f49dbdafc9ff85" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a4e2b588d085ff50ea3a96e832f213b86" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_enable_adc_power_down</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a29697bdb847de8276e70e9cecb095fc1" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_enable_adc_reset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a09e8be170a8a6dd58209d229fffe6088" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_enable_dac_to_readout_0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ade26ec011798d2ff495fe96dde65c7ce" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_enable_dac_to_readout_1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a9d0dea765bbbedc6e19d9423b740bd23" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_enable_i_ref_board</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a7211c6fe82ae7e56cd023ba8cf520676" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_enable_led</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1aa7a22a03c8af341fedc08476b9eceb1c" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_enable_measure_i_ref</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a8d50e878ebf2548e65973c12e82d78e2" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_enable_vdd</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a1c7811215884435e5e256b92a5696bed" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_select_analog_readout_mux_1_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a11c3db34b092a64520a2a67fbfac0ff5" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_select_analog_readout_mux_2_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a7ad5cb1e53965f9e14e6c73b09af3008" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>get_select_analog_readout_mux_3_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ad595e2984edddd2308828a57d03e7102" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1acbf844cfd69148acf82a7129ec8cbb84" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_enable_adc_power_down</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a6fc48501c27a8bed8634cac57495d352" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_enable_adc_reset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a125ce7ff2d64589728a4b5324dc42f6d" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_enable_dac_to_readout_0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ae812929071954a3371a1fe3741727cdc" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_enable_dac_to_readout_1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a2c7d1aad1794d66e2e39ebccd76798c5" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_enable_i_ref_board</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ae7ca29a00db3f2ba88b9174752796b7f" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_enable_led</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ad8363394ecfe0aa9f227d1f51bde6865" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_enable_measure_i_ref</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ae1f6681b14567b7d6f171676030924d2" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_enable_vdd</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ad7375563a222070e5a769a1189f9ae8e" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_mux_1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1aa9afbf22d27c68e085497547558c166f" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_mux_2</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1aa700a8ea9b6798b3be122a0c9476a244" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>m_mux_3</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a1d734e3dbe11d7c2b5458f0372a9b519" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ac8f1eacce167c2f193a608b405316005" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a339dbe6dcfd2d9098b00d192b2b512db" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a50c72dceb626142245037ecc0e56ec91" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a4a90ee304f4dea15aeb1f76a8e08f687" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1aa3efba2fc78eef1e6549b48e2c1ac994" prot="private" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ab16c846683d7deccb747c9319273371f" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_enable_adc_power_down</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a871359a4ac89b1ff1f469b3afee0ec61" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_enable_adc_reset</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1accefb6adc6b280e0bc86f6df2223718f" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_enable_dac_to_readout_0</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1af07a0a44f9b35de45f3330fd928e7e76" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_enable_dac_to_readout_1</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a194b351212a852694f01d4e6e592e7c8" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_enable_i_ref_board</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ac25f8c450d959113546b3ca1b04ce4eb" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_enable_led</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1aa70752ebe3f07f805822600c8df577eb" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_enable_measure_i_ref</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a51ac8a630d9788535f79dcc3f0647a10" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_enable_vdd</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1ac73d481e248000c889082f88c8358738" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_select_analog_readout_mux_1_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1aa187627e2d796bdcecf6b331bf2e4816" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_select_analog_readout_mux_2_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a465f9a2128fff5e6598defcb384f48f8" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>set_select_analog_readout_mux_3_input</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a329c7cbceadbf79731e11a94886c297a" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>ShiftRegister</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a4d136baa11cebb0a5574077217a76611" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_shift_register_1a17d403adedd45c1fd275ea87c40b2be0" prot="public" virt="non-virtual"><scope>haldls::vx::ShiftRegister</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CapMemBlockConfig::SourceFollowerBias</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; SourceFollowerBias, uint_fast16_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias_1a811c841d65ab68aeb3c3e1d69590eae8" prot="public" static="no">
+        <type>halco::common::detail::RantWrapper&lt; <ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias" kindref="compound">SourceFollowerBias</ref>, uint_fast16_t, 15, 0 &gt;::<ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias_1a811c841d65ab68aeb3c3e1d69590eae8" kindref="member">rant_t</ref></type>
+        <definition>typedef halco::common::detail:: RantWrapper&lt;SourceFollowerBias, uint_fast16_t, 15, 0&gt;::rant_t haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::SourceFollowerBias::rant_t</definition>
+        <argsstring></argsstring>
+        <name>rant_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="198" column="26" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias_1ad699c2f99a6953816e8a4eb2177acdb7" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::SourceFollowerBias::SourceFollowerBias</definition>
+        <argsstring>()</argsstring>
+        <name>SourceFollowerBias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="199" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="199" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias_1a36121382e20f3dc2427838a6df2948c3" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::SourceFollowerBias::SourceFollowerBias</definition>
+        <argsstring>(uintmax_t const val)</argsstring>
+        <name>SourceFollowerBias</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="200" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="200" bodyend="202"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::SourceFollowerBias</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; SourceFollowerBias, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::SourceFollowerBias</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; SourceFollowerBias, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="194" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="196" bodyend="203"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias_1a811c841d65ab68aeb3c3e1d69590eae8" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::SourceFollowerBias</scope><name>rant_t</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias_1ad699c2f99a6953816e8a4eb2177acdb7" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::SourceFollowerBias</scope><name>SourceFollowerBias</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_source_follower_bias_1a36121382e20f3dc2427838a6df2948c3" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::SourceFollowerBias</scope><name>SourceFollowerBias</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

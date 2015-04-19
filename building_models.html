@@ -1,0 +1,361 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Building models &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/hbpdoc.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/extra.js"></script>
+    <script src="_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Running simulations" href="using_the_platform.html" />
+    <link rel="prev" title="Getting started" href="quick_start.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Building models</a><ul>
+<li><a class="reference internal" href="#the-pynn-model-description-api">The PyNN model description API</a></li>
+<li><a class="reference internal" href="#a-simple-example">A simple example</a></li>
+<li><a class="reference internal" href="#using-different-backends">Using different backends</a></li>
+<li><a class="reference internal" href="#physical-model-brainscales-system">“Physical model” (BrainScaleS) system</a></li>
+<li><a class="reference internal" href="#many-core-spinnaker-system">“Many core” (SpiNNaker) system</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="quick_start.html"
+                        title="previous chapter">Getting started</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="using_the_platform.html"
+                        title="next chapter">Running simulations</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/building_models.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="quick_start.html">Getting started</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="using_the_platform.html">Running simulations</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="building-models">
+<span id="id1"></span><h1>Building models<a class="headerlink" href="#building-models" title="Permalink to this headline">¶</a></h1>
+<p>The Neuromorphic Computing Platform executes experiments performed on computational models of neuronal networks.
+Both the experiment description and the model description must be written as Python scripts,
+using the <a class="reference external" href="http://neuralensemble.org/PyNN/">PyNN</a> application programming interface (API).</p>
+<section id="the-pynn-model-description-api">
+<h2>The PyNN model description API<a class="headerlink" href="#the-pynn-model-description-api" title="Permalink to this headline">¶</a></h2>
+<p>PyNN is a Python package which defines an API for defining neuronal network models with spiking neurons in a
+simulator-independent way.
+There are implementations of this API for the NEST, NEURON and Brian simulators
+and for both of the HBP Neuromorphic Computing systems (PM and MC/SpiNNaker).
+In this documentation, we refer to each of these simulators and hardware platforms as a PyNN “<strong>backend</strong>”.</p>
+<p>Full documentation of the API is available at <a class="reference external" href="https://neuralensemble.org/docs/PyNN/">neuralensemble.org/docs/PyNN</a>:</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line"><a class="reference external" href="https://neuralensemble.org/docs/PyNN/0.7/api/api-0.6.html">PyNN 0.6 documentation</a></div>
+</div>
+<div class="line-block">
+<div class="line"><a class="reference external" href="https://neuralensemble.org/docs/PyNN/0.7/">PyNN 0.7 documentation</a></div>
+</div>
+<div class="line-block">
+<div class="line"><a class="reference external" href="https://neuralensemble.org/docs/PyNN/0.8/">PyNN 0.8 documentation</a></div>
+</div>
+<div class="line-block">
+<div class="line"><a class="reference external" href="https://neuralensemble.org/docs/PyNN">PyNN 0.9 documentation</a></div>
+</div>
+</div></blockquote>
+<p>At the time of writing, <a class="reference internal" href="mc/mc_index.html"><span class="doc">SpiNNaker</span></a> and <a class="reference internal" href="pm/bss2.html"><span class="doc">BrainScaleS-2</span></a> support version 0.9, <a class="reference internal" href="pm/pm.html"><span class="doc">BrainScaleS-1</span></a> supports version 0.7 and <a class="reference internal" href="pm/spikey.html"><span class="doc">Spikey</span></a> supports version 0.6.</p>
+</section>
+<section id="a-simple-example">
+<h2>A simple example<a class="headerlink" href="#a-simple-example" title="Permalink to this headline">¶</a></h2>
+<p>We present here a simple example network, a toy model of a “synfire chain”,
+in which the activity propagates across the network.</p>
+<p>As with any Python script, the first step is to import the external libraries that we will use.
+Here we import the NEST backend of PyNN for the simulation, NumPy for random number generation, and matplotlib
+for plotting.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="kn">import</span> <span class="nn">pyNN.nest</span> <span class="k">as</span> <span class="nn">sim</span>
+<span class="kn">import</span> <span class="nn">numpy.random</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+
+</pre></div>
+</div>
+<p>Next we define numerical parameters, such as the number and size of neuronal populations, neuron properties,
+synaptic weights and delays, etc.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="n">n_populations</span> <span class="o">=</span> <span class="mi">11</span>
+<span class="n">population_size</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="n">neuron_parameters</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;cm&#39;</span><span class="p">:</span> <span class="mf">0.2</span><span class="p">,</span>
+    <span class="s1">&#39;v_reset&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">70</span><span class="p">,</span>
+    <span class="s1">&#39;v_rest&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">70</span><span class="p">,</span>
+    <span class="s1">&#39;v_thresh&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">47</span><span class="p">,</span>
+    <span class="s1">&#39;e_rev_I&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">70</span><span class="p">,</span>
+    <span class="s1">&#39;e_rev_E&#39;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="n">weight_exc_exc</span> <span class="o">=</span> <span class="mf">0.005</span>
+<span class="n">weight_exc_inh</span> <span class="o">=</span> <span class="mf">0.005</span>
+<span class="n">weight_inh_exc</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="n">delay</span> <span class="o">=</span> <span class="mf">3.0</span>
+<span class="n">rng_seed</span> <span class="o">=</span> <span class="mi">42</span>
+<span class="n">stimulus_onset</span> <span class="o">=</span> <span class="mf">25.0</span>
+<span class="n">stimulus_sigma</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="n">runtime</span> <span class="o">=</span> <span class="mf">150.0</span>
+
+
+</pre></div>
+</div>
+<p>The <code class="xref py py-func docutils literal notranslate"><span class="pre">setup()</span></code> function initializes and configures the simulator (in this case NEST).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="n">sim</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">timestep</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+
+
+</pre></div>
+</div>
+<p>The main building block in PyNN is a population of neurons of the same type (although the parameters of the neurons
+within the population can be heterogeneous).
+Here we create 11 populations of excitatory integrate-and-fire (IF) neurons and 11 populations of inhibitory IF neurons.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="n">populations</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;exc&#39;</span><span class="p">:</span> <span class="p">[],</span> <span class="s1">&#39;inh&#39;</span><span class="p">:</span> <span class="p">[]}</span>
+<span class="k">for</span> <span class="n">syn_type</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;exc&#39;</span><span class="p">,</span> <span class="s1">&#39;inh&#39;</span><span class="p">):</span>
+    <span class="n">populations</span><span class="p">[</span><span class="n">syn_type</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">sim</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="n">population_size</span><span class="p">,</span>
+                                            <span class="n">sim</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">,</span>
+                                            <span class="n">neuron_parameters</span><span class="p">)</span>
+                             <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_populations</span><span class="p">)]</span>
+
+
+</pre></div>
+</div>
+<p>We now connect each excitatory population to the following pair of excitatory and inhibitory populations,
+and each inhibitory population to the excitatory population within the same pair.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="n">connector_exc_exc</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">AllToAllConnector</span><span class="p">(</span><span class="n">weights</span><span class="o">=</span><span class="n">weight_exc_exc</span><span class="p">,</span> <span class="n">delays</span><span class="o">=</span><span class="n">delay</span><span class="p">)</span>
+<span class="n">connector_exc_inh</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">AllToAllConnector</span><span class="p">(</span><span class="n">weights</span><span class="o">=</span><span class="n">weight_exc_inh</span><span class="p">,</span> <span class="n">delays</span><span class="o">=</span><span class="n">delay</span><span class="p">)</span>
+<span class="n">connector_inh_exc</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">AllToAllConnector</span><span class="p">(</span><span class="n">weights</span><span class="o">=</span><span class="n">weight_inh_exc</span><span class="p">,</span> <span class="n">delays</span><span class="o">=</span><span class="n">delay</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_populations</span><span class="p">):</span>
+    <span class="n">j</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="n">n_populations</span>
+    <span class="n">prj_exc_exc</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">populations</span><span class="p">[</span><span class="s1">&#39;exc&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">],</span> <span class="n">populations</span><span class="p">[</span><span class="s1">&#39;exc&#39;</span><span class="p">][</span><span class="n">j</span><span class="p">],</span>
+                                 <span class="n">connector_exc_exc</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;excitatory&#39;</span><span class="p">)</span>
+    <span class="n">prj_exc_inh</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">populations</span><span class="p">[</span><span class="s1">&#39;exc&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">],</span> <span class="n">populations</span><span class="p">[</span><span class="s1">&#39;inh&#39;</span><span class="p">][</span><span class="n">j</span><span class="p">],</span>
+                                 <span class="n">connector_exc_inh</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;excitatory&#39;</span><span class="p">)</span>
+    <span class="n">prj_inh_exc</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">populations</span><span class="p">[</span><span class="s1">&#39;inh&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">],</span> <span class="n">populations</span><span class="p">[</span><span class="s1">&#39;exc&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">],</span>
+                                 <span class="n">connector_exc_exc</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;inhibitory&#39;</span><span class="p">)</span>
+
+</pre></div>
+</div>
+<p>The first pair of populations are stimulated by a burst of spikes.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="n">numpy</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">rng_seed</span><span class="p">)</span>
+<span class="n">stim_spikes</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="n">stimulus_onset</span><span class="p">,</span>
+                                  <span class="n">scale</span><span class="o">=</span><span class="n">stimulus_sigma</span><span class="p">,</span>
+                                  <span class="n">size</span><span class="o">=</span><span class="n">population_size</span><span class="p">)</span>
+<span class="n">stim_spikes</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="n">stimulus</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">sim</span><span class="o">.</span><span class="n">SpikeSourceArray</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;spike_times&#39;</span><span class="p">:</span> <span class="n">stim_spikes</span><span class="p">})</span>
+
+<span class="n">prj_stim_exc</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">stimulus</span><span class="p">,</span> <span class="n">populations</span><span class="p">[</span><span class="s1">&#39;exc&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+                              <span class="n">connector_exc_exc</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;excitatory&#39;</span><span class="p">)</span>
+<span class="n">prj_stim_inh</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">stimulus</span><span class="p">,</span> <span class="n">populations</span><span class="p">[</span><span class="s1">&#39;inh&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+                              <span class="n">connector_exc_inh</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="s1">&#39;excitatory&#39;</span><span class="p">)</span>
+
+
+</pre></div>
+</div>
+<p>We’ve now finished building the network, now we instrument it, by recording spikes from all populations.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="k">for</span> <span class="n">syn_type</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;exc&#39;</span><span class="p">,</span> <span class="s1">&#39;inh&#39;</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">population</span> <span class="ow">in</span> <span class="n">populations</span><span class="p">[</span><span class="n">syn_type</span><span class="p">]:</span>
+        <span class="n">population</span><span class="o">.</span><span class="n">record</span><span class="p">()</span>
+
+
+</pre></div>
+</div>
+<p>Now we run the simulation:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="n">sim</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">runtime</span><span class="p">)</span>
+
+
+</pre></div>
+</div>
+<p>Finally we loop over the populations, retrieve the spike times, and plot a raster plot (spike time vs neuron index).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="n">colours</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;exc&#39;</span><span class="p">:</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="s1">&#39;inh&#39;</span><span class="p">:</span> <span class="s1">&#39;b&#39;</span><span class="p">}</span>
+
+<span class="n">id_offset</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">syn_type</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;exc&#39;</span><span class="p">,</span> <span class="s1">&#39;inh&#39;</span><span class="p">]:</span>
+    <span class="k">for</span> <span class="n">population</span> <span class="ow">in</span> <span class="n">populations</span><span class="p">[</span><span class="n">syn_type</span><span class="p">]:</span>
+        <span class="n">spikes</span> <span class="o">=</span> <span class="n">population</span><span class="o">.</span><span class="n">getSpikes</span><span class="p">()</span>
+        <span class="n">colour</span> <span class="o">=</span> <span class="n">colours</span><span class="p">[</span><span class="n">syn_type</span><span class="p">]</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">spikes</span><span class="p">[:,</span><span class="mi">1</span><span class="p">],</span> <span class="n">spikes</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">id_offset</span><span class="p">,</span>
+                 <span class="n">ls</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;o&#39;</span><span class="p">,</span> <span class="n">ms</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="n">colour</span><span class="p">,</span> <span class="n">mec</span><span class="o">=</span><span class="n">colour</span><span class="p">)</span>
+        <span class="n">id_offset</span> <span class="o">+=</span> <span class="n">population</span><span class="o">.</span><span class="n">size</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="n">runtime</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">((</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span> <span class="n">n_populations</span> <span class="o">*</span> <span class="n">population_size</span> <span class="o">+</span> <span class="mf">0.5</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;time (t)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;neuron index&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;synfire_chain.png&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="_images/synfire_chain.png" src="_images/synfire_chain.png" />
+<p>Note that here we include the plotting in the same script to illustrate the example output.
+Scripts submitted to the Neuromorphic Computing Platform can also save spikes to file and use the other tools available in the EBRAINS research infrasstructure for
+analysing and visualizing the results.</p>
+</section>
+<section id="using-different-backends">
+<span id="id2"></span><h2>Using different backends<a class="headerlink" href="#using-different-backends" title="Permalink to this headline">¶</a></h2>
+<p>To run the same simulation with a different simulator, just change the name of the PyNN backend to import, e.g.:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pyNN.neuron</span> <span class="k">as</span> <span class="nn">sim</span>
+</pre></div>
+</div>
+<p>to run the simulation with NEURON. For the PM system, the module to import is <code class="docutils literal notranslate"><span class="pre">pyNN.hardware.hbp_pm</span></code> while for the
+MC system the module is <code class="docutils literal notranslate"><span class="pre">pyNN.spiNNaker</span></code>.</p>
+<p>The recommended approach is to provide the name of the backend as a command-line argument,
+i.e., you run your simulation using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ python run.py nest
+</pre></div>
+</div>
+<p>PyNN contains some utility functions to make this easier. With PyNN 0.7, use:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyNN.utility</span> <span class="kn">import</span> <span class="n">get_script_args</span>
+<span class="n">simulator_name</span> <span class="o">=</span> <span class="n">get_script_args</span><span class="p">(</span><span class="mi">1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">exec</span><span class="p">(</span><span class="s2">&quot;import pyNN.</span><span class="si">%s</span><span class="s2"> as sim&quot;</span> <span class="o">%</span> <span class="n">simulator_name</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>With PyNN 0.8:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyNN.utility</span> <span class="kn">import</span> <span class="n">get_simulator</span>
+<span class="n">sim</span><span class="p">,</span> <span class="n">options</span> <span class="o">=</span> <span class="n">get_simulator</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="physical-model-brainscales-system">
+<h2>“Physical model” (BrainScaleS) system<a class="headerlink" href="#physical-model-brainscales-system" title="Permalink to this headline">¶</a></h2>
+<p>The BrainScaleS system has a number of additional configuration options that can be passed to <code class="xref py py-func docutils literal notranslate"><span class="pre">setup()</span></code>. These are
+explained in <a class="reference internal" href="pm/pm_hardware_configuration.html#nmpm1-hardware-configuration"><span class="std std-ref">About the BrainScaleS hardware</span></a>.
+There are also a number of limitations, for example only a subset of the
+PyNN standard neuron and synapse models are available.</p>
+<p>The BrainScaleS system attempts to automatically place neurons on the wafers in an optimal way. However, it is possible to
+influence this placement or control it manually. An example can be found in <span class="xref std std-ref">label-marocco-example</span>.</p>
+</section>
+<section id="many-core-spinnaker-system">
+<h2>“Many core” (SpiNNaker) system<a class="headerlink" href="#many-core-spinnaker-system" title="Permalink to this headline">¶</a></h2>
+<p>The SpiNNaker system supports the standard arguments provided by the PyNN <code class="xref py py-func docutils literal notranslate"><span class="pre">setup()</span></code> function.  The SpiNNaker system has a number of limitations in terms of the support for PyNN functionality, for example, only a subset of the PyNN standard neuron and synapse models are currently available. These limitations are defined in the online documentation <a class="reference external" href="http://spinnakermanchester.github.io/latest/spynnaker_limitations.html">here</a>.</p>
+<p>The SpiNNaker software stack attempts to automatically partition the populations
+defined in the PyNN script into core sized chunks (the smallest atomic size of
+resource for a machine) of neurons which are then placed onto the machine in an
+optimal way in regard to the machine’s available resources. However, it is
+possible to influence the partitioning and placement behaviours manually.</p>
+<p>For example, take the PyNN definition of a population from the “synfire chain”
+example discussed previously, and shown below:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">populations</span><span class="p">[</span><span class="n">syn_type</span><span class="p">]</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="n">population_size</span><span class="p">,</span>
+                                       <span class="n">sim</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">,</span>
+                                       <span class="n">neuron_parameters</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>A constraint can be added to the model which can limit how many neurons each
+core will contain at a maximum. This is shown below:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">populations</span><span class="p">[</span><span class="n">syn_type</span><span class="p">]</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="n">population_size</span><span class="p">,</span>
+                                       <span class="n">sim</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">,</span>
+                                       <span class="n">neuron_parameters</span><span class="p">)</span>
+<span class="n">sim</span><span class="o">.</span><span class="n">set_number</span> <span class="n">of_neurons_per_core</span><span class="p">(</span><span class="n">sim</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">,</span> <span class="mi">200</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This and other examples of manual limitations can be found in the online
+documentation <a class="reference external" href="http://spinnakermanchester.github.io/latest/spynnaker_tutorial.html">here</a>.</p>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="quick_start.html">Getting started</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="using_the_platform.html">Running simulations</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

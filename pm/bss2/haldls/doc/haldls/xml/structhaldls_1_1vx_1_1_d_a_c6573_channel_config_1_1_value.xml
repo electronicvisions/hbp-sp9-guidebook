@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_d_a_c6573_channel_config_1_1_value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::DAC6573ChannelConfig::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Value, uint_fast32_t, fisch::vx::dac6573_value_max, fisch::vx::dac_value_min &gt;</basecompoundref>
+    <includes refid="i2c_8h" local="no">i2c.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_d_a_c6573_channel_config_1_1_value_1ad37000d373128e6064b6d40487354929" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::DAC6573ChannelConfig::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="617" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="617" bodyend="619"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast32_t, fisch::vx::dac6573_value_max, fisch::vx::dac_value_min &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::DAC6573ChannelConfig::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_d_a_c6573_channel_config_1_1_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast32_t, fisch::vx::dac6573_value_max, fisch::vx::dac_value_min &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::DAC6573ChannelConfig::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_d_a_c6573_channel_config_1_1_value"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="610" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="616" bodyend="620"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_d_a_c6573_channel_config_1_1_value_1ad37000d373128e6064b6d40487354929" prot="public" virt="non-virtual"><scope>haldls::vx::DAC6573ChannelConfig::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

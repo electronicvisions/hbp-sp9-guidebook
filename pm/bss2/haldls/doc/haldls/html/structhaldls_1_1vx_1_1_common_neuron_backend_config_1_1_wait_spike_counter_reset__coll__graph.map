@@ -1,0 +1,4 @@
+<map id="haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterReset" name="haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterReset">
+<area shape="rect" id="node1" title="Duration of the pulse triggering spike counter resets." alt="" coords="280,13,542,57"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,232,65"/>
+</map>

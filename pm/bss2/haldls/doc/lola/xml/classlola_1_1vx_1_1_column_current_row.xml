@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1_column_current_row" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::ColumnCurrentRow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_column_current_row_1aa2538c69d6cdc23664be3d5f393cbf6e" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ColumnCurrentRowOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ColumnCurrentRowOnDLS lola::vx::ColumnCurrentRow::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="51" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_column_current_row_1a9b49b53fee9c597c85c3068c7932d162" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::ColumnCurrentRow::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="50" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_column_current_row_1a91e6f74d5411c889283627669ad49638" prot="public" static="no">
+        <type>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</type>
+        <definition>typedef haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch lola::vx::ColumnCurrentRow::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="53" column="60" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1_column_current_row_1a5df25204b76979b70f835d970dda8721" prot="public" static="no">
+        <type>halco::common::typed_heap_array&lt; <ref refid="classlola_1_1vx_1_1_column_current_row_1a91e6f74d5411c889283627669ad49638" kindref="member">Value</ref>, halco::hicann_dls::vx::SynapseOnSynapseRow &gt;</type>
+        <definition>typedef halco::common::typed_heap_array&lt;Value, halco::hicann_dls::vx::SynapseOnSynapseRow&gt; lola::vx::ColumnCurrentRow::Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="56" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1_column_current_row_1a692ee46a990aeea8be019490470b0942" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_column_current_row_1a5df25204b76979b70f835d970dda8721" kindref="member">Values</ref></type>
+        <definition>Values lola::vx::ColumnCurrentRow::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="60" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_column_current_row_1ac0cf8d67827afeac1af81e754e81d9be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; ColumnCurrentRow &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; ColumnCurrentRow &gt;</name>
+        <param>
+          <type>haldls::vx::detail::VisitPreorderImpl&lt; <ref refid="classlola_1_1vx_1_1_column_current_row" kindref="compound">ColumnCurrentRow</ref> &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="66" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1vx_1_1_column_current_row_1a81ae8d059059205b30f274dd588be13f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, ColumnCurrentRow const &amp;row) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_column_current_row" kindref="compound">ColumnCurrentRow</ref> const &amp;</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="66" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1_column_current_row_1ada5920e03dd854c1578af19742c798da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::ColumnCurrentRow::ColumnCurrentRow</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ColumnCurrentRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_column_current_row_1a18fda5322c6b6d81fd0229bf06db4909" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::ColumnCurrentRow::operator!=</definition>
+        <argsstring>(ColumnCurrentRow const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_column_current_row" kindref="compound">ColumnCurrentRow</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="63" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1_column_current_row_1a9c89765b3c7eeba17c4b919f05b18718" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::ColumnCurrentRow::operator==</definition>
+        <argsstring>(ColumnCurrentRow const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_column_current_row" kindref="compound">ColumnCurrentRow</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="62" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>lola::vx::ColumnCurrentRow</label>
+        <link refid="classlola_1_1vx_1_1_column_current_row"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>lola::vx::ColumnCurrentRow</label>
+        <link refid="classlola_1_1vx_1_1_column_current_row"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="47" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" bodystart="48" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1ada5920e03dd854c1578af19742c798da" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>ColumnCurrentRow</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1aa2538c69d6cdc23664be3d5f393cbf6e" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1ac0cf8d67827afeac1af81e754e81d9be" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; ColumnCurrentRow &gt;</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1a9b49b53fee9c597c85c3068c7932d162" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1a18fda5322c6b6d81fd0229bf06db4909" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1a81ae8d059059205b30f274dd588be13f" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1a9c89765b3c7eeba17c4b919f05b18718" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1a91e6f74d5411c889283627669ad49638" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>Value</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1a5df25204b76979b70f835d970dda8721" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>Values</name></member>
+      <member refid="classlola_1_1vx_1_1_column_current_row_1a692ee46a990aeea8be019490470b0942" prot="public" virt="non-virtual"><scope>lola::vx::ColumnCurrentRow</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

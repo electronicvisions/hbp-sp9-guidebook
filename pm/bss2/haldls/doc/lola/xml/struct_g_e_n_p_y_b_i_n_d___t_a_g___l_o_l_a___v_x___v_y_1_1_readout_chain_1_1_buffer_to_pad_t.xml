@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t" kind="struct" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT</compoundname>
+    <includes refid="readout__chain_8h" local="no">readout_chain.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1a7fb9af75352281b028d82978e277351f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1ac5e7e28a910d35435631d64ad1e1d377" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT::amp_i_bias</definition>
+        <argsstring></argsstring>
+        <name>amp_i_bias</name>
+        <briefdescription>
+<para>Bias current for buffer connecting to PAD. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="90" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1ad976b9852aa2619b79073a6082869396" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <briefdescription>
+<para>Connect input multiplexer to PAD multiplexer. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="85" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1a7ac0750686c32ad956d53164924c88cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT::BufferToPadT</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>BufferToPadT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1aafff1f6f01a79518a55af4f880be8eda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT::operator!=</definition>
+        <argsstring>(BufferToPadT const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t" kindref="compound">BufferToPadT</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="93" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1a9aa67b9861c21fd9c6b9e513672e72ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT::operator==</definition>
+        <argsstring>(BufferToPadT const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t" kindref="compound">BufferToPadT</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="92" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1af7f499ac6b9f419ed6847c68bfc4d4a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, BufferToPadT const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t" kindref="compound">BufferToPadT</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="95" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration of the buffer connection the pads. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The source multiplexers can drive buffered signals to the two pad multiplexers. Note that you still have to select the corresponding connection at the pad multiplexers in order to make the connection. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" line="78" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/readout_chain.h" bodystart="79" bodyend="97"/>
+    <listofallmembers>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1a7fb9af75352281b028d82978e277351f" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT</scope><name>amp_i_bias</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1a7ac0750686c32ad956d53164924c88cf" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT</scope><name>BufferToPadT</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1ad976b9852aa2619b79073a6082869396" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT</scope><name>enable</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1aafff1f6f01a79518a55af4f880be8eda" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT</scope><name>operator!=</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1af7f499ac6b9f419ed6847c68bfc4d4a7" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT</scope><name>operator&lt;&lt;</name></member>
+      <member refid="struct_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_readout_chain_1_1_buffer_to_pad_t_1a9aa67b9861c21fd9c6b9e513672e72ef" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::ReadoutChain::BufferToPadT</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

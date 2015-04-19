@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_i_n_a219_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::INA219Config</compoundname>
+    <includes refid="i2c_8h" local="no">i2c.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549ac" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ADCMode</name>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549acae9b8c39e2d788c411633fca416694512" prot="public">
+          <name>bits9</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549acab556ebd6700cf2ca08bd8c1700a3f06d" prot="public">
+          <name>bits10</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549acae60cb9161cb1c16ac84fec0b731f02cf" prot="public">
+          <name>bits11</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549aca411ff19b9dfd6a96640ca12dbe847563" prot="public">
+          <name>bits12</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549aca38c9c7ee5a8f78e100222d9b064a9b39" prot="public">
+          <name>bits12_samples1</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549aca58b67593aa92148d1636b9117d590589" prot="public">
+          <name>bits12_samples2</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549aca5cf9197380c727924a0df8e7e5d26edd" prot="public">
+          <name>bits12_samples4</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549aca61e926caf73eee9fd475b004e6b7c037" prot="public">
+          <name>bits12_samples8</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549acaee196bf6d536b0bf771cd89407a4287a" prot="public">
+          <name>bits12_samples16</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549aca8dfae2455ea1f640154a336161be141e" prot="public">
+          <name>bits12_samples32</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549acaa2afad75a61b1df0280f5bfbfd370233" prot="public">
+          <name>bits12_samples64</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549aca4d74d678f64354fe88ee8e787eb22a76" prot="public">
+          <name>bits12_samples128</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>ADC resolution and number of samples. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="35" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="36" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_i_n_a219_config_1aace6b4ab320874cf8e3c7e2e07d136a3" prot="public" static="no">
+        <type>halco::hicann_dls::vx::INA219ConfigOnBoard</type>
+        <definition>typedef halco::hicann_dls::vx::INA219ConfigOnBoard haldls::vx::INA219Config::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="29" column="52" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_i_n_a219_config_1af30a934f6d215ae5b00057afaa56aa4a" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::INA219Config::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="30" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a44f6fa358203dad6646d03fab639de10" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::INA219Config::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="88" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a99544787a5f89a6cca7058853a80ce9e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::INA219Config::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::simulation}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="31" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_i_n_a219_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="98" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_i_n_a219_config_1af9d429204a387c61bb1495e4955e02b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, INA219Config const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config" kindref="compound">INA219Config</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="86" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_i_n_a219_config_1ad54bf7b435489bbde835e69238633b4e" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549ac" kindref="member">ADCMode</ref></type>
+        <definition>ADCMode haldls::vx::INA219Config::m_bus_adc_mode</definition>
+        <argsstring></argsstring>
+        <name>m_bus_adc_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="102" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a2c3b9abe784d64b6363fd3cdfa302871" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549ac" kindref="member">ADCMode</ref></type>
+        <definition>ADCMode haldls::vx::INA219Config::m_shunt_adc_mode</definition>
+        <argsstring></argsstring>
+        <name>m_shunt_adc_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="103" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1acefc5bfe292eed0b5414ceb43587139d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::INA219Config::INA219Config</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>INA219Config</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a1aec5d82a20f84287dadd4f218a756d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::INA219Config::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::I2CINA219RwRegister, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::I2CINA219RwRegister, <ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a44f6fa358203dad6646d03fab639de10" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="93" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a34dba841f0ee8ed7d6c4d43947c390ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::I2CINA219RwRegister, <ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a44f6fa358203dad6646d03fab639de10" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::I2CINA219RwRegister, config_size_in_words&gt; haldls::vx::INA219Config::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="91" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1ab6ee7dd8506838770c918a4160ce1da2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549ac" kindref="member">ADCMode</ref></type>
+        <definition>ADCMode haldls::vx::INA219Config::get_bus_adc_mode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_bus_adc_mode</name>
+        <briefdescription>
+<para>Get bus ADC mode value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="59" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a70d7808ef878a3bd561e0a862ad75f0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549ac" kindref="member">ADCMode</ref></type>
+        <definition>ADCMode haldls::vx::INA219Config::get_shunt_adc_mode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_shunt_adc_mode</name>
+        <briefdescription>
+<para>Get shunt ADC mode value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="73" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a3e243ae49e3317ed86d5b707d8c25720" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::INA219Config::operator!=</definition>
+        <argsstring>(INA219Config const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config" kindref="compound">INA219Config</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="83" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a0bff835e9d3199fcca79196ccd20784d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::INA219Config::operator==</definition>
+        <argsstring>(INA219Config const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config" kindref="compound">INA219Config</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="82" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1ad5dfb120f933df8387ba02c399ec529d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::INA219Config::set_bus_adc_mode</definition>
+        <argsstring>(ADCMode value) SYMBOL_VISIBLE</argsstring>
+        <name>set_bus_adc_mode</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549ac" kindref="member">ADCMode</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set bus ADC mode value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="66" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1ace90c4f5cb16f809c61250ff55a7581c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::INA219Config::set_shunt_adc_mode</definition>
+        <argsstring>(ADCMode value) SYMBOL_VISIBLE</argsstring>
+        <name>set_shunt_adc_mode</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549ac" kindref="member">ADCMode</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set shunt ADC mode value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="80" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a05d7da9f52cef23e1ead6ea871ea1a21" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::I2CINA219RwRegisterOnBoard, <ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a44f6fa358203dad6646d03fab639de10" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::I2CINA219RwRegisterOnBoard, config_size_in_words&gt; haldls::vx::INA219Config::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_i_n_a219_config_1aace6b4ab320874cf8e3c7e2e07d136a3" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="90" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_i_n_a219_config_1a2ee046eac3e473c9f22863dd7c8c358c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::INA219Config::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="100" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="27" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a46fdff12c901c921345eedfad4c549ac" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>ADCMode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a05d7da9f52cef23e1ead6ea871ea1a21" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a44f6fa358203dad6646d03fab639de10" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1aace6b4ab320874cf8e3c7e2e07d136a3" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a1aec5d82a20f84287dadd4f218a756d1" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a34dba841f0ee8ed7d6c4d43947c390ad" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1ab6ee7dd8506838770c918a4160ce1da2" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>get_bus_adc_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a70d7808ef878a3bd561e0a862ad75f0f" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>get_shunt_adc_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1acefc5bfe292eed0b5414ceb43587139d" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>INA219Config</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1af30a934f6d215ae5b00057afaa56aa4a" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1ad54bf7b435489bbde835e69238633b4e" prot="private" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>m_bus_adc_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a2c3b9abe784d64b6363fd3cdfa302871" prot="private" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>m_shunt_adc_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a3e243ae49e3317ed86d5b707d8c25720" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1af9d429204a387c61bb1495e4955e02b3" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a0bff835e9d3199fcca79196ccd20784d" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a2ee046eac3e473c9f22863dd7c8c358c" prot="private" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1ad5dfb120f933df8387ba02c399ec529d" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>set_bus_adc_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1ace90c4f5cb16f809c61250ff55a7581c" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>set_shunt_adc_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_i_n_a219_config_1a99544787a5f89a6cca7058853a80ce9e" prot="public" virt="non-virtual"><scope>haldls::vx::INA219Config</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

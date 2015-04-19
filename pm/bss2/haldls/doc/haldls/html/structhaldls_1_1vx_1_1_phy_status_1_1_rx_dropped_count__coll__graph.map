@@ -1,0 +1,4 @@
+<map id="haldls::vx::PhyStatus::RxDroppedCount" name="haldls::vx::PhyStatus::RxDroppedCount">
+<area shape="rect" id="node1" title="Number of dropped rx words." alt="" coords="36,113,181,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,212,65"/>
+</map>

@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_p_p_u_memory" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::PPUMemory</compoundname>
+    <includes refid="ppu_8h" local="no">ppu.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_p_u_memory_1ab187e920e39155f1e34118261d670565" prot="public" static="no">
+        <type>halco::hicann_dls::vx::PPUMemoryOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::PPUMemoryOnDLS haldls::vx::PPUMemory::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="127" column="47" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a4a1ce273b5c7d91f4895a09f8fccf147" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type haldls::vx::PPUMemory::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="128" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a73d3fd328978b391db0ce54d4fb8bc32" prot="public" static="no">
+        <type>halco::common::typed_heap_array&lt; <ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_word" kindref="compound">PPUMemoryWord</ref>, halco::hicann_dls::vx::PPUMemoryWordOnPPU &gt;</type>
+        <definition>typedef halco::common:: typed_heap_array&lt;PPUMemoryWord, halco::hicann_dls::vx::PPUMemoryWordOnPPU&gt; haldls::vx::PPUMemory::words_type</definition>
+        <argsstring></argsstring>
+        <name>words_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="132" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_p_p_u_memory_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="169" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_p_p_u_memory_1af3730e9e0ce54441c69deeede746670f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PPUMemory const &amp;pm) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory" kindref="compound">PPUMemory</ref> const &amp;</type>
+          <declname>pm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="164" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a7c4ae8a19ccc788ada95eba14cfe706c" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a73d3fd328978b391db0ce54d4fb8bc32" kindref="member">words_type</ref></type>
+        <definition>words_type haldls::vx::PPUMemory::m_words</definition>
+        <argsstring></argsstring>
+        <name>m_words</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="173" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1ab8d846559da9c9978b269ffb3a7e42a2" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PPUMemory::PPUMemory</definition>
+        <argsstring>(words_type const &amp;words=words_type()) SYMBOL_VISIBLE</argsstring>
+        <name>PPUMemory</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a73d3fd328978b391db0ce54d4fb8bc32" kindref="member">words_type</ref> const &amp;</type>
+          <declname>words</declname>
+          <defval><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a73d3fd328978b391db0ce54d4fb8bc32" kindref="member">words_type</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="134" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a2b7a6f2fa0935632c021c4712607d037" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_block" kindref="compound">PPUMemoryBlock</ref></type>
+        <definition>PPUMemoryBlock haldls::vx::PPUMemory::get_block</definition>
+        <argsstring>(halco::hicann_dls::vx::PPUMemoryBlockOnPPU const &amp;block_coord) const SYMBOL_VISIBLE</argsstring>
+        <name>get_block</name>
+        <param>
+          <type>halco::hicann_dls::vx::PPUMemoryBlockOnPPU const &amp;</type>
+          <declname>block_coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="147" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1afcd7c6a3bf29a69f5603daed199fb01c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_p_p_u_memory_word_1_1_value" kindref="compound">PPUMemoryWord::Value</ref></type>
+        <definition>PPUMemoryWord::Value haldls::vx::PPUMemory::get_word</definition>
+        <argsstring>(halco::hicann_dls::vx::PPUMemoryWordOnPPU const &amp;pos) const SYMBOL_VISIBLE</argsstring>
+        <name>get_word</name>
+        <param>
+          <type>halco::hicann_dls::vx::PPUMemoryWordOnPPU const &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="141" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a195d3903d4b2c06afe177911d2408159" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a73d3fd328978b391db0ce54d4fb8bc32" kindref="member">words_type</ref></type>
+        <definition>words_type haldls::vx::PPUMemory::get_words</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_words</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="137" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a02e4ef22a9ba4aff205bd145c42dccc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PPUMemory::load_from_file</definition>
+        <argsstring>(std::string const &amp;filename) SYMBOL_VISIBLE</argsstring>
+        <name>load_from_file</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Load a (stripped) PPU program from a file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The program is located at the beginning of the memory with words above the program&apos;s size set to zero. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of file to load </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="159" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1ae654d6a7f2485ebf374c8baa235959b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUMemory::operator!=</definition>
+        <argsstring>(PPUMemory const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory" kindref="compound">PPUMemory</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="162" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a2f6299774882438b111f0c8999cb1af8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUMemory::operator==</definition>
+        <argsstring>(PPUMemory const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory" kindref="compound">PPUMemory</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="161" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a401286183703f4a3ee6984a8be024054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PPUMemory::set_block</definition>
+        <argsstring>(halco::hicann_dls::vx::PPUMemoryBlockOnPPU const &amp;block_coord, PPUMemoryBlock const &amp;block) SYMBOL_VISIBLE</argsstring>
+        <name>set_block</name>
+        <param>
+          <type>halco::hicann_dls::vx::PPUMemoryBlockOnPPU const &amp;</type>
+          <declname>block_coord</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_block" kindref="compound">PPUMemoryBlock</ref> const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="149" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a9097c5156239bb77e14e68a0037a4ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PPUMemory::set_word</definition>
+        <argsstring>(halco::hicann_dls::vx::PPUMemoryWordOnPPU const &amp;pos, PPUMemoryWord::Value const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>set_word</name>
+        <param>
+          <type>halco::hicann_dls::vx::PPUMemoryWordOnPPU const &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_p_p_u_memory_word_1_1_value" kindref="compound">PPUMemoryWord::Value</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="143" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a26315a8ad6364880c4417fdc14275d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PPUMemory::set_words</definition>
+        <argsstring>(words_type const &amp;words) SYMBOL_VISIBLE</argsstring>
+        <name>set_words</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a73d3fd328978b391db0ce54d4fb8bc32" kindref="member">words_type</ref> const &amp;</type>
+          <declname>words</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="139" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_p_u_memory_1a1b6ee612bfab0f6243932f270d065038" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PPUMemory::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="171" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="124" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="125" bodyend="174"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1ab187e920e39155f1e34118261d670565" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a2b7a6f2fa0935632c021c4712607d037" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>get_block</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1afcd7c6a3bf29a69f5603daed199fb01c" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>get_word</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a195d3903d4b2c06afe177911d2408159" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>get_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a4a1ce273b5c7d91f4895a09f8fccf147" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>has_local_data</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a02e4ef22a9ba4aff205bd145c42dccc0" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>load_from_file</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a7c4ae8a19ccc788ada95eba14cfe706c" prot="private" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>m_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1ae654d6a7f2485ebf374c8baa235959b3" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1af3730e9e0ce54441c69deeede746670f" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a2f6299774882438b111f0c8999cb1af8" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1ab8d846559da9c9978b269ffb3a7e42a2" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>PPUMemory</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a1b6ee612bfab0f6243932f270d065038" prot="private" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a401286183703f4a3ee6984a8be024054" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>set_block</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a9097c5156239bb77e14e68a0037a4ae1" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>set_word</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a26315a8ad6364880c4417fdc14275d2d" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>set_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_p_u_memory_1a73d3fd328978b391db0ce54d4fb8bc32" prot="public" virt="non-virtual"><scope>haldls::vx::PPUMemory</scope><name>words_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

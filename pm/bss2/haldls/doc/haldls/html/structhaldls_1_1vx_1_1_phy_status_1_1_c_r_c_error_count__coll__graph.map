@@ -1,0 +1,4 @@
+<map id="haldls::vx::PhyStatus::CRCErrorCount" name="haldls::vx::PhyStatus::CRCErrorCount">
+<area shape="rect" id="node1" title="Number of CRC errors since last reset." alt="" coords="32,113,177,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,203,65"/>
+</map>

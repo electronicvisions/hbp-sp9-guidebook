@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::MADCConfig::ConversionCyclesOffset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ConversionCyclesOffset, uint_fast8_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="madc_8h" local="no">madc.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset_1ac063f8dadb5ea6a0e73785ce23590bda" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::MADCConfig::ConversionCyclesOffset::ConversionCyclesOffset</definition>
+        <argsstring>(uintmax_t const val=12) SYMBOL_VISIBLE</argsstring>
+        <name>ConversionCyclesOffset</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>12</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="184" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="184" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::MADCConfig::ConversionCyclesOffset</label>
+        <link refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ConversionCyclesOffset, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::MADCConfig::ConversionCyclesOffset</label>
+        <link refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ConversionCyclesOffset, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" line="181" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/madc.h" bodystart="183" bodyend="187"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset_1ac063f8dadb5ea6a0e73785ce23590bda" prot="public" virt="non-virtual"><scope>haldls::vx::MADCConfig::ConversionCyclesOffset</scope><name>ConversionCyclesOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

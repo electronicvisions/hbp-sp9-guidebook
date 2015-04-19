@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="v2_2readout__chain_8h" kind="file" language="C++">
+    <compoundname>readout_chain.h</compoundname>
+    <includes refid="readout__chain_8h" local="yes">lola/vx/readout_chain.h</includes>
+    <includedby refid="v2_2chip_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/chip.h</includedby>
+    <includedby refid="v2_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/container.h</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>haldls/vx/readout.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h</label>
+        <link refid="v2_2readout__chain_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="6">
+        <label>halco/hicann-dls/vx/current_dac.h</label>
+      </node>
+      <node id="17">
+        <label>lola/vx/readout_chain.tcc</label>
+      </node>
+      <node id="9">
+        <label>haldls/vx/current_dac.h</label>
+      </node>
+      <node id="3">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/capmem.h</label>
+      </node>
+      <node id="4">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="2">
+        <label>lola/vx/readout_chain.h</label>
+        <link refid="readout__chain_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="11">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="5">
+        <label>halco/hicann-dls/vx/readout.h</label>
+      </node>
+      <node id="12">
+        <label>lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>type_traits</label>
+      </node>
+      <node id="8">
+        <label>haldls/vx/madc.h</label>
+      </node>
+      <node id="7">
+        <label>haldls/cerealization.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h</label>
+        <link refid="v2_2pylola_8h"/>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h</label>
+        <link refid="v2_2readout__chain_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/chip.h</label>
+        <link refid="v2_2chip_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/lola.h</label>
+        <link refid="v2_2lola_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v2">lola::vx::v2</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="v2_2readout__chain_8h_1a3e1b6949d331de046719e3cae03afa03" prot="public" static="no">
+        <name>CHIP_REVISION</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" line="2" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="v2_2readout__chain_8h_1ab8e5b6563f6e0ca014e12f1f35fc4c6a" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>auto ism</definition>
+        <argsstring></argsstring>
+        <name>ism</name>
+        <initializer>= parent-&gt;py::is_method(<ref refid="v3_2readout__chain_8h_1a03170f472f28a0c7e483169a5c0d2e8f" kindref="member">attr</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" line="41" column="27" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v2_2readout__chain_8h_1ac71a7dc66f3e2d929e97d919dfe38017" prot="public" static="no" mutable="no">
+        <type>auto const</type>
+        <definition>auto const to_str</definition>
+        <argsstring></argsstring>
+        <name>to_str</name>
+        <initializer>= [](ReadoutChain::InputMux const&amp; self) { 			std::stringstream ss; 			ss &lt;&lt; self; 			return ss.str(); 		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" line="41" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="v2_2readout__chain_8h_1a03170f472f28a0c7e483169a5c0d2e8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>attr</type>
+        <definition>attr attr</definition>
+        <argsstring>(&quot;__str__&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;__str__&quot;</type>
+        </param>
+        <initializer>= parent-&gt;py::cpp_function(<ref refid="v3_2readout__chain_8h_1ac71a7dc66f3e2d929e97d919dfe38017" kindref="member">to_str</ref>, <ref refid="v3_2readout__chain_8h_1ab8e5b6563f6e0ca014e12f1f35fc4c6a" kindref="member">ism</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" line="41" column="36" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" declline="41" declcolumn="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h"/>
+  </compounddef>
+</doxygen>

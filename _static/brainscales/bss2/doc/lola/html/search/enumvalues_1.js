@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['normal_995',['normal',['../structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing.html#adbee80723947bbe5850f5047e32ff24dafea087517c26fadd409bd4b9dc642555',1,'lola::vx::v2::AtomicNeuron::EventRouting::normal()'],['../struct_event_routing.html#a34fe35d97dbe95c8e1be9cc67d9268d9afea087517c26fadd409bd4b9dc642555',1,'EventRouting::normal()'],['../struct_event_routing.html#a34fe35d97dbe95c8e1be9cc67d9268d9afea087517c26fadd409bd4b9dc642555',1,'EventRouting::normal()'],['../structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_event_routing.html#abefbdd31f6ff30964dbacfca0e9ea3b6afea087517c26fadd409bd4b9dc642555',1,'lola::vx::v3::AtomicNeuron::EventRouting::normal()'],['../struct_event_routing.html#a34fe35d97dbe95c8e1be9cc67d9268d9afea087517c26fadd409bd4b9dc642555',1,'EventRouting::normal()'],['../struct_event_routing.html#a34fe35d97dbe95c8e1be9cc67d9268d9afea087517c26fadd409bd4b9dc642555',1,'EventRouting::normal()']]]
+];

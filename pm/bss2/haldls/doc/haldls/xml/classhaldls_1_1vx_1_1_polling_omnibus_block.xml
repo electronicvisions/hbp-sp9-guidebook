@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_polling_omnibus_block" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::PollingOmnibusBlock</compoundname>
+    <includes refid="block_8h" local="no">block.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1a1088d2ecd592836344637209c9f9a451" prot="public" static="no">
+        <type>halco::hicann_dls::vx::PollingOmnibusBlockOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::PollingOmnibusBlockOnFPGA haldls::vx::PollingOmnibusBlock::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="92" column="58" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1a718e9e6bd071e7df6d114d093bb17dbc" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::PollingOmnibusBlock::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="93" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="130" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1ac0c9ec24dead45ec99d86436808568e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PollingOmnibusBlock const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_polling_omnibus_block" kindref="compound">PollingOmnibusBlock</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="120" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1a4d3e8851b63183255b8fafde0be4a108" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PollingOmnibusBlock::m_enable_expects_equality</definition>
+        <argsstring></argsstring>
+        <name>m_enable_expects_equality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="134" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1a50174ff98c555f7346508cb130cf2389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PollingOmnibusBlock::PollingOmnibusBlock</definition>
+        <argsstring>(bool enable_expects_equality=true) SYMBOL_VISIBLE</argsstring>
+        <name>PollingOmnibusBlock</name>
+        <param>
+          <type>bool</type>
+          <declname>enable_expects_equality</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Resolve block if value is true (*address &amp; mask == target) or if value is false (*address &amp; mask != target). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1aaa88ef84002977df3036af542f29c241" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>fisch::vx::word_access_type::PollingOmnibusBlock</type>
+        <definition>fisch::vx::word_access_type::PollingOmnibusBlock haldls::vx::PollingOmnibusBlock::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="126" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1ae97b2ae47d885316e5031d5f4a77416c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PollingOmnibusBlock::get_enable_expects_equality</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_expects_equality</name>
+        <briefdescription>
+<para>Get enable expects equality value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Resolve block if value is true (*address &amp; mask == target) or if value is false (*address &amp; mask != target). <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="108" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1a5bb60da70948bf5e893c4c2589eb7ebd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PollingOmnibusBlock::operator!=</definition>
+        <argsstring>(PollingOmnibusBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_polling_omnibus_block" kindref="compound">PollingOmnibusBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="124" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1a8e9acdd8a1f58f4625d932efb9579ea1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PollingOmnibusBlock::operator==</definition>
+        <argsstring>(PollingOmnibusBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_polling_omnibus_block" kindref="compound">PollingOmnibusBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="123" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1a3b5bfa1e581b3604090f399f8d6bffbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PollingOmnibusBlock::set_enable_expects_equality</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_expects_equality</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Get enable expects equality value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Resolve block if value is true (*address &amp; mask == target) or if value is false (*address &amp; mask != target). <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="117" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_polling_omnibus_block_1a6f817193b4c420cee143d02ac5925a9c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PollingOmnibusBlock::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="132" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for polling block operation on a Omnibus address. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Compare given value from address in FPGA register file masked with expected target result. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" line="89" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/block.h" bodystart="90" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1a1088d2ecd592836344637209c9f9a451" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1aaa88ef84002977df3036af542f29c241" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1ae97b2ae47d885316e5031d5f4a77416c" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>get_enable_expects_equality</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1a718e9e6bd071e7df6d114d093bb17dbc" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1a4d3e8851b63183255b8fafde0be4a108" prot="private" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>m_enable_expects_equality</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1a5bb60da70948bf5e893c4c2589eb7ebd" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1ac0c9ec24dead45ec99d86436808568e0" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1a8e9acdd8a1f58f4625d932efb9579ea1" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1a50174ff98c555f7346508cb130cf2389" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>PollingOmnibusBlock</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1a6f817193b4c420cee143d02ac5925a9c" prot="private" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_polling_omnibus_block_1a3b5bfa1e581b3604090f399f8d6bffbf" prot="public" virt="non-virtual"><scope>haldls::vx::PollingOmnibusBlock</scope><name>set_enable_expects_equality</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacehaldls_1_1vx_1_1detail" kind="namespace" language="C++">
+    <compoundname>haldls::vx::detail</compoundname>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_4b61790222dc8013436cf33cdfb757be" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::CADCReadoutChain &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_fbe3ca0e15404223146747c6c2f45ce9" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::CADCSampleRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_e38b35c808de6c787b32fccda71a3d3e" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::CADCSamples &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_77ba304533691d230b4fea27263cda6a" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_dcaed0f6dea43ddb99fff1e44e74d242" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CHIP_REVISION_STR::SynapseDriverBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_column_correlation_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::ColumnCorrelationRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_column_current_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::ColumnCurrentRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CorrelationResetRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::DACChannelBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::DACControlBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseCorrelationCalibMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseCorrelationCalibRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseLabelMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_label_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseLabelRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_7369759f7c767887550628fcf43d64eb" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCReadoutChain &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_8320427489472e7632827bc88dc9a7b5" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCSampleRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_de2e71cc9613f00d9441956bb8865733" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::CADCSamples &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::SynapseBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_436fb9aa0b302668a8a0bfbadbfce023" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CHIP_REVISION_STR::SynapseDriverBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_column_correlation_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::ColumnCorrelationRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_column_current_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::ColumnCurrentRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CorrelationResetRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACChannelBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACControlBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseCorrelationCalibMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseCorrelationCalibRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseLabelMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseLabelRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightRow &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="465" column="1"/>
+  </compounddef>
+</doxygen>

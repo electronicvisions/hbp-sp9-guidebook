@@ -1,0 +1,649 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</compoundname>
+    <includes refid="readout_8h" local="no">readout.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae7c348e427f31242abeb6e55b24c7989" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::HemisphereOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::HemisphereOnDLS&gt; haldls::vx::ReadoutSourceSelection::SourceMultiplexer::hemisphere_type</definition>
+        <argsstring></argsstring>
+        <name>hemisphere_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="254" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="327" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a606bb58aff31cbac0ce177ea4812cf1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SourceMultiplexer const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" kindref="compound">SourceMultiplexer</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="322" column="8"/>
+      </memberdef>
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a5625e04d633ae8a378eea2747446aec4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class ReadoutSourceSelection</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSourceSelection</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_readout_source_selection" kindref="compound">ReadoutSourceSelection</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="326" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1aa132a94b9a8fc96f74c388dfcf3b23ce" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_cadc_debug_acausal</definition>
+        <argsstring></argsstring>
+        <name>m_cadc_debug_acausal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="337" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a2d9a48168934a5329b501d2117ba1dce" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_cadc_debug_causal</definition>
+        <argsstring></argsstring>
+        <name>m_cadc_debug_causal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="336" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1afd5bf37638ffe274a93a1db7aa505777" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_current_dac</definition>
+        <argsstring></argsstring>
+        <name>m_current_dac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="333" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a98c9b426d2ef322fc1d6ae042fe18230" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_debug_minus</definition>
+        <argsstring></argsstring>
+        <name>m_debug_minus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="332" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ab49d7f10580aae5efc58a2a07b0a09ba" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_debug_plus</definition>
+        <argsstring></argsstring>
+        <name>m_debug_plus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="331" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af5180c64439ddfaef1235339eba083f2" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae7c348e427f31242abeb6e55b24c7989" kindref="member">hemisphere_type</ref></type>
+        <definition>hemisphere_type haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_neuron_even</definition>
+        <argsstring></argsstring>
+        <name>m_neuron_even</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="340" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a4d80bccd7210c903ad748ad5c3054fde" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae7c348e427f31242abeb6e55b24c7989" kindref="member">hemisphere_type</ref></type>
+        <definition>hemisphere_type haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_neuron_odd</definition>
+        <argsstring></argsstring>
+        <name>m_neuron_odd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="339" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a5fe6218ec49a52f88a71fdeed3da50e8" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae7c348e427f31242abeb6e55b24c7989" kindref="member">hemisphere_type</ref></type>
+        <definition>hemisphere_type haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_synapse_driver_debug</definition>
+        <argsstring></argsstring>
+        <name>m_synapse_driver_debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="338" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ad90e8c0a5e8023e3e9a566ac55d86b90" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_synin_debug_excitatory</definition>
+        <argsstring></argsstring>
+        <name>m_synin_debug_excitatory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="335" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a94f531ed041652ebf3e374ec729a00b2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::m_synin_debug_inhibitory</definition>
+        <argsstring></argsstring>
+        <name>m_synin_debug_inhibitory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="334" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a06daf6049662f665b41a814bfe7a863a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ReadoutSourceSelection::SourceMultiplexer::SourceMultiplexer</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SourceMultiplexer</name>
+        <briefdescription>
+<para>Default constructor with all inputs disabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="251" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1aeef8d789b0795b8c30b046f814d6362a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::get_cadc_debug_acausal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_cadc_debug_acausal</name>
+        <briefdescription>
+<para>Connect CADC acausal debug line to mux. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="296" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a75a36b5c4932fd38a3b0a8c8a6ef9b63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::get_cadc_debug_causal</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_cadc_debug_causal</name>
+        <briefdescription>
+<para>Connect CADC causal debug line to mux. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="290" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a4527ffd9c7a4081fd183358f029cb175" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::get_current_dac</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_current_dac</name>
+        <briefdescription>
+<para>Connect output line of idac_i_out to mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This current-dac in the readout section can also be connected to neuron membranes or the synaptic input, to mux. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="272" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a94c0119c6ba74a80684d0db01b8971b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::get_debug_minus</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_debug_minus</name>
+        <briefdescription>
+<para>Connect <computeroutput>debug_minus</computeroutput> line to mux. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="264" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a26cc4d3b26086873073e4957f9f04f64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::get_debug_plus</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_debug_plus</name>
+        <briefdescription>
+<para>Connect <computeroutput>debug_plus</computeroutput> line to mux. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="258" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a3f3be8e8a2f2d884bf9cbe96476684f0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::get_synin_debug_excitatory</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_synin_debug_excitatory</name>
+        <briefdescription>
+<para>Connect synaptic input excitatory debug line to mux. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="284" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af2927625372cc7bf8998b912bcd48d84" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::get_synin_debug_inhibitory</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_synin_debug_inhibitory</name>
+        <briefdescription>
+<para>Connect synaptic input inhibitory debug line to mux. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="278" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae54da4a276b77e87280d6da2c5b59506" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::operator!=</definition>
+        <argsstring>(SourceMultiplexer const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" kindref="compound">SourceMultiplexer</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="319" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a898df7c471c0ad8dcf0d830b1740b433" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ReadoutSourceSelection::SourceMultiplexer::operator==</definition>
+        <argsstring>(SourceMultiplexer const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" kindref="compound">SourceMultiplexer</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="318" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ada1a4099ff2dd109c44b4a399aa4a858" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ReadoutSourceSelection::SourceMultiplexer::return_value_policy</definition>
+        <argsstring>(reference_internal)) hemisphere_type const &amp;get_neuron_even() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="313" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ac13ef63366666b960fa1fc36962690ac" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ReadoutSourceSelection::SourceMultiplexer::return_value_policy</definition>
+        <argsstring>(reference_internal)) hemisphere_type const &amp;get_neuron_odd() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="307" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af548e4753e6a1ca092350fb9543ff4b6" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ReadoutSourceSelection::SourceMultiplexer::return_value_policy</definition>
+        <argsstring>(reference_internal)) hemisphere_type const &amp;get_synapse_driver_debug() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="301" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a8c3470d4774ab5728bcae539fbcea2a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_cadc_debug_acausal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_cadc_debug_acausal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="298" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a9944a6871a0a54b6d625ab29ad6947e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_cadc_debug_causal</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_cadc_debug_causal</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="292" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a892a9867d79afe6de3e7c85c44aa39b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_current_dac</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_current_dac</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="274" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ad4e982d0fcfc5ea4fdff91ec4933cf48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_debug_minus</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_debug_minus</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="266" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a2d55922f6c694c0ecce9e841efb1fb3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_debug_plus</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_debug_plus</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="260" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a941e8610b9de4697adedf737dc1c13c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_neuron_even</definition>
+        <argsstring>(hemisphere_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_even</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae7c348e427f31242abeb6e55b24c7989" kindref="member">hemisphere_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="316" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af1d84082c421ccac3f4111eb06ae9601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_neuron_odd</definition>
+        <argsstring>(hemisphere_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_odd</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae7c348e427f31242abeb6e55b24c7989" kindref="member">hemisphere_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="310" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1abb0501e3b0075cfe7533df9888d4cb10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_synapse_driver_debug</definition>
+        <argsstring>(hemisphere_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synapse_driver_debug</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae7c348e427f31242abeb6e55b24c7989" kindref="member">hemisphere_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="304" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a621ef4661145b31a05c0c78e42043de4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_synin_debug_excitatory</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synin_debug_excitatory</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="286" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a145b60a842908a8c987449f3f4bcf178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::set_synin_debug_inhibitory</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synin_debug_inhibitory</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="280" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af4fce43d968b11ccb602e624cbc46ff8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ReadoutSourceSelection::SourceMultiplexer::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="329" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="248" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="249" bodyend="341"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>cereal::access</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1aeef8d789b0795b8c30b046f814d6362a" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>get_cadc_debug_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a75a36b5c4932fd38a3b0a8c8a6ef9b63" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>get_cadc_debug_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a4527ffd9c7a4081fd183358f029cb175" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>get_current_dac</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a94c0119c6ba74a80684d0db01b8971b6" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>get_debug_minus</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a26cc4d3b26086873073e4957f9f04f64" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>get_debug_plus</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a3f3be8e8a2f2d884bf9cbe96476684f0" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>get_synin_debug_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af2927625372cc7bf8998b912bcd48d84" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>get_synin_debug_inhibitory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae7c348e427f31242abeb6e55b24c7989" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>hemisphere_type</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1aa132a94b9a8fc96f74c388dfcf3b23ce" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_cadc_debug_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a2d9a48168934a5329b501d2117ba1dce" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_cadc_debug_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1afd5bf37638ffe274a93a1db7aa505777" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_current_dac</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a98c9b426d2ef322fc1d6ae042fe18230" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_debug_minus</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ab49d7f10580aae5efc58a2a07b0a09ba" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_debug_plus</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af5180c64439ddfaef1235339eba083f2" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_neuron_even</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a4d80bccd7210c903ad748ad5c3054fde" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_neuron_odd</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a5fe6218ec49a52f88a71fdeed3da50e8" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_synapse_driver_debug</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ad90e8c0a5e8023e3e9a566ac55d86b90" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_synin_debug_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a94f531ed041652ebf3e374ec729a00b2" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>m_synin_debug_inhibitory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ae54da4a276b77e87280d6da2c5b59506" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>operator!=</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a606bb58aff31cbac0ce177ea4812cf1f" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a898df7c471c0ad8dcf0d830b1740b433" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>operator==</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a5625e04d633ae8a378eea2747446aec4" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>ReadoutSourceSelection</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af548e4753e6a1ca092350fb9543ff4b6" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>return_value_policy</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ac13ef63366666b960fa1fc36962690ac" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>return_value_policy</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ada1a4099ff2dd109c44b4a399aa4a858" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>return_value_policy</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af4fce43d968b11ccb602e624cbc46ff8" prot="private" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>serialize</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a8c3470d4774ab5728bcae539fbcea2a7" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_cadc_debug_acausal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a9944a6871a0a54b6d625ab29ad6947e6" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_cadc_debug_causal</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a892a9867d79afe6de3e7c85c44aa39b2" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_current_dac</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1ad4e982d0fcfc5ea4fdff91ec4933cf48" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_debug_minus</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a2d55922f6c694c0ecce9e841efb1fb3c" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_debug_plus</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a941e8610b9de4697adedf737dc1c13c3" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_neuron_even</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1af1d84082c421ccac3f4111eb06ae9601" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_neuron_odd</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1abb0501e3b0075cfe7533df9888d4cb10" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_synapse_driver_debug</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a621ef4661145b31a05c0c78e42043de4" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_synin_debug_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a145b60a842908a8c987449f3f4bcf178" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>set_synin_debug_inhibitory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer_1a06daf6049662f665b41a814bfe7a863a" prot="public" virt="non-virtual"><scope>haldls::vx::ReadoutSourceSelection::SourceMultiplexer</scope><name>SourceMultiplexer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

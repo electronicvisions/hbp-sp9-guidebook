@@ -1,0 +1,1165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_pad_multiplexer_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::PadMultiplexerConfig</compoundname>
+    <includes refid="readout_8h" local="no">readout.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa2d1b381beb9d3d7f98e88bc118d22ca" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;bool, halco::hicann_dls::vx::SourceMultiplexerOnReadoutSourceSelection&gt; haldls::vx::PadMultiplexerConfig::buffer_type</definition>
+        <argsstring></argsstring>
+        <name>buffer_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="43" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::CapMemBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::CapMemBlockOnDLS&gt; haldls::vx::PadMultiplexerConfig::capmem_quadrant_type</definition>
+        <argsstring></argsstring>
+        <name>capmem_quadrant_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="38" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af02a428d4a00e7fc62eb1f1b09b12fb9" prot="public" static="no">
+        <type>halco::hicann_dls::vx::PadMultiplexerConfigOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::PadMultiplexerConfigOnDLS haldls::vx::PadMultiplexerConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="30" column="58" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ae6264184e639041630d1d415fa88f28c" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::HemisphereOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::HemisphereOnDLS&gt; haldls::vx::PadMultiplexerConfig::hemisphere_type</definition>
+        <argsstring></argsstring>
+        <name>hemisphere_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="39" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa76a137201f91fc4a3b452ba978f113e" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::PadMultiplexerConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="32" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab5e25e08a794ae3cf8c3f2635acb7410" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::PadMultiplexerConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="183" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="197" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a21128e489e6150d3718637174d226fd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PadMultiplexerConfig const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config" kindref="compound">PadMultiplexerConfig</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="180" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a115eac619a1dff34a2eb66e7d63cdfeb" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa2d1b381beb9d3d7f98e88bc118d22ca" kindref="member">buffer_type</ref></type>
+        <definition>buffer_type haldls::vx::PadMultiplexerConfig::m_buffer_to_pad</definition>
+        <argsstring></argsstring>
+        <name>m_buffer_to_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="226" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a8f1d6f4cf74da24f34b7e0b24dc8ee01" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_cadc_debug_acausal_to_inter</definition>
+        <argsstring></argsstring>
+        <name>m_cadc_debug_acausal_to_inter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="219" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afd8ee48968d4b932d9c84ea29b990464" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_cadc_debug_causal_to_inter</definition>
+        <argsstring></argsstring>
+        <name>m_cadc_debug_causal_to_inter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="220" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a30d5625bc2ca091f63ffe1f0e0d5a913" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" kindref="member">capmem_quadrant_type</ref></type>
+        <definition>capmem_quadrant_type haldls::vx::PadMultiplexerConfig::m_cadc_v_ramp_mux</definition>
+        <argsstring></argsstring>
+        <name>m_cadc_v_ramp_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="202" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a894aa38713031cbaee7059ab512c8f5f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_cadc_v_ramp_mux_to_pad</definition>
+        <argsstring></argsstring>
+        <name>m_cadc_v_ramp_mux_to_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="203" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af93fa47b37a8818759a5b14a53723524" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" kindref="member">capmem_quadrant_type</ref></type>
+        <definition>capmem_quadrant_type haldls::vx::PadMultiplexerConfig::m_capmem_i_out_mux</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_i_out_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="206" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a2a754186af110c882f76450cb2421aae" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_capmem_i_out_mux_to_inter</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_i_out_mux_to_inter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="207" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a7d52558ddadccebea724546ff896b169" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_capmem_inter_mux_to_pad</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_inter_mux_to_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="208" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a6fef2fd4b7d5bb12b2bdae885ed4cd81" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" kindref="member">capmem_quadrant_type</ref></type>
+        <definition>capmem_quadrant_type haldls::vx::PadMultiplexerConfig::m_capmem_v_out_mux</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_v_out_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="209" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a6d52c76c6eb0f7b8e01fb2514c3f9a59" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_capmem_v_out_mux_to_inter</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_v_out_mux_to_inter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="210" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a1d53c2be05f076626ff28002d1fed471" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" kindref="member">capmem_quadrant_type</ref></type>
+        <definition>capmem_quadrant_type haldls::vx::PadMultiplexerConfig::m_capmem_v_ref_mux</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_v_ref_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="211" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa83e1d3b4118eae5f001d3ed69bdc1e2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_capmem_v_ref_mux_to_inter</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_v_ref_mux_to_inter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="212" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ad8eef4f2d94878b3a63c907d1fee09a7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_debug_to_pad</definition>
+        <argsstring></argsstring>
+        <name>m_debug_to_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="227" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afdc1482377a8aa2762f8b01de975a766" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ae6264184e639041630d1d415fa88f28c" kindref="member">hemisphere_type</ref></type>
+        <definition>hemisphere_type haldls::vx::PadMultiplexerConfig::m_neuron_i_stim_mux</definition>
+        <argsstring></argsstring>
+        <name>m_neuron_i_stim_mux</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="215" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a9a0826abbf90a4e3f4ac7d2ed5c4646f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_neuron_i_stim_mux_to_pad</definition>
+        <argsstring></argsstring>
+        <name>m_neuron_i_stim_mux_to_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="216" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa8d8ff084326941fcf6e547c8151a7b8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_synapse_inter_mux_to_pad</definition>
+        <argsstring></argsstring>
+        <name>m_synapse_inter_mux_to_pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="223" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a8bd7a8b466330dfb49aaf200604ec658" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_synin_debug_excitatory_to_inter</definition>
+        <argsstring></argsstring>
+        <name>m_synin_debug_excitatory_to_inter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="222" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a82811fb4d4b8f497429edbea95b4df4a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::m_synin_debug_inhibitory_to_inter</definition>
+        <argsstring></argsstring>
+        <name>m_synin_debug_inhibitory_to_inter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="221" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a1bc33ec7bf6b687305118fda4f93310a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PadMultiplexerConfig::PadMultiplexerConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PadMultiplexerConfig</name>
+        <briefdescription>
+<para>Default constructor with all inputs disabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af8b9a7cdead7a0ddb6a60d3da0388181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;words) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab5e25e08a794ae3cf8c3f2635acb7410" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>words</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="193" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af0ec06fad30d4bba01cbe539472a1647" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab5e25e08a794ae3cf8c3f2635acb7410" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::PadMultiplexerConfig::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="190" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a326026e6d3a61ddcc3c361607fea9dae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_cadc_debug_acausal_to_synapse_intermediate_mux</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_cadc_debug_acausal_to_synapse_intermediate_mux</name>
+        <briefdescription>
+<para>Enable connection of acausal CADC debug line to intermediate mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To reach the pad, the connection between the synapse intermediate mux and the pad has to be enabled as well. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="123" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a38281901952fc72fba01a023d4668486" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_cadc_debug_causal_to_synapse_intermediate_mux</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_cadc_debug_causal_to_synapse_intermediate_mux</name>
+        <briefdescription>
+<para>Enable connection of causal CADC debug line to intermediate mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To reach the pad, the connection between the synapse intermediate mux and the pad has to be enabled as well. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="131" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a539d54ecad47c55774bfa3fdec2af9cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_cadc_v_ramp_mux_to_pad</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_cadc_v_ramp_mux_to_pad</name>
+        <briefdescription>
+<para>Enable connection of cadc_v_ramp_mux to pad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="53" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afe069d8a9581fad1ed6a9f78ce300755" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_capmem_i_out_mux_to_capmem_intermediate_mux</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_capmem_i_out_mux_to_capmem_intermediate_mux</name>
+        <briefdescription>
+<para>Enable connection of capmem_i_out_mux to intermediate mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To reach the pad, the connection between the CapMem intermediate mux and the pad has to be enabled as well. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="68" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af016c3e8a90d52d6f26a939994b72e11" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_capmem_intermediate_mux_to_pad</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_capmem_intermediate_mux_to_pad</name>
+        <briefdescription>
+<para>Enable connection of CapMem intermediate mux to pad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The intermediate mux selects between different capmem-specific sources. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="75" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a53e437336d01d323b3c51f04e2b123b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_capmem_v_out_mux_to_capmem_intermediate_mux</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_capmem_v_out_mux_to_capmem_intermediate_mux</name>
+        <briefdescription>
+<para>Enable connection of capmem_v_out_mux to intermediate mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To reach the pad, the connection between the CapMem intermediate mux and the pad has to be enabled as well. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="89" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1adca55359cd8252e64f3dd2e0246c19a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_capmem_v_ref_mux_to_capmem_intermediate_mux</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_capmem_v_ref_mux_to_capmem_intermediate_mux</name>
+        <briefdescription>
+<para>Enable connection of capmem_v_ref_mux to intermediate mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To reach the pad, the connection between the CapMem intermediate mux and the pad has to be enabled as well. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="103" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a4697c9bd0c897467e3e75b016380c6a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_debug_to_pad</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_debug_to_pad</name>
+        <briefdescription>
+<para>Enable connection of debug lines to pad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Enabling this connection on pad 0 connects the <computeroutput>debug_plus</computeroutput> line to that pad, enabling this connection on pad 1 connects the <computeroutput>debug_minus</computeroutput> line to that pad. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="172" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a2fa425b62468610f8074bec9dc026203" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_neuron_i_stim_mux_to_pad</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_neuron_i_stim_mux_to_pad</name>
+        <briefdescription>
+<para>Enable connection of neuron unbuffered membrane access neuron_i_stim_mux to pad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="115" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab2edd817f554a6639c5411cc3fb1f293" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_synapse_intermediate_mux_to_pad</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_synapse_intermediate_mux_to_pad</name>
+        <briefdescription>
+<para>Enable connection of synapse intermediate mux to pad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The intermediate mux selects between different sources in the synapse array, namely the debug lines at the synaptic input and the correlation readout. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="155" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a6452f238da234ca627440101933f13f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_synin_debug_excitatory_to_synapse_intermediate_mux</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_synin_debug_excitatory_to_synapse_intermediate_mux</name>
+        <briefdescription>
+<para>Enable connection of excitatory synaptic input debug line to intermediate mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To reach the pad, the connection between the synapse intermediate mux and the pad has to be enabled as well. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="147" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1adeca83e35982cbb26c36257d03b0afff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::get_synin_debug_inhibitory_to_synapse_intermediate_mux</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_synin_debug_inhibitory_to_synapse_intermediate_mux</name>
+        <briefdescription>
+<para>Enable connection of inhibitory synaptic input debug line to intermediate mux. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To reach the pad, the connection between the synapse intermediate mux and the pad has to be enabled as well. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="139" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a141f3180a5bcda23de4834521c0f02f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::operator!=</definition>
+        <argsstring>(PadMultiplexerConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config" kindref="compound">PadMultiplexerConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="177" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af3ac97f444b88f010c578d15de895b06" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PadMultiplexerConfig::operator==</definition>
+        <argsstring>(PadMultiplexerConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config" kindref="compound">PadMultiplexerConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="176" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a0048e08558b1bb1452f1c05efb5b0314" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PadMultiplexerConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) buffer_type const &amp;get_buffer_to_pad() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="162" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afdf064bad741aba607ab931387780b34" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PadMultiplexerConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_quadrant_type const &amp;get_cadc_v_ramp_mux() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="46" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a211d0361f3280054ece99f6d3aa4f12c" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PadMultiplexerConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_quadrant_type const &amp;get_capmem_i_out_mux() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="58" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a21564a0ba41e3afe4f7e48ccfffae631" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PadMultiplexerConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_quadrant_type const &amp;get_capmem_v_out_mux() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="80" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a930f1d01b83de24fc38e2caea5f7a88a" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PadMultiplexerConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) capmem_quadrant_type const &amp;get_capmem_v_ref_mux() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="94" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a53e8f90a22d9ec70fffe520b272e9456" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PadMultiplexerConfig::return_value_policy</definition>
+        <argsstring>(reference_internal)) hemisphere_type const &amp;get_neuron_i_stim_mux() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="108" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a56346158b1403d781a7b16f6eb593533" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_buffer_to_pad</definition>
+        <argsstring>(buffer_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_buffer_to_pad</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa2d1b381beb9d3d7f98e88bc118d22ca" kindref="member">buffer_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="165" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1adc44155d0f3184c0a9797a8313d19420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_cadc_debug_acausal_to_synapse_intermediate_mux</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_cadc_debug_acausal_to_synapse_intermediate_mux</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="125" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a0777c4736a229104b1d4cadc3f7f5abd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_cadc_debug_causal_to_synapse_intermediate_mux</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_cadc_debug_causal_to_synapse_intermediate_mux</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="133" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a8c0b48d571c6aa8921ae320284576038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_cadc_v_ramp_mux</definition>
+        <argsstring>(capmem_quadrant_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_cadc_v_ramp_mux</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" kindref="member">capmem_quadrant_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="49" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a2563ff7363cb3261f6c68b24a764155f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_cadc_v_ramp_mux_to_pad</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_cadc_v_ramp_mux_to_pad</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="55" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ad34a85739089595260c41c20f54322e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_capmem_i_out_mux</definition>
+        <argsstring>(capmem_quadrant_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_i_out_mux</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" kindref="member">capmem_quadrant_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="61" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ad9c21c60b1767e31d5dddfb1aae9d368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_capmem_i_out_mux_to_capmem_intermediate_mux</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_i_out_mux_to_capmem_intermediate_mux</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="70" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a64181d3155df95b416b6b5e7beb6ed84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_capmem_intermediate_mux_to_pad</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_intermediate_mux_to_pad</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="77" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a962aa5aae3f29faee4af39319f2867c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_capmem_v_out_mux</definition>
+        <argsstring>(capmem_quadrant_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_v_out_mux</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" kindref="member">capmem_quadrant_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="83" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af0c68e48def87048c2516da431486b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_capmem_v_out_mux_to_capmem_intermediate_mux</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_v_out_mux_to_capmem_intermediate_mux</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="91" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afad9b1424ed366a9bdd4a5a161cde823" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_capmem_v_ref_mux</definition>
+        <argsstring>(capmem_quadrant_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_v_ref_mux</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" kindref="member">capmem_quadrant_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="97" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a2c5533973ff631456d0ba2eb73ffd1e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_capmem_v_ref_mux_to_capmem_intermediate_mux</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_v_ref_mux_to_capmem_intermediate_mux</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="105" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aab0319378ff86b3ca0fbb2ad5fb0a9cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_debug_to_pad</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_debug_to_pad</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="174" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aac2972f2f6449c864fd98290ed792fbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_neuron_i_stim_mux</definition>
+        <argsstring>(hemisphere_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_i_stim_mux</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ae6264184e639041630d1d415fa88f28c" kindref="member">hemisphere_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="111" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa5eb060dc891cda6fb41455fb0d9dc29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_neuron_i_stim_mux_to_pad</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_i_stim_mux_to_pad</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="117" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ae36a12a43a2f2e861248e021882524f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_synapse_intermediate_mux_to_pad</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synapse_intermediate_mux_to_pad</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="157" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a644b5da4d92a90a7e339f4b0f72195dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_synin_debug_excitatory_to_synapse_intermediate_mux</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synin_debug_excitatory_to_synapse_intermediate_mux</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="149" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a712847359ca477d5b6c5f25dbd6bb8c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::set_synin_debug_inhibitory_to_synapse_intermediate_mux</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synin_debug_inhibitory_to_synapse_intermediate_mux</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="141" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a8bdb75a83178914eeb32928b0ee4eb7d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab5e25e08a794ae3cf8c3f2635acb7410" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::PadMultiplexerConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af02a428d4a00e7fc62eb1f1b09b12fb9" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="186" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aee43bf1675777a8be4734c67af44e195" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PadMultiplexerConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="199" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A configuration container for the top-level readout mux, selecting the connections between an analog readout pad and different components on the chip. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>There are two equal instances of this mux on the chip, one for each of the two pads. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/readout.h" bodystart="28" bodyend="228"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a8bdb75a83178914eeb32928b0ee4eb7d" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa2d1b381beb9d3d7f98e88bc118d22ca" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>buffer_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab17e64099ed9b964142bff66249f348f" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>capmem_quadrant_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab5e25e08a794ae3cf8c3f2635acb7410" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af02a428d4a00e7fc62eb1f1b09b12fb9" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af8b9a7cdead7a0ddb6a60d3da0388181" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af0ec06fad30d4bba01cbe539472a1647" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a326026e6d3a61ddcc3c361607fea9dae" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_cadc_debug_acausal_to_synapse_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a38281901952fc72fba01a023d4668486" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_cadc_debug_causal_to_synapse_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a539d54ecad47c55774bfa3fdec2af9cc" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_cadc_v_ramp_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afe069d8a9581fad1ed6a9f78ce300755" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_capmem_i_out_mux_to_capmem_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af016c3e8a90d52d6f26a939994b72e11" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_capmem_intermediate_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a53e437336d01d323b3c51f04e2b123b6" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_capmem_v_out_mux_to_capmem_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1adca55359cd8252e64f3dd2e0246c19a9" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_capmem_v_ref_mux_to_capmem_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a4697c9bd0c897467e3e75b016380c6a4" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_debug_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a2fa425b62468610f8074bec9dc026203" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_neuron_i_stim_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ab2edd817f554a6639c5411cc3fb1f293" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_synapse_intermediate_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a6452f238da234ca627440101933f13f6" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_synin_debug_excitatory_to_synapse_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1adeca83e35982cbb26c36257d03b0afff" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>get_synin_debug_inhibitory_to_synapse_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ae6264184e639041630d1d415fa88f28c" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>hemisphere_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa76a137201f91fc4a3b452ba978f113e" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a115eac619a1dff34a2eb66e7d63cdfeb" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_buffer_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a8f1d6f4cf74da24f34b7e0b24dc8ee01" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_cadc_debug_acausal_to_inter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afd8ee48968d4b932d9c84ea29b990464" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_cadc_debug_causal_to_inter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a30d5625bc2ca091f63ffe1f0e0d5a913" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_cadc_v_ramp_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a894aa38713031cbaee7059ab512c8f5f" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_cadc_v_ramp_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af93fa47b37a8818759a5b14a53723524" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_capmem_i_out_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a2a754186af110c882f76450cb2421aae" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_capmem_i_out_mux_to_inter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a7d52558ddadccebea724546ff896b169" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_capmem_inter_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a6fef2fd4b7d5bb12b2bdae885ed4cd81" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_capmem_v_out_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a6d52c76c6eb0f7b8e01fb2514c3f9a59" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_capmem_v_out_mux_to_inter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a1d53c2be05f076626ff28002d1fed471" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_capmem_v_ref_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa83e1d3b4118eae5f001d3ed69bdc1e2" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_capmem_v_ref_mux_to_inter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ad8eef4f2d94878b3a63c907d1fee09a7" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_debug_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afdc1482377a8aa2762f8b01de975a766" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_neuron_i_stim_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a9a0826abbf90a4e3f4ac7d2ed5c4646f" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_neuron_i_stim_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa8d8ff084326941fcf6e547c8151a7b8" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_synapse_inter_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a8bd7a8b466330dfb49aaf200604ec658" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_synin_debug_excitatory_to_inter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a82811fb4d4b8f497429edbea95b4df4a" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>m_synin_debug_inhibitory_to_inter</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a141f3180a5bcda23de4834521c0f02f4" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a21128e489e6150d3718637174d226fd7" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af3ac97f444b88f010c578d15de895b06" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a1bc33ec7bf6b687305118fda4f93310a" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>PadMultiplexerConfig</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afdf064bad741aba607ab931387780b34" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a211d0361f3280054ece99f6d3aa4f12c" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a21564a0ba41e3afe4f7e48ccfffae631" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a930f1d01b83de24fc38e2caea5f7a88a" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a53e8f90a22d9ec70fffe520b272e9456" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a0048e08558b1bb1452f1c05efb5b0314" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aee43bf1675777a8be4734c67af44e195" prot="private" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a56346158b1403d781a7b16f6eb593533" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_buffer_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1adc44155d0f3184c0a9797a8313d19420" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_cadc_debug_acausal_to_synapse_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a0777c4736a229104b1d4cadc3f7f5abd" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_cadc_debug_causal_to_synapse_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a8c0b48d571c6aa8921ae320284576038" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_cadc_v_ramp_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a2563ff7363cb3261f6c68b24a764155f" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_cadc_v_ramp_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ad34a85739089595260c41c20f54322e1" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_capmem_i_out_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ad9c21c60b1767e31d5dddfb1aae9d368" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_capmem_i_out_mux_to_capmem_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a64181d3155df95b416b6b5e7beb6ed84" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_capmem_intermediate_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a962aa5aae3f29faee4af39319f2867c4" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_capmem_v_out_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1af0c68e48def87048c2516da431486b4e" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_capmem_v_out_mux_to_capmem_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1afad9b1424ed366a9bdd4a5a161cde823" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_capmem_v_ref_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a2c5533973ff631456d0ba2eb73ffd1e4" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_capmem_v_ref_mux_to_capmem_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aab0319378ff86b3ca0fbb2ad5fb0a9cb" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_debug_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aac2972f2f6449c864fd98290ed792fbb" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_neuron_i_stim_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1aa5eb060dc891cda6fb41455fb0d9dc29" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_neuron_i_stim_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1ae36a12a43a2f2e861248e021882524f0" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_synapse_intermediate_mux_to_pad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a644b5da4d92a90a7e339f4b0f72195dc" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_synin_debug_excitatory_to_synapse_intermediate_mux</name></member>
+      <member refid="classhaldls_1_1vx_1_1_pad_multiplexer_config_1a712847359ca477d5b6c5f25dbd6bb8c3" prot="public" virt="non-virtual"><scope>haldls::vx::PadMultiplexerConfig</scope><name>set_synin_debug_inhibitory_to_synapse_intermediate_mux</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

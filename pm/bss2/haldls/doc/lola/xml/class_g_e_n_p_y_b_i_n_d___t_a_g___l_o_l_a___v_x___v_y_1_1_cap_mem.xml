@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kind="class" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::CapMem</compoundname>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a864ab4a88cec6bf51af5d60f62c91b76" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::DisableRefresh</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::DisableRefresh GENPYBIND_TAG_LOLA_VX_VY::CapMem::AnalogDisableRefresh</definition>
+        <argsstring></argsstring>
+        <name>AnalogDisableRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="72" column="67" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a41940b6fdc28d1544b8556f93b6c19da" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::Value</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::Value GENPYBIND_TAG_LOLA_VX_VY::CapMem::AnalogValue</definition>
+        <argsstring></argsstring>
+        <name>AnalogValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="71" column="58" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a57888f81336dbee98436d884fae6557e" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::CHIP_REVISION_STR::CapMemBlockConfig, halco::hicann_dls::vx::CHIP_REVISION_STR::CapMemBlockConfigOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::CHIP_REVISION_STR::CapMemBlockConfig, halco::hicann_dls::vx::CHIP_REVISION_STR::CapMemBlockConfigOnDLS&gt; GENPYBIND_TAG_LOLA_VX_VY::CapMem::Blocks</definition>
+        <argsstring></argsstring>
+        <name>Blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="54" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1af5c1a94d6c0f3131802671b4b2acafb3" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CapMemOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CapMemOnDLS GENPYBIND_TAG_LOLA_VX_VY::CapMem::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="46" column="44" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1ab474016835934b22c813dfec0ae3099e" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type GENPYBIND_TAG_LOLA_VX_VY::CapMem::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="47" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a32f158d39647a2277bc213927cc8a89e" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::CHIP_REVISION_STR::CapMemCell::value_type, halco::hicann_dls::vx::CHIP_REVISION_STR::UnusedCapMemCellOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::CHIP_REVISION_STR::CapMemCell::value_type, halco::hicann_dls::vx::CHIP_REVISION_STR::UnusedCapMemCellOnDLS&gt; GENPYBIND_TAG_LOLA_VX_VY::CapMem::UnusedCells</definition>
+        <argsstring></argsstring>
+        <name>UnusedCells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="78" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a0d50ab7541761666ef15d98b3be060d6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a57888f81336dbee98436d884fae6557e" kindref="member">Blocks</ref></type>
+        <definition>Blocks GENPYBIND_TAG_LOLA_VX_VY::CapMem::blocks</definition>
+        <argsstring></argsstring>
+        <name>blocks</name>
+        <briefdescription>
+<para><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kindref="compound">CapMem</ref> configuration per quadrant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="59" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a8e7b0f9f21acbdecdb47f25d9c56068b" prot="public" static="no" mutable="no">
+        <type>haldls::vx::CHIP_REVISION_STR::ReferenceGeneratorConfig</type>
+        <definition>haldls::vx::CHIP_REVISION_STR::ReferenceGeneratorConfig GENPYBIND_TAG_LOLA_VX_VY::CapMem::reference_generator</definition>
+        <argsstring></argsstring>
+        <name>reference_generator</name>
+        <briefdescription>
+<para>Reference generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="69" column="57" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1ac591ddfeae1dcbaedf8c3b225b154afd" prot="public" static="no" mutable="no">
+        <type>haldls::vx::CHIP_REVISION_STR::SynapseBiasSelection</type>
+        <definition>haldls::vx::CHIP_REVISION_STR::SynapseBiasSelection GENPYBIND_TAG_LOLA_VX_VY::CapMem::synapse_bias_selection</definition>
+        <argsstring></argsstring>
+        <name>synapse_bias_selection</name>
+        <briefdescription>
+<para>Synapse bias selection. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="64" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a52843f05b75f404779a273a4e36a08c3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a32f158d39647a2277bc213927cc8a89e" kindref="member">UnusedCells</ref></type>
+        <definition>UnusedCells GENPYBIND_TAG_LOLA_VX_VY::CapMem::unused_cells</definition>
+        <argsstring></argsstring>
+        <name>unused_cells</name>
+        <briefdescription>
+<para>Unused <ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kindref="compound">CapMem</ref> cells. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="83" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1ad6e119e788ffc2cd6e1721401530001f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::CapMem::CapMem</definition>
+        <argsstring>()=default</argsstring>
+        <name>CapMem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1afb9ca4c6c915101345b4a9f78c8ea8c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CapMem::operator!=</definition>
+        <argsstring>(CapMem const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kindref="compound">CapMem</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="86" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a0bf56fa2040bac7b4e0a2604b4654512" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CapMem::operator==</definition>
+        <argsstring>(CapMem const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kindref="compound">CapMem</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="85" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1adcc893d5e8ed5d9928394e48cacd3163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CapMem const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kindref="compound">CapMem</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="89" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Configuration of the <ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kindref="compound">CapMem</ref> and associated selections as well as the reference generator. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" line="43" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/capmem.h" bodystart="44" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a864ab4a88cec6bf51af5d60f62c91b76" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>AnalogDisableRefresh</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a41940b6fdc28d1544b8556f93b6c19da" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>AnalogValue</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a57888f81336dbee98436d884fae6557e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>Blocks</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a0d50ab7541761666ef15d98b3be060d6" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>blocks</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1ad6e119e788ffc2cd6e1721401530001f" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>CapMem</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1af5c1a94d6c0f3131802671b4b2acafb3" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>coordinate_type</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1ab474016835934b22c813dfec0ae3099e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>has_local_data</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1afb9ca4c6c915101345b4a9f78c8ea8c4" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>operator!=</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1adcc893d5e8ed5d9928394e48cacd3163" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a0bf56fa2040bac7b4e0a2604b4654512" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>operator==</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a8e7b0f9f21acbdecdb47f25d9c56068b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>reference_generator</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1ac591ddfeae1dcbaedf8c3b225b154afd" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>synapse_bias_selection</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a52843f05b75f404779a273a4e36a08c3" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>unused_cells</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem_1a32f158d39647a2277bc213927cc8a89e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CapMem</scope><name>UnusedCells</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

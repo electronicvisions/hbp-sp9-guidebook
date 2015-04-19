@@ -1,0 +1,326 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Benchmarks &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/hbpdoc.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/extra.js"></script>
+    <script src="_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Getting help" href="getting_help.html" />
+    <link rel="prev" title="The SpiNNaker standalone system" href="mc/standaloneSpiNNaker.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Benchmarks</a><ul>
+<li><a class="reference internal" href="#developing-benchmarks">Developing benchmarks</a><ul>
+<li><a class="reference internal" href="#defining-models-and-tasks">Defining models and tasks</a></li>
+<li><a class="reference internal" href="#returning-numerical-measures">Returning numerical measures</a></li>
+<li><a class="reference internal" href="#registering-benchmarks">Registering benchmarks</a></li>
+<li><a class="reference internal" href="#running-benchmarks">Running benchmarks</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="mc/standaloneSpiNNaker.html"
+                        title="previous chapter">The SpiNNaker standalone system</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="getting_help.html"
+                        title="next chapter">Getting help</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/benchmarks.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="mc/standaloneSpiNNaker.html">The SpiNNaker standalone system</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="getting_help.html">Getting help</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="benchmarks">
+<h1>Benchmarks<a class="headerlink" href="#benchmarks" title="Permalink to this headline">¶</a></h1>
+<p>Benchmarking of neuromorphic hardware puts numbers on performance to allow measuring progress and comparing different
+designs.
+This is useful both for the developers of the Neuromorphic Computing Platform and for potential users.</p>
+<p>Specifically, benchmarks define a set of reference tasks aiming at a direct comparison of different neuromorphic
+(and non-neuromorphic) hardware systems.
+Each benchmark has a set of quality measures.
+It is left to the user to decide which specific measures are relevant for the particular application in mind.</p>
+<section id="developing-benchmarks">
+<h2>Developing benchmarks<a class="headerlink" href="#developing-benchmarks" title="Permalink to this headline">¶</a></h2>
+<section id="defining-models-and-tasks">
+<h3>Defining models and tasks<a class="headerlink" href="#defining-models-and-tasks" title="Permalink to this headline">¶</a></h3>
+<p>As stated above, all benchmark code should be under version control.
+Each repository may contain one or more models, and for each model one or more tasks should be defined.
+The top-level of the repository should contain a JSON-format configuration file named “benchmarks.json”, with
+the following general structure:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="w"></span>
+<span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;model&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ModelA&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Description of model A&quot;</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;tasks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">      </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;taskA1&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;task_1_for_model_A.py {system}&quot;</span><span class="w"></span>
+<span class="w">      </span><span class="p">},</span><span class="w"></span>
+<span class="w">      </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;taskA2&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;task_2_for_model_A.py arg1 {system}&quot;</span><span class="p">}</span><span class="w"></span>
+<span class="w">      </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="p">},</span><span class="w"></span>
+<span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;model&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ModelB&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Description of model B&quot;</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;tasks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">      </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;taskB1&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;task_1_for_model_B.py {system}&quot;</span><span class="w"></span>
+<span class="w">      </span><span class="p">},</span><span class="w"></span>
+<span class="w">      </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;taskB2&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;task_2_for_model_B.py arg1 {system}&quot;</span><span class="w"></span>
+<span class="w">      </span><span class="p">},</span><span class="w"></span>
+<span class="w">      </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;taskB3alpha&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;task_3_for_model_B.py --option1={system} arg1 arg2 arg3&quot;</span><span class="w"></span>
+<span class="w">      </span><span class="p">},</span><span class="w"></span>
+<span class="w">      </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;taskB3beta&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;task_3_for_model_B.py --option1={system} arg4 arg5 arg6&quot;</span><span class="w"></span>
+<span class="w">      </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+<span class="p">]</span><span class="w"></span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>i.e., each task should be expressed as a command-line invocation of a Python script. The Python script should</dt><dd><p>in general use the PyNN API, in which case the placeholder “{system}” must be provided, and will be replaced by
+the name of the PyNN backend used when running the benchmark, e.g. “nest”, “spiNNaker”, or “hardware.hbp_pm”.
+If the benchmark is known to run only on a subset of the available backends, this can be indicated by listing
+the suitable backends within the placeholder, e.g. “{system=spiNNaker,nest}”.
+For low-level benchmarks for a single neuromorphic system, the Python script should use the low-level APIs of that platform,
+and in this case the “{system}” placeholder should be absent.</p>
+</dd>
+</dl>
+<p>A specific example, for the repository <a class="reference external" href="https://github.com/CNRS-UNIC/hardware-benchmarks">https://github.com/CNRS-UNIC/hardware-benchmarks</a>, is:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="w"></span>
+<span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;model&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;IF_cond_exp&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A population of IF neurons, each of which is injected with a different current&quot;</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;tasks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">      </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;I_f_curve&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;run_I_f_curve.py {system}&quot;</span><span class="w"></span>
+<span class="w">      </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="p">},</span><span class="w"></span>
+<span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;model&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SpikeSourcePoisson&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A population of random spike sources, each with different firing rates&quot;</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;tasks&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">      </span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;run20s&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;run_spike_train_statistics.py {system}&quot;</span><span class="w"></span>
+<span class="w">      </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+<span class="p">]</span><span class="w"></span>
+</pre></div>
+</div>
+</section>
+<section id="returning-numerical-measures">
+<h3>Returning numerical measures<a class="headerlink" href="#returning-numerical-measures" title="Permalink to this headline">¶</a></h3>
+<p>Each task should run a simulation of a neuronal network model, record data from the neurons,
+perform analysis of the data, and calculate numerical measures of the system performance.
+The numerical measures should be reported in a JSON-format file, consisting of a top-level
+record with required fields “model”, “task”, “timestamp” and “results”.
+The fields “model” and “task” should match the model and task names in the “benchmarks.json” file.
+The field “configuration”, containing
+a copy of the parameterization of the model and simulator/hardware system”, is optional.
+The field “results” contains a list of records with the following fields:</p>
+<dl class="simple">
+<dt><strong>type</strong></dt><dd><p>What is being measured. For example “quality”, “performance”, “energy consumption”.</p>
+</dd>
+<dt><strong>name</strong></dt><dd><p>A unique name for the measurement. It is suggested that this name takes the form of a URI
+containing the URL of the version control repository followed by an identifier for the task
+and an identifier for the measurement.</p>
+</dd>
+<dt><strong>value</strong></dt><dd><p>A floating point number.</p>
+</dd>
+<dt><strong>units</strong></dt><dd><p>(optional) if the measurement is a physical quantity, the units of the quantity using SI nomenclature.</p>
+</dd>
+<dt><strong>std_dev</strong></dt><dd><p>(optional) if the measurement has an uncertainty, the standard deviation of the value, as a floating point number</p>
+</dd>
+<dt><strong>min</strong></dt><dd><p>(optional) if the task involves multiple runs of the simulation, the minimum value of the measure</p>
+</dd>
+<dt><strong>max</strong></dt><dd><p>(optional) if the task involves multiple runs of the simulation, the maximum value of the measure</p>
+</dd>
+<dt><strong>measure</strong></dt><dd><p>the type of the measurement, for example “norm”, “p-value”, “time”.</p>
+</dd>
+</dl>
+<p>(A controlled vocabulary will be developed for the fields “type” and “measure”).</p>
+<p>Here is an example:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;model&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ModelB&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;task&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;taskB3alpha&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2015-06-05T11:13:59.535885&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="nt">&quot;results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;quality&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;norm_diff_frequency&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0073371188622418891</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;measure&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;norm&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="p">},</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;performance&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;setup_time&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.026206016540527344</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;units&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;s&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;measure&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;time&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="p">},</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;performance&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;run_time&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">1.419724941253662</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;units&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;s&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;measure&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;time&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="p">},</span><span class="w"></span>
+<span class="w">        </span><span class="p">{</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;performance&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;closing_time&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.03272294998168945</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;units&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;s&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">&quot;measure&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;time&quot;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">],</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>The task may also optionally produce figures and other output data files.</p>
+</section>
+<section id="registering-benchmarks">
+<h3>Registering benchmarks<a class="headerlink" href="#registering-benchmarks" title="Permalink to this headline">¶</a></h3>
+<p>To add a new benchmark model or task within an existing repository, just modify the “benchmarks.json” configuration file.
+To add a new repository, e-mail <a class="reference external" href="mailto:andrew&#46;davison&#37;&#52;&#48;unic&#46;cnrs-gif&#46;fr">andrew<span>&#46;</span>davison<span>&#64;</span>unic<span>&#46;</span>cnrs-gif<span>&#46;</span>fr</a>.
+In future, a web form for registering new repositories will be introduced.</p>
+</section>
+<section id="running-benchmarks">
+<h3>Running benchmarks<a class="headerlink" href="#running-benchmarks" title="Permalink to this headline">¶</a></h3>
+<p>A continuous integration system will be put in place, which will run the entire suite of benchmarks
+on each neuromorphic system every time the system configuration (software or hardware) is changed,
+and which will run the benchmarks from a given repository on both neuromorphic systems (where appropriate)
+each time a new commit is made to the repository. To indicate that a given commit should <em>not</em> trigger
+a run (for example because only documentation has been changed),
+include the text “[skip ci]” or “[ci skip]” within the commit message.</p>
+<p>After running each task, the continous integration system will harvest the JSON-formatted measurement report,
+and update a database of benchmark measurements. This benchmark database will be visualized in an “App”
+within the HBP Neuromorphic Platform Collaboratory.</p>
+</section>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="mc/standaloneSpiNNaker.html">The SpiNNaker standalone system</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="getting_help.html">Getting help</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

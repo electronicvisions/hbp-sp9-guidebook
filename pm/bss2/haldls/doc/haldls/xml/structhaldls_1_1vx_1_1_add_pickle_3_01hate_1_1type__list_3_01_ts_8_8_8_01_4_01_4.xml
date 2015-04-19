@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;</compoundname>
+    <includes refid="pickle_8h" local="no">pickle.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename...</type>
+        <declname>Ts</declname>
+        <defname>Ts</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4_1a63893e41eb00287df57f221b5ce4a879" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;::apply</definition>
+        <argsstring>(pybind11::module &amp;parent, std::vector&lt; std::string &gt; const &amp;container_names)</argsstring>
+        <name>apply</name>
+        <param>
+          <type>pybind11::module &amp;</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; const &amp;</type>
+          <declname>container_names</declname>
+        </param>
+        <briefdescription>
+<para>Add pickle support to list of classes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Specified name list has to match type list of wrapped types. </para>
+</simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of wrapped object </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pybind11 module </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of object in python module </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" line="28" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4_1a2d2525531238a90d2684900670126aea" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>size_t...</type>
+            <declname>Is</declname>
+            <defname>Is</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;::apply_impl</definition>
+        <argsstring>(pybind11::module &amp;parent, std::vector&lt; std::string &gt; const &amp;container_names, std::index_sequence&lt; I, Is... &gt;)</argsstring>
+        <name>apply_impl</name>
+        <param>
+          <type>pybind11::module &amp;</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; const &amp;</type>
+          <declname>container_names</declname>
+        </param>
+        <param>
+          <type>std::index_sequence&lt; I, Is... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" line="35" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" bodystart="35" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4_1a14d432ba3f40c0a06b02dc836756c2f4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;::apply_single</definition>
+        <argsstring>(pybind11::module &amp;parent, std::string const &amp;name)</argsstring>
+        <name>apply_single</name>
+        <param>
+          <type>pybind11::module &amp;</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Add pickle support to single class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Specified name has to match object of correct wrapped type. </para>
+</simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of wrapped object </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pybind11 module </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of object in python module </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" line="55" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" bodystart="55" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" line="19" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pickle.h" bodystart="20" bodyend="81"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4_1a63893e41eb00287df57f221b5ce4a879" prot="public" virt="non-virtual"><scope>haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;</scope><name>apply</name></member>
+      <member refid="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4_1a2d2525531238a90d2684900670126aea" prot="private" virt="non-virtual"><scope>haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;</scope><name>apply_impl</name></member>
+      <member refid="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4_1a14d432ba3f40c0a06b02dc836756c2f4" prot="private" virt="non-virtual"><scope>haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;</scope><name>apply_single</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

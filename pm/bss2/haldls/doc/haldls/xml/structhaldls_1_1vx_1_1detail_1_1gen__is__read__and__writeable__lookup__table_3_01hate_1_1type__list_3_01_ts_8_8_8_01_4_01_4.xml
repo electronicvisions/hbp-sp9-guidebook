@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1gen__is__read__and__writeable__lookup__table_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::gen_is_read_and_writeable_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</compoundname>
+    <includes refid="is__read__and__writable_8h" local="no">is_read_and_writable.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename...</type>
+        <declname>Ts</declname>
+        <defname>Ts</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1detail_1_1gen__is__read__and__writeable__lookup__table_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4_1a00ee2d4599ce1a383c518bf99469708b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static std::array&lt; bool, sizeof...(Ts)&gt;</type>
+        <definition>constexpr static std::array&lt;bool, sizeof...(Ts)&gt; haldls::vx::detail::gen_is_read_and_writeable_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= {
+	    (fisch::vx::IsReadable&lt;decltype(fisch::vx::container_cast(std::declval&lt;Ts&gt;()))&gt;::value &amp;&amp;
+	     fisch::vx::IsWritable&lt;decltype(fisch::vx::container_cast(std::declval&lt;Ts&gt;()))&gt;::value)...}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h" line="20" column="29" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>T</label>
+      </node>
+      <node id="3">
+        <label>std::array&lt; T &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::array&lt; bool, sizeof...(Ts)&gt;</label>
+        <childnode refid="3" relation="template-instance">
+          <edgelabel>&lt; bool, sizeof...(Ts)&gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::gen_is_read_and_writeable_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1gen__is__read__and__writeable__lookup__table_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>value</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h" line="18" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h" bodystart="19" bodyend="23"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1gen__is__read__and__writeable__lookup__table_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4_1a00ee2d4599ce1a383c518bf99469708b" prot="public" virt="non-virtual"><scope>haldls::vx::detail::gen_is_read_and_writeable_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

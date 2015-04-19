@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="synapse_8h" kind="file" language="C++">
+    <compoundname>synapse.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">iosfwd</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/capmem.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/switch_rows.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/synapse.h</includes>
+    <includes refid="cerealization_8h" local="yes">haldls/cerealization.h</includes>
+    <includes refid="common_8h" local="yes">haldls/vx/common.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes local="yes">hxcomm/vx/target.h</includes>
+    <includedby refid="event_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/event.h</includedby>
+    <includedby refid="padi_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h</includedby>
+    <includedby refid="v2_2synapse_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/synapse.h</includedby>
+    <includedby refid="v3_2synapse_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h</includedby>
+    <incdepgraph>
+      <node id="23">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="8">
+        <label>halco/hicann-dls/vx/synapse.h</label>
+      </node>
+      <node id="12">
+        <label>cstdint</label>
+      </node>
+      <node id="22">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="19">
+        <label>fisch/vx/traits.h</label>
+      </node>
+      <node id="18">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>boost/utility/enable_if.hpp</label>
+      </node>
+      <node id="5">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="13">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="16">
+        <label>utility</label>
+      </node>
+      <node id="9">
+        <label>haldls/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>array</label>
+      </node>
+      <node id="4">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="11">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="3">
+        <label>iosfwd</label>
+      </node>
+      <node id="20">
+        <label>fisch/vx/word_access_type.h</label>
+      </node>
+      <node id="14">
+        <label>haldls/vx/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>type_traits</label>
+      </node>
+      <node id="7">
+        <label>halco/hicann-dls/vx/switch_rows.h</label>
+      </node>
+      <node id="6">
+        <label>halco/hicann-dls/vx/capmem.h</label>
+      </node>
+      <node id="10">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="18">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/synapse.h</label>
+        <link refid="v3_2synapse_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/padi.h</label>
+        <link refid="v3_2padi_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/haldls.h</label>
+        <link refid="v3_2haldls_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/vector_generator.h</label>
+        <link refid="v2_2vector__generator_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/pyhaldls.h</label>
+        <link refid="v2_2pyhaldls_8h"/>
+      </node>
+      <node id="10">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/pyhaldls.h</label>
+        <link refid="v3_2pyhaldls_8h"/>
+      </node>
+      <node id="17">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/synapse.h</label>
+        <link refid="v2_2synapse_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/event.h</label>
+        <link refid="event_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h</label>
+        <link refid="vector__generator_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/event.h</label>
+        <link refid="v3_2event_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/haldls.h</label>
+        <link refid="v2_2haldls_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/vector_generator.h</label>
+        <link refid="v3_2vector__generator_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/event.h</label>
+        <link refid="v2_2event_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/padi.h</label>
+        <link refid="v2_2padi_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/padi.h</label>
+        <link refid="padi_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_amp_calib" prot="public">haldls::vx::SynapseCorrelationCalibQuad::AmpCalib</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_column_correlation_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ColumnCorrelationQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_column_current_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ColumnCurrentQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_synram_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonSynramConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_correlation_reset_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CorrelationReset &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_bias_selection_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseBiasSelection &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_correlation_calib_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseCorrelationCalibQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_label_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseLabelQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_weight_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseWeightQuad &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_column_correlation_quad" prot="public">haldls::vx::ColumnCorrelationQuad</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" prot="public">haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_column_current_quad" prot="public">haldls::vx::ColumnCurrentQuad</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch" prot="public">haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_synram_config" prot="public">haldls::vx::CommonSynramConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_correlation_reset" prot="public">haldls::vx::CorrelationReset</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf" prot="public">haldls::vx::CommonSynramConfig::PCConf</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_bias_selection" prot="public">haldls::vx::SynapseBiasSelection</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_correlation_calib_quad" prot="public">haldls::vx::SynapseCorrelationCalibQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_label_quad" prot="public">haldls::vx::SynapseLabelQuad</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_label_value" prot="public">haldls::vx::SynapseLabelValue</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_quad" prot="public">haldls::vx::SynapseQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_weight_quad" prot="public">haldls::vx::SynapseWeightQuad</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_time_calib" prot="public">haldls::vx::SynapseCorrelationCalibQuad::TimeCalib</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value" prot="public">haldls::vx::SynapseWeightQuad::Value</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_wait_ctr_clear" prot="public">haldls::vx::CommonSynramConfig::WaitCtrClear</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf" prot="public">haldls::vx::CommonSynramConfig::WConf</innerclass>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h"/>
+  </compounddef>
+</doxygen>

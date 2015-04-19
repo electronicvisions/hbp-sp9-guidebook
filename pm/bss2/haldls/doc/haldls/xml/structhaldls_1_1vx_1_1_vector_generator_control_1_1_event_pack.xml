@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_vector_generator_control_1_1_event_pack" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::VectorGeneratorControl::EventPack</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; EventPack, uint_fast8_t, 3, 1 &gt;</basecompoundref>
+    <includes refid="vector__generator_8h" local="no">vector_generator.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_vector_generator_control_1_1_event_pack_1a6ddf461b81811dfeb6181d93f848e78f" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::VectorGeneratorControl::EventPack::EventPack</definition>
+        <argsstring>(uintmax_t const val=1)</argsstring>
+        <name>EventPack</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="83" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="83" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Event packing to use. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; EventPack, uint_fast8_t, 3, 1 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::VectorGeneratorControl::EventPack</label>
+        <link refid="structhaldls_1_1vx_1_1_vector_generator_control_1_1_event_pack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; EventPack, uint_fast8_t, 3, 1 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::VectorGeneratorControl::EventPack</label>
+        <link refid="structhaldls_1_1vx_1_1_vector_generator_control_1_1_event_pack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="80" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="82" bodyend="86"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_vector_generator_control_1_1_event_pack_1a6ddf461b81811dfeb6181d93f848e78f" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorControl::EventPack</scope><name>EventPack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

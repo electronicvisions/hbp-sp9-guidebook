@@ -1,0 +1,262 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Getting started &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/hbpdoc.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/extra.js"></script>
+    <script src="_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Building models" href="building_models.html" />
+    <link rel="prev" title="The HBP Neuromorphic Computing Platform" href="index.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Getting started</a><ul>
+<li><a class="reference internal" href="#running-via-jupyterlab-via-nmpi">Running via JupyterLab via NMPI</a></li>
+<li><a class="reference internal" href="#running-via-the-jobmanager">Running via the JobManager</a></li>
+<li><a class="reference internal" href="#copy-data-to-longer-term-storage">Copy data to longer-term storage</a></li>
+<li><a class="reference internal" href="#when-the-test-quota-is-used-up">When the test-quota is used up</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">The HBP Neuromorphic Computing Platform</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="building_models.html"
+                        title="next chapter">Building models</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/quick_start.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="index.html">The HBP Neuromorphic Computing Platform</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="building_models.html">Building models</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="getting-started">
+<span id="quick-start"></span><h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>To use the Neuromorphic Computing systems you will need to:</p>
+<ol class="arabic simple">
+<li><p>create an EBRAINS account (<a class="reference external" href="https://ebrains.eu/register">available on request</a>), free of charge</p></li>
+<li><p>send an email with your EBRAINS username to <a class="reference external" href="mailto:neuromorphic&#37;&#52;&#48;humanbrainproject&#46;eu">neuromorphic<span>&#64;</span>humanbrainproject<span>&#46;</span>eu</a></p></li>
+</ol>
+<p>You will get a Collaboratory created with a test-quota to access the BrainScaleS and SpiNNaker machines,
+pre-loaded with some examples how to access the systems. (The Collaboratory or “Collab” is a collaborative workspace, which i.a. contains file storage space, wiki pages and the JupyterLab to run python programs just via the webbrowser)</p>
+<p>You can then:</p>
+<ul class="simple">
+<li><p>Add team members to your Collab using the “<span class="guilabel">Team</span>” link in the navigation bar on the left.
+Only members of the team will be able to launch simulations.</p></li>
+<li><p>Run simulations: via the Jupyter notebooks with in the “<span class="guilabel">Lab</span>” or by submitting scripts using the “<span class="guilabel">Job Manager</span>” link.</p></li>
+</ul>
+<section id="running-via-jupyterlab-via-nmpi">
+<h2>Running via JupyterLab via NMPI<a class="headerlink" href="#running-via-jupyterlab-via-nmpi" title="Permalink to this headline">¶</a></h2>
+<p>To submit a simulation in “batch” mode using the Jupyter notebooks via the “<span class="guilabel">Lab</span>”:</p>
+<ol class="arabic simple">
+<li><p>open one of the example notebooks</p></li>
+<li><p>execute the cells. This:</p>
+<ol class="arabic simple">
+<li><p>prepares the execution environment</p></li>
+<li><p>writes the experiment description PyNN script as a file</p></li>
+<li><p>sends this file (in the <code class="docutils literal notranslate"><span class="pre">`job</span> <span class="pre">=</span> <span class="pre">client.submit_job(</span> <span class="pre">...)`</span></code> step) to the SpiNNaker system in Manchester or
+the BrainScaleS system in Heidelberg</p></li>
+<li><p>waits for the job to finish</p></li>
+<li><p>transfers the result files back to the system, where the Jupyter process is running on the Collab</p></li>
+</ol>
+</li>
+</ol>
+<p>The results can then be shown and analysed in the notebook.</p>
+<a class="reference internal image-reference" href="_images/jupyter_example.png"><img alt="_images/jupyter_example.png" class="align-center" src="_images/jupyter_example.png" style="width: 70%;" /></a>
+<p>As this mode of operation sends the experiment description as file to the machine site for execution and then waits
+for the result files to be transferred back, there is no interactive interaction with the running network
+simulation (SpiNNaker) or emulation (BrainScaleS) network possible (“batch” operation).</p>
+<p>For SpiNNaker there is also a Manchester-local Jupyter installation accessible (via the SpiNNaker &gt; SpiNNaker interactive menu item in the left hand navigation of your Collab).</p>
+</section>
+<section id="running-via-the-jobmanager">
+<h2>Running via the JobManager<a class="headerlink" href="#running-via-the-jobmanager" title="Permalink to this headline">¶</a></h2>
+<p>To submit a simulation via the “<span class="guilabel">Job Manager</span>”</p>
+<ol class="arabic simple">
+<li><p>open the “<span class="guilabel">Job Manager</span>” from the left hand navigation of your Collab</p></li>
+<li><p>press “<span class="guilabel">+</span>” icon in the table header to add a new job</p></li>
+<li><p>in the “New job” form</p>
+<ol class="arabic simple">
+<li><p>select “SpiNNaker” in the <span class="guilabel">Hardware Platform</span> drop-down menu</p></li>
+<li><p>then enter Python code in the “<span class="guilabel">Code</span>” text box, for example the following short script, which simulates a population of integrate-and-firing neurons with different input firing rates:</p></li>
+</ol>
+</li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">A population of integrate-and-firing neurons with different input firing rates</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pyNN.spiNNaker</span> <span class="k">as</span> <span class="nn">sim</span>
+
+<span class="n">sim</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">timestep</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">min_delay</span><span class="o">=</span><span class="mf">1.0</span><span class="p">)</span>
+
+<span class="c1"># create cells</span>
+<span class="n">cell_params</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;cm&#39;</span><span class="p">:</span> <span class="mf">0.25</span><span class="p">,</span> <span class="s1">&#39;tau_m&#39;</span><span class="p">:</span> <span class="mf">10.0</span><span class="p">,</span> <span class="s1">&#39;tau_refrac&#39;</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">,</span>
+    <span class="s1">&#39;tau_syn_E&#39;</span><span class="p">:</span> <span class="mf">2.5</span><span class="p">,</span> <span class="s1">&#39;tau_syn_I&#39;</span><span class="p">:</span> <span class="mf">2.5</span><span class="p">,</span>
+    <span class="s1">&#39;v_reset&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">70.0</span><span class="p">,</span> <span class="s1">&#39;v_rest&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">65.0</span><span class="p">,</span> <span class="s1">&#39;v_thresh&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mf">55.0</span><span class="p">}</span>
+
+<span class="n">neurons</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="n">sim</span><span class="o">.</span><span class="n">IF_cond_exp</span><span class="p">(</span><span class="o">**</span><span class="n">cell_params</span><span class="p">))</span>
+<span class="n">inputs</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Population</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="n">sim</span><span class="o">.</span><span class="n">SpikeSourcePoisson</span><span class="p">(</span><span class="n">rate</span><span class="o">=</span><span class="mf">0.0</span><span class="p">))</span>
+
+<span class="c1"># set input firing rates as a linear function of cell index</span>
+<span class="n">input_firing_rates</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1000.0</span><span class="p">,</span> <span class="n">num</span><span class="o">=</span><span class="n">inputs</span><span class="o">.</span><span class="n">size</span><span class="p">)</span>
+<span class="n">inputs</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">rate</span><span class="o">=</span><span class="n">input_firing_rates</span><span class="p">)</span>
+
+<span class="c1"># create one-to-one connections</span>
+<span class="n">wiring</span> <span class="o">=</span>  <span class="n">sim</span><span class="o">.</span><span class="n">OneToOneConnector</span><span class="p">()</span>
+<span class="n">static_synapse</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">StaticSynapse</span><span class="p">(</span><span class="n">weight</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">delay</span><span class="o">=</span><span class="mf">2.0</span><span class="p">)</span>
+<span class="n">connections</span> <span class="o">=</span> <span class="n">sim</span><span class="o">.</span><span class="n">Projection</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="n">neurons</span><span class="p">,</span> <span class="n">wiring</span><span class="p">,</span> <span class="n">static_synapse</span><span class="p">)</span>
+
+<span class="c1"># configure recording</span>
+<span class="n">neurons</span><span class="o">.</span><span class="n">record</span><span class="p">(</span><span class="s1">&#39;spikes&#39;</span><span class="p">)</span>
+
+<span class="c1"># run simulation</span>
+<span class="n">sim_duration</span> <span class="o">=</span> <span class="mf">10.0</span> <span class="c1"># seconds</span>
+<span class="n">sim</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">sim_duration</span> <span class="o">*</span> <span class="mf">1000.0</span><span class="p">)</span>
+
+<span class="c1"># retrieve recorded data</span>
+<span class="n">spike_counts</span> <span class="o">=</span> <span class="n">neurons</span><span class="o">.</span><span class="n">get_spike_counts</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">spike_counts</span><span class="p">)</span>
+<span class="n">output_firing_rates</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span>
+    <span class="p">[</span><span class="n">value</span> <span class="k">for</span> <span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">spike_counts</span><span class="o">.</span><span class="n">items</span><span class="p">())])</span><span class="o">/</span><span class="n">sim_duration</span>
+
+<span class="c1"># plot graph</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">input_firing_rates</span><span class="p">,</span> <span class="n">output_firing_rates</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Input firing rate (spikes/second)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Output firing rate (spikes/second)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;simple_example.png&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<blockquote>
+<div><ol class="arabic simple" start="3">
+<li><p>Leave the other text boxes empty, and click “<span class="guilabel">Submit</span>”.</p></li>
+</ol>
+</div></blockquote>
+<p>The job will be submitted to the queue, and will appear in the list of jobs with a “submitted” label.
+Unless the platform is very busy, this job should run within a few minutes on the large-scale
+SpiNNaker system in Manchester.
+Once the simulation is finished you will receive an e-mail, and on refreshing the job list the
+status will change to “finished”.</p>
+<a class="reference internal image-reference" href="_images/ebrains_job_manager.png"><img alt="_images/ebrains_job_manager.png" class="align-center" src="_images/ebrains_job_manager.png" style="width: 70%;" /></a>
+<p>Once the job is completed, click on the magnifying glass icon to see the job results.</p>
+<a class="reference internal image-reference" href="_images/ebrains_job_manager_jobresult.png"><img alt="_images/ebrains_job_manager_jobresult.png" class="align-center" src="_images/ebrains_job_manager_jobresult.png" style="width: 70%;" /></a>
+<p>In the “Output files” part you will find a link to the created plot (a .png file):</p>
+<a class="reference internal image-reference" href="_images/ebrains_job_manager_jobresult_figure.png"><img alt="_images/ebrains_job_manager_jobresult_figure.png" class="align-center" src="_images/ebrains_job_manager_jobresult_figure.png" style="width: 70%;" /></a>
+<p>For more information on running simulations with the platform, see <a class="reference internal" href="using_the_platform.html#running-jobs"><span class="std std-ref">Submitting a simulation job</span></a>.</p>
+</section>
+<section id="copy-data-to-longer-term-storage">
+<h2>Copy data to longer-term storage<a class="headerlink" href="#copy-data-to-longer-term-storage" title="Permalink to this headline">¶</a></h2>
+<p>The results of your simulation are now available on a file server attached to the
+SpiNNaker system. This storage is only temporary, however; after three months, your files may
+be deleted to free up space.</p>
+<p>If you need to keep the files please download them to your local machine.</p>
+</section>
+<section id="when-the-test-quota-is-used-up">
+<h2>When the test-quota is used up<a class="headerlink" href="#when-the-test-quota-is-used-up" title="Permalink to this headline">¶</a></h2>
+<p>Using the <span class="guilabel">Job Manager</span> you can request more quota (only needed, when the test quota
+has been used up): use the ‘Quotas’ link in the table header.</p>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="index.html">The HBP Neuromorphic Computing Platform</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="building_models.html">Building models</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

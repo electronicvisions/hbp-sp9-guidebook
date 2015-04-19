@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::vx::v2::CoordinateToContainer</compoundname>
+    <includes refid="v2_2coordinate__to__container_8h" local="no">coordinate_to_container.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CoordinateT</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container_1a0854e99b1fcc71e6bb6f775910346dc6" prot="public" static="no">
+        <type>hate::index_type_list_by_integer&lt; hate::index_type_list_by_type&lt; CoordinateT, <ref refid="namespacestadls_1_1vx_1_1v2_1a657d37d599e6409611dee9f37fca1e8e" kindref="member">coordinate_list</ref> &gt;::value, <ref refid="namespacestadls_1_1vx_1_1v2_1af65c44ab331c7b712965bbbce425bd31" kindref="member">container_list</ref> &gt;::<ref refid="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container_1a0854e99b1fcc71e6bb6f775910346dc6" kindref="member">type</ref></type>
+        <definition>typedef hate::index_type_list_by_integer&lt; hate::index_type_list_by_type&lt;CoordinateT, coordinate_list&gt;::value, container_list&gt;::type stadls::vx::v2::CoordinateToContainer&lt; CoordinateT &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" line="41" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Given a coordinate type, resolves the corresponding unique container type. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>CoordinateT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate type to resolve container type for </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" line="37" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/coordinate_to_container.h" bodystart="38" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structstadls_1_1vx_1_1v2_1_1_coordinate_to_container_1a0854e99b1fcc71e6bb6f775910346dc6" prot="public" virt="non-virtual"><scope>stadls::vx::v2::CoordinateToContainer</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</compoundname>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="752" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="752" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a29a724fc79fafb2199c206aed58d5a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;, ColumnCurrentSwitch const &amp;) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch" kindref="compound">ColumnCurrentSwitch</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="749" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a368f6ec472d278167677a1c198672f51" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::m_enable_debug_excitatory</definition>
+        <argsstring></argsstring>
+        <name>m_enable_debug_excitatory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="758" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="758" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1ac7a99439f66563c7f903c971ceee729c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::m_enable_debug_inhibitory</definition>
+        <argsstring></argsstring>
+        <name>m_enable_debug_inhibitory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="759" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="759" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1aba282acff2de5a89656a117b412baf0a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::m_enable_synaptic_current_excitatory</definition>
+        <argsstring></argsstring>
+        <name>m_enable_synaptic_current_excitatory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="756" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="756" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a2f6ea17a7e1009310ab660dd3fa65f99" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::m_enable_synaptic_current_inhibitory</definition>
+        <argsstring></argsstring>
+        <name>m_enable_synaptic_current_inhibitory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="757" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="757" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1adf5768cc6519d2274950890701b053b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::ColumnCurrentSwitch</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ColumnCurrentSwitch</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="655" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1aa23c8939c7f42cd294fa3246c13feac4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::get_enable_debug_excitatory</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_debug_excitatory</name>
+        <briefdescription>
+<para>Get enable value for column-global excitatory synaptic current debug-line readout. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In case the neuron&apos;s synaptic input circuit is disconnected, the current pulses originating from the synapse circuits can be read out. Note that current measuring equipment (i. e. source meter) is needed for this measurement. Also note that the readout line is shared amongst multiple synapse columns. Enabling the readout switch will short the synaptic columns, which is however non-destructive. <simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="701" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a7d69b0a92f9bb4e604c3f5d4845fe3de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::get_enable_debug_inhibitory</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_debug_inhibitory</name>
+        <briefdescription>
+<para>Get enable value for column-global inhibitory synaptic current debug-line readout. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In case the neuron&apos;s synaptic input circuit is disconnected, the current pulses originating from the synapse circuits can be read out. Note that current measuring equipment (i. e. source meter) is needed for this measurement. Also note that the readout line is shared amongst multiple synapse columns. Enabling the readout switch will short the synaptic columns, which is however non-destructive. <simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="729" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a8d6d592b935244ac65e14dd8de901855" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::get_enable_synaptic_current_excitatory</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_synaptic_current_excitatory</name>
+        <briefdescription>
+<para>Get enable value for forwarding the excitatory synaptic currents of a whole column to the respective neuron&apos;s synaptic input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="663" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a203d85174e2e9c8b5e8d6abc3019b3ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::get_enable_synaptic_current_inhibitory</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_synaptic_current_inhibitory</name>
+        <briefdescription>
+<para>Get enable value for forwarding the inhibitory synaptic currents of a whole column to the respective neuron&apos;s synaptic input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean enable value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="679" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a2edc4ef15726f2903cca33d36c0e10f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::operator!=</definition>
+        <argsstring>(ColumnCurrentSwitch const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch" kindref="compound">ColumnCurrentSwitch</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="746" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1aa8697d7b971ada8c69464170b8a6cb3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::operator==</definition>
+        <argsstring>(ColumnCurrentSwitch const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch" kindref="compound">ColumnCurrentSwitch</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="745" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a4f846bb0b05275cc4bf1fc93a0b1e44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::set_enable_debug_excitatory</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_debug_excitatory</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for column-global excitatory synaptic current debug-line readout. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In case the neuron&apos;s synaptic input circuit is disconnected, the current pulses originating from the synapse circuits can be read out. Note that current measuring equipment (i. e. source meter) is needed for this measurement. Also note that the readout line is shared amongst multiple synapse columns. Enabling the readout switch will short the synaptic columns, which is however non-destructive. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="715" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a58511089afdafa41c646b9239593edc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::set_enable_debug_inhibitory</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_debug_inhibitory</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for column-global inhibitory synaptic current debug-line readout. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>In case the neuron&apos;s synaptic input circuit is disconnected, the current pulses originating from the synapse circuits can be read out. Note that current measuring equipment (i. e. source meter) is needed for this measurement. Also note that the readout line is shared amongst multiple synapse columns. Enabling the readout switch will short the synaptic columns, which is however non-destructive. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="743" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a5214e10fb1f8505d30755b957b531f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::set_enable_synaptic_current_excitatory</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_synaptic_current_excitatory</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for forwarding the excitatory synaptic currents of a whole column to the respective neuron&apos;s synaptic input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="671" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1ae5f8e29b435db718049999dc540402b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::set_enable_synaptic_current_inhibitory</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_synaptic_current_inhibitory</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value for forwarding the inhibitory synaptic currents of a whole column to the respective neuron&apos;s synaptic input. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean enable value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="687" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1aba3e418a5f1d103c7f51c8733ca4e85f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="754" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="652" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="653" bodyend="760"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>cereal::access</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1adf5768cc6519d2274950890701b053b3" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>ColumnCurrentSwitch</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1aa23c8939c7f42cd294fa3246c13feac4" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>get_enable_debug_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a7d69b0a92f9bb4e604c3f5d4845fe3de" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>get_enable_debug_inhibitory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a8d6d592b935244ac65e14dd8de901855" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>get_enable_synaptic_current_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a203d85174e2e9c8b5e8d6abc3019b3ba" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>get_enable_synaptic_current_inhibitory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a368f6ec472d278167677a1c198672f51" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>m_enable_debug_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1ac7a99439f66563c7f903c971ceee729c" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>m_enable_debug_inhibitory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1aba282acff2de5a89656a117b412baf0a" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>m_enable_synaptic_current_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a2f6ea17a7e1009310ab660dd3fa65f99" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>m_enable_synaptic_current_inhibitory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a2edc4ef15726f2903cca33d36c0e10f1" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>operator!=</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a29a724fc79fafb2199c206aed58d5a69" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1aa8697d7b971ada8c69464170b8a6cb3e" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>operator==</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1aba3e418a5f1d103c7f51c8733ca4e85f" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>serialize</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a4f846bb0b05275cc4bf1fc93a0b1e44b" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>set_enable_debug_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a58511089afdafa41c646b9239593edc4" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>set_enable_debug_inhibitory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1a5214e10fb1f8505d30755b957b531f1f" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>set_enable_synaptic_current_excitatory</name></member>
+      <member refid="structhaldls_1_1vx_1_1_column_current_quad_1_1_column_current_switch_1ae5f8e29b435db718049999dc540402b9" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCurrentQuad::ColumnCurrentSwitch</scope><name>set_enable_synaptic_current_inhibitory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

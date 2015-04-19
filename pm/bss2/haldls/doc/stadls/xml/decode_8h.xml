@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="decode_8h" kind="file" language="C++">
+    <compoundname>decode.h</compoundname>
+    <includes local="no">limits</includes>
+    <includes local="no">random</includes>
+    <includes local="yes">fisch/vx/container.h</includes>
+    <includes local="yes">fisch/vx/container_cast.h</includes>
+    <includes local="yes">fisch/vx/fill.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/capmem.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/ppu.h</includes>
+    <includes local="yes">haldls/vx/common.h</includes>
+    <includes local="yes">haldls/vx/jtag.h</includes>
+    <includes local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">lola/vx/capmem.h</includes>
+    <includes refid="visitors_8h" local="yes">stadls/visitors.h</includes>
+    <includes local="yes">haldlsID(/)vxID(/)vID(CHIP_REVISION)/capmem.h</includes>
+    <includedby refid="v2_2decode_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/decode.h</includedby>
+    <includedby refid="v3_2decode_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/decode.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>limits</label>
+      </node>
+      <node id="16">
+        <label>iterator</label>
+      </node>
+      <node id="13">
+        <label>stadls/visitors.h</label>
+        <link refid="visitors_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>lola/vx/capmem.h</label>
+      </node>
+      <node id="17">
+        <label>stdexcept</label>
+      </node>
+      <node id="9">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="8">
+        <label>halco/hicann-dls/vx/ppu.h</label>
+      </node>
+      <node id="4">
+        <label>fisch/vx/container.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h</label>
+        <link refid="decode_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>random</label>
+      </node>
+      <node id="5">
+        <label>fisch/vx/container_cast.h</label>
+      </node>
+      <node id="19">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/capmem.h</label>
+      </node>
+      <node id="18">
+        <label>utility</label>
+      </node>
+      <node id="15">
+        <label>array</label>
+      </node>
+      <node id="10">
+        <label>haldls/vx/jtag.h</label>
+      </node>
+      <node id="11">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="6">
+        <label>fisch/vx/fill.h</label>
+      </node>
+      <node id="14">
+        <label>algorithm</label>
+      </node>
+      <node id="7">
+        <label>halco/hicann-dls/vx/capmem.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v3/decode.h</label>
+        <link refid="v3_2decode_8h"/>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h</label>
+        <link refid="decode_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/decode.h</label>
+        <link refid="v2_2decode_8h"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacestadls">stadls</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx">stadls::vx</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx_1_1detail">stadls::vx::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="decode_8h_1a7b21067a695ee0453e6d9bd594ccecd1" prot="public" static="no">
+        <name>CONCAT</name>
+        <param><defname>w</defname></param>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <param><defname>z</defname></param>
+        <initializer><ref refid="decode_8h_1a18d295a837ac71add5578860b55e5502" kindref="member">STR</ref>(<ref refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(w)<ref refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(x)<ref refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(v)<ref refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(y)<ref refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(/)<ref refid="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" kindref="member">ID</ref>(z))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h" line="25" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="decode_8h_1a0df316eb900bb61e77f80cfd8d42e2d4" prot="public" static="no">
+        <name>ID</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h" line="21" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="decode_8h_1a18d295a837ac71add5578860b55e5502" prot="public" static="no">
+        <name>STR</name>
+        <param><defname>x</defname></param>
+        <initializer><ref refid="decode_8h_1abe87b341f562fd1cf40b7672e4d759da" kindref="member">XSTR</ref>(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h" line="23" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="decode_8h_1abe87b341f562fd1cf40b7672e4d759da" prot="public" static="no">
+        <name>XSTR</name>
+        <param><defname>x</defname></param>
+        <initializer>#x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h" line="22" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/decode.h"/>
+  </compounddef>
+</doxygen>

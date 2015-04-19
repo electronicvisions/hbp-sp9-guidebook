@@ -1,0 +1,16 @@
+<map id="lola::vx::v2::AtomicNeuron" name="lola::vx::v2::AtomicNeuron">
+<area shape="rect" id="node1" title="Configuration of digital and analog parameters for a single&#45;denmem neuron." alt="" coords="375,472,552,500"/>
+<area shape="rect" id="node2" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_refractory_period.html" title=" " alt="" coords="5,5,182,49"/>
+<area shape="rect" id="node3" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_reset.html" title=" " alt="" coords="5,73,182,117"/>
+<area shape="rect" id="node4" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_bayesian.html" title=" " alt="" coords="5,141,182,185"/>
+<area shape="rect" id="node5" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_multicompartment.html" title="Multicompartment configuration of connectivity to adjacent neurons." alt="" coords="5,209,182,253"/>
+<area shape="rect" id="node6" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_event_routing.html" title=" " alt="" coords="5,317,182,361"/>
+<area shape="rect" id="node7" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_membrane_capacitance.html" title=" " alt="" coords="5,385,182,429"/>
+<area shape="rect" id="node8" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_synaptic_input.html" title=" " alt="" coords="5,453,182,497"/>
+<area shape="rect" id="node9" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_readout.html" title=" " alt="" coords="5,521,182,565"/>
+<area shape="rect" id="node10" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_exponential.html" title=" " alt="" coords="5,589,182,633"/>
+<area shape="rect" id="node11" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_constant_current.html" title=" " alt="" coords="5,657,182,701"/>
+<area shape="rect" id="node12" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_threshold.html" title=" " alt="" coords="5,725,182,769"/>
+<area shape="rect" id="node13" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation.html" title=" " alt="" coords="5,793,182,837"/>
+<area shape="rect" id="node14" href="$structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_leak.html" title=" " alt="" coords="5,861,182,905"/>
+</map>

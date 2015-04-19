@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacelola_1_1vx_1_1v2" kind="namespace" language="C++">
+    <compoundname>lola::vx::v2</compoundname>
+    <innerclass refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron" prot="public">lola::vx::v2::AtomicNeuron</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1v2_1_1_chip" prot="public">lola::vx::v2::Chip</innerclass>
+    <innernamespace refid="namespacelola_1_1vx_1_1v2_1_1detail">lola::vx::v2::detail</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1ac8ece9ce4046bb0d10f8994d2b4c4ea8" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_column_correlation_row" kindref="compound">lola::vx::ColumnCorrelationRow</ref></type>
+        <definition>using lola::vx::v2::ColumnCorrelationRow = typedef lola::vx::ColumnCorrelationRow</definition>
+        <argsstring></argsstring>
+        <name>ColumnCorrelationRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a8617e362094f999a46fe92f48341a596" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_column_current_row" kindref="compound">lola::vx::ColumnCurrentRow</ref></type>
+        <definition>using lola::vx::v2::ColumnCurrentRow = typedef lola::vx::ColumnCurrentRow</definition>
+        <argsstring></argsstring>
+        <name>ColumnCurrentRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a62b5b4f7816deadf7e99762b338f22f0" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_correlation_reset_row" kindref="compound">lola::vx::CorrelationResetRow</ref></type>
+        <definition>using lola::vx::v2::CorrelationResetRow = typedef lola::vx::CorrelationResetRow</definition>
+        <argsstring></argsstring>
+        <name>CorrelationResetRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="17" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a7b70b94169d43efd55b15e48fbb1a59f" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_crossbar" kindref="compound">lola::vx::Crossbar</ref></type>
+        <definition>using lola::vx::v2::Crossbar = typedef lola::vx::Crossbar</definition>
+        <argsstring></argsstring>
+        <name>Crossbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/routing_crossbar.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/routing_crossbar.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1ac37b57c93e2fd959cabc72cbea621fb1" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">lola::vx::DACChannelBlock</ref></type>
+        <definition>using lola::vx::v2::DACChannelBlock = typedef lola::vx::DACChannelBlock</definition>
+        <argsstring></argsstring>
+        <name>DACChannelBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/dac.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/dac.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a087127b04f301666bbee6aea2110bb22" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_d_a_c_control_block" kindref="compound">lola::vx::DACControlBlock</ref></type>
+        <definition>using lola::vx::v2::DACControlBlock = typedef lola::vx::DACControlBlock</definition>
+        <argsstring></argsstring>
+        <name>DACControlBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/dac.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/dac.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a993fd5626b9f5457cf9d88fc32d36982" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory" kindref="compound">lola::vx::ExternalPPUMemory</ref></type>
+        <definition>using lola::vx::v2::ExternalPPUMemory = typedef lola::vx::ExternalPPUMemory</definition>
+        <argsstring></argsstring>
+        <name>ExternalPPUMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/ppu.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/ppu.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1af956f4b93a1c4122518772d4487a0233" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_external_p_p_u_memory_block" kindref="compound">lola::vx::ExternalPPUMemoryBlock</ref></type>
+        <definition>using lola::vx::v2::ExternalPPUMemoryBlock = typedef lola::vx::ExternalPPUMemoryBlock</definition>
+        <argsstring></argsstring>
+        <name>ExternalPPUMemoryBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/ppu.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/ppu.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a17684374e47c5bf63db8d16874570f0d" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_memory_timing" kindref="compound">lola::vx::MemoryTiming</ref></type>
+        <definition>using lola::vx::v2::MemoryTiming = typedef lola::vx::MemoryTiming</definition>
+        <argsstring></argsstring>
+        <name>MemoryTiming</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/memory_timing.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/memory_timing.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a41e924ef1d23164dae4bf0cf5896a7e7" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_p_p_u_elf_file" kindref="compound">lola::vx::PPUElfFile</ref></type>
+        <definition>using lola::vx::v2::PPUElfFile = typedef lola::vx::PPUElfFile</definition>
+        <argsstring></argsstring>
+        <name>PPUElfFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/ppu.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/ppu.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1aafd1f6837104958484d1973581950ea4" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_p_p_u_program" kindref="compound">lola::vx::PPUProgram</ref></type>
+        <definition>using lola::vx::v2::PPUProgram = typedef lola::vx::PPUProgram</definition>
+        <argsstring></argsstring>
+        <name>PPUProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/ppu.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/ppu.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a82c8396d2af2b1f1650318044e3305e6" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kindref="compound">lola::vx::SynapseCorrelationCalibMatrix</ref></type>
+        <definition>using lola::vx::v2::SynapseCorrelationCalibMatrix = typedef lola::vx::SynapseCorrelationCalibMatrix</definition>
+        <argsstring></argsstring>
+        <name>SynapseCorrelationCalibMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="15" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a9b791e1f94038153effe2e3605b3daa5" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_row" kindref="compound">lola::vx::SynapseCorrelationCalibRow</ref></type>
+        <definition>using lola::vx::v2::SynapseCorrelationCalibRow = typedef lola::vx::SynapseCorrelationCalibRow</definition>
+        <argsstring></argsstring>
+        <name>SynapseCorrelationCalibRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a349c4f2e4da2f3839eb1a7e77f31d454" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_label_matrix" kindref="compound">lola::vx::SynapseLabelMatrix</ref></type>
+        <definition>using lola::vx::v2::SynapseLabelMatrix = typedef lola::vx::SynapseLabelMatrix</definition>
+        <argsstring></argsstring>
+        <name>SynapseLabelMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="14" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1ad8e060f988a1b53a4849ab43a40ecdea" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_label_row" kindref="compound">lola::vx::SynapseLabelRow</ref></type>
+        <definition>using lola::vx::v2::SynapseLabelRow = typedef lola::vx::SynapseLabelRow</definition>
+        <argsstring></argsstring>
+        <name>SynapseLabelRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a087ca72ce70050162fa852c4febce697" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_matrix" kindref="compound">lola::vx::SynapseMatrix</ref></type>
+        <definition>using lola::vx::v2::SynapseMatrix = typedef lola::vx::SynapseMatrix</definition>
+        <argsstring></argsstring>
+        <name>SynapseMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="16" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1ab1a16aad53cd41d6a97d9af79fb3dbd7" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_row" kindref="compound">lola::vx::SynapseRow</ref></type>
+        <definition>using lola::vx::v2::SynapseRow = typedef lola::vx::SynapseRow</definition>
+        <argsstring></argsstring>
+        <name>SynapseRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a7051415375716ae614a630215faa4edd" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_weight_matrix" kindref="compound">lola::vx::SynapseWeightMatrix</ref></type>
+        <definition>using lola::vx::v2::SynapseWeightMatrix = typedef lola::vx::SynapseWeightMatrix</definition>
+        <argsstring></argsstring>
+        <name>SynapseWeightMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1v2_1a96ab4c3b89b463a0f8b9a9305ae888aa" prot="public" static="no">
+        <type><ref refid="classlola_1_1vx_1_1_synapse_weight_row" kindref="compound">lola::vx::SynapseWeightRow</ref></type>
+        <definition>using lola::vx::v2::SynapseWeightRow = typedef lola::vx::SynapseWeightRow</definition>
+        <argsstring></argsstring>
+        <name>SynapseWeightRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacelola_1_1vx_1_1v2_1a15f1b8ff5d6ce9710a95d5c57040352d" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>auto lola::vx::v2::ism</definition>
+        <argsstring></argsstring>
+        <name>ism</name>
+        <initializer>= parent-&gt;py::is_method(<ref refid="namespacelola_1_1vx_1_1v2_1a1629f08c3b2135251c1ed0e79e2a3009" kindref="member">attr</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" line="41" column="30" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelola_1_1vx_1_1v2_1a0174602455391d8f5c35300b8f6038b5" prot="public" static="no" mutable="no">
+        <type>auto const</type>
+        <definition>auto const lola::vx::v2::to_str</definition>
+        <argsstring></argsstring>
+        <name>to_str</name>
+        <initializer>= [](ReadoutChain::PadMux const&amp; self) { 			std::stringstream ss; 			ss &lt;&lt; self; 			return ss.str(); 		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" line="41" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacelola_1_1vx_1_1v2_1a05e57f328e66940b212212bcf441235c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>attr</type>
+        <definition>attr lola::vx::v2::attr</definition>
+        <argsstring>(&quot;__str__&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;__str__&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" line="41" column="39" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" declline="41" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacelola_1_1vx_1_1v2_1a1629f08c3b2135251c1ed0e79e2a3009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v2::attr</definition>
+        <argsstring>(&quot;PadMux&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;PadMux&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" line="41" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/readout_chain.h" declline="41" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacelola_1_1vx_1_1v2_1aa3e975c4e7c9871f530b3ae190008686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class <ref refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron" kindref="compound">lola::vx::v2::AtomicNeuron</ref></type>
+        <definition>class lola::vx::v2::AtomicNeuron lola::vx::v2::set_from</definition>
+        <argsstring>(haldls::vx::v2::NeuronConfig const &amp;neuron_config) SYMBOL_VISIBLE</argsstring>
+        <name>set_from</name>
+        <param>
+          <type>haldls::vx::v2::NeuronConfig const &amp;</type>
+          <declname>neuron_config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="501" column="8" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" declline="501" declcolumn="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/chip.h" line="20" column="1"/>
+  </compounddef>
+</doxygen>

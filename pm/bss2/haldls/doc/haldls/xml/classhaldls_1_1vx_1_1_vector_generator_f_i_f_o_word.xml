@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::VectorGeneratorFIFOWord</compoundname>
+    <includes refid="vector__generator_8h" local="no">vector_generator.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af085e2cd3db48e0f939f7a8711b1ba5a" prot="public" static="no">
+        <type>halco::hicann_dls::vx::VectorGeneratorFIFOWordOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::VectorGeneratorFIFOWordOnFPGA haldls::vx::VectorGeneratorFIFOWord::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="443" column="62" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af2ca1155ead738d42baf25854494397b" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::EntryOnQuad &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;bool, halco::hicann_dls::vx::EntryOnQuad&gt; haldls::vx::VectorGeneratorFIFOWord::Enables</definition>
+        <argsstring></argsstring>
+        <name>Enables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="449" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1add322bd9c7bec81a0fa4ac4a060b6e73" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::VectorGeneratorFIFOWord::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="442" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1aa0890e75bcb9a15ddc6d28b960ac5ac5" prot="public" static="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_activation" kindref="compound">PADIEvent::HagenActivation</ref></type>
+        <definition>typedef PADIEvent::HagenActivation haldls::vx::VectorGeneratorFIFOWord::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="445" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a539bdf678071b5cef6ff0d446ec63ed4" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1aa0890e75bcb9a15ddc6d28b960ac5ac5" kindref="member">Value</ref>, halco::hicann_dls::vx::EntryOnQuad &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;Value, halco::hicann_dls::vx::EntryOnQuad&gt; haldls::vx::VectorGeneratorFIFOWord::Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="447" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af51d1ff5355520e418c0126eea2ea27f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::VectorGeneratorFIFOWord::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="505" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a960957c7b108232bfce725a5260538a3" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::VectorGeneratorFIFOWord::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="504" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="516" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af943bed559422c03282454f09fd6119c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, VectorGeneratorFIFOWord const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word" kindref="compound">VectorGeneratorFIFOWord</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="501" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a52d78a165e9e3b96b5c0f39fd012fc6a" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af2ca1155ead738d42baf25854494397b" kindref="member">Enables</ref></type>
+        <definition>Enables haldls::vx::VectorGeneratorFIFOWord::m_enable</definition>
+        <argsstring></argsstring>
+        <name>m_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="522" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="522" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a6e37a035b1864c646123c16fcdb86b91" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af2ca1155ead738d42baf25854494397b" kindref="member">Enables</ref></type>
+        <definition>Enables haldls::vx::VectorGeneratorFIFOWord::m_last</definition>
+        <argsstring></argsstring>
+        <name>m_last</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="521" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ab1e1be4da6c537f2a500a2536a494ed4" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a539bdf678071b5cef6ff0d446ec63ed4" kindref="member">Values</ref></type>
+        <definition>Values haldls::vx::VectorGeneratorFIFOWord::m_values</definition>
+        <argsstring></argsstring>
+        <name>m_values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="520" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="520" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af8895321fa61bf6407872f9eaee131d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::VectorGeneratorFIFOWord::VectorGeneratorFIFOWord</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>VectorGeneratorFIFOWord</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="453" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a4a59541758f9edf4bc0c31bda2bc1639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorFIFOWord::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::Omnibus, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af51d1ff5355520e418c0126eea2ea27f" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="512" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a4427bfb52d4fe525e85888b41baacf2e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::Omnibus, <ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a960957c7b108232bfce725a5260538a3" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::Omnibus, write_config_size_in_words&gt; haldls::vx::VectorGeneratorFIFOWord::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="510" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ad2483cdd6490f27dedc10175a841543b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::VectorGeneratorFIFOWord::operator!=</definition>
+        <argsstring>(VectorGeneratorFIFOWord const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word" kindref="compound">VectorGeneratorFIFOWord</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="498" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ac982c0d17ce47eb13aef99711546ae84" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::VectorGeneratorFIFOWord::operator==</definition>
+        <argsstring>(VectorGeneratorFIFOWord const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word" kindref="compound">VectorGeneratorFIFOWord</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="497" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1aadb4b775107394b50072a6dbd2d6ea8d" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::VectorGeneratorFIFOWord::return_value_policy</definition>
+        <argsstring>(reference)) Enables const &amp;get_enable() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="487" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a8379463551eead968a5a8d3bfd87fcf7" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::VectorGeneratorFIFOWord::return_value_policy</definition>
+        <argsstring>(reference)) Enables const &amp;get_last() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="473" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a5021e2e503694dd2f966cb966fbf288e" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::VectorGeneratorFIFOWord::return_value_policy</definition>
+        <argsstring>(reference)) Values const &amp;get_values() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="459" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a2ee757d16b550e68de03a2d109374f11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorFIFOWord::set_enable</definition>
+        <argsstring>(Enables value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af2ca1155ead738d42baf25854494397b" kindref="member">Enables</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enables for entries to write. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="495" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1adc0dd06c4a8d04200b329c869515ec30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorFIFOWord::set_last</definition>
+        <argsstring>(Enables value) SYMBOL_VISIBLE</argsstring>
+        <name>set_last</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af2ca1155ead738d42baf25854494397b" kindref="member">Enables</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set last enables. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="481" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a5855845265bacd6102f3d4367189b617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorFIFOWord::set_values</definition>
+        <argsstring>(Values value) SYMBOL_VISIBLE</argsstring>
+        <name>set_values</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a539bdf678071b5cef6ff0d446ec63ed4" kindref="member">Values</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="467" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a22917e63b5ecf59e4d81541957a8c3b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af51d1ff5355520e418c0126eea2ea27f" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, read_config_size_in_words&gt; haldls::vx::VectorGeneratorFIFOWord::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af085e2cd3db48e0f939f7a8711b1ba5a" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="509" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ada4ddcc5311b68bb78c8bd1b8e5bc285" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a960957c7b108232bfce725a5260538a3" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, write_config_size_in_words&gt; haldls::vx::VectorGeneratorFIFOWord::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af085e2cd3db48e0f939f7a8711b1ba5a" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="507" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a46726c0fcb7c793613dad2e9a84700d9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::VectorGeneratorFIFOWord::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="518" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for writing a word of (maximally) four activation values into the FIFO in front of the vector generator. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" line="439" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/vector_generator.h" bodystart="440" bodyend="523"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af085e2cd3db48e0f939f7a8711b1ba5a" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a4a59541758f9edf4bc0c31bda2bc1639" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af2ca1155ead738d42baf25854494397b" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>Enables</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a4427bfb52d4fe525e85888b41baacf2e" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1add322bd9c7bec81a0fa4ac4a060b6e73" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a52d78a165e9e3b96b5c0f39fd012fc6a" prot="private" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>m_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a6e37a035b1864c646123c16fcdb86b91" prot="private" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>m_last</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ab1e1be4da6c537f2a500a2536a494ed4" prot="private" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>m_values</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ad2483cdd6490f27dedc10175a841543b" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af943bed559422c03282454f09fd6119c" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ac982c0d17ce47eb13aef99711546ae84" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a22917e63b5ecf59e4d81541957a8c3b1" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af51d1ff5355520e418c0126eea2ea27f" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a5021e2e503694dd2f966cb966fbf288e" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a8379463551eead968a5a8d3bfd87fcf7" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1aadb4b775107394b50072a6dbd2d6ea8d" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a46726c0fcb7c793613dad2e9a84700d9" prot="private" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a2ee757d16b550e68de03a2d109374f11" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>set_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1adc0dd06c4a8d04200b329c869515ec30" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>set_last</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a5855845265bacd6102f3d4367189b617" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>set_values</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1aa0890e75bcb9a15ddc6d28b960ac5ac5" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>Value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a539bdf678071b5cef6ff0d446ec63ed4" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>Values</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1af8895321fa61bf6407872f9eaee131d1" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>VectorGeneratorFIFOWord</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1ada4ddcc5311b68bb78c8bd1b8e5bc285" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_vector_generator_f_i_f_o_word_1a960957c7b108232bfce725a5260538a3" prot="public" virt="non-virtual"><scope>haldls::vx::VectorGeneratorFIFOWord</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

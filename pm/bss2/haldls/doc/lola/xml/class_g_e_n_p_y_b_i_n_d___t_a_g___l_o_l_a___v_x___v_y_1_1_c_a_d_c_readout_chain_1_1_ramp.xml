@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" kind="class" language="C++" prot="public">
+    <compoundname>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</compoundname>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ae41389ecf6242fb5b79f02e4e6b7e0c0" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::DisableRefresh</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::DisableRefresh GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::AnalogDisableRefresh</definition>
+        <argsstring></argsstring>
+        <name>AnalogDisableRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="119" column="67" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a2e4ed12e9ef98bdde5d077972a409f1d" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CapMemCell::Value</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CapMemCell::Value GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::AnalogValue</definition>
+        <argsstring></argsstring>
+        <name>AnalogValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="118" column="58" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ad2858c0dae7a55c705c47902434fed3e" prot="public" static="no">
+        <type>haldls::vx::CADCConfig::DeadTime</type>
+        <definition>typedef haldls::vx::CADCConfig::DeadTime GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::DeadTime</definition>
+        <argsstring></argsstring>
+        <name>DeadTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="117" column="42" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a5e75666c75b6f5ea27bc081ffff6e79c" prot="public" static="no">
+        <type>haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::RampOffsets</type>
+        <definition>typedef haldls::vx::CHIP_REVISION_STR::CommonCorrelationConfig::RampOffsets GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::OffsetAssignment</definition>
+        <argsstring></argsstring>
+        <name>OffsetAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="122" column="77" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1adecf689e500699f2271fd03cf6cac0b0" prot="public" static="no">
+        <type>haldls::vx::CADCConfig::ResetWait</type>
+        <definition>typedef haldls::vx::CADCConfig::ResetWait GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::ResetWait</definition>
+        <argsstring></argsstring>
+        <name>ResetWait</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="116" column="43" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a782360d9be2764d6a4bc69cec8e59aea" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ad2858c0dae7a55c705c47902434fed3e" kindref="member">DeadTime</ref></type>
+        <definition>DeadTime GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::dead_time</definition>
+        <argsstring></argsstring>
+        <name>dead_time</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Dead time before a read returns, after the CADC ramp has increased to 1.2 V. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Given in PPU clock cycles. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="140" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a4babeac56a61f4719842a3f0a4c5f5d6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <initializer>{false}</initializer>
+        <briefdescription>
+<para>Enable CADC for the current hemisphere. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="128" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ae271139d1f4631cb7ff09ac16d1e4712" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" kindref="member">CADCReadoutChain::AnalogValues</ref></type>
+        <definition>CADCReadoutChain::AnalogValues GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::i_bias_comparator</definition>
+        <argsstring></argsstring>
+        <name>i_bias_comparator</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Bias current for the comparator in each CADC channel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="161" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a05b1b82e257ac66cdbe96360013a01bf" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" kindref="member">CADCReadoutChain::AnalogValues</ref></type>
+        <definition>CADCReadoutChain::AnalogValues GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::i_bias_vreset_buffer</definition>
+        <argsstring></argsstring>
+        <name>i_bias_vreset_buffer</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Bias current for the buffer for v_offset, relevant during reset of the ramp. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="165" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1abc08f034e3820a2000f5b74c9a465249" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" kindref="member">CADCReadoutChain::AnalogValues</ref></type>
+        <definition>CADCReadoutChain::AnalogValues GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::i_slope</definition>
+        <argsstring></argsstring>
+        <name>i_slope</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" kindref="compound">Ramp</ref> current, determines slope of the linear voltage range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="157" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a7ecc0c2f127a1509e71ece9b776de45d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1adecf689e500699f2271fd03cf6cac0b0" kindref="member">ResetWait</ref></type>
+        <definition>ResetWait GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::reset_wait</definition>
+        <argsstring></argsstring>
+        <name>reset_wait</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para><ref refid="struct_reset" kindref="compound">Reset</ref> duration of the CADC ramp. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>At the beginning of a read (after the sense_delay has passed), the ramp is pulled down from 1.2 V to v_offset for this time. Given in PPU clock cycles. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="135" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a33e691adc15ccefc664b4ffcc41dec75" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" kindref="member">CADCReadoutChain::AnalogValues</ref></type>
+        <definition>CADCReadoutChain::AnalogValues GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::v_bias_buffer</definition>
+        <argsstring></argsstring>
+        <name>v_bias_buffer</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>Bias voltage for the buffer distributing the ramp to each channel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="169" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a3c91cfa172ac2a9224cc6e440e4b4df5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1a3fcb1d0c2e6ec281bea5af1f64cf54a7" kindref="member">CADCReadoutChain::AnalogValues</ref></type>
+        <definition>CADCReadoutChain::AnalogValues GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::v_offset</definition>
+        <argsstring></argsstring>
+        <name>v_offset</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" kindref="compound">Ramp</ref> start voltage. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="153" column="32" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a466c9ac762640f529083830a7fdc3909" prot="public" static="no" mutable="no">
+        <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a5e75666c75b6f5ea27bc081ffff6e79c" kindref="member">OffsetAssignment</ref></type>
+        <definition>OffsetAssignment GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::v_offset_assignment</definition>
+        <argsstring></argsstring>
+        <name>v_offset_assignment</name>
+        <initializer>{
+		    halco::hicann_dls::vx::CHIP_REVISION_STR::CapMemBlockOnHemisphere(0),
+		    halco::hicann_dls::vx::CHIP_REVISION_STR::CapMemBlockOnHemisphere(1)}</initializer>
+        <briefdescription>
+<para>Select the assignment of v_offset between left and right <ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kindref="compound">CapMem</ref> instances. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Each of the ramp generators (left and right CADC branch) can independently select a source for their v_offset voltage (left and right <ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_cap_mem" kindref="compound">CapMem</ref>). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="147" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a0b1bd20214e6084a1e9d9b4830b86f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::Ramp</definition>
+        <argsstring>()=default</argsstring>
+        <name>Ramp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="171" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a4a6e6a6827a38221bb859de0a2cb4822" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::operator!=</definition>
+        <argsstring>(Ramp const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" kindref="compound">Ramp</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="174" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a4fdecb3b76d5fd924b0cbf6b400f544d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp::operator==</definition>
+        <argsstring>(Ramp const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" kindref="compound">Ramp</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="173" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ab399fba5015b3dc8c7c3d9e636b9435b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Ramp const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp" kindref="compound">Ramp</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="177" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>CADC ramp generation settings. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" line="113" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h" bodystart="114" bodyend="178"/>
+    <listofallmembers>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ae41389ecf6242fb5b79f02e4e6b7e0c0" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>AnalogDisableRefresh</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a2e4ed12e9ef98bdde5d077972a409f1d" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>AnalogValue</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a782360d9be2764d6a4bc69cec8e59aea" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>dead_time</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ad2858c0dae7a55c705c47902434fed3e" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>DeadTime</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a4babeac56a61f4719842a3f0a4c5f5d6" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>enable</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ae271139d1f4631cb7ff09ac16d1e4712" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>i_bias_comparator</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a05b1b82e257ac66cdbe96360013a01bf" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>i_bias_vreset_buffer</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1abc08f034e3820a2000f5b74c9a465249" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>i_slope</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a5e75666c75b6f5ea27bc081ffff6e79c" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>OffsetAssignment</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a4a6e6a6827a38221bb859de0a2cb4822" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>operator!=</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1ab399fba5015b3dc8c7c3d9e636b9435b" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a4fdecb3b76d5fd924b0cbf6b400f544d" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>operator==</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a0b1bd20214e6084a1e9d9b4830b86f89" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>Ramp</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a7ecc0c2f127a1509e71ece9b776de45d" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>reset_wait</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1adecf689e500699f2271fd03cf6cac0b0" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>ResetWait</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a33e691adc15ccefc664b4ffcc41dec75" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>v_bias_buffer</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a3c91cfa172ac2a9224cc6e440e4b4df5" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>v_offset</name></member>
+      <member refid="class_g_e_n_p_y_b_i_n_d___t_a_g___l_o_l_a___v_x___v_y_1_1_c_a_d_c_readout_chain_1_1_ramp_1a466c9ac762640f529083830a7fdc3909" prot="public" virt="non-virtual"><scope>GENPYBIND_TAG_LOLA_VX_VY::CADCReadoutChain::Ramp</scope><name>v_offset_assignment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

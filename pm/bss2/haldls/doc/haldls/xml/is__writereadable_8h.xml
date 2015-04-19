@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="is__writereadable_8h" kind="file" language="C++">
+    <compoundname>is_writereadable.h</compoundname>
+    <includes refid="is__readable_8h" local="yes">haldls/vx/is_readable.h</includes>
+    <includes refid="is__writeable_8h" local="yes">haldls/vx/is_writeable.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>fisch/vx/traits.h</label>
+      </node>
+      <node id="7">
+        <label>boost/utility/enable_if.hpp</label>
+      </node>
+      <node id="6">
+        <label>type_traits</label>
+      </node>
+      <node id="5">
+        <label>haldls/vx/is_writeable.h</label>
+        <link refid="is__writeable_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_write_readable" prot="public">haldls::vx::detail::IsWriteReadable</innerclass>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writereadable.h"/>
+  </compounddef>
+</doxygen>

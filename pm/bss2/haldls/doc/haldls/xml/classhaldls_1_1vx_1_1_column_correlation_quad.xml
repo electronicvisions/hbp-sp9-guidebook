@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_column_correlation_quad" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::ColumnCorrelationQuad</compoundname>
+    <basecompoundref refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public" virt="non-virtual">haldls::vx::DifferentialWriteTrait</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" prot="public">haldls::vx::ColumnCorrelationQuad::ColumnCorrelationSwitch</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_column_correlation_quad_1aa3c3ee4243d74939acc45c0e32c50157" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ColumnCorrelationQuadOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ColumnCorrelationQuadOnDLS haldls::vx::ColumnCorrelationQuad::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="483" column="59" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a0885cbe6318ab677237e6d66a2d2b248" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::ColumnCorrelationQuad::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="484" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_column_correlation_quad_1ac23d09e636aa86358cd085cb5c9b072b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::ColumnCorrelationQuad::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="620" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="620" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_column_correlation_quad_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="636" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a6095853d64f821123565b9fce16aa0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::ColumnCorrelationRow &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::ColumnCorrelationRow &gt;</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl" kindref="compound">haldls::vx::detail::VisitPreorderImpl</ref>&lt; lola::vx::ColumnCorrelationRow &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="641" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a25dabc767340d0c58ed69d45adf25d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;, ColumnCorrelationQuad const &amp;) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_column_correlation_quad" kindref="compound">ColumnCorrelationQuad</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="633" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a675e3eb0de231f39532b3bf8fe443c0a" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationSwitch</ref>, halco::hicann_dls::vx::EntryOnQuad &gt;</type>
+        <definition>halco::common::typed_array&lt;ColumnCorrelationSwitch, halco::hicann_dls::vx::EntryOnQuad&gt; haldls::vx::ColumnCorrelationQuad::m_switches</definition>
+        <argsstring></argsstring>
+        <name>m_switches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="641" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a25d9f63ca9f8db17b5cb63bd3b9d0979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::ColumnCorrelationQuad::ColumnCorrelationQuad</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ColumnCorrelationQuad</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="612" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a9ce4b1ce8c3bd5d3c6df6ff8a18f4969" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_column_correlation_quad_1ac23d09e636aa86358cd085cb5c9b072b" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="627" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1abc53c2a5b467ddcc5af1e917dd14fa5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_column_correlation_quad_1ac23d09e636aa86358cd085cb5c9b072b" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::ColumnCorrelationQuad::encode</definition>
+        <argsstring>() const</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="625" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a1a2ddad5039107cce2637a8f7566aad6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationSwitch</ref></type>
+        <definition>ColumnCorrelationSwitch haldls::vx::ColumnCorrelationQuad::get_switch</definition>
+        <argsstring>(halco::hicann_dls::vx::EntryOnQuad const &amp;correlation_switch) const SYMBOL_VISIBLE</argsstring>
+        <name>get_switch</name>
+        <param>
+          <type>halco::hicann_dls::vx::EntryOnQuad const &amp;</type>
+          <declname>correlation_switch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="614" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a057c3a29d59caaca9787a3633b7693bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::operator!=</definition>
+        <argsstring>(ColumnCorrelationQuad const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_column_correlation_quad" kindref="compound">ColumnCorrelationQuad</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="630" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a78128c59a03fa0398e253618a9ccf08e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::ColumnCorrelationQuad::operator==</definition>
+        <argsstring>(ColumnCorrelationQuad const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_column_correlation_quad" kindref="compound">ColumnCorrelationQuad</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="629" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1a69ea429dc60783fdca00d03ffd91fc5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::set_switch</definition>
+        <argsstring>(halco::hicann_dls::vx::EntryOnQuad const &amp;correlation_switch, ColumnCorrelationSwitch const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_switch</name>
+        <param>
+          <type>halco::hicann_dls::vx::EntryOnQuad const &amp;</type>
+          <declname>correlation_switch</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_column_correlation_quad_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationSwitch</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="616" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1ab914199dac2e53f85f52dc0c8b7e5214" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_column_correlation_quad_1ac23d09e636aa86358cd085cb5c9b072b" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::ColumnCorrelationQuad::addresses</definition>
+        <argsstring>(coordinate_type const &amp;block)</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_column_correlation_quad_1aa3c3ee4243d74939acc45c0e32c50157" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="622" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_column_correlation_quad_1ab6df4c404465f092c9c292ccd53c2f77" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::ColumnCorrelationQuad::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="638" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ColumnCorrelationQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_column_correlation_quad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>haldls::vx::DifferentialWriteTrait</label>
+        <link refid="classhaldls_1_1vx_1_1_differential_write_trait"/>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ColumnCorrelationQuad</label>
+        <link refid="classhaldls_1_1vx_1_1_column_correlation_quad"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" line="480" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse.h" bodystart="481" bodyend="644"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1ab914199dac2e53f85f52dc0c8b7e5214" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a25d9f63ca9f8db17b5cb63bd3b9d0979" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>ColumnCorrelationQuad</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1ac23d09e636aa86358cd085cb5c9b072b" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1aa3c3ee4243d74939acc45c0e32c50157" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a9ce4b1ce8c3bd5d3c6df6ff8a18f4969" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1abc53c2a5b467ddcc5af1e917dd14fa5e" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a1a2ddad5039107cce2637a8f7566aad6" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>get_switch</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a6095853d64f821123565b9fce16aa0dd" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::ColumnCorrelationRow &gt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a0885cbe6318ab677237e6d66a2d2b248" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a675e3eb0de231f39532b3bf8fe443c0a" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>m_switches</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a057c3a29d59caaca9787a3633b7693bf" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a25dabc767340d0c58ed69d45adf25d6b" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a78128c59a03fa0398e253618a9ccf08e" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1ab6df4c404465f092c9c292ccd53c2f77" prot="private" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_column_correlation_quad_1a69ea429dc60783fdca00d03ffd91fc5b" prot="public" virt="non-virtual"><scope>haldls::vx::ColumnCorrelationQuad</scope><name>set_switch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

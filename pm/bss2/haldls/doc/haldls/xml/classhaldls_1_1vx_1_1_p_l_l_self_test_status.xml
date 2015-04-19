@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_p_l_l_self_test_status" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::PLLSelfTestStatus</compoundname>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value" prot="public">haldls::vx::PLLSelfTestStatus::CounterValue</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a3a185fc0d484f433b46b9ecf26de8154" prot="public" static="no">
+        <type>halco::hicann_dls::vx::PLLSelfTestStatusOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::PLLSelfTestStatusOnDLS haldls::vx::PLLSelfTestStatus::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="504" column="55" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a1989fe0813c31bbb284f9a3a58e9f638" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::PLLSelfTestStatus::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="505" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="505" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a7bfe7531ec4e6a0b733765a8200a4d60" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::PLLSelfTestStatus::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="552" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ae481936905b0b13d59423e55133cb3ea" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::PLLSelfTestStatus::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="553" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="567" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="567" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1af66505fdccdfa036b9647d8333348dc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PLLSelfTestStatus const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status" kindref="compound">PLLSelfTestStatus</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="546" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a78bceca8deded388664563d52e0e1ef6" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value" kindref="compound">CounterValue</ref></type>
+        <definition>CounterValue haldls::vx::PLLSelfTestStatus::m_counter_value</definition>
+        <argsstring></argsstring>
+        <name>m_counter_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="573" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a7488098bbac4dfac63794d1de9497387" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PLLSelfTestStatus::m_finished</definition>
+        <argsstring></argsstring>
+        <name>m_finished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="572" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a46cdb5937bd5928086cc46393c88b755" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PLLSelfTestStatus::m_success</definition>
+        <argsstring></argsstring>
+        <name>m_success</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="571" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="571" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a55b68078df547ce69b66d987680553e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PLLSelfTestStatus::PLLSelfTestStatus</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PLLSelfTestStatus</name>
+        <briefdescription>
+<para>Default construct a PLL self-test status. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="520" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a1e2383e788eec64e8c58dbdf7d185578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PLLSelfTestStatus::decode</definition>
+        <argsstring>(std::array&lt; WordT, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a7bfe7531ec4e6a0b733765a8200a4d60" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="563" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a070116bcc5af2ae2f3324fcf404f9044" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ae481936905b0b13d59423e55133cb3ea" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, write_config_size_in_words&gt; haldls::vx::PLLSelfTestStatus::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="561" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ac8ad9a9bbe502d99cde118e5930fcf23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value" kindref="compound">CounterValue</ref></type>
+        <definition>CounterValue haldls::vx::PLLSelfTestStatus::get_counter_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_counter_value</name>
+        <briefdescription>
+<para>Get self-test clock period counter value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Counter value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="543" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ab8956124ab0d63aed13de90a701edc8f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PLLSelfTestStatus::get_finished</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_finished</name>
+        <briefdescription>
+<para>Get if self-test exectution finished before this containers&apos; read. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This flag only produces reliable information on the first validly finished self test after power cycle. <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="536" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ab47106c9c80b268c31da9727a492ef05" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PLLSelfTestStatus::get_success</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_success</name>
+        <briefdescription>
+<para>Get if self-test execution was successful. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="527" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a314e76f2ca7296ffc58ad7d86c0afb9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PLLSelfTestStatus::operator!=</definition>
+        <argsstring>(PLLSelfTestStatus const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status" kindref="compound">PLLSelfTestStatus</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="550" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ab20c8c45f6c01c7f7cd7a7d81a97a591" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PLLSelfTestStatus::operator==</definition>
+        <argsstring>(PLLSelfTestStatus const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status" kindref="compound">PLLSelfTestStatus</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="549" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a664417948eb4d68b4602c584ecceb7dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a7bfe7531ec4e6a0b733765a8200a4d60" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, read_config_size_in_words&gt; haldls::vx::PLLSelfTestStatus::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a3a185fc0d484f433b46b9ecf26de8154" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="555" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a315c9163742fb923a18167e40b804446" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ae481936905b0b13d59423e55133cb3ea" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, write_config_size_in_words&gt; haldls::vx::PLLSelfTestStatus::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a3a185fc0d484f433b46b9ecf26de8154" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="558" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ac050ad03715f24043db2a160b3eee679" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PLLSelfTestStatus::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="569" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of PLL self-test status data. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="501" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="502" bodyend="574"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a3a185fc0d484f433b46b9ecf26de8154" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a1e2383e788eec64e8c58dbdf7d185578" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a070116bcc5af2ae2f3324fcf404f9044" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ac8ad9a9bbe502d99cde118e5930fcf23" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>get_counter_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ab8956124ab0d63aed13de90a701edc8f" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>get_finished</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ab47106c9c80b268c31da9727a492ef05" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>get_success</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a1989fe0813c31bbb284f9a3a58e9f638" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a78bceca8deded388664563d52e0e1ef6" prot="private" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>m_counter_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a7488098bbac4dfac63794d1de9497387" prot="private" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>m_finished</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a46cdb5937bd5928086cc46393c88b755" prot="private" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>m_success</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a314e76f2ca7296ffc58ad7d86c0afb9a" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1af66505fdccdfa036b9647d8333348dc9" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ab20c8c45f6c01c7f7cd7a7d81a97a591" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a55b68078df547ce69b66d987680553e1" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>PLLSelfTestStatus</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a664417948eb4d68b4602c584ecceb7dd" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a7bfe7531ec4e6a0b733765a8200a4d60" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ac050ad03715f24043db2a160b3eee679" prot="private" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1a315c9163742fb923a18167e40b804446" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status_1ae481936905b0b13d59423e55133cb3ea" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTestStatus</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

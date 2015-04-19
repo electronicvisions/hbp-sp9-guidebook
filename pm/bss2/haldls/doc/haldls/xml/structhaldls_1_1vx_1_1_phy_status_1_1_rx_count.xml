@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_phy_status_1_1_rx_count" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::PhyStatus::RxCount</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::BaseType&lt; RxCount, uint32_t &gt;</basecompoundref>
+    <includes refid="phy_8h" local="no">phy.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_phy_status_1_1_rx_count_1a7f231ea8abef5b132e46cb2ef1315377" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::PhyStatus::RxCount::RxCount</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>RxCount</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="414" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="414" bodyend="416"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Number of rx words from Chip since last reset. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::PhyStatus::RxCount</label>
+        <link refid="structhaldls_1_1vx_1_1_phy_status_1_1_rx_count"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::BaseType&lt; RxCount, uint32_t &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::PhyStatus::RxCount</label>
+        <link refid="structhaldls_1_1vx_1_1_phy_status_1_1_rx_count"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::BaseType&lt; RxCount, uint32_t &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" line="411" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/phy.h" bodystart="413" bodyend="417"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_phy_status_1_1_rx_count_1a7f231ea8abef5b132e46cb2ef1315377" prot="public" virt="non-virtual"><scope>haldls::vx::PhyStatus::RxCount</scope><name>RxCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_row_address_compare_mask" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseDriverConfig::RowAddressCompareMask</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; RowAddressCompareMask, uint_fast8_t, 31, 0 &gt;</basecompoundref>
+    <includes refid="synapse__driver_8h" local="no">synapse_driver.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_row_address_compare_mask_1a0bf907a5815da0e43d1d3dcda49f25a7" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SynapseDriverConfig::RowAddressCompareMask::RowAddressCompareMask</definition>
+        <argsstring>(uintmax_t const val=0b11111)</argsstring>
+        <name>RowAddressCompareMask</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0b11111</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="122" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="122" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; RowAddressCompareMask, uint_fast8_t, 31, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SynapseDriverConfig::RowAddressCompareMask</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_row_address_compare_mask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; RowAddressCompareMask, uint_fast8_t, 31, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SynapseDriverConfig::RowAddressCompareMask</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_row_address_compare_mask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="119" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="121" bodyend="126"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_row_address_compare_mask_1a0bf907a5815da0e43d1d3dcda49f25a7" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverConfig::RowAddressCompareMask</scope><name>RowAddressCompareMask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

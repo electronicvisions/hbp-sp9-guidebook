@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_t_c_a9554_config" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::TCA9554Config</compoundname>
+    <includes refid="i2c_8h" local="no">i2c.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a784eb3acbe87e815d62610a0f9e033d5" prot="public" static="no" strong="yes">
+        <type>bool</type>
+        <name>ChannelMode</name>
+        <enumvalue id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a784eb3acbe87e815d62610a0f9e033d5a78e6221f6393d1356681db398f14ce6d" prot="public">
+          <name>output</name>
+          <initializer>= false</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a784eb3acbe87e815d62610a0f9e033d5aa43c1b0aa53a0c908810c06ab1ff3967" prot="public">
+          <name>input</name>
+          <initializer>= true</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="355" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="356" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="enum" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a0b3e85c73bf37b920c17025fac3a71ca" prot="public" static="no" strong="yes">
+        <type>bool</type>
+        <name>ChannelPolarity</name>
+        <enumvalue id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a0b3e85c73bf37b920c17025fac3a71caafea087517c26fadd409bd4b9dc642555" prot="public">
+          <name>normal</name>
+          <initializer>= false</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a0b3e85c73bf37b920c17025fac3a71caa184401f335d6b8661e04dfea47b9dcd5" prot="public">
+          <name>inverted</name>
+          <initializer>= true</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="349" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="350" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1ad2a461ce25caef2be913294e849e92e9" prot="public" static="no">
+        <type>halco::common::typed_array&lt; bool, halco::hicann_dls::vx::TCA9554ChannelOnBoard &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;bool, halco::hicann_dls::vx::TCA9554ChannelOnBoard&gt; haldls::vx::TCA9554Config::ChannelsBooleanArray</definition>
+        <argsstring></argsstring>
+        <name>ChannelsBooleanArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="362" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a1ad694b4fa02efd23c20346a350a5e10" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a784eb3acbe87e815d62610a0f9e033d5" kindref="member">ChannelMode</ref>, halco::hicann_dls::vx::TCA9554ChannelOnBoard &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;ChannelMode, halco::hicann_dls::vx::TCA9554ChannelOnBoard&gt; haldls::vx::TCA9554Config::ChannelsModeArray</definition>
+        <argsstring></argsstring>
+        <name>ChannelsModeArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="367" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1aa6288c4948da5e1392e7674b5dbaad3a" prot="public" static="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a0b3e85c73bf37b920c17025fac3a71ca" kindref="member">ChannelPolarity</ref>, halco::hicann_dls::vx::TCA9554ChannelOnBoard &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; ChannelPolarity, halco::hicann_dls::vx::TCA9554ChannelOnBoard&gt; haldls::vx::TCA9554Config::ChannelsPolarityArray</definition>
+        <argsstring></argsstring>
+        <name>ChannelsPolarityArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="365" column="2" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a645259667d54a229897a81e46108848b" prot="public" static="no">
+        <type>halco::hicann_dls::vx::TCA9554ConfigOnBoard</type>
+        <definition>typedef halco::hicann_dls::vx::TCA9554ConfigOnBoard haldls::vx::TCA9554Config::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="344" column="53" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1acb9f5cd566eaf5d9d70e7160cffb9348" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::TCA9554Config::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="345" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1aece72c0385aa7fb7e03af2159117b906" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::TCA9554Config::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="420" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a3a5701c5e43b77207f631587da6e1f2c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::TCA9554Config::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::simulation}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="346" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="430" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a4cf5352e96bd1067593ec7ecb049f81c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, TCA9554Config const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config" kindref="compound">TCA9554Config</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="418" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a4d3d108ea003ed7b0f4cb8508a01de49" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a1ad694b4fa02efd23c20346a350a5e10" kindref="member">ChannelsModeArray</ref></type>
+        <definition>ChannelsModeArray haldls::vx::TCA9554Config::m_mode</definition>
+        <argsstring></argsstring>
+        <name>m_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="436" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a3d031ec1a39acf241d12d1a3c136f18b" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1ad2a461ce25caef2be913294e849e92e9" kindref="member">ChannelsBooleanArray</ref></type>
+        <definition>ChannelsBooleanArray haldls::vx::TCA9554Config::m_output</definition>
+        <argsstring></argsstring>
+        <name>m_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="434" column="22" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a5d76cca9aa292251444b5f0b8581f51a" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aa6288c4948da5e1392e7674b5dbaad3a" kindref="member">ChannelsPolarityArray</ref></type>
+        <definition>ChannelsPolarityArray haldls::vx::TCA9554Config::m_polarity</definition>
+        <argsstring></argsstring>
+        <name>m_polarity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="435" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="435" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a139a2c5f7eaed221ec7f46d467ba1d44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::TCA9554Config::TCA9554Config</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>TCA9554Config</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="370" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a45adca2a1f20251b04cd8f902bf3beea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::TCA9554Config::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::word_access_type::I2CTCA9554RwRegister, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::word_access_type::I2CTCA9554RwRegister, <ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aece72c0385aa7fb7e03af2159117b906" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="425" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a79b1a3dfc636c4b11ad65ae012dfa01d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::word_access_type::I2CTCA9554RwRegister, <ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aece72c0385aa7fb7e03af2159117b906" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::word_access_type::I2CTCA9554RwRegister, config_size_in_words&gt; haldls::vx::TCA9554Config::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="423" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a82f5f0e47366c42781d4879fcbc178b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::TCA9554Config::operator!=</definition>
+        <argsstring>(TCA9554Config const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config" kindref="compound">TCA9554Config</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="415" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a4664048bca83f61f7e16c83f2d9b08d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::TCA9554Config::operator==</definition>
+        <argsstring>(TCA9554Config const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config" kindref="compound">TCA9554Config</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="414" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a9ec854c41c2c5e5a485639561905d1c8" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::TCA9554Config::return_value_policy</definition>
+        <argsstring>(reference_internal)) ChannelsBooleanArray const &amp;get_channel_output() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="376" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1ab618c85a2222bfa5263d39ce8d45f202" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::TCA9554Config::return_value_policy</definition>
+        <argsstring>(reference_internal)) ChannelsModeArray const &amp;get_channel_mode() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="404" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a0109c18b6ffbb86ab9a10e6e396303b9" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::TCA9554Config::return_value_policy</definition>
+        <argsstring>(reference_internal)) ChannelsPolarityArray const &amp;get_channel_polarity() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference_internal</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="390" column="2"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1aee43ecd019125550de4f520f1b82cc63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::TCA9554Config::set_channel_mode</definition>
+        <argsstring>(ChannelsModeArray const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_channel_mode</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a1ad694b4fa02efd23c20346a350a5e10" kindref="member">ChannelsModeArray</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set input/output mode for all channels. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of channel input/output modes </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="412" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a715fb7ad6a51627a6d2d2b03a19f09cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::TCA9554Config::set_channel_output</definition>
+        <argsstring>(ChannelsBooleanArray const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_channel_output</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1ad2a461ce25caef2be913294e849e92e9" kindref="member">ChannelsBooleanArray</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set output value for all channels. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of output values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="384" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1aa7a767f1e399896441403e0fe593d4be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::TCA9554Config::set_channel_polarity</definition>
+        <argsstring>(ChannelsPolarityArray const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_channel_polarity</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aa6288c4948da5e1392e7674b5dbaad3a" kindref="member">ChannelsPolarityArray</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set polarity inversion mode of all channels. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of polarity inversion modes </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="398" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1acc4f17f8c592b97ff35841f7f18d6378" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::I2CTCA9554RwRegisterOnBoard, <ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aece72c0385aa7fb7e03af2159117b906" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::I2CTCA9554RwRegisterOnBoard, config_size_in_words&gt; haldls::vx::TCA9554Config::addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a645259667d54a229897a81e46108848b" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="422" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_t_c_a9554_config_1a502ab51b1dc1cb0a8cc06291c6f86402" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::TCA9554Config::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="432" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" line="341" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/i2c.h" bodystart="342" bodyend="437"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1acc4f17f8c592b97ff35841f7f18d6378" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a784eb3acbe87e815d62610a0f9e033d5" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>ChannelMode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a0b3e85c73bf37b920c17025fac3a71ca" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>ChannelPolarity</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1ad2a461ce25caef2be913294e849e92e9" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>ChannelsBooleanArray</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a1ad694b4fa02efd23c20346a350a5e10" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>ChannelsModeArray</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aa6288c4948da5e1392e7674b5dbaad3a" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>ChannelsPolarityArray</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aece72c0385aa7fb7e03af2159117b906" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a645259667d54a229897a81e46108848b" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a45adca2a1f20251b04cd8f902bf3beea" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a79b1a3dfc636c4b11ad65ae012dfa01d" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1acb9f5cd566eaf5d9d70e7160cffb9348" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a4d3d108ea003ed7b0f4cb8508a01de49" prot="private" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>m_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a3d031ec1a39acf241d12d1a3c136f18b" prot="private" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>m_output</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a5d76cca9aa292251444b5f0b8581f51a" prot="private" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>m_polarity</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a82f5f0e47366c42781d4879fcbc178b8" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a4cf5352e96bd1067593ec7ecb049f81c" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a4664048bca83f61f7e16c83f2d9b08d7" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a9ec854c41c2c5e5a485639561905d1c8" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a0109c18b6ffbb86ab9a10e6e396303b9" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1ab618c85a2222bfa5263d39ce8d45f202" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a502ab51b1dc1cb0a8cc06291c6f86402" prot="private" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aee43ecd019125550de4f520f1b82cc63" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>set_channel_mode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a715fb7ad6a51627a6d2d2b03a19f09cb" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>set_channel_output</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1aa7a767f1e399896441403e0fe593d4be" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>set_channel_polarity</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a139a2c5f7eaed221ec7f46d467ba1d44" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>TCA9554Config</name></member>
+      <member refid="classhaldls_1_1vx_1_1_t_c_a9554_config_1a3a5701c5e43b77207f631587da6e1f2c" prot="public" virt="non-virtual"><scope>haldls::vx::TCA9554Config</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1gen__is__read__and__writeable__lookup__table" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::gen_is_read_and_writeable_lookup_table</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename TL</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+<para>Generate lookup table from backend to readable and writable property. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h" line="15" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h" bodystart="15" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

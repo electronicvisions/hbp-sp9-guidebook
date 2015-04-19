@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_utilization" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseDriverConfig::Utilization</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Utilization, uint_fast8_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="synapse__driver_8h" local="no">synapse_driver.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_utilization_1ab964efaacc825cb978fbef306e50ebe8" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SynapseDriverConfig::Utilization::Utilization</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Utilization</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="82" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="82" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::SynapseDriverConfig::Utilization</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_utilization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Utilization, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::SynapseDriverConfig::Utilization</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_utilization"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; Utilization, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="79" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="81" bodyend="85"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_utilization_1ab964efaacc825cb978fbef306e50ebe8" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverConfig::Utilization</scope><name>Utilization</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

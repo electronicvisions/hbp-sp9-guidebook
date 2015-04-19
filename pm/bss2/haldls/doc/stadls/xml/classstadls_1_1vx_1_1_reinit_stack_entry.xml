@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classstadls_1_1vx_1_1_reinit_stack_entry" kind="class" language="C++" prot="public">
+    <compoundname>stadls::vx::ReinitStackEntry</compoundname>
+    <includes refid="reinit__stack__entry_8h" local="no">reinit_stack_entry.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1_reinit_stack_entry_1ad19f0ce6b01682ff696e164a47cd661f" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Impl &gt;</type>
+        <definition>std::unique_ptr&lt;Impl&gt; stadls::vx::ReinitStackEntry::m_impl</definition>
+        <argsstring></argsstring>
+        <name>m_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="45" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1a55b89fd9707e675868e69d80ca7b9120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::ReinitStackEntry::ReinitStackEntry</definition>
+        <argsstring>()=delete</argsstring>
+        <name>ReinitStackEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1a73435015a36c4c6768b0bf9e5a10826f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Connection</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>stadls::vx::ReinitStackEntry::ReinitStackEntry</definition>
+        <argsstring>(Connection &amp;connection)</argsstring>
+        <name>ReinitStackEntry</name>
+        <param>
+          <type>Connection &amp;</type>
+          <declname>connection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1a77e536e7d70dc04a6f4ca871a889644e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::ReinitStackEntry::ReinitStackEntry</definition>
+        <argsstring>(ReinitStackEntry &amp;&amp;)=default</argsstring>
+        <name>ReinitStackEntry</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1_reinit_stack_entry" kindref="compound">ReinitStackEntry</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1a965eb05bed6415c2dc299a3eb5324c1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::ReinitStackEntry::ReinitStackEntry</definition>
+        <argsstring>(ReinitStackEntry const &amp;)=delete</argsstring>
+        <name>ReinitStackEntry</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1_reinit_stack_entry" kindref="compound">ReinitStackEntry</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1a90e42e3e5e8c8cc1a4250e9007c862ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::ReinitStackEntry::~ReinitStackEntry</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>~ReinitStackEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1af9592b524fde6775441e427adb74725d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::ReinitStackEntry::enforce</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>enforce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="39" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1a1c1f0e37fbf7e947eeef05985519367a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1vx_1_1_reinit_stack_entry" kindref="compound">ReinitStackEntry</ref> &amp;</type>
+        <definition>ReinitStackEntry&amp; stadls::vx::ReinitStackEntry::operator=</definition>
+        <argsstring>(ReinitStackEntry &amp;&amp;)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1_reinit_stack_entry" kindref="compound">ReinitStackEntry</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="18" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1a16f3c1a40385a7eb809348f390ac0e13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::ReinitStackEntry::pop</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>pop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="41" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1_reinit_stack_entry_1a439e2f1ee8477bb5d59c768dcdc3fb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::vx::ReinitStackEntry::set</definition>
+        <argsstring>(PlaybackProgram const &amp;pbmem_request, std::optional&lt; PlaybackProgram &gt; const &amp;pbmem_snapshot=std::nullopt, bool enforce=true) SYMBOL_VISIBLE</argsstring>
+        <name>set</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> const &amp;</type>
+          <declname>pbmem_request</declname>
+        </param>
+        <param>
+          <type>std::optional&lt; <ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> &gt; const &amp;</type>
+          <declname>pbmem_snapshot</declname>
+          <defval>std::nullopt</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enforce</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Set and maybe enforce reinit stack entry value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pbmem_request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Playback program to be executed once a reinit is required. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pbmem_snapshot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Playback program to be executed once the exclusive access to the hardware is relinquished. All read commands within this program are translated to writes and replace the pbmem_request for future reinit operations. This is to be used to snapshot (parts of) the current state of the hardware prior to releasing the exclusive access to other users and be able to reapply this state at the next reinit operation without need for client-side synchronisation and transform of the read-out data. Currently only Omnibus read -&gt; write operations are supported. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>enforce</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to directly apply the pbmem_request or only apply it during the next reinit. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="34" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/reinit_stack_entry.h" bodystart="11" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1af9592b524fde6775441e427adb74725d" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>enforce</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1ad19f0ce6b01682ff696e164a47cd661f" prot="private" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>m_impl</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a1c1f0e37fbf7e947eeef05985519367a" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a16f3c1a40385a7eb809348f390ac0e13" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>pop</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a55b89fd9707e675868e69d80ca7b9120" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>ReinitStackEntry</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a73435015a36c4c6768b0bf9e5a10826f" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>ReinitStackEntry</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a965eb05bed6415c2dc299a3eb5324c1c" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>ReinitStackEntry</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a77e536e7d70dc04a6f4ca871a889644e" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>ReinitStackEntry</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a439e2f1ee8477bb5d59c768dcdc3fb02" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>set</name></member>
+      <member refid="classstadls_1_1vx_1_1_reinit_stack_entry_1a90e42e3e5e8c8cc1a4250e9007c862ee" prot="public" virt="non-virtual"><scope>stadls::vx::ReinitStackEntry</scope><name>~ReinitStackEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

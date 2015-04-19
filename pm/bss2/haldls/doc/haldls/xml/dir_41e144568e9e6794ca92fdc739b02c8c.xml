@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_41e144568e9e6794ca92fdc739b02c8c" kind="dir">
+    <compoundname>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx</compoundname>
+    <innerdir refid="dir_8a86b85f940dc143cb9e730eba14749c">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2</innerdir>
+    <innerdir refid="dir_b9b13169233981d6fd99653e7c625a30">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3</innerdir>
+    <innerfile refid="arq_8h">arq.h</innerfile>
+    <innerfile refid="background_8h">background.h</innerfile>
+    <innerfile refid="barrier_8h">barrier.h</innerfile>
+    <innerfile refid="block_8h">block.h</innerfile>
+    <innerfile refid="cadc_8h">cadc.h</innerfile>
+    <innerfile refid="capmem_8h">capmem.h</innerfile>
+    <innerfile refid="common_8h">common.h</innerfile>
+    <innerfile refid="constants_8h">constants.h</innerfile>
+    <innerfile refid="coordinate__to__container_8h">coordinate_to_container.h</innerfile>
+    <innerfile refid="correlation_8h">correlation.h</innerfile>
+    <innerfile refid="current__dac_8h">current_dac.h</innerfile>
+    <innerfile refid="event_8h">event.h</innerfile>
+    <innerfile refid="fpga_8h">fpga.h</innerfile>
+    <innerfile refid="genpybind_8h">genpybind.h</innerfile>
+    <innerfile refid="i2c_8h">i2c.h</innerfile>
+    <innerfile refid="is__read__and__writable_8h">is_read_and_writable.h</innerfile>
+    <innerfile refid="is__readable_8h">is_readable.h</innerfile>
+    <innerfile refid="is__writeable_8h">is_writeable.h</innerfile>
+    <innerfile refid="is__writereadable_8h">is_writereadable.h</innerfile>
+    <innerfile refid="jtag_8h">jtag.h</innerfile>
+    <innerfile refid="madc_8h">madc.h</innerfile>
+    <innerfile refid="neuron_8h">neuron.h</innerfile>
+    <innerfile refid="null__payload__readable_8h">null_payload_readable.h</innerfile>
+    <innerfile refid="omnibus__constants_8h">omnibus_constants.h</innerfile>
+    <innerfile refid="padi_8h">padi.h</innerfile>
+    <innerfile refid="perftest_8h">perftest.h</innerfile>
+    <innerfile refid="phy_8h">phy.h</innerfile>
+    <innerfile refid="pickle_8h">pickle.h</innerfile>
+    <innerfile refid="pll_8h">pll.h</innerfile>
+    <innerfile refid="ppu_8h">ppu.h</innerfile>
+    <innerfile refid="readout_8h">readout.h</innerfile>
+    <innerfile refid="reset_8h">reset.h</innerfile>
+    <innerfile refid="routing__crossbar_8h">routing_crossbar.h</innerfile>
+    <innerfile refid="spi_8h">spi.h</innerfile>
+    <innerfile refid="sram__controller_8h">sram_controller.h</innerfile>
+    <innerfile refid="synapse_8h">synapse.h</innerfile>
+    <innerfile refid="synapse__driver_8h">synapse_driver.h</innerfile>
+    <innerfile refid="systime_8h">systime.h</innerfile>
+    <innerfile refid="timer_8h">timer.h</innerfile>
+    <innerfile refid="traits_8h">traits.h</innerfile>
+    <innerfile refid="vector__generator_8h">vector_generator.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_fall_time" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonCorrelationConfig::ResetFallTime</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; ResetFallTime, uint_fast16_t, hate::math::pow(2, 12) - 1, 0 &gt;</basecompoundref>
+    <includes refid="correlation_8h" local="no">correlation.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_fall_time_1a356c4e27a614654a6368040fbbfc7ebf" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CommonCorrelationConfig::ResetFallTime::ResetFallTime</definition>
+        <argsstring>(uintmax_t const val=5)</argsstring>
+        <name>ResetFallTime</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/correlation.h" line="65" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/correlation.h" bodystart="65" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Wait time in PPU clock cycles after disabling the correlation column reset enable. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CommonCorrelationConfig::ResetFallTime</label>
+        <link refid="structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_fall_time"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; ResetFallTime, uint_fast16_t, hate::math::pow(2, 12) - 1, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CommonCorrelationConfig::ResetFallTime</label>
+        <link refid="structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_fall_time"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail:: RantWrapper&lt; ResetFallTime, uint_fast16_t, hate::math::pow(2, 12) - 1, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/correlation.h" line="61" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/correlation.h" bodystart="64" bodyend="68"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_fall_time_1a356c4e27a614654a6368040fbbfc7ebf" prot="public" virt="non-virtual"><scope>haldls::vx::CommonCorrelationConfig::ResetFallTime</scope><name>ResetFallTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

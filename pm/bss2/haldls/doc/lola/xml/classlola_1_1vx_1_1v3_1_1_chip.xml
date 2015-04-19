@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classlola_1_1vx_1_1v3_1_1_chip" kind="class" language="C++" prot="public">
+    <compoundname>lola::vx::v3::Chip</compoundname>
+    <includes refid="v3_2chip_8h" local="no">chip.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v3_1_1_chip_1acdbeff51327b0a0940a44d45ba280ffc" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v3::BackgroundSpikeSource, halco::hicann_dls::vx::v3::BackgroundSpikeSourceOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; haldls::vx::v3::BackgroundSpikeSource, halco::hicann_dls::vx::v3::BackgroundSpikeSourceOnDLS&gt; lola::vx::v3::Chip::BackgroundSpikeSources</definition>
+        <argsstring></argsstring>
+        <name>BackgroundSpikeSources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="47" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v3_1_1_chip_1af93a26758a45e4e8558664162f27011c" prot="public" static="no">
+        <type>halco::common::typed_array&lt; CADCReadoutChain, halco::hicann_dls::vx::v3::CADCOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;CADCReadoutChain, halco::hicann_dls::vx::v3::CADCOnDLS&gt; lola::vx::v3::Chip::CADCReadoutChains</definition>
+        <argsstring></argsstring>
+        <name>CADCReadoutChains</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="83" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v3_1_1_chip_1a36a27f811f8c756ac8be158c2ecdbfb8" prot="public" static="no">
+        <type>halco::hicann_dls::vx::ChipOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::ChipOnDLS lola::vx::v3::Chip::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="28" column="42" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v3_1_1_chip_1a2f86ee9bd60ff138b0ead7291e049df6" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type lola::vx::v3::Chip::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="29" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v3_1_1_chip_1abe11f767cef3f69c51710a9a90737da5" prot="public" static="no">
+        <type>halco::common::typed_array&lt; haldls::vx::v3::PPUMemory, halco::hicann_dls::vx::v3::PPUMemoryOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;haldls::vx::v3::PPUMemory, halco::hicann_dls::vx::v3::PPUMemoryOnDLS&gt; lola::vx::v3::Chip::PPUMemory</definition>
+        <argsstring></argsstring>
+        <name>PPUMemory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="97" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v3_1_1_chip_1af910da1253843e54d3d366ab089451fc" prot="public" static="no">
+        <type>halco::common::typed_array&lt; SynapseBlock, halco::hicann_dls::vx::v3::SynapseBlockOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt;SynapseBlock, halco::hicann_dls::vx::v3::SynapseBlockOnDLS&gt; lola::vx::v3::Chip::SynapseBlocks</definition>
+        <argsstring></argsstring>
+        <name>SynapseBlocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="69" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classlola_1_1vx_1_1v3_1_1_chip_1a4818aa901a95b7db090ab2627baa749e" prot="public" static="no">
+        <type>halco::common::typed_array&lt; SynapseDriverBlock, halco::hicann_dls::vx::v3::SynapseDriverBlockOnDLS &gt;</type>
+        <definition>typedef halco::common:: typed_array&lt;SynapseDriverBlock, halco::hicann_dls::vx::v3::SynapseDriverBlockOnDLS&gt; lola::vx::v3::Chip::SynapseDriverBlocks</definition>
+        <argsstring></argsstring>
+        <name>SynapseDriverBlocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="61" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1a3897af5cfffd5814b59847328416b04b" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v3_1_1_chip_1acdbeff51327b0a0940a44d45ba280ffc" kindref="member">BackgroundSpikeSources</ref></type>
+        <definition>BackgroundSpikeSources lola::vx::v3::Chip::background_spike_sources</definition>
+        <argsstring></argsstring>
+        <name>background_spike_sources</name>
+        <briefdescription>
+<para>Background spike sources. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="51" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1afe7ece7cda1d9c2d6bfa4f71cb1f7895" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v3_1_1_chip_1af93a26758a45e4e8558664162f27011c" kindref="member">CADCReadoutChains</ref></type>
+        <definition>CADCReadoutChains lola::vx::v3::Chip::cadc_readout_chains</definition>
+        <argsstring></argsstring>
+        <name>cadc_readout_chains</name>
+        <briefdescription>
+<para>CADC readout chains, one per hemisphere containing CADC and correlation sensor configuration as well as the switches to the synapses or neurons. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="88" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1a3d55bd256cd5b0b9d26c4a17de344d26" prot="public" static="no" mutable="no">
+        <type>CapMem</type>
+        <definition>CapMem lola::vx::v3::Chip::capmem</definition>
+        <argsstring></argsstring>
+        <name>capmem</name>
+        <briefdescription>
+<para>CapMem configuration and unused cells, all cells associated with other entities, e.g. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>neurons are placed at their respective containers. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="57" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1a09f7d1467769c1231d635373bac86e79" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacelola_1_1vx_1_1v3_1aac03af02baea4a8cfcd309d0fc6e5511" kindref="member">Crossbar</ref></type>
+        <definition>Crossbar lola::vx::v3::Chip::crossbar</definition>
+        <argsstring></argsstring>
+        <name>crossbar</name>
+        <briefdescription>
+<para>Event routing crossbar configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="42" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1a3897de578120d42a249752e8c5e4f8e2" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacelola_1_1vx_1_1v3_1a70f629abcd1b11da5fdae41f198c5702" kindref="member">ExternalPPUMemory</ref></type>
+        <definition>ExternalPPUMemory lola::vx::v3::Chip::external_ppu_memory</definition>
+        <argsstring></argsstring>
+        <name>external_ppu_memory</name>
+        <briefdescription>
+<para>Chip-external global PPU memory. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="106" column="19" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1a37a550cb8c2d5b998a9a1b7db5c4558e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacelola_1_1vx_1_1v3_1aa9427ebd8b06d57ce719c22d6f4b9b41" kindref="member">MemoryTiming</ref></type>
+        <definition>MemoryTiming lola::vx::v3::Chip::memory_timing</definition>
+        <argsstring></argsstring>
+        <name>memory_timing</name>
+        <briefdescription>
+<para>Timing of memory cells, SynRAM, CADC offsets, analog and digital neuron and synapse driver configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="37" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1acaabc9a595a6f073d877956d244228cf" prot="public" static="no" mutable="no">
+        <type>NeuronBlock</type>
+        <definition>NeuronBlock lola::vx::v3::Chip::neuron_block</definition>
+        <argsstring></argsstring>
+        <name>neuron_block</name>
+        <briefdescription>
+<para>Block on neurons containing all atomic neuron circuit configurations, chip-global neuron backend parameters and synaptic input switches to the synapse blocks. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="80" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1abdb3596bfb080709497b33dea048c7cd" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v3_1_1_chip_1abe11f767cef3f69c51710a9a90737da5" kindref="member">PPUMemory</ref></type>
+        <definition>PPUMemory lola::vx::v3::Chip::ppu_memory</definition>
+        <argsstring></argsstring>
+        <name>ppu_memory</name>
+        <briefdescription>
+<para>PPU SRAM memory, one per PPU. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="101" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1ae3a6cd639d622f1cee9a0a74c81859b2" prot="public" static="no" mutable="no">
+        <type>ReadoutChain</type>
+        <definition>ReadoutChain lola::vx::v3::Chip::readout_chain</definition>
+        <argsstring></argsstring>
+        <name>readout_chain</name>
+        <briefdescription>
+<para><ref refid="struct_readout" kindref="compound">Readout</ref> chain containing MADC configuration and analog signal routing. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="93" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1a4dae6cd46351f9699c6498e368f2fe2b" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v3_1_1_chip_1af910da1253843e54d3d366ab089451fc" kindref="member">SynapseBlocks</ref></type>
+        <definition>SynapseBlocks lola::vx::v3::Chip::synapse_blocks</definition>
+        <argsstring></argsstring>
+        <name>synapse_blocks</name>
+        <briefdescription>
+<para>Blocks of synapses, one per hemisphere containing hemisphere-global configuration and all individual synapse parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="74" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1ab04f3c903123c3987de7a9b2fd55f6af" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v3_1_1_chip_1a4818aa901a95b7db090ab2627baa749e" kindref="member">SynapseDriverBlocks</ref></type>
+        <definition>SynapseDriverBlocks lola::vx::v3::Chip::synapse_driver_blocks</definition>
+        <argsstring></argsstring>
+        <name>synapse_driver_blocks</name>
+        <briefdescription>
+<para>Blocks of synapse drivers, one per hemisphere containing hemisphere-global configuration and all individual synapse driver configurations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="66" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classlola_1_1vx_1_1v3_1_1_chip_1a384dd6c9307145e870270ee1c228df24" prot="public" static="yes" mutable="no">
+        <type>const SYMBOL_VISIBLE <ref refid="classlola_1_1vx_1_1v3_1_1_chip" kindref="compound">Chip</ref></type>
+        <definition>const SYMBOL_VISIBLE Chip lola::vx::v3::Chip::default_neuron_bypass</definition>
+        <argsstring></argsstring>
+        <name>default_neuron_bypass</name>
+        <briefdescription>
+<para>Default instance for neuron bypass. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="117" column="34" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1vx_1_1v3_1_1_chip_1a4543922b6b43e1ff43e5a906e29df348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v3::Chip::Chip</definition>
+        <argsstring>()=default</argsstring>
+        <name>Chip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1v3_1_1_chip_1a1264d95c0ada18dc0a783f580f55f663" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::Chip::operator!=</definition>
+        <argsstring>(Chip const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1v3_1_1_chip" kindref="compound">Chip</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="109" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1vx_1_1v3_1_1_chip_1a5fa3e8159412aa953e537c2201f1aef0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v3::Chip::operator==</definition>
+        <argsstring>(Chip const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1v3_1_1_chip" kindref="compound">Chip</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="108" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1vx_1_1v3_1_1_chip_1a630b89b981bbce721cb894a5667ac126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Chip const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1v3_1_1_chip" kindref="compound">Chip</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="112" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Complete static configuration of one chip. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>lola::vx::Crossbar</label>
+        <link refid="classlola_1_1vx_1_1_crossbar"/>
+      </node>
+      <node id="4">
+        <label>lola::vx::ExternalPPUMemory</label>
+        <link refid="classlola_1_1vx_1_1_external_p_p_u_memory"/>
+      </node>
+      <node id="1">
+        <label>lola::vx::v3::Chip</label>
+        <link refid="classlola_1_1vx_1_1v3_1_1_chip"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>neuron_block</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>crossbar</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>default_neuron_bypass</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>external_ppu_memory</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>memory_timing</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>lola::vx::MemoryTiming</label>
+        <link refid="classlola_1_1vx_1_1_memory_timing"/>
+      </node>
+      <node id="2">
+        <label>NeuronBlock</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" line="25" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h" bodystart="26" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a3897af5cfffd5814b59847328416b04b" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>background_spike_sources</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1acdbeff51327b0a0940a44d45ba280ffc" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>BackgroundSpikeSources</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1afe7ece7cda1d9c2d6bfa4f71cb1f7895" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>cadc_readout_chains</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1af93a26758a45e4e8558664162f27011c" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>CADCReadoutChains</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a3d55bd256cd5b0b9d26c4a17de344d26" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>capmem</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a4543922b6b43e1ff43e5a906e29df348" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>Chip</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a36a27f811f8c756ac8be158c2ecdbfb8" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>coordinate_type</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a09f7d1467769c1231d635373bac86e79" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>crossbar</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a384dd6c9307145e870270ee1c228df24" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>default_neuron_bypass</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a3897de578120d42a249752e8c5e4f8e2" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>external_ppu_memory</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a2f86ee9bd60ff138b0ead7291e049df6" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>has_local_data</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a37a550cb8c2d5b998a9a1b7db5c4558e" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>memory_timing</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1acaabc9a595a6f073d877956d244228cf" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>neuron_block</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a1264d95c0ada18dc0a783f580f55f663" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a630b89b981bbce721cb894a5667ac126" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a5fa3e8159412aa953e537c2201f1aef0" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>operator==</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1abdb3596bfb080709497b33dea048c7cd" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>ppu_memory</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1abe11f767cef3f69c51710a9a90737da5" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>PPUMemory</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1ae3a6cd639d622f1cee9a0a74c81859b2" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>readout_chain</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a4dae6cd46351f9699c6498e368f2fe2b" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>synapse_blocks</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1ab04f3c903123c3987de7a9b2fd55f6af" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>synapse_driver_blocks</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1af910da1253843e54d3d366ab089451fc" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>SynapseBlocks</name></member>
+      <member refid="classlola_1_1vx_1_1v3_1_1_chip_1a4818aa901a95b7db090ab2627baa749e" prot="public" virt="non-virtual"><scope>lola::vx::v3::Chip</scope><name>SynapseDriverBlocks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

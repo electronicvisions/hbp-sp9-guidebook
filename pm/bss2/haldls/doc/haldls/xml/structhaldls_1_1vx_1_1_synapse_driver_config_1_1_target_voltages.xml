@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_target_voltages" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseDriverConfig::TargetVoltages</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; TargetVoltages, uint_fast8_t, 1, 0 &gt;</basecompoundref>
+    <includes refid="synapse__driver_8h" local="no">synapse_driver.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_target_voltages_1ad9b4e66e8c71025fe5fa38f1cdfdc21d" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SynapseDriverConfig::TargetVoltages::TargetVoltages</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>TargetVoltages</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="114" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="114" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; TargetVoltages, uint_fast8_t, 1, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SynapseDriverConfig::TargetVoltages</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_target_voltages"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; TargetVoltages, uint_fast8_t, 1, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::SynapseDriverConfig::TargetVoltages</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_target_voltages"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" line="111" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/synapse_driver.h" bodystart="113" bodyend="117"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_synapse_driver_config_1_1_target_voltages_1ad9b4e66e8c71025fe5fa38f1cdfdc21d" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseDriverConfig::TargetVoltages</scope><name>TargetVoltages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

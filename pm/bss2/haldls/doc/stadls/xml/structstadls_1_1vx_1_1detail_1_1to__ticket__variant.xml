@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structstadls_1_1vx_1_1detail_1_1to__ticket__variant" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::vx::detail::to_ticket_variant</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename BackendContainerTypeList</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>stadls::vx::detail::to_ticket_variant&lt; BackendContainerTypeList &gt;</label>
+        <link refid="structstadls_1_1vx_1_1detail_1_1to__ticket__variant"/>
+      </node>
+      <node id="2">
+        <label>stadls::vx::detail::to_ticket_variant&lt; typename haldls::vx::detail::BackendContainerTrait&lt; T &gt;::container_list &gt;</label>
+        <link refid="structstadls_1_1vx_1_1detail_1_1to__ticket__variant"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; typename haldls::vx::detail::BackendContainerTrait&lt; T &gt;::container_list &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" line="37" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/playback_program.h" bodystart="37" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

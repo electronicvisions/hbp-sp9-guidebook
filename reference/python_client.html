@@ -1,0 +1,322 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Python client reference &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/hbpdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/extra.js"></script>
+    <script src="../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/python_client.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    
+                </aside>
+
+                <section id="python-client-reference">
+<h1>Python client reference<a class="headerlink" href="#python-client-reference" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="nmpi.Client">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">nmpi.</span></span><span class="sig-name descname"><span class="pre">Client</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">username</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">job_service</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://nmpi.hbpneuromorphic.eu/api/v2/'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quotas_service</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://quotas.hbpneuromorphic.eu'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">authorization_endpoint</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://validation-v2.brainsimulation.eu'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">user_info_endpoint</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://iam.ebrains.eu/auth/realms/hbp/protocol/openid-connect/userinfo'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">token</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verify</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client" title="Permalink to this definition">¶</a></dt>
+<dd><p>Client for interacting with the EBRAINS Neuromorphic Computing Platform,
+developed by the Human Brain Project.</p>
+<p>This includes submitting jobs, tracking job status and retrieving the
+results of completed jobs.</p>
+<dl class="simple">
+<dt><em>Arguments</em>:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">username, password</dt>
+<dd class="field-odd"><p>credentials for accessing the platform.
+Not needed in Jupyter notebooks within the EBRAINS Collaboratory.</p>
+</dd>
+<dt class="field-even">job_service</dt>
+<dd class="field-even"><p>the base URL of the platform Job Service.
+Generally the default value should be used.</p>
+</dd>
+<dt class="field-odd">quotas_service</dt>
+<dd class="field-odd"><p>the base URL of the platform Quotas Service.
+Generally the default value should be used.</p>
+</dd>
+<dt class="field-even">token</dt>
+<dd class="field-even"><p>when you authenticate with username and password, you will receive
+a token which can be used in place of the password until it expires.</p>
+</dd>
+<dt class="field-odd">verify</dt>
+<dd class="field-odd"><p>in case of problems with SSL certificate verification, you can
+set this to False, but this is not recommended.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="nmpi.Client.user_info">
+<span class="sig-name descname"><span class="pre">user_info</span></span><a class="headerlink" href="#nmpi.Client.user_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Information about the current user, as retrieved from the Collaboratory</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.submit_job">
+<span class="sig-name descname"><span class="pre">submit_job</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">platform</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collab_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">inputs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">command</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'run.py</span> <span class="pre">{system}'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tags</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.submit_job" title="Permalink to this definition">¶</a></dt>
+<dd><p>Submit a job to the platform.</p>
+<dl class="simple">
+<dt><em>Arguments</em>:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p>the Python script to be run, the URL of a public version
+control repository containing Python code, a zip file
+containing Python code, or a local directory containing
+Python code.</p>
+</dd>
+<dt class="field-even">platform</dt>
+<dd class="field-even"><p>the neuromorphic hardware system to be used.
+One of: “BrainScaleS”, “BrainScaleS-2”, “SpiNNaker”, “Spikey”.</p>
+</dd>
+<dt class="field-odd">collab_id</dt>
+<dd class="field-odd"><p>the ID of the collab to which the job belongs</p>
+</dd>
+<dt class="field-even">config</dt>
+<dd class="field-even"><p>(optional) a dictionary containing configuration information
+for the hardware platform. See the Platform Guidebook for
+more details.</p>
+</dd>
+<dt class="field-odd">inputs</dt>
+<dd class="field-odd"><p>a list of URLs for datafiles needed as inputs to the
+simulation.</p>
+</dd>
+<dt class="field-even">command</dt>
+<dd class="field-even"><p>(optional) the path to the main Python script relative to
+the root of the repository or zip file. Defaults to “run.py {system}”.</p>
+</dd>
+<dt class="field-odd">tags</dt>
+<dd class="field-odd"><p>(optional) a list of tags (strings) describing the job.</p>
+</dd>
+<dt class="field-even">wait</dt>
+<dd class="field-even"><p>(default False) if True, do not return until the job has completed,
+if False, return immediately with the job id.</p>
+</dd>
+</dl>
+</dd>
+<dt><em>Returns</em>:</dt><dd><p>The job id as a relative URI
+unless <cite>wait=True</cite>, in which case returns the job as a dictionary.</p>
+</dd>
+<dt><em>Notes</em>:</dt><dd><p>If the <cite>source</cite> argument is a directory containing Python code, the
+directory contents will be uploaded to Collab storage into a folder
+named according to the property <cite>client.collab_source_folder</cite>
+(default: “source_code”)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.job_status">
+<span class="sig-name descname"><span class="pre">job_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.job_status" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the current status of the job with ID <cite>job_id</cite> (integer or URI).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.get_job">
+<span class="sig-name descname"><span class="pre">get_job</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">with_log</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.get_job" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return full details of the job with ID <cite>job_id</cite> (integer or URI).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.remove_completed_job">
+<span class="sig-name descname"><span class="pre">remove_completed_job</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.remove_completed_job" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove a job from the interface.</p>
+<p>The job is hidden rather than being permanently deleted.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.remove_queued_job">
+<span class="sig-name descname"><span class="pre">remove_queued_job</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.remove_queued_job" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove a job from the interface.</p>
+<p>The job is hidden rather than being permanently deleted.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.queued_jobs">
+<span class="sig-name descname"><span class="pre">queued_jobs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.queued_jobs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the list of jobs belonging to the current user in the queue.</p>
+<dl class="simple">
+<dt><em>Arguments</em>:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">verbose</dt>
+<dd class="field-odd"><p>if False, return just the job URIs,
+if True, return full details.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.completed_jobs">
+<span class="sig-name descname"><span class="pre">completed_jobs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">collab_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.completed_jobs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the list of completed jobs in the given collab.</p>
+<dl class="simple">
+<dt><em>Arguments</em>:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">verbose</dt>
+<dd class="field-odd"><p>if False, return just the job URIs,
+if True, return full details.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.download_data">
+<span class="sig-name descname"><span class="pre">download_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">local_dir</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'.'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">include_input_data</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.download_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Download output data files produced by a given job to a local directory.</p>
+<dl class="simple">
+<dt><em>Arguments</em>:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">job</dt>
+<dd class="field-odd"><p>a full job description (dict), as returned by <cite>get_job()</cite>.</p>
+</dd>
+<dt class="field-even">local_dir</dt>
+<dd class="field-even"><p>path to a directory into which files shall be saved.</p>
+</dd>
+<dt class="field-odd">include_input_data</dt>
+<dd class="field-odd"><p>also download input data files.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.copy_data_to_storage">
+<span class="sig-name descname"><span class="pre">copy_data_to_storage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">job_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">destination</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'drive'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.copy_data_to_storage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Copy the data produced by the job with id <cite>job_id</cite> to the EBRAINS 
+Drive or to the HPAC Platform. Note that copying data to an HPAC
+site requires that you have an account for that site.</p>
+<p><em>Example</em>:</p>
+<p>To copy data to the JURECA machine:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">client</span><span class="o">.</span><span class="n">copy_data_to_storage</span><span class="p">(</span><span class="mi">90712</span><span class="p">,</span> <span class="s2">&quot;JURECA&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>To copy data to the EBRAINS Drive:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">client</span><span class="o">.</span><span class="n">copy_data_to_storage</span><span class="p">(</span><span class="mi">90712</span><span class="p">,</span> <span class="s2">&quot;drive&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.create_data_item">
+<span class="sig-name descname"><span class="pre">create_data_item</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.create_data_item" title="Permalink to this definition">¶</a></dt>
+<dd><p>Register a data item with the platform.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.create_resource_request">
+<span class="sig-name descname"><span class="pre">create_resource_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">collab_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">abstract</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">description</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">submit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.create_resource_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a new resource request. By default, it will not be submitted.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.edit_resource_request">
+<span class="sig-name descname"><span class="pre">edit_resource_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">abstract</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">description</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">submit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.edit_resource_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edit and/or submit an unsubmitted resource request</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.list_resource_requests">
+<span class="sig-name descname"><span class="pre">list_resource_requests</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">collab_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.list_resource_requests" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of resource requests for the Neuromorphic Platform</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.list_quotas">
+<span class="sig-name descname"><span class="pre">list_quotas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">collab_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.list_quotas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of quotas for running jobs on the Neuromorphic Platform</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="nmpi.Client.my_collabs">
+<span class="sig-name descname"><span class="pre">my_collabs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#nmpi.Client.my_collabs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of collabs of which the user is a member.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

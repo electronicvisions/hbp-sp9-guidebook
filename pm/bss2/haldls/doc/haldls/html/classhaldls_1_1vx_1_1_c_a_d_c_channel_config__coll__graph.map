@@ -1,0 +1,5 @@
+<map id="haldls::vx::CADCChannelConfig" name="haldls::vx::CADCChannelConfig">
+<area shape="rect" id="node1" title="CADC container with channel&#45;local digital offset config." alt="" coords="5,223,216,251"/>
+<area shape="rect" id="node2" href="$structhaldls_1_1vx_1_1_c_a_d_c_channel_config_1_1_offset.html" title="Offset value to add to measurement." alt="" coords="5,115,216,159"/>
+<area shape="rect" id="node3" title=" " alt="" coords="26,5,195,65"/>
+</map>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CapMemBlockConfig::PrescalePause</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PrescalePause, uint_fast16_t, 6, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause_1a3144f6fa956456375723ca20b73c1e64" prot="public" static="no">
+        <type>halco::common::detail::RantWrapper&lt; <ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause" kindref="compound">PrescalePause</ref>, uint_fast16_t, 6, 0 &gt;::<ref refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause_1a3144f6fa956456375723ca20b73c1e64" kindref="member">rant_t</ref></type>
+        <definition>typedef halco::common::detail::RantWrapper&lt;PrescalePause, uint_fast16_t, 6, 0&gt;::rant_t haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescalePause::rant_t</definition>
+        <argsstring></argsstring>
+        <name>rant_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="252" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause_1ab9ff53dfdc9922101e90a25327ec2d0e" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescalePause::PrescalePause</definition>
+        <argsstring>()</argsstring>
+        <name>PrescalePause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="253" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="253" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause_1ad641276a8f240352594e3f089302eb52" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescalePause::PrescalePause</definition>
+        <argsstring>(uintmax_t const val)</argsstring>
+        <name>PrescalePause</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="254" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="254" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescalePause</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PrescalePause, uint_fast16_t, 6, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>haldls::vx::CapMemBlockConfig&lt; Coordinates &gt;::PrescalePause</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; PrescalePause, uint_fast16_t, 6, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" line="247" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/capmem.h" bodystart="249" bodyend="257"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause_1ab9ff53dfdc9922101e90a25327ec2d0e" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PrescalePause</scope><name>PrescalePause</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause_1ad641276a8f240352594e3f089302eb52" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PrescalePause</scope><name>PrescalePause</name></member>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_block_config_1_1_prescale_pause_1a3144f6fa956456375723ca20b73c1e64" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemBlockConfig::PrescalePause</scope><name>rant_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

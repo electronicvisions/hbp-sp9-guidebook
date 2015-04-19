@@ -1,0 +1,546 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="v3_2neuron_8h" kind="file" language="C++">
+    <compoundname>neuron.h</compoundname>
+    <includes local="yes">haldls/vx/v3/capmem.h</includes>
+    <includes local="yes">haldls/vx/v3/neuron.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes refid="v3_2synapse_8h" local="yes">lola/vx/v3/synapse.h</includes>
+    <includes local="yes">lola/vx/v3/neuron.tcc</includes>
+    <includedby refid="v3_2chip_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</includedby>
+    <includedby refid="v3_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h</label>
+        <link refid="v3_2neuron_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>haldls/vx/synapse.h</label>
+      </node>
+      <node id="2">
+        <label>haldls/vx/v3/capmem.h</label>
+      </node>
+      <node id="8">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="3">
+        <label>haldls/vx/v3/neuron.h</label>
+      </node>
+      <node id="12">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="17">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="6">
+        <label>lola/vx/v3/synapse.h</label>
+        <link refid="v3_2synapse_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>lola/vx/v3/neuron.tcc</label>
+      </node>
+      <node id="9">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="18">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="4">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="14">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="15">
+        <label>lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>lola/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="5">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+      <node id="11">
+        <label>haldls/cerealization.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h</label>
+        <link refid="v3_2pylola_8h"/>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h</label>
+        <link refid="v3_2neuron_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</label>
+        <link refid="v3_2chip_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/lola.h</label>
+        <link refid="v3_2lola_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_adaptation" prot="public">lola::vx::v3::AtomicNeuron::Adaptation</innerclass>
+    <innerclass refid="struct_adaptation" prot="public">Adaptation</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1v3_1_1_atomic_neuron" prot="public">lola::vx::v3::AtomicNeuron</innerclass>
+    <innerclass refid="struct_bayesian" prot="public">Bayesian</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_bayesian" prot="public">lola::vx::v3::AtomicNeuron::Bayesian</innerclass>
+    <innerclass refid="struct_constant_current" prot="public">ConstantCurrent</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_constant_current" prot="public">lola::vx::v3::AtomicNeuron::ConstantCurrent</innerclass>
+    <innerclass refid="struct_event_routing" prot="public">EventRouting</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_event_routing" prot="public">lola::vx::v3::AtomicNeuron::EventRouting</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_exponential" prot="public">lola::vx::v3::AtomicNeuron::Exponential</innerclass>
+    <innerclass refid="struct_exponential" prot="public">Exponential</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_leak" prot="public">lola::vx::v3::AtomicNeuron::Leak</innerclass>
+    <innerclass refid="struct_leak" prot="public">Leak</innerclass>
+    <innerclass refid="struct_membrane_capacitance" prot="public">MembraneCapacitance</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_membrane_capacitance" prot="public">lola::vx::v3::AtomicNeuron::MembraneCapacitance</innerclass>
+    <innerclass refid="struct_multicompartment" prot="public">Multicompartment</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_multicompartment" prot="public">lola::vx::v3::AtomicNeuron::Multicompartment</innerclass>
+    <innerclass refid="class_neuron_block" prot="private">NeuronBlock</innerclass>
+    <innerclass refid="struct_readout" prot="public">Readout</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_readout" prot="public">lola::vx::v3::AtomicNeuron::Readout</innerclass>
+    <innerclass refid="struct_refractory_period" prot="public">RefractoryPeriod</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_refractory_period" prot="public">lola::vx::v3::AtomicNeuron::RefractoryPeriod</innerclass>
+    <innerclass refid="struct_reset" prot="public">Reset</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_reset" prot="public">lola::vx::v3::AtomicNeuron::Reset</innerclass>
+    <innerclass refid="struct_synaptic_input" prot="public">SynapticInput</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_synaptic_input" prot="public">lola::vx::v3::AtomicNeuron::SynapticInput</innerclass>
+    <innerclass refid="struct_threshold" prot="public">Threshold</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1v3_1_1_atomic_neuron_1_1_threshold" prot="public">lola::vx::v3::AtomicNeuron::Threshold</innerclass>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v3">lola::vx::v3</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="v3_2neuron_8h_1a1c6f4a3d614196ece44584afbf5d35fc" prot="public" static="no">
+        <type>haldls::vx::v3::CapMemCell::DisableRefresh</type>
+        <definition>typedef haldls::vx::v3::CapMemCell::DisableRefresh AnalogDisableRefresh</definition>
+        <argsstring></argsstring>
+        <name>AnalogDisableRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="2" column="52" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="v3_2neuron_8h_1a345a5fb46f59281a66aa97be20d1112a" prot="public" static="no">
+        <type>haldls::vx::v3::CapMemCell::Value</type>
+        <definition>typedef haldls::vx::v3::CapMemCell::Value AnalogValue</definition>
+        <argsstring></argsstring>
+        <name>AnalogValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="1" column="43" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="v3_2neuron_8h_1a7723845027df25bec5b1d8122b9e27f0" prot="public" static="no">
+        <type>haldls::vx::v3::CapMemCell::value_type</type>
+        <definition>typedef haldls::vx::v3::CapMemCell::value_type AnalogValueVariant</definition>
+        <argsstring></argsstring>
+        <name>AnalogValueVariant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="3" column="48" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="v3_2neuron_8h_1a0e45b1afb0e892814a49ea8200e71d1b" prot="public" static="no">
+        <type>halco::hicann_dls::vx::v3::AtomicNeuronOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::v3::AtomicNeuronOnDLS coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="451" column="54" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="v3_2neuron_8h_1a91c918005a64a9655b7a3a38026371b2" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="452" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="v3_2neuron_8h_1ace5303dda588f82b863d447a98ef8b8b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_adaptation" kindref="compound">Adaptation</ref></type>
+        <definition>Adaptation adaptation</definition>
+        <argsstring></argsstring>
+        <name>adaptation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="464" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1ad8669718e4b2ebd4c3c17c03db3acd7e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_bayesian" kindref="compound">Bayesian</ref></type>
+        <definition>Bayesian bayesian</definition>
+        <argsstring></argsstring>
+        <name>bayesian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="469" column="10" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a7173f428c73469f9ceaf2fe02e74b6df" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_constant_current" kindref="compound">ConstantCurrent</ref></type>
+        <definition>ConstantCurrent constant_current</definition>
+        <argsstring></argsstring>
+        <name>constant_current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="462" column="17" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a734f1458c8b1949df150360b883a85c9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_event_routing" kindref="compound">EventRouting</ref></type>
+        <definition>EventRouting event_routing</definition>
+        <argsstring></argsstring>
+        <name>event_routing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="466" column="14" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1aa75bf7f65d7d2605a79f1fba52fccb0b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_synaptic_input" kindref="compound">SynapticInput</ref></type>
+        <definition>SynapticInput excitatory_input</definition>
+        <argsstring></argsstring>
+        <name>excitatory_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="456" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1adc4aeecfaba591b99766d5df216fff3f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_exponential" kindref="compound">Exponential</ref></type>
+        <definition>Exponential exponential</definition>
+        <argsstring></argsstring>
+        <name>exponential</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="465" column="13" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a16d16af810e81e5ab59f5222304fcd22" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_synaptic_input" kindref="compound">SynapticInput</ref></type>
+        <definition>SynapticInput inhibitory_input</definition>
+        <argsstring></argsstring>
+        <name>inhibitory_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="457" column="15" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a6c1e012eb3a57283912d7c1dc024202f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_leak" kindref="compound">Leak</ref></type>
+        <definition>Leak leak</definition>
+        <argsstring></argsstring>
+        <name>leak</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="458" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a2701ff196aca621b115af2bd0ff0657b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_membrane_capacitance" kindref="compound">MembraneCapacitance</ref></type>
+        <definition>MembraneCapacitance membrane_capacitance</definition>
+        <argsstring></argsstring>
+        <name>membrane_capacitance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="463" column="21" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a8cb7df3ff2720c9b4bdf43e06d68e8fc" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_multicompartment" kindref="compound">Multicompartment</ref></type>
+        <definition>Multicompartment multicompartment</definition>
+        <argsstring></argsstring>
+        <name>multicompartment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="461" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a258f0c61fbebcb2f3399276936514229" prot="private" static="no" mutable="no">
+        <type>class NeuronBlock</type>
+        <definition>class NeuronBlock NeuronBlock</definition>
+        <argsstring></argsstring>
+        <name>NeuronBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="683" column="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a87289f44d2a826e4621bb39947084df9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_readout" kindref="compound">Readout</ref></type>
+        <definition>Readout readout</definition>
+        <argsstring></argsstring>
+        <name>readout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="467" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1aaa90a5b3d2d576b864e5ae960109504e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_refractory_period" kindref="compound">RefractoryPeriod</ref></type>
+        <definition>RefractoryPeriod refractory_period</definition>
+        <argsstring></argsstring>
+        <name>refractory_period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="468" column="18" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a222ebdf31f8dcaa00baaeba366ba674a" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_reset" kindref="compound">Reset</ref></type>
+        <definition>Reset reset</definition>
+        <argsstring></argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="459" column="7" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="v3_2neuron_8h_1a1cfbec7a42358cd72689eda62c8f8552" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_threshold" kindref="compound">Threshold</ref></type>
+        <definition>Threshold threshold</definition>
+        <argsstring></argsstring>
+        <name>threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="460" column="11" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="v3_2neuron_8h_1ae57b11d6885be576c29559edbdeabc26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>set_from::AtomicNeuron</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>AtomicNeuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="454" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" declline="454" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="v3_2neuron_8h_1a04f1dddd6cb17aa36a3c2093025b43c7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator!=</definition>
+        <argsstring>(AtomicNeuron const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="v3_2neuron_8h_1ae57b11d6885be576c29559edbdeabc26" kindref="member">AtomicNeuron</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="507" column="6" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" declline="507" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="v3_2neuron_8h_1a374a01c114f393c2fad63419f051f08c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>friend std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, AtomicNeuron const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="v3_2neuron_8h_1ae57b11d6885be576c29559edbdeabc26" kindref="member">AtomicNeuron</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="510" column="8" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" declline="510" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="v3_2neuron_8h_1a0b7d5a8b2e85644b4a9c1a13ee491768" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(AtomicNeuron const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="v3_2neuron_8h_1ae57b11d6885be576c29559edbdeabc26" kindref="member">AtomicNeuron</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="506" column="6" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" declline="506" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="v3_2neuron_8h_1a1585c727297f0c8b2adc7e0242e3eb66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void set_from</definition>
+        <argsstring>(haldls::vx::v3::NeuronBackendConfig const &amp;neuron_backend_config) SYMBOL_VISIBLE</argsstring>
+        <name>set_from</name>
+        <param>
+          <type>haldls::vx::v3::NeuronBackendConfig const &amp;</type>
+          <declname>neuron_backend_config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" line="504" column="6" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h" declline="504" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h"/>
+  </compounddef>
+</doxygen>

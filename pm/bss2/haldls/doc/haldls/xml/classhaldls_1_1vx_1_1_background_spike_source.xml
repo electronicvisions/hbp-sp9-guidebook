@@ -1,0 +1,702 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classhaldls_1_1vx_1_1_background_spike_source" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::BackgroundSpikeSource</compoundname>
+    <includes refid="background_8h" local="no">background.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask" prot="public">haldls::vx::BackgroundSpikeSource::Mask</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_period" prot="public">haldls::vx::BackgroundSpikeSource::Period</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate" prot="public">haldls::vx::BackgroundSpikeSource::Rate</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed" prot="public">haldls::vx::BackgroundSpikeSource::Seed</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_background_spike_source_1ae4a602afad8fabb964092a52f39bdf05" prot="public" static="no">
+        <type>halco::hicann_dls::vx::BackgroundSpikeSourceOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::BackgroundSpikeSourceOnDLS haldls::vx::BackgroundSpikeSource::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="38" column="59" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_background_spike_source_1a49535b0c5f09f9556e933634563a75a9" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::BackgroundSpikeSource::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="39" column="24" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1a08b6930ee5a9afcf2d36ac948308b7fe" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr size_t</type>
+        <definition>constexpr size_t haldls::vx::BackgroundSpikeSource::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="229" column="25" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1ab7584d27099447336f9037856abdcd78" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::BackgroundSpikeSource::unsupported_read_targets</definition>
+        <argsstring></argsstring>
+        <name>unsupported_read_targets</name>
+        <initializer>= {
+	    hxcomm::vx::Target::hardware, hxcomm::vx::Target::simulation}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="41" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_background_spike_source_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <param>
+          <type>cereal::access</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="244" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_background_spike_source_1acca5ddff2b46a2babbdeadd7c7478b9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, BackgroundSpikeSource const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_background_spike_source" kindref="compound">BackgroundSpikeSource</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="240" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1ab7d7c5d2d843a431eb0b3eeb35b78717" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::BackgroundSpikeSource::m_enable</definition>
+        <argsstring></argsstring>
+        <name>m_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="248" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1a5b1ac4fc124e6d37c0800f5f2be9a00d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::BackgroundSpikeSource::m_enable_random</definition>
+        <argsstring></argsstring>
+        <name>m_enable_random</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="249" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1a12391ed6c0e4fec9153a18e1c913063c" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask" kindref="compound">Mask</ref></type>
+        <definition>Mask haldls::vx::BackgroundSpikeSource::m_mask</definition>
+        <argsstring></argsstring>
+        <name>m_mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="253" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1a8e73e0697f3d01e66d2baa2147215dcb" prot="private" static="no" mutable="no">
+        <type>halco::hicann_dls::vx::NeuronLabel</type>
+        <definition>halco::hicann_dls::vx::NeuronLabel haldls::vx::BackgroundSpikeSource::m_neuron_label</definition>
+        <argsstring></argsstring>
+        <name>m_neuron_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="254" column="36" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1a0399cc75d802bf30894bda16b9e43f0f" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_period" kindref="compound">Period</ref></type>
+        <definition>Period haldls::vx::BackgroundSpikeSource::m_period</definition>
+        <argsstring></argsstring>
+        <name>m_period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="250" column="8" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1aa2b11d74b39c8bd707c9907ccb3c477a" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate" kindref="compound">Rate</ref></type>
+        <definition>Rate haldls::vx::BackgroundSpikeSource::m_rate</definition>
+        <argsstring></argsstring>
+        <name>m_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="251" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_background_spike_source_1a5790ecdad95420c7f815a6e809627dd1" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed" kindref="compound">Seed</ref></type>
+        <definition>Seed haldls::vx::BackgroundSpikeSource::m_seed</definition>
+        <argsstring></argsstring>
+        <name>m_seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="252" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a0db0382de9a059b9653aaad1b6565f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::BackgroundSpikeSource::BackgroundSpikeSource</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>BackgroundSpikeSource</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a9c655e5dc903ec06101df889fd7370aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_background_spike_source_1a08b6930ee5a9afcf2d36ac948308b7fe" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="236" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1aeb36588ee12e4b894ddb2e1dcf3eb8b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1_background_spike_source_1a08b6930ee5a9afcf2d36ac948308b7fe" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::BackgroundSpikeSource::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="234" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1aa83debda63749a0efba3c53e0b2e8a26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::BackgroundSpikeSource::get_enable</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable</name>
+        <briefdescription>
+<para>Get enable value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On change of disabled -&gt; enabled the random seed is copied to the random number generator and the period is initialized with the full period which is decremented on every clock cycle. The first spike or bin is therefore reached with a full period delay after the enable change. <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="112" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a24d2150c396b37ecc03b305158a03e0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::BackgroundSpikeSource::get_enable_random</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_random</name>
+        <briefdescription>
+<para>Get enable random spike train generation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On true, every period a bin evaluation in a binned Poisson generator is performed. In addition the enabled mask bits are randomized on spike ocurrence. On false, every period a spike is emitted leading to a regular spike-train. <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="132" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a97325023d7e217f923bcf29b67c51f4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask" kindref="compound">Mask</ref></type>
+        <definition>Mask haldls::vx::BackgroundSpikeSource::get_mask</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_mask</name>
+        <briefdescription>
+<para>Get neuron label randomization mask. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The value has no effect on regular spike generation. <simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask" kindref="compound">Mask</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="198" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a64bf094c708b9960d7d42700fc67fb69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>halco::hicann_dls::vx::NeuronLabel</type>
+        <definition>halco::hicann_dls::vx::NeuronLabel haldls::vx::BackgroundSpikeSource::get_neuron_label</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_neuron_label</name>
+        <briefdescription>
+<para>Get neuron label used for emitted spikes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On Poisson spike generation, it serves as a base of which the lower eight bits can bit-wise be replaced by random values using the mask. <simplesect kind="return"><para>NeuronLabel </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="215" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1ac39967cd0aa6a3d8e298a22f2073cd97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_period" kindref="compound">Period</ref></type>
+        <definition>Period haldls::vx::BackgroundSpikeSource::get_period</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_period</name>
+        <briefdescription>
+<para>Get period value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It represents the ISI for regular spiking and the bin interval for Poisson spike generation. <simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_period" kindref="compound">Period</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="150" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a3e3553217fdef3e4862807b3e80539c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate" kindref="compound">Rate</ref></type>
+        <definition>Rate haldls::vx::BackgroundSpikeSource::get_rate</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_rate</name>
+        <briefdescription>
+<para>Get Poisson spike generation rate factor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The mean ISI is divided by (rate / 255). The value has no effect on regular spike generation. <simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate" kindref="compound">Rate</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="166" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1ab0264d8a29e45ae7786c1d4a99494e7d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed" kindref="compound">Seed</ref></type>
+        <definition>Seed haldls::vx::BackgroundSpikeSource::get_seed</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_seed</name>
+        <briefdescription>
+<para>Get random seed value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The value has no effect on regular spike generation. <simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed" kindref="compound">Seed</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="182" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1abbfc344765c23e75e3134e8e0a4ff56c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::BackgroundSpikeSource::operator!=</definition>
+        <argsstring>(BackgroundSpikeSource const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_background_spike_source" kindref="compound">BackgroundSpikeSource</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="227" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1af8e071d367208e4ac7f7320e7d50ec49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::BackgroundSpikeSource::operator==</definition>
+        <argsstring>(BackgroundSpikeSource const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_background_spike_source" kindref="compound">BackgroundSpikeSource</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="226" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a7f6cff79c0250deca0a5c7e3af131501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::set_enable</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On change of disabled -&gt; enabled the random seed is copied to the random number generator and the period is initialized with the full period which is decremented on every clock cycle. The first spike or bin is therefore reached with a full period delay after the enable change. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="122" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a5b284de00e33d379da612f46a6ab99ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::set_enable_random</definition>
+        <argsstring>(bool value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_random</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set enable random spike train generation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On true, every period a bin evaluation in a binned Poisson generator is performed. In addition the enabled mask bits are randomized on spike ocurrence. On false, every period a spike is emitted leading to a regular spike-train. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="142" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1ad2d47d794f0eec09cd8eafa88aa7bf47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::set_mask</definition>
+        <argsstring>(Mask const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_mask</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask" kindref="compound">Mask</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set neuron label randomization mask. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The value has no effect on regular spike generation. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_mask" kindref="compound">Mask</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="206" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a9179a8b929ed86969f68b0d30158c3e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::set_neuron_label</definition>
+        <argsstring>(halco::hicann_dls::vx::NeuronLabel const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_label</name>
+        <param>
+          <type>halco::hicann_dls::vx::NeuronLabel const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set neuron label used for emitted spikes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On Poisson spike generation, it serves as a base of which the lower eight bits can bit-wise be replaced by random values using the mask. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>NeuronLabel </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="224" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a204bf3e49576cd3e40b8d496b95f2d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::set_period</definition>
+        <argsstring>(Period const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_period</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_period" kindref="compound">Period</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set period value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It represents the ISI for regular spiking and the bin interval for Poisson spike generation. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_period" kindref="compound">Period</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="158" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a3758740a9c42134ecc4a9c73f7d070c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::set_rate</definition>
+        <argsstring>(Rate const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_rate</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate" kindref="compound">Rate</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set Poisson spike generation rate factor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The mean ISI is divided by (rate / 255). The value has no effect on regular spike generation. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate" kindref="compound">Rate</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="174" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1ae004fa05ab84036ad0352a84794e0b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::set_seed</definition>
+        <argsstring>(Seed const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_seed</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed" kindref="compound">Seed</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set random seed value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The value has no effect on regular spike generation. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_seed" kindref="compound">Seed</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="190" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1aa42924b3224b9a0a1717a4e0941eb5be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1_background_spike_source_1a08b6930ee5a9afcf2d36ac948308b7fe" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::BackgroundSpikeSource::addresses</definition>
+        <argsstring>(coordinate_type const &amp;neuron) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_background_spike_source_1ae4a602afad8fabb964092a52f39bdf05" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="231" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_background_spike_source_1a46abfb276fbdbbf0087c79285fadaf70" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::BackgroundSpikeSource::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="246" column="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Background spike source on chip. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Two modes are supported, either regular spiking or binned Poisson spike-train generation. While with the former the emitted NeuronLabel is configurable and stays fixed, with the latter, the lower eight bits of the emitted NeuronLabel can bit-wise be replaced by randomly generated values. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" line="35" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/background.h" bodystart="36" bodyend="255"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1aa42924b3224b9a0a1717a4e0941eb5be" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a0db0382de9a059b9653aaad1b6565f1f" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>BackgroundSpikeSource</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a08b6930ee5a9afcf2d36ac948308b7fe" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1ae4a602afad8fabb964092a52f39bdf05" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a9c655e5dc903ec06101df889fd7370aa" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1aeb36588ee12e4b894ddb2e1dcf3eb8b1" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1aa83debda63749a0efba3c53e0b2e8a26" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>get_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a24d2150c396b37ecc03b305158a03e0b" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>get_enable_random</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a97325023d7e217f923bcf29b67c51f4d" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>get_mask</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a64bf094c708b9960d7d42700fc67fb69" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>get_neuron_label</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1ac39967cd0aa6a3d8e298a22f2073cd97" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>get_period</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a3e3553217fdef3e4862807b3e80539c8" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>get_rate</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1ab0264d8a29e45ae7786c1d4a99494e7d" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>get_seed</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a49535b0c5f09f9556e933634563a75a9" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1ab7d7c5d2d843a431eb0b3eeb35b78717" prot="private" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>m_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a5b1ac4fc124e6d37c0800f5f2be9a00d" prot="private" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>m_enable_random</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a12391ed6c0e4fec9153a18e1c913063c" prot="private" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>m_mask</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a8e73e0697f3d01e66d2baa2147215dcb" prot="private" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>m_neuron_label</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a0399cc75d802bf30894bda16b9e43f0f" prot="private" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>m_period</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1aa2b11d74b39c8bd707c9907ccb3c477a" prot="private" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>m_rate</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a5790ecdad95420c7f815a6e809627dd1" prot="private" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>m_seed</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1abbfc344765c23e75e3134e8e0a4ff56c" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1acca5ddff2b46a2babbdeadd7c7478b9f" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1af8e071d367208e4ac7f7320e7d50ec49" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a46abfb276fbdbbf0087c79285fadaf70" prot="private" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a7f6cff79c0250deca0a5c7e3af131501" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>set_enable</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a5b284de00e33d379da612f46a6ab99ab" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>set_enable_random</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1ad2d47d794f0eec09cd8eafa88aa7bf47" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>set_mask</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a9179a8b929ed86969f68b0d30158c3e4" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>set_neuron_label</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a204bf3e49576cd3e40b8d496b95f2d10" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>set_period</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1a3758740a9c42134ecc4a9c73f7d070c1" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>set_rate</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1ae004fa05ab84036ad0352a84794e0b93" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>set_seed</name></member>
+      <member refid="classhaldls_1_1vx_1_1_background_spike_source_1ab7584d27099447336f9037856abdcd78" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource</scope><name>unsupported_read_targets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

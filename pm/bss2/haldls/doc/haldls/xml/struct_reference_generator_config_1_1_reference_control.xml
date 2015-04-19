@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_reference_generator_config_1_1_reference_control" kind="struct" language="C++" prot="public">
+    <compoundname>ReferenceGeneratorConfig::ReferenceControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ReferenceControl, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ReferenceControl, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_reference_generator_config_1_1_reference_control_1a1675705b0747b1323393beb6b1fc454f" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr ReferenceGeneratorConfig::ReferenceControl::ReferenceControl</definition>
+        <argsstring>(uintmax_t const val=10)</argsstring>
+        <name>ReferenceControl</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="78" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_reference_generator_config_1_1_reference_control_1a1675705b0747b1323393beb6b1fc454f" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr ReferenceGeneratorConfig::ReferenceControl::ReferenceControl</definition>
+        <argsstring>(uintmax_t const val=10)</argsstring>
+        <name>ReferenceControl</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" line="78" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v3/capmem.h" bodystart="78" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ReferenceGeneratorConfig::ReferenceControl</label>
+        <link refid="struct_reference_generator_config_1_1_reference_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ReferenceControl, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ReferenceGeneratorConfig::ReferenceControl</label>
+        <link refid="struct_reference_generator_config_1_1_reference_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; ReferenceControl, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" line="75" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/v2/capmem.h" bodystart="77" bodyend="82"/>
+    <listofallmembers>
+      <member refid="struct_reference_generator_config_1_1_reference_control_1a1675705b0747b1323393beb6b1fc454f" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig::ReferenceControl</scope><name>ReferenceControl</name></member>
+      <member refid="struct_reference_generator_config_1_1_reference_control_1a1675705b0747b1323393beb6b1fc454f" prot="public" virt="non-virtual"><scope>ReferenceGeneratorConfig::ReferenceControl</scope><name>ReferenceControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

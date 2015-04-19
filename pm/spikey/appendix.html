@@ -1,0 +1,223 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Spikey Appendix &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/hbpdoc.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/extra.js"></script>
+    <script src="../../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="The BrainScaleS-2 “physical model” system" href="../bss2.html" />
+    <link rel="prev" title="Testing the system" href="test.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="../../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Spikey Appendix</a><ul>
+<li><a class="reference internal" href="#setting-up-ssh-keys-on-uhei-cluster-for-github-com">Setting up SSH keys on UHEI cluster for github.com</a></li>
+<li><a class="reference internal" href="#setup-software">Setup software</a><ul>
+<li><a class="reference internal" href="#preparing-the-operating-system">Preparing the operating system</a></li>
+<li><a class="reference internal" href="#installing-hardware-drivers">Installing hardware drivers</a></li>
+<li><a class="reference internal" href="#allow-access-to-usb-device">Allow access to USB device</a></li>
+<li><a class="reference internal" href="#run-experiments">Run experiments</a></li>
+<li><a class="reference internal" href="#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#setup-hardware">Setup hardware</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="test.html"
+                        title="previous chapter">Testing the system</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../bss2.html"
+                        title="next chapter">The BrainScaleS-2 “physical model” system</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/pm/spikey/appendix.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+                <div class="breadcrumb breadcrumb-meta expand">
+                    
+                    <a href="../spikey.html">The Spikey “physical model” system</a>
+                    
+                </div>
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="test.html">Testing the system</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="../bss2.html">The BrainScaleS-2 “physical model” system</a>
+                    </span>
+                    
+                </aside>
+
+                <section id="spikey-appendix">
+<h1>Spikey Appendix<a class="headerlink" href="#spikey-appendix" title="Permalink to this headline">¶</a></h1>
+<section id="setting-up-ssh-keys-on-uhei-cluster-for-github-com">
+<span id="label-clustersshkeygithub"></span><h2>Setting up SSH keys on UHEI cluster for github.com<a class="headerlink" href="#setting-up-ssh-keys-on-uhei-cluster-for-github-com" title="Permalink to this headline">¶</a></h2>
+<p>To create a key pair please follow the guide provided by github.com.
+The configuration file for the ssh connection is located in <code class="docutils literal notranslate"><span class="pre">~/.ssh/config</span></code>.
+For example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ cat .ssh/config
+Host github.com
+    IdentityFile /wang/users/USERNAME/.ssh/my_github.com.id_rsa
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">Host</span> <span class="pre">github.com</span></code> describes the <code class="docutils literal notranslate"><span class="pre">ssh</span></code> connection target, and the following line
+configures the private key location which will be used for this target host.</p>
+<p>To connect via ssh, use the <code class="docutils literal notranslate"><span class="pre">tsocks</span></code> tool which routes the TCP connection via a local SOCKS proxy, e.g.:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ tsocks git clone git@github.com:USERNAME/PROJECT.git
+</pre></div>
+</div>
+</section>
+<section id="setup-software">
+<span id="label-spikeysoftware"></span><h2>Setup software<a class="headerlink" href="#setup-software" title="Permalink to this headline">¶</a></h2>
+<section id="preparing-the-operating-system">
+<h3>Preparing the operating system<a class="headerlink" href="#preparing-the-operating-system" title="Permalink to this headline">¶</a></h3>
+<p>We consider the newest stable <a class="reference external" href="http://www.debian.org">Debian</a> operating system as reference system.</p>
+<p>The following additional software packages are required for building the software of the Spikey system:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apt-get install libboost-all-dev libusb-1.0-0-dev liblog4cxx10-dev libqt4-dev libgtest-dev libgsl0-dev python-nose
+</pre></div>
+</div>
+<p>And for experiment execution:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apt-get install python-numpy python-scipy python-matplotlib
+</pre></div>
+</div>
+</section>
+<section id="installing-hardware-drivers">
+<h3>Installing hardware drivers<a class="headerlink" href="#installing-hardware-drivers" title="Permalink to this headline">¶</a></h3>
+<p>The software for the Spikey neuromorphic system is managed by a git repository that can be downloaded as follows:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/electronicvisions/spikey_demo.git
+</pre></div>
+</div>
+<p>To install the software follow the instructions in the <code class="docutils literal notranslate"><span class="pre">README.md</span></code> file.
+Note that a fork of the official <a class="reference external" href="http://neuralensemble.org/PyNN/">PyNN</a> project is used that builds on PyNN version 0.6.</p>
+</section>
+<section id="allow-access-to-usb-device">
+<h3>Allow access to USB device<a class="headerlink" href="#allow-access-to-usb-device" title="Permalink to this headline">¶</a></h3>
+<p>To access the Spikey system via USB, add your user to the <code class="docutils literal notranslate"><span class="pre">plugdev</span></code> UNIX group, to which Spikey devices are assigned to.
+Note that you will need root privileges for adding users to a UNIX group.</p>
+<ol class="arabic simple">
+<li><p>Add your user to <code class="docutils literal notranslate"><span class="pre">plugdev</span></code> group: <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">usermod</span> <span class="pre">-aG</span> <span class="pre">plugdev</span> <span class="pre">USERNAME</span></code> (replace USERNAME)</p></li>
+<li><p>Assign Spikey systems to <code class="docutils literal notranslate"><span class="pre">plugdev</span></code> group (creates a <code class="docutils literal notranslate"><span class="pre">udev</span></code> config file): <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">sh</span> <span class="pre">vmodule/nosudo</span></code></p></li>
+<li><p>Restart <code class="docutils literal notranslate"><span class="pre">udev</span></code> daemon: <code class="docutils literal notranslate"><span class="pre">service</span> <span class="pre">udev</span> <span class="pre">restart</span></code> and (re-)plug-in the Spikey USB device.</p></li>
+</ol>
+</section>
+<section id="run-experiments">
+<h3>Run experiments<a class="headerlink" href="#run-experiments" title="Permalink to this headline">¶</a></h3>
+<p>Set environment variables (has to be done only once for each environment):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>. bin/env.sh
+</pre></div>
+</div>
+<p>Run PyNN description of a network:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> networks
+python example.py
+</pre></div>
+</div>
+</section>
+<section id="miscellaneous">
+<h3>Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permalink to this headline">¶</a></h3>
+<p>If multiple chips are connected to a single host computer, use environment variables to select the chip:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">MY_STAGE1_STATION</span><span class="o">=</span>stationXXX
+</pre></div>
+</div>
+<p>Replace XXX with the chip you want to use (e.g. 500).</p>
+</section>
+</section>
+<section id="setup-hardware">
+<h2>Setup hardware<a class="headerlink" href="#setup-hardware" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://gitviz.kip.uni-heidelberg.de/projects/symap2ic/wiki/Hardware_setup">Link</a> to internal web page.</p>
+</section>
+</section>
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="test.html">Testing the system</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="../bss2.html">The BrainScaleS-2 “physical model” system</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2022-08-30 11:12:21 (299f632)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Aug 30, 2022 (299f632, preliminary documentation).
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.3.0.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

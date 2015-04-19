@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="synapse_8h" kind="file" language="C++">
+    <compoundname>synapse.h</compoundname>
+    <includes local="yes">halco/common/iter_all.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/common/typed_heap_array.h</includes>
+    <includes local="yes">haldls/cerealization.h</includes>
+    <includes local="yes">haldls/vx/common.h</includes>
+    <includes local="yes">haldls/vx/synapse.h</includes>
+    <includes local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="cerealization_8h" local="yes">lola/vx/cerealization.h</includes>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes local="no">boost/hana/adapt_struct.hpp</includes>
+    <includedby refid="cadc_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h</includedby>
+    <includedby refid="v2_2synapse_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h</includedby>
+    <includedby refid="v3_2synapse_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/synapse.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="7">
+        <label>haldls/vx/synapse.h</label>
+      </node>
+      <node id="2">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="6">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="12">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="3">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="13">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="9">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="8">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="10">
+        <label>lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="14">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>type_traits</label>
+      </node>
+      <node id="5">
+        <label>haldls/cerealization.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h</label>
+        <link refid="v2_2pylola_8h"/>
+      </node>
+      <node id="10">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/container.h</label>
+        <link refid="v3_2container_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/pylola.h</label>
+        <link refid="v3_2pylola_8h"/>
+      </node>
+      <node id="16">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/neuron.h</label>
+        <link refid="v3_2neuron_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/chip.h</label>
+        <link refid="v3_2chip_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/chip.h</label>
+        <link refid="v2_2chip_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h</label>
+        <link refid="v2_2neuron_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/cadc.h</label>
+        <link refid="v3_2cadc_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/synapse.h</label>
+        <link refid="v3_2synapse_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/cadc.h</label>
+        <link refid="v2_2cadc_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/synapse.h</label>
+        <link refid="v2_2synapse_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v3/lola.h</label>
+        <link refid="v3_2lola_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/lola.h</label>
+        <link refid="v2_2lola_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_column_correlation_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::ColumnCorrelationRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_column_current_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::ColumnCurrentRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CorrelationResetRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseCorrelationCalibMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseCorrelationCalibRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseLabelMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_label_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseLabelRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightRow &gt;</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_column_correlation_row" prot="public">lola::vx::ColumnCorrelationRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_column_current_row" prot="public">lola::vx::ColumnCurrentRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_correlation_reset_row" prot="public">lola::vx::CorrelationResetRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" prot="public">lola::vx::SynapseCorrelationCalibMatrix</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_correlation_calib_row" prot="public">lola::vx::SynapseCorrelationCalibRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_label_matrix" prot="public">lola::vx::SynapseLabelMatrix</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_label_row" prot="public">lola::vx::SynapseLabelRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_matrix" prot="public">lola::vx::SynapseMatrix</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_row" prot="public">lola::vx::SynapseRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_weight_matrix" prot="public">lola::vx::SynapseWeightMatrix</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_synapse_weight_row" prot="public">lola::vx::SynapseWeightRow</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_column_correlation_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::ColumnCorrelationRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_column_current_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::ColumnCurrentRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CorrelationResetRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseCorrelationCalibMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseCorrelationCalibRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseLabelMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseLabelRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightRow &gt;</innerclass>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="synapse_8h_1a28c61bab1fba542662d9f5aa91389228" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::ColumnCorrelationRow, values)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_column_correlation_row" kindref="compound">lola::vx::ColumnCorrelationRow</ref></type>
+        </param>
+        <param>
+          <type>values</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="927" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="927" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1ada44aae00e607737187487c53bbfa92c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::ColumnCurrentRow, values)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_column_current_row" kindref="compound">lola::vx::ColumnCurrentRow</ref></type>
+        </param>
+        <param>
+          <type>values</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="928" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="928" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1a3924fa4d46ddbd2084340bd2a7702f5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CorrelationResetRow)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_correlation_reset_row" kindref="compound">lola::vx::CorrelationResetRow</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="937" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="937" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1a6ceb8c5c7ecd934656fb8bdc36ba776b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::SynapseCorrelationCalibMatrix, time_calibs, amp_calibs)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kindref="compound">lola::vx::SynapseCorrelationCalibMatrix</ref></type>
+        </param>
+        <param>
+          <type>time_calibs</type>
+        </param>
+        <param>
+          <type>amp_calibs</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="935" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="935" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1ae71f200bd9b7ce65631938c9551e35e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::SynapseCorrelationCalibRow, time_calibs, amp_calibs)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_row" kindref="compound">lola::vx::SynapseCorrelationCalibRow</ref></type>
+        </param>
+        <param>
+          <type>time_calibs</type>
+        </param>
+        <param>
+          <type>amp_calibs</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="932" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="932" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1aeb82aff2c200b6b3fc45517d29f21f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::SynapseLabelMatrix, values)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_label_matrix" kindref="compound">lola::vx::SynapseLabelMatrix</ref></type>
+        </param>
+        <param>
+          <type>values</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="934" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="934" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1a162334292782edb786d269fa79260352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::SynapseLabelRow, values)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_label_row" kindref="compound">lola::vx::SynapseLabelRow</ref></type>
+        </param>
+        <param>
+          <type>values</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="931" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="931" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1aaea213f167f69ef09b3de2a3f3cb3c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::SynapseMatrix, weights, labels, time_calibs, amp_calibs)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_matrix" kindref="compound">lola::vx::SynapseMatrix</ref></type>
+        </param>
+        <param>
+          <type>weights</type>
+        </param>
+        <param>
+          <type>labels</type>
+        </param>
+        <param>
+          <type>time_calibs</type>
+        </param>
+        <param>
+          <type>amp_calibs</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="936" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="936" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1adbe984e2c09c7dfd963df8dd2cec6416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::SynapseRow, weights, labels, time_calibs, amp_calibs)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_row" kindref="compound">lola::vx::SynapseRow</ref></type>
+        </param>
+        <param>
+          <type>weights</type>
+        </param>
+        <param>
+          <type>labels</type>
+        </param>
+        <param>
+          <type>time_calibs</type>
+        </param>
+        <param>
+          <type>amp_calibs</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="929" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="929" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1ad8c5917d47c36456de2611869ae60368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::SynapseWeightMatrix, values)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_weight_matrix" kindref="compound">lola::vx::SynapseWeightMatrix</ref></type>
+        </param>
+        <param>
+          <type>values</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="933" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="933" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="synapse_8h_1a679202d9e51e06605baa4d0df278fdfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::SynapseWeightRow, values)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_synapse_weight_row" kindref="compound">lola::vx::SynapseWeightRow</ref></type>
+        </param>
+        <param>
+          <type>values</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" line="930" column="1" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h" declline="930" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/synapse.h"/>
+  </compounddef>
+</doxygen>

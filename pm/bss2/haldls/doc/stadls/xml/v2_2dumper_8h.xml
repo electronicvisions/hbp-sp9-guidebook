@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="v2_2dumper_8h" kind="file" language="C++">
+    <compoundname>dumper.h</compoundname>
+    <includes local="yes">haldls/cerealization.h</includes>
+    <includes local="yes">haldls/vx/v2/container.h</includes>
+    <includes local="yes">lola/vx/v2/container.h</includes>
+    <includes refid="dumper_8h" local="yes">stadls/vx/dumper.h</includes>
+    <includes refid="genpybind_8h" local="yes">stadls/vx/genpybind.h</includes>
+    <includes refid="playback__program__builder_8h" local="yes">stadls/vx/playback_program_builder.h</includes>
+    <includes refid="v2_2coordinate__to__container_8h" local="yes">stadls/vx/v2/coordinate_to_container.h</includes>
+    <includes refid="v2_2dumperdone_8h" local="yes">stadls/vx/v2/dumperdone.h</includes>
+    <includes local="yes">haldls/vx/v2/container.def</includes>
+    <includes local="yes">lola/vx/v2/container.def</includes>
+    <includedby refid="v2_2playback__program__builder_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h</includedby>
+    <includedby refid="v2_2stadls_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/stadls.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>haldls/vx/v2/container.h</label>
+      </node>
+      <node id="33">
+        <label>haldls/vx/v2/container.def</label>
+      </node>
+      <node id="13">
+        <label>cstdint</label>
+      </node>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h</label>
+        <link refid="v2_2dumper_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>variant</label>
+      </node>
+      <node id="6">
+        <label>halco/hicann-dls/vx/barrier.h</label>
+      </node>
+      <node id="16">
+        <label>string</label>
+      </node>
+      <node id="28">
+        <label>fisch/vx/run_time_info.h</label>
+      </node>
+      <node id="22">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="31">
+        <label>unordered_set</label>
+      </node>
+      <node id="23">
+        <label>haldls/vx/event.h</label>
+      </node>
+      <node id="18">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="25">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="32">
+        <label>stadls/vx/v2/coordinate_to_container.h</label>
+        <link refid="v2_2coordinate__to__container_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>haldls/vx/barrier.h</label>
+      </node>
+      <node id="10">
+        <label>haldls/vx/timer.h</label>
+      </node>
+      <node id="35">
+        <label>stadls/vx/v2/dumperdone.h</label>
+        <link refid="v2_2dumperdone_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>lola/vx/v2/container.h</label>
+      </node>
+      <node id="15">
+        <label>optional</label>
+      </node>
+      <node id="19">
+        <label>fisch/vx/container_cast.h</label>
+      </node>
+      <node id="34">
+        <label>lola/vx/v2/container.def</label>
+      </node>
+      <node id="17">
+        <label>vector</label>
+      </node>
+      <node id="27">
+        <label>stadls/vx/run_time_info.h</label>
+        <link refid="run__time__info_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>utility</label>
+      </node>
+      <node id="21">
+        <label>fisch/vx/playback_program.h</label>
+      </node>
+      <node id="26">
+        <label>stadls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="30">
+        <label>iosfwd</label>
+      </node>
+      <node id="20">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="9">
+        <label>haldls/vx/block.h</label>
+      </node>
+      <node id="7">
+        <label>halco/hicann-dls/vx/omnibus.h</label>
+      </node>
+      <node id="5">
+        <label>stadls/vx/dumper.h</label>
+        <link refid="dumper_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>stadls/vx/playback_program.h</label>
+        <link refid="playback__program_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>memory</label>
+      </node>
+      <node id="29">
+        <label>stadls/vx/playback_program_builder.h</label>
+        <link refid="playback__program__builder_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>haldls/cerealization.h</label>
+      </node>
+      <node id="24">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h</label>
+        <link refid="v2_2dumper_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/pystadls.h</label>
+        <link refid="v2_2pystadls_8h"/>
+      </node>
+      <node id="2">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_program_builder.h</label>
+        <link refid="v2_2playback__program__builder_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/playback_generator.h</label>
+        <link refid="v2_2playback__generator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/stadls.h</label>
+        <link refid="v2_2stadls_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/init_generator.h</label>
+        <link refid="v2_2init__generator_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacestadls">stadls</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx">stadls::vx</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx_1_1detail">stadls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx_1_1v2">stadls::vx::v2</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="v2_2dumper_8h_1a81489192049f471a239ebc8b4e314854" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>_Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>	extern template SYMBOL_VISIBLE void <ref refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a8e6bae8b55313201a631a436f2d16466" kindref="member">stadls::vx::v2::Dumper::write</ref>&lt;Type&gt;(                       \
+	    typename Type::coordinate_type const&amp;, Type const&amp;);                                       \
+	extern template SYMBOL_VISIBLE <ref refid="classstadls_1_1vx_1_1_playback_program_1_1_container_ticket" kindref="compound">stadls::vx::PlaybackProgram::ContainerTicket</ref>&lt;Type&gt;              \
+	<ref refid="classstadls_1_1vx_1_1detail_1_1_dumper_1a220f9108fcba9532b803a20d51bd1631" kindref="member">stadls::vx::v2::Dumper::read</ref>&lt;Type&gt;(typename Type::coordinate_type const&amp;);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h" line="55" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="v2_2dumper_8h_1a81489192049f471a239ebc8b4e314854" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>_Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>	extern template void <ref refid="playback__program__builder_8h_1a251f92ca4aa883853b48ae7bc7c4f045" kindref="member">v2::PlaybackProgramBuilderDumper::write</ref>&lt;Type&gt;(                            \
+	    typename Type::coordinate_type const&amp; coord, Type const&amp; config,                           \
+	    haldls::vx::Backend backend);                                                              \
+	extern template void <ref refid="playback__program__builder_8h_1a251f92ca4aa883853b48ae7bc7c4f045" kindref="member">v2::PlaybackProgramBuilderDumper::write</ref>&lt;Type&gt;(                            \
+	    typename Type::coordinate_type const&amp; coord, Type const&amp; config);                          \
+	extern template void <ref refid="playback__program__builder_8h_1a251f92ca4aa883853b48ae7bc7c4f045" kindref="member">v2::PlaybackProgramBuilderDumper::write</ref>&lt;Type&gt;(                            \
+	    typename Type::coordinate_type const&amp; coord, Type const&amp; config,                           \
+	    Type const&amp; config_reference, haldls::vx::Backend backend);                                \
+	extern template void <ref refid="playback__program__builder_8h_1a251f92ca4aa883853b48ae7bc7c4f045" kindref="member">v2::PlaybackProgramBuilderDumper::write</ref>&lt;Type&gt;(                            \
+	    typename Type::coordinate_type const&amp; coord, Type const&amp; config,                           \
+	    Type const&amp; config_reference);                                                             \
+	extern template PlaybackProgram::ContainerTicket&lt;Type&gt;                                         \
+	<ref refid="playback__program__builder_8h_1aff46fe04fbedf2fc4695e01db743bbea" kindref="member">v2::PlaybackProgramBuilderDumper::read</ref>&lt;typename Type::coordinate_type&gt;(                        \
+	    typename Type::coordinate_type const&amp; coord, haldls::vx::Backend backend);                 \
+	extern template PlaybackProgram::ContainerTicket&lt;Type&gt;                                         \
+	<ref refid="playback__program__builder_8h_1aff46fe04fbedf2fc4695e01db743bbea" kindref="member">v2::PlaybackProgramBuilderDumper::read</ref>&lt;typename Type::coordinate_type&gt;(                        \
+	    typename Type::coordinate_type const&amp; coord);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h" line="65" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/stadls/vx/v2/dumper.h"/>
+  </compounddef>
+</doxygen>

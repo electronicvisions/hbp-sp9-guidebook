@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__t81ef6e02b3711acc13d47f20d193b265" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::true_type</basecompoundref>
+    <includes refid="is__writeable_8h" local="no">is_writeable.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>std::true_type</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__t81ef6e02b3711acc13d47f20d193b265"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>std::true_type</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__t81ef6e02b3711acc13d47f20d193b265"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" line="75" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" bodystart="77" bodyend="77"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

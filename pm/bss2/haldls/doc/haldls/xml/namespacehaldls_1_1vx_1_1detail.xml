@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacehaldls_1_1vx_1_1detail" kind="namespace" language="C++">
+    <compoundname>haldls::vx::detail</compoundname>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1backend__container__type__from__backend" prot="public">haldls::vx::detail::backend_container_type_from_backend</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1backend__from__backend__container__type" prot="public">haldls::vx::detail::backend_from_backend_container_type</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_base" prot="public">haldls::vx::detail::BackendContainerBase</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait" prot="public">haldls::vx::detail::BackendContainerTrait</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_a_d5252_channel_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; AD5252ChannelConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_a_d5252_channel_config_persistent_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; AD5252ChannelConfigPersistent &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_a_d_p_l_l_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ADPLL &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_background_spike_source_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; BackgroundSpikeSource &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_block_post_pulse_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; BlockPostPulse &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_c_a_d_c_channel_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CADCChannelConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_c_a_d_c_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CADCConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_c_a_d_c_offset_s_r_a_m_timing_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CADCOffsetSRAMTimingConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_c_a_d_c_sample_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CADCSampleQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_cap_mem_block_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CapMemBlock&lt; Coordinates &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_cap_mem_block_config_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CapMemBlockConfig&lt; Coordinates &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_cap_mem_cell_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CapMemCell&lt; Coordinates &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_column_correlation_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ColumnCorrelationQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_column_current_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ColumnCurrentQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_correlation_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonCorrelationConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_neuron_backend_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonNeuronBackendConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_p_a_d_i_bus_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonPADIBusConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_phy_config_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonPhyConfigChip &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_phy_config_f_p_g_a_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonPhyConfigFPGA &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_s_t_p_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonSTPConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_synram_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonSynramConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_correlation_reset_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CorrelationReset &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_crossbar_input_drop_counter_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CrossbarInputDropCounter &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_crossbar_node_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CrossbarNode &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_crossbar_output_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CrossbarOutputConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_crossbar_output_event_counter_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CrossbarOutputEventCounter &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_current_d_a_c_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CurrentDAC &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_d_a_c6573_channel_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; DAC6573ChannelConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_d_a_c_channel_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; DACChannel &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_d_a_c_control_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; DACControl &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_event_recording_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; EventRecordingConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_external_p_p_u_memory_byte_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ExternalPPUMemoryByte &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_external_p_p_u_memory_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ExternalPPUMemoryQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_f_p_g_a_device_d_n_a_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; FPGADeviceDNA &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_hicann_a_r_q_status_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; HicannARQStatus &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_i_n_a219_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; INA219Config &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_i_n_a219_status_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; INA219Status &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_instruction_timeout_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; InstructionTimeoutConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_j_t_a_g_clock_scaler_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; JTAGClockScaler &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_j_t_a_g_id_code_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; JTAGIdCode &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_m_a_d_c_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; MADCConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_m_a_d_c_control_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; MADCControl &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_neuron_backend_config_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NeuronBackendConfig&lt; Coordinates &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_neuron_backend_s_r_a_m_timing_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NeuronBackendSRAMTimingConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_neuron_reset_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NeuronReset &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_neuron_s_r_a_m_timing_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NeuronSRAMTimingConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_null_payload_readable_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NullPayloadReadable &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_a_d_i_event_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PADIEvent &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_pad_multiplexer_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PadMultiplexerConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_perf_test_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PerfTest &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_perf_test_status_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PerfTestStatus &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_phy_config_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PhyConfigChip &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_phy_config_f_p_g_a_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PhyConfigFPGA &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_phy_status_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PhyStatus &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_l_l_self_test_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PLLSelfTest &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_l_l_self_test_status_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PLLSelfTestStatus &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_polling_omnibus_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PollingOmnibusBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_polling_omnibus_block_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PollingOmnibusBlockConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_control_register_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUControlRegister &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_memory_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUMemory &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_memory_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUMemoryBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_memory_word_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUMemoryWord &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_status_register_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUStatusRegister &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_readout_source_selection_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ReadoutSourceSelection &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_reset_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ResetChip &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_reset_j_t_a_g_tap_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ResetJTAGTap &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_shift_register_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ShiftRegister &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_counter_read_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikeCounterRead &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_counter_reset_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikeCounterReset &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_pack1_to_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikePack1ToChip &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_pack2_to_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikePack2ToChip &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_pack3_to_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikePack3ToChip &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_bias_selection_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseBiasSelection &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_correlation_calib_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseCorrelationCalibQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_driver_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseDriverConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_driver_s_r_a_m_timing_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseDriverSRAMTimingConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_label_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseLabelQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_synapse_weight_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SynapseWeightQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_systime_sync_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SystimeSync &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_systime_sync_base_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SystimeSyncBase &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_t_c_a9554_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; TCA9554Config &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_t_c_a9554_inputs_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; TCA9554Inputs &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_timer_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; Timer &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01v2_1_1_neuron_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; v2::NeuronConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01v2_1_1_neuron_reset_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; v2::NeuronResetQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01v2_1_1_p_l_l_clock_output_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; v2::PLLClockOutputBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01v2_1_1_reference_generator_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; v2::ReferenceGeneratorConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01v3_1_1_neuron_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; v3::NeuronConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01v3_1_1_neuron_reset_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; v3::NeuronResetQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01v3_1_1_p_l_l_clock_output_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; v3::PLLClockOutputBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01v3_1_1_reference_generator_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; v3::ReferenceGeneratorConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_vector_generator_control_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; VectorGeneratorControl &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_vector_generator_f_i_f_o_word_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; VectorGeneratorFIFOWord &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_vector_generator_l_u_t_entry_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; VectorGeneratorLUTEntry &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_vector_generator_notification_address_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; VectorGeneratorNotificationAddress &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_vector_generator_trigger_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; VectorGeneratorTrigger &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1gen__is__read__and__writeable__lookup__table" prot="public">haldls::vx::detail::gen_is_read_and_writeable_lookup_table</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1gen__is__read__and__writeable__lookup__table_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4" prot="public">haldls::vx::detail::gen_is_read_and_writeable_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_readable" prot="public">haldls::vx::detail::IsReadable</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01std_1_1enable__if__t_3_01hate_1_1is__in52349e4c8b62557f32257c4d96054dd8" prot="public">haldls::vx::detail::IsReadable&lt; T, std::enable_if_t&lt; hate::is_in_type_list&lt; T, NonLeafNodeReadableContainerList &gt;::value &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01typename_01boost_1_1enable__if__has__tydc1ee37345a0bb947e0685c0247ea7c7" prot="public">haldls::vx::detail::IsReadable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01typename_01boost_1_1enable__if__has__ty1ca83ba67d6c660c6fe17948d688c3be" prot="public">haldls::vx::detail::IsReadable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::read_config_size_in_words)&gt;::type &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable" prot="public">haldls::vx::detail::IsWriteable</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01std_1_1enable__if__t_3_01hate_1_1is__i68516161106baf4b82148726e0ffb84e" prot="public">haldls::vx::detail::IsWriteable&lt; T, std::enable_if_t&lt; hate::is_in_type_list&lt; T, NonLeafNodeWriteableContainerList &gt;::value &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__t81ef6e02b3711acc13d47f20d193b265" prot="public">haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::config_size_in_words)&gt;::type &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable_3_01_t_00_01typename_01boost_1_1enable__if__has__tbff020854b6b02487a7f7a565612a791" prot="public">haldls::vx::detail::IsWriteable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::write_config_size_in_words)&gt;::type &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_is_write_readable" prot="public">haldls::vx::detail::IsWriteReadable</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_m_a_d_c_sample_from_chip_checker" prot="public">haldls::vx::detail::MADCSampleFromChipChecker</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1detail_1_1_phy_config_base" prot="public">haldls::vx::detail::PhyConfigBase</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_spike_from_chip_checker" prot="public">haldls::vx::detail::SpikeFromChipChecker</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config" prot="public">haldls::vx::detail::SRAMTimingConfig</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl" prot="public">haldls::vx::detail::VisitPreorderImpl</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_cap_mem_block_3_01_coordinates_01_4_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; CapMemBlock&lt; Coordinates &gt; &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; PPUMemory &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_block_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; PPUMemoryBlock &gt;</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1detail_1a64a17a9aefa74d83b66d39e0d2efc2d4" prot="public" static="no">
+        <type>hate::type_list&lt; lola::vx::SynapseCorrelationCalibRow, lola::vx::SynapseCorrelationCalibMatrix, lola::vx::SynapseLabelMatrix, lola::vx::SynapseLabelRow, lola::vx::SynapseMatrix, lola::vx::SynapseRow, lola::vx::SynapseWeightMatrix, lola::vx::SynapseWeightRow, <ref refid="namespacehaldls_1_1vx_1_1v2_1ad941b33c0249b363c1d4252a4d80317e" kindref="member">v2::PPUMemory</ref>, <ref refid="namespacehaldls_1_1vx_1_1v2_1af70b6208c9cca35e7b35350473ee1134" kindref="member">v2::PPUMemoryBlock</ref>, <ref refid="namespacehaldls_1_1vx_1_1v2_1a5043a7be5ce1303538a9583768bc6549" kindref="member">v2::CapMemBlock</ref>, lola::vx::v2::AtomicNeuron, lola::vx::v2::CADCSampleRow, lola::vx::v2::CADCSamples, <ref refid="namespacelola_1_1vx_1_1v2_1a45c9138bc537dd9e8d99136ab9716661" kindref="member">lola::vx::v2::ExternalPPUMemoryBlock</ref>, <ref refid="namespacehaldls_1_1vx_1_1v3_1aa3cfc2cd6418d679dbf07ab452d6dad6" kindref="member">v3::PPUMemory</ref>, <ref refid="namespacehaldls_1_1vx_1_1v3_1afe70459fb03fa9adf5b59b19c32367c6" kindref="member">v3::PPUMemoryBlock</ref>, <ref refid="namespacehaldls_1_1vx_1_1v3_1aa6dc79c318a38858d700cff3d7849555" kindref="member">v3::CapMemBlock</ref>, lola::vx::v3::AtomicNeuron, lola::vx::v3::CADCSampleRow, lola::vx::v3::CADCSamples, <ref refid="namespacelola_1_1vx_1_1v3_1a5f591a0cd686f9d65f602d42c0ffd2d8" kindref="member">lola::vx::v3::ExternalPPUMemoryBlock</ref> &gt;</type>
+        <definition>typedef hate::type_list&lt; lola::vx::SynapseCorrelationCalibRow, lola::vx::SynapseCorrelationCalibMatrix, lola::vx::SynapseLabelMatrix, lola::vx::SynapseLabelRow, lola::vx::SynapseMatrix, lola::vx::SynapseRow, lola::vx::SynapseWeightMatrix, lola::vx::SynapseWeightRow, v2::PPUMemory, v2::PPUMemoryBlock, v2::CapMemBlock, lola::vx::v2::AtomicNeuron, lola::vx::v2::CADCSampleRow, lola::vx::v2::CADCSamples, lola::vx::v2::ExternalPPUMemoryBlock, v3::PPUMemory, v3::PPUMemoryBlock, v3::CapMemBlock, lola::vx::v3::AtomicNeuron, lola::vx::v3::CADCSampleRow, lola::vx::v3::CADCSamples, lola::vx::v3::ExternalPPUMemoryBlock&gt; haldls::vx::detail::NonLeafNodeReadableContainerList</definition>
+        <argsstring></argsstring>
+        <name>NonLeafNodeReadableContainerList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" line="102" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_readable.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1_1detail_1a6e6a8c485d56b250f6cc46593a0fc619" prot="public" static="no">
+        <type>hate::type_list&lt; lola::vx::CorrelationResetRow, lola::vx::SynapseRow, lola::vx::SynapseMatrix, lola::vx::SynapseWeightMatrix, lola::vx::SynapseLabelMatrix, lola::vx::SynapseCorrelationCalibMatrix, lola::vx::SynapseWeightRow, lola::vx::SynapseLabelRow, lola::vx::SynapseCorrelationCalibRow, <ref refid="namespacehaldls_1_1vx_1_1v2_1af70b6208c9cca35e7b35350473ee1134" kindref="member">v2::PPUMemoryBlock</ref>, <ref refid="namespacehaldls_1_1vx_1_1v2_1ad941b33c0249b363c1d4252a4d80317e" kindref="member">v2::PPUMemory</ref>, <ref refid="namespacehaldls_1_1vx_1_1v2_1a5043a7be5ce1303538a9583768bc6549" kindref="member">v2::CapMemBlock</ref>, lola::vx::v2::AtomicNeuron, <ref refid="namespacelola_1_1vx_1_1v2_1ac37b57c93e2fd959cabc72cbea621fb1" kindref="member">lola::vx::v2::DACChannelBlock</ref>, <ref refid="namespacelola_1_1vx_1_1v2_1a087127b04f301666bbee6aea2110bb22" kindref="member">lola::vx::v2::DACControlBlock</ref>, <ref refid="namespacelola_1_1vx_1_1v2_1a45c9138bc537dd9e8d99136ab9716661" kindref="member">lola::vx::v2::ExternalPPUMemoryBlock</ref>, <ref refid="namespacehaldls_1_1vx_1_1v3_1afe70459fb03fa9adf5b59b19c32367c6" kindref="member">v3::PPUMemoryBlock</ref>, <ref refid="namespacehaldls_1_1vx_1_1v3_1aa3cfc2cd6418d679dbf07ab452d6dad6" kindref="member">v3::PPUMemory</ref>, <ref refid="namespacehaldls_1_1vx_1_1v3_1aa6dc79c318a38858d700cff3d7849555" kindref="member">v3::CapMemBlock</ref>, lola::vx::v3::AtomicNeuron, <ref refid="namespacelola_1_1vx_1_1v3_1ab7a110dd8436c6367cfd48f6f31c4e4d" kindref="member">lola::vx::v3::DACChannelBlock</ref>, <ref refid="namespacelola_1_1vx_1_1v3_1a14e8be05d92d9043ac0571668ef92901" kindref="member">lola::vx::v3::DACControlBlock</ref>, <ref refid="namespacelola_1_1vx_1_1v3_1a5f591a0cd686f9d65f602d42c0ffd2d8" kindref="member">lola::vx::v3::ExternalPPUMemoryBlock</ref> &gt;</type>
+        <definition>typedef hate::type_list&lt; lola::vx::CorrelationResetRow, lola::vx::SynapseRow, lola::vx::SynapseMatrix, lola::vx::SynapseWeightMatrix, lola::vx::SynapseLabelMatrix, lola::vx::SynapseCorrelationCalibMatrix, lola::vx::SynapseWeightRow, lola::vx::SynapseLabelRow, lola::vx::SynapseCorrelationCalibRow, v2::PPUMemoryBlock, v2::PPUMemory, v2::CapMemBlock, lola::vx::v2::AtomicNeuron, lola::vx::v2::DACChannelBlock, lola::vx::v2::DACControlBlock, lola::vx::v2::ExternalPPUMemoryBlock, v3::PPUMemoryBlock, v3::PPUMemory, v3::CapMemBlock, lola::vx::v3::AtomicNeuron, lola::vx::v3::DACChannelBlock, lola::vx::v3::DACControlBlock, lola::vx::v3::ExternalPPUMemoryBlock&gt; haldls::vx::detail::NonLeafNodeWriteableContainerList</definition>
+        <argsstring></argsstring>
+        <name>NonLeafNodeWriteableContainerList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" line="111" column="5" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_writeable.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1_1detail_1a3c2748e5b7a259f868dc1ba0bdfa9e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename CoordinateT</type>
+          </param>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+        </templateparamlist>
+        <type>ContainerT</type>
+        <definition>ContainerT haldls::vx::detail::coordinate_to_container</definition>
+        <argsstring>(CoordinateT const &amp;)</argsstring>
+        <name>coordinate_to_container</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+        </param>
+        <briefdescription>
+<para>Construct a container instance from a given coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function needs to be specialized for all containers, for which default construction does not suffice to match the given coordinate. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>CoordinateT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/coordinate_to_container.h" line="14" column="12" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/coordinate_to_container.h" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1_1detail_1a3750d292f45137a5824590fc44777e56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_block" kindref="compound">PPUMemoryBlock</ref></type>
+        <definition>PPUMemoryBlock haldls::vx::detail::coordinate_to_container</definition>
+        <argsstring>(PPUMemoryBlock::coordinate_type const &amp;coord)</argsstring>
+        <name>coordinate_to_container</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_p_p_u_memory_block_1a0740d668aa4d9a624610ebbd0f0925df" kindref="member">PPUMemoryBlock::coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" line="371" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/ppu.h" bodystart="371" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1_1detail_1a70149ab77e94b2146c48799e8e8197c6" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>size_t</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr bool</type>
+        <definition>constexpr bool haldls::vx::detail::is_in_array</definition>
+        <argsstring>(std::array&lt; T, N &gt; const &amp;arr, T const &amp;test)</argsstring>
+        <name>is_in_array</name>
+        <param>
+          <type>std::array&lt; T, N &gt; const &amp;</type>
+          <declname>arr</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" line="54" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" bodystart="54" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1_1detail_1a7ec5e771b6f37a6e906132d0fc48d269" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr bool</type>
+        <definition>constexpr bool haldls::vx::detail::is_read_and_writeable</definition>
+        <argsstring>(Backend const b)</argsstring>
+        <name>is_read_and_writeable</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a090837f0a96d7d15d40eeef01be6711c" kindref="member">Backend</ref> const</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Get whether given backend container is readable and writable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Backend to check </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h" line="30" column="16" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/is_read_and_writable.h" bodystart="30" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/arq.h" line="122" column="1"/>
+  </compounddef>
+</doxygen>

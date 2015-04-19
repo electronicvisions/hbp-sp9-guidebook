@@ -1,0 +1,4 @@
+<map id="haldls::vx::ADPLL::LoopFilterInt" name="haldls::vx::ADPLL::LoopFilterInt">
+<area shape="rect" id="node1" title="Integral part of the PID controller for the DCO." alt="" coords="37,113,171,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,203,65"/>
+</map>

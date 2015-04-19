@@ -1,0 +1,5 @@
+var structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1 =
+[
+    [ "container_type", "structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1.html#abe6208bd61cb9e54a395f56be5fb1399", null ],
+    [ "call", "structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_h_i_p___r_e_v_i_s_i_o_42f5ea5b209e6ab8b9849072d2a448d1.html#ab3c2a039a9145a1eea0834cfe9e7665a", null ]
+];

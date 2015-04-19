@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::ADPLL::FilterShift</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; FilterShift, uint_fast16_t, 3, 0 &gt;</basecompoundref>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift_1aa90ce9cae1950bb4ea59dc1fd6ce49d8" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::ADPLL::FilterShift::FilterShift</definition>
+        <argsstring>(uintmax_t const val=3)</argsstring>
+        <name>FilterShift</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>3</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="134" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Loop filter gain boost by 2^n during lock-in, leads to lock time reduction. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; FilterShift, uint_fast16_t, 3, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ADPLL::FilterShift</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>halco::common::detail::RantWrapper&lt; FilterShift, uint_fast16_t, 3, 0 &gt;</label>
+      </node>
+      <node id="1">
+        <label>haldls::vx::ADPLL::FilterShift</label>
+        <link refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" line="131" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/pll.h" bodystart="133" bodyend="135"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift_1aa90ce9cae1950bb4ea59dc1fd6ce49d8" prot="public" virt="non-virtual"><scope>haldls::vx::ADPLL::FilterShift</scope><name>FilterShift</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

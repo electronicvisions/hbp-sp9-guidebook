@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::v2::AtomicNeuron::Adaptation</compoundname>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a97e083f249252a9cc582cd893004b0c4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Adaptation::enable</definition>
+        <argsstring></argsstring>
+        <name>enable</name>
+        <briefdescription>
+<para>Enable adaptation term. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="225" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a3b510a9e786887309de7ef7d17f0d018" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Adaptation::enable_pulse</definition>
+        <argsstring></argsstring>
+        <name>enable_pulse</name>
+        <briefdescription>
+<para>Enable neuron refractory pulse reaching the adaptation circuitry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The length of the adaptation pulse is set in the common neuron backend. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="231" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a85f1d14a5ccd7e61dfab14f343016e0f" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7ebf298e4c0071c85ec5e52b8754c77a" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v2::AtomicNeuron::Adaptation::i_bias_a</definition>
+        <argsstring></argsstring>
+        <name>i_bias_a</name>
+        <briefdescription>
+<para>Bias current controlling the sub-threshold adaptation strength. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="246" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a80620dac9b5877467ac97c98006a0122" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7ebf298e4c0071c85ec5e52b8754c77a" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v2::AtomicNeuron::Adaptation::i_bias_b</definition>
+        <argsstring></argsstring>
+        <name>i_bias_b</name>
+        <briefdescription>
+<para>Bias current controlling the spike-triggered adaptation strength. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="249" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1af67401fbc6becb79ae3011a62a2b9ca7" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7ebf298e4c0071c85ec5e52b8754c77a" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v2::AtomicNeuron::Adaptation::i_bias_tau</definition>
+        <argsstring></argsstring>
+        <name>i_bias_tau</name>
+        <briefdescription>
+<para>Bias current controlling the adaptation time constant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="243" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a5772232ef77acc90c703318732e6f099" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Adaptation::invert_a</definition>
+        <argsstring></argsstring>
+        <name>invert_a</name>
+        <briefdescription>
+<para>Flip the sign of a (sub-threshold adaptation). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="234" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a47e05c7437ec5eb05432a44c8f0ee57f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Adaptation::invert_b</definition>
+        <argsstring></argsstring>
+        <name>invert_b</name>
+        <briefdescription>
+<para>Flip the sign of b (spike-triggered adaptation). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="237" column="6" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1aab5220f82e186065475764a22aa578b6" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7ebf298e4c0071c85ec5e52b8754c77a" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v2::AtomicNeuron::Adaptation::v_leak</definition>
+        <argsstring></argsstring>
+        <name>v_leak</name>
+        <briefdescription>
+<para>Reference potential for adaptation OTA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="252" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1accf9b43c418d2bf88055698edb60658e" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1v2_1_1_atomic_neuron_1a7ebf298e4c0071c85ec5e52b8754c77a" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::v2::AtomicNeuron::Adaptation::v_ref</definition>
+        <argsstring></argsstring>
+        <name>v_ref</name>
+        <briefdescription>
+<para><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation" kindref="compound">Adaptation</ref> reference potential the adaptation state variable is pulled towards. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="240" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a9d866e6429373d68044c56444cfd8579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::v2::AtomicNeuron::Adaptation::Adaptation</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Adaptation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1ae86399cca809c1bf7b282d621413de98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Adaptation::operator!=</definition>
+        <argsstring>(Adaptation const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation" kindref="compound">Adaptation</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="255" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1ae817b4cc9a71093c996299a8d8ea886b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::v2::AtomicNeuron::Adaptation::operator==</definition>
+        <argsstring>(Adaptation const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation" kindref="compound">Adaptation</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="254" column="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a35b6c164576d47d58159c2a44f3bf291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Adaptation const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation" kindref="compound">Adaptation</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="258" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" line="220" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/neuron.h" bodystart="221" bodyend="259"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a9d866e6429373d68044c56444cfd8579" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>Adaptation</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a97e083f249252a9cc582cd893004b0c4" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>enable</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a3b510a9e786887309de7ef7d17f0d018" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>enable_pulse</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a85f1d14a5ccd7e61dfab14f343016e0f" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>i_bias_a</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a80620dac9b5877467ac97c98006a0122" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>i_bias_b</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1af67401fbc6becb79ae3011a62a2b9ca7" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>i_bias_tau</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a5772232ef77acc90c703318732e6f099" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>invert_a</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a47e05c7437ec5eb05432a44c8f0ee57f" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>invert_b</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1ae86399cca809c1bf7b282d621413de98" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1a35b6c164576d47d58159c2a44f3bf291" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1ae817b4cc9a71093c996299a8d8ea886b" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1aab5220f82e186065475764a22aa578b6" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>v_leak</name></member>
+      <member refid="structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_adaptation_1accf9b43c418d2bf88055698edb60658e" prot="public" virt="non-virtual"><scope>lola::vx::v2::AtomicNeuron::Adaptation</scope><name>v_ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,711 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="v2_2pylola_8h" kind="file" language="C++">
+    <compoundname>pylola.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">pybind11/pybind11.h</includes>
+    <includes local="yes">haldls/cerealization.tcc</includes>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes local="yes">haldls/cerealization.h</includes>
+    <includes local="yes">haldls/vx/pickle.h</includes>
+    <includes refid="cerealization_8h" local="yes">lola/vx/cerealization.h</includes>
+    <includes refid="v2_2lola_8h" local="yes">lola/vx/v2/lola.h</includes>
+    <includes local="yes">lola/vx/v2/container.def</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h</label>
+        <link refid="v2_2pylola_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>lola/vx/v2/chip.tcc</label>
+      </node>
+      <node id="42">
+        <label>lola/vx/memory_timing.tcc</label>
+      </node>
+      <node id="37">
+        <label>lola/vx/v2/memory_timing.h</label>
+        <link refid="v2_2memory__timing_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>lola/vx/routing_crossbar.tcc</label>
+      </node>
+      <node id="69">
+        <label>lola/vx/synapse_block.h</label>
+        <link refid="synapse__block_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>haldls/vx/ppu.h</label>
+      </node>
+      <node id="45">
+        <label>haldls/vx/v2/neuron.h</label>
+      </node>
+      <node id="70">
+        <label>lolaID(/)vxID(/)vID(CHIP_REVISION)/synapse.h</label>
+      </node>
+      <node id="18">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="78">
+        <label>halco/hicann-dls/vx/dac.h</label>
+      </node>
+      <node id="32">
+        <label>lola/vx/capmem.tcc</label>
+      </node>
+      <node id="30">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/synapse.h</label>
+      </node>
+      <node id="60">
+        <label>haldls/vx/readout.h</label>
+      </node>
+      <node id="21">
+        <label>haldls/vx/synapse.h</label>
+      </node>
+      <node id="39">
+        <label>halco/hicann-dls/vx/memory_timing.h</label>
+      </node>
+      <node id="38">
+        <label>lola/vx/memory_timing.h</label>
+        <link refid="memory__timing_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>haldls/vx/synapse_driver.h</label>
+      </node>
+      <node id="51">
+        <label>haldls/vx/fpga.h</label>
+      </node>
+      <node id="74">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/synapse_driver.h</label>
+      </node>
+      <node id="16">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="71">
+        <label>lola/vx/v2/synapse_driver.h</label>
+        <link refid="v2_2synapse__driver_8h"/>
+        <childnode refid="72" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/padi.h</label>
+      </node>
+      <node id="20">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="44">
+        <label>haldls/vx/v2/capmem.h</label>
+      </node>
+      <node id="54">
+        <label>lola/vx/v2/readout_chain.h</label>
+        <link refid="v2_2readout__chain_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="4">
+        <label>haldls/cerealization.tcc</label>
+      </node>
+      <node id="33">
+        <label>lola/vx/v2/chip.h</label>
+        <link refid="v2_2chip_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>haldls/vx/v2/background.h</label>
+      </node>
+      <node id="43">
+        <label>lola/vx/v2/neuron.h</label>
+        <link refid="v2_2neuron_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>halco/hicann-dls/vx/current_dac.h</label>
+      </node>
+      <node id="61">
+        <label>lola/vx/readout_chain.tcc</label>
+      </node>
+      <node id="15">
+        <label>lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>lola/vx/v2/dac.h</label>
+        <link refid="v2_2dac_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>lola/vx/v2/routing_crossbar.h</label>
+        <link refid="v2_2routing__crossbar_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>lola/vx/routing_crossbar.h</label>
+        <link refid="routing__crossbar_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="48">
+        <label>lola/vx/v2/ppu.h</label>
+        <link refid="v2_2ppu_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>haldls/vx/v2/ppu.h</label>
+      </node>
+      <node id="53">
+        <label>lola/vx/ppu.tcc</label>
+      </node>
+      <node id="49">
+        <label>lola/vx/ppu.h</label>
+        <link refid="ppu_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>haldls/vx/routing_crossbar.h</label>
+      </node>
+      <node id="50">
+        <label>halco/hicann-dls/vx/coordinates.h</label>
+      </node>
+      <node id="13">
+        <label>lola/vx/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>haldls/vx/current_dac.h</label>
+      </node>
+      <node id="77">
+        <label>lola/vx/dac.h</label>
+        <link refid="dac_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>lola/vx/v2/container.def</label>
+      </node>
+      <node id="14">
+        <label>lola/vx/v2/cadc.h</label>
+        <link refid="v2_2cadc_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+      <node id="19">
+        <label>haldls/vx/cadc.h</label>
+      </node>
+      <node id="28">
+        <label>lola/vx/v2/capmem.h</label>
+        <link refid="v2_2capmem_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/capmem.h</label>
+      </node>
+      <node id="17">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="55">
+        <label>lola/vx/readout_chain.h</label>
+        <link refid="readout__chain_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>lola/vx/v2/synapse.h</label>
+        <link refid="v2_2synapse_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>cereal/macros.hpp</label>
+      </node>
+      <node id="40">
+        <label>haldls/vx/neuron.h</label>
+      </node>
+      <node id="3">
+        <label>pybind11/pybind11.h</label>
+      </node>
+      <node id="23">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="79">
+        <label>haldls/vx/spi.h</label>
+      </node>
+      <node id="34">
+        <label>halco/hicann-dls/vx/v2/chip.h</label>
+      </node>
+      <node id="29">
+        <label>lola/vx/capmem.h</label>
+        <link refid="capmem_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="27">
+        <label>haldlsID(/)vxID(/)vID(CHIP_REVISION)/correlation.h</label>
+      </node>
+      <node id="56">
+        <label>halco/hicann-dls/vx/readout.h</label>
+      </node>
+      <node id="8">
+        <label>lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>lola/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="12">
+        <label>lola/vx/v2/lola.h</label>
+        <link refid="v2_2lola_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>halco/hicann-dls/vx/routing_crossbar.h</label>
+      </node>
+      <node id="5">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>type_traits</label>
+      </node>
+      <node id="7">
+        <label>haldls/vx/pickle.h</label>
+      </node>
+      <node id="47">
+        <label>lola/vx/v2/neuron.tcc</label>
+      </node>
+      <node id="72">
+        <label>lola/vx/synapse_driver.h</label>
+        <link refid="synapse__driver_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>haldls/vx/madc.h</label>
+      </node>
+      <node id="68">
+        <label>lola/vx/v2/synapse_block.h</label>
+        <link refid="v2_2synapse__block_8h"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>halco/hicann-dls/vx/capmem.h</label>
+      </node>
+      <node id="6">
+        <label>haldls/cerealization.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v2">lola::vx::v2</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx_1_1v2_1_1detail">lola::vx::v2::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="v2_2pylola_8h_1aa15fad99fdc0176449ba6857f9c0983e" prot="public" static="no">
+        <name>LAST_PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>#Name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" line="26" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="v2_2pylola_8h_1aa15fad99fdc0176449ba6857f9c0983e" prot="public" static="no">
+        <name>LAST_PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>Type</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" line="32" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="v2_2pylola_8h_1a6d32ec951a492e6c29f32f7b856e2869" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>#Name,</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" line="25" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="v2_2pylola_8h_1a6d32ec951a492e6c29f32f7b856e2869" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>Type,</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" line="31" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="v2_2pylola_8h_1a3ae224f5a9892aaeefb469b1eb44f0da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>parent</type>
+        <definition>parent attr</definition>
+        <argsstring>(&quot;containers&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;containers&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" line="51" column="9" declfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h" declline="51" declcolumn="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/lola/vx/v2/pylola.h"/>
+  </compounddef>
+</doxygen>

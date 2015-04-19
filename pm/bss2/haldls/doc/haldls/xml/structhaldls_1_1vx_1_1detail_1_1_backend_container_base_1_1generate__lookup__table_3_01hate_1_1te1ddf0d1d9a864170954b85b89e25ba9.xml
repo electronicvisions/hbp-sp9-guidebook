@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::BackendContainerBase::generate_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</compoundname>
+    <includes refid="traits_8h" local="no">traits.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename...</type>
+        <declname>Ts</declname>
+        <defname>Ts</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a04ff90bd445b93fbbe99d67e1930f25d" prot="public" static="no">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1vx_1a090837f0a96d7d15d40eeef01be6711c" kindref="member">Backend</ref>, sizeof...(Ts)&gt;</type>
+        <definition>typedef std::array&lt;Backend, sizeof...(Ts)&gt; haldls::vx::detail::BackendContainerBase&lt; ContainerT, DefaultBackendContainer, AdditionalBackendContainer &gt;::generate_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;::table_type</definition>
+        <argsstring></argsstring>
+        <name>table_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" line="94" column="20" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a27deae88f2a37fb830bea52b543fee33" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr static auto</type>
+        <definition>constexpr static auto haldls::vx::detail::BackendContainerBase&lt; ContainerT, DefaultBackendContainer, AdditionalBackendContainer &gt;::generate_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;::backend_index_lookup_table</definition>
+        <argsstring></argsstring>
+        <name>backend_index_lookup_table</name>
+        <initializer>=
+		    <ref refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a29f07188b586db575721a1d7d3fb0575" kindref="member">gen</ref>(<ref refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a04ff90bd445b93fbbe99d67e1930f25d" kindref="member">table_type</ref>(), std::make_index_sequence&lt;sizeof...(Ts)&gt;())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" line="117" column="23" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a29f07188b586db575721a1d7d3fb0575" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>size_t</type>
+            <declname>I</declname>
+            <defname>I</defname>
+          </param>
+          <param>
+            <type>size_t...</type>
+            <declname>Is</declname>
+            <defname>Is</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr static <ref refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a04ff90bd445b93fbbe99d67e1930f25d" kindref="member">table_type</ref></type>
+        <definition>constexpr static table_type haldls::vx::detail::BackendContainerBase&lt; ContainerT, DefaultBackendContainer, AdditionalBackendContainer &gt;::generate_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;::gen</definition>
+        <argsstring>(table_type table, std::index_sequence&lt; I, Is... &gt;)</argsstring>
+        <name>gen</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a04ff90bd445b93fbbe99d67e1930f25d" kindref="member">table_type</ref></type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type>std::index_sequence&lt; I, Is... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" line="97" column="29" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" bodystart="97" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" line="92" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzEzNzk.x/haldls/include/haldls/vx/traits.h" bodystart="93" bodyend="119"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a27deae88f2a37fb830bea52b543fee33" prot="public" virt="non-virtual"><scope>haldls::vx::detail::BackendContainerBase::generate_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</scope><name>backend_index_lookup_table</name></member>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a29f07188b586db575721a1d7d3fb0575" prot="public" virt="non-virtual"><scope>haldls::vx::detail::BackendContainerBase::generate_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</scope><name>gen</name></member>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_base_1_1generate__lookup__table_3_01hate_1_1te1ddf0d1d9a864170954b85b89e25ba9_1a04ff90bd445b93fbbe99d67e1930f25d" prot="public" virt="non-virtual"><scope>haldls::vx::detail::BackendContainerBase::generate_lookup_table&lt; hate::type_list&lt; Ts... &gt; &gt;</scope><name>table_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
