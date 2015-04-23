@@ -11,16 +11,16 @@ _`SpiNNaker hardware':
 The MC-1 has a amount of software support to allow the PyNN interface to execute
 on the MC-1 machine, These range from low level software:
 
- _`SARK`: https://github.com/SpiNNakerManchester/spinnaker_tools/blob/master/docs/sark.pdf
- _`Spin1API`: https://github.com/SpiNNakerManchester/spinnaker_tools/blob/master/docs/spinn_api_doc.pdf
- _`Ybug`: https://github.com/SpiNNakerManchester/spinnaker_tools/blob/master/docs/ybug.pdf
+ _`SARK`: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/sark.pdf
+ _`Spin1API`: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/spinn_api_doc.pdf
+ _`Ybug`: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/ybug.pdf
 
 to high level software that takes a graph representation of an application (in
 this case a PyNN description of a Neural network) and maps, optimises and
 executes this application on the MC-1 hardware and supports the retrival of
 application data generated during the applciations execution.
 
- _`sPyNNaker front end`: https://github.com/SpiNNakerManchester/sPyNNaker
+ _`sPyNNaker front end`: https://github.com/SpiNNakerManchester/sPyNNaker/tree/2015.004
 
 
 Supported cells and plasticity mechanisms
@@ -29,7 +29,7 @@ Supported cells and plasticity mechanisms
  The MC-1 PyNN module within the software stack (named sPyNNaker for clarity
  sakes) currently supports a subset of the standard PyNN interface. The
  supported interface functions can be found in the online documentation under
- _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+ _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
 
 Parameter ranges
 ================
@@ -73,10 +73,10 @@ Injected current
  A third, none standard PyNN interface, way of injecting current into a
  PyNN simulation executing on the hardware is through live injection from a
  external device. These functions are supported by our
- _`sPyNNakerExternalDevicesPlugin`:  https://github.com/SpiNNakerManchester/sPyNNakerExternalDevicesPlugin
+ _`sPyNNakerExternalDevicesPlugin`:  https://github.com/SpiNNakerManchester/sPyNNakerExternalDevicesPlugin/tree/2015.008
 
 A description on how to use this functionality can be found on the online
-documentation under _`2.1 Injecting Data Into SpiNNaker Machines`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2.1-Injecting-Data-Into-SpiNNaker-Machines
+documentation under _`2.1 Injecting Data Into SpiNNaker Machines`:
 
 Projections
 ==========
@@ -114,7 +114,7 @@ Multiple runs
 
  The MC-1 software supports multiple runs of the same PyNN script, a
  description of how to rerun a PyNN script can be found in the online
- documentation under _`2.6 Rerunning PyNN scripts`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2.6-Rerunning-PyNN-scripts
+ documentation under _`2.6 Rerunning PyNN scripts`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-2.5-Rerunning-PyNN-scripts
 
  Available hardware setups
  =========================
