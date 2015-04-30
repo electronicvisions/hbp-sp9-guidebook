@@ -48,7 +48,7 @@ Later updates should generally perform faster as only changes are pulled.
 
 .. code-block:: bash
 
-  sudo docker pull uhei/ess-system:14.04 # this step is optional, docker run will pull what's needed automatically.
+    sudo docker pull uhei/ess-system:14.04 # this step is optional, docker run will pull what's needed automatically.
 
 
 Starting the ESS container
@@ -63,11 +63,12 @@ If you're interested in the option flags of the ``docker run`` command, run ``do
 
 .. code-block:: bash
 
-  # docker help run
-  mkdir ess-data                # where to put user/persistent data
-  VOLUME="${PWD}/ess-data"
-  # NB.: This step may take some time, @see above (Initial download)
-  sudo docker run --name ess-container --hostname ess-container -v "$VOLUME:/bss/$USER" -ti "uhei/ess-system:14.04" /bin/bash
+    # docker help run
+    mkdir ess-data                # where to put user/persistent data
+    VOLUME="${PWD}/ess-data"
+    # NB.: This step may take some time, @see above (Initial download)
+    sudo docker run --name ess-container --hostname ess-container \
+            -v "$VOLUME:/bss/$USER" -ti "uhei/ess-system:14.04" /bin/bash
 
 
 Testing your ESS container installation
