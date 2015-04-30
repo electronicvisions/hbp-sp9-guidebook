@@ -359,8 +359,8 @@ These arguments will be ignored by other PyNN backends.
 
 ``useSmallCap``
     For the hardware neuron one has the choice from two different capacitors used as the membrane capacitance.
-    By default the big capacitor with 2.6 pF is used.
-    By setting ``useSmallCap=True`` one can switch to the small capacitance with 0.4 pF.
+    By default the big capacitor with 2.165 pF is used.
+    By setting ``useSmallCap=True`` one can switch to the small capacitance with 0.164 pF.
     Then, the parameter ranges of the membrane time constant ``tau_m``, the adaption variables ``a`` and ``b`` and synaptic weights are updated.
     This option is useful when running at a high speedup factor (e.g. 20000).
 
