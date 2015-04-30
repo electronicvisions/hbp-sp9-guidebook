@@ -69,10 +69,25 @@ If you're interested in the option flags of the ``docker run`` command, run ``do
   # NB.: This step may take some time, @see above (Initial download)
   sudo docker run --name ess-container --hostname ess-container -v "$VOLUME:/bss/$USER" -ti "uhei/ess-system:14.04" /bin/bash
 
+
+Testing your ESS container installation
+---------------------------------------
+
 You should be in the container now, as ``root`` in the directory ``/bss`` (as in BrainScaleS).
 An ``ls`` should show your folder for persistent data
-(under your user name or whatever you put instead of ``$USER`` in the ``docker run`` command above).
+(under your user name or whatever you put instead of ``$USER`` in the ``docker run`` command above),
+as well as the directories ``mappingtool_test``, ``neurotools`` and ``tutorial``.
 
+To test your installation, you can run some unit tests.
+This is almost the same as with the installation below,
+just the mapping tool test is installed at another location:
+
+.. code-block:: bash
+
+    # root@ess-container:/bss#
+    python mappingtool_test/regression/run_ess_tests.py
+    python $SYMAP2IC_PATH/components/systemsim/test/regression/run_ess_tests.py
+    python $SYMAP2IC_PATH/components/systemsim/test/system/run_ess_tests.py
 
 
 Installation of the ESS (PyNN 0.8)
