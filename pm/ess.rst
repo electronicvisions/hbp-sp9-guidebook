@@ -7,6 +7,74 @@ The ESS is implemented in C++ /SystemC and contains functional models of all rel
 It is fully executable and resembles how neural experiments will be run on the real wafer-scale system. It can be operated from PyNN, so that you can run neural network experiments described in PyNN with the ESS and this this way you can already explore the capabilities of the NM `Physical Model` system.
 
 
+Using the ESS Docker Container
+==============================
+
+There is a Docker-based LXC container (`uhei/ess-system
+<https://registry.hub.docker.com/u/uhei/ess-system>`_) with a recent version of
+the ESS installed. Using this container is considered to be the simplest form
+of accessing the ESS.
+There is no need to install dependencies and build the ESS.
+It is all pre-installed on the ESS Container.
+And the container is updated on a regular basis.
+
+Prerequisites (tested on a native Ubuntu trusty 14.04 LTS a 64-bit machine)
+---------------------------------------------------------------------------
+
+You need to have Docker installed.
+On Ubuntu the Docker package is called ``docker.io``.
+Note that there is a package named ``docker`` in the Ubuntu repositories as well.
+It is something completely different.
+
+After installing you may add yourself to the ``docker`` group.
+Otherwise you have to prepend sudo to most Docker commands.
+
+You might also want to have a look at ``/etc/default/docker.io`` after installation, especially if you're sitting behind a proxy.
+These proxy settings are not for the containers, but for the communication to the Docker Repository (i.e. docker pull).
+
+.. code-block:: bash
+
+    sudo apt-get install docker.io
+    # sudo adduser $USER docker
+    # sudo editor /etc/default/docker.io
+    # re-login
+
+
+Initial download/upgrade of the uhei/ess-system image
+-----------------------------------------------------
+
+The following step takes some time upon first execution, depending on your internet connection.
+Later updates should generally perform faster as only changes are pulled.
+
+.. code-block:: bash
+
+  sudo docker pull uhei/ess-system:14.04 # this step is optional, docker run will pull what's needed automatically.
+
+
+Starting the ESS container
+--------------------------
+
+The execution of the downloaded image creates a new Docker container.
+Note that Docker containers are not persistent.
+But one can link a host directory for persistent user data into the container.
+The following ``docker run`` command does just that.
+The host directory specified by the ``VOLUME`` environment variable will be available as ``/bss/$USER`` within the container.
+If you're interested in the option flags of the ``docker run`` command, run ``docker help run``.
+
+.. code-block:: bash
+
+  # docker help run
+  mkdir ess-data                # where to put user/persistent data
+  VOLUME="${PWD}/ess-data"
+  # NB.: This step may take some time, @see above (Initial download)
+  sudo docker run --name ess-container --hostname ess-container -v "$VOLUME:/bss/$USER" -ti "uhei/ess-system:14.04" /bin/bash
+
+You should be in the container now, as ``root`` in the directory ``/bss`` (as in BrainScaleS).
+An ``ls`` should show your folder for persistent data
+(under your user name or whatever you put instead of ``$USER`` in the ``docker run`` command above).
+
+
+
 Installation of the ESS (PyNN 0.8)
 ==================================
 
