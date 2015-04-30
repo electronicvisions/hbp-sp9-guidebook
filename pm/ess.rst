@@ -1,6 +1,6 @@
-==================================
-Executable system simulation (ESS)
-==================================
+=====================================
+Executable System Specification (ESS)
+=====================================
 
 The Executable System Specification (ESS) is a software model of the NM-PM-1  hardware system.
 The ESS is implemented in C++ /SystemC and contains functional models of all relevant units of the the wafer-scale hardware.
