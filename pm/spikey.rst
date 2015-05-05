@@ -4,6 +4,16 @@ Use of the Spikey
 
 .. todo:: this will be extended by Thomas Pfeil, soon 
 
+Setup hardware
+==============
+
+Update firmware
+---------------
+
+Get the newest firmware from
+
+.. todo:: add github address
+.. todo:: describe how to update
 
 Setup software
 ==============
@@ -44,8 +54,8 @@ and load PyNN:
 Run experiment
 --------------
 
-Download the `Spikey example experiment`.
-For more network descriptions see `Spikey demos`.
+Download the `Spikey example experiment <https://github.com/electronicvisions/spikey_demo/blob/master/networks/example.py>`_.
+For more network descriptions see `Spikey demos <https://github.com/electronicvisions/spikey_demo/blob/master/networks>`_.
 
 * On Heidelberg computer
 
@@ -72,6 +82,3 @@ To view the queue of experiments:
 
   echo "stationXXX" > ~/my_stage1_station
   python example.py
-
-.. _`Spikey example experiment`: https://github.com/electronicvisions/spikey_demo/blob/master/networks/example.py
-.. _`Spikey demos`: https://github.com/electronicvisions/spikey_demo/blob/master/networks/example.py
