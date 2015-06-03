@@ -23,16 +23,29 @@ While the communication to the host computer is mostly established by digital ci
 Compared to biological real-time networks on Spikey chips are accelerated, because time constants on the chip are approximately :math:`10^4` times smaller than in biology.
 Each neuron and synapse has its physical implementation on the chip.
 The total number of 384 neurons are split into two blocks of 192 neurons with 256 synapses each.
-Each line of synapses in these blocks, i.e. 192 synapses, is driven by a *synapse line driver* that can be configured to receive input from either external spike sources (e.g., generated on the host computer) or from on-chip neurons.
+Each line of synapses in these blocks, i.e. 192 synapses, is driven by a *line driver* that can be configured to receive input from either external spike sources (e.g., generated on the host computer) or from on-chip neurons.
 
 .. figure:: spikey_topology.png
     :align: center
     :alt: Network topology
     :width: 400px
 
-    Connection scheme for on-chip neurons:
-    Synapse drivers (red) can be configured to receive either input from the same or the other block of neurons (blue).
-    For each synapse (green) its weight can be configured with a 4-bit resolution, i.e., 16 different values.
+    Numbering of neurons (blue) and synapse line drivers (red).
+    Here, only connections within the same block of neurons are shown.
+    For connections between the blocks see XXX.
+    The weight of each synapse (green) can be configured with a 4-bit resolution, i.e., 16 different values.
+
+==============  ====================  =====================
+Line driver ID  Neuron ID left block  Neuron ID right block
+==============  ====================  =====================
+0               0                     193
+1               1                     192
+2               2                     195
+...             ...                   ...
+==============  ====================  =====================
+
+.. todo:: copy table from Stöckel and replace XXX in figure with ref to it
+.. todo:: Synapse drivers (red) can be configured to receive either input from the same or the other block of neurons. Add annotation to figure.
 
 .. todo:: add info about neuron
 .. todo:: add info about synapse driver
