@@ -23,33 +23,51 @@ While the communication to the host computer is mostly established by digital ci
 Compared to biological real-time networks on Spikey chips are accelerated, because time constants on the chip are approximately :math:`10^4` times smaller than in biology.
 Each neuron and synapse has its physical implementation on the chip.
 The total number of 384 neurons are split into two blocks of 192 neurons with 256 synapses each.
-Each line of synapses in these blocks, i.e. 192 synapses, is driven by a *line driver* that can be configured to receive input from either external spike sources (e.g., generated on the host computer) or from on-chip neurons.
+Each line of synapses in these blocks, i.e. 192 synapses, is driven by a *line driver*
+that can be configured to receive input from external spike sources (e.g., generated on the host computer), from on-chip neurons in the same block or from on-chip neurons in the adjacent block.
+
+.. todo:: mention 4th input?
 
 .. figure:: spikey_topology.png
     :align: center
     :alt: Network topology
     :width: 400px
 
-    Numbering of neurons (blue) and synapse line drivers (red).
+    Numbering of neurons (blue) and line drivers (red).
     Here, only connections within the same block of neurons are shown.
-    For connections between the blocks see XXX.
+    For connections between the blocks see the following table.
     The weight of each synapse (green) can be configured with a 4-bit resolution, i.e., 16 different values.
 
-==============  ====================  =====================
-Line driver ID  Neuron ID left block  Neuron ID right block
-==============  ====================  =====================
-0               0                     193
-1               1                     192
-2               2                     195
-...             ...                   ...
-==============  ====================  =====================
+.. TP: table directive does not work
+Neuron assignment to line drivers. The last (upper) 64 line drivers receive external inputs only.
+To exploit chip resources for external spike sources line drivers are allocated from top to bottom.
 
-.. todo:: copy table from Stöckel and replace XXX in figure with ref to it
-.. todo:: Synapse drivers (red) can be configured to receive either input from the same or the other block of neurons. Add annotation to figure.
+==============  ====================  ===================== ==============  ====================  =====================
+Line driver ID  Neuron ID left block  Neuron ID right block Line driver ID  Neuron ID left block  Neuron ID right block
+==============  ====================  ===================== ==============  ====================  =====================
+0               0                     193                    256             192                    1
+1               1                     192                    257             193                    0
+2               2                     195                    258             194                    3
+3               3                     194                    259             195                    2
+...             ...                   ...                    ...             ...                   ...
+190             190                   383                    446             382                   191
+191             191                   382                    447             383                   190
+192             ext only              ext                    448             ext only              ext only only
+...             ...                   ...                    ...             ...                   ...
+255             ext only              ext                    511             ext only              ext only only
+==============  ====================  ===================== ==============  ====================  =====================
 
-.. todo:: add info about neuron
-.. todo:: add info about synapse driver
-.. todo:: add info about synapse
+The hardware implementations of neurons and synapses are inspired by the leaky integrate-and-fire neuron model using synapses with exponentially decaying or alpha-shaped conductances.
+While the leak conductance and (absolute) refractory period is individually configurable for each neuron,
+the resting, reset, threshold, excitatory reversal and inhibitory reversal potentials are shared among neurons (see [Pfeil2013]_ for details).
+Line drivers generate the time course of postsynaptic conductances (PSCs) for a single row of synapses.
+Among other parameters the rise time, fall time and amplitude of PSCs can be modulated.
+Each synapse stores a configurable 4-bit weight.
+A synapse can be turned off, if its weight equals zero.
+
+.. todo:: list parameter names
+.. todo:: add sketch for PSC
+
 .. todo:: add info about stp
 .. todo:: add info about stdp
 
