@@ -157,20 +157,20 @@ influence this placement or control it manually. [INSERT EXAMPLE]. This is expla
 
 The MC-1 system has a number of additional configuration options that can be
 passed to :func:`setup()`. These are explained in the online documentation on
-_`Configuring the sPyNNaker front end, and its limitations:Configuration though
-the PyNN provided setup() function `: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+`Configuring the sPyNNaker front end, and its limitations: Configuration though
+the PyNN provided setup() function`_.
 
 The MC-1 system also has a number of limitations, for example, only a subset
 of the PyNN stndard neuron and synapse models are currently available. These
 limitations are defined in the online documentation on
-_`Configuring the sPyNNaker front end, and its limitations:Limitations `: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+`Configuring the sPyNNaker front end, and its limitations: Limitations`_.
 
 
 The MC-1 software stack attempts to automatically partition the populations
 defined in the PyNN script into core sized chunks (the smallest atomic size of
 resource for a machine) of neurons which are then placed onto the machine in an
 optimal way in regard to the machine's available resources. However, it is
- possible to influence the partitioning and placement behaviours manually.
+possible to influence the partitioning and placement behaviours manually.
 
 For example, take the PyNN definition of a population from the "synfire chain"
 example discussed preivously, and shown below:
@@ -194,10 +194,13 @@ shown below:
     populations[syn_type].add_constraint(sim.PartitionerMaximumSizeConstraint(200))
 
 This and other examples of manual limitations can be found in the online
-documentation on _`Configuring the sPyNNaker front end, and its limitations:
-User Defined Limits and :Configuration though the spynnaker.cfg file`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+documentation on `Configuring the sPyNNaker front end, and its limitations:
+User Defined Limits and Configuration though the spynnaker.cfg file`_
 
 .. _PyNN: http://neuralensemble.org/PyNN/
 .. _`PyNN 0.6 documentation`: http://neuralensemble.org/trac/PyNN/
 .. _`PyNN 0.7 documentation`: http://neuralensemble.org/trac/PyNN/
 .. _`PyNN 0.8 documentation`: http://neuralensemble.org/docs/PyNN/
+.. _`Configuring the sPyNNaker front end, and its limitations: Configuration though the PyNN provided setup() function`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+.. _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+.. _`Configuring the sPyNNaker front end, and its limitations: User Defined Limits and Configuration though the spynnaker.cfg file`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
