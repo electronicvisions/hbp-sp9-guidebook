@@ -20,5 +20,6 @@ The platform provides two complementary, large-scale neuromorphic systems built 
    pm/pm_hardware_configuration
    mc/spiNNaker_configuration
    local_simulations
+   benchmarks
    getting_help
    appendix
