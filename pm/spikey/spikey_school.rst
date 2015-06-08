@@ -79,7 +79,7 @@ A synapse can be turned off, if its weight is set to zero.
 Lesson 1: Exploring the parameter space
 ---------------------------------------
 
-.. figure:: rate_over_gleak.png
+.. .. figure:: rate_over_gleak.png
     :align: center
     :alt: Rate over leak conductance
     :width: 400px
