@@ -53,7 +53,7 @@ Then create and change to a directory for marocco, e.g., ``/wang/users/somebody/
     waf configure
     waf install --test-execnone
     # some extra targets are needed
-    waf install --target=pyhalbe,pysthal,redman_xml --test-execnone
+    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml --test-execnone
 
 including cake (optional):
 
@@ -63,7 +63,7 @@ including cake (optional):
     waf configure
     waf install --test-execnone
     # some extra targets are needed
-    waf install --target=pyhalbe,pysthal,redman_xml,pycake --test-execnone
+    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml,pycake --test-execnone
 
 including support for ESS add ``--with-ess`` to setup call.
 
