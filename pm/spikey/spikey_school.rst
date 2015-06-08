@@ -13,14 +13,13 @@ The following paragraph will briefly summarize the features of the Spikey system
     :alt: The Spikey system
     :width: 400px
 
-    In (a) Microphotograph of the Spikey neuromorphic chip.
-    In (b) Photograph of the Spikey neuromorphic system.
-    The Spikey chip is covered by a black seal.
+    A photograph of the Spikey neuromorphic chip (a) and system (b), respectively.
+    In (b) the Spikey chip is covered by a black seal.
     Adapted from [Pfeil2013]_.
 
 The Spikey chip is fabricated in a 180nm CMOS process with die size :math:`5\,mm \times 5\,mm`.
 While the communication to the host computer is mostly established by digital circuits, the spiking neural network is mostly implemented with analog circuits.
-Compared to biological real-time networks on Spikey chips are accelerated, because time constants on the chip are approximately :math:`10^4` times smaller than in biology.
+Compared to biological real-time, networks on the Spikey chip are accelerated, because time constants on the chip are approximately :math:`10^4` times smaller than in biology.
 Each neuron and synapse has its physical implementation on the chip.
 The total number of 384 neurons are split into two blocks of 192 neurons with 256 synapses each.
 Each line of synapses in these blocks, i.e. 192 synapses, is driven by a *line driver*
@@ -39,8 +38,8 @@ that can be configured to receive input from external spike sources (e.g., gener
     The weight of each synapse (green) can be configured with a 4-bit resolution, i.e., 16 different values.
 
 .. TP: table directive does not work
-Neuron assignment to line drivers. The last (upper) 64 line drivers receive external inputs only.
-To exploit chip resources for external spike sources line drivers are allocated from top to bottom.
+Neuron assignment to line drivers.
+The last (upper) 64 line drivers receive external inputs only and hence external spike sources line drivers are allocated from top to bottom.
 
 ==============  ====================  ===================== ==============  ====================  =====================
 Line driver ID  Neuron ID left block  Neuron ID right block Line driver ID  Neuron ID left block  Neuron ID right block
@@ -61,9 +60,9 @@ The hardware implementations of neurons and synapses are inspired by the leaky i
 While the leak conductance and (absolute) refractory period is individually configurable for each neuron,
 the resting, reset, threshold, excitatory reversal and inhibitory reversal potentials are shared among neurons (see [Pfeil2013]_ for details).
 Line drivers generate the time course of postsynaptic conductances (PSCs) for a single row of synapses.
-Among other parameters the rise time, fall time and amplitude of PSCs can be modulated.
+Among other parameters the rise time, fall time and amplitude of PSCs can be modulated for each line driver.
 Each synapse stores a configurable 4-bit weight.
-A synapse can be turned off, if its weight equals zero.
+A synapse can be turned off, if its weight is set to zero.
 
 .. todo:: list parameter names
 .. todo:: add sketch for PSC
@@ -78,6 +77,13 @@ A synapse can be turned off, if its weight equals zero.
 
 Lesson 1: Exploring the parameter space
 ---------------------------------------
+
+.. figure:: rate_over_gleak.png
+    :align: center
+    :alt: Rate over leak conductance
+    :width: 400px
+
+    Average firing rate in dependence on leak conductance :math:`g_{leak}` (`source code <https://github.com/electronicvisions/spikey_demo/blob/master/networks/rate_over_gleak.py>`_).
 
 Lesson 2: Feedforward networks
 ------------------------------
