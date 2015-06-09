@@ -6,21 +6,21 @@ The MC-1 machine is designed to utilise the power of digital hardware and
 support various models/application though the use of programmable software that
 can run on ARM cores. A description of the hardware can be located online at
 
-_`SpiNNaker hardware':
+`SpiNNaker hardware`_
 
 The MC-1 has a amount of software support to allow the PyNN interface to execute
 on the MC-1 machine, These range from low level software:
 
- _`SARK`: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/sark.pdf
- _`Spin1API`: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/spinn_api_doc.pdf
- _`Ybug`: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/ybug.pdf
+ SARK_: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/sark.pdf
+ Spin1API_: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/spinn_api_doc.pdf
+ Ybug_: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/ybug.pdf
 
 to high level software that takes a graph representation of an application (in
 this case a PyNN description of a Neural network) and maps, optimises and
 executes this application on the MC-1 hardware and supports the retrival of
-application data generated during the applciations execution.
+application data generated during the applications execution.
 
- _`sPyNNaker front end`: https://github.com/SpiNNakerManchester/sPyNNaker/tree/2015.004
+`sPyNNaker front end`_
 
 
 Supported cells and plasticity mechanisms
@@ -29,15 +29,15 @@ Supported cells and plasticity mechanisms
  The MC-1 PyNN module within the software stack (named sPyNNaker for clarity
  sakes) currently supports a subset of the standard PyNN interface. The
  supported interface functions can be found in the online documentation under
- _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+ `Configuring the sPyNNaker front end, and its limitations: Limitations`_
 
 Parameter ranges
 ================
 
  TODO Not sure if this section is really needed for our stuff.
 
-Recording spikes, membrane potential and Synaptic Conductance
-=======================================
+Recording spikes, membrane potential and synaptic conductance
+=============================================================
 
  The spikes of all neurons mapped onto the hardware as well as the input spikes
  can be recorded. Spikes are returned to the PyNN script via the standard PyNN
@@ -73,13 +73,13 @@ Injected current
  A third, none standard PyNN interface, way of injecting current into a
  PyNN simulation executing on the hardware is through live injection from a
  external device. These functions are supported by our
- _`sPyNNakerExternalDevicesPlugin`:  https://github.com/SpiNNakerManchester/sPyNNakerExternalDevicesPlugin/tree/2015.008
+ sPyNNakerExternalDevicesPlugin_
 
 A description on how to use this functionality can be found on the online
 documentation under _`2.1 Injecting Data Into SpiNNaker Machines`:
 
 Projections
-==========
+===========
 
 The MC-1 software stack supports projections as part of the model's software
 that runs on the hardware. Therefore we synaptic delays as programmable aspects.
@@ -114,10 +114,10 @@ Multiple runs
 
  The MC-1 software supports multiple runs of the same PyNN script, a
  description of how to rerun a PyNN script can be found in the online
- documentation under _`2.6 Rerunning PyNN scripts`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-2.5-Rerunning-PyNN-scripts
+ documentation under `2.6 Rerunning PyNN scripts`_
 
- Available hardware setups
- =========================
+Available hardware setups
+=========================
 
 TODO Dont know what to put here
 
@@ -125,3 +125,12 @@ Mapping
 =======
 
 TODO Dont know if we should delve into the software stacks mapping processes.
+
+.. _`SpiNNaker hardware`: http://apt.cs.manchester.ac.uk/projects/SpiNNaker/
+.. _SARK: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/sark.pdf
+.. _Spin1API: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/spinn_api_doc.pdf
+.. _Ybug: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/ybug.pdf
+.. _`sPyNNaker front end`: https://github.com/SpiNNakerManchester/sPyNNaker/tree/2015.004
+.. _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+.. _sPyNNakerExternalDevicesPlugin:  https://github.com/SpiNNakerManchester/sPyNNakerExternalDevicesPlugin/tree/2015.008
+.. _`2.6 Rerunning PyNN scripts`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-2.5-Rerunning-PyNN-scripts

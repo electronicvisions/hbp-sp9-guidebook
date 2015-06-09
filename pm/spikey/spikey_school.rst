@@ -36,6 +36,7 @@ that can be configured to receive input from external spike sources (e.g., gener
     The weight of each synapse (green) can be configured with a 4-bit resolution, i.e., 16 different values.
 
 .. TP: table directive does not work
+
 Neuron assignment to line drivers.
 The last (upper) 64 line drivers receive external inputs only and hence external spike sources line drivers are allocated from top to bottom.
 
@@ -78,7 +79,7 @@ For efficient data analysis and visualization with Python see tutorials for `Num
 Lesson 1: Exploring the parameter space
 ---------------------------------------
 
-.. figure:: rate_over_gleak.png
+.. .. figure:: rate_over_gleak.png
     :align: center
     :alt: Rate over leak conductance
     :width: 400px
