@@ -1,3 +1,5 @@
+.. _building_models:
+
 ===============
 Building models
 ===============

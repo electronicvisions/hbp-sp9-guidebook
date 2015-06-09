@@ -1,5 +1,5 @@
 =====================================
-Use of the Spikey neuromorphic system
+Using the Spikey neuromorphic system
 =====================================
 
 .. toctree::
