@@ -79,7 +79,7 @@ For efficient data analysis and visualization with Python see tutorials for `Num
 Lesson 1: Exploring the parameter space
 ---------------------------------------
 
-.. .. figure:: rate_over_gleak.png
+.. figure:: rate_over_gleak.png
     :align: center
     :alt: Rate over leak conductance
     :width: 400px
