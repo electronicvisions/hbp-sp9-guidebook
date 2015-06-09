@@ -1,6 +1,6 @@
-======================================
-Use of the standalone SpiNNaker boards
-======================================
+===============================
+The SpiNNaker standalone system
+===============================
 
 To use a standalone SpiNNaker board requires the installation of the software
 stack and the access to a live SpiNNaker board.

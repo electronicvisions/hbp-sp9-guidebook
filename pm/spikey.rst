@@ -1,6 +1,6 @@
-=====================================
-Using the Spikey neuromorphic system
-=====================================
+==================================
+The Spikey "physical model" system
+==================================
 
 .. toctree::
    :maxdepth: 2

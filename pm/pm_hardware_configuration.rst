@@ -1,6 +1,6 @@
-===========================
-The "Physical Model" system
-===========================
+======================
+Hardware configuration
+======================
 
 At the core of the NM-PM-1 wafer-scale hardware system (see :ref:`Figure <waferscale-hardware-figure>`) is an uncut wafer built from mixed-signal ASICs [#f1]_,
 named `High Input Count Analog Neural Network` chips (`HICANNs`), that provide a highly configurable substrate which physically emulates adaptively spiking neurons and dynamic synapses (`Schemmel et al. (2010)`_, `Schemmel et al. (2008)`_).

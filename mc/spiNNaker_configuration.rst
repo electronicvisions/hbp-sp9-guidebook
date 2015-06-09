@@ -1,6 +1,6 @@
-======================
-The "Many core" system
-======================
+================================
+The SpiNNaker "many core" system
+================================
 
 The MC-1 machine is designed to utilise the power of digital hardware and
 support various models/application though the use of programmable software that
