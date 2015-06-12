@@ -2,7 +2,7 @@
 The HBP Neuromorphic Computing Platform
 =======================================
 
-Document version:
+Living document version:
 
 .. include:: gitversion.rst_tochide
 

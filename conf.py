@@ -16,8 +16,8 @@ import sys
 import os
 
 # create up2date gitversion file (which is included at the top)
-from subprocess import call
-call("git describe --always --tags --dirty > gitversion.rst_tochide", shell=True)
+from subprocess import check_output
+repo_version = check_output("git describe --always --tags --dirty | tee gitversion.rst_tochide", shell=True)
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -124,7 +124,7 @@ html_theme = 'agogo'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = title
+html_title = title + ' (WIP)'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -150,7 +150,7 @@ html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = '%b %d, %Y ' + '(%s)' % repo_version.rstrip(' \n')
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
