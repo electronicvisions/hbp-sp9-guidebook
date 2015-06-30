@@ -104,6 +104,7 @@ Scripts submitted to the Neuromorphic Computing Platform should not in general c
 analysis code. Instead you should save spikes to file and use the other tools available in the Unified Portal for
 analysing and visualizing the results.
 
+.. _using-different-backends:
 
 Using different backends
 ========================
