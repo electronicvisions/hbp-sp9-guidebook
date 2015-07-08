@@ -73,7 +73,7 @@ For efficient data analysis and visualization with Python see tutorials for `Num
 .. todo:: add info about stdp
 
 .. todo:: mention 4th input?
-
+.. todo:: add Bruederle's diss and other publications about chip?
 
 .. _lesson_1:
 

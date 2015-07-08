@@ -66,6 +66,8 @@ If using the Spikey system on a private computer, you will need root privileges 
 Experiment execution
 ====================
 
+.. _label-beforeexp:
+
 Once before executing experiments
 ---------------------------------
 

@@ -1,6 +1,8 @@
 Setup hardware
 ==============
 
+.. warning:: this section is work in progress
+
 Update firmware
 ---------------
 
