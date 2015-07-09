@@ -1,6 +1,8 @@
 Spikey school
 =============
 
+.. _label-intro:
+
 Introduction
 ------------
 
@@ -80,6 +82,13 @@ For efficient data analysis and visualization with Python see tutorials for `Num
 Lesson 1: Exploring the parameter space
 ---------------------------------------
 
+.. todo:: add some general words about variation, reproducibility and parametrization
+
+In this lesson we explore the parameter space of neurons and synapses on the Spikey chip.
+First, we measure the dependency of the population firing rate on the leak conductance of neurons.
+The network comprises ``noNeurons`` neurons, of which each is stimulated by ``noInputs`` inputs randomly drawn from a shared pool of ``noStims`` spike sources.
+For each spike source independently, spikes are drawn from a Poisson process with rate ``rateStim``.
+
 .. figure:: rate_over_gleak.png
     :align: center
     :alt: Rate over leak conductance
@@ -87,13 +96,32 @@ Lesson 1: Exploring the parameter space
 
     Average firing rate in dependence on leak conductance :math:`g_{leak}` (`source code <https://github.com/electronicvisions/spikey_demo/blob/master/networks/rate_over_gleak.py>`_).
 
-.. todo:: compare synaptic time constants between exc and inh synapses
+**Tasks:**
+
+* Quantify the variations of these population firing rates by adding error bars to the plot.
+  Also plot the firing rates of single neurons.
+
+* Measure and plot the dependency of the population firing rate on the other neuron parameters (see :ref:`label-intro`).
+
+* Measure the reproducibility of emulations, i.e., the error of the average firing rate across consecutive trials, using the default neuron parameters for single neurons and populations of neurons.
+  Plot the dependency of this reproducibility on both the duration of emulations and the number of consecutive trials.
+
+For the characterization of the synaptic parameters, we stimulate a single neuron with a single spike and record the membrane potential of the neuron.
+In order to average out noise on the membrane potential (mostly caused by the readout process) we stimulate the neuron with a regular spike train and calculate the spike-triggered average of these so-called excitatory postsynaptic potentials (EPSPs).
+
+.. todo:: add figure (results and 2*schematics) and links to source code
+.. todo:: regarding noise refer to Eric's publication
+.. todo:: add tasks, e.g., compare synaptic time constants between exc and inh synapses
 
 Lesson 2: Feedforward networks
 ------------------------------
 
+.. todo:: add synfire chain here
+
 Lesson 3: Recurrent networks
 ----------------------------
+
+.. todo:: add decorrelation network here
 
 Lesson 4: Short-term plasticity
 -------------------------------
