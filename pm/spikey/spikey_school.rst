@@ -85,9 +85,21 @@ Lesson 1: Exploring the parameter space
 .. todo:: add some general words about variation, reproducibility and parametrization
 
 In this lesson we explore the parameter space of neurons and synapses on the Spikey chip.
+Due to imperfections in the production process, parameters of neurons and synapses vary across the chip (fixed-pattern noise).
+In contrast to these static variations, temporal noise causes different results in consecutive emulations of identical networks.
+
 First, we measure the dependency of the population firing rate on the leak conductance of neurons.
 The network comprises ``noNeurons`` neurons, of which each is stimulated by ``noInputs`` inputs randomly drawn from a shared pool of ``noStims`` spike sources.
 For each spike source independently, spikes are drawn from a Poisson process with rate ``rateStim``.
+
+.. figure:: schematic_rate_over_gleak.png
+    :align: center
+    :alt: Schematic - Rate over leak conductance
+    :height: 175px
+
+    One random realization of a network with ``noStims=noNeurons=3`` and ``noInputs=2``.
+    Synapses with weight zero are not drawn.
+    Spike times of all neurons are recorded.
 
 .. figure:: rate_over_gleak.png
     :align: center
@@ -98,25 +110,40 @@ For each spike source independently, spikes are drawn from a Poisson process wit
 
 **Tasks:**
 
-* Quantify the variations of these population firing rates by adding error bars to the plot.
-  Also plot the firing rates of single neurons.
+* Investigate the variability of firing rates across neurons:
+  Plot the firing rates of several different single neurons over the leak conductance.
+  Quantify the variations of population firing rates by calculating and plotting the errors of the average firing rates.
+  Also consider the underlying distribution of firing rates for the default value of the leak conductance.
+  Interpret this distribution qualitatively and quantitatively.
 
-* Measure and plot the dependency of the population firing rate on the other neuron parameters (see :ref:`label-intro`).
+* Measure and plot the dependency of the population firing rate on other neuron parameters (see :ref:`label-intro`).
+  Interpret these dependencies qualitatively?
 
-* Measure the reproducibility of emulations, i.e., the error of the average firing rate across consecutive trials, using the default neuron parameters for single neurons and populations of neurons.
-  Plot the dependency of this reproducibility on both the duration of emulations and the number of consecutive trials.
+* Estimate the ratio between fixed-pattern and temporal noise:
+  Measure the reproducibility of emulations, i.e., the error of the average firing rate across identical consecutive trials, using the default neuron parameters for single neurons and populations of neurons.
+  Compare this reproducibility to the results of the first task and plot its dependency on both the duration of emulations and the number of consecutive trials.
 
-For the characterization of the synaptic parameters, we stimulate a single neuron with a single spike and record the membrane potential of the neuron.
+* Calibrate the firing rates of single neurons to a reasonable target rate by adjusting the leak conductances.
+
+Second, we investigate synaptic parameters by stimulating a single neuron with a single spike and recording its membrane potential.
 In order to average out noise on the membrane potential (mostly caused by the readout process) we stimulate the neuron with a regular spike train and calculate the spike-triggered average of these so-called excitatory postsynaptic potentials (EPSPs).
+
+.. figure:: schematic_epsp.png
+    :align: center
+    :alt: Schematic - EPSPs on hardware
+    :height: 175px
+
+    A single neuron is stimulated by using a single synapse.
+    The parameters of synapses are adjusted row-wise in the line drivers.
+    The membrane potential of the stimulated neuron is recorded.
 
 .. figure:: epsp.png
     :align: center
     :alt: EPSPs on hardware
     :width: 400px
 
-    Single and averaged excitatory postsynaptic potential (`source code <https://github.com/electronicvisions/spikey_demo/blob/master/networks/epsp.py>`_).
+    Single and averaged excitatory postsynaptic potentials (`source code <https://github.com/electronicvisions/spikey_demo/blob/master/networks/epsp.py>`_).
 
-.. todo:: add two schematics
 .. todo:: regarding noise refer to Eric's publication
 .. todo:: add tasks, e.g., compare synaptic time constants between exc and inh synapses
 
