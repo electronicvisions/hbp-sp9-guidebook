@@ -109,7 +109,14 @@ For each spike source independently, spikes are drawn from a Poisson process wit
 For the characterization of the synaptic parameters, we stimulate a single neuron with a single spike and record the membrane potential of the neuron.
 In order to average out noise on the membrane potential (mostly caused by the readout process) we stimulate the neuron with a regular spike train and calculate the spike-triggered average of these so-called excitatory postsynaptic potentials (EPSPs).
 
-.. todo:: add figure (results and 2*schematics) and links to source code
+.. figure:: epsp.png
+    :align: center
+    :alt: EPSPs on hardware
+    :width: 400px
+
+    Single and averaged excitatory postsynaptic potential (`source code <https://github.com/electronicvisions/spikey_demo/blob/master/networks/epsp.py>`_).
+
+.. todo:: add two schematics
 .. todo:: regarding noise refer to Eric's publication
 .. todo:: add tasks, e.g., compare synaptic time constants between exc and inh synapses
 
