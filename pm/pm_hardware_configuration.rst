@@ -2,35 +2,59 @@
 Hardware configuration
 ======================
 
-At the core of the NM-PM-1 wafer-scale hardware system (see :ref:`Figure <waferscale-hardware-figure>`) is an uncut wafer built from mixed-signal ASICs [#f1]_,
+At the core of the NM-PM-1 wafer-scale hardware system (see Figure :num:`waferscale-hardware-figure`) is an uncut wafer built from mixed-signal ASICs [#f1]_,
 named `High Input Count Analog Neural Network` chips (`HICANNs`), that provide a highly configurable substrate which physically emulates adaptively spiking neurons and dynamic synapses (`Schemmel et al. (2010)`_, `Schemmel et al. (2008)`_).
 The intrinsic time constants of these VLSI model circuits are multiple orders of magnitude shorter than their biological originals.
 Consequently, the hardware model evolves with a speedup factor of :math:`10^3` up to :math:`10^5` compared to biological real time, the precise value depending on the configuration of the system.
+This speedup enables power-efficient computation as the energy consumption for synaptic transmissions is several orders of magnitude lower than in classically simulated neuronal networks.
 
 .. _waferscale-hardware-figure:
 
 .. figure:: waferscale_system.png
       :alt: wafer-scale system
     
-      The NM-PM-1 wafer-scale hardware system: Wafer (A) comprising HICANN building blocks and on-wafer communication infrastructure, wafer bracket (B), top frame (C) and digital inter-wafer and wafer-host communication modules (D).
+      The NM-PM-1 wafer-scale hardware system: Wafer comprising HICANN building blocks and on-wafer communication infrastructure, mechanical infrastructure (top cover and insertion frame), analog readout boards (AnaB), power supply and digital inter-wafer as well as wafer-host communication modules.
 
-.. todo:: put newer image/schematic of wafer
+In addition to a high-bandwidth asynchronous on-wafer event communication infrastructure, 48 FPGA communication modules provide off-wafer connectivity (to other wafers and to host computers).
 
-In addition to a high-bandwidth asynchronous on-wafer event communication infrastructure, full custom digital off-wafer ASICs provide terminals for a packet-based multi-purpose communication network.
-These so called `Digital Network Chips (DNCs)` are backed by a flexible FPGA [#f2]_ design that handles the packet routing. 
-
-A full wafer system will comprise 384 interconnectable HICANNs, each of which implements more than 100,000 programmable dynamic synapses and up to 512 neurons, resulting in a total of approximately 45 million synapses and up to 200,000 neurons per wafer.
+A full wafer system comprises 384 interconnectable HICANNs, each of which implements more than 114,688 programmable dynamic synapses and up to 512 neurons, resulting in a total of approximately 44 million synapses and up to 196,608 neurons per wafer module.
 The exact number of neurons depends on the configuration of the substrate, which allows to combine multiple neuron building blocks to increase the input count per cell.
 
-Via the FPGAs the system can be configured and operated from a host computer. One FPGA is connected to 4 DNCs, each of which is connected to 8 HICANNs. This FPGA-DNC-HICANN link is used to transmit pulse events to and from the neural circuits on the wafer, while the pulse communication between the neurons is performed on the wafer.
+Via the communication FPGAs the system can be configured and operated from a host computer.
+Each communication FPGA is connected to a dedicated area on the wafer which contains 8 HICANNs.
+This FPGA-HICANN link is used to configure the HICANNs as well as to transmit pulse events to and from the neural circuits on the wafer.
+The pulse communication between the on-wafer neurons is performed by a bus-like network directly on the wafer.
 
-.. todo:: mention here also the low energy consumption
+The system provides a high degree of configurability with respect to network architecture and neuron parameters:
 
-.. todo:: layout of HICANNs on wafer, need glossary to explain what a HICANN is!)
+  * each neuron provides configurable AdEx neuron dynamics
+  * the synapses provide 4-bit weight resolution and STDP functionality
+  * the connection topology can be configured
+
+For a detailed specification see HBP deliverable `D9.7.1`_.
+
+.. _D9.7.1: https://flagship.kip.uni-heidelberg.de/jss/FileExchange?s=qqdXDg6HuX3&uID=65
+
+.. _nmpm1-overview-figure:
+
+.. figure:: nmpm1_overview.png
+      :width: 100%
+      :alt: Simplified overview of the NM-PM1 system
+
+      The left area illustrates the partitioning of HICANNs into larger units (reticles) and the data flow up to the control cluster.
+
+Figure :num:`nmpm1-overview-figure` provides a simplified overview of the NM-PM1 system.
+The support infrastructure is responsible for power supply, off-wafer communication and analog readout functionality.
+A dedicated Raspberry Pi embedded computer monitors and controls all power links as well as other operating parameters of the wafer system.
+Analog readout (e.g., recording of membrane voltages) functionality is provided by a custom analog readout module (AnaRM).
+Several AnaRMs are handled by another dedicated control computer.
+The control/compute cluster orchestrates the configuration of the system and the execution of neuronal network experiments including all input and output data of the emulated network.
+All hardware resources (neuromorphic and support hardware as well as conventional compute resources) are managed by `SLURM`_.
+
+.. _SLURM: http://slurm.schedmd.com
 
 .. [#f1] Application Specific Integrated Circuit
 .. [#f2] Field Programmable Gate Array
-
 
 Supported cells and plasticity mechanisms
 =========================================
@@ -143,9 +167,7 @@ Injected current
 
 In general, the NM-PM-1 wafer-scale hardware does not support PyNN ``CurrentSources``.
 There is, however, a very limited number of periodic current sources, which can be used for debugging and examination of single hardware neurons.
-See Appendix for details.
-
-.. todo:: add crossreference to `Periodic current sources` in appendix.
+See :ref:`periodic_current_sources` in the appendix for details.
 
 
 Projections
@@ -212,7 +234,19 @@ By default a hardware neuron size of 1 is used.
 
 .. note:: Why is the effective number of neurons smaller than 512 divided by ``hardwareNeuronSize`` for values up to 8?
 
-          This is due to a technical limitation: Up to 64 neuron inject their pulses into a on-wafer routing bus. Each neuron then has a neuron address between 0-63 on that bus. Address 0 can not be used by normal neurons, as it is required for a background event generator, which continuously sends pulses over the routing buses in order to keep asynchronous buses "locked". When a pulse with the given 6-bit address enters a synapse array, for each synapse it is checked whether the pulse address matches a configured address per synapse. As there is no extra bit to disable a hardware synapse, this has to be done with the address: The synapse has to be configured with an address that never arrives. For each block of 16 addresses ( [0-15], [16-31], [32-47], [48-63] ), one address needs to be reserved for disabling the synapse.
+          This is due to a technical limitation: Up to 64 neuron inject their
+          pulses into a on-wafer routing bus. Each neuron then has a neuron
+          address between 0-63 on that bus. Address 0 can not be used by normal
+          neurons, as it is required for a background event generator, which
+          continuously sends pulses over the routing buses in order to keep
+          asynchronous buses "locked". When a pulse with the given 6-bit
+          address enters a synapse array, for each synapse it is checked
+          whether the pulse address matches a configured address per synapse.
+          As there is no extra bit to disable a hardware synapse, this has to
+          be done with the address: The synapse has to be configured with an
+          address that never arrives. For each block of 16 addresses ( [0-15],
+          [16-31], [32-47], [48-63] ), one address needs to be reserved for
+          disabling the synapse.
           Hence there are only 59 Addresses per bus that can be used per routing bus.
 
 .. move this note to a technical appendix?

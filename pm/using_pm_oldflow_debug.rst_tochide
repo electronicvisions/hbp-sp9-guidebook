@@ -2,6 +2,8 @@
 Debug functionality of the hardware.hbp_pm backend
 --------------------------------------------------
 
+.. _periodic_current_sources:
+
 Periodic current sources
 ========================
 

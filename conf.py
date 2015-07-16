@@ -29,6 +29,9 @@ repo_version = check_output("git describe --always --tags --dirty | tee gitversi
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
+# ECM: needed for numfig.py
+sys.path.insert(0, os.path.abspath('.'))
+
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
@@ -39,6 +42,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
+    'numfig',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
