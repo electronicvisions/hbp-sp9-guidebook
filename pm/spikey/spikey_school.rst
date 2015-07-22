@@ -152,10 +152,20 @@ Lesson 2: Feedforward networks
 
 .. todo:: add synfire chain here
 
+.... figure:: synfire.png
+    ..:align: center
+    ..:alt: Synfire chain
+    ..:width: 400px
+
 Lesson 3: Recurrent networks
 ----------------------------
 
 .. todo:: add decorrelation network here
+
+.... figure:: recurrent.png
+    ..:align: center
+    ..:alt: Recurrent network
+    ..:width: 400px
 
 Lesson 4: Short-term plasticity
 -------------------------------
@@ -165,6 +175,14 @@ Lesson 5: Long-term plasticity
 
 Lesson 6: Something functional
 ------------------------------
+
+Other network examples
+----------------------
+
+* Simple synfire chain: https://github.com/electronicvisions/hbp_platform_demo.git
+
+References
+----------
 
 .. [Pfeil2013] Pfeil et al. (2013). `Six networks on a universal neuromorphic computing substrate <http://arxiv.org/pdf/1210.7083>`_. Front. Neurosci. 7 (11).
 .. [Indiveri2011] Indiveri et al. (2011). `Neuromorphic silicon neuron circuits <http://journal.frontiersin.org/article/10.3389/fnins.2011.00073/pdf>`_. Front. Neurosci. 5 (73).
