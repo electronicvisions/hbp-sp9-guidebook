@@ -2,6 +2,14 @@
 Hardware configuration
 ======================
 
+.. _nmpm1-hardware-figure:
+
+.. figure:: nmpm1_cgiracks.jpg
+      :width: 100%
+      :alt: NMPM-1 system
+
+      The NM-PM-1 system: five 19-inch racks contain 20 neuromorphic wafer modules (cf. :num:`waferscale-hardware-figure`), the other two racks carry power supplies and a conventional control cluster.
+
 At the core of the NM-PM-1 wafer-scale hardware system (see Figure :num:`waferscale-hardware-figure`) is an uncut wafer built from mixed-signal ASICs [#f1]_,
 named `High Input Count Analog Neural Network` chips (`HICANNs`), that provide a highly configurable substrate which physically emulates adaptively spiking neurons and dynamic synapses (`Schemmel et al. (2010)`_, `Schemmel et al. (2008)`_).
 The intrinsic time constants of these VLSI model circuits are multiple orders of magnitude shorter than their biological originals.
@@ -11,6 +19,7 @@ This speedup enables power-efficient computation as the energy consumption for s
 .. _waferscale-hardware-figure:
 
 .. figure:: waferscale_system.png
+      :width: 100%
       :alt: wafer-scale system
     
       The NM-PM-1 wafer-scale hardware system: Wafer comprising HICANN building blocks and on-wafer communication infrastructure, mechanical infrastructure (top cover and insertion frame), analog readout boards (AnaB), power supply and digital inter-wafer as well as wafer-host communication modules.
