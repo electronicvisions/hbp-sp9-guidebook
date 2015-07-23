@@ -144,49 +144,92 @@ In order to average out noise on the membrane potential (mostly caused by the re
 
     Single and averaged excitatory postsynaptic potentials (`source code <https://github.com/electronicvisions/spikey_demo/blob/master/networks/epsp.py>`_).
 
+**Tasks:**
+
+.. todo:: last figure caption is not displayed
 .. todo:: regarding noise refer to Eric's publication
 .. todo:: add tasks, e.g., compare synaptic time constants between exc and inh synapses
+.. todo:: note that recorded on station666
+.. todo:: pynn is short form for pyNN.hardware.spikey
 
 Lesson 2: Feedforward networks
 ------------------------------
 
-.. todo:: add synfire chain here
+In this lesson we learn to setup networks on the Spikey system.
+Compared to the exclusively external stimulation of neurons in the last lesson, now, we introduce connections between hardware neurons.
+As an example, a synfire chain with feedforward inhibition is implemented (for details, see [Pfeil2013]_).
+Populations of neurons represent the links of this chain and are unidirectionally connected to the adjacent population.
+After stimulating the first population, network activity propagates along the chain of neuron populations, whereby neurons of the same population fire synchronously.
 
-.... figure:: synfire.png
-    ..:align: center
-    ..:alt: Synfire chain
-    ..:width: 400px
+In PyNN connections between hardware neurons can be treated like connections from external inputs to hardware neurons.
+Note that synaptic weights on hardware can be configured with integer values in the range [0..15].
+Often it is convenient to specify synaptic weights in the domain of these digital values and to translate them into biological parameter domain by multiplying with ``pynn.minExcWeight()`` or ``pynn.minInhWeight()`` for excitatory and inhibitory connections, respectively.
+
+.. todo:: add schematic of synfire chain
+
+.. figure:: synfire_chain.png
+    :align: center
+    :alt: Synfire chain
+    :width: 400px
+
+    Network activity of an emulated synfire chain and the corresponding membrane potential of the neuron with ID=0.
+    Excitatory and inhibitory neurons are highlighted with red and blue, respectively.
+
+**Tasks:**
+
+* Close the chain and tune the synaptic weights to obtain a loop of network activity (verify the activity over at least 1000 seconds).
+* Reduce the number of neurons in each population and maximize the period of network activity.
+  Which hardware feature limits the minimal number of neurons in each population?
+* Increase the number of neurons in each population to obtain a stable propagation of network activity.
+  Systematically vary the initial stimulus (number of spikes and standard deviation of their times) to investigate the filter properties of this network (for orientation, see [Kremkow2010]_ and [Pfeil2013]_).
+
+.. todo:: remove setIcb from source code
+.. todo:: open the chain
 
 Lesson 3: Recurrent networks
 ----------------------------
 
+In this lessen we setup a recurrent network of neurons.
+
+* no external stimulation
+* recurrent networks are difficult to implement, because self-reinforcing effects
+
 .. todo:: add decorrelation network here
 
-.... figure:: recurrent.png
-    ..:align: center
-    ..:alt: Recurrent network
-    ..:width: 400px
+.. figure:: decorr_network.png
+    :align: center
+    :alt: Recurrent network
+    :width: 400px
+
+**Tasks:**
 
 Lesson 4: Short-term plasticity
 -------------------------------
 
+**Tasks:**
+
 Lesson 5: Long-term plasticity
 ------------------------------
+
+**Tasks:**
 
 Lesson 6: Something functional
 ------------------------------
 
+**Tasks:**
+
 Other network examples
 ----------------------
 
-* Simple synfire chain: https://github.com/electronicvisions/hbp_platform_demo.git
+* Simple synfire chain: https://github.com/electronicvisions/hbp_platform_demo/tree/master/spikey
 
 References
 ----------
 
-.. [Pfeil2013] Pfeil et al. (2013). `Six networks on a universal neuromorphic computing substrate <http://arxiv.org/pdf/1210.7083>`_. Front. Neurosci. 7 (11).
+.. [Gruebl2007] Grübl, A. (2007). `VLSI Implementation of a Spiking Neural Network <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4630/ps/agruebl_diss_kip.pdf>`_. PhD thesis, Heidelberg University. HD-KIP 07-10.
 .. [Indiveri2011] Indiveri et al. (2011). `Neuromorphic silicon neuron circuits <http://journal.frontiersin.org/article/10.3389/fnins.2011.00073/pdf>`_. Front. Neurosci. 5 (73).
+.. [Kremkow2010] Kremkow et al. (2010). `Gating of signal propagation in spiking neural networks by balanced and correlated excitation and inhibition <http://www.jneurosci.org/content/30/47/15760.short>`_. J. Neurosci. 30 (47), 15760–15768.
+.. [Petkov2012] Petkov, V. (2012). `Toward Belief Propagation on Neuromorphic Hardware <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/5150/temp/2635-1.pdf>`_. Diploma thesis, Heidelberg University. HD-KIP 12-23.
+.. [Pfeil2013] Pfeil et al. (2013). `Six networks on a universal neuromorphic computing substrate <http://arxiv.org/pdf/1210.7083>`_. Front. Neurosci. 7 (11).
 .. [Schemmel2007] Schemmel et al. (2007). `Modeling synaptic plasticity within networks of highly accelerated I&F neurons <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4799/ps/schemmel_iscas2007_spikey.pdf>`_. In Proceedings of the 2007 International Symposium on Circuits and Systems (ISCAS), New Orleans, pp. 3367–3370. IEEE Press.
 .. [Schemmel2006] Schemmel et al. (2006). `Implementing synaptic plasticity in a VLSI spiking neural network model <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4620/ps/1774.pdf>`_. In Proceedings of the 2006 International Joint Conference on Neural Networks (IJCNN), Vancouver, pp. 1–6. IEEE Press.
-.. [Petkov2012] Petkov, V. (2012). `Toward Belief Propagation on Neuromorphic Hardware <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/5150/temp/2635-1.pdf>`_. Diploma thesis, Heidelberg University. HD-KIP 12-23.
-.. [Gruebl2007] Grübl, A. (2007). `VLSI Implementation of a Spiking Neural Network <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4630/ps/agruebl_diss_kip.pdf>`_. PhD thesis, Heidelberg University. HD-KIP 07-10.
