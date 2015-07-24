@@ -306,3 +306,62 @@ You need to be in the roqt directory, because the ui file is loaded by a relativ
       :alt: roqt screenshot
 
       Routing visualization of the roqt visualization tool.
+
+
+-------------------------
+Inspect the synapse loss
+-------------------------
+
+When mapping network models to the wafer-scale hardware, it may happen that not
+all model synapses can be realized on the hardware due to limited hardware
+resources. Below is a simple network that is mapped to very limited resources
+so that synapse loss is enforced. For this example we show how to extract
+overall mapping statistics and projection-wise or synapse-wise synapse losses.
+
+.. literalinclude:: pm/examples/synapse_loss.py
+   :pyobject: main
+
+
+Where ``print marocco.stats`` prints out overall synapse loss statistics:
+
+.. code-block:: bash
+
+    MappingStats {
+            synapse_loss: 581 (23.3709%)
+            synapses: 2486
+            synapses set: 1905
+            synapses lost: 581
+            synapses lost(l1): 0
+            populations: 2
+            projections: 2
+            neurons: 50}
+
+Invidual mapping statistics like the number of synapses set can also be
+directly accessed in python, see class ``MappingStats`` in
+`documentation-marocco`_.
+
+The function ``projectionwise_synapse_loss`` shows how to calculate the synapse
+loss per projection.
+
+.. literalinclude:: pm/examples/synapse_loss.py
+   :pyobject: projectionwise_synapse_loss
+
+Which yields the following oubput for the example above:
+
+.. code-block:: bash
+
+    Projection-Wise Synapse Loss Projection ( PyAssembly (50) -> PyAssembly (50)) 23.5576923077
+    Projection-Wise Synapse Loss Projection ( PyAssembly (50) -> PyAssembly (50)) 23.182552504
+
+
+Finally, the function ``plot_projectionwise_synapse_loss`` can be used to plot
+the lost and realized synapses of one projection.
+
+.. literalinclude:: pm/examples/synapse_loss.py
+   :pyobject: plot_projectionwise_synapse_loss
+
+.. figure:: pm/examples/synapse_loss.png
+   :alt: Realized and Lost Synapses of a Projection
+
+   Realized (black) and lost (red) synapses of the stimulus projection in the
+   example network above.
