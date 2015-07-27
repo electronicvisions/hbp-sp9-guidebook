@@ -1,75 +1,57 @@
-Setup software
+Setup Software
 ==============
 
-Preparation of operating system
--------------------------------
+When using the Spikey systems located at the UHEI cluster see :ref:`label-clusterlogin`.
+On the cluster, the pre-built software package can be used, cf. :ref:`label-softwaremodule`.
 
-We consider the newest stable `Ubuntu <http://www.ubuntu.com/desktop>`_ operating system as reference system.
+The software build process is described in :ref:`label-spikeysoftware`.
 
-Software packages required for build:
 
-.. code-block:: bash
+.. _label-clusterlogin:
 
-  sudo apt-get install libboost-all-dev libusb-1.0-0-dev liblog4cxx10-dev libqt4-dev libgtest-dev libgsl0-dev python-nose
+Login to UHEI Cluster
+-----------------------
 
-Software packages required for experiment execution:
 
-.. code-block:: bash
-
-  sudo apt-get install python-numpy python-scipy python-matplotlib
-
-Installing hardware drivers
----------------------------
-
-The driver software for the Spikey system is managed by the repository called "symap2ic".
-Note that you need an account for the `project management system <https://gitviz.kip.uni-heidelberg.de/>`_ in Heidelberg to access this repository.
-To get access, download and install the driver software process the following instructions step by step:
-
-#. Add ssh key for authentication (for help see `here <https://gitviz.kip.uni-heidelberg.de/projects/symap2ic/wiki/Symap2icGitvizHowto>`_)
-#. Download the root repository: ``git clone git@gitviz.kip.uni-heidelberg.de:symap2ic.git``
-#. ``cd symap2ic``
-#. Set environment variables: ``. bootstrap.sh.UHEI``
-#. Choose your software configuration: ``./waf set_config stage1-flyspi-single``
-#. Install the software: ``./waf configure build install``
-#. If using multiple chip connected to single host computer, create a file named "my_stage1_station" in your home directory and enter your default station (e.g., "station500")
-
-.. _label-pynn:
-
-Installing PyNN
----------------
-
-The Spikey backend is not included in the official `PyNN <http://neuralensemble.org/PyNN/>`_ project.
-So please download and install a Spikey-specific PyNN version which builds on PyNN version 0.6.0.
-
-* On Heidelberg computer
+* from the KIP-institute network:
 
 .. code-block:: bash
 
-  module load pynn/0.6.0-hw
+  ssh KIPUSER@{ice,ignatz}
 
-* On private computer
+* otherwise:
 
-#. Download the source code: ``git clone git@gitviz.kip.uni-heidelberg.de:deb-pynn``
-#. ``cd deb-pynn``
-#. Select branch: ``git checkout 0.6.0``
-#. Install PyNN to the installation path DIR: ``python setup.py install --prefix=DIR``
-#. Add the following line to your bashrc: ``export PYTHONPATH=$PYTHONPATH:DIR/lib/pythonX.Y/site-package`` (replace DIR, X, Y, respectively)
+.. code-block:: bash
 
-Allow access to USB device
---------------------------
+  ssh s1ext_someuser@gitviz.kip.uni-heidelberg.de:6022 # or 7022
 
-If using the Spikey system on a private computer, you will need root privileges to allow normal users to access this USB device.
 
-#. Add your user to ``plugdev`` group: ``sudo usermod -aG plugdev USERNAME`` (replace USERNAME)
-#. Assign Spikey systems to ``plugdev`` group: ``cd symap2ic; sudo sh components/vmodule/nosudo``
+.. _label-softwaremodule:
+
+UHEI Cluster Software Module
+-----------------------
+
+.. todo:: Describe module environment thing here.
+
+.. code-block:: bash
+
+  module av
+  module load pynn/whatever
+
+
+
+.. _label-expexec:
 
 Experiment execution
 ====================
+
 
 .. _label-beforeexp:
 
 Once before executing experiments
 ---------------------------------
+
+.. todo:: will be replaced by a complete pynn.hardware.spikey module (with pre-built binaries)
 
 Set environment variables:
 
@@ -80,7 +62,7 @@ Set environment variables:
 
 and load PyNN:
 
-* On Heidelberg computer
+* On UHEI computer
 
 .. code-block:: bash
 
@@ -90,30 +72,38 @@ and load PyNN:
 
   See :ref:`label-pynn`: ``export PYTHONPATH=...``
 
+
 Run experiment
 --------------
 
 Download the `Spikey example experiment <https://github.com/electronicvisions/spikey_demo/blob/master/networks/example.py>`_.
 For more network descriptions see `Spikey demos <https://github.com/electronicvisions/spikey_demo/blob/master/networks>`_.
 
-* On Heidelberg computer
+* On UHEI cluster
 
 .. code-block:: bash
 
-  srun -p spikey --gres spikeyXXX python example.py
+  srun -p spikey --gres stationXXX python example.py
 
 and replace XXX with the chip you want to use (e.g. 500).
 For convenience you may consider adding an alias to your ~/.bashrc:
 
 .. code-block:: bash
 
-  echo "alias spikeyrun=\"srun -p spikey --gres SpikeyXXX\"" >> ~/.bashrc
+  echo "alias spikeyrun=\"srun -p spikey --gres stationXXX\"" >> ~/.bashrc
 
 To view the queue of experiments:
 
 .. code-block:: bash
 
   squeue
+
+The list of available Spikeys on the UHEI cluster can be queried:
+
+.. code-block:: bash
+
+  srun --gres=help | grep ^station
+
 
 * On private computer
 
