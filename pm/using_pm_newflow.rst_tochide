@@ -291,6 +291,19 @@ On a UHEI NM-PM1 cluster frontend node:
 
 	display result.png
 
+.. figure:: pm/examples/schmittfirechain_result_hicannv2.png
+  :width: 100%
+
+  Demo running on a HICANNv2 Wafer module.
+
+.. figure:: pm/examples/schmittfirechain_result_ess.png
+  :width: 100%
+
+  Demo running on the ESS.
+
+The repository can be also when creating job via the web interface, cf. :ref:`using-the-web-interface`.
+
+
 --------------------
 roqt (Visualization)
 --------------------

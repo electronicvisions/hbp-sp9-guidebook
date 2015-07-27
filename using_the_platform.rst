@@ -59,6 +59,7 @@ Project
 
 Projects are a way of controlling who can access job results. Each job must be associated with a project.
 
+.. _using-the-web-interface:
 
 Using the web interface
 =======================
