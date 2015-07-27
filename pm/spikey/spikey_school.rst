@@ -1,12 +1,12 @@
 Spikey school
 =============
 
-.. _label-intro:
+.. _intro:
 
 Introduction
 ------------
 
-For an introduction to the Spikey neuromorphic system, its topology and configuration space, see section 2 in [Pfeil2013]_.
+For an introduction to the Spikey neuromorphic system, its neuron and synapse models, its topology and its configuration space, see section 2 in [Pfeil2013]_.
 Detailed information about the analog implementation of the neuron, STP and STDP models are given in Figure 17 in [Indiveri2011]_, [Schemmel2007]_ and [Schemmel2006]_, respectively.
 The digital parts of the chip architecture are thoroughly documented in [Gruebl2007]_.
 The following paragraph will briefly summarize the features of the Spikey system.
@@ -40,8 +40,7 @@ that can be configured to receive input from external spike sources (e.g., gener
 
 .. TP: table directive does not work
 
-Neuron assignment to line drivers.
-The last (upper) 64 line drivers receive external inputs only and hence external spike sources line drivers are allocated from top to bottom.
+Neuron assignment to line drivers:
 
 ==============  ====================  ===================== ==============  ====================  =====================
 Line driver ID  Neuron ID left block  Neuron ID right block Line driver ID  Neuron ID left block  Neuron ID right block
@@ -58,6 +57,8 @@ Line driver ID  Neuron ID left block  Neuron ID right block Line driver ID  Neur
 255             ext only              ext                    511             ext only              ext only only
 ==============  ====================  ===================== ==============  ====================  =====================
 
+The last (upper) 64 line drivers receive external inputs only and hence external spike sources line drivers are allocated from top to bottom.
+
 The hardware implementations of neurons and synapses are inspired by the leaky integrate-and-fire neuron model using synapses with exponentially decaying or alpha-shaped conductances (PyNN neuron model ``IF_facets_hardware1``).
 While the leak conductance (PyNN neuron model parameter ``g_leak``) and (absolute) refractory period (``tau_refrac``) is individually configurable for each neuron,
 the resting (``v_rest``), reset (``v_reset``), threshold (``v_thresh``), excitatory reversal (clamped to ground) and inhibitory reversal potentials (``e_rev_I``) are shared among neurons (see [Pfeil2013]_ for details).
@@ -71,11 +72,42 @@ Due to the fact that PyNN is a Python package we recommend to have a look at a `
 For efficient data analysis and visualization with Python see tutorials for `Numpy <http://wiki.scipy.org/Tentative_NumPy_Tutorial>`_,
 `Matplotlib <http://matplotlib.org/users/pyplot_tutorial.html>`_ and `Scipy <http://docs.scipy.org/doc/scipy/reference/tutorial/>`_.
 
-.. todo:: add info about stp
-.. todo:: add info about stdp
-
 .. todo:: mention 4th input?
 .. todo:: add Bruederle's diss and other publications about chip?
+
+Short-term plasticity (STP)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Synaptic efficacy has been shown to change with presynaptic activity on the time scale of hundred milliseconds [ScholarpediaShortTermPlasticity]_.
+The hardware implementation of such short-term plasticity is close to the model introduced by [Tsodyks1997]_.
+However, on hardware short-term plasticity can either be depressing or facilitating, but not mixtures of both as allowed by the original model.
+For details about the hardware implementation and emulation results, see [Schemmel2007]_ and :ref:`lesson_4`, respectively.
+
+Spike-timing dependent plasticity (STDP)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Long-term (seconds to years) modification of synaptic weights has been shown to depend on the precise timing of spikes [ScholarpediaSTDP]_.
+Weights are usually increased, if the postsynaptic neuron fires after the presynaptic one, and decreased for the opposite case.
+Typically, synaptic weights change the more the smaller this temporal correlation is.
+On hardware temporal correlations between pre- and postsynaptic neurons are measured and stored locally in each synapse.
+Then a global mechanism sequentially evaluates these measurements and updates the synaptic weight according to a programmable look-up table.
+
+.. figure:: stdp_schematic.png
+    :align: center
+    :alt: STDP implementation on Spikey
+    :width: 400px
+
+    Hardware implementation of STDP.
+
+For a detailed description of the hardware implementation, measurements of single synapses and functional networks, see [Schemmel2006]_, [Pfeil2012STDP]_ and [Pfeil2013STDP]_, respectively.
+
+.. todo:: PhD thesis tpfeil is source of figure
+.. todo:: add bio figure to STDP
+.. todo:: action potentials = spikes
+.. todo:: check morrison reference on spike pairing rule; or other reference
+.. todo:: write sth about nearest neighbor spike pairing scheme
+
+
 
 .. _lesson_1:
 
@@ -106,7 +138,7 @@ For each spike source independently, spikes are drawn from a Poisson process wit
     :alt: Rate over leak conductance
     :width: 400px
 
-    Average firing rate in dependence on leak conductance :math:`g_{leak}` (`source code <https://github.com/electronicvisions/spikey_demo/blob/master/networks/rate_over_gleak.py>`_).
+    Average firing rate in dependence on leak conductance :math:`g_{leak}` (`source code lesson 1-1 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/rate_over_gleak.py>`_).
 
 **Tasks:**
 
@@ -116,7 +148,7 @@ For each spike source independently, spikes are drawn from a Poisson process wit
   Also consider the underlying distribution of firing rates for the default value of the leak conductance.
   Interpret this distribution qualitatively and quantitatively.
 
-* Measure and plot the dependency of the population firing rate on other neuron parameters (see :ref:`label-intro`).
+* Measure and plot the dependency of the population firing rate on other neuron parameters (see :ref:`intro`).
   Interpret these dependencies qualitatively?
 
 * Estimate the ratio between fixed-pattern and temporal noise:
@@ -127,6 +159,13 @@ For each spike source independently, spikes are drawn from a Poisson process wit
 
 Second, we investigate synaptic parameters by stimulating a single neuron with a single spike and recording its membrane potential.
 In order to average out noise on the membrane potential (mostly caused by the readout process) we stimulate the neuron with a regular spike train and calculate the spike-triggered average of these so-called excitatory postsynaptic potentials (EPSPs).
+
+.. figure:: epsp_bio.png
+    :align: center
+    :alt: EPSPs in biology
+    :height: 175px
+
+    Postsynaptic potentials measured in biological tissue (from motoneurons; adapted from [Coombs1955]_).
 
 .. figure:: schematic_epsp.png
     :align: center
@@ -142,11 +181,10 @@ In order to average out noise on the membrane potential (mostly caused by the re
     :alt: EPSPs on hardware
     :width: 400px
 
-    Single and averaged excitatory postsynaptic potentials (`source code <https://github.com/electronicvisions/spikey_demo/blob/master/networks/epsp.py>`_).
+    Single and averaged excitatory postsynaptic potentials (`source code lesson 1-2 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/epsp.py>`_).
 
 **Tasks:**
 
-.. todo:: last figure caption is not displayed
 .. todo:: regarding noise refer to Eric's publication
 .. todo:: add tasks, e.g., compare synaptic time constants between exc and inh synapses
 .. todo:: note that recorded on station666
@@ -178,8 +216,10 @@ Often it is convenient to specify synaptic weights in the domain of these digita
 **Tasks:**
 
 * Close the chain and tune the synaptic weights to obtain a loop of network activity (verify the activity over at least 1000 seconds).
+
 * Reduce the number of neurons in each population and maximize the period of network activity.
   Which hardware feature limits the minimal number of neurons in each population?
+
 * Increase the number of neurons in each population to obtain a stable propagation of network activity.
   Systematically vary the initial stimulus (number of spikes and standard deviation of their times) to investigate the filter properties of this network (for orientation, see [Kremkow2010]_ and [Pfeil2013]_).
 
@@ -189,12 +229,15 @@ Often it is convenient to specify synaptic weights in the domain of these digita
 Lesson 3: Recurrent networks
 ----------------------------
 
-In this lessen we setup a recurrent network of neurons.
+In this lessen a recurrent network of neurons with sparse and random connections is investigated.
+To avoid self-reinforcing network activity that may arise from excitatory connections, we choose connections between neurons to be inhibitory with weight :math:`w`.
+Each neuron is configured to have a fixed number :math:`K` of presynaptic partners that are randomly drawn from all hardware neurons (for details see [Pfeil2015]_).
+Neurons are stimulated by a constant current that drives the neuron above threshold in the absence of external input.
+Technically this current is implemented by setting the resting potential above the firing threshold of the neuron.
+The absence of external stimulation cancels the transfer of spikes to the system and accelerates the experiment execution.
+In addition, once configured this recurrent network runs hypothetically forever.
 
-* no external stimulation
-* recurrent networks are difficult to implement, because self-reinforcing effects
-
-.. todo:: add decorrelation network here
+.. todo:: add sketch of decorrelation network here
 
 .. figure:: decorr_network.png
     :align: center
@@ -202,6 +245,19 @@ In this lessen we setup a recurrent network of neurons.
     :width: 400px
 
 **Tasks:**
+
+* Measure the variability of firing rates in a network without recurrent connections and plot a histogram of these firing rates.
+
+* Investigate these firing rate distributions for varying :math:`w` and :math:`K`.
+  Calibrate the network towards a firing rate of approximately :math:`25 \frac{1}{s}`.
+
+* Calculate the pair-wise correlation between randomly drawn spike trains of different neurons in the network (consider using `<http://neuralensemble.org/elephant/>`_ to calculate the correlation).
+  Investigate the dependence of the average correlation on :math:`w` and :math:`K` (use 100 pairs of neurons to calculate the average).
+  Use these results to minimize correlations in the activity of the network.
+
+.. todo:: choose weights as multiples of integers
+
+.. _lesson_4:
 
 Lesson 4: Short-term plasticity
 -------------------------------
@@ -226,10 +282,16 @@ Other network examples
 References
 ----------
 
+.. [Coombs1955] Coombs et al. (1955). `Excitatory synaptic action in motoneurones <http://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1955.sp005413/pdf>`_. The Journal of Physiology 130 (2), 374–395.
 .. [Gruebl2007] Grübl, A. (2007). `VLSI Implementation of a Spiking Neural Network <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4630/ps/agruebl_diss_kip.pdf>`_. PhD thesis, Heidelberg University. HD-KIP 07-10.
 .. [Indiveri2011] Indiveri et al. (2011). `Neuromorphic silicon neuron circuits <http://journal.frontiersin.org/article/10.3389/fnins.2011.00073/pdf>`_. Front. Neurosci. 5 (73).
 .. [Kremkow2010] Kremkow et al. (2010). `Gating of signal propagation in spiking neural networks by balanced and correlated excitation and inhibition <http://www.jneurosci.org/content/30/47/15760.short>`_. J. Neurosci. 30 (47), 15760–15768.
 .. [Petkov2012] Petkov, V. (2012). `Toward Belief Propagation on Neuromorphic Hardware <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/5150/temp/2635-1.pdf>`_. Diploma thesis, Heidelberg University. HD-KIP 12-23.
+.. [Pfeil2012STDP] Pfeil et al. (2012). `Is a 4-bit synaptic weight resolution enough? – constraints on enabling spike-timing dependent plasticity in neuromorphic hardware <http://arxiv.org/pdf/1201.6255>`_. Front. Neurosci. 6:90.
 .. [Pfeil2013] Pfeil et al. (2013). `Six networks on a universal neuromorphic computing substrate <http://arxiv.org/pdf/1210.7083>`_. Front. Neurosci. 7 (11).
+.. [Pfeil2013STDP] Pfeil et al. (2013). `Neuromorphic learning towards nano second precision <http://arxiv.org/pdf/1309.4283>`_. In Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1–5. IEEE Press.  
+.. [Pfeil2015] Pfeil et al. (2013). `The effect of heterogeneity on decorrelation mechanisms in spiking neural networks: a neuromorphic-hardware study <http://arxiv.org/pdf/1411.7916>`_. Submitted.
 .. [Schemmel2007] Schemmel et al. (2007). `Modeling synaptic plasticity within networks of highly accelerated I&F neurons <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4799/ps/schemmel_iscas2007_spikey.pdf>`_. In Proceedings of the 2007 International Symposium on Circuits and Systems (ISCAS), New Orleans, pp. 3367–3370. IEEE Press.
 .. [Schemmel2006] Schemmel et al. (2006). `Implementing synaptic plasticity in a VLSI spiking neural network model <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4620/ps/1774.pdf>`_. In Proceedings of the 2006 International Joint Conference on Neural Networks (IJCNN), Vancouver, pp. 1–6. IEEE Press.
+.. [ScholarpediaShortTermPlasticity] Misha Tsodyks and Si Wu (2013) `Short-term synaptic plasticity <http://www.scholarpedia.org/article/Short-term_plasticity>`_. Scholarpedia, 8(10):3153.
+.. [ScholarpediaSTDP] Jesper Sjöström and Wulfram Gerstner (2010) `Spike-timing dependent plasticity <http://www.scholarpedia.org/article/Spike-timing_dependent_plasticity>`_. Scholarpedia, 5(2):1362.
