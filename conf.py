@@ -18,6 +18,7 @@ import os
 # create up2date gitversion file (which is included at the top)
 from subprocess import check_output
 repo_version = check_output("git describe --always --tags --dirty | tee gitversion.rst_tochide", shell=True)
+check_output(r'echo "(`date -Ru`)" >> gitversion.rst_tochide', shell=True)
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
