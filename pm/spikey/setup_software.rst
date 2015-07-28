@@ -29,7 +29,11 @@ Login to UHEI cluster
 Load software modules
 ---------------------
 
-.. todo:: Describe module environment of Spikey (include ``module av``)
+To load the pre-built software package use:
+
+.. code-block:: bash
+
+  module load spikey
 
 
 .. _label-expexec:
