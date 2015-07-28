@@ -1,7 +1,9 @@
+.. _label-spikeyschool:
+
 Spikey school
 =============
 
-.. _intro:
+.. _label-intro:
 
 Introduction
 ------------
@@ -63,7 +65,7 @@ The hardware implementations of neurons and synapses are inspired by the leaky i
 While the leak conductance (PyNN neuron model parameter ``g_leak``) and (absolute) refractory period (``tau_refrac``) is individually configurable for each neuron,
 the resting (``v_rest``), reset (``v_reset``), threshold (``v_thresh``), excitatory reversal (clamped to ground) and inhibitory reversal potentials (``e_rev_I``) are shared among neurons (see [Pfeil2013]_ for details).
 Line drivers generate the time course of postsynaptic conductances (PSCs) for a single row of synapses.
-Among other parameters the rise time, fall time and amplitude of PSCs can be modulated for each line driver (for details see :ref:`lesson_1` and Figure 4.8 and 4.9 in [Petkov2012]_).
+Among other parameters the rise time, fall time and amplitude of PSCs can be modulated for each line driver (for details see :ref:`label-lesson_1` and Figure 4.8 and 4.9 in [Petkov2012]_).
 Each synapse stores a configurable 4-bit weight.
 A synapse can be turned off, if its weight is set to zero.
 
@@ -81,7 +83,7 @@ Short-term plasticity (STP)
 Synaptic efficacy has been shown to change with presynaptic activity on the time scale of hundred milliseconds [ScholarpediaShortTermPlasticity]_.
 The hardware implementation of such short-term plasticity is close to the model introduced by [Tsodyks1997]_.
 However, on hardware STP can either be depressing or facilitating, but not mixtures of both as allowed by the original model.
-For details about the hardware implementation and emulation results, see [Schemmel2007]_ and :ref:`lesson_4`, respectively.
+For details about the hardware implementation and emulation results, see [Schemmel2007]_ and :ref:`label-lesson_4`, respectively.
 
 Spike-timing dependent plasticity (STDP)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -109,7 +111,7 @@ Then a global mechanism sequentially evaluates these measurements and updates th
 For a detailed description of the hardware implementation, measurements of single synapses and functional networks, see [Schemmel2006]_, [Pfeil2012STDP]_ and [Pfeil2013STDP]_, respectively.
 Note that on hardware the reduced symmetric nearest neighbor spike pairing scheme is used (see Figure 7C in [Morrison2008]_).
 
-.. _lesson_1:
+.. _label-lesson_1:
 
 Lesson 1: Exploring the parameter space
 ---------------------------------------
@@ -148,7 +150,7 @@ For each spike source independently, spikes are drawn from a Poisson process wit
   Also consider the underlying distribution of firing rates for the default value of the leak conductance.
   Interpret this distribution qualitatively and quantitatively.
 
-* Measure and plot the dependency of the population firing rate on other neuron parameters (see :ref:`intro`).
+* Measure and plot the dependency of the population firing rate on other neuron parameters (see :ref:`label-intro`).
   Interpret these dependencies qualitatively?
 
 * Estimate the ratio between fixed-pattern and temporal noise:
@@ -256,7 +258,7 @@ In addition, once configured this recurrent network runs hypothetically forever.
   Investigate the dependence of the average correlation on :math:`w` and :math:`K` (use 100 pairs of neurons to calculate the average).
   Use these results to minimize correlations in the activity of the network.
 
-.. _lesson_4:
+.. _label-lesson_4:
 
 Lesson 4: Short-term plasticity
 -------------------------------

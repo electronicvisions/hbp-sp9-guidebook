@@ -1,25 +1,23 @@
-Setup Software
-==============
+Experiment execution
+====================
 
-When using the Spikey systems located at the UHEI cluster see :ref:`label-clusterlogin`.
-On the cluster, the pre-built software package can be used, cf. :ref:`label-softwaremodule`.
-
-The software build process is described in :ref:`label-spikeysoftware`.
+Use the following instructions to login, load the pre-built software package and run your first experiment on the UHEI cluster.
+For the usage of a Spikey system outside the UHEI cluster or for developers,
+see the build process of the :ref:`label-spikeysoftware`.
 
 
 .. _label-clusterlogin:
 
-Login to UHEI Cluster
------------------------
+Login to UHEI cluster
+---------------------
 
-
-* from the KIP-institute network:
+* From the network of the Kirchhoff-Institute for Physics:
 
 .. code-block:: bash
 
   ssh KIPUSER@{ice,ignatz}
 
-* otherwise:
+* Otherwise:
 
 .. code-block:: bash
 
@@ -28,86 +26,52 @@ Login to UHEI Cluster
 
 .. _label-softwaremodule:
 
-UHEI Cluster Software Module
------------------------
+Load software modules
+---------------------
 
-.. todo:: Describe module environment thing here.
-
-.. code-block:: bash
-
-  module av
-  module load pynn/whatever
-
+.. todo:: Describe module environment of Spikey (include ``module av``)
 
 
 .. _label-expexec:
-
-Experiment execution
-====================
-
-
-.. _label-beforeexp:
-
-Once before executing experiments
----------------------------------
-
-.. todo:: will be replaced by a complete pynn.hardware.spikey module (with pre-built binaries)
-
-Set environment variables:
-
-.. code-block:: bash
-
-  cd symap2ic
-  . bootstrap.sh.UHEI
-
-and load PyNN:
-
-* On UHEI computer
-
-.. code-block:: bash
-
-  module load pynn/0.6.0-hw
-
-* On private computer
-
-  See :ref:`label-pynn`: ``export PYTHONPATH=...``
-
 
 Run experiment
 --------------
 
 Download the `Spikey example experiment <https://github.com/electronicvisions/spikey_demo/blob/master/networks/example.py>`_.
-For more network descriptions see `Spikey demos <https://github.com/electronicvisions/spikey_demo/blob/master/networks>`_.
-
-* On UHEI cluster
+For more example networks see :ref:`label-spikeyschool` and `Spikey demos <https://github.com/electronicvisions/spikey_demo/blob/master/networks>`_.
+On the UHEI cluster `SLURM <http://slurm.schedmd.com/>`_ is used to manage the workload on our systems.
+To queue the execution of a Python script use:
 
 .. code-block:: bash
 
   srun -p spikey --gres stationXXX python example.py
 
-and replace XXX with the chip you want to use (e.g. 500).
-For convenience you may consider adding an alias to your ~/.bashrc:
+Replace XXX with the chip you want to use (e.g. 500).
 
-.. code-block:: bash
 
-  echo "alias spikeyrun=\"srun -p spikey --gres stationXXX\"" >> ~/.bashrc
+Tips and tricks
+---------------
 
-To view the queue of experiments:
+To view the queue of experiments use:
 
 .. code-block:: bash
 
   squeue
 
-The list of available Spikeys on the UHEI cluster can be queried:
+To query the list of available Spikey systems on the UHEI cluster use:
 
 .. code-block:: bash
 
   srun --gres=help | grep ^station
 
-
-* On private computer
-
-.. code-block:: bash
-
-  echo "stationXXX" > ~/my_stage1_station
-  python example.py
+.. For your convenience consider adding an alias to your ~/.bashrc:
+.. 
+.. .. code-block:: bash
+.. 
+..   echo "alias spikeyrun=\"srun -p spikey --gres stationXXX\"" >> ~/.bashrc
+.. 
+.. Then, the experiment execution simplifies to:
+.. 
+.. .. code-block:: bash
+.. 
+..   spikeyrun python example.py

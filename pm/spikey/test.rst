@@ -3,14 +3,17 @@ Testing the system
 
 .. warning:: this section is work in progress
 
-To run all tests taking in total several minutes first setup environment (:ref:`label-beforeexp`), then:
+First, setup the environment (see :ref:`label-softwaremodule`).
+Then, to run all tests use:
 
 .. code-block:: bash
 
     cd symap2ic/test
     sh run_spikey_tests.sh
 
-For low-level tests taking only several seconds use:
+In total this will take several minutes.
+
+For low-level tests that take only several seconds, use:
 
 .. code-block:: bash
 
