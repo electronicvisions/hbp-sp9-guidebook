@@ -1,7 +1,7 @@
 Experiment execution
 ====================
 
-Use the following instructions to login, load the pre-built software package and run your first experiment on the UHEI cluster.
+Use the following instructions to login, load the pre-built software package and run experiments on the UHEI cluster.
 For the usage of a Spikey system outside the UHEI cluster or for developers,
 see the build process of the :ref:`label-spikeysoftware`.
 
@@ -29,11 +29,13 @@ Login to UHEI cluster
 Load software modules
 ---------------------
 
-To load the pre-built software package use:
+To load the pre-built software package and configure the environment variables use:
 
 .. code-block:: bash
 
   module load spikey
+
+This module has to be loaded for every environment, and in particular, after logging in.
 
 
 .. _label-expexec:
