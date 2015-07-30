@@ -8,5 +8,6 @@ The Spikey "physical model" system
    spikey/setup_hardware
    spikey/setup_software
    spikey/spikey_school
+   spikey/faq
    spikey/calibration
    spikey/test
