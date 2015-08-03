@@ -10,7 +10,7 @@ Introduction
 
 For an introduction to the Spikey neuromorphic system, its neuron and synapse models, its topology and its configuration space, see section 2 in [Pfeil2013]_.
 Detailed information about the analog implementation of the neuron, STP and STDP models are given in Figure 17 in [Indiveri2011]_, [Schemmel2007]_ and [Schemmel2006]_, respectively.
-The digital parts of the chip architecture are thoroughly documented in [Gruebl2007]_.
+The digital parts of the chip architecture are thoroughly documented in [Gruebl2007Phd]_.
 The following paragraph will briefly summarize the features of the Spikey system.
 
 .. figure:: spikey_system.png
@@ -74,9 +74,6 @@ Due to the fact that PyNN is a Python package we recommend to have a look at a `
 For efficient data analysis and visualization with Python see tutorials for `Numpy <http://wiki.scipy.org/Tentative_NumPy_Tutorial>`_,
 `Matplotlib <http://matplotlib.org/users/pyplot_tutorial.html>`_ and `Scipy <http://docs.scipy.org/doc/scipy/reference/tutorial/>`_.
 
-.. todo:: mention 4th input?
-.. todo:: add Bruederle's diss and other publications about chip?
-
 Short-term plasticity (STP)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -119,8 +116,11 @@ Lesson 1: Exploring the parameter space
 .. todo:: add some general words about variation, reproducibility and parametrization
 
 In this lesson we explore the parameter space of neurons and synapses on the Spikey chip.
-Due to imperfections in the production process, parameters of neurons and synapses vary across the chip (fixed-pattern noise).
-In contrast to these static variations, temporal noise causes different results in consecutive emulations of identical networks.
+
+However, in contrast to simulations with software, emulations on analog neuromorphic hardware is subject to fixed-pattern and temporal noise.
+On hardware, due to imperfections in the production process, parameters of neurons and synapses vary across the chip (fixed-pattern noise).
+Fixed-pattern noise is approximately constant over time and hence can be calibrated for.
+In contrast, temporal noise causes different results in consecutive emulations of identical networks.
 
 First, we measure the dependency of the population firing rate on the leak conductance of neurons.
 The network comprises ``noNeurons`` neurons, of which each is stimulated by ``noInputs`` inputs randomly drawn from a shared pool of ``noStims`` spike sources.
@@ -313,7 +313,7 @@ References
 
 .. [Bi2001] Bi et al. (2001). `Synaptic modification by correlated activity: Hebb’s postulate revisited <http://www.annualreviews.org/doi/pdf/10.1146/annurev.neuro.24.1.139>`_. Annu. Rev. Neurosci. 24, 139–66.
 .. [Coombs1955] Coombs et al. (1955). `Excitatory synaptic action in motoneurones <http://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1955.sp005413/pdf>`_. The Journal of Physiology 130 (2), 374–395.
-.. [Gruebl2007] Grübl, A. (2007). `VLSI Implementation of a Spiking Neural Network <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4630/ps/agruebl_diss_kip.pdf>`_. PhD thesis, Heidelberg University. HD-KIP 07-10.
+.. [Gruebl2007Phd] Grübl, A. (2007). `VLSI Implementation of a Spiking Neural Network <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/download.php/4630/ps/agruebl_diss_kip.pdf>`_. PhD thesis, Heidelberg University. HD-KIP 07-10.
 .. [Indiveri2011] Indiveri et al. (2011). `Neuromorphic silicon neuron circuits <http://journal.frontiersin.org/article/10.3389/fnins.2011.00073/pdf>`_. Front. Neurosci. 5 (73).
 .. [Kremkow2010] Kremkow et al. (2010). `Gating of signal propagation in spiking neural networks by balanced and correlated excitation and inhibition <http://www.jneurosci.org/content/30/47/15760.short>`_. J. Neurosci. 30 (47), 15760–15768.
 .. [Morrison2008] Morrison et al. (2008). `Phenomenological models of synaptic plasticity based on spike-timing <http://link.springer.com/content/pdf/10.1007%2Fs00422-008-0233-1.pdf>`_. Biol. Cybern. 98, 459–478.
