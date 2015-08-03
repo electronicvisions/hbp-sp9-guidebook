@@ -4,8 +4,8 @@ Spikey
 
 .. _label-spikeysoftware:
 
-Spikey software
-===============
+Setup software
+==============
 
 
 Preparing the operating system
@@ -88,3 +88,9 @@ Run experiment
 .. code-block:: bash
 
   python example.py
+
+
+Setup hardware
+==============
+
+.. todo:: Firmware updates will be available at `github <https://github.com/electronicvisions>`_, soon.

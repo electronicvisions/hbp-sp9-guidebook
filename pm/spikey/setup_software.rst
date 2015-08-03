@@ -2,8 +2,7 @@ Experiment execution
 ====================
 
 Use the following instructions to login, load the pre-built software package and run experiments on the UHEI cluster.
-For the usage of a Spikey system outside the UHEI cluster or for developers,
-see the build process of the :ref:`label-spikeysoftware`.
+For using the Spikey system outside the UHEI cluster and for developers, please manually install the required software (see :ref:`label-spikeysoftware`).
 
 
 .. _label-clusterlogin:
