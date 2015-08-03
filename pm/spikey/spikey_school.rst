@@ -190,7 +190,7 @@ and calculate the spike-triggered average of these so-called excitatory postsyna
 **Tasks:**
 
 * Vary the parameters ``drvifall`` and ``drviout`` of the synapse line drivers and investigate their effect on the shape of EPSPs
-  (tipp: use pynn.Projection.setDrvifallFactors and pynn.Projection.setDrvioutFactors to scale these parameters, respectively).
+  (tipp: use ``pynn.Projection.setDrvifallFactors`` and ``pynn.Projection.setDrvioutFactors`` to scale these parameters, respectively).
 
 * Compare the EPSPs between excitatory to inhibitory synapses.
 
