@@ -108,59 +108,50 @@ Then a global mechanism sequentially evaluates these measurements and updates th
 For a detailed description of the hardware implementation, measurements of single synapses and functional networks, see [Schemmel2006]_, [Pfeil2012STDP]_ and [Pfeil2013STDP]_, respectively.
 Note that on hardware the reduced symmetric nearest neighbor spike pairing scheme is used (see Figure 7C in [Morrison2008]_).
 
+
 .. _label-lesson_1:
 
 Lesson 1: Exploring the parameter space
 ---------------------------------------
 
-.. todo:: add some general words about variation, reproducibility and parametrization
+In this lesson, we explore the parameter space of neurons and synapses on the Spikey chip.
 
-In this lesson we explore the parameter space of neurons and synapses on the Spikey chip.
-
-However, in contrast to simulations with software, emulations on analog neuromorphic hardware is subject to fixed-pattern and temporal noise.
-On hardware, due to imperfections in the production process, parameters of neurons and synapses vary across the chip (fixed-pattern noise).
-Fixed-pattern noise is approximately constant over time and hence can be calibrated for.
-In contrast, temporal noise causes different results in consecutive emulations of identical networks.
-
-First, we measure the dependency of the population firing rate on the leak conductance of neurons.
-The network comprises ``noNeurons`` neurons, of which each is stimulated by ``noInputs`` inputs randomly drawn from a shared pool of ``noStims`` spike sources.
-For each spike source independently, spikes are drawn from a Poisson process with rate ``rateStim``.
+First, the parameters of neurons are investigated.
+As an example, we measure the firing rate of a neuron in dependence on its leak conductance.
+The neuron is stimulated by spikes from a Poisson process with rate ``rateStim``.
 
 .. figure:: schematic_rate_over_gleak.png
     :align: center
     :alt: Schematic - Rate over leak conductance
     :height: 175px
 
-    One random realization of a network with ``noStims=noNeurons=3`` and ``noInputs=2``.
+    A neuron is stimulated using an external spike source and the spike times of the neuron are recorded.
     Synapses with weight zero are not drawn.
-    Spike times of all neurons are recorded.
 
 .. figure:: rate_over_gleak.png
     :align: center
     :alt: Rate over leak conductance
     :width: 400px
 
-    Average firing rate in dependence on leak conductance :math:`g_{leak}` (`source code lesson 1-1 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/rate_over_gleak.py>`_).
+    The firing rate of the neuron in dependence on its leak conductance :math:`g_{leak}` (`source code lesson 1-1 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/rate_over_gleak.py>`_).
+
+By increasing the leak conductance of the neuron its membrane potential is more pulled towards the resting potential and hence the firing rate of the neuron decreases.
 
 **Tasks:**
 
-* Investigate the variability of firing rates across neurons:
-  Plot the firing rates of several different single neurons over the leak conductance.
-  Quantify the variations of population firing rates by calculating and plotting the errors of the average firing rates.
-  Also consider the underlying distribution of firing rates for the default value of the leak conductance.
-  Interpret this distribution qualitatively and quantitatively.
-
-* Measure and plot the dependency of the population firing rate on other neuron parameters (see :ref:`label-intro`).
+* Measure and plot the dependency of the firing rate on other neuron parameters (for parameters, see :ref:`label-intro`).
   Interpret these dependencies qualitatively?
 
-* Estimate the ratio between fixed-pattern and temporal noise:
-  Measure the reproducibility of emulations, i.e., the error of the average firing rate across identical consecutive trials, using the default neuron parameters for single neurons and populations of neurons.
-  Compare this reproducibility to the results of the first task and plot its dependency on both the duration of emulations and the number of consecutive trials.
+* Calibrate the firing rate of the neuron to a reasonable target rate by adjusting its leak conductance.
 
-* Calibrate the firing rates of single neurons to a reasonable target rate by adjusting the leak conductances.
+* Replace the input from a Poisson process (``pynn.SpikeSourcePoisson``) by a regular input with the same rate (tipp: use ``pynn.SpikeSourceArray``).
+  What do you observe?
 
-Second, we investigate synaptic parameters by stimulating a single neuron with a single spike and recording its membrane potential.
-In order to average out noise on the membrane potential (mostly caused by the readout process) we stimulate the neuron with a regular spike train and calculate the spike-triggered average of these so-called excitatory postsynaptic potentials (EPSPs).
+Second, synaptic parameters are investigated.
+A neuron is stimulated with a single spike and its membrane potential is recorded.
+To average out noise on the membrane potential (mostly caused by the readout process) we stimulate the neuron with a regular spike train
+and calculate the spike-triggered average of these so-called excitatory postsynaptic potentials (EPSPs).
+Distortions caused by the initial loading of capacities (e.g. wires) are avoided by discarding several spikes at the beginning of the emulation.
 
 .. figure:: epsp_bio.png
     :align: center
@@ -174,9 +165,8 @@ In order to average out noise on the membrane potential (mostly caused by the re
     :alt: Schematic - EPSPs on hardware
     :height: 175px
 
-    A single neuron is stimulated by using a single synapse.
-    The parameters of synapses are adjusted row-wise in the line drivers.
-    The membrane potential of the stimulated neuron is recorded.
+    A neuron is stimulated using a single synapse and its membrane potential is recorded.
+    The parameters of synapses are adjusted row-wise in the line drivers (red).
 
 .. figure:: epsp.png
     :align: center
@@ -191,11 +181,37 @@ In order to average out noise on the membrane potential (mostly caused by the re
 .. todo:: add tasks, e.g., compare synaptic time constants between exc and inh synapses
 .. todo:: note that recorded on station666
 .. todo:: pynn is short form for pyNN.hardware.spikey
+.. todo:: membrane potential can only be recorded from single neuron
 
-Lesson 2: Feedforward networks
+
+Lesson 2: Fixed-pattern and temporal noise:
+-------------------------------------------
+
+In this lesson, we investigate fixed-pattern and temporal noise in the analog neuron and synapse circuits of the Spikey hardware system.
+
+In contrast to simulations with software, emulations on analog neuromorphic hardware are subject to noise.
+We distinguish between fixed-pattern and temporal noise.
+Fixed-pattern noise are variations of neuron and synapse parameters across the chip due to imperfections in the production process.
+Calibration can reduce this noise, because it is approximately constant over time.
+In contrast, temporal noise, including electronic noise and temperature fluctuations, causes different results in consecutive emulations of identical networks.
+
+.. todo:: task, measure and calib tau mem
+
+.. * Investigate the variability of firing rates across neurons:
+..   Plot the firing rates of several different single neurons over the leak conductance.
+..   Quantify the variations of population firing rates by calculating and plotting the errors of the average firing rates.
+..   Also consider the underlying distribution of firing rates for the default value of the leak conductance.
+..   Interpret this distribution qualitatively and quantitatively.
+
+.. * Estimate the ratio between fixed-pattern and temporal noise:
+..   Measure the reproducibility of emulations, i.e., the error of the average firing rate across identical consecutive trials, using the default neuron parameters for single neurons and populations of neurons.
+..   Compare this reproducibility to the results of the first task and plot its dependency on both the duration of emulations and the number of consecutive trials.
+
+
+Lesson 3: Feedforward networks
 ------------------------------
 
-In this lesson we learn to setup networks on the Spikey system.
+In this lesson, we learn to setup networks on the Spikey system.
 Compared to the exclusively external stimulation of neurons in the last lesson, now, we introduce connections between hardware neurons.
 As an example, a synfire chain with feedforward inhibition is implemented (for details, see [Pfeil2013]_).
 Populations of neurons represent the links of this chain and are unidirectionally connected to the adjacent population.
@@ -229,7 +245,7 @@ Synaptic weights that are not multiples of ``pynn.minExcWeight()`` and ``pynn.mi
 .. todo:: remove setIcb from source code
 .. todo:: open the chain
 
-Lesson 3: Recurrent networks
+Lesson 4: Recurrent networks
 ----------------------------
 
 In this lessen a recurrent network of neurons with sparse and random connections is investigated.
@@ -260,7 +276,7 @@ In addition, once configured this recurrent network runs hypothetically forever.
 
 .. _label-lesson_4:
 
-Lesson 4: Short-term plasticity
+Lesson 5: Short-term plasticity
 -------------------------------
 
 .. todo:: add schematic
@@ -286,7 +302,7 @@ Lesson 4: Short-term plasticity
 
 * Compare the membrane potential to a network with STP disabled.
 
-Lesson 5: Long-term plasticity
+Lesson 6: Long-term plasticity
 ------------------------------
 
 .. todo:: add schematic
@@ -298,7 +314,7 @@ Lesson 5: Long-term plasticity
 
 .. todo:: Record an STDP curve as shown in Figure ...
 
-Lesson 6: Something functional
+Lesson 7: Something functional
 ------------------------------
 
 **Tasks:**
