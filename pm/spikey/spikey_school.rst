@@ -69,6 +69,9 @@ Among other parameters the rise time, fall time and amplitude of PSCs can be mod
 Each synapse stores a configurable 4-bit weight.
 A synapse can be turned off, if its weight is set to zero.
 
+During network emulations, spike times can be recorded from all neurons in parallel.
+In contrast, membrane potential recordings are limited to a single, but arbitrary, neuron.
+
 Network models for the Spikey hardware are described and controlled by PyNN (version 0.6; for an introduction to PyNN see :ref:`building_models`).
 Due to the fact that PyNN is a Python package we recommend to have a look at a `Python tutorial <https://docs.python.org/2/tutorial/>`_.
 For efficient data analysis and visualization with Python see tutorials for `Numpy <http://wiki.scipy.org/Tentative_NumPy_Tutorial>`_,
@@ -109,6 +112,14 @@ For a detailed description of the hardware implementation, measurements of singl
 Note that on hardware the reduced symmetric nearest neighbor spike pairing scheme is used (see Figure 7C in [Morrison2008]_).
 
 
+Introduction to the lessons
+---------------------------
+
+Note that all emulation results shown in the following lessons were recorded from the Spikey chip 666 and may be different for other chips.
+In particular, network, neuron and synapse parameters may have to be adjusted for proper network activity.
+In the following we use ``pynn`` as an acronym for ``pyNN.hardware.stage1``.
+
+
 .. _label-lesson_1:
 
 Lesson 1: Exploring the parameter space
@@ -118,7 +129,7 @@ In this lesson, we explore the parameter space of neurons and synapses on the Sp
 
 First, the parameters of neurons are investigated.
 As an example, we measure the firing rate of a neuron in dependence on its leak conductance.
-The neuron is stimulated by spikes from a Poisson process with rate ``rateStim``.
+The neuron is stimulated by spikes from a Poisson process.
 
 .. figure:: schematic_rate_over_gleak.png
     :align: center
@@ -128,6 +139,8 @@ The neuron is stimulated by spikes from a Poisson process with rate ``rateStim``
     A neuron is stimulated using an external spike source and the spike times of the neuron are recorded.
     Synapses with weight zero are not drawn.
 
+To average out fixed-pattern noise (see :ref:`label-lesson_2`) in both the synapse and neuron circuits, a population of neurons is stimulated by a population of spike sources.
+
 .. figure:: rate_over_gleak.png
     :align: center
     :alt: Rate over leak conductance
@@ -135,7 +148,7 @@ The neuron is stimulated by spikes from a Poisson process with rate ``rateStim``
 
     The firing rate of the neuron in dependence on its leak conductance :math:`g_{leak}` (`source code lesson 1-1 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/rate_over_gleak.py>`_).
 
-By increasing the leak conductance of the neuron its membrane potential is more pulled towards the resting potential and hence the firing rate of the neuron decreases.
+By increasing the leak conductance of the neuron its membrane potential is pulled towards the resting potential and hence the firing rate of the neuron decreases.
 
 **Tasks:**
 
@@ -151,7 +164,6 @@ Second, synaptic parameters are investigated.
 A neuron is stimulated with a single spike and its membrane potential is recorded.
 To average out noise on the membrane potential (mostly caused by the readout process) we stimulate the neuron with a regular spike train
 and calculate the spike-triggered average of these so-called excitatory postsynaptic potentials (EPSPs).
-Distortions caused by the initial loading of capacities (e.g. wires) are avoided by discarding several spikes at the beginning of the emulation.
 
 .. figure:: epsp_bio.png
     :align: center
@@ -177,12 +189,19 @@ Distortions caused by the initial loading of capacities (e.g. wires) are avoided
 
 **Tasks:**
 
-.. todo:: regarding noise refer to Eric's publication
-.. todo:: add tasks, e.g., compare synaptic time constants between exc and inh synapses
-.. todo:: note that recorded on station666
-.. todo:: pynn is short form for pyNN.hardware.spikey
-.. todo:: membrane potential can only be recorded from single neuron
+* Vary the parameters ``drvifall`` and ``drviout`` of the synapse line drivers and investigate their effect on the shape of EPSPs
+  (tipp: use pynn.Projection.setDrvifallFactors and pynn.Projection.setDrvioutFactors to scale these parameters, respectively).
 
+* Compare the EPSPs between excitatory to inhibitory synapses.
+
+* Compare the shape of the first EPSPs.
+  They may differ due to the initial loading of capacities (e.g. wires).
+  Discard an appropriate number of EPSPs at the beginning of the emulation to avoid these distortions.
+
+.. todo:: regarding noise refer to Eric's publication
+
+
+.. _label-lesson_2:
 
 Lesson 2: Fixed-pattern and temporal noise:
 -------------------------------------------
@@ -195,17 +214,20 @@ Fixed-pattern noise are variations of neuron and synapse parameters across the c
 Calibration can reduce this noise, because it is approximately constant over time.
 In contrast, temporal noise, including electronic noise and temperature fluctuations, causes different results in consecutive emulations of identical networks.
 
-.. todo:: task, measure and calib tau mem
+**Tasks:**
 
-.. * Investigate the variability of firing rates across neurons:
-..   Plot the firing rates of several different single neurons over the leak conductance.
-..   Quantify the variations of population firing rates by calculating and plotting the errors of the average firing rates.
-..   Also consider the underlying distribution of firing rates for the default value of the leak conductance.
-..   Interpret this distribution qualitatively and quantitatively.
+* Investigate the fixed-pattern noise across neurons:
+  Record the firing rates of several neurons for the default value of the leak conductance (see :ref:`label-lesson_1`; tipp: record all neurons at once).
+  Interpret the distribution of these firing rates by plotting a histogram and calculating the variance.
 
-.. * Estimate the ratio between fixed-pattern and temporal noise:
-..   Measure the reproducibility of emulations, i.e., the error of the average firing rate across identical consecutive trials, using the default neuron parameters for single neurons and populations of neurons.
-..   Compare this reproducibility to the results of the first task and plot its dependency on both the duration of emulations and the number of consecutive trials.
+* Investigate the fixed-pattern noise across synapses:
+  For a single neuron, vary the row of the stimulating synapse and calculate the variance of the area under the EPSPs across synapses (see :ref:`label-lesson_1`).
+
+* Estimate the ratio between fixed-pattern and temporal noise:
+  Measure the reproducibility of emulations, i.e., the error of firing rates across identical consecutive trials.
+  Use the network and parameters from the first task and measure this error for each neuron.
+  Compare the variance of the firing rates across trials (averaged across neurons) to that one across neurons in a single trial.
+  Extra: How does the reproducibility depend on the duration of emulations and the number of consecutive trials?
 
 
 Lesson 3: Feedforward networks
@@ -323,6 +345,8 @@ Other network examples
 ----------------------
 
 * Simple synfire chain: https://github.com/electronicvisions/hbp_platform_demo/tree/master/spikey
+
+.. todo:: add example demonstrating that recording spikes is much faster than recording membrane potentials
 
 References
 ----------
