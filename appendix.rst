@@ -4,4 +4,4 @@ Appendix
 
 .. include:: pm/using_pm_newflow.rst_tochide
 .. include:: pm/using_pm_oldflow_debug.rst_tochide
-.. include:: pm/spikey_appendix.rst
+.. include:: pm/spikey_appendix.rst_tochide
