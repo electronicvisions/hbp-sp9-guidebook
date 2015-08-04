@@ -285,8 +285,6 @@ Synaptic weights that are not multiples of ``pynn.minExcWeight()`` and ``pynn.mi
 * Open the loop and increase the number of neurons in each population to obtain a stable propagation of network activity.
   Systematically vary the initial stimulus (number of spikes and standard deviation of their timing) to investigate the filter properties of this network (for orientation, see [Kremkow2010]_ and [Pfeil2013]_).
 
-.. todo:: remove setIcb from source code
-
 
 Lesson 4: Recurrent networks
 ----------------------------
