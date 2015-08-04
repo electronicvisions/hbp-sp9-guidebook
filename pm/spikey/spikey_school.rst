@@ -77,6 +77,8 @@ Due to the fact that PyNN is a Python package we recommend to have a look at a `
 For efficient data analysis and visualization with Python see tutorials for `Numpy <http://wiki.scipy.org/Tentative_NumPy_Tutorial>`_,
 `Matplotlib <http://matplotlib.org/users/pyplot_tutorial.html>`_ and `Scipy <http://docs.scipy.org/doc/scipy/reference/tutorial/>`_.
 
+.. _label-stp:
+
 Short-term plasticity (STP)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -84,6 +86,8 @@ Synaptic efficacy has been shown to change with presynaptic activity on the time
 The hardware implementation of such short-term plasticity is close to the model introduced by [Tsodyks1997]_.
 However, on hardware STP can either be depressing or facilitating, but not mixtures of both as allowed by the original model.
 For details about the hardware implementation and emulation results, see [Schemmel2007]_ and :ref:`label-lesson_4`, respectively.
+
+.. _label-stdp:
 
 Spike-timing dependent plasticity (STDP)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -93,6 +97,8 @@ Weights are usually increased, if the postsynaptic neuron fires after the presyn
 Typically, synaptic weights change the more the smaller this temporal correlation is.
 On hardware temporal correlations between pre- and postsynaptic neurons are measured and stored locally in each synapse.
 Then a global mechanism sequentially evaluates these measurements and updates the synaptic weight according to a programmable look-up table.
+
+.. _stdp-bio:
 
 .. figure:: stdp_bio.png
     :align: center
@@ -131,6 +137,8 @@ First, the parameters of neurons are investigated.
 As an example, we measure the firing rate of a neuron in dependence on its leak conductance.
 The neuron is stimulated by spikes from a Poisson process.
 
+.. _rate-over-gleak-schematic:
+
 .. figure:: schematic_rate_over_gleak.png
     :align: center
     :alt: Schematic - Rate over leak conductance
@@ -140,6 +148,8 @@ The neuron is stimulated by spikes from a Poisson process.
     Synapses with weight zero are not drawn.
 
 To average out fixed-pattern noise (see :ref:`label-lesson_2`) in both the synapse and neuron circuits, a population of neurons is stimulated by a population of spike sources.
+
+.. _rate-over-gleak-results:
 
 .. figure:: rate_over_gleak.png
     :align: center
@@ -172,6 +182,8 @@ and calculate the spike-triggered average of these so-called excitatory postsyna
 
     Postsynaptic potentials measured in biological tissue (from motoneurons; adapted from [Coombs1955]_).
 
+.. _epsp-schematic:
+
 .. figure:: schematic_epsp.png
     :align: center
     :alt: Schematic - EPSPs on hardware
@@ -179,6 +191,8 @@ and calculate the spike-triggered average of these so-called excitatory postsyna
 
     A neuron is stimulated using a single synapse and its membrane potential is recorded.
     The parameters of synapses are adjusted row-wise in the line drivers (red).
+
+.. _epsp-results:
 
 .. figure:: epsp.png
     :align: center
@@ -217,11 +231,11 @@ In contrast, temporal noise, including electronic noise and temperature fluctuat
 **Tasks:**
 
 * Investigate the fixed-pattern noise across neurons:
-  Record the firing rates of several neurons for the default value of the leak conductance (see :ref:`label-lesson_1`; tipp: record all neurons at once).
+  Record the firing rates of several neurons for the default value of the leak conductance (see Figure :num:`rate-over-gleak-schematic` and :num:`rate-over-gleak-results`; tipp: record all neurons at once).
   Interpret the distribution of these firing rates by plotting a histogram and calculating the variance.
 
 * Investigate the fixed-pattern noise across synapses:
-  For a single neuron, vary the row of the stimulating synapse and calculate the variance of the area under the EPSPs across synapses (see :ref:`label-lesson_1`).
+  For a single neuron, vary the row of the stimulating synapse and calculate the variance of the area under the EPSPs across synapses (see Figure :num:`epsp-schematic` and :num:`epsp-results`).
 
 * Estimate the ratio between fixed-pattern and temporal noise:
   Measure the reproducibility of emulations, i.e., the error of firing rates across identical consecutive trials.
@@ -319,8 +333,8 @@ In addition, once configured this recurrent network runs hypothetically forever.
 Lesson 5: Short-term plasticity
 -------------------------------
 
-.. todo:: add schematic
-.. todo:: short-term plasticity (STP)
+In this lesson, the hardware implementation of :ref:`label-stp` is investigated.
+The network description is similar to that shown in Figure :num:`epsp-schematic`, but with STP enabled in the synapse line driver.
 
 .. figure:: stp_bio.png
     :align: center
@@ -336,24 +350,42 @@ Lesson 5: Short-term plasticity
 
     Depressing STP on the Spikey neuromorphic system (`source code lesson 5 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/stp.py>`_).
 
-.. todo:: STP is implemented in synapse line driver
+The weight of the synapse decreases with each presynaptic spike and recovers after the absence of presynaptic input.
 
 **Tasks:**
 
 * Compare the membrane potential to a network with STP disabled.
 
+* Configure STP to be facilitating.
+
 Lesson 6: Long-term plasticity
 ------------------------------
 
-.. todo:: add schematic
+In this lesson, we investigate :ref:`label-stdp` on hardware.
+An external input is connected to the postsynaptic neuron and STDP is enabled for this plastic synapse (P).
+To adjust the timing between pre- and postsynaptic spikes, several external inputs with static synaptic weights (S) are used to elicit a spike in the postsynaptic neuron.
+By measuring :math:`d`, the timing between the pre- and postsynaptic spike :math:`\Delta t` can be adjusted on the host computer (see spike timing in Figure :num:`stdp-schematic` B).
+
+.. _stdp-schematic:
+
+.. figure:: schematic_stdp.png
+    :align: center
+    :alt: Schematic - STDP
+    :width: 400px
+
+    Network configuration (A) and spike timing (B) to measure STDP on the Spikey chip (`source code lesson 6 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/stdp.py>`_).
+
+This network can be used to measure the dependency of synaptic changes :math:`\Delta w` on the timing :math:`\Delta t` (cf. Figure :num:`stdp-bio`).
+The inverse of the number :math:`N` of spike pairs that are required to elicit a weight update represent the change of the synaptic weight.
 
 **Tasks:**
 
-* Configure the hardware neurons and synapses such that each presynaptic spike evokes exactly a single postsynaptic spike.
+* Configure the hardware neurons and synapses such that each volley of presynaptic spikes evokes exactly a single postsynaptic spike.
   Due to the intrinsic adaptation of hardware neurons consider discarding the first few spike pairs for the plastic synapse.
 
-.. todo:: `source code lesson 6 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/stdp.py>`_
-.. todo:: Record an STDP curve as shown in Figure ...
+* Plot :math:`\frac{1}{N}` over :math:`\Delta t` and compare your results to Figure :num:`stdp-bio`.
+
+* Extra: Investigate the results of the last task for varying rows and columns of synapses.
 
 Lesson 7: Functional networks
 -----------------------------
