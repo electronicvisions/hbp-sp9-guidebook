@@ -5,8 +5,8 @@ Spikey school
 
 .. _label-intro:
 
-Introduction
-------------
+Introduction to the hardware system
+-----------------------------------
 
 For an introduction to the Spikey neuromorphic system, its neuron and synapse models, its topology and its configuration space, see section 2 in [Pfeil2013]_.
 Detailed information about the analog implementation of the neuron, STP and STDP models are given in Figure 17 in [Indiveri2011]_, [Schemmel2007]_ and [Schemmel2006]_, respectively.
@@ -336,15 +336,15 @@ Lesson 6: Long-term plasticity
 
 .. todo:: Record an STDP curve as shown in Figure ...
 
-Lesson 7: Something functional
-------------------------------
+Lesson 7: Functional networks
+-----------------------------
 
-**Tasks:**
+* `A Neuromorphic Network for Generic Multivariate Data Classification <https://github.com/Huitzilo/neuromorphic_classifier>`_
 
 Other network examples
 ----------------------
 
-* Simple synfire chain: https://github.com/electronicvisions/hbp_platform_demo/tree/master/spikey
+* `Simple synfire chain <https://github.com/electronicvisions/hbp_platform_demo/tree/master/spikey>`_
 
 .. todo:: add example demonstrating that recording spikes is much faster than recording membrane potentials
 
