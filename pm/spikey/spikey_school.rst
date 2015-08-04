@@ -244,7 +244,10 @@ Note that synaptic weights on hardware can be configured with integer values in 
 To stay within the range of synaptic weights that are supported by the hardware system specify synaptic weights in the domain of these digital values and translate them into biological parameter domain by multiplying with ``pynn.minExcWeight()`` or ``pynn.minInhWeight()`` for excitatory and inhibitory connections, respectively.
 Synaptic weights that are not multiples of ``pynn.minExcWeight()`` and ``pynn.minInhWeight()`` for excitatory and inhibitory synapses, respectively, are stochastically rounded to the next multiple value.
 
-.. todo:: add schematic of synfire chain
+.. figure:: schematic_synfire_chain.png
+    :align: center
+    :alt: Schematic - Synfire chain
+    :width: 300px
 
 .. figure:: synfire_chain.png
     :align: center
@@ -252,7 +255,7 @@ Synaptic weights that are not multiples of ``pynn.minExcWeight()`` and ``pynn.mi
     :width: 400px
 
     Network activity of an emulated synfire chain and the corresponding membrane potential of the neuron with ID=0.
-    Excitatory and inhibitory neurons are highlighted with red and blue, respectively.
+    Excitatory and inhibitory neurons are highlighted with red and blue, respectively (`source code lesson 3 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/synfire_chain.py>`_).
 
 **Tasks:**
 
@@ -265,7 +268,6 @@ Synaptic weights that are not multiples of ``pynn.minExcWeight()`` and ``pynn.mi
   Systematically vary the initial stimulus (number of spikes and standard deviation of their times) to investigate the filter properties of this network (for orientation, see [Kremkow2010]_ and [Pfeil2013]_).
 
 .. todo:: remove setIcb from source code
-.. todo:: open the chain
 
 Lesson 4: Recurrent networks
 ----------------------------
@@ -278,12 +280,17 @@ Technically this current is implemented by setting the resting potential above t
 The absence of external stimulation cancels the transfer of spikes to the system and accelerates the experiment execution.
 In addition, once configured this recurrent network runs hypothetically forever.
 
-.. todo:: add sketch of decorrelation network here
+.. figure:: schematic_recurrent_network.png
+    :align: center
+    :alt: Schematic - Recurrent network
+    :width: 62px
 
 .. figure:: decorr_network.png
     :align: center
     :alt: Recurrent network
     :width: 400px
+
+    (`source code lesson 4 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/decorr_network.py>`_)
 
 **Tasks:**
 
@@ -316,7 +323,7 @@ Lesson 5: Short-term plasticity
     :alt: STP on hardware
     :width: 400px
 
-    Depressing STP on the Spikey neuromorphic system.
+    Depressing STP on the Spikey neuromorphic system (`source code lesson 5 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/stp.py>`_).
 
 .. todo:: STP is implemented in synapse line driver
 
@@ -334,6 +341,7 @@ Lesson 6: Long-term plasticity
 * Configure the hardware neurons and synapses such that each presynaptic spike evokes exactly a single postsynaptic spike.
   Due to the intrinsic adaptation of hardware neurons consider discarding the first few spike pairs for the plastic synapse.
 
+.. todo:: `source code lesson 6 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/stdp.py>`_
 .. todo:: Record an STDP curve as shown in Figure ...
 
 Lesson 7: Functional networks
