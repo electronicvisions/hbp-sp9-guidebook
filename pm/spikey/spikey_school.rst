@@ -233,48 +233,53 @@ In contrast, temporal noise, including electronic noise and temperature fluctuat
 Lesson 3: Feedforward networks
 ------------------------------
 
-In this lesson, we learn to setup networks on the Spikey system.
-Compared to the exclusively external stimulation of neurons in the last lesson, now, we introduce connections between hardware neurons.
+In this lesson, we learn how to setup networks on the Spikey system.
+In the last lessons neurons received their input exclusively from external spike sources.
+Now, we introduce connections between hardware neurons.
 As an example, a synfire chain with feedforward inhibition is implemented (for details, see [Pfeil2013]_).
-Populations of neurons represent the links of this chain and are unidirectionally connected to the adjacent population.
-After stimulating the first population, network activity propagates along the chain of neuron populations, whereby neurons of the same population fire synchronously.
-
-In PyNN connections between hardware neurons can be treated like connections from external inputs to hardware neurons.
-Note that synaptic weights on hardware can be configured with integer values in the range [0..15].
-To stay within the range of synaptic weights that are supported by the hardware system specify synaptic weights in the domain of these digital values and translate them into biological parameter domain by multiplying with ``pynn.minExcWeight()`` or ``pynn.minInhWeight()`` for excitatory and inhibitory connections, respectively.
-Synaptic weights that are not multiples of ``pynn.minExcWeight()`` and ``pynn.minInhWeight()`` for excitatory and inhibitory synapses, respectively, are stochastically rounded to the next multiple value.
+Populations of neurons represent the links in this chain and are unidirectionally interconnected.
+After stimulating the first neuron population, network activity propagates along the chain, whereby neurons of the same population fire synchronously.
 
 .. figure:: schematic_synfire_chain.png
     :align: center
     :alt: Schematic - Synfire chain
     :width: 300px
 
+    Schematic of a synfire chain with feedforward inhibition.
+    Excitatory and inhibitory neurons are coloured red and blue, respectively.
+
+In PyNN connections between hardware neurons can be treated like connections from external spike sources to hardware neurons.
+Note that synaptic weights on hardware can be configured with integer values in the range [0..15].
+To stay within the range of synaptic weights supported by the hardware, it is useful to specify weights in the domain of these integer values and translate them into biological parameter domain by multiplying them with ``pynn.minExcWeight()`` or ``pynn.minInhWeight()`` for excitatory and inhibitory connections, respectively.
+Synaptic weights that are not multiples of ``pynn.minExcWeight()`` and ``pynn.minInhWeight()`` for excitatory and inhibitory synapses, respectively, are stochastically rounded to integer values.
+
 .. figure:: synfire_chain.png
     :align: center
     :alt: Synfire chain
     :width: 400px
 
-    Network activity of an emulated synfire chain and the corresponding membrane potential of the neuron with ID=0.
-    Excitatory and inhibitory neurons are highlighted with red and blue, respectively (`source code lesson 3 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/synfire_chain.py>`_).
+    Emulated network activity of the synfire chain including the membrane potential of the neuron with ID=0 (`source code lesson 3 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/synfire_chain.py>`_).
+    The same color code as in the schematic is used.
 
 **Tasks:**
 
-* Close the chain and tune the synaptic weights to obtain a loop of network activity (verify the activity over at least 1000 seconds).
+* Adjust the synaptic weights to obtain a loop of network activity that lasts for at least 1000 seconds.
 
 * Reduce the number of neurons in each population and maximize the period of network activity.
   Which hardware feature limits the minimal number of neurons in each population?
 
-* Increase the number of neurons in each population to obtain a stable propagation of network activity.
-  Systematically vary the initial stimulus (number of spikes and standard deviation of their times) to investigate the filter properties of this network (for orientation, see [Kremkow2010]_ and [Pfeil2013]_).
+* Open the loop and increase the number of neurons in each population to obtain a stable propagation of network activity.
+  Systematically vary the initial stimulus (number of spikes and standard deviation of their timing) to investigate the filter properties of this network (for orientation, see [Kremkow2010]_ and [Pfeil2013]_).
 
 .. todo:: remove setIcb from source code
+
 
 Lesson 4: Recurrent networks
 ----------------------------
 
-In this lessen a recurrent network of neurons with sparse and random connections is investigated.
+In this lesson, a recurrent network of neurons with sparse and random connections is investigated.
 To avoid self-reinforcing network activity that may arise from excitatory connections, we choose connections between neurons to be inhibitory with weight :math:`w`.
-Each neuron is configured to have a fixed number :math:`K` of presynaptic partners that are randomly drawn from all hardware neurons (for details see [Pfeil2015]_).
+Each neuron is configured to have a fixed number :math:`K` of presynaptic partners that are randomly drawn from all hardware neurons (for details, see [Pfeil2015]_).
 Neurons are stimulated by a constant current that drives the neuron above threshold in the absence of external input.
 Technically this current is implemented by setting the resting potential above the firing threshold of the neuron.
 The absence of external stimulation cancels the transfer of spikes to the system and accelerates the experiment execution.
@@ -285,23 +290,29 @@ In addition, once configured this recurrent network runs hypothetically forever.
     :alt: Schematic - Recurrent network
     :width: 62px
 
+    Schematic of the recurrent network.
+    Neurons within a population of inhibitory neurons are randomly and sparsely connected to each other.
+
 .. figure:: decorr_network.png
     :align: center
     :alt: Recurrent network
     :width: 400px
 
-    (`source code lesson 4 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/decorr_network.py>`_)
+    Network activity of a recurrent network with :math:`K=15` (`source code lesson 4 <https://github.com/electronicvisions/spikey_demo/blob/master/networks/decorr_network.py>`_).
 
 **Tasks:**
 
-* Measure the variability of firing rates in a network without recurrent connections and plot a histogram of these firing rates.
+* For each neuron, measure the firing rate and plot it against the coefficient of variation (CVs) of inter-spike intervals.
+  Interpret the correlation between firing rates and CVs.
 
-* Investigate these firing rate distributions for varying :math:`w` and :math:`K`.
+* Measure the dependence of the firing rates and CVs on :math:`w` and :math:`K`.
   Calibrate the network towards a firing rate of approximately :math:`25 \frac{1}{s}`.
+  Extra: And maximize the average CV.
 
-* Calculate the pair-wise correlation between randomly drawn spike trains of different neurons in the network (consider using `<http://neuralensemble.org/elephant/>`_ to calculate the correlation).
-  Investigate the dependence of the average correlation on :math:`w` and :math:`K` (use 100 pairs of neurons to calculate the average).
+* Extra: Calculate the pair-wise correlation between randomly drawn spike trains of different neurons in the network (consider using `<http://neuralensemble.org/elephant/>`_ to calculate the correlation).
+  Investigate the dependence of the average correlation on :math:`w` and :math:`K` (tipp: use 100 pairs of neurons to calculate the average).
   Use these results to minimize correlations in the activity of the network.
+
 
 .. _label-lesson_4:
 
