@@ -300,7 +300,7 @@ In addition, once configured this recurrent network runs hypothetically forever.
 .. figure:: schematic_recurrent_network.png
     :align: center
     :alt: Schematic - Recurrent network
-    :width: 62px
+    :width: 134px
 
     Schematic of the recurrent network.
     Neurons within a population of inhibitory neurons are randomly and sparsely connected to each other.
