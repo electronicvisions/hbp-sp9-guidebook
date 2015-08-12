@@ -20,7 +20,7 @@ Login to UHEI cluster
 
 .. code-block:: bash
 
-  ssh s1ext_someuser@gitviz.kip.uni-heidelberg.de:6022 # or 7022
+  ssh s1ext_someuser@gitviz.kip.uni-heidelberg.de -p 7022 # or 6022
 
 
 .. _label-softwaremodule:
