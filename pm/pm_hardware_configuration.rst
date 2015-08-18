@@ -1,3 +1,5 @@
+.. _nmpm1-hardware-configuration:
+
 ======================
 Hardware configuration
 ======================

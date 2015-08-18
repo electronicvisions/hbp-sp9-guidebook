@@ -127,6 +127,9 @@ To change the calibration backend from database to XML set "calib_backend" to XM
 
 XML files can be found at [[cake:Calibration data]].
 
+
+.. _label-marocco-example:
+
 Running pyNN scripts
 --------------------
 
