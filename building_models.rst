@@ -101,7 +101,7 @@ Finally we loop over the populations, retrieve the spike times, and plot a raste
 
 Note that here we include the plotting in the same script just to illustrate the example output.
 Scripts submitted to the Neuromorphic Computing Platform should not in general contain graph plotting or data
-analysis code. Instead you should save spikes to file and use the other tools available in the Unified Portal for
+analysis code. Instead you should save spikes to file and use the other tools available in the `Unified Portal`_ for
 analysing and visualizing the results.
 
 .. _using-different-backends:
@@ -205,3 +205,4 @@ User Defined Limits and Configuration though the spynnaker.cfg file`_
 .. _`Configuring the sPyNNaker front end, and its limitations: Configuration though the PyNN provided setup() function`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
 .. _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
 .. _`Configuring the sPyNNaker front end, and its limitations: User Defined Limits and Configuration though the spynnaker.cfg file`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
+.. _`Unified Portal`: https://collab.humanbrainproject.eu
