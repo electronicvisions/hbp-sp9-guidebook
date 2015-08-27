@@ -29,32 +29,14 @@ And for experiment execution:
 Installing hardware drivers
 ---------------------------
 
-The driver software of the Spikey system is managed by a software repository called "symap2ic".
-Note that you need an account for the `UHEI project management system <https://gitviz.kip.uni-heidelberg.de/>`_ to access this repository.
-To install the software follow these instructions step by step:
+The software for the Spikey neuromorphic system is managed by a git repository that can be downloaded as follows:
 
-#. Add ssh key for authentication (for help see `here <https://gitviz.kip.uni-heidelberg.de/projects/symap2ic/wiki/Symap2icGitvizHowto>`_)
-#. Download the root repository: ``git clone git@gitviz.kip.uni-heidelberg.de:symap2ic.git``
-#. ``cd symap2ic``
-#. Set environment variables: ``. bootstrap.sh.UHEI``
-#. Choose your software configuration: ``./waf set_config stage1-flyspi-single``
-#. Install the software: ``./waf configure build install``
-#. If using multiple chips connected to a single host computer: ``echo "stationXXX" > ~/my_stage1_station`` and replace XXX with the chip you want to use (e.g. 500).
+.. code-block:: bash
 
+  git clone https://github.com/electronicvisions/spikey_demo.git
 
-.. _label-pynn:
-
-Installing PyNN
----------------
-
-The Spikey system is not yet included as a back end in the official `PyNN <http://neuralensemble.org/PyNN/>`_ project.
-So please download and install a Spikey-specific PyNN version which builds on PyNN version 0.6.0.
-
-#. Download the source code: ``git clone git@gitviz.kip.uni-heidelberg.de:deb-pynn``
-#. ``cd deb-pynn``
-#. Select branch: ``git checkout 0.6.0``
-#. Install PyNN to the installation path DIR: ``python setup.py install --prefix=DIR``
-#. Add the following line to your bashrc: ``export PYTHONPATH=$PYTHONPATH:DIR/lib/pythonX.Y/site-package`` (replace DIR, X, Y, respectively)
+To install the software follow the instructions in the ``README.md`` file.
+Note that a fork of the official `PyNN <http://neuralensemble.org/PyNN/>`_ project is used that builds on PyNN version 0.6.
 
 
 Allow access to USB device
@@ -64,33 +46,36 @@ To access the Spikey system via USB, add your user to the ``plugdev`` group, to 
 Note that you will need root privileges for adding users to a group.
 
 #. Add your user to ``plugdev`` group: ``sudo usermod -aG plugdev USERNAME`` (replace USERNAME)
-#. Assign Spikey systems to ``plugdev`` group: ``cd symap2ic; sudo sh components/vmodule/nosudo``
+#. Assign Spikey systems to ``plugdev`` group: ``sudo sh vmodule/nosudo``
 
 .. todo:: enable usage of Spikey systems without root privileges
 
 
-Once before executing experiments
----------------------------------
+Run experiments
+---------------
 
-Set environment variables:
-
-.. code-block:: bash
-
-  cd symap2ic
-  . bootstrap.sh.UHEI
-
-Ensure that your ``PYTHONPATH`` is set correctly (see :ref:`label-pynn`).
-
-
-Run experiment
---------------
+Set environment variables (has to be done only once for each environment):
 
 .. code-block:: bash
 
+  . bin/env.sh
+
+Run PyNN description of a network:
+
+.. code-block:: bash
+
+  cd networks
   python example.py
+
+
+Miscellaneous
+-------------
+
+* If using multiple chips connected to a single host computer: ``echo "stationXXX" > ~/my_stage1_station`` and replace XXX with the chip you want to use (e.g. 500).
+
 
 
 Setup hardware
 ==============
 
-.. todo:: Firmware updates will be available at `github <https://github.com/electronicvisions>`_, soon.
+`Link <https://gitviz.kip.uni-heidelberg.de/projects/symap2ic/wiki/Hardware_setup>`_ to internal web page.
