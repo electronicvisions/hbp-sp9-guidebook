@@ -175,6 +175,14 @@ main.py:
 	marocco.calib_backend = PyMarocco.XML # load calibration from xml files
 	marocco.calib_path = "/wang/data/calibration/wafer_0"
 
+	# for backend Hardware
+	# temporary method to allow locking of synapse drivers by using
+	# the background generators also for FPGA input routes
+	# marocco.placement.use_output_buffer7_for_dnc_input_and_bg_hack = True
+
+	# choose membrane capacitance
+	# marocco.param_trafo.use_big_capacitors = False
+
 	use=HICANNGlobal(Enum(276)) # choose hicann
 	marocco.analog_enum = 0
 	marocco.hicann_enum = use.id().value()
