@@ -42,11 +42,12 @@ Note that a fork of the official `PyNN <http://neuralensemble.org/PyNN/>`_ proje
 Allow access to USB device
 --------------------------
 
-To access the Spikey system via USB, add your user to the ``plugdev`` group, to which Spikey devices are assigned to.
-Note that you will need root privileges for adding users to a group.
+To access the Spikey system via USB, add your user to the ``plugdev`` UNIX group, to which Spikey devices are assigned to.
+Note that you will need root privileges for adding users to a UNIX group.
 
 #. Add your user to ``plugdev`` group: ``sudo usermod -aG plugdev USERNAME`` (replace USERNAME)
-#. Assign Spikey systems to ``plugdev`` group: ``sudo sh vmodule/nosudo``
+#. Assign Spikey systems to ``plugdev`` group (creates a ``udev`` config file): ``sudo sh vmodule/nosudo``
+#. Restart ``udev`` daemon: ``service udev restart`` and (re-)plug-in the Spikey USB device.
 
 .. todo:: enable usage of Spikey systems without root privileges
 
