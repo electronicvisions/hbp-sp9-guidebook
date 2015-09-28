@@ -11,7 +11,7 @@ Setup software
 Preparing the operating system
 ------------------------------
 
-We consider the newest stable `Ubuntu <http://www.ubuntu.com/desktop>`_ operating system as reference system.
+We consider the newest stable `Debian <http://www.debian.org>`_ operating system as reference system.
 
 The following additional software packages are required for building the software of the Spikey system:
 
