@@ -1,8 +1,7 @@
 .. _using-pm-newflow:
 
--------
 Marocco
--------
+=======
 
 Code documentation is provided by ``doxygen`` is available as `documentation-marocco`_.
 
@@ -11,13 +10,13 @@ Code documentation is provided by ``doxygen`` is available as `documentation-mar
 This documents the build and work flow on UHEI NM-PM1 cluster frontend nodes.
 
 Installation
-============
+------------
 
 Create and change to a directory for your projects, preferably on ``wang``, e.g.: ``/wang/users/<somebody>/cluster_home/projects``.
 
 
 ssh-agent
----------
+'''''''''
 
 To reduce the amount of typing, please consider using ``ssh-agent`` to cache your key password:
 
@@ -28,7 +27,7 @@ To reduce the amount of typing, please consider using ``ssh-agent`` to cache you
 
 
 waf
----
+'''
 
 This step is optional as the default environment already provides a ``waf`` executable.
 However, if you need a customized waf version:
@@ -43,7 +42,7 @@ However, if you need a customized waf version:
 
 
 pyhmf, marocco and dependencies
--------------------------------
+'''''''''''''''''''''''''''''''
 
 Then create and change to a directory for marocco, e.g., ``/wang/users/somebody/cluster_home/projects/marocco``:
 
@@ -69,7 +68,7 @@ including support for ESS add ``--with-ess`` to setup call.
 
 
 paths
------
+'''''
 
 To include the local paths in your environment, please use:
 
@@ -113,15 +112,15 @@ occurs, either the installation failed or the environment variables responsible 
 
 
 Usage
-=====
+-----
 
 Backends
---------
+''''''''
 
 Available backends: None, Hardware, ESS. None does only mapping and routing (a dry run). Hardware runs on the real neuromorphic hardware. ESS runs the executable system specification (not yet fully functional).
 
 Calibration
------------
+'''''''''''
 
 To change the calibration backend from database to XML set "calib_backend" to XML. Then the calibration is looked up in xml files named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory "calib_path".
 
@@ -131,7 +130,7 @@ XML files can be found at [[cake:Calibration data]].
 .. _label-marocco-example:
 
 Running pyNN scripts
---------------------
+''''''''''''''''''''
 
 For *mapping* only:
 
@@ -271,16 +270,21 @@ If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
 	ImportError: No module named pyNN.recording.files
 
 Inspect the Configuration
--------------------------
+'''''''''''''''''''''''''
 
 .. code-block:: bash
 
     sthal/tools/dump_cfg.py
 
+Full minimal example
+--------------------
 
---------------------------------
+.. literalinclude:: examples/nmpm1_single_neuron.py
+
+
+
 Job queue Demo - HBP Summit 2014
---------------------------------
+================================
 
 On a UHEI NM-PM1 cluster frontend node:
 
@@ -302,12 +306,12 @@ On a UHEI NM-PM1 cluster frontend node:
 
 	display result.png
 
-.. figure:: pm/examples/schmittfirechain_result_hicannv2.png
+.. figure:: examples/schmittfirechain_result_hicannv2.png
   :width: 100%
 
   Demo running on a HICANNv2 Wafer module.
 
-.. figure:: pm/examples/schmittfirechain_result_ess.png
+.. figure:: examples/schmittfirechain_result_ess.png
   :width: 100%
 
   Demo running on the ESS.
@@ -315,9 +319,8 @@ On a UHEI NM-PM1 cluster frontend node:
 The repository can be also when creating job via the web interface, cf. :ref:`using-the-web-interface`.
 
 
---------------------
 roqt (Visualization)
---------------------
+====================
 
 You need to be in the roqt directory, because the ui file is loaded by a relative path:
 
@@ -326,15 +329,14 @@ You need to be in the roqt directory, because the ui file is loaded by a relativ
     cd marocco/tools/roqt
     PYTHONPATH=$PWD/lib:$PYTHONPATH bin/roqt /some/path/to/roqt.bin
 
-.. figure:: pm/demo_roqt.png
+.. figure:: demo_roqt.png
       :alt: roqt screenshot
 
       Routing visualization of the roqt visualization tool.
 
 
--------------------------
 Inspect the synapse loss
--------------------------
+=========================
 
 When mapping network models to the wafer-scale hardware, it may happen that not
 all model synapses can be realized on the hardware due to limited hardware
@@ -342,7 +344,7 @@ resources. Below is a simple network that is mapped to very limited resources
 so that synapse loss is enforced. For this example we show how to extract
 overall mapping statistics and projection-wise or synapse-wise synapse losses.
 
-.. literalinclude:: pm/examples/synapse_loss.py
+.. literalinclude:: examples/synapse_loss.py
    :pyobject: main
 
 
@@ -367,7 +369,7 @@ directly accessed in python, see class ``MappingStats`` in
 The function ``projectionwise_synapse_loss`` shows how to calculate the synapse
 loss per projection.
 
-.. literalinclude:: pm/examples/synapse_loss.py
+.. literalinclude:: examples/synapse_loss.py
    :pyobject: projectionwise_synapse_loss
 
 Which yields the following oubput for the example above:
@@ -381,11 +383,13 @@ Which yields the following oubput for the example above:
 Finally, the function ``plot_projectionwise_synapse_loss`` can be used to plot
 the lost and realized synapses of one projection.
 
-.. literalinclude:: pm/examples/synapse_loss.py
+.. literalinclude:: examples/synapse_loss.py
    :pyobject: plot_projectionwise_synapse_loss
 
-.. figure:: pm/examples/synapse_loss.png
+.. figure:: examples/synapse_loss.png
    :alt: Realized and Lost Synapses of a Projection
 
    Realized (black) and lost (red) synapses of the stimulus projection in the
    example network above.
+
+

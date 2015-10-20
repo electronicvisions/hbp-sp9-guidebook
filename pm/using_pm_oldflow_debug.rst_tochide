@@ -1,3 +1,86 @@
+---------------------
+Mapping (pre-Marocco)
+---------------------
+
+Saving the realized and lost connection matrix
+==============================================
+
+The ``hardware.hbp_pm`` backend offers a tool to analyse the distortion of the networked mapped onto the hardware.
+Therefore, one first tells the mapping to write the lost and realized connections to files.
+These files must be specified in ``sim.setup(..)``, otherwise this data is not extracted:
+
+.. code-block:: python
+
+    import pyNN.hardware.hbp_pm as sim
+
+    realized_conn_file = "realized_conns.txt"
+    lost_conn_file = "lost_conns.txt"
+
+    sim.setup(
+            realizedConnectionMatrixFile = realized_conn_file,
+            lostConnectionMatrixFile = lost_conn_file,
+              )
+
+
+The mapping process then generates files containing the realized rsp. lost connection matrix of the network.
+The connectivity is saved as a sparse matrix, i.e. for each neuron a list of target neurons is saved::
+
+    <ID1>:<white space separated list of target neurons>
+    <ID2>:<white space separated list of target neurons>
+    ...
+
+Therefore, the ``pyNN.ID`` of the cells/neurons is used. In the ``pyNN.hardware.hbp_pm`` backend, cell IDs are counted as follows:
+
+* Real Neurons get positive integers starting from 0 in the order as they are created.
+* Spike Sources get negative integers starting from -1 in the order created.
+
+Hence, the connection matrix file can be read as follows:
+
+::
+
+    -1: 0   # Spike Source -1 has an afferent connection to Neuron 0
+     0: 1 2 # Neuron 0 has afferent connections to Neurons 1 and 2
+
+
+.. warning:: Note that, currently, the mapping process does not support multiple synapses between pairs of neurons. Therefore, it can happen that a target neuron occurs multiple times in the lost-connections files, but only once in the realized matrix.
+
+
+Analyzing the (distorted) network
+=================================
+
+The files with the realized and lost connections matrix can be read in by the ``MappingAnalyzer``, which is available in the ``mapper`` module:
+
+.. code-block:: python
+
+    from pyNN.hardware.hbp_pm import mapper
+
+    MA = mapper.MappingAnalyzer(lost_conn_file, realized_conn_file)
+
+Where ``lost_conn_file`` and ``realized_conn_file`` are file names of the lost rsp. realized connection matrix of the network.
+
+Example output::
+
+    Mapping Statistiscs:
+    19881  of  61881  Synapses lost ( 32.1277936685 %)
+
+
+The ``MappingAnalyzer`` holds the lost and realized sparse connection matrices between cells.
+It offers several methods to e.g. get the number of lost and realized connections between groups of source and target neurons.
+One can also directly print the synapse loss between the groups.
+
+Full Example
+------------
+
+For an example making use of the full functionality of the ``MappingAnalyzer``, see `example_MappingAnalyzer`_.
+
+.. _example_MappingAnalyzer: https://gitviz.kip.uni-heidelberg.de/projects/mappingtool/repository/revisions/master/entry/misc/tests/examples/mapping_analyzer/main.py
+
+
+
+.. TODO: We should have at least some examples using the old pynn-mappingtool-via-sthal flow.
+
+
+
 --------------------------------------------------
 Debug functionality of the hardware.hbp_pm backend
 --------------------------------------------------
