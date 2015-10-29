@@ -6,4 +6,5 @@ The BrainScaleS "physical model" system
    :maxdepth: 2
 
    pm_hardware_configuration
+   using_pm_newflow
    ess

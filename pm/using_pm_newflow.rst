@@ -1,6 +1,5 @@
-.. _using-pm-newflow:
-
-Marocco
+=======
+Wafer Scale Mapping (Marocco)
 =======
 
 Code documentation is provided by ``doxygen`` is available as `documentation-marocco`_.
@@ -284,7 +283,7 @@ Full minimal example
 
 
 Inspect the synapse loss
-=========================
+------------------------
 
 When mapping network models to the wafer-scale hardware, it may happen that not
 all model synapses can be realized on the hardware due to limited hardware
