@@ -2,11 +2,17 @@
 Wafer Scale Mapping (Marocco)
 =======
 
-Code documentation is provided by ``doxygen`` is available as `documentation-marocco`_.
+Wafer Scale Mapping is performed by ``marocco`` and described in the `PhD thesis of S. Jeltsch`_.
+
+.. _PhD thesis of S. Jeltsch: http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3052
+
+Code documentation is provided by ``doxygen`` and available as `documentation-marocco`_.
 
 .. _documentation-marocco: https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
 
-This documents the build and work flow on UHEI NM-PM1 cluster frontend nodes.
+In the following the build and work flow on UHEI NM-PM1 cluster
+frontend nodes is described. If the NM-PM1 is accessed through the
+NMPI, the installation can be skipped.
 
 Installation
 ------------
@@ -123,9 +129,6 @@ Calibration
 
 To change the calibration backend from database to XML set "calib_backend" to XML. Then the calibration is looked up in xml files named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory "calib_path".
 
-XML files can be found at [[cake:Calibration data]].
-
-
 .. _label-marocco-example:
 
 Running pyNN scripts
@@ -148,100 +151,11 @@ To run on the *hardware* one needs to use the slurm job queue system:
 
 .. code-block:: bash
 
-	srun -p wafer python main.py
+	srun -p wafer python nmpm1_single_neuron.py
 
-main.py:
+nmpm1_single_neuron.py:
 
-.. code-block:: python
-
-	import numpy as np
-	import pyhmf as pynn
-	from pymarocco import PyMarocco
-	import pyredman
-	from pyhalbe.Coordinate import HICANNGlobal, X, Y, Enum
-	import pylogging, pyhalbe
-	pyhalbe.Debug.change_loglevel(2)
-	pylogging.set_loglevel(pylogging.get("marocco"), pylogging.LogLevel.TRACE)
-	pylogging.set_loglevel(pylogging.get("sthal"), pylogging.LogLevel.DEBUG)
-	pylogging.set_loglevel(pylogging.get("Default"), pylogging.LogLevel.INFO)
-
-	marocco = PyMarocco()
-	marocco.placement.setDefaultNeuronSize(4)
-	#marocco.backend = PyMarocco.Hardware # uncomment to run on hardware
-	#marocco.backend = PyMarocco.ESS      # uncomment to run on ESS
-
-	marocco.calib_backend = PyMarocco.XML # load calibration from xml files
-	marocco.calib_path = "/wang/data/calibration/wafer_0"
-
-	# for backend Hardware
-	# temporary method to allow locking of synapse drivers by using
-	# the background generators also for FPGA input routes
-	# marocco.placement.use_output_buffer7_for_dnc_input_and_bg_hack = True
-
-	# choose membrane capacitance
-	# marocco.param_trafo.use_big_capacitors = False
-
-	use=HICANNGlobal(Enum(276)) # choose hicann
-	marocco.analog_enum = 0
-	marocco.hicann_enum = use.id().value()
-
-	#output
-	marocco.membrane = "membrane.dat" # voltage trace
-	marocco.wafer_cfg = "wafer.xml"   # configuration
-	marocco.roqt = "foo.roqt"         # visualization
-
-	marocco.bkg_gen_isi = 10000
-
-	#example for blacklisting, one pyredman.Hicann instance per HICANN
-	#h = pyredman.Hicann()
-	#h.drivers().disable(SynapseDriverOnHICANN(C.right, C.Y(4)))
-	#h.neurons().disable(NeuronOnHICANN(Enum(0)))
-	#marocco.defects.inject(HICANNGlobal(Enum(277)), h)
-
-	pynn.setup(marocco=marocco)
-
-	duration = 30000 #ms
-
-	params = {
-					'cm'            :   0.2, # needed?
-					'v_reset'       :  -70,
-					'v_rest'        :  -50,
-					'v_thresh'      :  -10, # -47 for spikes
-					'e_rev_I'       : -60,
-					'e_rev_E'       : -40,
-	}
-
-	neurons = pynn.Population(5, pynn.IF_cond_exp, params)
-	neuron = pynn.PopulationView(neurons, [0])
-	neuron.record_v() # enable recording of voltage trace
-
-	marocco.placement.add(neurons, use)
-
-	width = 1000
-	isi = 25
-	numExc = 5
-
-	spike_times = list(np.concatenate([np.arange((i-1)*width,i*width,isi,dtype=float) \
-        for i in range(1,duration/width*2+2,2)]))
-	in_0 = pynn.Population(numExc, pynn.SpikeSourceArray, {'spike_times': spike_times})
-
-	w_exc =  0.004
-
-	con = pynn.FixedProbabilityConnector(
-		p_connect=1.0,
-		allow_self_connections=True,
-		weights=w_exc)
-
-	proj0 = pynn.Projection(in_0, neurons, con, target='excitatory')
-
-	pynn.run(duration) # ms
-
-	spikes = neurons.getSpikes()
-	print spikes
-	print "N spikes", len(spikes)
-	np.savetxt("spikes.dat",spikes)
-
-	pynn.end()
+.. literalinclude:: examples/nmpm1_single_neuron.py
 
 Load redman backend::
 
@@ -274,13 +188,6 @@ Inspect the Configuration
 .. code-block:: bash
 
     sthal/tools/dump_cfg.py
-
-Full minimal example
---------------------
-
-.. literalinclude:: examples/nmpm1_single_neuron.py
-
-
 
 Inspect the synapse loss
 ------------------------

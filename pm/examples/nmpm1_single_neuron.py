@@ -5,6 +5,7 @@
 #
 # Andreas Stöckel, October 2015
 #
+# Modified by S. Schmitt, October 2015
 
 import pylogging
 import pyhmf as pynn
@@ -38,11 +39,34 @@ for domain in ["Default", "marocco", "sthal.HICANNConfigurator.Time"]:
 # Setup the router/placement engine
 marocco = PyMarocco()
 marocco.placement.setDefaultNeuronSize(neuron_size)
+
+# for backend Hardware
+# temporary method to allow locking of synapse drivers by using
+# the background generators also for FPGA input routes
 marocco.placement.use_output_buffer7_for_dnc_input_and_bg_hack = True
+
 marocco.placement.minSPL1 = False
 marocco.backend = PyMarocco.Hardware
 marocco.calib_backend = PyMarocco.XML
 marocco.calib_path = "/wang/data/calibration/wafer_0"
+
+# choose membrane capacitance
+# marocco.param_trafo.use_big_capacitors = False
+
+use=HICANNGlobal(Enum(276)) # choose hicann
+marocco.analog_enum = 0
+marocco.hicann_enum = use.id().value()
+
+#output
+marocco.membrane = "membrane.dat" # voltage trace
+marocco.wafer_cfg = "wafer.xml"   # configuration
+marocco.roqt = "example.roqt"     # visualization
+
+#example for blacklisting, one pyredman.Hicann instance per HICANN
+#h = pyredman.Hicann()
+#h.drivers().disable(SynapseDriverOnHICANN(C.right, C.Y(4)))
+#h.neurons().disable(NeuronOnHICANN(Enum(0)))
+#marocco.defects.inject(use, h)
 
 # Setup the NMPM1 PyNN interface "pyhmf"
 pynn.setup(marocco = marocco)
@@ -57,7 +81,7 @@ in_0 = pynn.Population(1, pynn.SpikeSourceArray, {
 nn_0 = pynn.Population(1, pynn.IF_cond_exp, params)
 
 # Introduce the neuron to the placement engine
-marocco.placement.add(nn_0, HICANNGlobal(Enum(276)))
+marocco.placement.add(nn_0, use)
 
 # Add a connection between the spike source in_0 and the neuron nn_0 -- the
 # connection needs to be added neuron_size times
