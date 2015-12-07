@@ -119,22 +119,30 @@ occurs, either the installation failed or the environment variables responsible 
 Usage
 -----
 
-Backends
-''''''''
+``pyhmf`` is the C++ implementation of ``pynn`` for the NMPM1. To
+allow you to change the simulation/emulation backend easily, it is
+adviced to give the ``pyhmf`` module an other name like ``pynn``:
 
-Available backends: None, Hardware, ESS. None does only mapping and routing (a dry run). Hardware runs on the real neuromorphic hardware. ESS runs the executable system specification (not yet fully functional).
+.. code-block:: python
 
-Calibration
-'''''''''''
+		import pyhmf as pynn
 
-To change the calibration backend from database to XML set "calib_backend" to XML. Then the calibration is looked up in xml files named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory "calib_path".
+We also need the helper module ``pymarocco`` that takes care of
+hardware and marocco specific settings:
+		
+.. code-block:: python
 
-.. _label-marocco-example:
+		import pyhmf as pynn
+		from pymarocco import PyMarocco
+		
+		marocco = PyMarocco()
+		pynn.setup(marocco = marocco)
 
-Running pyNN scripts
-''''''''''''''''''''
+Make sure that the call to ``pynn.setup`` happens before creating
+populations, if not, the populations will not be visible to ``marocco``.
 
-For *mapping* only:
+Now it is time to start marocco. When invoking ``python``, an MPI
+library has to be preloaded.
 
 .. code-block:: bash
 
@@ -146,6 +154,67 @@ If you don't preload libmpi, the error message is:
 
     python: symbol lookup error: /usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.so:
         undefined symbol: mca_base_param_reg_int
+
+In the following example, one neuron is placed on the wafer, however,
+by choosing the backend None, the actual hardware is not used.
+
+Available backends: None, Hardware, ESS. None does only mapping and
+routing (a dry run). Hardware runs on the real neuromorphic
+hardware. ESS runs a simulation of the hardware: the Executable System
+Specification.
+
+.. code-block:: python
+
+		import pyhmf as pynn
+		from pymarocco import PyMarocco
+		
+		marocco = PyMarocco()
+		marocco.backend = PyMarocco.None
+   
+		pynn.setup(marocco = marocco)
+
+		neuron = pynn.Population(1, pynn.IF_cond_exp)
+
+		pynn.run(10)
+		pynn.end()
+
+In the output you should see:
+
+.. code-block:: bash
+
+
+		Populations:
+                0th element:    0x1f98650       Population(IF_cond_exp, 1)
+
+
+If you don't see this output, make sure that you called
+``pynn.setup(marocco = marocco)`` before the call to
+``pynn.Population``.
+
+You will also see a lot of debug output. To set the log level, add
+
+.. code-block:: python
+
+   import pylogging
+   for domain in [""]:
+	pylogging.set_loglevel(pylogging.get(domain), pylogging.LogLevel.ERROR)
+
+after the line importing ``PyMarocco`` to your script.
+
+As we did not specify on which chip the neuron should be placed,
+marocco decides automatically to use ``HICANNOnWafer(X(18), Y(7)),
+Wafer(0)`` which is in the center of the wafer.
+
+
+Calibration
+'''''''''''
+
+To change the calibration backend from database to XML set "calib_backend" to XML. Then the calibration is looked up in xml files named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory "calib_path".
+
+.. _label-marocco-example:
+
+Running pyNN scripts
+''''''''''''''''''''
 
 To run on the *hardware* one needs to use the slurm job queue system:
 
