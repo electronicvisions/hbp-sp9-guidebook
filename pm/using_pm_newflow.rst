@@ -205,6 +205,20 @@ As we did not specify on which chip the neuron should be placed,
 marocco decides automatically to use ``HICANNOnWafer(X(18), Y(7)),
 Wafer(0)`` which is in the center of the wafer.
 
+To choose the HICANN a population is placed on, we give marocco a hint:
+
+.. code-block:: python
+
+		import Coordinate as C
+		
+		marocco.placement.add(neuron, C.HICANNGlobal(C.HICANNOnWafer(C.X(5), C.Y(5)), C.Wafer(3)))
+
+At the end, the script is the following:
+
+nmpm1_single_neuron.py:
+
+.. literalinclude:: examples/nmpm1_marocco_intro.py
+	
 
 Calibration
 '''''''''''
