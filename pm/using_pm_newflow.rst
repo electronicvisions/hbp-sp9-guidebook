@@ -81,6 +81,8 @@ To include the local paths in your environment, please use:
 
    module load localdir
    module load pynn/0.7.5
+   module load mongo
+   module load yaml-cpp/0.5.2
 
 Another method would be to create an init file and put all the needed parts into a script:
 
@@ -91,6 +93,8 @@ Another method would be to create an init file and put all the needed parts into
     export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:\${INSTALLED_LIB_PATH}
     export PYTHONPATH=$PYTHONPATH:\${INSTALLED_LIB_PATH}
     module load pynn/0.7.5
+    module load mongo
+    module load yaml-cpp/0.5.2
     EOF
 
 In every (!) fresh shell you now have to source the ``init.sh``:
