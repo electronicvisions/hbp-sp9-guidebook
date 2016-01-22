@@ -27,19 +27,43 @@ the following general structure:
 
     [
       {
-        "model": "Description of model A",
+        "model": {
+          "name": "ModelA",
+          "description": "Description of model A"
+        }
         "tasks": [
-          "task_1_for_model_A.py {system}",
-          "task_2_for_model_A.py arg1 {system}",
+          {
+            "name": "taskA1",
+            "command": "task_1_for_model_A.py {system}"
+          },
+          {
+            "name": "taskA2",
+            "command": "task_2_for_model_A.py arg1 {system}"},
+          }
         ]
       },
       {
-        "model": "Description of model B",
+        "model": {
+          "name": "ModelB",
+          "description": "Description of model B"
+        },
         "tasks": [
-          "task_1_for_model_B.py {system}",
-          "task_2_for_model_B.py arg1 {system}",
-          "task_3_for_model_B.py --option1={system} arg1 arg2 arg3",
-          "task_3_for_model_B.py --option1={system} arg4 arg5 arg6",
+          {
+            "name": "taskB1",
+            "command": "task_1_for_model_B.py {system}"
+          },
+          {
+            "name": "taskB2",
+            "command": "task_2_for_model_B.py arg1 {system}"
+          },
+          {
+            "name": "taskB3alpha",
+            "command": "task_3_for_model_B.py --option1={system} arg1 arg2 arg3"
+          },
+          {
+            "name": "taskB3beta",
+            "command": "task_3_for_model_B.py --option1={system} arg4 arg5 arg6"
+          },
         ]
       }
     ]
@@ -60,15 +84,27 @@ A specific example, for the repository https://github.com/CNRS-UNIC/hardware-ben
 
     [
       {
-        "model": "A population of IF neurons, each of which is injected with a different current",
+        "model": {
+          "name": "IF_cond_exp",
+          "description": "A population of IF neurons, each of which is injected with a different current"
+        },
         "tasks": [
-          "run_IF_curve.py {system}"
+          {
+            "name": "I_f_curve",
+            "command": "run_I_f_curve.py {system}"
+          }
         ]
       },
       {
-        "model": "A population of random spike sources, each with different firing rates",
+        "model": {
+          "name": "SpikeSourcePoisson",
+          "description": "A population of random spike sources, each with different firing rates"
+        },
         "tasks": [
-          "run_spike_train_statistics.py {system}"
+          {
+            "name": "run20s",
+            "command": "run_spike_train_statistics.py {system}"
+          }
         ]
       }
     ]
@@ -109,27 +145,27 @@ Here is an example:
         "results": [
             {
                 "type": "quality",
-                "name": "https://github.com/CNRS-UNIC/hardware-benchmarks.git/I_f_curve#norm_diff_frequency",
+                "name": "norm_diff_frequency",
                 "value": 0.0073371188622418891,
                 "measure": "norm"
             },
             {
                 "type": "performance",
-                "name": "https://github.com/CNRS-UNIC/hardware-benchmarks.git/I_f_curve#setup_time",
+                "name": "setup_time",
                 "value": 0.026206016540527344,
                 "units": "s",
                 "measure": "time"
             },
             {
                 "type": "performance",
-                "name": "https://github.com/CNRS-UNIC/hardware-benchmarks.git/I_f_curve#run_time",
+                "name": "run_time",
                 "value": 1.419724941253662,
                 "units": "s",
                 "measure": "time"
             },
             {
                 "type": "performance",
-                "name": "https://github.com/CNRS-UNIC/hardware-benchmarks.git/I_f_curve#closing_time",
+                "name": "closing_time",
                 "value": 0.03272294998168945,
                 "units": "s",
                 "measure": "time"
