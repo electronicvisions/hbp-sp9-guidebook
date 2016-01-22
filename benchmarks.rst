@@ -30,7 +30,7 @@ the following general structure:
         "model": {
           "name": "ModelA",
           "description": "Description of model A"
-        }
+        },
         "tasks": [
           {
             "name": "taskA1",
@@ -38,7 +38,7 @@ the following general structure:
           },
           {
             "name": "taskA2",
-            "command": "task_2_for_model_A.py arg1 {system}"},
+            "command": "task_2_for_model_A.py arg1 {system}"}
           }
         ]
       },
