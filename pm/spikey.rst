@@ -10,3 +10,4 @@ The Spikey "physical model" system
    spikey/faq
    spikey/calibration
    spikey/test
+   spikey/appendix

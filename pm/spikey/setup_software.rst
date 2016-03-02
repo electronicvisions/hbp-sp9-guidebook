@@ -80,3 +80,6 @@ To query the list of available Spikey systems on the UHEI cluster use:
 .. .. code-block:: bash
 .. 
 ..   spikeyrun python example.py
+
+
+The setup of SSH keys for pubkey-based access to github.com is described in :ref:`label-clustersshkeygithub`.
