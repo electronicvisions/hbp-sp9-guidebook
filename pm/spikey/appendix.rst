@@ -97,7 +97,13 @@ Run PyNN description of a network:
 Miscellaneous
 ^^^^^^^^^^^^^
 
-* If using multiple chips connected to a single host computer: ``echo "stationXXX" > ~/my_stage1_station`` and replace XXX with the chip you want to use (e.g. 500).
+If multiple chips are connected to a single host computer, use environment variables to select the chip:
+
+.. code-block:: bash
+
+  MY_STAGE1_STATION=stationXXX
+
+Replace XXX with the chip you want to use (e.g. 500).
 
 
 
