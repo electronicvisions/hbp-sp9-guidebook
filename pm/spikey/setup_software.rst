@@ -57,29 +57,12 @@ Replace XXX with the chip you want to use (e.g. 500).
 Tips and tricks
 ---------------
 
-To view the queue of experiments use:
+* To view the queue of experiments use:
 
 .. code-block:: bash
 
   squeue
 
-To query the list of available Spikey systems on the UHEI cluster use:
+* To query a list of available Spikey systems on the UHEI cluster see the `chip status page <https://gitviz.kip.uni-heidelberg.de:8443/view/spikey/job/hw_spikey_chipstatus_all/>`_.
 
-.. code-block:: bash
-
-  srun --gres=help | grep ^station
-
-.. For your convenience consider adding an alias to your ~/.bashrc:
-.. 
-.. .. code-block:: bash
-.. 
-..   echo "alias spikeyrun=\"srun -p spikey --gres stationXXX\"" >> ~/.bashrc
-.. 
-.. Then, the experiment execution simplifies to:
-.. 
-.. .. code-block:: bash
-.. 
-..   spikeyrun python example.py
-
-
-The setup of SSH keys for pubkey-based access to github.com is described in :ref:`label-clustersshkeygithub`.
+* The setup of SSH keys for pubkey-based access to github.com is described in :ref:`label-clustersshkeygithub`.
