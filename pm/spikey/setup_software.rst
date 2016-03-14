@@ -51,7 +51,7 @@ To queue the execution of a Python script use:
 
   srun -p spikey --gres stationXXX python example.py
 
-Replace XXX with the chip you want to use (e.g. 500).
+Replace XXX with the number of the chip you want to use (e.g. 500).
 
 
 Tips and tricks
@@ -66,3 +66,15 @@ Tips and tricks
 * To query a list of available Spikey systems on the UHEI cluster see the `chip status page <https://gitviz.kip.uni-heidelberg.de:8443/view/spikey/job/hw_spikey_chipstatus_all/>`_.
 
 * The setup of SSH keys for pubkey-based access to github.com is described in :ref:`label-clustersshkeygithub`.
+
+
+Using the web interface of the Human Brain Project
+--------------------------------------------------
+
+To select a chip using the `web interface of the Human Brain Project <https://www.hbpneuromorphic.eu>`_ enter the following parameters into the "Hardware Config" box:
+
+.. code-block:: none
+
+  {"STATION":"stationXXX"}
+
+Replace XXX with the number of the chip you want to use (e.g. 500).
