@@ -17,24 +17,31 @@ Format of a job
 Whether using the web interface or the Python client, a job for the HBP Neuromorphic Computing
 Platform consists of:
 
-  * an experiment description
-  * input data
-  * hardware platform configuration
-  * a project name
+* an experiment description
+* input data
+* hardware platform configuration
 
 Experiment description
 ----------------------
 
 The experiment description takes the form of a Python script using the PyNN API. You must provide one of:
 
-  * a single script, uploaded as part of the job submission
-  * the file path of a single script located on your local machine (Python client only)
-  * the URL of a public Git repository
-  * the URL of a zip or tar.gz archive
+* a single script, uploaded as part of the job submission or pasted into the web form
+* the file path of a single script located on your local machine (Python client only)
+* the URL of a public Git repository
+* the URL of a zip or tar.gz archive
 
-In the latter two cases, the respository or archive must contain a top-level file named :file:`run.py`.
-**The script must accept a single command-line argument**, the name of the backend (e.g. "nest", "spinnaker"). Any other parameters or
-data files needed by the script should be provided as input files.
+In the latter two cases, you may optionally specify the path to the main Python script you wish
+to run, together with any command-line arguments. The command-line arguments may contain a
+placeholder, "``{system}``", which will be replaced with the name of the PyNN backend module
+to be used (e.g. "spinnaker"). Example::
+
+    main.py --option1=42 {system}
+
+If the path is not specified, the script is assumed to be named :file:`run.py`,
+i.e. the default is::
+
+    run.py {system}
 
 Input data
 ----------
@@ -46,51 +53,91 @@ archive, you do not need to specify them here.
 Hardware platform configuration
 -------------------------------
 
-Here you must choose the hardware system to be used ("NM-PM1" for the Heidelberg system, "NM-MC1" for the
-Manchester (SpiNNaker) system, or "sandbox" to test your script using the PyNN "mock" backend.) and specify any
+Here you must choose the hardware system to be used ("NM-PM1" for the Heidelberg BrainScaleS system,
+"NM-MC1" for the Manchester (SpiNNaker) system, "ESS" for the software simulator of the BrainScaleS system,
+or "Spikey" for the Heidelberg single-chip system) and specify any
 specific configuration options for the hardware system you have chosen.
 
-.. todo:: add options for running with ESS
+.. todo:: list configuration options for the different systems
 
-.. todo:: list configuration options for NM-PM1 and NM-MC1 systems
-
-Project
--------
-
-Projects are a way of controlling who can access job results. Each job must be associated with a project.
 
 .. _using-the-web-interface:
 
 Using the web interface
 =======================
 
-The neuromorphic computing platform can be accessed at https://www.hbpneuromorphic.eu
+Setting up your Collab
+----------------------
 
-.. note:: the platform will also soon be accessible from within the HBP Collaboratory
+The neuromorphic computing platform can be accessed from within the HBP Collaboratory using the
+"Neuromorphic Computing Platform Job Manager v2" app and the "Neuromorphic Computing Platform Resource Manager" app.
 
-After logging in with your HBP credentials, you will see a list of simulation jobs you have
-submitted to the platform. The first time you connect, of course, this list will be empty.
+To create a new Collab which already contains these two apps,
+go to the `Neuromorphic Computing Platform collab`_ and click on :guilabel:`Create a Collab` or
+:guilabel:`Get Started!` To add the apps to an existing Collab, click :guilabel:`ADD` in the
+Navigation panel, and then select each of the apps in the list.
 
-To create a new project, click on "Projects" in the menu bar, then on the '+' icon.
 
-.. image:: images/create_project.png
-   :width: 50%
+.. _access-requests:
+
+Requesting access to the platform
+---------------------------------
+
+In your Collab, click on :guilabel:`Resource Manager`, and fill in the form.
+
+.. image:: images/resource_request_form.png
+   :width: 70%
    :align: center
 
-By default, only the person who creates a project has access to it, and to any jobs
-associated with the project. To give access to other people, use the '+' icon next to Members
-then select the username from the drop-down list.
+The project description should contain a scientific or technical motivation for using the platform,
+and should specify which of the Neuromorphic Computing Systems ("BrainScaleS" and/or "SpiNNaker")
+you wish to use.
 
-To create a new simulation job, return to the "Jobs" page, and click on the '+' icon.
+Two forms of access are available:
+
+Test/preparatory access
+   Only a short technical motivation is required. A fixed quota of 1 million core-hours
+   (for the SpiNNaker system) or 100 wafer-hours (for the BrainScaleS system) will be allocated,
+   subject to a brief technical review, together with temporary storage of 100 GB.
+Project access
+   For projects requiring more than the test/preparatory quotas, a scientific motivation of about
+   one page should be provided, and a request for resources (in core-hours, wafer-hours
+   and/or GB of storage) should be specified, and justified with respect to the project's
+   scientific goals. This proposal will receive both scientific and technical reviews.
+
+Access is granted on a per-collab basis, not per-person. All members of a collab will be able to make use of the quota.
+All collab members will also be asked to sign and return a User Agreement form.
+
+Once the resource request is granted, the :guilabel':`Resource Manager` will display the
+quota usage.
+
+.. todo:: include screenshot of quota usage page.
+
+
+Submitting a simulation job
+---------------------------
+
+To submit a simulation job to the Platform, click on :guilabel:`Job Manager`.
+
+You will see a list of jobs you have submitted to the platform.
+The first time you connect, of course, this list will be empty.
+
+To create a new simulation job click on the :guilabel:`'+'` icon or the :guilabel:`New Job` button.
+
+In this dialog, you must choose the project with which the job is associated, the hardware
+platform on which you wish to run ("NM-PM1", "NM-MC1", "ESS" or "Spikey"), and provide the Python script which
+should be run, either by copy-and-pasting the script into the "Code" box,
 
 .. image:: images/create_job.png
    :width: 70%
    :align: center
 
-In this dialog, you must choose the project with which the job is associated, the hardware
-platform on which you wish to run ("NM-PM1" or "NM-MC1"), and provide the Python script which
-should be run, either by copy-and-pasting the script into the "Description" box, or by giving
-the URL of a version control repository containing a file :file:`run.py` at the top-level.
+or by giving the URL of a version control repository or zip/tar archive together with a command-line
+invocation.
+
+.. image:: images/create_job_git.png
+   :width: 70%
+   :align: center
 
 In your Python script you should avoid hard-coding the name of the PyNN backend to run, as
 this will differ depending on the platform. Instead, your script should read the name of the
@@ -116,18 +163,24 @@ It is possible to provide input data files to the simulation. The files must be 
 online.
 
 
-After clicking "Save" the job will be submitted to the queue, and will appear in the list of
+After clicking "Submit" the job will be submitted to the queue, and will appear in the list of
 jobs with a "submitted" label.
 
 .. image:: images/job_list.png
    :width: 100%
+   :align: center
 
 You will receive e-mail notifications when the job starts running and when it completes.
+
+Retrieving the results of a job
+-------------------------------
+
 Once the job is completed, click on the magnifying glass icon to see the job results and
 download the output data files.
 
-.. todo :: insert screenshot of job result page
-
+.. image:: images/job_results.png
+   :width: 100%
+   :align: center
 
 Using the Python client
 =======================
@@ -150,9 +203,10 @@ virtualenv or Anaconda. The client works with Python 2.7 and Python 3.3 or newer
 Configuring the client
 ----------------------
 
-Before using the Neuromorphic Computing Platform you must have an HBP account.
+Before using the Neuromorphic Computing Platform you must have an HBP account, have created at
+least one Collab, and have obtained a compute quota as described above under :ref:`access-requests`.
 
-To interact with the Platform, you first create a :class:`Client` object your username:
+To interact with the Platform, you first create a :class:`Client` object with your HBP username:
 
 .. code-block:: python
 
@@ -160,11 +214,7 @@ To interact with the Platform, you first create a :class:`Client` object your us
 
     c = nmpi.Client("myusername")
 
-This will prompt you for your password. Alternatively, you can supply your password directly:
-
-.. code-block:: python
-
-    c = nmpi.Client(username="myusername", password="topsecret")
+This will prompt you for your password.
 
 After you have connected once with your password, the platform provides a token which you
 can save to a file and use in place of the password.
@@ -177,34 +227,6 @@ can save to a file and use in place of the password.
 
 This token will eventually expire. When it does, reconnect with your password to obtain a new token.
 
-.. todo:: allow a configuration file (".nmpirc"?) for putting username, password in
-
-
-Creating a new project
-----------------------
-
-Before submitting jobs, you must create at least one project. Each project must have a unique name,
-containing only letters, numbers, underscores or hyphens.
-We suggest using a "namespace" approach, e.g. prefix all project names with the name of your
-university or laboratory.
-
-.. code-block:: python
-
-    c.create_project("my-testproject")
-
-You can also specify a longer name, which need not be unique, and may include spaces and punctuation,
-and a paragraph-length description of the project.
-
-.. code-block:: python
-
-    c.create_project("my-synfire",
-                     full_name="Synfire Chain Network",
-                     description="Simulations of a synfire chain network")
-
-.. todo:: what happens if a project with that name already exists?
-
-.. todo:: explain about project members
-
 
 Submitting a job
 ----------------
@@ -215,8 +237,11 @@ Simple example: a single file on your local machine, no input data or parameter 
 
     job_id = c.submit_job(source="/Users/alice/dev/pyNN_0.7/examples/IF_cond_exp.py",
                           platform="NM-PM1",
-                          project="my-testproject")
+                          collab_id=563)
 
+The Collab ID is the first number in the URL of your Collab, e.g. ``https://collab.humanbrainproject.eu/#/collab/563/nav/5043``.
+
+source, platform, collab_id, config=None, inputs=None command
 
 A more complex example: the experiment and model description are contained in a Git repository. The input to the
 network is an image file taken from the internet.
@@ -225,8 +250,9 @@ network is an image file taken from the internet.
 
     job_id = c.submit_job(source="https://github.com/apdavison/nmpi_test",
                           platform="NM-MC1",
-                          project="unic-testproject",
-                          inputs=["http://aloi.science.uva.nl/www-images/90/90.jpg"])
+                          collab_id=141,
+                          inputs=["http://aloi.science.uva.nl/www-images/90/90.jpg"],
+                          command="run.py {system}")
 
 
 Monitoring job status
@@ -238,16 +264,15 @@ Monitoring job status
     u'submitted'
 
 
-
 Retrieving the results of a job
 -------------------------------
 
 .. code-block:: python
 
-    >>> job = c.get_job(job_id)
+    >>> job = c.get_job(job_id, with_log=True)
     >>> from pprint import pprint
     >>> pprint(job)
-    {u'experiment_description': u'https://github.com/apdavison/nmpi_test',
+    {u'code': u'https://github.com/apdavison/nmpi_test',
      u'hardware_config': u'',
      u'hardware_platform': u'NM-MC1',
      u'id': 19,
@@ -258,17 +283,22 @@ Retrieving the results of a job
      u'output_data': [{u'id': 35,
                       u'resource_uri': u'/api/v1/dataitem/35',
                       u'url': u'http://example.com/my_output_data.h5'}],
-     u'project': u'/api/v1/project/1',
+     u'collab_id': 141,
      u'resource_uri': u'/api/v1/queue/19',
      u'status': u'finished',
      u'timestamp_completion': u'2014-08-13T21:02:37.541732',
      u'timestamp_submission': u'2014-08-13T19:40:43.964541',
-     u'user': u'/api/v1/user/myusername'}
+     u'user': u'myusername'}
 
 
-.. todo:: explain how to download data files
+To download the data files generated by your simulation:
+
+.. code-block:: python
+
+    filenames = download_data_url(self, job, local_dir=".")
 
 
 .. _`Human Brain Project`: http://www.humanbrainproject.eu
 .. _`HBP Collaboration Server`: https://collaboration.humanbrainproject.eu
+.. _`Neuromorphic Computing Platform collab`: https://collab.humanbrainproject.eu/#/collab/51/nav/244
 

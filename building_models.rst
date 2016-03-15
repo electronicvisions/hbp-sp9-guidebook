@@ -101,7 +101,7 @@ Finally we loop over the populations, retrieve the spike times, and plot a raste
 
 Note that here we include the plotting in the same script just to illustrate the example output.
 Scripts submitted to the Neuromorphic Computing Platform should not in general contain graph plotting or data
-analysis code. Instead you should save spikes to file and use the other tools available in the `Unified Portal`_ for
+analysis code. Instead you should save spikes to file and use the other tools available in the `Collaboratory`_ for
 analysing and visualizing the results.
 
 .. _using-different-backends:
@@ -178,9 +178,9 @@ example discussed preivously, and shown below:
 
 .. code-block:: python
 
-    populations[syn_type] = [sim.Population(population_size,
-                                                sim.IF_cond_exp,
-                                                neuron_parameters)
+    populations[syn_type] = sim.Population(population_size,
+                                           sim.IF_cond_exp,
+                                           neuron_parameters)
 
 
 A partitioning limitation/constraint can be added to the population, which can
@@ -189,9 +189,9 @@ shown below:
 
 .. code-block:: python
 
-    populations[syn_type] = [sim.Population(population_size,
-                                                sim.IF_cond_exp,
-                                                neuron_parameters)
+    populations[syn_type] = sim.Population(population_size,
+                                           sim.IF_cond_exp,
+                                           neuron_parameters)
     populations[syn_type].add_constraint(sim.PartitionerMaximumSizeConstraint(200))
 
 This and other examples of manual limitations can be found in the online
@@ -202,7 +202,7 @@ User Defined Limits and Configuration though the spynnaker.cfg file`_
 .. _`PyNN 0.6 documentation`: http://neuralensemble.org/trac/PyNN/
 .. _`PyNN 0.7 documentation`: http://neuralensemble.org/trac/PyNN/
 .. _`PyNN 0.8 documentation`: http://neuralensemble.org/docs/PyNN/
-.. _`Configuring the sPyNNaker front end, and its limitations: Configuration though the PyNN provided setup() function`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
-.. _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
-.. _`Configuring the sPyNNaker front end, and its limitations: User Defined Limits and Configuration though the spynnaker.cfg file`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations
-.. _`Unified Portal`: https://collab.humanbrainproject.eu
+.. _`Configuring the sPyNNaker front end, and its limitations: Configuration though the PyNN provided setup() function`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations#-configuration-though-the-pynn-provided-setup-function
+.. _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations#-limitations
+.. _`Configuring the sPyNNaker front end, and its limitations: User Defined Limits and Configuration though the spynnaker.cfg file`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations#-user-defined-limits
+.. _`Collaboratory`: https://collab.humanbrainproject.eu

@@ -1,6 +1,6 @@
-=======
+=============================
 Wafer Scale Mapping (Marocco)
-=======
+=============================
 
 Wafer Scale Mapping is performed by ``marocco`` and described in the `PhD thesis of S. Jeltsch`_.
 
@@ -12,7 +12,7 @@ Code documentation is provided by ``doxygen`` and available as `documentation-ma
 
 In the following the build and work flow on UHEI NM-PM1 cluster
 frontend nodes is described. If the NM-PM1 is accessed through the
-NMPI, the installation can be skipped.
+Collaboratory or the Python client, the installation can be skipped.
 
 Installation
 ------------

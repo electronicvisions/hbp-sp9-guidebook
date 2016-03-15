@@ -88,7 +88,7 @@ There is a limit on how much delay can be added to a model's synapse.
 
 TODO: chase up what this limit is
 
-Syapnse and neuron loss
+Synapse and neuron loss
 =======================
 
 The MC-1 software stack removes projection links between two collections of
