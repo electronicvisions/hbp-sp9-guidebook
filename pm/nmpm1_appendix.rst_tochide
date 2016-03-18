@@ -1,12 +1,12 @@
 
--------
-NM-PM 1
--------
+-----------
+BrainScaleS
+-----------
 
 Job queue Demo - HBP Summit 2014
 ================================
 
-On a UHEI NM-PM1 cluster frontend node:
+On a UHEI BrainScaleS cluster frontend node:
 
 .. code-block:: bash
 

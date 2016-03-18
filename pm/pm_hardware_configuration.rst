@@ -10,9 +10,9 @@ Hardware configuration
       :width: 100%
       :alt: NMPM-1 system
 
-      The NM-PM-1 system: five 19-inch racks contain 20 neuromorphic wafer modules (cf. :num:`waferscale-hardware-figure`), the other two racks carry power supplies and a conventional control cluster.
+      The BrainScaleS (NM-PM-1) system: five 19-inch racks contain 20 neuromorphic wafer modules (cf. :num:`waferscale-hardware-figure`), the other two racks carry power supplies and a conventional control cluster.
 
-At the core of the NM-PM-1 wafer-scale hardware system (see Figure :num:`waferscale-hardware-figure`) is an uncut wafer built from mixed-signal ASICs [#f1]_,
+At the core of the BrainScaleS wafer-scale hardware system (see Figure :num:`waferscale-hardware-figure`) is an uncut wafer built from mixed-signal ASICs [#f1]_,
 named `High Input Count Analog Neural Network` chips (`HICANNs`), that provide a highly configurable substrate which physically emulates adaptively spiking neurons and dynamic synapses (`Schemmel et al. (2010)`_, `Schemmel et al. (2008)`_).
 The intrinsic time constants of these VLSI model circuits are multiple orders of magnitude shorter than their biological originals.
 Consequently, the hardware model evolves with a speedup factor of :math:`10^3` up to :math:`10^5` compared to biological real time, the precise value depending on the configuration of the system.
@@ -24,7 +24,7 @@ This speedup enables power-efficient computation as the energy consumption for s
       :width: 100%
       :alt: wafer-scale system
     
-      The NM-PM-1 wafer-scale hardware system: Wafer comprising HICANN building blocks and on-wafer communication infrastructure, mechanical infrastructure (top cover and insertion frame), analog readout boards (AnaB), power supply and digital inter-wafer as well as wafer-host communication modules.
+      The BrainScaleS wafer-scale hardware system: Wafer comprising HICANN building blocks and on-wafer communication infrastructure, mechanical infrastructure (top cover and insertion frame), analog readout boards (AnaB), power supply and digital inter-wafer as well as wafer-host communication modules.
 
 In addition to a high-bandwidth asynchronous on-wafer event communication infrastructure, 48 FPGA communication modules provide off-wafer connectivity (to other wafers and to host computers).
 
@@ -50,11 +50,11 @@ For a detailed specification see HBP deliverable `D9.7.1`_.
 
 .. figure:: nmpm1_overview.png
       :width: 100%
-      :alt: Simplified overview of the NM-PM1 system
+      :alt: Simplified overview of the BrainScaleS system
 
       The left area illustrates the partitioning of HICANNs into larger units (reticles) and the data flow up to the control cluster.
 
-Figure :num:`nmpm1-overview-figure` provides a simplified overview of the NM-PM1 system.
+Figure :num:`nmpm1-overview-figure` provides a simplified overview of the BrainScaleS system.
 The support infrastructure is responsible for power supply, off-wafer communication and analog readout functionality.
 A dedicated Raspberry Pi embedded computer monitors and controls all power links as well as other operating parameters of the wafer system.
 Analog readout (e.g., recording of membrane voltages) functionality is provided by a custom analog readout module (AnaRM).

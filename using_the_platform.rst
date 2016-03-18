@@ -3,7 +3,7 @@ Running simulations
 ===================
 
 The Neuromorphic Computing Platform of the `Human Brain Project`_ contains two very different neuromorphic hardware
-systems - NM-PM-1 ("physical model") and NM-MC-1 ("many core") - but has a single interface.
+systems - BrainScaleS (also known as "NM-PM-1", "physical model") and SpiNNaker (also known as "NM-MC-1", "many core") - but has a single interface.
 
 Jobs are written as Python scripts using the PyNN API, submitted to a queue server, then executed on one of the
 neuromorphic systems. On job completion, the user may retrieve the results of the simulation/emulation.
@@ -53,8 +53,8 @@ archive, you do not need to specify them here.
 Hardware platform configuration
 -------------------------------
 
-Here you must choose the hardware system to be used ("NM-PM1" for the Heidelberg BrainScaleS system,
-"NM-MC1" for the Manchester (SpiNNaker) system, "ESS" for the software simulator of the BrainScaleS system,
+Here you must choose the hardware system to be used ("BrainScaleS" for the Heidelberg system,
+"SpiNNaker" for the Manchester system, "BrainScaleS-ESS" for the software simulator of the BrainScaleS system,
 or "Spikey" for the Heidelberg single-chip system) and specify any
 specific configuration options for the hardware system you have chosen.
 
@@ -125,7 +125,7 @@ The first time you connect, of course, this list will be empty.
 To create a new simulation job click on the :guilabel:`'+'` icon or the :guilabel:`New Job` button.
 
 In this dialog, you must choose the project with which the job is associated, the hardware
-platform on which you wish to run ("NM-PM1", "NM-MC1", "ESS" or "Spikey"), and provide the Python script which
+platform on which you wish to run ("BrainScaleS", "SpiNNaker", "BrainScaleS-ESS" or "Spikey"), and provide the Python script which
 should be run, either by copy-and-pasting the script into the "Code" box,
 
 .. image:: images/create_job.png
@@ -236,7 +236,7 @@ Simple example: a single file on your local machine, no input data or parameter 
 .. code-block:: python
 
     job_id = c.submit_job(source="/Users/alice/dev/pyNN_0.7/examples/IF_cond_exp.py",
-                          platform="NM-PM1",
+                          platform="BrainScaleS",
                           collab_id=563)
 
 The Collab ID is the first number in the URL of your Collab, e.g. ``https://collab.humanbrainproject.eu/#/collab/563/nav/5043``.
@@ -249,7 +249,7 @@ network is an image file taken from the internet.
 .. code-block:: python
 
     job_id = c.submit_job(source="https://github.com/apdavison/nmpi_test",
-                          platform="NM-MC1",
+                          platform="SpiNNaker",
                           collab_id=141,
                           inputs=["http://aloi.science.uva.nl/www-images/90/90.jpg"],
                           command="run.py {system}")
@@ -274,7 +274,7 @@ Retrieving the results of a job
     >>> pprint(job)
     {u'code': u'https://github.com/apdavison/nmpi_test',
      u'hardware_config': u'',
-     u'hardware_platform': u'NM-MC1',
+     u'hardware_platform': u'SpiNNaker',
      u'id': 19,
      u'input_data': [{u'id': 34,
                       u'resource_uri': u'/api/v1/dataitem/34',

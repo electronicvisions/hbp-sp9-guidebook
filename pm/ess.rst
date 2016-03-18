@@ -2,11 +2,11 @@
 Executable System Specification (ESS)
 =====================================
 
-The Executable System Specification (ESS) is a software model of the NM-PM-1 hardware system.
+The Executable System Specification (ESS) is a software model of the BrainScaleS hardware system.
 The ESS is implemented in C++/SystemC and contains functional models of all relevant units of the wafer-scale hardware.
 It is fully executable and resembles how neural experiments will be run on the real wafer-scale system.
 It can be operated from PyNN, so that you can run neural network experiments described in PyNN with the ESS.
-This way you can already explore the capabilities of the NM `Physical Model` system.
+This way you can already explore the capabilities of the BrainScaleS "Physical Model" system.
 
 
 Using the ESS Docker Container
@@ -96,7 +96,7 @@ just the mapping tool test is installed at another location:
 Installation of the ESS (PyNN 0.8)
 ==================================
 
-By following this guideline, you will successfully install the current (as of March 2015) `stable` software stack of Heidelberg, containing the ESS, emulator of the NM-PM1 hardware system.
+By following this guideline, you will successfully install the current (as of March 2015) `stable` software stack of Heidelberg, containing the ESS, emulator of the BrainScaleS hardware system.
 You will have installed it together with the compatible PyNN version (0.8).
 
 Currently, a new software stack is under development which will replace the old one.

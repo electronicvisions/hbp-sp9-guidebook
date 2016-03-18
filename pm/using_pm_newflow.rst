@@ -10,8 +10,8 @@ Code documentation is provided by ``doxygen`` and available as `documentation-ma
 
 .. _documentation-marocco: https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
 
-In the following the build and work flow on UHEI NM-PM1 cluster
-frontend nodes is described. If the NM-PM1 is accessed through the
+In the following the build and work flow on UHEI BrainScaleS cluster
+frontend nodes is described. If the BrainScaleS is accessed through the
 Collaboratory or the Python client, the installation can be skipped.
 
 Installation

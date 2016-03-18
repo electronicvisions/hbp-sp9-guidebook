@@ -142,32 +142,32 @@ With PyNN 0.8:
 
 
 
-"Physical model" (NM-PM-1) system
-=================================
+"Physical model" (BrainScaleS) system
+=====================================
 
-The PM system has a number of additional configuration options that can be passed to :func:`setup()`. These are
+The BrainScaleS system has a number of additional configuration options that can be passed to :func:`setup()`. These are
 explained in :ref:`nmpm1-hardware-configuration`.
 There are also a number of limitations, for example only a subset of the
 PyNN standard neuron and synapse models are available.
 
-The PM system attempts to automatically place neurons on the wafers in an optimal way. However, it is possible to
+The BrainScaleS system attempts to automatically place neurons on the wafers in an optimal way. However, it is possible to
 influence this placement or control it manually. An example can be found in :ref:`label-marocco-example`.
 
-"Many core" (NM-MC-1) system
-============================
+"Many core" (SpiNNaker) system
+==============================
 
-The MC-1 system has a number of additional configuration options that can be
+The SpiNNaker system has a number of additional configuration options that can be
 passed to :func:`setup()`. These are explained in the online documentation on
 `Configuring the sPyNNaker front end, and its limitations: Configuration though
 the PyNN provided setup() function`_.
 
-The MC-1 system also has a number of limitations, for example, only a subset
+The SpiNNaker system also has a number of limitations, for example, only a subset
 of the PyNN stndard neuron and synapse models are currently available. These
 limitations are defined in the online documentation on
 `Configuring the sPyNNaker front end, and its limitations: Limitations`_.
 
 
-The MC-1 software stack attempts to automatically partition the populations
+The SpiNNaker software stack attempts to automatically partition the populations
 defined in the PyNN script into core sized chunks (the smallest atomic size of
 resource for a machine) of neurons which are then placed onto the machine in an
 optimal way in regard to the machine's available resources. However, it is
