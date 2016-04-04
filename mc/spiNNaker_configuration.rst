@@ -89,7 +89,14 @@ that runs on the hardware. Therefore we synaptic delays as programmable aspects.
 
 There is a limit on how much delay can be added to a model's synapse.
 
-TODO: chase up what this limit is
+Currently, in version 2015.005 “Arbitrary”, we are restricted to representing delays 
+as 0-31 timer ticks. Each timer tick — which can be set under software 
+control — is usually set to be 0.1ms or 1ms, but this is just a choice made 
+by the programmer. Longer delays are implemented using a dummy population 
+of so-called “delay neurons”; these are added by the configuration software if needed. 
+
+The next planned release, 2016.006 “Another Fine Product..”, removes the restriction 
+giving an unlimited number of directly represented timer ticks for each delay. 
 
 Synapse and neuron loss
 =======================
@@ -122,12 +129,21 @@ Multiple runs
 Available hardware setups
 =========================
 
-TODO Dont know what to put here
+There are currently three known hardware setups: 
+
+The 48 node board; the four-node board and Jorg Conradt’s one-node board. 
+The first two were produced at The University of Manchester, the third is 
+produced at TU Munchen and is intended for light-weight near-robotic 
+applications. 
 
 Mapping
 =======
 
-TODO Dont know if we should delve into the software stacks mapping processes.
+In version 2015.005 “Arbitrary” the mapping and routing process takes place 
+on the host machine as part of the placement and configuration manager 
+(PACMAN). In the next planned release, 2016.006 “Another Fine Product..”, 
+we migrate this process on to the SpiNNaker hardware itself. The expectation 
+is that this will significantly improve load-times. 
 
 .. _`SpiNNaker hardware`: http://apt.cs.manchester.ac.uk/projects/SpiNNaker/
 .. _SARK: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/sark.pdf
