@@ -34,7 +34,10 @@ Supported cells and plasticity mechanisms
 Parameter ranges
 ================
 
- TODO Not sure if this section is really needed for our stuff.
+All parameters and their ranges are under software control. Currently, in 
+version 2015.005 “Arbitrary”, weights are held as 16-bit integers, with their 
+range determined at compile-time to suit the application. Membrane voltages 
+are held as 32-bit fixed point numbers in the s16.15 format, representing mV. 
 
 Recording spikes, membrane potential and synaptic conductance
 =============================================================
