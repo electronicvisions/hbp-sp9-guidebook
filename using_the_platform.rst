@@ -58,7 +58,7 @@ Here you must choose the hardware system to be used ("BrainScaleS" for the Heide
 or "Spikey" for the Heidelberg single-chip system) and specify any
 specific configuration options for the hardware system you have chosen.
 
-.. todo:: list configuration options for the different systems
+.. commenting out a todo:: list configuration options for the different systems
 
 
 .. _using-the-web-interface:
@@ -111,7 +111,7 @@ All collab members will also be asked to sign and return a User Agreement form.
 Once the resource request is granted, the :guilabel':`Resource Manager` will display the
 quota usage.
 
-.. todo:: include screenshot of quota usage page.
+.. commenting out a todo:: include screenshot of quota usage page.
 
 
 Submitting a simulation job

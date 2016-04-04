@@ -212,7 +212,7 @@ and calculate the spike-triggered average of these so-called excitatory postsyna
   They may differ due to the initial loading of capacities (e.g. wires).
   Discard an appropriate number of EPSPs at the beginning of the emulation to avoid these distortions.
 
-.. todo:: regarding noise refer to Eric's publication
+.. commenting out a todo:: regarding noise refer to Eric's publication
 
 
 .. _label-lesson_2:
@@ -395,7 +395,7 @@ Other network examples
 
 * `Simple synfire chain <https://github.com/electronicvisions/hbp_platform_demo/tree/master/spikey>`_
 
-.. todo:: add example demonstrating that recording spikes is much faster than recording membrane potentials
+.. commenting out todo:: add example demonstrating that recording spikes is much faster than recording membrane potentials
 
 References
 ----------

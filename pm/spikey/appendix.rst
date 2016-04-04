@@ -74,7 +74,7 @@ Note that you will need root privileges for adding users to a UNIX group.
 #. Assign Spikey systems to ``plugdev`` group (creates a ``udev`` config file): ``sudo sh vmodule/nosudo``
 #. Restart ``udev`` daemon: ``service udev restart`` and (re-)plug-in the Spikey USB device.
 
-.. todo:: enable usage of Spikey systems without root privileges
+.. commenting out a todo:: enable usage of Spikey systems without root privileges
 
 
 Run experiments

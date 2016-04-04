@@ -35,6 +35,6 @@ Please not that parameter variations (fixed-pattern noise) are not considered, b
 List of publications
 --------------------
 
-.. todo:: add list of publications
+.. commenting out a todo:: add list of publications
 
 .. [Bruederle2009PhD] Brüderle, D. (2009). `Neuroscientific Modeling with a Mixed-Signal VLSI Hardware System <http://archiv.ub.uni-heidelberg.de/volltextserver/9656/1/dissertation_bruederle.pdf>`_. PhD thesis, Heidelberg University. HD-KIP 09-30.
