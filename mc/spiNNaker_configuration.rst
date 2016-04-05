@@ -172,6 +172,14 @@ compilation errors. Instructions on how to use this functionality can be
 found under 2016.001 “Another Fine Product.."
  `Instructions on how to use the different front ends in virtual mode`_
 
+.. _SpiNNaker-system-photo:
+
+.. figure:: IMG_20160324_140840286_500000coreSpiNNakerWithOpenDoors.jpg
+      :width: 100%
+      :alt: The SpiNNaker 500.000 core system (NM-MC1) in Manchester on 25 March 2016
+
+      The SpiNNaker 500.000 core system (NM-MC1) in Manchester on 25 March 2016
+
 Mapping
 =======
 
@@ -198,7 +206,7 @@ Instructions on how to do so can be found under
 .. _`Simple Input/output and Visualisation using sPyNNaker`:http://spinnakermanchester.github.io/2015.005.Arbitrary/
 .. _`Instructions on using the SpyNNaker External Device Plugin for closed loop simulations`:http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
 .. _`2.6 Rerunning PyNN scripts`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-2.5-Rerunning-PyNN-scripts
-.. _`Instructions on using the sPyNNaker reload functionality`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
-.. _`Using new mapping algorithms with different front ends`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
-.. _`Instructions on how to use the different front ends in virtual mode`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
+.. _`Instructions on using the sPyNNaker reload functionality`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/common_pages/ReloadFunctionality.html
+.. _`Using new mapping algorithms with different front ends`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/common_pages/MappingAlgorithms.html
+.. _`Instructions on how to use the different front ends in virtual mode`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/common_pages/VirtualMode.html
 .. _`PyNN on SpiNNaker Support and Limitations`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
