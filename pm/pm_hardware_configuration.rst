@@ -62,6 +62,14 @@ Several AnaRMs are handled by another dedicated control computer.
 The control/compute cluster orchestrates the configuration of the system and the execution of neuronal network experiments including all input and output data of the emulated network.
 All hardware resources (neuromorphic and support hardware as well as conventional compute resources) are managed by `SLURM`_.
 
+.. _BrainScaleS-system-photo:
+
+.. figure:: 6D_0073294_Racks_19WaferSystemsInstalled_30March2016_cropped_1000px.jpg
+      :width: 100%
+      :alt: The BrainScaleS physical system in Heidelberg on 30 March 2016.
+
+      The BrainScaleS (NM-PM-1) system in Heidelberg on 30 March 2016
+
 .. _SLURM: http://slurm.schedmd.com
 
 .. [#f1] Application Specific Integrated Circuit
