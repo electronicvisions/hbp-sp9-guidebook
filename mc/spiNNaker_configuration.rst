@@ -170,7 +170,7 @@ without actually generating any simulated data. This supports end users in
 testing their scripts before loading them into the HBP portal for basic
 compilation errors. Instructions on how to use this functionality can be
 found under 2016.001 “Another Fine Product.."
-`Instructions on how to use the different front ends in virtual mode`_
+ `Instructions on how to use the different front ends in virtual mode`_
 
 Mapping
 =======
@@ -183,7 +183,8 @@ is that this will significantly improve load-times.
 
 In version 2016.001 “Another Fine Product.." there is a interface for end users
 to add their own mapping and routing algorithms into the tool chain.
-Instructions on how to do so can be found under `Using new mapping algorithms with different front ends`_
+Instructions on how to do so can be found under
+ `Using new mapping algorithms with different front ends`_
 
 
 
@@ -198,6 +199,6 @@ Instructions on how to do so can be found under `Using new mapping algorithms wi
 .. _`Instructions on using the SpyNNaker External Device Plugin for closed loop simulations`:http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
 .. _`2.6 Rerunning PyNN scripts`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-2.5-Rerunning-PyNN-scripts
 .. _`Instructions on using the sPyNNaker reload functionality`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
-.. _`Using new mapping algorithms with different front ends`:http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
-.. _`Instructions on how to use the different front ends in virtual mode`:http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
+.. _`Using new mapping algorithms with different front ends`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
+.. _`Instructions on how to use the different front ends in virtual mode`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
 .. _`PyNN on SpiNNaker Support and Limitations`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
