@@ -24,6 +24,14 @@ The different versions of the high level software can be found below:
 2015.005 “Arbitrary” `sPyNNaker front end Arbitrary`_
 2016.001 “Another Fine Product.." `sPyNNaker front end Another`_
 
+.. _SpiNNaker-system-photo:
+
+.. figure:: IMG_20160324_140840286_500000coreSpiNNakerWithOpenDoors.jpg
+      :width: 100%
+      :alt: The SpiNNaker 500.000 core system (NM-MC1) in Manchester on 25 March 2016
+
+      The SpiNNaker 500.000 core system (NM-MC1) in Manchester on 25 March 2016
+
 
 Supported cells and plasticity mechanisms
 =========================================
@@ -171,14 +179,6 @@ testing their scripts before loading them into the HBP portal for basic
 compilation errors. Instructions on how to use this functionality can be
 found under 2016.001 “Another Fine Product.."
  `Instructions on how to use the different front ends in virtual mode`_
-
-.. _SpiNNaker-system-photo:
-
-.. figure:: IMG_20160324_140840286_500000coreSpiNNakerWithOpenDoors.jpg
-      :width: 100%
-      :alt: The SpiNNaker 500.000 core system (NM-MC1) in Manchester on 25 March 2016
-
-      The SpiNNaker 500.000 core system (NM-MC1) in Manchester on 25 March 2016
 
 Mapping
 =======
