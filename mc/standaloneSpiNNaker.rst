@@ -8,17 +8,24 @@ stack and the access to a live SpiNNaker board.
 Installation of the SpiNNaker software
 ======================================
 
-Instructions on how to install the SpiNNaker software can be found on the online https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-0.2-PyNN-on-SpiNNaker-Installation-Guide
+Instructions on how to install the most recent SpiNNaker high level software stack can be found on the online http://spinnakermanchester.github.io/
 
 Adding new models into the software stack
 ================================================
 
 Instructions on how to extend the software for adding new neural models/
-synapse types etc can be found on the online documentation under the pages:
+synapse types etc can be found on the online documentation for:
 
-_`1.2 PyNN on SpiNNaker Extension Development Guide`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.2-PyNN-on-SpiNNaker-Extension-Development-Guide
+version 2015.005 “Arbitrary”
+_`Creating New Neuron Models for SpiNNaker`: http://spinnakermanchester.github.io/2015.005.Arbitrary/workshop_material/lab_manuals/NewNeuronModels-LabManual.pdf
+_`PyNN on SpiNNaker Extension Development Guide`: http://spinnakermanchester.github.io/2015.005.Arbitrary/PyNNOnSpiNNakerExtensions.html
+_`C Development for SpiNNaker`: http://spinnakermanchester.github.io/2015.005.Arbitrary/CDevelopmentForSpiNNaker.html
 
-_`1.3 1.3 C Development for SpiNNaker`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.3-C-Development-for-SpiNNaker
+and 2016.001 “Another Fine Product.."
+
+_`Creating New Neuron Models for SpiNNaker`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/workshop_material/lab_manuals/NewNeuronModels-LabManual.pdf
+_`PyNN on SpiNNaker Extension Development Guide`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_pages/PyNNOnSpiNNakerExtensions.html
+_`C Development for SpiNNaker`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/common_pages/CDevelopmentForSpiNNaker.html
 
 Generating live input and output during a executing PyNN script
 ===============================================================
@@ -28,15 +35,28 @@ interface to support live injection of data into a MC-1 machine and the live
 output of data from a MC-1 machine can be found on the online documentation
 under the pages:
 
-_`2.1 Injecting Data Into SpiNNaker Machines`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-2.1-pre_release-Injecting-Data-Into-SpiNNaker-Machines
+version 2015.005 “Arbitrary”
 
-_`2.2 Extracting data from a simulation on a SpiNNaker machine in real time`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-2.2-Extracting-data-from-a-simulation-on-a-SpiNNaker-machine-in-real-time
+_`Injecting and Extracting Data Into/From SpiNNaker Machines in real time`: http://spinnakermanchester.github.io/2015.005.Arbitrary/workshop_material/lab_manuals/SimpleIOLabManual.pdf
+
+
+and 2016.001 “Another Fine Product.."
+
+_`Injecting and Extracting Data Into/From SpiNNaker Machines in real time`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_pages/closed_loop_simulations.html
 
 Interfacing a external visualiser with the MC-1 software stack
 ==============================================================
 
 Instructions on how to interface a external visualiser with the sPyNNaker front
-end can be  found on the online documentation
-under _`2.4 Visualiser framework`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.003:-Just-Testing-:-2.4-Visualiser-framework
+end can be  found on the online documentation for
+
+version 2015.005 “Arbitrary”
+
+_`Injecting and Extracting Data Into/From SpiNNaker Machines in real time`: http://spinnakermanchester.github.io/2015.005.Arbitrary/workshop_material/lab_manuals/SimpleIOLabManual.pdf
+
+
+and 2016.001 “Another Fine Product.."
+
+_`Injecting and Extracting Data Into/From SpiNNaker Machines in real time`: http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_pages/closed_loop_simulations.html
 
 

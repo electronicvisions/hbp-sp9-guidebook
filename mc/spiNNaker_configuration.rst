@@ -22,7 +22,7 @@ application data generated during the applications execution.
 
 The different versions of the high level software can be found below:
 2015.005 “Arbitrary” `sPyNNaker front end Arbitrary`_
-2016.001 “Another Fine Product.." `sPyNNaker front end Another`_
+2016.001 “Another Fine Product.." `sPyNNaker front end Another Fine Product`_
 
 .. _SpiNNaker-system-photo:
 
@@ -201,7 +201,7 @@ Instructions on how to do so can be found under
 .. _Spin1API: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/spinn_api_doc.pdf
 .. _Ybug: https://github.com/SpiNNakerManchester/spinnaker_tools/tree/2015.002/docs/ybug.pdf
 .. _`sPyNNaker front end Arbitrary`: https://github.com/SpiNNakerManchester/sPyNNaker/tree/2015.005
-.. _`sPyNNaker front end Another`: https://github.com/SpiNNakerManchester/sPyNNaker/tree/2016.001
+.. _`sPyNNaker front end Another Fine Product`: https://github.com/SpiNNakerManchester/sPyNNaker/tree/2016.001
 .. _`Configuring the sPyNNaker front end, and its limitations`: http://spinnakermanchester.github.io/2015.005.Arbitrary/
 .. _`Simple Input/output and Visualisation using sPyNNaker`:http://spinnakermanchester.github.io/2015.005.Arbitrary/
 .. _`Instructions on using the SpyNNaker External Device Plugin for closed loop simulations`:http://spinnakermanchester.github.io/2016.001.AnotherFineProductFromTheNonsenseFactory/spynnaker_index.html
