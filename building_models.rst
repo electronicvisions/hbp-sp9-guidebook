@@ -156,16 +156,7 @@ influence this placement or control it manually. An example can be found in :ref
 "Many core" (SpiNNaker) system
 ==============================
 
-The SpiNNaker system has a number of additional configuration options that can be
-passed to :func:`setup()`. These are explained in the online documentation on
-`Configuring the sPyNNaker front end, and its limitations: Configuration though
-the PyNN provided setup() function`_.
-
-The SpiNNaker system also has a number of limitations, for example, only a subset
-of the PyNN stndard neuron and synapse models are currently available. These
-limitations are defined in the online documentation on
-`Configuring the sPyNNaker front end, and its limitations: Limitations`_.
-
+The SpiNNaker system supports the standard arguments provided by the PyNN :func:`setup()` function.  The SpiNNaker system has a number of limitations in terms of the support for PyNN functionality, for example, only a subset of the PyNN standard neuron and synapse models are currently available. These limitations are defined in the online documentation `here <http://spinnakermanchester.github.io/latest/spynnaker_limitations.html>`__.
 
 The SpiNNaker software stack attempts to automatically partition the populations
 defined in the PyNN script into core sized chunks (the smallest atomic size of
@@ -174,7 +165,7 @@ optimal way in regard to the machine's available resources. However, it is
 possible to influence the partitioning and placement behaviours manually.
 
 For example, take the PyNN definition of a population from the "synfire chain"
-example discussed preivously, and shown below:
+example discussed previously, and shown below:
 
 .. code-block:: python
 
@@ -195,14 +186,10 @@ shown below:
     populations[syn_type].add_constraint(sim.PartitionerMaximumSizeConstraint(200))
 
 This and other examples of manual limitations can be found in the online
-documentation on `Configuring the sPyNNaker front end, and its limitations:
-User Defined Limits and Configuration though the spynnaker.cfg file`_
+documentation `here <http://spinnakermanchester.github.io/latest/spynnaker_tutorial.html>`__.
 
 .. _PyNN: http://neuralensemble.org/PyNN/
 .. _`PyNN 0.6 documentation`: http://neuralensemble.org/trac/PyNN/
 .. _`PyNN 0.7 documentation`: http://neuralensemble.org/trac/PyNN/
 .. _`PyNN 0.8 documentation`: http://neuralensemble.org/docs/PyNN/
-.. _`Configuring the sPyNNaker front end, and its limitations: Configuration though the PyNN provided setup() function`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations#-configuration-though-the-pynn-provided-setup-function
-.. _`Configuring the sPyNNaker front end, and its limitations: Limitations`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations#-limitations
-.. _`Configuring the sPyNNaker front end, and its limitations: User Defined Limits and Configuration though the spynnaker.cfg file`: https://github.com/SpiNNakerManchester/SpiNNakerManchester.github.io/wiki/2015.004:-Little-Rascal-:-1.1-Configuring-the-sPyNNaker-front-end,-and-its-limitations#-user-defined-limits
 .. _`Collaboratory`: https://collab.humanbrainproject.eu

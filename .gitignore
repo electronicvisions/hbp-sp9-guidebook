@@ -2,3 +2,7 @@ _build
 .idea
 gitversion.rst_tochide
 *.swp
+/.settings/
+/.project
+/.pydevproject
+*.pyc
