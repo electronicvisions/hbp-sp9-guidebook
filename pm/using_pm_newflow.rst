@@ -244,22 +244,6 @@ nmpm1_single_neuron.py:
 
 .. literalinclude:: examples/nmpm1_single_neuron.py
 
-Load redman backend::
-
-	from pymarocco import PyMarocco
-	from pycake.helpers.redman import Redman
-	import Coordinate as C
-
-	hicann_id = 276
-	hicann_coord_global = C.HICANNGlobal(C.Enum(hicann_id))
-	redman_backend_path = "/wang/data/calibration/wafer_0"
-	                      # containing e.g. hicann-Wafer(0)-Enum(276).xml
-
-	marocco = PyMarocco()
-
-	r = Redman(calibration_path, hicann_coord_global)
-	marocco.defects.inject(hicann_coord_global, r.hicann_with_backend)
-
 If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
 
 .. code-block:: python
