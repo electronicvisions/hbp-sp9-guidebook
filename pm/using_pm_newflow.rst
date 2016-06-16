@@ -253,6 +253,12 @@ If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
 		import pyhmf as pynn
 	ImportError: No module named pyNN.recording.files
 
+You can add pyNN to your paths by loading the module:
+
+.. code-block:: bash
+
+	module load pynn/0.7.5
+
 Inspect the Configuration
 '''''''''''''''''''''''''
 
