@@ -230,7 +230,7 @@ To choose the HICANN a population is placed on, we give marocco a hint:
 
 		import Coordinate as C
 
-		marocco.manual_placement.on_hicann(neuron, C.HICANNOnWafer(C.X(5), C.Y(5)), C.Wafer(3))
+		marocco.manual_placement.on_hicann(neuron, C.HICANNOnWafer(C.X(5), C.Y(5)))
 
 At the end, the script is the following:
 
