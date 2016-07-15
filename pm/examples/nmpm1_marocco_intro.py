@@ -1,18 +1,26 @@
 import pyhmf as pynn
 import Coordinate as C
 from pymarocco import PyMarocco
+from pymarocco.results import Marocco
 
 import pylogging
 for domain in ["Calibtic", "marocco"]:
     pylogging.set_loglevel(pylogging.get(domain), pylogging.LogLevel.INFO)
 
 marocco = PyMarocco()
+marocco.persist = "results.bin"
 pynn.setup(marocco = marocco)
 
-neuron = pynn.Population(1, pynn.IF_cond_exp)
+pop = pynn.Population(1, pynn.IF_cond_exp)
 
-marocco.placement.add(neuron, C.HICANNGlobal(C.HICANNOnWafer(C.X(5), C.Y(5)), C.Wafer(3)))
+marocco.manual_placement.on_hicann(pop, C.HICANNOnWafer(C.X(5), C.Y(5)), 4)
 
 pynn.run(10)
-
 pynn.end()
+
+results = Marocco.from_file(marocco.persist)
+
+for neuron in pop:
+    for item in results.placement.find(neuron):
+        for denmem in item.logical_neuron():
+            print denmem

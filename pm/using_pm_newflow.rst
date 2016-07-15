@@ -133,12 +133,12 @@ adviced to give the ``pyhmf`` module an other name like ``pynn``:
 
 We also need the helper module ``pymarocco`` that takes care of
 hardware and marocco specific settings:
-		
+
 .. code-block:: python
 
 		import pyhmf as pynn
 		from pymarocco import PyMarocco
-		
+
 		marocco = PyMarocco()
 		pynn.setup(marocco = marocco)
 
@@ -156,8 +156,23 @@ If you don't preload libmpi, the error message is:
 
 .. code-block:: bash
 
-    python: symbol lookup error: /usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.so:
-        undefined symbol: mca_base_param_reg_int
+	python: symbol lookup error: /usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.so:
+		undefined symbol: mca_base_param_reg_int
+
+If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
+
+.. code-block:: python
+
+	Traceback (most recent call last):
+	  File "main.py", line 5, in <module>
+		import pyhmf as pynn
+	ImportError: No module named pyNN.recording.files
+
+You can add pyNN to your paths by loading the module:
+
+.. code-block:: bash
+
+	module load pynn/0.7.5
 
 In the following example, one neuron is placed on the wafer, however,
 by choosing the backend None, the actual hardware is not used.
@@ -171,10 +186,10 @@ Specification.
 
 		import pyhmf as pynn
 		from pymarocco import PyMarocco
-		
+
 		marocco = PyMarocco()
 		marocco.backend = PyMarocco.None
-   
+
 		pynn.setup(marocco = marocco)
 
 		neuron = pynn.Population(1, pynn.IF_cond_exp)
@@ -214,20 +229,31 @@ To choose the HICANN a population is placed on, we give marocco a hint:
 .. code-block:: python
 
 		import Coordinate as C
-		
-		marocco.placement.add(neuron, C.HICANNGlobal(C.HICANNOnWafer(C.X(5), C.Y(5)), C.Wafer(3)))
+
+		marocco.manual_placement.on_hicann(neuron, C.HICANNOnWafer(C.X(5), C.Y(5)), C.Wafer(3))
 
 At the end, the script is the following:
 
-nmpm1_single_neuron.py:
+nmpm1_marocco_intro.py:
 
 .. literalinclude:: examples/nmpm1_marocco_intro.py
-	
+
+We also added a print out of the chosen neuron circuits:
+
+.. code-block:: bash
+
+		NeuronOnWafer(NeuronOnHICANN(X(0), top), HICANNOnWafer(X(5), Y(5)))
+		NeuronOnWafer(NeuronOnHICANN(X(1), top), HICANNOnWafer(X(5), Y(5)))
+		NeuronOnWafer(NeuronOnHICANN(X(0), bottom), HICANNOnWafer(X(5), Y(5)))
+		NeuronOnWafer(NeuronOnHICANN(X(1), bottom), HICANNOnWafer(X(5), Y(5)))
 
 Calibration
 '''''''''''
 
-To change the calibration backend from database to XML set "calib_backend" to XML. Then the calibration is looked up in xml files named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory "calib_path".
+To change the calibration backend from database to XML set
+"calib_backend" to XML. Then the calibration is looked up in xml files
+named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory
+"calib_path".
 
 .. _label-marocco-example:
 
@@ -243,21 +269,6 @@ To run on the *hardware* one needs to use the slurm job queue system:
 nmpm1_single_neuron.py:
 
 .. literalinclude:: examples/nmpm1_single_neuron.py
-
-If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
-
-.. code-block:: python
-
-	Traceback (most recent call last):
-	  File "main.py", line 5, in <module>
-		import pyhmf as pynn
-	ImportError: No module named pyNN.recording.files
-
-You can add pyNN to your paths by loading the module:
-
-.. code-block:: bash
-
-	module load pynn/0.7.5
 
 Inspect the Configuration
 '''''''''''''''''''''''''
@@ -322,5 +333,3 @@ the lost and realized synapses of one projection.
 
    Realized (black) and lost (red) synapses of the stimulus projection in the
    example network above.
-
-
