@@ -26,7 +26,7 @@ This speedup enables power-efficient computation as the energy consumption for s
     
       The BrainScaleS wafer-scale hardware system: Wafer comprising HICANN building blocks and on-wafer communication infrastructure, mechanical infrastructure (top cover and insertion frame), analog readout boards (AnaB), power supply and digital inter-wafer as well as wafer-host communication modules.
 
-In addition to a high-bandwidth asynchronous on-wafer event communication infrastructure, 48 FPGA communication modules provide off-wafer connectivity (to other wafers and to host computers).
+In addition to a high-bandwidth asynchronous on-wafer event communication infrastructure, 48 FPGA [#f2]_ communication modules provide off-wafer connectivity (to other wafers and to host computers).
 
 A full wafer system comprises 384 interconnectable HICANNs, each of which implements more than 114,688 programmable dynamic synapses and up to 512 neurons, resulting in a total of approximately 44 million synapses and up to 196,608 neurons per wafer module.
 The exact number of neurons depends on the configuration of the substrate, which allows to combine multiple neuron building blocks to increase the input count per cell.
@@ -74,3 +74,6 @@ All hardware resources (neuromorphic and support hardware as well as conventiona
 
 .. [#f1] Application Specific Integrated Circuit
 .. [#f2] Field Programmable Gate Array
+
+.. _`Schemmel et al. (2010)`: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5536970
+.. _`Schemmel et al. (2008)`: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4633828
