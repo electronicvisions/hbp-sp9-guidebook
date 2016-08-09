@@ -235,7 +235,20 @@ To change the calibration backend from database to XML set
 named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory
 "calib_path".
 
-.. todo:: explain about calibration
+.. _label-marocco-example:
+
+Running pyNN scripts
+''''''''''''''''''''
+
+To run on the *hardware* one needs to use the slurm job queue system:
+
+.. code-block:: bash
+
+	srun -L `license_by_wafer 33 367` -p nmpm python nmpm1_single_neuron.py
+
+nmpm1_single_neuron.py:
+
+.. literalinclude:: examples/nmpm1_single_neuron.py
 
 Inspect the synapse loss
 ------------------------
