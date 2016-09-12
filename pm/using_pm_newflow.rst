@@ -1,18 +1,38 @@
-=============================
-Wafer Scale Mapping (Marocco)
-=============================
+=================================
+Mapping to the Wafer-Scale System
+=================================
 
-Wafer Scale Mapping is performed by ``marocco`` and described in the `PhD thesis of S. Jeltsch`_.
+The translation of neuronal network descriptions to corresponding hardware configurations is performed by the BrainScaleS Wafer-Scale Software Stack.
+User-provided neuronal network topologies  are evaluated by our ``PyNN`` API implemented (``PyHMF``).
+The data structures (spike trains, populations, projections, cell types, meta information, etc.) are implemented in C++ (``euter``).
+This layer also provides a serialization and deserialization interface for lower software layers.
+In a nutshell, ``euter`` serializes the ``PyNN``/``PyHMF``-based experiment description into a binary data stream and hands over to the next software layer.
+In the following software layers, the translation from this `biological` neuronal network description into a `hardware` configuration will be performed.
+A large fraction of the translation work, in particular the network graph translation, is performed by the ``marocco`` mapping tool
+(described in the `PhD thesis of S. Jeltsch <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3052>`_.
+Code documentation is provided by ``doxygen`` and available
+`here <https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation>`_.
 
-.. _PhD thesis of S. Jeltsch: http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3052
+.. _BrainScaleS-System-Software-Stack:
 
-Code documentation is provided by ``doxygen`` and available as `documentation-marocco`_.
+.. figure:: software_as_pipeline.png
+      :width: 100%
+      :alt: The BrainScaleS System Software Stack
 
-.. _documentation-marocco: https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
+      Data-flow-centric view of the user software stack of the BrainScaleS Wafer-Scale System.
+      [taken from `PhD thesis of E. Müller <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3112>`_]
 
-In the following the build and work flow on UHEI BrainScaleS cluster
-frontend nodes is described. If the BrainScaleS is accessed through the
-Collaboratory or the Python client, the installation can be skipped.
+
+``marocco`` uses calibration (``calibtic``) and blacklisting (``redman``) information to take into account circuit-specific properties and defects.
+This information is needed during the map & route process to homogenize the behavior of hardware neuron and synapse circuits and to exclude defective parts of the system.
+
+``marocco`` also provides interfaces to access the result data structure;
+this enables users to go from a property in ``PyNN`` (e.g. the refractory period of a single neuron within an assembly) to the corresponding parameter on hardware.
+A typical use case is iterative low-level tuning of hardware parameters.
+
+In the following the build and work flow on UHEI cluster frontend nodes is described.
+This is only needed if you want to use the system locally.
+If the BrainScaleS System is accessed through the HBP Collaboratory or the Python client, a pre-installed software environment is provided.
 
 Installation
 ------------
@@ -31,77 +51,92 @@ To reduce the amount of typing, please consider using ``ssh-agent`` to cache you
     ssh-add ~/path/to/your/private_id_rsa
 
 
-waf
-'''
+Build Tool
+''''''''''
 
-This step is optional as the default environment already provides a ``waf`` executable.
-However, if you need a customized waf version:
+We use a custom version (``git@gitviz.kip.uni-heidelberg.de:waf.git``) of the ``waf`` configuration and build tool.
+A nightly version is provided by loading:
 
 .. code-block:: bash
 
-    git clone git@gitviz.kip.uni-heidelberg.de:waf.git -b symwaf2ic visions-waf
-    make -f visions-waf/Makefile
-    ln -f visions-waf/waf .
-    alias waf=$PWD/waf
+    module load waf
 
 
-
-pyhmf, marocco and dependencies
+PyHMF, marocco and Dependencies
 '''''''''''''''''''''''''''''''
 
-Then create and change to a directory for marocco, e.g., ``/wang/users/somebody/cluster_home/projects/marocco``:
+The first step is to create a new workspace for the software checkouts and the subsequent build
+
+.. code-block:: bash
+
+    mkdir ~/my_nmpm_software && cd ~/my_nmpm_software
+
+Now ``waf`` can be used to setup the project.
+It will clone all the dependencies.
 
 .. code-block:: bash
 
     waf setup --project pyhmf --project=marocco --without-ester
-    waf configure
-    waf install --test-execnone
-    # some extra targets are needed
-    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml --test-execnone
 
-including cake (optional):
+The next step is configuration.
+As the default software environment on the UHEI cluster does not provide all the software dependencies, you have to load some modules which will provide those dependencies:
 
 .. code-block:: bash
 
-    waf setup --project pyhmf --project marocco --project cake --without-ester
-    waf configure
-    waf install --test-execnone
-    # some extra targets are needed
-    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml,pycake --test-execnone
+    module load localdir
+    module load pynn/0.7.5
+    module load mongo
+    module load yaml-cpp/0.5.3
 
-including support for ESS add ``--with-ess`` to setup call.
-
-
-paths
-'''''
-
-To include the local paths in your environment, please use:
-
-.. code-block:: bash
-
-   module load localdir
-   module load pynn/0.7.5
-   module load mongo
-   module load yaml-cpp/0.5.2
-
-Another method would be to create an init file and put all the needed parts into a script:
+As those commands are needed every time you want to use the software it is convenient to put all the needed parts into a script:
 
 .. code-block:: bash
 
     echo "INSTALLED_LIB_PATH=$(readlink -e lib)" > init.sh
     cat >>init.sh<<EOF
-    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:\${INSTALLED_LIB_PATH}
-    export PYTHONPATH=$PYTHONPATH:\${INSTALLED_LIB_PATH}
+    cd ${INSTALLED_LIB_PATH}
+    module load localdir
     module load pynn/0.7.5
     module load mongo
-    module load yaml-cpp/0.5.2
+    module load yaml-cpp/0.5.3
+    cd -
     EOF
 
-In every (!) fresh shell you now have to source the ``init.sh``:
+After completing the installation steps below, this script can be sourced (``source init.sh``) to access the BrainScaleS Wafer-Scale Software Stack.
+
+Now the configuration step:
 
 .. code-block:: bash
 
-    source path/to/init.sh
+    waf configure
+
+The install step will build and install all targets into subdirectories of your current working directory.
+Currently, you need to explicitly specify some extra targets in a second call.
+
+.. code-block:: bash
+
+    waf install --test-execnone
+    # some extra targets are needed
+    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml --test-execnone
+
+If you want to include the calibration toolkit (``cake``) (optional):
+
+.. code-block:: bash
+
+    waf setup --project pyhmf --project marocco --project cake --without-ester
+    # module load ...
+    waf configure
+    waf install --test-execnone
+    # some extra targets are needed
+    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml,pycake --test-execnone
+
+To include support for executable system simulation (ESS) add ``--with-ess`` to the setup call.
+
+Please remember, to that you have to setup the software environment if you start new shells (e.g. by using the  ``init.sh`` script):
+
+.. code-block:: bash
+
+    source ~/my_nmpm_software/init.sh
 
 Check if the installation and the setup of variables is fine:
 
@@ -117,22 +152,23 @@ should print ``ok``, if instead:
       File "<string>", line 1, in <module>
     ImportError: No module named pyhmf
 
-occurs, either the installation failed or the environment variables responsible for finding the module are wrong. In that case, double check if you followed the instructions 1:1.
+occurs, either the installation failed or the environment variables responsible for finding the module are wrong.
+In that case, double check if you followed the instructions 1:1.
 
 
 Usage
 -----
 
-``pyhmf`` is the C++ implementation of ``pynn`` for the NMPM1. To
-allow you to change the simulation/emulation backend easily, it is
-adviced to give the ``pyhmf`` module an other name like ``pynn``:
+``PyHMF`` is the C++ implementation of ``PyNN`` for the BrainScaleS Wafer-Scale System.
+To allow you to change the simulation/emulation backend easily, it is advised to give the ``pyhmf`` module an other name like ``pynn``:
 
 .. code-block:: python
 
-		import pyhmf as pynn
+    #import pynn.nest as pynn # if you want to use nest
+    import pyhmf as pynn # if you want to use the BrainScaleS Wafer-Scale System
 
-We also need the helper module ``pymarocco`` that takes care of
-hardware and marocco specific settings:
+
+The helper module ``pymarocco`` provides access to mapping-specific settings and mapping result data:
 
 .. code-block:: python
 
@@ -144,22 +180,13 @@ hardware and marocco specific settings:
 
 Make sure that the call to ``pynn.setup`` happens before creating
 populations, if not, the populations will not be visible to ``marocco``.
-
-Now it is time to start marocco. When invoking ``python``, an MPI
-library has to be preloaded.
+Now it is time to start the software stack:
 
 .. code-block:: bash
 
-	LD_PRELOAD=/usr/lib/openmpi/lib/libmpi.so python main.py
+	python main.py
 
-If you don't preload libmpi, the error message is:
-
-.. code-block:: bash
-
-	python: symbol lookup error: /usr/lib/openmpi/lib/openmpi/mca_paffinity_linux.so:
-		undefined symbol: mca_base_param_reg_int
-
-If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
+If ``pyNN.recording.files`` cannot be imported, ``PyNN`` is missing from your paths:
 
 .. code-block:: python
 
@@ -168,19 +195,18 @@ If pyNN.recording.files cannot be imported, pyNN is missing from your paths:
 		import pyhmf as pynn
 	ImportError: No module named pyNN.recording.files
 
-You can add pyNN to your paths by loading the module:
+You can add ``PyNN`` to your paths by loading the module:
 
 .. code-block:: bash
 
 	module load pynn/0.7.5
 
 In the following example, one neuron is placed on the wafer, however,
-by choosing the backend None, the actual hardware is not used.
+by choosing the backend ``None``, the software stops after the map & route process (i.e. before configuring the hardware system).
 
-Available backends: None, Hardware, ESS. None does only mapping and
-routing (a dry run). Hardware runs on the real neuromorphic
-hardware. ESS runs a simulation of the hardware: the Executable System
-Specification.
+Available backends: None, Hardware, ESS. None has been described above.
+Hardware is the default and performs real experiment runs on the neuromorphic hardware system.
+ESS runs a simulation of the hardware: the Executable System Specification.
 
 .. code-block:: python
 
