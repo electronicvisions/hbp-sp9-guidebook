@@ -41,22 +41,23 @@ def plot_projectionwise_synapse_loss(proj, marocco):
     lost_syns = np.logical_and(np.isfinite(orig_weights), np.isnan(mapped_weights))
 
     conn_matrix = np.zeros(orig_weights.shape)
-    conn_matrix [ realized_syns ] =  1.
-    conn_matrix [ lost_syns ] = 0.5
+    conn_matrix[realized_syns] =  1.
+    conn_matrix[lost_syns] = 0.5
 
     import matplotlib.pyplot as plt
     plt.figure()
     plt.subplot(111)
-    plt.imshow(conn_matrix,cmap='hot',interpolation='nearest')
+    plt.imshow(conn_matrix, cmap='hot', interpolation='nearest')
     plt.xlabel("post neuron")
     plt.ylabel("pre neuron")
     plt.title("realized and lost synapses")
     plt.show()
 
+
 def main():
     """
     create small network with synapse loss.  The synapse loss happens due to a
-    maximum syndriver chain lenght of 5 and only 4 denmems per neuron.  After
+    maximum syndriver chain length of 5 and only 4 denmems per neuron.  After
     mapping, the synapse loss per projection is evaluated and plotted for one
     projection.  The sum of lost synapses per projection is compared to the
     overall synapse loss returnd by the mapping stats.
