@@ -290,7 +290,7 @@ To run on the *hardware* one needs to use the slurm job queue system:
 
 .. code-block:: bash
 
-	srun -p wafer python nmpm1_single_neuron.py
+       srun -p nmpm -L `license_by_hicann 33 367` --pty python nmpm1_single_neuron.py
 
 nmpm1_single_neuron.py:
 
