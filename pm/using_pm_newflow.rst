@@ -1,250 +1,92 @@
-=================================
-Mapping to the Wafer-Scale System
-=================================
+============================
+Using the BrainScaleS system
+============================
 
-The translation of neuronal network descriptions to corresponding hardware configurations is performed by the BrainScaleS Wafer-Scale Software Stack.
-User-provided neuronal network topologies  are evaluated by our ``PyNN`` API implemented (``PyHMF``).
-The data structures (spike trains, populations, projections, cell types, meta information, etc.) are implemented in C++ (``euter``).
-This layer also provides a serialization and deserialization interface for lower software layers.
-In a nutshell, ``euter`` serializes the ``PyNN``/``PyHMF``-based experiment description into a binary data stream and hands over to the next software layer.
-In the following software layers, the translation from this `biological` neuronal network description into a `hardware` configuration will be performed.
-A large fraction of the translation work, in particular the network graph translation, is performed by the ``marocco`` mapping tool
-(described in the `PhD thesis of S. Jeltsch <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3052>`_.
-Code documentation is provided by ``doxygen`` and available
-`here <https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation>`_.
+As explained in :ref:`building_models`, both the experiment description and the model description
+for the BrainScaleS system must be written as Python scripts,
+using the PyNN application programming interface (API), version 0.7.
 
-.. _BrainScaleS-System-Software-Stack:
+The implementation of the PyNN API for the BrainScaleS system is called :py:mod:`PyHMF`:
 
-.. figure:: software_as_pipeline.png
-      :width: 100%
-      :alt: The BrainScaleS System Software Stack
+.. code-block:: python
 
-      Data-flow-centric view of the user software stack of the BrainScaleS Wafer-Scale System.
-      [taken from `PhD thesis of E. Müller <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3112>`_]
+    #import pyNN.nest as pynn  # if you want to use the NEST simulator
+    import pyhmf as pynn       # if you want to use the BrainScaleS Wafer-Scale System
 
+The translation from the `biological` neuronal network description into a `hardware` configuration
+is performed by the ``marocco`` mapping tool
+(for more detailed information, see :ref:`details_software_stack` below).
 
-``marocco`` uses calibration (``calibtic``) and blacklisting (``redman``) information to take into account circuit-specific properties and defects.
-This information is needed during the map & route process to homogenize the behavior of hardware neuron and synapse circuits and to exclude defective parts of the system.
-
-``marocco`` also provides interfaces to access the result data structure;
-this enables users to go from a property in ``PyNN`` (e.g. the refractory period of a single neuron within an assembly) to the corresponding parameter on hardware.
+The BrainScaleS system attempts to automatically place neurons on the wafers in an optimal way.
+However, it is possible to influence this placement, control it manually, and examine the resultant
+data structures using the Python helper module :py:mod:`pymarocco`.
+This enables users to go from a property in PyNN (e.g. the refractory period of a single neuron
+within an assembly) to the corresponding parameter on hardware.
 A typical use case is iterative low-level tuning of hardware parameters.
 
-In the following the build and work flow on UHEI cluster frontend nodes is described.
-This is only needed if you want to use the system locally.
-If the BrainScaleS System is accessed through the HBP Collaboratory or the Python client, a pre-installed software environment is provided.
+.. _label-marocco-example:
 
-Installation
-------------
-
-Create and change to a directory for your projects, preferably on ``wang``, e.g.: ``/wang/users/<somebody>/cluster_home/projects``.
-
-
-ssh-agent
-'''''''''
-
-To reduce the amount of typing, please consider using ``ssh-agent`` to cache your key password:
-
-.. code-block:: bash
-
-    eval `ssh-agent`
-    ssh-add ~/path/to/your/private_id_rsa
-
-
-Build Tool
-''''''''''
-
-We use a custom version (``git@gitviz.kip.uni-heidelberg.de:waf.git``) of the ``waf`` configuration and build tool.
-A nightly version is provided by loading:
-
-.. code-block:: bash
-
-    module load waf
-
-
-PyHMF, marocco and Dependencies
-'''''''''''''''''''''''''''''''
-
-The first step is to create a new workspace for the software checkouts and the subsequent build
-
-.. code-block:: bash
-
-    mkdir ~/my_nmpm_software && cd ~/my_nmpm_software
-
-Now ``waf`` can be used to setup the project.
-It will clone all the dependencies.
-
-.. code-block:: bash
-
-    waf setup --project pyhmf --project=marocco --without-ester
-
-The next step is configuration.
-As the default software environment on the UHEI cluster does not provide all the software dependencies, you have to load some modules which will provide those dependencies:
-
-.. code-block:: bash
-
-    module load localdir
-    module load pynn/0.7.5
-    module load mongo
-    module load yaml-cpp/0.5.3
-
-As those commands are needed every time you want to use the software it is convenient to put all the needed parts into a script:
-
-.. code-block:: bash
-
-    echo "INSTALLED_LIB_PATH=$(readlink -e lib)" > init.sh
-    cat >>init.sh<<EOF
-    cd ${INSTALLED_LIB_PATH}
-    module load localdir
-    module load pynn/0.7.5
-    module load mongo
-    module load yaml-cpp/0.5.3
-    cd -
-    EOF
-
-After completing the installation steps below, this script can be sourced (``source init.sh``) to access the BrainScaleS Wafer-Scale Software Stack.
-
-Now the configuration step:
-
-.. code-block:: bash
-
-    waf configure
-
-The install step will build and install all targets into subdirectories of your current working directory.
-Currently, you need to explicitly specify some extra targets in a second call.
-
-.. code-block:: bash
-
-    waf install --test-execnone
-    # some extra targets are needed
-    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml --test-execnone
-
-If you want to include the calibration toolkit (``cake``) (optional):
-
-.. code-block:: bash
-
-    waf setup --project pyhmf --project marocco --project cake --without-ester
-    # module load ...
-    waf configure
-    waf install --test-execnone
-    # some extra targets are needed
-    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml,pycake --test-execnone
-
-To include support for executable system simulation (ESS) add ``--with-ess`` to the setup call.
-
-Please remember, to that you have to setup the software environment if you start new shells (e.g. by using the  ``init.sh`` script):
-
-.. code-block:: bash
-
-    source ~/my_nmpm_software/init.sh
-
-Check if the installation and the setup of variables is fine:
-
-.. code-block:: bash
-
-    python -c "import pyhmf" && echo ok
-
-should print ``ok``, if instead:
+Using marocco
+-------------
 
 .. code-block:: python
 
-    Traceback (most recent call last):
-      File "<string>", line 1, in <module>
-    ImportError: No module named pyhmf
+    import pyhmf as pynn
+    from pymarocco import PyMarocco
 
-occurs, either the installation failed or the environment variables responsible for finding the module are wrong.
-In that case, double check if you followed the instructions 1:1.
-
-
-Usage
------
-
-``PyHMF`` is the C++ implementation of ``PyNN`` for the BrainScaleS Wafer-Scale System.
-To allow you to change the simulation/emulation backend easily, it is advised to give the ``pyhmf`` module an other name like ``pynn``:
-
-.. code-block:: python
-
-    #import pynn.nest as pynn # if you want to use nest
-    import pyhmf as pynn # if you want to use the BrainScaleS Wafer-Scale System
+    marocco = PyMarocco()
+    pynn.setup(marocco=marocco)
 
 
-The helper module ``pymarocco`` provides access to mapping-specific settings and mapping result data:
-
-.. code-block:: python
-
-		import pyhmf as pynn
-		from pymarocco import PyMarocco
-
-		marocco = PyMarocco()
-		pynn.setup(marocco = marocco)
-
-Make sure that the call to ``pynn.setup`` happens before creating
+Make sure that the call to :py:func:`setup()` happens before creating
 populations, if not, the populations will not be visible to ``marocco``.
-Now it is time to start the software stack:
-
-.. code-block:: bash
-
-	python main.py
-
-If ``pyNN.recording.files`` cannot be imported, ``PyNN`` is missing from your paths:
-
-.. code-block:: python
-
-	Traceback (most recent call last):
-	  File "main.py", line 5, in <module>
-		import pyhmf as pynn
-	ImportError: No module named pyNN.recording.files
-
-You can add ``PyNN`` to your paths by loading the module:
-
-.. code-block:: bash
-
-	module load pynn/0.7.5
 
 In the following example, one neuron is placed on the wafer, however,
-by choosing the backend ``None``, the software stops after the map & route process (i.e. before configuring the hardware system).
-
-Available backends: None, Hardware, ESS. None has been described above.
-Hardware is the default and performs real experiment runs on the neuromorphic hardware system.
-ESS runs a simulation of the hardware: the Executable System Specification.
+by setting ``marocco.backend = PyMarocco.None``, the software stops after the map & route process
+(i.e. before configuring the hardware system).
 
 .. code-block:: python
 
-		import pyhmf as pynn
-		from pymarocco import PyMarocco
+    import pyhmf as pynn
+    from pymarocco import PyMarocco
 
-		marocco = PyMarocco()
-		marocco.backend = PyMarocco.None
+    marocco = PyMarocco()
+    marocco.backend = PyMarocco.None
 
-		pynn.setup(marocco = marocco)
+    pynn.setup(marocco=marocco)
 
-		neuron = pynn.Population(1, pynn.IF_cond_exp)
+    neuron = pynn.Population(1, pynn.IF_cond_exp, {})
 
-		pynn.run(10)
-		pynn.end()
+    pynn.run(10)
+    pynn.end()
+
+
+.. note:: Available ``marocco`` backends are ``None``, ``Hardware``, ``ESS``. None has been described above.
+          Hardware is the default and performs real experiment runs on the neuromorphic hardware system.
+          ESS runs a simulation of the hardware: the Executable System Specification.
+
 
 In the output you should see:
 
 .. code-block:: bash
 
 
-		Populations:
+        Populations:
                 0th element:    0x1f98650       Population(IF_cond_exp, 1)
 
 
 If you don't see this output, make sure that you called
-``pynn.setup(marocco = marocco)`` before the call to
-``pynn.Population``.
+``pynn.setup(marocco=marocco)`` before the call to ``pynn.Population``.
 
-You will also see a lot of debug output. To set the log level, add
+You will also see a lot of debugging output. To set the log level, add
 
 .. code-block:: python
 
-   import pylogging
-   for domain in [""]:
-	pylogging.set_loglevel(pylogging.get(domain), pylogging.LogLevel.ERROR)
+    import pylogging
+    for domain in [""]:
+        pylogging.set_loglevel(pylogging.get(domain), pylogging.LogLevel.ERROR)
 
-after the line importing ``PyMarocco`` to your script.
+after the import of :py:mod:`pymarocco`.
 
 As we did not specify on which chip the neuron should be placed,
 marocco decides automatically to use ``HICANNOnWafer(X(18), Y(7)),
@@ -259,8 +101,6 @@ To choose the HICANN a population is placed on, we give marocco a hint:
 		marocco.manual_placement.on_hicann(neuron, C.HICANNOnWafer(C.X(5), C.Y(5)))
 
 At the end, the script is the following:
-
-nmpm1_marocco_intro.py:
 
 .. literalinclude:: examples/nmpm1_marocco_intro.py
 
@@ -281,27 +121,7 @@ To change the calibration backend from database to XML set
 named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory
 "calib_path".
 
-.. _label-marocco-example:
-
-Running pyNN scripts
-''''''''''''''''''''
-
-To run on the *hardware* one needs to use the slurm job queue system:
-
-.. code-block:: bash
-
-       srun -p nmpm -L `license_by_hicann 33 367` --pty python nmpm1_single_neuron.py
-
-nmpm1_single_neuron.py:
-
-.. literalinclude:: examples/nmpm1_single_neuron.py
-
-Inspect the Configuration
-'''''''''''''''''''''''''
-
-.. code-block:: bash
-
-    sthal/tools/dump_cfg.py
+.. todo:: explain about calibration
 
 Inspect the synapse loss
 ------------------------
@@ -331,8 +151,8 @@ Where ``print marocco.stats`` prints out overall synapse loss statistics:
             neurons: 50}
 
 Invidual mapping statistics like the number of synapses set can also be
-directly accessed in python, see class ``MappingStats`` in
-`documentation-marocco`_.
+directly accessed in python, see class ``MappingStats`` in the
+`marocco documentation`_.
 
 The function ``projectionwise_synapse_loss`` shows how to calculate the synapse
 loss per projection.
@@ -340,7 +160,7 @@ loss per projection.
 .. literalinclude:: examples/synapse_loss.py
    :pyobject: projectionwise_synapse_loss
 
-Which yields the following oubput for the example above:
+Which yields the following output for the example above:
 
 .. code-block:: bash
 
@@ -359,3 +179,37 @@ the lost and realized synapses of one projection.
 
    Realized (black) and lost (red) synapses of the stimulus projection in the
    example network above.
+
+
+.. _details_software_stack:
+
+Details of the software stack
+-----------------------------
+
+The BrainScaleS Wafer-Scale Software Stack is shown in Figure :num:`waferscale-software-figure`.
+
+User-provided neuronal network topologies  are evaluated by our ``PyNN`` API implementation (``PyHMF``),
+which is written in C++ with a Python wrapper.
+The data structures (spike trains, populations, projections, cell types, meta information, etc.) are implemented in C++ (``euter``).
+This layer also provides a serialization and deserialization interface for lower software layers.
+In a nutshell, ``euter`` serializes the ``PyNN``/``PyHMF``-based experiment description into a binary data stream and hands over to the next software layer.
+In the following software layers, the translation from this `biological` neuronal network description into a `hardware` configuration will be performed.
+A large fraction of the translation work, in particular the network graph translation, is performed by the ``marocco`` mapping tool
+(described in the `PhD thesis of S. Jeltsch <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3052>`_.
+Code documentation is provided by ``doxygen`` and available
+`here <https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation>`_.
+
+.. _waferscale-software-figure:
+
+.. figure:: software_as_pipeline.png
+      :width: 100%
+      :alt: The BrainScaleS System Software Stack
+
+      Data-flow-centric view of the user software stack of the BrainScaleS Wafer-Scale System.
+      [taken from `PhD thesis of E. Müller <http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3112>`_]
+
+
+``marocco`` uses calibration (``calibtic``) and blacklisting (``redman``) information to take into account circuit-specific properties and defects.
+This information is needed during the map & route process to homogenize the behavior of hardware neuron and synapse circuits and to exclude defective parts of the system.
+
+.. _`marocco documentation`: https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
