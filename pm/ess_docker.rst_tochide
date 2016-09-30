@@ -212,3 +212,6 @@ To test your installation with PyNN 0.8, you can run the PyNN unit and system te
     cd unittests/backends
     nosetests test_mock.py
     nosetests test_hardware_brainscales.py
+
+
+.. _heidelberg: https://gitviz.kip.uni-heidelberg.de

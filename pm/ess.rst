@@ -21,7 +21,7 @@ Scripts to run on the ESS should in general be identical to those that run on th
 difference is to choose ``PyMarocco.ESS`` as the PyMarocco backend.
 
 Example
--------
+```````
 
 A full example where an Adaptive-Exponential Integrate & Fire neuron is stimulated by external spikes, is shown in ``nmpm1_adex_neuron_ess.py``:
 
