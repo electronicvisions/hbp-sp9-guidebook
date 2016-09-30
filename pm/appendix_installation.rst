@@ -7,7 +7,17 @@ This is only needed if you want to use the system locally within Heidelberg.
 If the BrainScaleS System is accessed through the HBP Collaboratory or the Python client,
 this software environment is pre-installed.
 
-Create and change to a directory for your projects, preferably on ``wang``, e.g.: ``/wang/users/<somebody>/cluster_home/projects``.
+The following section can be skipped when loading the ``nmpm_software`` module by
+
+.. code-block:: bash
+
+    module load nmpm_software/current
+
+All available versions can be listed by ``module avail nmpm_software``.
+
+To compile your own installation create and change to a directory for
+your projects, preferably on ``wang``, e.g.:
+``/wang/users/<somebody>/cluster_home/projects``.
 
 
 ssh-agent
