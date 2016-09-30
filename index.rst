@@ -19,8 +19,7 @@ The platform provides two complementary, large-scale neuromorphic systems built 
    using_the_platform
    pm/pm
    pm/spikey
-   mc/spiNNaker_configuration
-   mc/standaloneSpiNNaker
+   mc/mc_index
    benchmarks
    getting_help
    pm/appendix_installation.rst
