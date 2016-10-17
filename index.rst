@@ -15,6 +15,7 @@ The platform provides two complementary, large-scale neuromorphic systems built 
 .. toctree::
    :maxdepth: 2
 
+   quick_start
    building_models
    using_the_platform
    pm/pm
