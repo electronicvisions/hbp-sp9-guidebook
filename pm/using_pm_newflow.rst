@@ -250,6 +250,9 @@ nmpm1_single_neuron.py:
 
 .. literalinclude:: examples/nmpm1_single_neuron.py
 
+Currently, the calibration is optimized towards the neuron parameters of the example.
+Also note that current parameters, i.e. ``i_offset`` are not supported.
+
 Inspect the synapse loss
 ------------------------
 
