@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import pyhmf as pynn
 import Coordinate as C
 from pymarocco import PyMarocco

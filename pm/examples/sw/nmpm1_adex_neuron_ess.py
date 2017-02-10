@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Example Script for simulation of an AdEx neuron on the ESS
 
