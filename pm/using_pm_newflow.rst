@@ -253,6 +253,12 @@ nmpm1_single_neuron.py:
 Currently, the calibration is optimized towards the neuron parameters of the example.
 Also note that current parameters, i.e. ``i_offset`` are not supported.
 
+With the help of ``plot_spikes.py``, the recorded spikes (``spikes_w15.txt``) and
+membrane trace (``membrane_w15.txt``) for the digital weight setting 15 can be plotted.
+
+.. figure:: examples/hw/example_plot_w15.png
+   :alt: Membrane trace and spikes for digital weight 15
+
 Inspect the synapse loss
 ------------------------
 
