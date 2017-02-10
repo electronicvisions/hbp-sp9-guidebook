@@ -25,7 +25,7 @@ Example
 
 A full example where an Adaptive-Exponential Integrate & Fire neuron is stimulated by external spikes, is shown in ``nmpm1_adex_neuron_ess.py``:
 
-.. literalinclude:: examples/nmpm1_adex_neuron_ess.py
+.. literalinclude:: examples/sw/nmpm1_adex_neuron_ess.py
 
 Note that the same script runs also with ``pyNN.nest``, just change the first line that imports the PyNN backend.
 

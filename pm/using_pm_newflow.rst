@@ -216,7 +216,7 @@ To choose the HICANN a population is placed on, we give marocco a hint:
 
 At the end, the script is the following:
 
-.. literalinclude:: examples/nmpm1_marocco_intro.py
+.. literalinclude:: examples/sw/nmpm1_marocco_intro.py
 
 We also added a print out of the chosen neuron circuits:
 
@@ -248,7 +248,7 @@ To run on the *hardware* one needs to use the slurm job queue system:
 
 nmpm1_single_neuron.py:
 
-.. literalinclude:: examples/nmpm1_single_neuron.py
+.. literalinclude:: examples/hw/nmpm1_single_neuron.py
 
 Currently, the calibration is optimized towards the neuron parameters of the example.
 Also note that current parameters, i.e. ``i_offset`` are not supported.
@@ -262,7 +262,7 @@ resources. Below is a simple network that is mapped to very limited resources
 so that synapse loss is enforced. For this example we show how to extract
 overall mapping statistics and projection-wise or synapse-wise synapse losses.
 
-.. literalinclude:: examples/synapse_loss.py
+.. literalinclude:: examples/sw/synapse_loss.py
    :pyobject: main
 
 
@@ -287,7 +287,7 @@ directly accessed in python, see class ``MappingStats`` in the
 The function ``projectionwise_synapse_loss`` shows how to calculate the synapse
 loss per projection.
 
-.. literalinclude:: examples/synapse_loss.py
+.. literalinclude:: examples/sw/synapse_loss.py
    :pyobject: projectionwise_synapse_loss
 
 Which yields the following output for the example above:
@@ -301,10 +301,10 @@ Which yields the following output for the example above:
 Finally, the function ``plot_projectionwise_synapse_loss`` can be used to plot
 the lost and realized synapses of one projection.
 
-.. literalinclude:: examples/synapse_loss.py
+.. literalinclude:: examples/sw/synapse_loss.py
    :pyobject: plot_projectionwise_synapse_loss
 
-.. figure:: examples/synapse_loss.png
+.. figure:: examples/sw/synapse_loss.png
    :alt: Realized and Lost Synapses of a Projection
 
    Realized (black) and lost (red) synapses of the stimulus projection in the
