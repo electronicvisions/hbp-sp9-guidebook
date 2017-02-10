@@ -48,7 +48,7 @@ def plot(infilename, outfilename="", xlim=None, ylim=None, membrane_file="", neu
     neuron_idx: neuron index for overlay with membrane trace
     """
 
-    spikes = np.loadtxt(args.file.name, ndmin=1)
+    spikes = np.loadtxt(args.file.name, ndmin=2)
 
     if not len(spikes):
         print "no spikes in {}".format(infilename)
