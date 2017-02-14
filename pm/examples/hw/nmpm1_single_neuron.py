@@ -16,7 +16,7 @@ from pymarocco.results import Marocco
 init_logger("WARN", [
     ("guidebook", "DEBUG"),
     ("marocco", "DEBUG"),
-    ("calibtic", "DEBUG"),
+    ("Calibtic", "DEBUG"),
     ("sthal", "INFO")
 ])
 
