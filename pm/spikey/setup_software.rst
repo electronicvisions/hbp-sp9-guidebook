@@ -14,13 +14,13 @@ Login to UHEI cluster
 
 .. code-block:: bash
 
-  ssh KIPUSER@{ice,ignatz}
+  ssh KIPUSER@hel
 
 * Otherwise:
 
 .. code-block:: bash
 
-  ssh s1ext_someuser@gitviz.kip.uni-heidelberg.de -p 7022 # or 6022
+  ssh s1ext_someuser@gitviz.kip.uni-heidelberg.de -p 11022
 
 
 .. _label-softwaremodule:
@@ -32,9 +32,11 @@ To load the pre-built software package and configure the environment variables u
 
 .. code-block:: bash
 
+  . /wang/environment/software/jessie/spack/current/share/spack/setup-env.sh
+  spack load --dependencies visionary-defaults 
   module load spikey
 
-This module has to be loaded for every environment, and in particular, after logging in.
+These three commands must be loaded for every environment, and in particular, after logging in.
 
 
 .. _label-expexec:
