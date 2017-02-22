@@ -73,7 +73,7 @@ Tips and tricks
 Using the web interface of the Human Brain Project
 --------------------------------------------------
 
-To select a chip using the `web interface of the Human Brain Project <https://www.hbpneuromorphic.eu>`_ enter the following parameters into the "Hardware Config" box:
+To select a chip using the `web interface of the Human Brain Project <https://www.hbpneuromorphic.eu/home.html>`_ enter the following parameters into the "Hardware Config" box:
 
 .. code-block:: none
 
