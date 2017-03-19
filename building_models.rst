@@ -189,7 +189,7 @@ This and other examples of manual limitations can be found in the online
 documentation `here <http://spinnakermanchester.github.io/latest/spynnaker_tutorial.html>`__.
 
 .. _PyNN: http://neuralensemble.org/PyNN/
-.. _`PyNN 0.6 documentation`: http://neuralensemble.org/trac/PyNN/
-.. _`PyNN 0.7 documentation`: http://neuralensemble.org/trac/PyNN/
+.. _`PyNN 0.6 documentation`: http://neuralensemble.org/docs/PyNN/0.7/
+.. _`PyNN 0.7 documentation`: http://neuralensemble.org/docs/PyNN/0.7/
 .. _`PyNN 0.8 documentation`: http://neuralensemble.org/docs/PyNN/
 .. _`Collaboratory`: https://collab.humanbrainproject.eu
