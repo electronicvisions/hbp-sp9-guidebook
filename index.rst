@@ -25,3 +25,4 @@ The platform provides two complementary, large-scale neuromorphic systems built 
    getting_help
    pm/appendix_installation.rst
    appendix
+   reference/python_client
