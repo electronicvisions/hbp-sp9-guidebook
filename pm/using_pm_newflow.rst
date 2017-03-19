@@ -6,7 +6,121 @@ As explained in :ref:`building_models`, both the experiment description and the 
 for the BrainScaleS system must be written as Python scripts,
 using the PyNN application programming interface (API), version 0.7.
 
-The implementation of the PyNN API for the BrainScaleS system is called :py:mod:`PyHMF`:
+In the following, the build and work flow on UHEI BrainScaleS cluster frontend nodes is described.
+If BrainScaleS is accessed through the Collaboratory or the Python client, the installation can be skipped.
+
+Setup
+------------
+
+The following section can be skipped when loading the ``nmpm_software`` module by
+
+.. code-block:: bash
+
+    module load nmpm_software/current-spack
+
+All available versions can be listed by ``module avail nmpm_software``.
+
+To compile your own installation create and change to a directory for
+your projects, preferably on ``wang``, e.g.:
+``/wang/users/<somebody>/cluster_home/projects``.
+
+ssh-agent
+'''''''''
+
+To reduce the amount of typing, please consider using ``ssh-agent`` to cache your key password:
+
+.. code-block:: bash
+
+    eval `ssh-agent`
+    ssh-add ~/path/to/your/private_id_rsa
+
+
+waf
+'''
+
+This step is optional as there exists a ``waf`` module.
+However, if you need a customized waf version:
+
+.. code-block:: bash
+
+    git clone git@gitviz.kip.uni-heidelberg.de:waf.git -b symwaf2ic visions-waf
+    make -f visions-waf/Makefile
+    ln -f visions-waf/waf .
+    alias waf=$PWD/waf
+
+
+
+pyhmf, marocco and dependencies
+'''''''''''''''''''''''''''''''
+
+Then create and change to a directory for marocco, e.g., ``/wang/users/somebody/cluster_home/projects/marocco``:
+
+.. code-block:: bash
+
+    source /wang/environment/software/$(lsb_release -c -s)/spack/share/spack/setup-env.sh
+    spack load --dependencies gcc@4.9.2
+    spack load --dependencies visionary-defaults
+    module load waf
+
+    waf setup --project pyhmf --project=marocco --without-ester
+    waf configure
+    waf install --test-execnone
+    # some extra targets are needed
+    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml --test-execnone
+
+including cake (optional):
+
+.. code-block:: bash
+
+    source /wang/environment/software/$(lsb_release -c -s)/spack/share/spack/setup-env.sh
+    spack load --dependencies gcc@4.9.2
+    spack load --dependencies visionary-defaults
+    module load waf
+
+    waf setup --project pyhmf --project marocco --project cake --without-ester
+    waf configure
+    waf install --test-execnone
+    # some extra targets are needed
+    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml,pycake --test-execnone
+
+including support for ESS add ``--with-ess`` to setup call.
+
+
+paths
+'''''
+
+To include the local paths in your environment, please use:
+
+.. code-block:: bash
+
+   module load localdir
+
+Another method would be to create an init file and put all the needed parts into a script:
+
+.. code-block:: bash
+
+    echo "INSTALLED_LIB_PATH=$(readlink -e lib)" > init.sh
+    cat >>init.sh<<EOF
+    source /wang/environment/software/$(lsb_release -c -s)/spack/share/spack/setup-env.sh
+    spack load --dependencies gcc@4.9.2
+    spack load --dependencies visionary-defaults
+    module load localdir
+    module load waf
+    EOF
+
+In every (!) fresh shell you now have to source the ``init.sh``:
+
+.. code-block:: bash
+
+    source path/to/init.sh
+
+Check if the installation and the setup of variables is fine:
+
+.. code-block:: bash
+
+    python -c "import pyhmf" && echo ok
+
+should print ``ok``, if instead:
 
 .. code-block:: python
 
@@ -102,7 +216,7 @@ To choose the HICANN a population is placed on, we give marocco a hint:
 
 At the end, the script is the following:
 
-.. literalinclude:: examples/nmpm1_marocco_intro.py
+.. literalinclude:: examples/sw/nmpm1_marocco_intro.py
 
 We also added a print out of the chosen neuron circuits:
 
@@ -121,7 +235,29 @@ To change the calibration backend from database to XML set
 named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory
 "calib_path".
 
-.. todo:: explain about calibration
+.. _label-marocco-example:
+
+Running pyNN scripts
+''''''''''''''''''''
+
+To run on the *hardware* one needs to use the slurm job queue system:
+
+.. code-block:: bash
+
+	srun -p experiment --wmod 33 --hicann 367 python nmpm1_single_neuron.py
+
+nmpm1_single_neuron.py:
+
+.. literalinclude:: examples/hw/nmpm1_single_neuron.py
+
+Currently, the calibration is optimized towards the neuron parameters of the example.
+Also note that current parameters, i.e. ``i_offset`` are not supported.
+
+With the help of ``plot_spikes.py``, the recorded spikes (``spikes_w15.txt``) and
+membrane trace (``membrane_w15.txt``) for the digital weight setting 15 can be plotted.
+
+.. figure:: examples/hw/example_plot_w15.png
+   :alt: Membrane trace and spikes for digital weight 15
 
 Inspect the synapse loss
 ------------------------
@@ -132,7 +268,7 @@ resources. Below is a simple network that is mapped to very limited resources
 so that synapse loss is enforced. For this example we show how to extract
 overall mapping statistics and projection-wise or synapse-wise synapse losses.
 
-.. literalinclude:: examples/synapse_loss.py
+.. literalinclude:: examples/sw/synapse_loss.py
    :pyobject: main
 
 
@@ -157,7 +293,7 @@ directly accessed in python, see class ``MappingStats`` in the
 The function ``projectionwise_synapse_loss`` shows how to calculate the synapse
 loss per projection.
 
-.. literalinclude:: examples/synapse_loss.py
+.. literalinclude:: examples/sw/synapse_loss.py
    :pyobject: projectionwise_synapse_loss
 
 Which yields the following output for the example above:
@@ -171,10 +307,10 @@ Which yields the following output for the example above:
 Finally, the function ``plot_projectionwise_synapse_loss`` can be used to plot
 the lost and realized synapses of one projection.
 
-.. literalinclude:: examples/synapse_loss.py
+.. literalinclude:: examples/sw/synapse_loss.py
    :pyobject: plot_projectionwise_synapse_loss
 
-.. figure:: examples/synapse_loss.png
+.. figure:: examples/sw/synapse_loss.png
    :alt: Realized and Lost Synapses of a Projection
 
    Realized (black) and lost (red) synapses of the stimulus projection in the

@@ -44,6 +44,8 @@ def plot_projectionwise_synapse_loss(proj, marocco):
     conn_matrix[realized_syns] =  1.
     conn_matrix[lost_syns] = 0.5
 
+    import matplotlib
+    matplotlib.use('Agg')
     import matplotlib.pyplot as plt
     plt.figure()
     plt.subplot(111)
@@ -51,8 +53,7 @@ def plot_projectionwise_synapse_loss(proj, marocco):
     plt.xlabel("post neuron")
     plt.ylabel("pre neuron")
     plt.title("realized and lost synapses")
-    plt.show()
-
+    plt.savefig("synapse_loss.png")
 
 def main():
     """
@@ -63,8 +64,8 @@ def main():
     overall synapse loss returnd by the mapping stats.
     """
     marocco = PyMarocco()
-    marocco.placement.setDefaultNeuronSize(4)
-    marocco.routing.syndriver_chain_length = 5
+    marocco.neuron_placement.default_neuron_size(4)
+    marocco.synapse_routing.driver_chain_length(5)
 
     pynn.setup(marocco=marocco)
 
