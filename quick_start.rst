@@ -132,6 +132,6 @@ produced by your simulation.
 
 
 .. _`available on request`: https://services.humanbrainproject.eu/oidc/account/request
-.. _`Platform User Agreement`: https://www.hbpneuromorphic.eu/user_agreement.pdf
+.. _`Platform User Agreement`: https://www.hbpneuromorphic.eu/UserAgreement_HBPNeuromorphicComputingPlatform_v0.1.pdf
 .. _`Platform home page`: https://www.hbpneuromorphic.eu/home.html
 .. _Collaboratory: https://collab.humanbrainproject.eu/#/collab/19/nav/175
