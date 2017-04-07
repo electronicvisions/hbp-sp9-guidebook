@@ -107,23 +107,23 @@ pynn.run(duration)
 #  ——— change low-level parameters before configuring hardware —————————————————
 
 def set_sthal_params(wafer, gmax, gmax_div):
-    for hicann in wafer.getAllocatedHicannCoordinates():
-        fgs = wafer[hicann].floating_gates
-        for ii in xrange(fgs.getNoProgrammingPasses()):
-            cfg = fgs.getFGConfig(C.Enum(ii))
-            cfg.fg_biasn = 0
-            cfg.fg_bias = 0
-            fgs.setFGConfig(C.Enum(ii), cfg)
+    """
+    synaptic strength:
+    gmax: 0 - 1023, strongest: 1023
+    gmax_div: 1 - 15, strongest: 1
+    """
 
+    # for all HICANNs in use
+    for hicann in wafer.getAllocatedHicannCoordinates():
+
+        fgs = wafer[hicann].floating_gates
+
+        # set parameters influencing the synaptic strength
         for block in C.iter_all(C.FGBlockOnHICANN):
             fgs.setShared(block, HICANN.shared_parameter.V_gmax0, gmax)
             fgs.setShared(block, HICANN.shared_parameter.V_gmax1, gmax)
             fgs.setShared(block, HICANN.shared_parameter.V_gmax2, gmax)
             fgs.setShared(block, HICANN.shared_parameter.V_gmax3, gmax)
-
-        for block in C.iter_all(C.FGBlockOnHICANN):
-            fgs.setShared(block, HICANN.shared_parameter.V_dllres, 275)
-            fgs.setShared(block, HICANN.shared_parameter.V_ccas, 800)
 
         for driver in C.iter_all(C.SynapseDriverOnHICANN):
             for row in C.iter_all(C.RowOnSynapseDriver):
@@ -132,6 +132,18 @@ def set_sthal_params(wafer, gmax, gmax_div):
                 wafer[hicann].synapses[driver][row].set_gmax_div(
                     C.right, gmax_div)
 
+        # don't change values below
+        for ii in xrange(fgs.getNoProgrammingPasses()):
+            cfg = fgs.getFGConfig(C.Enum(ii))
+            cfg.fg_biasn = 0
+            cfg.fg_bias = 0
+            fgs.setFGConfig(C.Enum(ii), cfg)
+
+        for block in C.iter_all(C.FGBlockOnHICANN):
+            fgs.setShared(block, HICANN.shared_parameter.V_dllres, 275)
+            fgs.setShared(block, HICANN.shared_parameter.V_ccas, 800)
+
+# call at least once
 set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=1)
 
 #  ——— configure hardware ——————————————————————————————————————————————————————
