@@ -12,120 +12,17 @@ If BrainScaleS is accessed through the Collaboratory or the Python client, the i
 Setup
 ------------
 
-The following section can be skipped when loading the ``nmpm_software`` module by
-
 .. code-block:: bash
 
-    module load nmpm_software/current-spack
-
-All available versions can be listed by ``module avail nmpm_software``.
-
-To compile your own installation create and change to a directory for
-your projects, preferably on ``wang``, e.g.:
-``/wang/users/<somebody>/cluster_home/projects``.
-
-ssh-agent
-'''''''''
-
-To reduce the amount of typing, please consider using ``ssh-agent`` to cache your key password:
-
-.. code-block:: bash
-
-    eval `ssh-agent`
-    ssh-add ~/path/to/your/private_id_rsa
-
-
-waf
-'''
-
-This step is optional as there exists a ``waf`` module.
-However, if you need a customized waf version:
-
-.. code-block:: bash
-
-    git clone git@gitviz.kip.uni-heidelberg.de:waf.git -b symwaf2ic visions-waf
-    make -f visions-waf/Makefile
-    ln -f visions-waf/waf .
-    alias waf=$PWD/waf
-
-
-
-pyhmf, marocco and dependencies
-'''''''''''''''''''''''''''''''
-
-Then create and change to a directory for marocco, e.g., ``/wang/users/somebody/cluster_home/projects/marocco``:
-
-.. code-block:: bash
-
-    source /wang/environment/software/$(lsb_release -c -s)/spack/share/spack/setup-env.sh
-    spack load --dependencies gcc@4.9.2
-    spack load --dependencies visionary-defaults
-    module load waf
-
-    waf setup --project pyhmf --project=marocco --without-ester
-    waf configure
-    waf install --test-execnone
-    # some extra targets are needed
-    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml --test-execnone
-
-including cake (optional):
-
-.. code-block:: bash
-
-    source /wang/environment/software/$(lsb_release -c -s)/spack/share/spack/setup-env.sh
-    spack load --dependencies gcc@4.9.2
-    spack load --dependencies visionary-defaults
-    module load waf
-
-    waf setup --project pyhmf --project marocco --project cake --without-ester
-    waf configure
-    waf install --test-execnone
-    # some extra targets are needed
-    waf install --target=pymarocco,pyhalbe,pysthal,redman_xml,pycake --test-execnone
-
-including support for ESS add ``--with-ess`` to setup call.
-
-
-paths
-'''''
-
-To include the local paths in your environment, please use:
-
-.. code-block:: bash
-
-   module load localdir
-
-Another method would be to create an init file and put all the needed parts into a script:
-
-.. code-block:: bash
-
-    echo "INSTALLED_LIB_PATH=$(readlink -e lib)" > init.sh
-    cat >>init.sh<<EOF
-    source /wang/environment/software/$(lsb_release -c -s)/spack/share/spack/setup-env.sh
-    spack load --dependencies gcc@4.9.2
-    spack load --dependencies visionary-defaults
-    module load localdir
-    module load waf
-    EOF
-
-In every (!) fresh shell you now have to source the ``init.sh``:
-
-.. code-block:: bash
-
-    source path/to/init.sh
-
-Check if the installation and the setup of variables is fine:
+	export LC_ALL=C
+	module load spack_visionary-defaults/2017-01-26_0.2.6
+	module load nmpm_software/2017-04-18-spack-2017-01-26-1
 
 .. code-block:: bash
 
     python -c "import pyhmf" && echo ok
 
-should print ``ok``, if instead:
-
-.. code-block:: python
-
-    #import pyNN.nest as pynn  # if you want to use the NEST simulator
-    import pyhmf as pynn       # if you want to use the BrainScaleS Wafer-Scale System
+should print ``ok``.
 
 The translation from the `biological` neuronal network description into a `hardware` configuration
 is performed by the ``marocco`` mapping tool
