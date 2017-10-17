@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8; -*-
 
+import os
 import numpy as np
 
 from pyhalbe import HICANN
@@ -46,9 +47,9 @@ marocco.pll_freq = 125e6
 
 marocco.backend = PyMarocco.Hardware
 marocco.calib_backend = PyMarocco.XML
-marocco.defects.path = marocco.calib_path = "/wang/data/calibration/ITL_2016"
+marocco.defects.path = marocco.calib_path = "/wang/data/calibration/brainscales/default-2017-09-26-1"
 marocco.defects.backend = Defects.XML
-marocco.default_wafer = C.Wafer(33)
+marocco.default_wafer = C.Wafer(int(os.environ.get("WAFER", 33)))
 marocco.param_trafo.use_big_capacitors = True
 marocco.input_placement.consider_firing_rate(True)
 marocco.input_placement.bandwidth_utilization(0.8)
@@ -63,7 +64,7 @@ pop = pynn.Population(1, pynn.IF_cond_exp, neuron_parameters)
 pop.record()
 pop.record_v()
 
-hicann = C.HICANNOnWafer(C.Enum(367))
+hicann = C.HICANNOnWafer(C.Enum(297))
 marocco.manual_placement.on_hicann(pop, hicann)
 
 connector = pynn.AllToAllConnector(weights=1)
@@ -151,7 +152,7 @@ set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=1)
 marocco.skip_mapping = True
 marocco.backend = PyMarocco.Hardware
 # Full configuration during first step
-marocco.hicann_configurator = PyMarocco.HICANNv4Configurator
+marocco.hicann_configurator = PyMarocco.ParallelHICANNv4Configurator
 
 for digital_weight in [5, 10, 15]:
     logger.info("running measurement with digital weight {}".format(digital_weight))
