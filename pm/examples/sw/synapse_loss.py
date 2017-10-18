@@ -66,6 +66,7 @@ def main():
     marocco = PyMarocco()
     marocco.neuron_placement.default_neuron_size(4)
     marocco.synapse_routing.driver_chain_length(5)
+    marocco.continue_despite_synapse_loss = True
 
     pynn.setup(marocco=marocco)
 
