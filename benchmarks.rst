@@ -117,7 +117,9 @@ Returning numerical measures
 Each task should run a simulation of a neuronal network model, record data from the neurons,
 perform analysis of the data, and calculate numerical measures of the system performance.
 The numerical measures should be reported in a JSON-format file, consisting of a top-level
-record with required fields "timestamp" and "results". The field "configuration", containing
+record with required fields "model", "task", "timestamp" and "results". 
+The fields "model" and "task" should match the model and task names in the "benchmarks.json" file.
+The field "configuration", containing
 a copy of the parameterization of the model and simulator/hardware system", is optional.
 The field "results" contains a list of records with the following fields:
 
@@ -131,6 +133,12 @@ The field "results" contains a list of records with the following fields:
     A floating point number.
 **units**
     (optional) if the measurement is a physical quantity, the units of the quantity using SI nomenclature.
+**std_dev**
+    (optional) if the measurement has an uncertainty, the standard deviation of the value, as a floating point number
+**min**
+    (optional) if the task involves multiple runs of the simulation, the minimum value of the measure
+**max**
+    (optional) if the task involves multiple runs of the simulation, the maximum value of the measure    
 **measure**
     the type of the measurement, for example "norm", "p-value", "time".
 
@@ -140,7 +148,9 @@ Here is an example:
 
 .. code-block:: json
 
-    ﻿{
+      {
+        "model": "ModelB",
+        "task": "taskB3alpha",
         "timestamp": "2015-06-05T11:13:59.535885",
         "results": [
             {
