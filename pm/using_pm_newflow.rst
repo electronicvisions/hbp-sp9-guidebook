@@ -141,7 +141,7 @@ To run on the *hardware* one needs to use the slurm job queue system:
 
 .. code-block:: bash
 
-	srun -p experiment --wmod 33 --hicann 367 python nmpm1_single_neuron.py
+	srun -p experiment --wmod 33 --hicann 297 python nmpm1_single_neuron.py
 
 nmpm1_single_neuron.py:
 
