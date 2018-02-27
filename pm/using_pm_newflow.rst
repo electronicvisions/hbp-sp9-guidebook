@@ -15,8 +15,7 @@ Setup
 .. code-block:: bash
 
 	export LC_ALL=C
-	module load spack_visionary-defaults/2017-01-26_0.2.6
-	module load nmpm_software/2017-04-18-spack-2017-01-26-1
+	module load nmpm_software/current
 
 .. code-block:: bash
 
