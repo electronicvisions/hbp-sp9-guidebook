@@ -4,8 +4,8 @@ Using the SpiNNaker system
 
 As explained in :ref:`building_models`, both the experiment description and the model description
 for the SpiNNaker system must be written as Python scripts,
-using the PyNN application programming interface (API), version 0.7.
-The implementation of the PyNN API for the SpiNNaker system is called :py:mod:`sPyNNaker`, and
+using the PyNN application programming interface (API), versions 0.7 or 0.8.
+The implementation of the `PyNN 0.8 API http://neuralensemble.org/docs/PyNN/0.8/api_reference.html`__ for the SpiNNaker system is called :py:mod:`sPyNNaker8`, and
 is also available as the module :py:mod:`pyNN.spiNNaker`:
 
 
@@ -13,15 +13,16 @@ is also available as the module :py:mod:`pyNN.spiNNaker`:
 
     import pyNN.spiNNaker as sim
 
+The `PyNN 0.7 API <http://neuralensemble.org/trac/PyNN/wiki/API-0.7>`__ implementation is called :py:mod:`sPyNNaker7`.
 
 Supported PyNN functionality
 ============================
 
-:py:mod:`sPyNNaker` currently supports a subset of the standard `PyNN 0.7 API <http://neuralensemble.org/trac/PyNN/wiki/API-0.7>`__ together with a number of extensions.
+:py:mod:`sPyNNaker` currently supports a subset of the standard PyNN 0.7 or 0.8 API together with a number of extensions.
 The supported interface functions are listed below.
 A possibly more up-to-date list can be found in the `online documentation <http://spinnakermanchester.github.io/latest/spynnaker_limitations.html>`__.
 
-In the next planned release, it is planned that the remaining missing features of PyNN 0.7 will be implemented, along with some initial support for PyNN 0.8.
+In the next planned release, support for the PyNN 0.9 API will be included.
 
 Neuron model limitations
 ------------------------
