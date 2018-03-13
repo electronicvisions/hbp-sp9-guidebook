@@ -244,4 +244,13 @@ Code documentation is provided by ``doxygen`` and available
 ``marocco`` uses calibration (``calibtic``) and blacklisting (``redman``) information to take into account circuit-specific properties and defects.
 This information is needed during the map & route process to homogenize the behavior of hardware neuron and synapse circuits and to exclude defective parts of the system.
 
+The blacklisting works on the component level, e.g. denmems (the building blocks of neurons), on-chip buses, synapse drivers, etc.
+Denmems are blacklisted during calibration.
+If the calibration for any parameter could not be performed, the denmem is blacklisted.
+The number of available neurons, i.e. connected denmems,  is not only depending on the number blacklisted denmems but also on their distribution.
+E.g. as an extreme example, if every second denmem would be blacklisted, neuron sizes larger than 1x2 (horizontal x vertical) are not possible.
+
+The blacklisting for on-chip buses originates from the fact that every second horizontal and vertical bus is driven from a neighboring chip.
+If this neighbor chip can not be initialized, all buses from that chip must not be used.
+
 .. _`marocco documentation`: https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
