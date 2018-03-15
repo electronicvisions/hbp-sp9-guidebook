@@ -155,6 +155,12 @@ membrane trace (``membrane_w15.txt``) for the digital weight setting 15 can be p
 .. figure:: examples/hw/example_plot_w15.png
    :alt: Membrane trace and spikes for digital weight 15
 
+The following example shows how to sweep spike times without re-running the mapping.
+
+nmpm1_sweep_spike_times.py:
+
+.. literalinclude:: examples/hw/nmpm1_sweep_spike_times.py
+
 Inspect the synapse loss
 ------------------------
 
