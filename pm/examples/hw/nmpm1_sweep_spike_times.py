@@ -156,4 +156,4 @@ for n, spike_times in enumerate([[100,110], [200,210], [300,310]]):
 
     # skip checks
     marocco.verification = PyMarocco.Skip
-    marocco.check1llocking = PyMarocco.SkipCheck
+    marocco.checkl1locking = PyMarocco.SkipCheck
