@@ -23,6 +23,7 @@ marocco = PyMarocco()
 marocco.backend = PyMarocco.ESS # choose Executable System Specification instead of real hardware
 marocco.calib_backend = PyMarocco.CalibBackend.Default
 marocco.defects.backend = Defects.Backend.None
+marocco.hicann_configurator = PyMarocco.HICANNConfigurator
 marocco.experiment_time_offset = 5.e-7 # can be low for ESS, as no repeater locking required
 marocco.neuron_placement.default_neuron_size(4) # default number of hardware neuron circuits per pyNN neuron
 marocco.persist = "nmpm1_adex_neuron_ess.bin"
