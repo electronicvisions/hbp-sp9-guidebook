@@ -11,6 +11,7 @@ import pyhmf as pynn
 #import pyNN.nest as pynn
 from pymarocco import PyMarocco, Defects
 import pylogging
+import Coordinate as C
 
 # configure logging
 pylogging.reset()
