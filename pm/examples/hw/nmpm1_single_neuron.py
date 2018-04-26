@@ -38,22 +38,7 @@ neuron_parameters = {
 }
 
 marocco = PyMarocco()
-marocco.neuron_placement.default_neuron_size(4)
-marocco.neuron_placement.minimize_number_of_sending_repeaters(False)
-marocco.merger_routing.strategy(marocco.merger_routing.one_to_one)
-
-marocco.bkg_gen_isi = 125
-marocco.pll_freq = 125e6
-
-marocco.backend = PyMarocco.Hardware
-marocco.calib_backend = PyMarocco.XML
-marocco.defects.path = marocco.calib_path = "/wang/data/calibration/brainscales/default-2017-09-26-1"
-marocco.defects.backend = Defects.XML
 marocco.default_wafer = C.Wafer(int(os.environ.get("WAFER", 33)))
-marocco.param_trafo.use_big_capacitors = True
-marocco.input_placement.consider_firing_rate(True)
-marocco.input_placement.bandwidth_utilization(0.8)
-
 runtime = Runtime(marocco.default_wafer)
 pynn.setup(marocco=marocco, marocco_runtime=runtime)
 
