@@ -12,6 +12,7 @@ for domain in ["Calibtic", "marocco"]:
 marocco = PyMarocco()
 marocco.calib_backend = PyMarocco.CalibBackend.Default
 marocco.defects.backend = Defects.Backend.None
+marocco.neuron_placement.skip_hicanns_without_neuron_blacklisting(False)
 marocco.persist = "results.bin"
 pynn.setup(marocco = marocco)
 

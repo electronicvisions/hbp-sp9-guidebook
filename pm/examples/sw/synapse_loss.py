@@ -68,6 +68,7 @@ def main():
     marocco.synapse_routing.driver_chain_length(5)
     marocco.continue_despite_synapse_loss = True
     marocco.calib_backend = PyMarocco.CalibBackend.Default
+    marocco.neuron_placement.skip_hicanns_without_neuron_blacklisting(False)
 
     pynn.setup(marocco=marocco)
 
