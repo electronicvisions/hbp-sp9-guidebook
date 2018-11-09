@@ -4,7 +4,7 @@ Using the SpiNNaker system
 
 As explained in :ref:`building_models`, both the experiment description and the model description
 for the SpiNNaker system must be written as Python scripts,
-using the PyNN application programming interface (API), versions 0.7 or 0.8.
+using the PyNN application programming interface (API), version 0.8.
 The implementation of the `PyNN 0.8 API http://neuralensemble.org/docs/PyNN/0.8/api_reference.html`__ for the SpiNNaker system is called :py:mod:`sPyNNaker8`, and
 is also available as the module :py:mod:`pyNN.spiNNaker`:
 
@@ -13,12 +13,10 @@ is also available as the module :py:mod:`pyNN.spiNNaker`:
 
     import pyNN.spiNNaker as sim
 
-The `PyNN 0.7 API <http://neuralensemble.org/trac/PyNN/wiki/API-0.7>`__ implementation is called :py:mod:`sPyNNaker7`.
-
 Supported PyNN functionality
 ============================
 
-:py:mod:`sPyNNaker` currently supports a subset of the standard PyNN 0.7 or 0.8 API together with a number of extensions.
+:py:mod:`sPyNNaker` currently supports a subset of the standard PyNN 0.8 API together with a number of extensions.
 The supported interface functions are listed below.
 A possibly more up-to-date list can be found in the `online documentation <http://spinnakermanchester.github.io/latest/spynnaker_limitations.html>`__.
 
@@ -29,20 +27,17 @@ Neuron model limitations
 
 sPyNNaker currently supports the following model types:
 
-:py:class:`IFCurrExp`
+:py:class:`IF_curr_exp`
   Current based leaky integrate and fire, with 1 excitatory and 1 inhibitory exponentially decaying synaptic input per neuron
 
-:py:class:`IFCondExp`
+:py:class:`IF_cond_exp`
   Conductance based leaky integrate and fire, with 1 excitatory and 1 inhibitory exponentially decaying synaptic input per neuron
 
-:py:class:`IFCurrDualExp`
-  Current based, Leaky integrate and fire, with 2 excitatory and 1 inhibitory exponentially decaying synaptic input per neuron
+:py:class:`IF_curr_alpha`
+  Conductance based leaky integrate and fire, with 1 excitatory and 1 inhibitory exponentially decaying synaptic input per neuron
 
-:py:class:`IZKCurrExp`
+:py:class:`Izhikevich`
   Current based Izhikevich with 1 excitatory and 1 inhibitory exponentially decaying synaptic input per neuron
-
-:py:class:`IZKCondExp`
-  Conductance based Izhikevich with 1 excitatory and 1 inhibitory exponentially decaying synaptic input per neuron
 
 Note that there are also further restrictions on what plasticity types are supported when used with the above models.
 
@@ -60,7 +55,7 @@ there is no support for noisy or step-based current input.
 
 A third, non-standard PyNN interface, way of injecting current into a PyNN simulation executing on the hardware is through live injection from an external device.
 These functions are supported by our :py:class:`sPyNNakerExternalDevicesPlugin`.
-A description on how to use this functionality can be found `here <http://spinnakermanchester.github.io/spynnaker/3.0.0/SimpleIO-LabManual.pdf>`_.
+A description on how to use this functionality can be found `here <http://spinnakermanchester.github.io/latest/spynnaker_external_io.html>`_.
 
 Connectors
 ----------
@@ -69,7 +64,9 @@ sPyNNaker currently supports the following standard connector types:
 
 - :py:class:`OneToOneConnector`
 - :py:class:`AllToAllConnector`
-- :py:class:`FixedNumberPreConnector`,
+- :py:class:`FixedNumberPreConnector`
+- :py:class:`FixedNumberPostConnector`
+- :py:class:`FixedTotalNumberConnector`
 - :py:class:`FixedProbabilityConnector`
 - :py:class:`DistanceDependentProbabilityConnector`
 - :py:class:`FromFileConnector`
@@ -77,19 +74,14 @@ sPyNNaker currently supports the following standard connector types:
 
 Note that using the latter two connectors will result in slower operation of the tools.
 
-sPyNNaker also provides the non-standard :py:class:`MultapseConnector`,
-which creates a fixed number of randomly selected connections.
-
 
 Plasticity
 ----------
 
-sPyNNaker currently only supports plasticity described by an :py:class:`STDPMechanism`
-which is set as the ``slow`` property of :py:class:`SynapseDynamics`.
+sPyNNaker currently only supports plasticity described by an :py:class:`STDPMechanism`.
 
 sPyNNaker supports the following STDP timing dependence rules:
 
-- :py:class:`PfisterSpikeTripletRule`
 - :py:class:`SpikePairRule`
 
 and the following STDP weight dependence rules:
@@ -111,7 +103,6 @@ PyNN missing functionality
 
 sPyNNaker does not support:
 
-- :py:class:`PopulationView`
 - :py:class:`Assembly`.
 
 sPyNNaker does not support changing of weights / delays / neuron parameters between the initial call to :py:class:`run()` and a :py:func:`reset()` call.
