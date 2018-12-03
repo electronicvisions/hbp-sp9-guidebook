@@ -19,7 +19,7 @@ Setup
 
 .. code-block:: bash
 
-    python -c "import pyhmf" && echo ok
+    run_nmpm_software python -c "import pyhmf" && echo ok
 
 should print ``ok``.
 
@@ -140,7 +140,7 @@ To run on the *hardware* one needs to use the slurm job queue system:
 
 .. code-block:: bash
 
-	srun -p experiment --wmod 33 --hicann 297 python nmpm1_single_neuron.py
+	srun -p experiment --wmod 33 --hicann 297 run_nmpm_software python nmpm1_single_neuron.py
 
 nmpm1_single_neuron.py:
 
