@@ -169,3 +169,6 @@ for n, delta_E_l_DAC in enumerate([-200,-100,0,100,200]):
     # skip checks
     marocco.verification = PyMarocco.Skip
     marocco.checkl1locking = PyMarocco.SkipCheck
+
+# store the last result for visualization
+runtime.results().save("results.xml.gz", True)

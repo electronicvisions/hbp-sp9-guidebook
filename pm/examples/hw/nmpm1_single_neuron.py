@@ -155,3 +155,6 @@ for digital_weight in [5, 10, 15]:
 
     # only change digital parameters from now on
     marocco.hicann_configurator = PyMarocco.NoResetNoFGConfigurator
+
+# store the last result for visualization
+runtime.results().save("results.xml.gz", True)
