@@ -2,11 +2,18 @@
 Getting help
 ============
 
+If you are having problems using the Neuromorphic Computing Platform,
+would like to request in-depth support, or would like to request new features,
+please send an e-mail to support@humanbrainproject.eu.
+
+You may also find useful information on the `Human Brain Project Community Forum`_
+
+
+PyNN-specific help
+------------------
+
 Questions about PyNN can be asked in the `NeuralEnsemble forum`_.
 PyNN bug reports may be filed in the `Github issue tracker`_.
-For problems with submitting jobs to the Neuromorphic Computing Platform, or requests for new features,
-please use the `Human Brain Project Community Forum`_.
-
 
 BrainScaleS-specific help
 -------------------------
