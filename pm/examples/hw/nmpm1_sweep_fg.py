@@ -7,6 +7,7 @@ import numpy as np
 from pyhalbe import HICANN
 import pyhalbe.Coordinate as C
 from pysthal.command_line_util import init_logger
+import pysthal
 
 import pyhmf as pynn
 from pymarocco import PyMarocco, Defects
@@ -143,7 +144,7 @@ for proj in projections:
 marocco.skip_mapping = True
 marocco.backend = PyMarocco.Hardware
 # Full configuration during first step
-marocco.hicann_configurator = PyMarocco.ParallelHICANNv4Configurator
+marocco.hicann_configurator = pysthal.ParallelHICANNv4Configurator()
 
 fgs = runtime.wafer()[hicann].floating_gates
 

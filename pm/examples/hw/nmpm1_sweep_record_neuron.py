@@ -98,4 +98,4 @@ for n, neuron in enumerate(pop):
 
     pynn.reset()
     runtime.results().analog_outputs.unrecord(logical_neuron)
-    marocco.hicann_configurator = marocco.OnlyNeuronNoResetNoFGConfigurator
+    marocco.hicann_configurator = pysthal.OnlyNeuronNoResetNoFGConfigurator()
