@@ -110,6 +110,8 @@ To choose the HICANN a population is placed on, we give marocco a hint:
 
 		marocco.manual_placement.on_hicann(neuron, C.HICANNOnWafer(C.X(5), C.Y(5)))
 
+You can inspect the coordinates on the wafer module `here <../_static/brainscales/coordinateReference/index.html>`_.
+
 At the end, the script is the following:
 
 .. literalinclude:: examples/sw/nmpm1_marocco_intro.py
