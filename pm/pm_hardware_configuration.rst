@@ -70,6 +70,20 @@ The control/compute cluster orchestrates the configuration of the system and the
 
       The left area illustrates the partitioning of HICANNs into larger units (reticles) and the data flow up to the control cluster.
 
+Synaptic Weights
+----------------
+
+The synaptic weight of a single synapse is proportional to the synaptic current :math:`I_{syn}` that is send to the synaptic input circuit of its associated neuron:
+
+.. math::
+   I_{syn} \propto w \cdot \frac{V_{gmax}}{gmax\_div},
+
+where :math:`w \in [0, 15]` is the 4-bit weight in every synapse, :math:`gmax\_div \in [0, 30]` can be set per synapse driver and :math:`V_{gmax} \in [0, 1023]` can be selected per synapse driver from one of four values per HICANN quadrant.
+
+The synaptic conductance course is then generated according to the configured synaptic time constant within the synaptic input circuit of a neuron.
+
+Setting these low-level parameters is possible and exemplified in :ref:`using-marocco`.
+
 Glossary
 --------
 
