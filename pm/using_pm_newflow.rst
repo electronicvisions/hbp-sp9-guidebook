@@ -34,7 +34,7 @@ This enables users to go from a property in PyNN (e.g. the refractory period of 
 within an assembly) to the corresponding parameter on hardware.
 A typical use case is iterative low-level tuning of hardware parameters.
 
-.. _label-marocco-example:
+.. _using-marocco:
 
 Using marocco
 -------------
@@ -110,6 +110,8 @@ To choose the HICANN a population is placed on, we give marocco a hint:
 
 		marocco.manual_placement.on_hicann(neuron, C.HICANNOnWafer(C.X(5), C.Y(5)))
 
+You can inspect the coordinates on the wafer module `here <../_static/brainscales/coordinateReference/index.html>`_.
+
 At the end, the script is the following:
 
 .. literalinclude:: examples/sw/nmpm1_marocco_intro.py
@@ -130,8 +132,6 @@ To change the calibration backend from database to XML set
 "calib_backend" to XML. Then the calibration is looked up in xml files
 named ``w0-h84.xml``, ``w0-h276.xml``, etc. in the directory
 "calib_path".
-
-.. _label-marocco-example:
 
 Running pyNN scripts
 ''''''''''''''''''''
