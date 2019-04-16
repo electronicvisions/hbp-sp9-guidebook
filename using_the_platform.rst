@@ -58,6 +58,47 @@ Here you must choose the hardware system to be used ("BrainScaleS" for the Heide
 or "Spikey" for the Heidelberg single-chip system) and specify any
 specific configuration options for the hardware system you have chosen.
 
+SpiNNaker
+~~~~~~~~~
+On SpiNNaker, the "Hardware Config" box accepts a JSON-formatted object, with the following fields:
+
+:"spynnaker_version":
+  The git tag or branch to run.  If a "semantic" version is specified, each part
+  of the tools will download a "matching" semantic version if possible, or use
+  git master if no match is found.  If any other name is used, each part of the
+  tools will attempt to use a matching branch or tag from git, or git master if
+  no match is found.
+
+:"spinnaker_tools_version":
+  By default, a version of spinnaker tools will be used that works with the
+  software version used above.  If another version is required for any reason,
+  this can be overridden here.
+
+:"extra_pip_installs":
+  Specifies an array of additional libraries that should be installed using pip.
+
+:"extra_git_repositories":
+  Specifies an array of additional git repositories that should be cloned.  The
+  repository will be cloned into a sub-folder of the "current working directory"
+  on the system, and so can be made use of when specifying the options below.
+
+:"extra_makes":
+  Specifies an array of additional folders in which "make" should be called.
+
+:"extra_python_setups":
+  Specifies an array of additional folders in which to run "python setup.py install".
+
+Example:
+::
+    {
+    "spynnaker_version": "master",
+    "spinnaker_tools_version": "3.1.0",
+    "extra_pip_installs": ["elephant"],
+    "extra_git_repositories": ["https://github.com/SpiNNakerManchester/SpiNNakerGraphFrontEnd"],
+    "extra_makes": ["SpiNNakerGraphFrontEnd/spinnaker_graph_front_end/examples"],
+    "extra_python_setups": ["SpiNNakerGraphFrontEnd"]
+    }
+
 .. commenting out a todo:: list configuration options for the different systems
 
 
