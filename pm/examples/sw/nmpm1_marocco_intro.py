@@ -13,7 +13,7 @@ marocco = PyMarocco()
 marocco.calib_backend = PyMarocco.CalibBackend.Default
 marocco.defects.backend = Defects.Backend.None
 marocco.neuron_placement.skip_hicanns_without_neuron_blacklisting(False)
-marocco.persist = "results.bin"
+marocco.persist = "results.xml.gz"
 pynn.setup(marocco = marocco)
 
 pop = pynn.Population(1, pynn.IF_cond_exp)

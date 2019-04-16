@@ -143,3 +143,6 @@ for n, spike_times in enumerate([[100,110], [200,210], [300,310]]):
     # skip checks
     marocco.verification = PyMarocco.Skip
     marocco.checkl1locking = PyMarocco.SkipCheck
+
+# store the last result for visualization
+runtime.results().save("results.xml.gz", True)
