@@ -97,7 +97,7 @@ def set_sthal_params(wafer, gmax, gmax_div):
     """
     synaptic strength:
     gmax: 0 - 1023, strongest: 1023
-    gmax_div: 1 - 15, strongest: 1
+    gmax_div: 2 - 30, strongest: 2
     """
 
     # for all HICANNs in use
@@ -114,10 +114,7 @@ def set_sthal_params(wafer, gmax, gmax_div):
 
         for driver in C.iter_all(C.SynapseDriverOnHICANN):
             for row in C.iter_all(C.RowOnSynapseDriver):
-                wafer[hicann].synapses[driver][row].set_gmax_div(
-                    C.left, gmax_div)
-                wafer[hicann].synapses[driver][row].set_gmax_div(
-                    C.right, gmax_div)
+                wafer[hicann].synapses[driver][row].set_gmax_div(HICANN.GmaxDiv(gmax_div))
 
         # don't change values below
         for ii in xrange(fgs.getNoProgrammingPasses()):
@@ -131,7 +128,7 @@ def set_sthal_params(wafer, gmax, gmax_div):
             fgs.setShared(block, HICANN.shared_parameter.V_ccas, 800)
 
 # call at least once
-set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=1)
+set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=2)
 
 #  ——— configure hardware ——————————————————————————————————————————————————————
 
