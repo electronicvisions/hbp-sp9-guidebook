@@ -79,7 +79,7 @@ def set_sthal_params(wafer, gmax, gmax_div):
     """
     synaptic strength:
     gmax: 0 - 1023, strongest: 1023
-    gmax_div: 1 - 15, strongest: 1
+    gmax_div: 2 - 15, strongest: 1
     """
 
     # for all HICANNs in use
@@ -113,7 +113,7 @@ def set_sthal_params(wafer, gmax, gmax_div):
             fgs.setShared(block, HICANN.shared_parameter.V_ccas, 800)
 
 # call at least once
-set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=1)
+set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=2)
 
 #  ——— configure hardware ——————————————————————————————————————————————————————
 
