@@ -157,5 +157,9 @@ for digital_weight in [5, 10, 15]:
     # only change digital parameters from now on
     marocco.hicann_configurator = pysthal.NoResetNoFGConfigurator()
 
+    # skip checks
+    marocco.verification = PyMarocco.Skip
+    marocco.checkl1locking = PyMarocco.SkipCheck
+
 # store the last result for visualization
 runtime.results().save("results.xml.gz", True)
