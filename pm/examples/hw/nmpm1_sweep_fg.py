@@ -133,10 +133,11 @@ set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=2)
 #  ——— configure hardware ——————————————————————————————————————————————————————
 
 for proj in projections:
-    proj_item, = runtime.results().synapse_routing.synapses().find(proj)
-    synapse = proj_item.hardware_synapse()
-    proxy = runtime.wafer()[synapse.toHICANNOnWafer()].synapses[synapse]
-    proxy.weight = HICANN.SynapseWeight(15)
+    proj_items = runtime.results().synapse_routing.synapses().find(proj)
+    for proj_item in proj_items:
+        synapse = proj_item.hardware_synapse()
+        proxy = runtime.wafer()[synapse.toHICANNOnWafer()].synapses[synapse]
+        proxy.weight = HICANN.SynapseWeight(15)
 
 marocco.skip_mapping = True
 marocco.backend = PyMarocco.Hardware
