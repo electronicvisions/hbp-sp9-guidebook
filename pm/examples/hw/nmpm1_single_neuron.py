@@ -140,11 +140,12 @@ marocco.hicann_configurator = pysthal.ParallelHICANNv4Configurator()
 for digital_weight in [5, 10, 15]:
     logger.info("running measurement with digital weight {}".format(digital_weight))
     for proj in projections:
-        proj_item, = runtime.results().synapse_routing.synapses().find(proj)
-        synapse = proj_item.hardware_synapse()
+        proj_items = runtime.results().synapse_routing.synapses().find(proj)
+        for proj_item in proj_items:
+            synapse = proj_item.hardware_synapse()
 
-        proxy = runtime.wafer()[synapse.toHICANNOnWafer()].synapses[synapse]
-        proxy.weight = HICANN.SynapseWeight(digital_weight)
+            proxy = runtime.wafer()[synapse.toHICANNOnWafer()].synapses[synapse]
+            proxy.weight = HICANN.SynapseWeight(digital_weight)
 
     pynn.run(duration)
     np.savetxt("membrane_w{}.txt".format(digital_weight), pop.get_v())
