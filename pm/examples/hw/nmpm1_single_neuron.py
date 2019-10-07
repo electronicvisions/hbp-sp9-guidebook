@@ -3,6 +3,7 @@
 
 import os
 import numpy as np
+import copy
 
 from pyhalbe import HICANN
 import pyhalbe.Coordinate as C
@@ -137,7 +138,12 @@ marocco.backend = PyMarocco.Hardware
 # Full configuration during first step
 marocco.hicann_configurator = pysthal.ParallelHICANNv4Configurator()
 
-for digital_weight in [5, 10, 15]:
+# magic number from marocco
+SYNAPSE_DECODER_DISABLED_SYNAPSE = HICANN.SynapseDecoder(1)
+
+original_decoders = {}
+
+for digital_weight in [None, 0, 5, 10, 15]:
     logger.info("running measurement with digital weight {}".format(digital_weight))
     for proj in projections:
         proj_items = runtime.results().synapse_routing.synapses().find(proj)
@@ -145,11 +151,22 @@ for digital_weight in [5, 10, 15]:
             synapse = proj_item.hardware_synapse()
 
             proxy = runtime.wafer()[synapse.toHICANNOnWafer()].synapses[synapse]
-            proxy.weight = HICANN.SynapseWeight(digital_weight)
+
+            # make a copy of the original decoder value
+            if synapse not in original_decoders:
+                original_decoders[synapse] = copy.copy(proxy.decoder)
+
+            if digital_weight != None:
+                proxy.weight = HICANN.SynapseWeight(digital_weight)
+                proxy.decoder = original_decoders[synapse]
+            else:
+                proxy.weight = HICANN.SynapseWeight(0)
+                # set it to the special value that is never used for incoming addresses
+                proxy.decoder = SYNAPSE_DECODER_DISABLED_SYNAPSE
 
     pynn.run(duration)
-    np.savetxt("membrane_w{}.txt".format(digital_weight), pop.get_v())
-    np.savetxt("spikes_w{}.txt".format(digital_weight), pop.getSpikes())
+    np.savetxt("membrane_w{}.txt".format(digital_weight if digital_weight != None else "disabled"), pop.get_v())
+    np.savetxt("spikes_w{}.txt".format(digital_weight if digital_weight != None else "disabled"), pop.getSpikes())
     pynn.reset()
 
     # only change digital parameters from now on
