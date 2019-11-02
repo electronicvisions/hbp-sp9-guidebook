@@ -134,8 +134,6 @@ set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=2)
 
 marocco.skip_mapping = True
 marocco.backend = PyMarocco.Hardware
-# Full configuration during first step
-marocco.hicann_configurator = pysthal.ParallelHICANNv4Configurator()
 
 for digital_weight in [5, 10, 15]:
     logger.info("running measurement with digital weight {}".format(digital_weight))
@@ -151,9 +149,6 @@ for digital_weight in [5, 10, 15]:
     np.savetxt("membrane_w{}.txt".format(digital_weight), pop.get_v())
     np.savetxt("spikes_w{}.txt".format(digital_weight), pop.getSpikes())
     pynn.reset()
-
-    # only change digital parameters from now on
-    marocco.hicann_configurator = pysthal.NoResetNoFGConfigurator()
 
     # skip checks
     marocco.verification = PyMarocco.Skip

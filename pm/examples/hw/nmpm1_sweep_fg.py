@@ -141,8 +141,6 @@ for proj in projections:
 
 marocco.skip_mapping = True
 marocco.backend = PyMarocco.Hardware
-# Full configuration during first step
-marocco.hicann_configurator = pysthal.ParallelHICANNv4Configurator()
 
 fgs = runtime.wafer()[hicann].floating_gates
 

@@ -123,8 +123,6 @@ for proj in projections:
 
 marocco.skip_mapping = True
 marocco.backend = PyMarocco.Hardware
-# Full configuration during first step
-marocco.hicann_configurator = pysthal.ParallelHICANNv4Configurator()
 
 for n, spike_times in enumerate([[100,110], [200,210], [300,310]]):
 
@@ -134,9 +132,6 @@ for n, spike_times in enumerate([[100,110], [200,210], [300,310]]):
     np.savetxt("membrane_n{}.txt".format(n), pop.get_v())
     np.savetxt("spikes_n{}.txt".format(n), pop.getSpikes())
     pynn.reset()
-
-    # only change digital parameters from now on
-    marocco.hicann_configurator = pysthal.NoResetNoFGConfigurator()
 
     # skip checks
     marocco.verification = PyMarocco.Skip
