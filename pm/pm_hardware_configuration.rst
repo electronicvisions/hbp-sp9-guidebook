@@ -82,6 +82,8 @@ where :math:`w \in [0, 15]` is the 4-bit weight in every synapse, :math:`gmax\_d
 
 The synaptic conductance course is then generated according to the configured synaptic time constant within the synaptic input circuit of a neuron.
 
+In addition, there is a contribution to the synaptic conductance that does not depend on :math:`V_{gmax}` nor :math:`gmax\_div` but only on the 4-bit weight, cf. PhDCK_. Notably this contribution is not linear in the 4-bit weight.
+
 Setting these low-level parameters is possible and exemplified in :ref:`using-marocco`.
 
 Glossary
@@ -94,3 +96,4 @@ Glossary
 .. _`Schemmel et al. (2010)`: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5536970
 .. _`Schemmel et al. (2008)`: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4633828
 .. _AdEx: http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model
+.. _PhDCK: http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3436
