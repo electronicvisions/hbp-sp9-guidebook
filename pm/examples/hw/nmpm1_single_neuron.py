@@ -135,8 +135,6 @@ set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=2)
 
 marocco.skip_mapping = True
 marocco.backend = PyMarocco.Hardware
-# Full configuration during first step
-marocco.hicann_configurator = pysthal.ParallelHICANNv4Configurator()
 
 # magic number from marocco
 SYNAPSE_DECODER_DISABLED_SYNAPSE = HICANN.SynapseDecoder(1)
@@ -168,9 +166,6 @@ for digital_weight in [None, 0, 5, 10, 15]:
     np.savetxt("membrane_w{}.txt".format(digital_weight if digital_weight != None else "disabled"), pop.get_v())
     np.savetxt("spikes_w{}.txt".format(digital_weight if digital_weight != None else "disabled"), pop.getSpikes())
     pynn.reset()
-
-    # only change digital parameters from now on
-    marocco.hicann_configurator = pysthal.NoResetNoFGConfigurator()
 
     # skip checks
     marocco.verification = PyMarocco.Skip
