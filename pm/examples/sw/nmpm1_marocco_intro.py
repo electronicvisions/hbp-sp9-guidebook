@@ -9,6 +9,12 @@ import pylogging
 for domain in ["Calibtic", "marocco"]:
     pylogging.set_loglevel(pylogging.get(domain), pylogging.LogLevel.INFO)
 
+def get_denmems(pop, results):
+    for neuron in pop:
+        for item in results.placement.find(neuron):
+            for denmem in item.logical_neuron():
+                yield denmem
+
 marocco = PyMarocco()
 marocco.calib_backend = PyMarocco.CalibBackend.Default
 marocco.defects.backend = Defects.Backend.None
@@ -16,16 +22,23 @@ marocco.neuron_placement.skip_hicanns_without_neuron_blacklisting(False)
 marocco.persist = "results.xml.gz"
 pynn.setup(marocco = marocco)
 
+# place the full population to a specific HICANN
 pop = pynn.Population(1, pynn.IF_cond_exp)
-
 marocco.manual_placement.on_hicann(pop, C.HICANNOnWafer(C.X(5), C.Y(5)), 4)
+
+# place only parts of a population
+pop2 = pynn.Population(3, pynn.IF_cond_exp)
+marocco.manual_placement.on_hicann(pynn.PopulationView(pop2, [0]), C.HICANNOnWafer(C.Enum(5)))
+marocco.manual_placement.on_hicann(pynn.PopulationView(pop2, [1]), C.HICANNOnWafer(C.Enum(1)))
+# the third neuron will be automatically placed
 
 pynn.run(10)
 pynn.end()
 
 results = Marocco.from_file(marocco.persist)
 
-for neuron in pop:
-    for item in results.placement.find(neuron):
-        for denmem in item.logical_neuron():
-            print denmem
+for denmem in get_denmems(pop, results):
+    print denmem
+
+for denmem in get_denmems(pop2, results):
+    print denmem
