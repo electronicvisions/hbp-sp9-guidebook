@@ -15,10 +15,14 @@
 import sys
 import os
 
+import six
 # create up2date gitversion file (which is included at the top)
-from email.Utils import formatdate
+if six.PY2:
+    from email.Utils import formatdate
+elif six.PY3:
+    from email.utils import formatdate
 from subprocess import check_output
-repo_version = check_output("git describe --always --tags --dirty | tee gitversion.rst_tochide", shell=True).strip('\n')
+repo_version = check_output("git describe --always --tags --dirty | tee gitversion.rst_tochide", shell=True).decode('utf-8').strip('\n')
 with open("gitversion.rst_tochide", mode="a") as fp:
     fp.write(formatdate(localtime=False, usegmt=True))
 
