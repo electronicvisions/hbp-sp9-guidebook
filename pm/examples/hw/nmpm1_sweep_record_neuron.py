@@ -7,7 +7,8 @@ import pyhmf as pynn
 from pymarocco import PyMarocco
 from pymarocco.runtime import Runtime
 from pymarocco.results import Marocco
-import Coordinate as C
+from pyhalco_common import Enum
+from pyhalco_hicann_v2 import HICANNOnWafer, Wafer
 import pysthal
 from pysthal.command_line_util import init_logger
 
@@ -19,7 +20,7 @@ init_logger("WARN", [
 ])
 
 marocco = PyMarocco()
-runtime = Runtime(C.Wafer(int(os.environ.get("WAFER", 22))))
+runtime = Runtime(Wafer(int(os.environ.get("WAFER", 22))))
 pynn.setup(marocco=marocco, marocco_runtime=runtime)
 
 #  ——— set up network ——————————————————————————————————————————————————————————
@@ -40,7 +41,7 @@ neuron_parameters = {
 pop = pynn.Population(10, pynn.IF_cond_exp, neuron_parameters)
 pop.record()
 
-hicann = C.HICANNOnWafer(C.Enum(297))
+hicann = HICANNOnWafer(Enum(297))
 marocco.manual_placement.on_hicann(pop, hicann)
 
 # force a very high weight

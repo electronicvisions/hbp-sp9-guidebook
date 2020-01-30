@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 import pyhmf as pynn
-import Coordinate as C
+from pyhalco_common import Enum, X, Y
+from pyhalco_hicann_v2 import HICANNOnWafer
 from pymarocco import PyMarocco, Defects
 from pymarocco.results import Marocco
 
@@ -24,12 +25,12 @@ pynn.setup(marocco = marocco)
 
 # place the full population to a specific HICANN
 pop = pynn.Population(1, pynn.IF_cond_exp)
-marocco.manual_placement.on_hicann(pop, C.HICANNOnWafer(C.X(5), C.Y(5)), 4)
+marocco.manual_placement.on_hicann(pop, HICANNOnWafer(X(5), Y(5)), 4)
 
 # place only parts of a population
 pop2 = pynn.Population(3, pynn.IF_cond_exp)
-marocco.manual_placement.on_hicann(pynn.PopulationView(pop2, [0]), C.HICANNOnWafer(C.Enum(5)))
-marocco.manual_placement.on_hicann(pynn.PopulationView(pop2, [1]), C.HICANNOnWafer(C.Enum(1)))
+marocco.manual_placement.on_hicann(pynn.PopulationView(pop2, [0]), HICANNOnWafer(Enum(5)))
+marocco.manual_placement.on_hicann(pynn.PopulationView(pop2, [1]), HICANNOnWafer(Enum(1)))
 # the third neuron will be automatically placed
 
 pynn.run(10)

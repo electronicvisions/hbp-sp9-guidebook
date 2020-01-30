@@ -5,7 +5,9 @@ import os
 import numpy as np
 
 from pyhalbe import HICANN
-import pyhalbe.Coordinate as C
+from pyhalco_hicann_v2 import Wafer, HICANNOnWafer, SynapseDriverOnHICANN
+from pyhalco_hicann_v2 import RowOnSynapseDriver, FGBlockOnHICANN
+from pyhalco_common import Enum, iter_all
 from pysthal.command_line_util import init_logger
 import pysthal
 
@@ -39,7 +41,7 @@ neuron_parameters = {
 }
 
 marocco = PyMarocco()
-marocco.default_wafer = C.Wafer(int(os.environ.get("WAFER", 33)))
+marocco.default_wafer = Wafer(int(os.environ.get("WAFER", 33)))
 runtime = Runtime(marocco.default_wafer)
 pynn.setup(marocco=marocco, marocco_runtime=runtime)
 
@@ -50,7 +52,7 @@ pop = pynn.Population(1, pynn.IF_cond_exp, neuron_parameters)
 pop.record()
 pop.record_v()
 
-hicann = C.HICANNOnWafer(C.Enum(297))
+hicann = HICANNOnWafer(Enum(297))
 marocco.manual_placement.on_hicann(pop, hicann)
 
 connector = pynn.AllToAllConnector(weights=1)
@@ -88,24 +90,24 @@ def set_sthal_params(wafer, gmax, gmax_div):
         fgs = wafer[hicann].floating_gates
 
         # set parameters influencing the synaptic strength
-        for block in C.iter_all(C.FGBlockOnHICANN):
+        for block in iter_all(FGBlockOnHICANN):
             fgs.setShared(block, HICANN.shared_parameter.V_gmax0, gmax)
             fgs.setShared(block, HICANN.shared_parameter.V_gmax1, gmax)
             fgs.setShared(block, HICANN.shared_parameter.V_gmax2, gmax)
             fgs.setShared(block, HICANN.shared_parameter.V_gmax3, gmax)
 
-        for driver in C.iter_all(C.SynapseDriverOnHICANN):
-            for row in C.iter_all(C.RowOnSynapseDriver):
+        for driver in iter_all(SynapseDriverOnHICANN):
+            for row in iter_all(RowOnSynapseDriver):
                 wafer[hicann].synapses[driver][row].set_gmax_div(HICANN.GmaxDiv(gmax_div))
 
         # don't change values below
         for ii in xrange(fgs.getNoProgrammingPasses()):
-            cfg = fgs.getFGConfig(C.Enum(ii))
+            cfg = fgs.getFGConfig(Enum(ii))
             cfg.fg_biasn = 0
             cfg.fg_bias = 0
-            fgs.setFGConfig(C.Enum(ii), cfg)
+            fgs.setFGConfig(Enum(ii), cfg)
 
-        for block in C.iter_all(C.FGBlockOnHICANN):
+        for block in iter_all(FGBlockOnHICANN):
             fgs.setShared(block, HICANN.shared_parameter.V_dllres, 275)
             fgs.setShared(block, HICANN.shared_parameter.V_ccas, 800)
 
