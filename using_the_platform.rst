@@ -8,8 +8,8 @@ systems - BrainScaleS (also known as "NM-PM-1", "physical model") and SpiNNaker 
 Jobs are written as Python scripts using the PyNN API, submitted to a queue server, then executed on one of the
 neuromorphic systems. On job completion, the user may retrieve the results of the simulation/emulation.
 
-There are several ways of interacting with the queue server. This document describes the web interface and the Python
-client.
+There are several ways of interacting with the queue server. This document describes the web interface, the Python
+client and the command-line client.
 
 Format of a job
 ===============
@@ -252,7 +252,7 @@ Installing the Python client
 ----------------------------
 
 Install the nmpi_client package from PyPI into a virtual environment, using for example
-virtualenv or Anaconda. The client works with Python 2.7 and Python 3.3 or newer.
+virtualenv or Anaconda. The client works with Python 2.7 and Python 3.5 or newer.
 
 ::
 
@@ -371,7 +371,90 @@ Deleting a job
 
 
 
+Using the command-line
+======================
+
+A third way to interact with the HBP Neuromorphic Computing Platform
+is to use the command-line client, :program:`nmpi`.
+This aims to mimic as closely as possible the experience of running simulations on a local machine,
+even though the job is actually running on the large BrainScaleS or SpiNNaker systems.
+In particular, your Python code (e.g. your PyNN scripts) can be on your local machine,
+and all simulation results will be downloaded to your local machine.
+
+Installing the command-line client
+----------------------------------
+
+The command-line client is based on, and included with, the Python client.
+Installing the Python client, as descibed above, also gives you the :program:`nmpi` tool.
+
+
+Configuring the client
+----------------------
+
+In the directory from which you want to run simulations,
+usually the directory containing your PyNN scripts,
+create a file named :file:`nmpi_config.yml`,
+which should look something like this:
+
+.. code-block:: yaml
+
+   username: yourusername
+   collab_id: 563
+   default_platform: SpiNNaker
+   default_output_dir: .
+
+You can use the id of any Collab in which you have a valid quota (see :ref:`access-requests` above.
+
+Submitting a job
+----------------
+
+.. code-block:: bash
+
+   $ nmpi run myscript.py
+
+This will ask for your HBP password the first time you run it.
+Subsequent runs will use the stored authentication token until it expires,
+at which time you will be asked again for your password.
+
+All of the Python code in your current directory (and any subdirectories)
+will be uploaded to the Collaboratory storage (for the Collab ID in your config file).
+On subsequent runs, only files that have changed will be uploaded.
+
+The job will then be submitted to the queue for the default system,
+as defined in your config file, and the :program:`nmpi` command will wait
+until the job has been completed, and then download the simulation results
+to the default output directory.
+
+To submit a job to a different system than defined in your config, use the :option:`-p` option,
+and to download data to a different output directory, use the :option:`-o` option, e.g.
+
+.. code-block:: bash
+
+   $ nmpi run -p BrainScaleS -o results myscript.py
+
+
+Submitting a batch job
+----------------------
+
+If the platform is very busy, you know that your simulation will take a long time to run,
+or you wish to submit several jobs at one time, you may not wish to wait until the job has finished.
+In that scenario, you can submit in batch mode:
+
+.. code-block:: bash
+
+   $ nmpi run -b myscript.py
+
+With this option, the :program:`nmpi` command will return immediately.
+At a later time, you can run:
+
+.. code-block:: bash
+
+   $ nmpi check
+
+to check whether your jobs have finished.
+For those that have, the simulation results will be downloaded to your local machine.
+
+
 .. _`Human Brain Project`: http://www.humanbrainproject.eu
 .. _`HBP Collaboration Server`: https://collaboration.humanbrainproject.eu
 .. _`Neuromorphic Computing Platform collab`: https://collab.humanbrainproject.eu/#/collab/51/nav/244
-
