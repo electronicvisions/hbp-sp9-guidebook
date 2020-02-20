@@ -21,6 +21,7 @@ These large-scale neuromorphic systems are currently in their commissioning phas
    using_the_platform
    pm/pm
    pm/spikey
+   pm/bss2
    mc/mc_index
    benchmarks
    getting_help
