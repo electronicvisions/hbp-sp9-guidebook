@@ -262,3 +262,20 @@ The blacklisting for on-chip buses originates from the fact that every second ho
 If this neighbor chip can not be initialized, all buses from that chip must not be used.
 
 .. _`marocco documentation`: https://brainscales-r.kip.uni-heidelberg.de:8443/view/doc/job/doc-dsl_marocco/marocco_Documentation
+
+FAQ
+---
+
+ImportError: No module named Coordinate
+'''''''''''''''''''''''''''''''''''''''
+
+``import pyhalbe.Coordinate`` or ``import Coordinate`` is deprecated and was removed from the software. Please use ``import pyhalco_hicann_v2`` for the coordinate representation of hardware resources like `HICANNOnWafer` or `SynapseOnHICANN` and ``import pyhalco_common`` for common coordinates like `Enum, iter_all, left` or `right` instead.
+One option to adapt your code to the new coordinates would be to replace ``import Coordinate as C`` with
+
+.. code-block:: python
+
+        import pyhalco_hicann_v2 as C
+        from pyhalco_common import Enum, left, right
+        C.Enum, C.left, C.right = Enum, left, right
+
+including all common coordinates you are using.
