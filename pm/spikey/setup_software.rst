@@ -32,11 +32,9 @@ To load the pre-built software package and configure the environment variables u
 
 .. code-block:: bash
 
-  . /wang/environment/software/jessie/spack/current/share/spack/setup-env.sh
-  spack load --dependencies visionary-defaults 
-  module load spikey
+  module load spikey/current
 
-These three commands must be loaded for every environment, and in particular, after logging in.
+This command must be loaded for every environment, and in particular, after logging in.
 
 
 .. _label-expexec:
@@ -51,7 +49,7 @@ To queue the execution of a Python script use:
 
 .. code-block:: bash
 
-  srun -p spikey --gres stationXXX python example.py
+  srun -p spikey --gres stationXXX run_nmpm_software python example.py
 
 Replace XXX with the number of the chip you want to use (e.g. 500).
 
