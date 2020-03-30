@@ -7,3 +7,4 @@ The BrainScaleS-2 "physical model" system
 
    bss2/setup_software
    bss2/run_ppu
+   bss2/api
