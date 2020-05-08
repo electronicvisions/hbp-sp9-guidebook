@@ -1,50 +1,60 @@
 #!/usr/bin/env python
 # -*- coding: utf-8; -*-
 
-import os
+import argparse
 import numpy as np
-import copy
 
-from pyhalbe import HICANN
-from pyhalco_hicann_v2 import Wafer, HICANNOnWafer, SynapseDriverOnHICANN
-from pyhalco_hicann_v2 import RowOnSynapseDriver, FGBlockOnHICANN
-from pyhalco_common import Enum, iter_all
-from pysthal.command_line_util import init_logger
-import pysthal
+import elephant.spike_train_generation as stgen
+import quantities as Q
 
-import pyhmf as pynn
-from pymarocco import PyMarocco, Defects
-from pymarocco.runtime import Runtime
-from pymarocco.coordinates import LogicalNeuron
-from pymarocco.results import Marocco
+parser = argparse.ArgumentParser()
+parser.add_argument('simulator',
+                    type=str,
+                    choices=['bss', 'nest'],
+                    help='Simulation backend to use')
+args = parser.parse_args()
 
-init_logger("WARN", [
+if args.simulator == 'bss':
+    import os
+    import pyhmf as pynn
+
+    from pyhalco_hicann_v2 import Wafer, HICANNOnWafer
+    from pyhalco_common import Enum
+    from pysthal.command_line_util import init_logger
+    from pymarocco import PyMarocco
+
+    init_logger("WARN", [
     ("guidebook", "DEBUG"),
-    ("marocco", "DEBUG"),
+    ("marocco", "TRACE"),
     ("Calibtic", "DEBUG"),
     ("sthal", "INFO")
-])
+    ])
 
-import pylogging
-logger = pylogging.get("guidebook")
+    marocco = PyMarocco()
+    wafer_int = int(os.environ.get("WAFER", 33))
+    marocco.default_wafer = Wafer(wafer_int)
+
+    marocco.calib_path = "/wang/data/commissioning/BSS-1/rackplace/{}/calibration/current".format(wafer_int)
+    marocco.calib_backend = PyMarocco.CalibBackend.XML
+    marocco.defects.path = "/wang/data/commissioning/BSS-1/rackplace/{}/derived_plus_calib_blacklisting/current".format(wafer_int)
+    marocco.backend = PyMarocco.Hardware
+
+    pynn.setup(marocco=marocco)
+else:
+    import pyNN.nest as pynn
+    pynn.setup(timestep=0.1)
 
 neuron_parameters = {
-    'cm': 0.2,
-    'v_reset': -70.,
-    'v_rest': -20.,
-    'v_thresh': -10,
-    'e_rev_I': -100.,
-    'e_rev_E': 60.,
-    'tau_m': 20.,
-    'tau_refrac': 0.1,
-    'tau_syn_E': 5.,
-    'tau_syn_I': 5.,
+    'cm': 0.2,     # nF
+    'v_reset': -20, # mV
+    'v_rest': -50,  # mV
+    'v_thresh': 100,# mV
+    'e_rev_I': -80, # mV
+    'e_rev_E': 20,  # mV
+    'tau_m': 5,    # ms
+    'tau_syn_E': 2, # ms
+    'tau_syn_I': 2, # ms
 }
-
-marocco = PyMarocco()
-marocco.default_wafer = Wafer(int(os.environ.get("WAFER", 33)))
-runtime = Runtime(marocco.default_wafer)
-pynn.setup(marocco=marocco, marocco_runtime=runtime)
 
 #  ——— set up network ——————————————————————————————————————————————————————————
 
@@ -53,10 +63,11 @@ pop = pynn.Population(1, pynn.IF_cond_exp, neuron_parameters)
 pop.record()
 pop.record_v()
 
-hicann = HICANNOnWafer(Enum(297))
-marocco.manual_placement.on_hicann(pop, hicann)
+if args.simulator == 'bss':
+    hicann = HICANNOnWafer(Enum(297))
+    marocco.manual_placement.on_hicann(pop, hicann)
 
-connector = pynn.AllToAllConnector(weights=1)
+connector = pynn.AllToAllConnector(weights=0.01)
 
 exc_spike_times = [
     250,
@@ -74,104 +85,31 @@ inh_spike_times = [
     1250,
 ]
 
-duration = 1500.0
+duration = 3000.0
 
-stimulus_exc = pynn.Population(1, pynn.SpikeSourceArray, {
-    'spike_times': exc_spike_times})
-stimulus_inh = pynn.Population(1, pynn.SpikeSourceArray, {
-    'spike_times': inh_spike_times})
+np.random.seed(5321)
+exc_spike_times = np.concatenate([
+    stgen.homogeneous_poisson_process(20 * Q.Hz, 250 * Q.ms, 750 * Q.ms, as_array=True),
+    stgen.homogeneous_poisson_process(20 * Q.Hz, 1750 * Q.ms, 2750 * Q.ms, as_array=True),
+])
+
+inh_spike_times = np.concatenate([
+    stgen.homogeneous_poisson_process(20 * Q.Hz, 1000 * Q.ms, 1500 * Q.ms, as_array=True),
+    stgen.homogeneous_poisson_process(20 * Q.Hz, 1750 * Q.ms, 2750 * Q.ms, as_array=True),
+])
+
+
+stimulus_exc = pynn.Population(1, pynn.SpikeSourceArray, {'spike_times' : exc_spike_times})
+stimulus_inh = pynn.Population(1, pynn.SpikeSourceArray, {'spike_times' : inh_spike_times})
 
 projections = [
     pynn.Projection(stimulus_exc, pop, connector, target='excitatory'),
     pynn.Projection(stimulus_inh, pop, connector, target='inhibitory'),
 ]
 
-#  ——— run mapping —————————————————————————————————————————————————————————————
+#  ——— run  —————————————————————————————————————————————————————————————
 
-marocco.skip_mapping = False
-marocco.backend = PyMarocco.None
-
-pynn.reset()
 pynn.run(duration)
 
-#  ——— change low-level parameters before configuring hardware —————————————————
-
-def set_sthal_params(wafer, gmax, gmax_div):
-    """
-    synaptic strength:
-    gmax: 0 - 1023, strongest: 1023
-    gmax_div: 2 - 30, strongest: 2
-    """
-
-    # for all HICANNs in use
-    for hicann in wafer.getAllocatedHicannCoordinates():
-
-        fgs = wafer[hicann].floating_gates
-
-        # set parameters influencing the synaptic strength
-        for block in iter_all(FGBlockOnHICANN):
-            fgs.setShared(block, HICANN.shared_parameter.V_gmax0, gmax)
-            fgs.setShared(block, HICANN.shared_parameter.V_gmax1, gmax)
-            fgs.setShared(block, HICANN.shared_parameter.V_gmax2, gmax)
-            fgs.setShared(block, HICANN.shared_parameter.V_gmax3, gmax)
-
-        for driver in iter_all(SynapseDriverOnHICANN):
-            for row in iter_all(RowOnSynapseDriver):
-                wafer[hicann].synapses[driver][row].set_gmax_div(HICANN.GmaxDiv(gmax_div))
-
-        # don't change values below
-        for ii in xrange(fgs.getNoProgrammingPasses()):
-            cfg = fgs.getFGConfig(Enum(ii))
-            cfg.fg_biasn = 0
-            cfg.fg_bias = 0
-            fgs.setFGConfig(Enum(ii), cfg)
-
-        for block in iter_all(FGBlockOnHICANN):
-            fgs.setShared(block, HICANN.shared_parameter.V_dllres, 275)
-            fgs.setShared(block, HICANN.shared_parameter.V_ccas, 800)
-
-# call at least once
-set_sthal_params(runtime.wafer(), gmax=1023, gmax_div=2)
-
-#  ——— configure hardware ——————————————————————————————————————————————————————
-
-marocco.skip_mapping = True
-marocco.backend = PyMarocco.Hardware
-
-# magic number from marocco
-SYNAPSE_DECODER_DISABLED_SYNAPSE = HICANN.SynapseDecoder(1)
-
-original_decoders = {}
-
-for digital_weight in [None, 0, 5, 10, 15]:
-    logger.info("running measurement with digital weight {}".format(digital_weight))
-    for proj in projections:
-        proj_items = runtime.results().synapse_routing.synapses().find(proj)
-        for proj_item in proj_items:
-            synapse = proj_item.hardware_synapse()
-
-            proxy = runtime.wafer()[synapse.toHICANNOnWafer()].synapses[synapse]
-
-            # make a copy of the original decoder value
-            if synapse not in original_decoders:
-                original_decoders[synapse] = copy.copy(proxy.decoder)
-
-            if digital_weight != None:
-                proxy.weight = HICANN.SynapseWeight(digital_weight)
-                proxy.decoder = original_decoders[synapse]
-            else:
-                proxy.weight = HICANN.SynapseWeight(0)
-                # set it to the special value that is never used for incoming addresses
-                proxy.decoder = SYNAPSE_DECODER_DISABLED_SYNAPSE
-
-    pynn.run(duration)
-    np.savetxt("membrane_w{}.txt".format(digital_weight if digital_weight != None else "disabled"), pop.get_v())
-    np.savetxt("spikes_w{}.txt".format(digital_weight if digital_weight != None else "disabled"), pop.getSpikes())
-    pynn.reset()
-
-    # skip checks
-    marocco.verification = PyMarocco.Skip
-    marocco.checkl1locking = PyMarocco.SkipCheck
-
-# store the last result for visualization
-runtime.results().save("results.xml.gz", True)
+np.savetxt("membrane_{}.txt".format(args.simulator), pop.get_v())
+np.savetxt("spikes_{}.txt".format(args.simulator), pop.getSpikes())
