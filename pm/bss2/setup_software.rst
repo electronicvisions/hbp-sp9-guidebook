@@ -41,7 +41,8 @@ To checkout all important software repositories use:
 
 .. code-block:: bash
 
-  waf setup --project template-experiment-dls
+  # leave out the --repo-db-url=... parameter to use the "UHEI-internal" repositories
+  waf setup --project template-experiment-dls --repo-db-url=https://github.com/electronicvisions/projects
 
 To build the software use:
 

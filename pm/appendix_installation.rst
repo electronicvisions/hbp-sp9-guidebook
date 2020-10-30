@@ -56,7 +56,8 @@ It will clone all the dependencies.
 
 .. code-block:: bash
 
-    waf setup --project pyhmf --project=marocco --without-ester
+    # leave out the --repo-db-url=... parameter to use the "UHEI-internal" repositories
+    waf setup --project pyhmf --project=marocco --without-ester --repo-db-url=https://github.com/electronicvisions/projects
 
 The next step is configuration.
 As the default software environment on the UHEI cluster does not provide all the software dependencies, you have to load some modules which will provide those dependencies:
@@ -103,7 +104,8 @@ If you want to include the calibration toolkit (``cake``) (optional):
 
 .. code-block:: bash
 
-    waf setup --project pyhmf --project marocco --project cake --without-ester
+    # leave out the --repo-db-url=... parameter to use the "UHEI-internal" repositories
+    waf setup --project pyhmf --project marocco --project cake --without-ester --repo-db-url=https://github.com/electronicvisions/projects
     # module load ...
     waf configure
     waf install --test-execnone
