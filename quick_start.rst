@@ -4,47 +4,36 @@
 Getting started
 ===============
 
-To use the HBP Neuromorphic Computing Platform you will need:
+To use the HBP Neuromorphic Computing Platform you will need to:
 
-1. an HBP Identity account (`available on request`_)
-2. to sign the `Platform User Agreement`_ and return it to neuromorphic@humanbrainproject.eu
+1. create an EBRAINS account (`available on request`_), free of charge
+2. send an email with your EBRAINS username to neuromorphic@humanbrainproject.eu
 
-Once you've received confirmation that access has been approved, head to the `Platform home page`_
-and click on "Get started!"
+You will then get a Collab created with a test-quota to access the BrainScaleS and SpiNNaker machines. The "Collab" is a collaborative workspace) within the HBP Collaboratory_,
+pre-loaded with the tools you will need to access the Platform.
 
-This will create a new "collab" (a collaborative workspace) within the HBP Collaboratory_,
-pre-loaded with the tools you will need to access the Platform. You can now:
-
+You can now:
 * Add team members to your Collab using the ":guilabel:`Team`" link in the navigation bar on the left.
   Only members of the team will be able to launch simulations.
-  If this is a public collab, anyone with an HBP account will be able to view the results.
-  If it is a private collab, only team members will be able to view results.
 * Read the Guidebook.
-* Request an allocation of compute time on the platform, using the ":guilabel:`Resource Manager`" link.
 * Run simulations, using the ":guilabel:`Job Manager`" link.
 
 
 Request a compute time allocation
 =================================
 
-Using the :guilabel:`Resource Manager` form, request test access to the platform by entering a
-project title and a brief abstract explaining why you wish to use the platform.
-It is not necessary to fill in the "Project description" field.
-
-.. image:: images/resource_request_form.png
-   :width: 70%
-   :align: center
-
-After clicking on :guilabel:`Submit proposal`, your request should be approved within 48 hours.
-If you've received no response within this time, e-mail neuromorphic@humanbrainproject.eu
+Using the :guilabel:`Job Manager` you can request more quota (only needed, when the test quota 
+has been used up). 
 
 For more information on compute time allocations, see :ref:`access-requests`.
 
 Run a simulation
 ================
 
-Once your test allocation has been approved, click on ":guilabel:`Job Manager`",
-then on ":guilabel:`New Job`. Select "SpiNNaker" in the :guilabel:`Hardware Platform` drop-down
+Simulations can be run via Jupyter notebooks (use the ":guilabel:`Lab`") or 
+can be submitted via the ":guilabel:`Job Manager`". 
+
+Example: ":guilabel:`New Job`. Select "SpiNNaker" in the :guilabel:`Hardware Platform` drop-down
 menu, then enter Python code in the ":guilabel:`Code`" text box, for example the following short
 script, which simulates a population of integrate-and-firing neurons with different input
 firing rates:
@@ -136,7 +125,5 @@ produced by your simulation.
 
 
 
-.. _`available on request`: https://services.humanbrainproject.eu/oidc/account/request
-.. _`Platform User Agreement`: https://www.hbpneuromorphic.eu/UserAgreement_HBPNeuromorphicComputingPlatform.pdf
-.. _`Platform home page`: https://www.hbpneuromorphic.eu/home.html
-.. _Collaboratory: https://collab.humanbrainproject.eu/#/collab/19/nav/175
+.. _`available on request`: https://ebrains.eu/register
+.. _Collaboratory: https://wiki.ebrains.eu/bin/view/Collabs/neuromorphic/
