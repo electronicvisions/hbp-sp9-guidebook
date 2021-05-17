@@ -8,10 +8,12 @@ Living document version:
 
 .. [Initial paragraph needs to be kept short]
 
-The Neuromorphic Computing Platform allows neuroscientists and engineers to perform experiments with configurable neuromorphic computing systems.
-The platform provides two complementary, large-scale neuromorphic systems built in custom hardware at locations in Heidelberg, Germany (the "BrainScaleS" system, also known as the "physical model" or PM system) and Manchester, United Kingdom (the "SpiNNaker" system, also known as the "many core" or MC system). Both systems enable energy-efficient, large-scale neuronal network simulations with simplified spiking neuron models. The BrainScaleS system is based on physical (analogue) emulations of neuron models and offers highly accelerated operation (10\ :superscript:`4` x real time). The SpiNNaker system is based on a digital many-core architecture and provides real-time operation.
+The Neuromorphic Computing systems SpiNNaker and BrainScaleS allow neuroscientists and engineers to perform experiments with configurable neuromorphic computing systems.
+The systems are part of the `EBRAINS research infrastructure`_. The EBRAINS infrastructure is created by the `Human Brain Project`_ (HBP). After the end of HBP (i.e. after Mach 2023) the research infrastructure operation will be continued by the EBRAINS legal entity.
 
-These large-scale neuromorphic systems are currently in their commissioning phase, which is accompanied by short technology and software switchover times. In order to ensure that obtained results are up to date and valid, we kindly request all users to review all material intended for dissemination (websites, papers etc.) with the involved groups.
+The two complementary, large-scale neuromorphic systems built in custom hardware at locations in Heidelberg, Germany (the "BrainScaleS" system, also known as the "physical model" or PM system) and Manchester, United Kingdom (the "SpiNNaker" system, also known as the "many core" or MC system). Both systems enable energy-efficient, large-scale neuronal network simulations with simplified spiking neuron models. The BrainScaleS system is based on physical (analogue) emulations of neuron models and offers highly accelerated operation (10\ :superscript:`4` x real time). The SpiNNaker system is based on a digital many-core architecture and provides real-time operation.
+
+SpiNNaker and BrainScaleS soft- and hardware are under active development. In order to ensure that obtained results are up to date and valid, we kindly request all users to review all material intended for dissemination (websites, papers etc.) with the involved groups.
 
 .. toctree::
    :maxdepth: 2
@@ -28,3 +30,7 @@ These large-scale neuromorphic systems are currently in their commissioning phas
    pm/appendix_installation.rst
    appendix
    reference/python_client
+
+
+.. _`EBRAINS research infrastructure`: https://ebrains.eu/service/neuromorphic-computing
+.. _`Human Brain Project`: https://www.humanbrainproject.eu/

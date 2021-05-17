@@ -18,8 +18,8 @@ PyNN bug reports may be filed in the `Github issue tracker`_.
 BrainScaleS-specific help
 -------------------------
 
-If you run into problems during the installation of the ESS or have any issues / questions that are not covered by the FAQ,
-please consider the `mailing list for BrainScaleS wafer-scale hardware and ESS users`_ or the `BrainScaleS chat`_.
+If you run into problems that are not covered by the FAQ,
+please use the `BrainScaleS chat`_ (to get an account on the chat system, please send an email to neuromorphic@humanbrainproject.eu)
 
 SpiNNaker-specific help
 -----------------------
@@ -32,4 +32,4 @@ any issues / questions, please consider the `SpiNNaker Users Google group`_.
 .. _`mailing list for BrainScaleS wafer-scale hardware and ESS users`: http://listserv.uni-heidelberg.de/cgi-bin/wa?A0=KIP-NMPM-USERS
 .. _`BrainScaleS chat`: https://chat.bioai.eu/external-users
 .. _`Github issue tracker`: https://github.com/NeuralEnsemble/PyNN/issues
-.. _`Human Brain Project Community Forum`: https://forum.humanbrainproject.eu
+.. _`Human Brain Project Community Forum`: https://forum.humanbrainproject.eu/c/neuromorphic

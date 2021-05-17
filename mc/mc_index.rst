@@ -12,8 +12,8 @@ The SpiNNaker "many core" system
 
 .. _SpiNNaker-system-photo:
 
-.. figure:: IMG_20160324_140840286_500000coreSpiNNakerWithOpenDoors.jpg
+.. figure:: spinnaker_20181001_img_0658_s.jpg
       :width: 100%
-      :alt: The SpiNNaker 500.000 core system (NM-MC1) in Manchester on 25 March 2016
+      :alt: The SpiNNaker 1 million core system (NM-MC1) in Manchester (Oct 2018)
 
-      The SpiNNaker 500.000 core system (NM-MC1) in Manchester on 25 March 2016
+      The SpiNNaker 1 million core system (NM-MC1) in Manchester (Oct 2018)
