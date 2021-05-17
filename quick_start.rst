@@ -16,7 +16,7 @@ You can then:
 
 * Add team members to your Collab using the ":guilabel:`Team`" link in the navigation bar on the left.
   Only members of the team will be able to launch simulations.
-* Run simulations, using the ":guilabel:`Job Manager`" link or via the Jupyter notebooks available in the ":guilable:`Lab`"
+* Run simulations, using the ":guilabel:`Job Manager`" link or via the Jupyter notebooks available in the ":guilabel:`Lab`"
 
 
 Run a simulation
@@ -40,6 +40,10 @@ To submit a simulation in "batch" mode using the Jupyter notebooks via the ":gui
    #. transfers the result files back to the system, where the Jupyter process is running on the Collab
 
 The results can then be shown and analysed in the notebook.
+
+.. image:: images/jupyter_example.png
+   :width: 70%
+   :align: center
 
 As this mode of operation sends the experiment description as file to the machine site for execution and then waits
 for the result files to be transferred back, there is no interactive interaction with the running network
@@ -156,7 +160,7 @@ When the test-quota is used up
 =================================
 
 Using the :guilabel:`Job Manager` you can request more quota (only needed, when the test quota 
-has been used up). 
+has been used up): use the 'Quotas' link in the table header.
 
 
 
