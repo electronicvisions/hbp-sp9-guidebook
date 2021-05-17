@@ -4,10 +4,12 @@
 Getting started
 ===============
 
+
 To use the Neuromorphic Computing systems you will need to:
 
 1. create an EBRAINS account (`available on request`_), free of charge
 2. send an email with your EBRAINS username to neuromorphic@humanbrainproject.eu
+
 
 You will then get a Collab created with a test-quota to access the BrainScaleS and SpiNNaker machines, 
 pre-loaded with some examples how to access the systems. (The "Collab" is a collaborative workspace)
@@ -16,7 +18,9 @@ You can then:
 
 * Add team members to your Collab using the ":guilabel:`Team`" link in the navigation bar on the left.
   Only members of the team will be able to launch simulations.
+
 * Run simulations, using the ":guilabel:`Job Manager`" link or via the Jupyter notebooks available in the ":guilabel:`Lab`"
+
 
 
 Run a simulation
@@ -39,6 +43,7 @@ To submit a simulation in "batch" mode using the Jupyter notebooks via the ":gui
    #. waits for the job to finish
    #. transfers the result files back to the system, where the Jupyter process is running on the Collab
 
+
 The results can then be shown and analysed in the notebook.
 
 .. image:: images/jupyter_example.png
@@ -50,17 +55,20 @@ for the result files to be transferred back, there is no interactive interaction
 simulation (SpiNNaker) or emulation (BrainScaleS) network possible ("batch" operation).
 
 
+
 Running via the JobManager ("batch" operation)
 --------------------------
 
 To submit a simulation via the ":guilabel:`Job Manager`": 
 
-#. oben the ":guilabel:`Job Manager`" from the left hand navigation of your Collab
+
+#. open the ":guilabel:`Job Manager`" from the left hand navigation of your Collab
 #. press ":guilabel:`+`" icon in the table header to add a new job
 #. in the "New job" form 
 
    #. select "SpiNNaker" in the :guilabel:`Hardware Platform` drop-down menu
    #. then enter Python code in the ":guilabel:`Code`" text box, for example the following short script, which simulates a population of integrate-and-firing neurons with different input firing rates:
+
 
 .. code-block:: python
 
