@@ -18,7 +18,7 @@ There are implementations of this API for the NEST, NEURON and Brian simulators
 and for both of the HBP Neuromorphic Computing systems (PM and MC/SpiNNaker).
 In this documentation, we refer to each of these simulators and hardware platforms as a PyNN "**backend**".
 
-Full documentation of the API is available at:
+Full documentation of the API is available at `neuralensemble.org/docs/PyNN`_:
 
   | `PyNN 0.6 documentation`_
 
@@ -26,9 +26,10 @@ Full documentation of the API is available at:
 
   | `PyNN 0.8 documentation`_
 
-At the time of writing, both the PM and MC systems implement version 0.7 of the API,
-while the simulator of the PM hardware (:doc:`ESS<pm/ess>`) supports both versions 0.7 and 0.8,
-and the chip-based PM hardware (:doc:`Spikey<pm/spikey>`) supports version 0.6.
+  | `PyNN 0.9 documentation`_
+
+
+At the time of writing, :doc:`SpiNNaker<mc/mc_index>` and :doc:`BrainScaleS-2<pm/bss2>` support version 0.9, :doc:`BrainScaleS-1<pm/pm>` supports version 0.7 and :doc:`Spikey<pm/spikey>` supports version 0.6.
 
 A simple example
 ================
@@ -99,9 +100,8 @@ Finally we loop over the populations, retrieve the spike times, and plot a raste
 .. image:: examples/synfire_chain.png
 
 
-Note that here we include the plotting in the same script just to illustrate the example output.
-Scripts submitted to the Neuromorphic Computing Platform should not in general contain graph plotting or data
-analysis code. Instead you should save spikes to file and use the other tools available in the `Collaboratory`_ for
+Note that here we include the plotting in the same script to illustrate the example output.
+Scripts submitted to the Neuromorphic Computing Platform can also save spikes to file and use the other tools available in the EBRAINS research infrasstructure for
 analysing and visualizing the results.
 
 .. _using-different-backends:
@@ -189,7 +189,9 @@ This and other examples of manual limitations can be found in the online
 documentation `here <http://spinnakermanchester.github.io/latest/spynnaker_tutorial.html>`__.
 
 .. _PyNN: http://neuralensemble.org/PyNN/
-.. _`PyNN 0.6 documentation`: http://neuralensemble.org/docs/PyNN/0.7/api/api-0.6.html
-.. _`PyNN 0.7 documentation`: http://neuralensemble.org/docs/PyNN/0.7/
-.. _`PyNN 0.8 documentation`: http://neuralensemble.org/docs/PyNN/
+.. _`PyNN 0.6 documentation`: https://neuralensemble.org/docs/PyNN/0.7/api/api-0.6.html
+.. _`PyNN 0.7 documentation`: https://neuralensemble.org/docs/PyNN/0.7/
+.. _`PyNN 0.8 documentation`: https://neuralensemble.org/docs/PyNN/0.8/
+.. _`PyNN 0.9 documentation`: https://neuralensemble.org/docs/PyNN
+.. _`neuralensemble.org/docs/PyNN`: https://neuralensemble.org/docs/PyNN/
 .. _`Collaboratory`: https://collab.humanbrainproject.eu

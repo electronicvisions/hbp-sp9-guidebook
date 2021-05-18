@@ -68,7 +68,7 @@ master_doc = 'index'
 project = title = u'HBP Neuromorphic Computing Platform Guidebook'
 authors = u'Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ...'
 latex_authors = authors.replace(',', r'\and')
-copyright = u'2015-2016, ' + authors
+copyright = u'2015-2021, ' + authors
 basename = u'HBPNeuromorphicComputingPlatformGuidebook'
 
 # The version info for the project you're documenting, acts as replacement for

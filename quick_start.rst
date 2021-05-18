@@ -4,28 +4,24 @@
 Getting started
 ===============
 
-To use the HBP Neuromorphic Computing Platform you will need to:
+
+To use the Neuromorphic Computing systems you will need to:
 
 1. create an EBRAINS account (`available on request`_), free of charge
 2. send an email with your EBRAINS username to neuromorphic@humanbrainproject.eu
 
-You will then get a Collab created with a test-quota to access the BrainScaleS and SpiNNaker machines. The "Collab" is a collaborative workspace) within the HBP Collaboratory_,
-pre-loaded with the tools you will need to access the Platform.
 
-You can now:
+You will then get a Collab created with a test-quota to access the BrainScaleS and SpiNNaker machines, 
+pre-loaded with some examples how to access the systems. (The "Collab" is a collaborative workspace)
+
+You can then:
+
 * Add team members to your Collab using the ":guilabel:`Team`" link in the navigation bar on the left.
   Only members of the team will be able to launch simulations.
-* Read the Guidebook.
-* Run simulations, using the ":guilabel:`Job Manager`" link.
+
+* Run simulations, using the ":guilabel:`Job Manager`" link or via the Jupyter notebooks available in the ":guilabel:`Lab`"
 
 
-Request a compute time allocation
-=================================
-
-Using the :guilabel:`Job Manager` you can request more quota (only needed, when the test quota 
-has been used up). 
-
-For more information on compute time allocations, see :ref:`access-requests`.
 
 Run a simulation
 ================
@@ -33,10 +29,46 @@ Run a simulation
 Simulations can be run via Jupyter notebooks (use the ":guilabel:`Lab`") or 
 can be submitted via the ":guilabel:`Job Manager`". 
 
-Example: ":guilabel:`New Job`. Select "SpiNNaker" in the :guilabel:`Hardware Platform` drop-down
-menu, then enter Python code in the ":guilabel:`Code`" text box, for example the following short
-script, which simulates a population of integrate-and-firing neurons with different input
-firing rates:
+Running via JupyterLab via NMPI ("batch" operation)
+------------------------------
+To submit a simulation in "batch" mode using the Jupyter notebooks via the ":guilabel:`Lab`":
+
+#. open one of the example notebooks 
+#. execute the cells. This:
+
+   #. prepares the execution environment
+   #. writes the experiment description PyNN script as a file 
+   #. sends this file (in the ```job = client.submit_job( ...)``` step) to the SpiNNaker system in Manchester or 
+      the BrainScaleS system in Heidelberg
+   #. waits for the job to finish
+   #. transfers the result files back to the system, where the Jupyter process is running on the Collab
+
+
+The results can then be shown and analysed in the notebook.
+
+.. image:: images/jupyter_example.png
+   :width: 70%
+   :align: center
+
+As this mode of operation sends the experiment description as file to the machine site for execution and then waits
+for the result files to be transferred back, there is no interactive interaction with the running network
+simulation (SpiNNaker) or emulation (BrainScaleS) network possible ("batch" operation).
+
+
+
+Running via the JobManager ("batch" operation)
+--------------------------
+
+To submit a simulation via the ":guilabel:`Job Manager`": 
+
+
+#. open the ":guilabel:`Job Manager`" from the left hand navigation of your Collab
+#. press ":guilabel:`+`" icon in the table header to add a new job
+#. in the "New job" form 
+
+   #. select "SpiNNaker" in the :guilabel:`Hardware Platform` drop-down menu
+   #. then enter Python code in the ":guilabel:`Code`" text box, for example the following short script, which simulates a population of integrate-and-firing neurons with different input firing rates:
+
 
 .. code-block:: python
 
@@ -87,19 +119,32 @@ firing rates:
    plt.ylabel("Output firing rate (spikes/second)")
    plt.savefig("simple_example.png")
 
+..
 
-Leave the other text boxes empty, and click ":guilabel:`Submit`".
+   3. Leave the other text boxes empty, and click ":guilabel:`Submit`".
+
 The job will be submitted to the queue, and will appear in the list of jobs with a "submitted" label.
 Unless the platform is very busy, this job should run within a few minutes on the large-scale
 SpiNNaker system in Manchester.
 Once the simulation is finished you will receive an e-mail, and on refreshing the job list the
 status will change to "finished".
 
-Once the job is completed, click on the magnifying glass icon to see the job results.
-
-.. image:: images/job_result_with_figure.png
+.. image:: images/ebrains_job_manager.png
    :width: 70%
    :align: center
+
+Once the job is completed, click on the magnifying glass icon to see the job results.
+
+.. image:: images/ebrains_job_manager_jobresult.png
+   :width: 70%
+   :align: center
+
+In the "Output files" part you will find a link to the created plot (a .png file):
+
+.. image:: images/ebrains_job_manager_jobresult_figure.png
+   :width: 70%
+   :align: center
+
 
 For more information on running simulations with the platform, see :ref:`running-jobs`.
 
@@ -110,18 +155,20 @@ The results of your simulation are now available on a file server attached to th
 SpiNNaker system. This storage is only temporary, however; after three months, your files may
 be deleted to free up space.
 
-For this reason, therefore, we recommend either downloading the files to your local machine or
-copying them to longer-term storage within the Human Brain Project infrastructure.
+If you need to keep the files please download them to your local machine.
 
-For now we will copy the files to Collab Storage by clicking the button ":guilabel:`Copy to Collab storage`".
-
-If you now click on the link ":guilabel:`Storage`" in the left-hand menu, you will see the files
-produced by your simulation.
-
-
+.. For now we will copy the files to Collab Storage by clicking the button ":guilabel:`Copy to Collab storage`".
+.. If you now click on the link ":guilabel:`Storage`" in the left-hand menu, you will see the files produced by your simulation.
 .. add screenshot of Storage
 
 .. add a note about the limitations of Collab storage.
+
+
+When the test-quota is used up
+=================================
+
+Using the :guilabel:`Job Manager` you can request more quota (only needed, when the test quota 
+has been used up): use the 'Quotas' link in the table header.
 
 
 

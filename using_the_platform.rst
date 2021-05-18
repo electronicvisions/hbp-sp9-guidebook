@@ -2,13 +2,14 @@
 Running simulations
 ===================
 
-The Neuromorphic Computing Platform of the `Human Brain Project`_ contains two very different neuromorphic hardware
-systems - BrainScaleS (also known as "NM-PM-1", "physical model") and SpiNNaker (also known as "NM-MC-1", "many core") - but has a single interface.
+The Neuromorphic Computing part of the  `EBRAINS research infrastructure`_ contains two very different neuromorphic hardware architectures
+- BrainScaleS (also known as "NM-PM-1", "physical model" - with the wafer scale BrainScaleS-1 and the newer, so far single chip BrainScaleS-2 as well as the older Spikey) and SpiNNaker (also known as "NM-MC-1", "many core") - but has a single interface.
 
 Jobs are written as Python scripts using the PyNN API, submitted to a queue server, then executed on one of the
 neuromorphic systems. On job completion, the user may retrieve the results of the simulation/emulation.
 
-There are several ways of interacting with the queue server. This document describes the web interface, the Python
+There are several ways of interacting with the queue server. The access via Jupyter notebook examples, provided with the initial test collab (see the :doc:`Getting started<quick_start>` section), is easiest for a quick start.
+This document describes the web interface, the Python
 client and the command-line client.
 
 Format of a job
@@ -110,64 +111,12 @@ Using the web interface
 Setting up your Collab
 ----------------------
 
-The neuromorphic computing platform can be accessed from within the HBP Collaboratory using the
-"Neuromorphic Computing Platform Job Manager v2" app and the "Neuromorphic Computing Platform Resource Manager" app.
+The neuromorphic computing platform can be accessed from within the EBRAINS Collaboratory using the
+"Neuromorphic Computing Platform Job Manager".
 
-To create a new Collab which already contains these two apps,
-go to the `Neuromorphic Computing Platform collab`_ and click on :guilabel:`Create a Collab` or
-:guilabel:`Get Started!` To add the apps to an existing Collab, click :guilabel:`ADD` in the
-Navigation panel, and then select each of the apps in the list.
+The Collab we create for you when you send your EBRAINS account username to neuromorphic@humanbrainproject.eu already contains these the app and a test quota.
 
-
-.. _access-requests:
-
-Requesting access to the platform
----------------------------------
-
-In your Collab, click on :guilabel:`Resource Manager`, and fill in the form.
-
-.. image:: images/resource_request_form.png
-   :width: 70%
-   :align: center
-
-The project description should contain a scientific or technical motivation for using the platform,
-and should specify which of the Neuromorphic Computing Systems ("BrainScaleS" and/or "SpiNNaker")
-you wish to use.
-
-Three forms of access are available:
-
-    Test access
-        Only a brief abstract is required explaining why you wish to use the platform.
-        It is not necessary to fill in the "Project description" field.
-        No previous experience with the platform is required.
-        A fixed quota of 5000 core-hours (for the SpiNNaker system)
-        and/or 0.1 wafer-hours (for the BrainScaleS system) will be allocated,
-        together with temporary storage of 1 GB.
-
-    Preparatory access
-        Only a short technical motivation is required.
-        Previous experience with the platform (through a test access) is expected.
-        A fixed quota of 500000 core-hours (for the SpiNNaker system)
-        and/or 10 wafer-hours (for the BrainScaleS system) will be allocated,
-        subject to a brief technical review,
-        together with temporary storage of 10 GB.
-
-    Project access
-        For projects requiring more than the test/preparatory quotas, a scientific motivation
-        of about one page should be provided, and a request for resources (in core-hours,
-        wafer-hours and/or GB of storage) should be specified, and justified with respect to the
-        project's scientific goals. This proposal will receive both scientific and technical
-        reviews.
-
-Do not forget to specify which type of access you are requesting,
-and which of the Neuromorphic Computing Systems ("BrainScaleS", "Spikey"
-and/or "SpiNNaker") you wish to use.
-
-Access is granted on a per-collab basis, not per-person. All members of this collab will be able to make use of the quota.
-All collab members will also be asked to sign and return a User Agreement form.
-
-Once the resource request is granted, the :guilabel:`Resource Manager` will display the
-quota usage.
+Access is granted on a per-collab basis, not per-person. All members of this collab will be able to make use of the quota. When the test-quota is used up, please use the Job Managers 'Quota' link to request more quota.
 
 .. commenting out a todo:: include screenshot of quota usage page.
 
@@ -456,5 +405,6 @@ For those that have, the simulation results will be downloaded to your local mac
 
 
 .. _`Human Brain Project`: http://www.humanbrainproject.eu
+.. _`EBRAINS research infrastructure`: https://ebrains.eu/service/neuromorphic-computing
 .. _`HBP Collaboration Server`: https://collaboration.humanbrainproject.eu
 .. _`Neuromorphic Computing Platform collab`: https://collab.humanbrainproject.eu/#/collab/51/nav/244
