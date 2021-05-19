@@ -186,7 +186,7 @@ Retrieving the results of a job
 Once the job is completed, click on the magnifying glass icon to see the job results and
 download the output data files.
 
-.. image:: images/job_results.png
+.. image:: images/ebrains_job_manager_jobresult.png
    :width: 100%
    :align: center
 
@@ -211,8 +211,8 @@ virtualenv or Anaconda. The client works with Python 2.7 and Python 3.5 or newer
 Configuring the client
 ----------------------
 
-Before using the Neuromorphic Computing Platform you must have an HBP account, have created at
-least one Collab, and have obtained a compute quota as described above under :ref:`access-requests`.
+Before using the Neuromorphic Computing Platform you must have an EBRAINS/HBP account, have created at
+least one Collab, and have a compute quota (a test-quota comes with the access).
 
 To interact with the Platform, you first create a :class:`Client` object with your HBP username:
 
@@ -352,7 +352,7 @@ which should look something like this:
    default_platform: SpiNNaker
    default_output_dir: .
 
-You can use the id of any Collab in which you have a valid quota (see :ref:`access-requests` above.
+You can use the id of any Collab in which you have a quota.
 
 Submitting a job
 ----------------

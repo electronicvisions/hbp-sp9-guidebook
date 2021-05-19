@@ -27,8 +27,8 @@ SpiNNaker and BrainScaleS soft- and hardware are under active development. In or
    mc/mc_index
    benchmarks
    getting_help
-   pm/appendix_installation.rst
-   appendix
+..   pm/appendix_installation.rst
+..   appendix
    reference/python_client
 
 

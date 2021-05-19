@@ -11,26 +11,21 @@ To use the Neuromorphic Computing systems you will need to:
 2. send an email with your EBRAINS username to neuromorphic@humanbrainproject.eu
 
 
-You will then get a Collab created with a test-quota to access the BrainScaleS and SpiNNaker machines, 
-pre-loaded with some examples how to access the systems. (The "Collab" is a collaborative workspace)
+You will get a Collaboratory created with a test-quota to access the BrainScaleS and SpiNNaker machines, 
+pre-loaded with some examples how to access the systems. (The Collaboratory or "Collab" is a collaborative workspace, which i.a. contains file storage space, wiki pages and the JupyterLab to run python programs just via the webbrowser)
 
 You can then:
 
 * Add team members to your Collab using the ":guilabel:`Team`" link in the navigation bar on the left.
   Only members of the team will be able to launch simulations.
 
-* Run simulations, using the ":guilabel:`Job Manager`" link or via the Jupyter notebooks available in the ":guilabel:`Lab`"
+* Run simulations: via the Jupyter notebooks with in the ":guilabel:`Lab`" or by submitting scripts using the ":guilabel:`Job Manager`" link. 
 
 
+.. _Running via JupyterLab with NMPI
+Running via JupyterLab via NMPI 
+================================
 
-Run a simulation
-================
-
-Simulations can be run via Jupyter notebooks (use the ":guilabel:`Lab`") or 
-can be submitted via the ":guilabel:`Job Manager`". 
-
-Running via JupyterLab via NMPI ("batch" operation)
-------------------------------
 To submit a simulation in "batch" mode using the Jupyter notebooks via the ":guilabel:`Lab`":
 
 #. open one of the example notebooks 
@@ -55,11 +50,15 @@ for the result files to be transferred back, there is no interactive interaction
 simulation (SpiNNaker) or emulation (BrainScaleS) network possible ("batch" operation).
 
 
+For SpiNNaker there is also a Manchester-local Jupyter installation accessible (via the SpiNNaker > SpiNNaker interactive menu item in the left hand navigation of your Collab). 
 
-Running via the JobManager ("batch" operation)
---------------------------
 
-To submit a simulation via the ":guilabel:`Job Manager`": 
+
+.. _Running via JobManger
+Running via the JobManager 
+==========================
+
+To submit a simulation via the ":guilabel:`Job Manager`"
 
 
 #. open the ":guilabel:`Job Manager`" from the left hand navigation of your Collab
