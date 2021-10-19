@@ -23,7 +23,7 @@ pylogging.default_config(level=pylogging.LogLevel.INFO,
 marocco = PyMarocco()
 marocco.backend = PyMarocco.ESS # choose Executable System Specification instead of real hardware
 marocco.calib_backend = PyMarocco.CalibBackend.Default
-marocco.defects.backend = Defects.Backend.None
+marocco.defects.backend = Defects.Backend.Without
 marocco.hicann_configurator = pysthal.HICANNConfigurator()
 marocco.experiment_time_offset = 5.e-7 # can be low for ESS, as no repeater locking required
 marocco.neuron_placement.default_neuron_size(4) # default number of hardware neuron circuits per pyNN neuron
@@ -80,7 +80,7 @@ pynn.run(duration)
 # After the simulation, we get Spikes
 spike_times = N1.getSpikes()
 for pair in spike_times:
-    print "Neuron ", int(pair[0]), " spiked at ", pair[1]
+    print ("Neuron ", int(pair[0]), " spiked at ", pair[1])
 
 # Plot voltage
 do_plot = False

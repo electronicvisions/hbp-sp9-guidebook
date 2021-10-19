@@ -52,7 +52,7 @@ Make sure that the call to :py:func:`setup()` happens before creating
 populations, if not, the populations will not be visible to ``marocco``.
 
 In the following example, one neuron is placed on the wafer, however,
-by setting ``marocco.backend = PyMarocco.None``, the software stops after the map & route process
+by setting ``marocco.backend = PyMarocco.Without``, the software stops after the map & route process
 (i.e. before configuring the hardware system).
 
 .. code-block:: python
@@ -61,7 +61,7 @@ by setting ``marocco.backend = PyMarocco.None``, the software stops after the ma
     from pymarocco import PyMarocco
 
     marocco = PyMarocco()
-    marocco.backend = PyMarocco.None
+    marocco.backend = PyMarocco.Without
 
     pynn.setup(marocco=marocco)
 
@@ -71,7 +71,7 @@ by setting ``marocco.backend = PyMarocco.None``, the software stops after the ma
     pynn.end()
 
 
-.. note:: Available ``marocco`` backends are ``None``, ``Hardware``, ``ESS``. None has been described above.
+.. note:: Available ``marocco`` backends are ``Without``, ``Hardware``, ``ESS``. Without has been described above.
           Hardware is the default and performs real experiment runs on the neuromorphic hardware system.
           ESS runs a simulation of the hardware: the Executable System Specification.
 
@@ -176,7 +176,7 @@ overall mapping statistics and projection-wise or synapse-wise synapse losses.
    :pyobject: main
 
 
-Where ``print marocco.stats`` prints out overall synapse loss statistics:
+Where ``print(marocco.stats)`` prints out overall synapse loss statistics:
 
 .. code-block:: bash
 
@@ -279,3 +279,8 @@ One option to adapt your code to the new coordinates would be to replace ``impor
         C.Enum, C.left, C.right = Enum, left, right
 
 including all common coordinates you are using.
+
+Rename PyMarocco.None to PyMarocco.Without
+''''''''''''''''''''''''''''''''''''''''''
+
+Due to the transition to python3 the marocco backend ``PyMarocco.None`` was renamed to ``PyMarocco.Without``.

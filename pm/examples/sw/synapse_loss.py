@@ -25,7 +25,7 @@ def projectionwise_synapse_loss(proj, marocco):
     realized_syns = np.where(~np.isnan(mapped_weights))
     orig = len(syns[0])
     realized = len(realized_syns[0])
-    print "Projection-Wise Synapse Loss", proj, (orig - realized)*100./orig
+    print("Projection-Wise Synapse Loss", proj, (orig - realized)*100./orig)
     return orig-realized, orig
 
 def plot_projectionwise_synapse_loss(proj, marocco):
@@ -83,7 +83,7 @@ def main():
 
     pynn.run(1)
 
-    print marocco.stats
+    print(marocco.stats)
 
     total_syns = 0
     lost_syns = 0

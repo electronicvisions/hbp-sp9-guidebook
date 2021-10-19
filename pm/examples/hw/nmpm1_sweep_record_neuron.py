@@ -79,7 +79,7 @@ projections = [
 
 # fill results
 marocco.skip_mapping = False
-marocco.backend = PyMarocco.None
+marocco.backend = PyMarocco.Without
 pynn.run(0)
 
 marocco.skip_mapping = True
