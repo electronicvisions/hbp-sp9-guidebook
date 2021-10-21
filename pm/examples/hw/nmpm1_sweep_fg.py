@@ -88,7 +88,7 @@ projections = [
 #  ——— run mapping —————————————————————————————————————————————————————————————
 
 marocco.skip_mapping = False
-marocco.backend = PyMarocco.None
+marocco.backend = PyMarocco.Without
 
 pynn.reset()
 pynn.run(duration)
@@ -119,7 +119,7 @@ def set_sthal_params(wafer, gmax, gmax_div):
                 wafer[hicann].synapses[driver][row].set_gmax_div(HICANN.GmaxDiv(gmax_div))
 
         # don't change values below
-        for ii in xrange(fgs.getNoProgrammingPasses()):
+        for ii in range(fgs.getNoProgrammingPasses().value()):
             cfg = fgs.getFGConfig(Enum(ii))
             cfg.fg_biasn = 0
             cfg.fg_bias = 0
@@ -155,7 +155,7 @@ for neuron in pop:
 
 for n, delta_E_l_DAC in enumerate([-200,-100,0,100,200]):
 
-    for denmem, original_E_l in calibrated_E_l_DACs.iteritems():
+    for denmem, original_E_l in calibrated_E_l_DACs.items():
         E_l_DAC = min(max(0, original_E_l + delta_E_l_DAC), 1023)
         logger.info("running measurement with E_l {} DAC for {}".format(E_l_DAC, denmem))
         fgs.setNeuron(denmem.toNeuronOnHICANN(), HICANN.E_l, E_l_DAC)

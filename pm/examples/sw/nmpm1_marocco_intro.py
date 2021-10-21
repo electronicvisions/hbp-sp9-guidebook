@@ -18,7 +18,7 @@ def get_denmems(pop, results):
 
 marocco = PyMarocco()
 marocco.calib_backend = PyMarocco.CalibBackend.Default
-marocco.defects.backend = Defects.Backend.None
+marocco.defects.backend = Defects.Backend.Without
 marocco.persist = "results.xml.gz"
 pynn.setup(marocco = marocco)
 
@@ -38,7 +38,7 @@ pynn.end()
 results = Marocco.from_file(marocco.persist)
 
 for denmem in get_denmems(pop, results):
-    print denmem
+    print(denmem)
 
 for denmem in get_denmems(pop2, results):
-    print denmem
+    print(denmem)

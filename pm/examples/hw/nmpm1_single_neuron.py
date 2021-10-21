@@ -89,7 +89,7 @@ projections = [
 #  ——— run mapping —————————————————————————————————————————————————————————————
 
 marocco.skip_mapping = False
-marocco.backend = PyMarocco.None
+marocco.backend = PyMarocco.Without
 
 pynn.reset()
 pynn.run(duration)
@@ -120,7 +120,7 @@ def set_sthal_params(wafer, gmax, gmax_div):
                 wafer[hicann].synapses[driver][row].set_gmax_div(HICANN.GmaxDiv(gmax_div))
 
         # don't change values below
-        for ii in xrange(fgs.getNoProgrammingPasses()):
+        for ii in range(fgs.getNoProgrammingPasses().value()):
             cfg = fgs.getFGConfig(Enum(ii))
             cfg.fg_biasn = 0
             cfg.fg_bias = 0

@@ -51,7 +51,7 @@ def plot(infilename, outfilename="", xlim=None, ylim=None, membrane_file="", neu
     spikes = np.loadtxt(args.file.name, ndmin=2)
 
     if not len(spikes):
-        print "no spikes in {}".format(infilename)
+        print("no spikes in {}".format(infilename))
         return
 
     margins={"left":0.11, "right":0.95, "top":0.95, "bottom":0.11}
