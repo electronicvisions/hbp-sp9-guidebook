@@ -284,3 +284,8 @@ Rename PyMarocco.None to PyMarocco.Without
 ''''''''''''''''''''''''''''''''''''''''''
 
 Due to the transition to python3 the marocco backend ``PyMarocco.None`` was renamed to ``PyMarocco.Without``.
+
+RuntimeError: Unexpected peer disconnection
+'''''''''''''''''''''''''''''''''''''''''''
+
+You are using an old container, which is no longer compatible with the analog readout system. If you want to record membrane traces please update to a newer software version (2021-10-21 and newer).
