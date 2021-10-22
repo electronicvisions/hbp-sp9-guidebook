@@ -174,16 +174,15 @@ example discussed previously, and shown below:
                                            neuron_parameters)
 
 
-A partitioning limitation/constraint can be added to the population, which can
-limit how many neurons each core size chunk will contain at a maximum. This is
-shown below:
+A constraint can be added to the model which can limit how many neurons each
+core will contain at a maximum. This is shown below:
 
 .. code-block:: python
 
     populations[syn_type] = sim.Population(population_size,
                                            sim.IF_cond_exp,
                                            neuron_parameters)
-    populations[syn_type].add_constraint(sim.PartitionerMaximumSizeConstraint(200))
+    sim.set_number of_neurons_per_core(sim.IF_cond_exp, 200)
 
 This and other examples of manual limitations can be found in the online
 documentation `here <http://spinnakermanchester.github.io/latest/spynnaker_tutorial.html>`__.
