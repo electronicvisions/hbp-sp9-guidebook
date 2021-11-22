@@ -6,7 +6,7 @@ Since March 2021 the BrainScaleS-2 single chip system is accessible via the Jupy
 
 
 * `Introduction to BrainScaleS-2 <https://electronicvisions.github.io/documentation-brainscales2/introduction.html>`_
-* A `BrainScaleS-2 tutorial <https://electronicvisions.github.io/documentation-brainscales2/much-demos-such-wow/0-welcome.html>`_ (note: some of the tutorial example require the interactive access from the notebooks to the BrainScaleS-2 hardware, which is not yet (May 2021) available via the EBRAINS JupyterLab)
+* A `BrainScaleS-2 tutorial <https://electronicvisions.github.io/documentation-brainscales2/brainscales2-demos/0-welcome.html>`_ (note: some of the tutorial example require the interactive access from the notebooks to the BrainScaleS-2 hardware, which is not yet (May 2021) available via the EBRAINS JupyterLab)
 * `API reference <https://electronicvisions.github.io/documentation-brainscales2/apis.html>`_ for haldls, lola, stadls, fisch and hxcomm
 
 
